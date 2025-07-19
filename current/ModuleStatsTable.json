@@ -1,0 +1,40 @@
+{
+    "DA_ModuleStatsTable": {
+        "id": "DA_ModuleStatsTable",
+        "stats_ids": {
+            "LegsArmor": "DA_ModuleStat_LegsArmor",
+            "PelvisArmor": "DA_ModuleStat_PelvisArmor",
+            "HullShare": "DA_ModuleStat_HullShare",
+            "Shield": "DA_ModuleStat_ShieldAmount",
+            "ShieldRegeneration": "DA_ModuleStat_ShieldRegeneration",
+            "ShieldDelayReduction": "DA_ModuleStat_ShieldDelayReduction",
+            "MaxSpeed": "DA_ModuleStat_MaxSpeed",
+            "Mobility": "DA_ModuleStat_Acceleration",
+            "FuelCapacity": "DA_ModuleStat_FuelCapacity",
+            "WeightCapacity": "DA_ModuleStat_WeightCapacity",
+            "EnergyCapacity": "DA_ModuleStat_EnergyCapacity",
+            "Armor": "DA_ModuleStat_Armor",
+            "WeightDrain": "DA_ModuleStat_WeightDrain",
+            "ArmorDamage": "DA_ModuleStat_ArmorDamage",
+            "HullDamage": "DA_ModuleStat_HullDamage",
+            "ClipSize": "DA_ModuleStat_ClipSize",
+            "FireRate": "DA_ModuleStat_FireRate",
+            "ReloadingTime": "DA_ModuleStat_ReloadingTime",
+            "Ammo": "DA_ModuleStat_Ammo",
+            "EffectiveDistance": "DA_ModuleStat_EffectiveDistance",
+            "MaxDistance": "DA_ModuleStat_MaxDistance",
+            "EnergyDrain": "DA_ModuleStat_EnergyDrain",
+            "Consumables": "DA_ModuleStat_Consumables",
+            "Cooldown": "DA_ModuleStat_Cooldown",
+            "ChargeDrain": "DA_ModuleStat_ChargeDrain",
+            "Efficiency": "DA_ModuleStat_Efficiency",
+            "Duration": "DA_ModuleStat_Duration",
+            "SignatureCooldown": "DA_ModuleStat_SignatureCooldown",
+            "AbilityPower": "DA_ModuleStat_AbilityPower",
+            "FirePower": "DA_ModuleStat_FirePower",
+            "Atk": "DA_ModuleStat_Atk",
+            "Def": "DA_ModuleStat_Def",
+            "Mob": "DA_ModuleStat_Mob"
+        }
+    }
+}
