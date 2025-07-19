@@ -82,27 +82,6 @@
         ],
         "required": true
     },
-    "DA_ModuleSocketType_TitanSpireTorso": {
-        "id": "DA_ModuleSocketType_TitanSpireTorso",
-        "name": {
-            "Key": "HNG_Torso",
-            "TableNamespace": "Component_Tags",
-            "en": "Torso"
-        },
-        "short_name": {
-            "Key": "HNG_Torso",
-            "TableNamespace": "Component_Tags",
-            "en": "Torso"
-        },
-        "icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
-        "can_be_changed": false,
-        "compatible_module_types_ids": [
-            "DA_ModuleType_TitanSpireTorso"
-        ],
-        "required": true
-    },
     "DA_ModuleSocketType_Weapon": {
         "id": "DA_ModuleSocketType_Weapon",
         "name": {
@@ -159,25 +138,6 @@
         "tag_background_color": "204A30",
         "compatible_module_types_ids": [
             "DA_ModuleType_TitanWeaponTank"
-        ]
-    },
-    "DA_ModuleSocketType_TitanWeaponAssault": {
-        "id": "DA_ModuleSocketType_TitanWeaponAssault",
-        "name": {
-            "Key": "HNG_Weapon",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Light Weapon"
-        },
-        "short_name": {
-            "Key": "HNG_Weapon",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Light Weapon"
-        },
-        "icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
-        "compatible_module_types_ids": [
-            "DA_ModuleType_TitanWeaponAssault"
         ]
     },
     "DA_ModuleSocketType_TitanWeaponTactican": {
@@ -413,46 +373,6 @@
         "can_be_changed": false,
         "compatible_module_types_ids": [
             "DA_ModuleType_TitanMatriarchShoulderR"
-        ],
-        "required": true
-    },
-    "DA_ModuleSocketType_TitanSpireShoulderL": {
-        "id": "DA_ModuleSocketType_TitanSpireShoulderL",
-        "name": {
-            "Key": "HNG_ShoulderL",
-            "TableNamespace": "Component_Tags",
-            "en": "Left Shoulder"
-        },
-        "short_name": {
-            "Key": "HNG_ShoulderL",
-            "TableNamespace": "Component_Tags",
-            "en": "Left Shoulder"
-        },
-        "icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
-        "can_be_changed": false,
-        "compatible_module_types_ids": [
-            "DA_ModuleType_TitanSpireShoulderL"
-        ],
-        "required": true
-    },
-    "DA_ModuleSocketType_TitanSpireShoulderR": {
-        "id": "DA_ModuleSocketType_TitanSpireShoulderR",
-        "name": {
-            "Key": "HNG_ShoulderR",
-            "TableNamespace": "Component_Tags",
-            "en": "Right Shoulder"
-        },
-        "short_name": {
-            "Key": "HNG_ShoulderR",
-            "TableNamespace": "Component_Tags",
-            "en": "Right Shoulder"
-        },
-        "icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
-        "can_be_changed": false,
-        "compatible_module_types_ids": [
-            "DA_ModuleType_TitanSpireShoulderR"
         ],
         "required": true
     }

@@ -19,22 +19,22 @@
         "text_hex": "B248E6",
         "background_hex": "33AF58E4"
     },
-    "DA_Tag_AbilityType_Support": {
-        "id": "DA_Tag_AbilityType_Support",
-        "name": {
-            "Key": "ABL_Type_Support",
-            "TableNamespace": "Component_Tags",
-            "en": "Support"
-        },
-        "text_hex": "B248E6",
-        "background_hex": "33AF58E4"
-    },
     "DA_Tag_AbilityType_Movement": {
         "id": "DA_Tag_AbilityType_Movement",
         "name": {
             "Key": "ABL_Type_Movement",
             "TableNamespace": "Component_Tags",
             "en": "Movement"
+        },
+        "text_hex": "B248E6",
+        "background_hex": "33AF58E4"
+    },
+    "DA_Tag_AbilityType_Support": {
+        "id": "DA_Tag_AbilityType_Support",
+        "name": {
+            "Key": "ABL_Type_Support",
+            "TableNamespace": "Component_Tags",
+            "en": "Support"
         },
         "text_hex": "B248E6",
         "background_hex": "33AF58E4"
@@ -89,16 +89,6 @@
         "text_hex": "5F9BE4",
         "background_hex": "336E9EE4"
     },
-    "DA_Tag_WeaponTypeRocketLauncher": {
-        "id": "DA_Tag_WeaponTypeRocketLauncher",
-        "name": {
-            "Key": "WPN_Type_RocketLauncher",
-            "TableNamespace": "Component_Tags",
-            "en": "Rocket launcher"
-        },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
-    },
     "DA_Tag_WeaponTypeSpecial": {
         "id": "DA_Tag_WeaponTypeSpecial",
         "name": {
@@ -125,6 +115,16 @@
             "Key": "WPN_Type_Artillery",
             "TableNamespace": "Component_Tags",
             "en": "Artillery"
+        },
+        "text_hex": "5F9BE4",
+        "background_hex": "336E9EE4"
+    },
+    "DA_Tag_WeaponTypeRocketLauncher": {
+        "id": "DA_Tag_WeaponTypeRocketLauncher",
+        "name": {
+            "Key": "WPN_Type_RocketLauncher",
+            "TableNamespace": "Component_Tags",
+            "en": "Rocket launcher"
         },
         "text_hex": "5F9BE4",
         "background_hex": "336E9EE4"

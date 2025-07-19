@@ -12,11 +12,6 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "description": {
-            "Key": "ItemType_SupplyGearDesc",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "<Orange>Supply Gear</> modules are tactical consumables. You can use them only a few times per battle"
-        },
         "tag_color": "9CEBBB",
         "tag_background_color": "33204A30"
     },
@@ -32,11 +27,6 @@
             "Key": "ItemType_Blueprint",
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
-        },
-        "description": {
-            "Key": "ItemType_CycleGearDesc",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "You can freely switch some robot <Orange>Gear</> modules.\r\n<Orange>Cycle Gear</> needs to charge up before you can use it. Prime it by capturing objectives destroying enemies or saving teammates."
         },
         "tag_color": "9CEBBB",
         "tag_background_color": "33204A30"
@@ -183,37 +173,6 @@
         },
         "character_type": "Titan"
     },
-    "DA_ModuleType_TitanSpireChassis": {
-        "id": "DA_ModuleType_TitanSpireChassis",
-        "module_category_id": "DA_ModuleCategory_Chassis",
-        "name": {
-            "Key": "CMP_Type_Titan_Chassis",
-            "TableNamespace": "Component_Tags",
-            "en": "Titan Chassis"
-        },
-        "blueprint_name": {
-            "Key": "ItemType_Blueprint",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Blueprint"
-        },
-        "is_root_module": true,
-        "character_type": "Titan"
-    },
-    "DA_ModuleType_TitanSpireTorso": {
-        "id": "DA_ModuleType_TitanSpireTorso",
-        "module_category_id": "DA_ModuleCategory_Torso",
-        "name": {
-            "Key": "CMP_Type_Titan_Torso",
-            "TableNamespace": "Component_Tags",
-            "en": "Titan Torso"
-        },
-        "blueprint_name": {
-            "Key": "ItemType_Blueprint",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Blueprint"
-        },
-        "character_type": "Titan"
-    },
     "DA_ModuleType_Shoulder": {
         "id": "DA_ModuleType_Shoulder",
         "module_category_id": "DA_ModuleCategory_Shoulder",
@@ -322,36 +281,6 @@
         },
         "character_type": "Titan"
     },
-    "DA_ModuleType_TitanSpireShoulderL": {
-        "id": "DA_ModuleType_TitanSpireShoulderL",
-        "module_category_id": "DA_ModuleCategory_Shoulder",
-        "name": {
-            "Key": "CMP_Type_Titan_Left_Shoulder",
-            "TableNamespace": "Component_Tags",
-            "en": "Shoulder"
-        },
-        "blueprint_name": {
-            "Key": "ItemType_Blueprint",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Blueprint"
-        },
-        "character_type": "Titan"
-    },
-    "DA_ModuleType_TitanWeaponAssault": {
-        "id": "DA_ModuleType_TitanWeaponAssault",
-        "module_category_id": "DA_ModuleCategory_Weapon",
-        "name": {
-            "Key": "CMP_Type_Titan_Weapon",
-            "TableNamespace": "Component_Tags",
-            "en": "Titan Weapon"
-        },
-        "blueprint_name": {
-            "Key": "ItemType_Blueprint",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Blueprint"
-        },
-        "character_type": "Titan"
-    },
     "DA_ModuleType_TitanAlphaShoulderR": {
         "id": "DA_ModuleType_TitanAlphaShoulderR",
         "module_category_id": "DA_ModuleCategory_Shoulder",
@@ -399,21 +328,6 @@
     },
     "DA_ModuleType_TitanMatriarchShoulderR": {
         "id": "DA_ModuleType_TitanMatriarchShoulderR",
-        "module_category_id": "DA_ModuleCategory_Shoulder",
-        "name": {
-            "Key": "CMP_Type_Titan_Right_Shoulder",
-            "TableNamespace": "Component_Tags",
-            "en": "Shoulder"
-        },
-        "blueprint_name": {
-            "Key": "ItemType_Blueprint",
-            "TableNamespace": "UI_ConstructorInventory",
-            "en": "Blueprint"
-        },
-        "character_type": "Titan"
-    },
-    "DA_ModuleType_TitanSpireShoulderR": {
-        "id": "DA_ModuleType_TitanSpireShoulderR",
         "module_category_id": "DA_ModuleCategory_Shoulder",
         "name": {
             "Key": "CMP_Type_Titan_Right_Shoulder",

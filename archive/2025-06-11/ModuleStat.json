@@ -318,15 +318,6 @@
             "en": "Field Durability"
         }
     },
-    "DA_ModuleStat_DomeRadius": {
-        "id": "DA_ModuleStat_DomeRadius",
-        "stat_name": {
-            "Key": "ModuleStat_DomeRadius",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "Radius"
-        },
-        "unit_scaler": 0.01
-    },
     "DA_ModuleStat_Feedback": {
         "id": "DA_ModuleStat_Feedback",
         "stat_name": {
@@ -363,6 +354,15 @@
             "en": "Durability"
         }
     },
+    "DA_ModuleStat_DomeRadius": {
+        "id": "DA_ModuleStat_DomeRadius",
+        "stat_name": {
+            "Key": "ModuleStat_DomeRadius",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Radius"
+        },
+        "unit_scaler": 0.01
+    },
     "DA_ModuleStat_RegenFuel": {
         "id": "DA_ModuleStat_RegenFuel",
         "stat_name": {
@@ -387,7 +387,8 @@
             "Key": "ModuleStat_ActiveDuration",
             "TableNamespace": "ModuleStatKeys",
             "en": "Duration"
-        }
+        },
+        "decimal_places": 1
     },
     "DA_ModuleStat_ActiveRadius": {
         "id": "DA_ModuleStat_ActiveRadius",
@@ -442,7 +443,8 @@
             "Key": "ModuleStat_SpeedBoost",
             "TableNamespace": "ModuleStatKeys",
             "en": "Speed Boost"
-        }
+        },
+        "unit_scaler": 0.036
     },
     "DA_ModuleStat_SingulationRate": {
         "id": "DA_ModuleStat_SingulationRate",
