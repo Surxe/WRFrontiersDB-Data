@@ -1,0 +1,35 @@
+{
+    "DA_Meta_Currency_Alloys": {
+        "id": "DA_Meta_Currency_Alloys",
+        "name": {
+            "Key": "HNG_Alloy",
+            "TableNamespace": "C_Currencies",
+            "en": "Salvage"
+        },
+        "description": {
+            "Key": "HNG_Alloy_Desc",
+            "TableNamespace": "C_Currencies",
+            "en": "Cogs, nuts, bolts, and everything in between. Collect Salvage by scrapping modules. Use Salvage to build and upgrade your gear."
+        },
+        "wallet_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_AlloysLarge",
+        "large_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Alloys_Render",
+        "background_color": "364242",
+        "background_image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Offers/Backgrounds/T_Rarity_Common_SV",
+        "shop_display_priority": 1
+    },
+    "DA_Meta_Currency_Intel": {
+        "id": "DA_Meta_Currency_Intel",
+        "name": {
+            "Key": "HNG_Intel",
+            "TableNamespace": "C_Currencies",
+            "en": "Intel"
+        },
+        "description": {
+            "Key": "HNG_Intel_Desc",
+            "TableNamespace": "C_Currencies",
+            "en": "Trade secrets and knowledge learned on the job. Intel allows you to upgrade your equipment and improve your piloting skills faster."
+        },
+        "wallet_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_IntelLarge",
+        "large_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_IntelLarge"
+    }
+}
