@@ -1,0 +1,324 @@
+{
+    "DA_BulgasariUnlock": {
+        "id": "DA_BulgasariUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_Slot2Unlock": {
+        "id": "DA_Slot2Unlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSlot",
+        "description": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "type_name": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "visible_in_ui": false
+    },
+    "DA_BulwarkUnlock": {
+        "id": "DA_BulwarkUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_Slot3Unlock": {
+        "id": "DA_Slot3Unlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSlot",
+        "description": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "type_name": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "visible_in_ui": false
+    },
+    "DA_Slot4Unlock": {
+        "id": "DA_Slot4Unlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSlot",
+        "description": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "type_name": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "visible_in_ui": false
+    },
+    "DA_Slot5Unlock": {
+        "id": "DA_Slot5Unlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSlot",
+        "description": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "type_name": {
+            "Key": "Content_SlotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Hangar Slot"
+        },
+        "visible_in_ui": false
+    },
+    "DA_SquadUnlock": {
+        "id": "DA_SquadUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSquads",
+        "description": {
+            "Key": "Content_SquadUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Crew"
+        },
+        "type_name": {
+            "Key": "Content_SquadUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Crew"
+        },
+        "visible_in_ui": false
+    },
+    "DA_BattlePassUnlock": {
+        "id": "DA_BattlePassUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockBattlePass",
+        "description": {
+            "Key": "Content_BattlePassUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Battle Pass"
+        },
+        "type_name": {
+            "Key": "Content_BattlePassUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Battle Pass"
+        },
+        "visible_in_ui": false
+    },
+    "DA_RecurrentQuestsUnlock": {
+        "id": "DA_RecurrentQuestsUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockQuests",
+        "description": {
+            "Key": "Content_QuestsReccurentUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Daily and weekly Jobs"
+        },
+        "type_name": {
+            "Key": "Content_QuestsReccurentUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Daily and weekly Jobs"
+        },
+        "visible_in_ui": false
+    },
+    "DA_Unlock_CharacterAppearance": {
+        "id": "DA_Unlock_CharacterAppearance",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnlockSprayPaint",
+        "description": {
+            "Key": "Content_CustomizationUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Cosmetics"
+        },
+        "type_name": {
+            "Key": "Content_CustomizationUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Cosmetics"
+        },
+        "visible_in_ui": false
+    },
+    "DA_PremiumUnlock": {
+        "id": "DA_PremiumUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockPremium",
+        "description": {
+            "Key": "Content_PremiumUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Premium"
+        },
+        "type_name": {
+            "Key": "Content_PremiumUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Premium"
+        },
+        "visible_in_ui": false
+    },
+    "DA_ShopUnlock": {
+        "id": "DA_ShopUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnlockShop",
+        "description": {
+            "Key": "Content_ShopUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Store"
+        },
+        "type_name": {
+            "Key": "Content_ShopUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Store"
+        },
+        "visible_in_ui": false
+    },
+    "DA_HarpyUnlock": {
+        "id": "DA_HarpyUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_Unlock_Workshop": {
+        "id": "DA_Unlock_Workshop",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnlockWorkshop",
+        "description": {
+            "Key": "Content_WorkshopUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Workshop"
+        },
+        "type_name": {
+            "Key": "Content_WorkshopUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Workshop"
+        },
+        "visible_in_ui": false
+    },
+    "DA_InventorySellUnlock": {
+        "id": "DA_InventorySellUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnlockSell",
+        "description": {
+            "Key": "Content_InventorySell",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Sell Items"
+        },
+        "type_name": {
+            "Key": "Content_InventorySell",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Sell Items"
+        },
+        "visible_in_ui": false
+    },
+    "DA_SellPilots_Unlock": {
+        "id": "DA_SellPilots_Unlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockPilots",
+        "description": {
+            "Key": "Content_SellPilots_Unlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Fire pilots"
+        },
+        "type_name": {
+            "Key": "Content_SellPilots_Unlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Fire pilots"
+        },
+        "visible_in_ui": false
+    },
+    "DA_TitanSlotUnlock": {
+        "id": "DA_TitanSlotUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_AlphaUnlock",
+        "description": {
+            "Key": "Content_AlphaUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Alpha"
+        },
+        "type_name": {
+            "Key": "Content_AlphaUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Alpha"
+        }
+    },
+    "DA_AlphaUnlock": {
+        "id": "DA_AlphaUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_MatriarchUnlock": {
+        "id": "DA_MatriarchUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_LeagueUnlock": {
+        "id": "DA_LeagueUnlock",
+        "image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockLeague",
+        "description": {
+            "Key": "Content_LeagueUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "League"
+        },
+        "type_name": {
+            "Key": "Content_LeagueUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "League"
+        },
+        "visible_in_ui": false
+    },
+    "DA_GrimUnlock": {
+        "id": "DA_GrimUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    },
+    "DA_SpireUnlock": {
+        "id": "DA_SpireUnlock",
+        "description": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "type_name": {
+            "Key": "Content_RobotUnlock",
+            "TableNamespace": "UI_ProgressionUnlocks",
+            "en": "Robot"
+        },
+        "group_reward_id": "DA_CharactersGroup"
+    }
+}

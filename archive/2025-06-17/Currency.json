@@ -46,48 +46,6 @@
         "background_image_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Offers/Backgrounds/T_Rarity_Common_SV",
         "shop_display_priority": 1
     },
-    "DA_Meta_Currency_Credits": {
-        "id": "DA_Meta_Currency_Credits",
-        "name": {
-            "Key": "HNG_Credits",
-            "TableNamespace": "C_Currencies",
-            "en": "Credits"
-        },
-        "description": {
-            "Key": "HNG_Credits_Desc",
-            "TableNamespace": "C_Currencies",
-            "en": "In the Wild Ten, credits are the money of choice. They can be used to hire pilots and buy hardware in the store."
-        },
-        "how_to_use_descriptions": [
-            {
-                "Key": "Info_Panel_PurchasingOffersInDailyDeals",
-                "TableNamespace": "UI_InfoPanel",
-                "en": "Purchasing items from Daily Deals"
-            }
-        ],
-        "where_to_get_descriptions": [
-            {
-                "Key": "Info_Panel_CertainJobsCompletion",
-                "TableNamespace": "UI_InfoPanel",
-                "en": "Complete daily and weekly jobs"
-            },
-            {
-                "Key": "Info_Panel_CompeteInRegularMatches",
-                "TableNamespace": "UI_InfoPanel",
-                "en": "Earn in battle"
-            },
-            {
-                "Key": "Info_Panel_DirectPurchasingForWarpReal",
-                "TableNamespace": "UI_InfoPanel",
-                "en": "Convert from Warp Reals"
-            }
-        ],
-        "wallet_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_CreditsLarge",
-        "large_icon_path": "WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Credits_Render",
-        "background_color": "554A26",
-        "background_image_path": "WRFrontiers/Content/Sparrow/UI/Screens/Offers/CurrencyCardsBg/T_CreditsCardBg",
-        "shop_display_priority": 3
-    },
     "DA_Meta_Currency_Intel": {
         "id": "DA_Meta_Currency_Intel",
         "name": {

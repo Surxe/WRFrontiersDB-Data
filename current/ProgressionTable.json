@@ -1,0 +1,1024 @@
+{
+    "DA_ProgressionTable": {
+        "id": "DA_ProgressionTable",
+        "levels": {
+            "1": {
+                "reputation_cost": 0,
+                "rewards": {
+                    "content_unlocks_ids": [
+                        "DA_BulgasariUnlock"
+                    ]
+                }
+            },
+            "2": {
+                "reputation_cost": 120,
+                "rewards": {
+                    "content_unlocks_ids": [
+                        "DA_Slot2Unlock",
+                        "DA_BulwarkUnlock"
+                    ]
+                }
+            },
+            "3": {
+                "reputation_cost": 120,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 1500
+                        }
+                    ]
+                }
+            },
+            "4": {
+                "reputation_cost": 120,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 8500
+                        },
+                        {
+                            "currency_id": "DA_Meta_Currency_Credits",
+                            "amount": 1000
+                        }
+                    ],
+                    "modules": [
+                        {
+                            "module_id": "DA_Module_ChassisPhantom",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_TorsoPhantom",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_ShoulderPhantom",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_ShoulderPhantom",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Toxin",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Toxin",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Toxin",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Ability_BlockingField",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Ability_MineField",
+                            "level": 1
+                        }
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_Slot3Unlock",
+                        "DA_Slot4Unlock",
+                        "DA_Slot5Unlock",
+                        "DA_SquadUnlock",
+                        "DA_BattlePassUnlock",
+                        "DA_RecurrentQuestsUnlock",
+                        "DA_Unlock_CharacterAppearance",
+                        "DA_PremiumUnlock",
+                        "DA_ShopUnlock",
+                        "DA_HarpyUnlock",
+                        "DA_Unlock_Workshop",
+                        "DA_InventorySellUnlock",
+                        "DA_SellPilots_Unlock"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Com_Mechanic",
+                        "DA_Decal_Com_FasterThanLighting"
+                    ],
+                    "materials_ids": [
+                        "DA_MatCom_S0_14_Blue_01",
+                        "DA_MatCom_S0_14_Green_01",
+                        "DA_MatCom_S0_14_Red_01"
+                    ],
+                    "weatherings_ids": [
+                        "DA_WeatheringCom_S0_14_Dirt_02"
+                    ],
+                    "skins_ids": [
+                        "DA_SkinUnCom_S0_14_BlackGreen_01"
+                    ],
+                    "pilots": [
+                        {
+                            "pilot_id": "DA_Pilot_Common4",
+                            "level": 1
+                        }
+                    ]
+                }
+            },
+            "5": {
+                "reputation_cost": 300,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Credits",
+                            "amount": 2000
+                        }
+                    ]
+                }
+            },
+            "6": {
+                "reputation_cost": 650,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 10000
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_TorsoGriffin"
+                    ]
+                }
+            },
+            "7": {
+                "reputation_cost": 650,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisGriffin",
+                        "DA_Module_ShoulderGriffin"
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_TitanSlotUnlock",
+                        "DA_AlphaUnlock"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Uncom_WildTenColonizer"
+                    ],
+                    "materials_ids": [
+                        "DA_MatUnCom_S0_14_Green_01"
+                    ]
+                }
+            },
+            "8": {
+                "reputation_cost": 650,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 10000
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Umbrella"
+                    ]
+                }
+            },
+            "9": {
+                "reputation_cost": 650,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 10000
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Buckshot"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Uncom_GrizzledVet"
+                    ],
+                    "materials_ids": [
+                        "DA_MatUnCom_S0_14_Green_03"
+                    ]
+                }
+            },
+            "10": {
+                "reputation_cost": 650,
+                "rewards": {
+                    "content_unlocks_ids": [
+                        "DA_MatriarchUnlock"
+                    ]
+                }
+            },
+            "11": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 12500
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_Ability_SmokeWall"
+                    ]
+                }
+            },
+            "12": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisBulgasari",
+                        "DA_Module_ShoulderBulgasari"
+                    ]
+                }
+            },
+            "13": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoBulgasari"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_Com_Bullseye"
+                    ]
+                }
+            },
+            "14": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Shredder"
+                    ]
+                }
+            },
+            "15": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Credits",
+                            "amount": 5000
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_Ability_ArmorShield"
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_LeagueUnlock"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Rare_Horticulturist"
+                    ]
+                }
+            },
+            "16": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_InfiniteAmmo"
+                    ]
+                }
+            },
+            "17": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Alloys",
+                            "amount": 12500
+                        }
+                    ],
+                    "blueprints_ids": [
+                        "DA_Module_ChassisHarpy",
+                        "DA_Module_ShoulderHarpy"
+                    ]
+                }
+            },
+            "18": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoHarpy"
+                    ],
+                    "materials_ids": [
+                        "DA_MatCom_S0_15_Blue_04"
+                    ]
+                }
+            },
+            "19": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Trebuchet"
+                    ]
+                }
+            },
+            "20": {
+                "reputation_cost": 700,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Credits",
+                            "amount": 5000
+                        }
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_GrimUnlock"
+                    ]
+                }
+            },
+            "21": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Railgun"
+                    ]
+                }
+            },
+            "22": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_FuelReserve"
+                    ]
+                }
+            },
+            "23": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Dazzle"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_Com_Mechanics"
+                    ]
+                }
+            },
+            "24": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisRaven",
+                        "DA_Module_ShoulderRaven"
+                    ]
+                }
+            },
+            "25": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoRaven"
+                    ]
+                }
+            },
+            "26": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Gozer"
+                    ]
+                }
+            },
+            "27": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisAres",
+                        "DA_Module_ShoulderAres"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_UnCom_EvoLife"
+                    ]
+                }
+            },
+            "28": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoAres"
+                    ]
+                }
+            },
+            "29": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Scourge"
+                    ]
+                }
+            },
+            "30": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Thunder"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Rare_OldSchoolSpacefarer",
+                        "DA_Decal_Rare_ItsAPrototype"
+                    ]
+                }
+            },
+            "31": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisBulwark",
+                        "DA_Module_ShoulderBulwark"
+                    ]
+                }
+            },
+            "32": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoBulwark"
+                    ]
+                }
+            },
+            "33": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_RegenerationFull"
+                    ],
+                    "materials_ids": [
+                        "DA_MatUnCom_S0_15_Green_04"
+                    ]
+                }
+            },
+            "34": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisOrochi",
+                        "DA_Module_ShoulderOrochi"
+                    ]
+                }
+            },
+            "35": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoOrochi"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_UnCom_Icarus"
+                    ]
+                }
+            },
+            "36": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Zeus"
+                    ]
+                }
+            },
+            "37": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_BlastWave"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_UnCom_DSC"
+                    ]
+                }
+            },
+            "38": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Spotlight"
+                    ]
+                }
+            },
+            "39": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisFury",
+                        "DA_Module_ShoulderFury"
+                    ]
+                }
+            },
+            "40": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoFury"
+                    ],
+                    "materials_ids": [
+                        "DA_MatUnCom_S0_15_Blue_03"
+                    ]
+                }
+            },
+            "41": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Pulsar"
+                    ]
+                }
+            },
+            "42": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Regeneration"
+                    ]
+                }
+            },
+            "43": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Homing"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_UnCom_YanDi"
+                    ]
+                }
+            },
+            "44": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisPhantom",
+                        "DA_Module_ShoulderPhantom"
+                    ]
+                }
+            },
+            "45": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoPhantom"
+                    ]
+                }
+            },
+            "46": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Toxin"
+                    ]
+                }
+            },
+            "47": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_BlockingField"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_UnCom_SpaceTech"
+                    ]
+                }
+            },
+            "48": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_MineField"
+                    ]
+                }
+            },
+            "49": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisRavana",
+                        "DA_Module_ShoulderRavana"
+                    ]
+                }
+            },
+            "50": {
+                "reputation_cost": 800,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoRavana",
+                        "DA_Module_Ability_SpeedBoost",
+                        "DA_Module_Weapon_StickyGun"
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_SpireUnlock"
+                    ],
+                    "decals_ids": [
+                        "DA_Decal_Uni_AttentionNow"
+                    ]
+                }
+            },
+            "51": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Dragoon"
+                    ]
+                }
+            },
+            "52": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_GrenadeLauncher"
+                    ]
+                }
+            },
+            "53": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisVityaz",
+                        "DA_Module_ShoulderVityaz01",
+                        "DA_Module_ShoulderVityaz02"
+                    ]
+                }
+            },
+            "54": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoVityaz"
+                    ]
+                }
+            },
+            "55": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Orkan"
+                    ]
+                }
+            },
+            "56": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_Grounded"
+                    ]
+                }
+            },
+            "57": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_TensionLink"
+                    ]
+                }
+            },
+            "58": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Noricum"
+                    ]
+                }
+            },
+            "59": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ShoulderLancelot",
+                        "DA_Module_ChassisLancelot"
+                    ]
+                }
+            },
+            "60": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoLancelot"
+                    ],
+                    "materials_ids": [
+                        "DA_MatUnCom_S0_15_Green_03"
+                    ]
+                }
+            },
+            "61": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Punisher"
+                    ]
+                }
+            },
+            "62": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_CounterAttack"
+                    ]
+                }
+            },
+            "63": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisTyr",
+                        "DA_Module_ShoulderTyr"
+                    ]
+                }
+            },
+            "64": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoTyr"
+                    ]
+                }
+            },
+            "65": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Vortex",
+                        "DA_Module_Ability_GhostTurret"
+                    ]
+                }
+            },
+            "66": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisTyphon",
+                        "DA_Module_ShoulderTyphon"
+                    ]
+                }
+            },
+            "67": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoTyphon"
+                    ]
+                }
+            },
+            "68": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Shocktrain"
+                    ]
+                }
+            },
+            "69": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisPursuer",
+                        "DA_Module_ShoulderPursuer"
+                    ]
+                }
+            },
+            "70": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoPursuer"
+                    ],
+                    "decals_ids": [
+                        "DA_Sticker_Rare_WarpGate"
+                    ],
+                    "weatherings_ids": [
+                        "DA_Weathering_0_15_MarsDust_01"
+                    ]
+                }
+            },
+            "71": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Scatter"
+                    ]
+                }
+            },
+            "72": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisInquisitor",
+                        "DA_Module_ShoulderInquisitor"
+                    ]
+                }
+            },
+            "73": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoInquisitor"
+                    ]
+                }
+            },
+            "74": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Incinerator"
+                    ]
+                }
+            },
+            "75": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisFenrir",
+                        "DA_Module_ShoulderFenrir"
+                    ]
+                }
+            },
+            "76": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoFenrir"
+                    ]
+                }
+            },
+            "77": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Fowler"
+                    ]
+                }
+            },
+            "78": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Trident"
+                    ]
+                }
+            },
+            "79": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisSiren",
+                        "DA_Module_ShoulderSiren"
+                    ]
+                }
+            },
+            "80": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoSiren"
+                    ],
+                    "materials_ids": [
+                        "DA_MatLegen_S0_14_Red_02",
+                        "DA_MatLegen_S0_14_Grey_01"
+                    ]
+                }
+            },
+            "81": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "82": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "83": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ShoulderCyclops"
+                    ]
+                }
+            },
+            "84": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "85": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "86": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisCyclops"
+                    ]
+                }
+            },
+            "87": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "88": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "89": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_DashBlinkedVisible"
+                    ]
+                }
+            },
+            "90": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "91": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "92": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Twinflare"
+                    ]
+                }
+            },
+            "93": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "94": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "95": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoCyclops"
+                    ]
+                }
+            }
+        }
+    }
+}
