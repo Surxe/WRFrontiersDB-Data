@@ -1,0 +1,82 @@
+{
+    "DA_CharacterClass_Tactician.0": {
+        "id": "DA_CharacterClass_Tactician.0",
+        "name": {
+            "Key": "Class_Tactitian_name",
+            "TableNamespace": "ST_C_Classes",
+            "en": "Tactician"
+        },
+        "description": {
+            "TableId": "/Game/Sparrow/Localization/ST_Classes.ST_Classes",
+            "Key": "Class_Tactician_descr",
+            "SourceString": "Tacticians are back line robots that are designed to support allies with ranged weapons, weaken enemies, and control the map. Their components are lighter than other classes, and their high mobility and large amounts of fuel allow them to occupy positions inaccessible to other robots.",
+            "LocalizedString": "Tacticians are backline robots that are designed to weaken enemies and support allies with ranged fire, thus helping to control the battlefield. Their components are lighter than other classes, while their high speed and large fuel capacity allow them to occupy positions inaccessible to other robots."
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesTacticianBig",
+            "hex": "BDEDFE"
+        },
+        "image_big_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesTacticianBig",
+        "image_small_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesTactitianSmall"
+    },
+    "DA_CharacterClass_Defender.0": {
+        "id": "DA_CharacterClass_Defender.0",
+        "name": {
+            "Key": "Class_Defender_name",
+            "TableNamespace": "ST_C_Classes",
+            "en": "Defender"
+        },
+        "description": {
+            "TableId": "/Game/Sparrow/Localization/ST_Classes.ST_Classes",
+            "Key": "Class_Defender_descr",
+            "SourceString": "Defenders are robots designed to hold team positions. Their structure is the strongest among the classes. Their shields have low durability, but they regenerate it completely at once. Defenders' abilities are aimed at increasing the survivability of themselves and allies nearby.",
+            "LocalizedString": "Defenders are designed to hold team positions. They are structurally strong, but their shields are weak. However, their shields regenerate almost instantly. A Defender's abilities boost its survivability and that of nearby allies."
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesDefenderBig",
+            "hex": "BDEDFE"
+        },
+        "image_big_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesDefenderBig",
+        "image_small_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesDefenderSmall"
+    },
+    "DA_CharacterClass_Assault.0": {
+        "id": "DA_CharacterClass_Assault.0",
+        "name": {
+            "Key": "Class_Assault_name",
+            "TableNamespace": "ST_C_Classes",
+            "en": "Assault"
+        },
+        "description": {
+            "TableId": "/Game/Sparrow/Localization/ST_Classes.ST_Classes",
+            "Key": "Class_Assault_descr",
+            "SourceString": "Assaults are robots that are designed for frontal attack and mid-range firefights.  They can hold out in open confrontation for long periods of time and carry powerful weapons. Their shields start regenerating faster than other classes and their structure is strong enough to take a lot of damage.",
+            "LocalizedString": "Assaults are designed for frontal attacks and mid-range firefights.  They carry powerful weapons and can hold out in open confrontations for long periods. Their shields start regenerating faster than other classes, and their armor is strong enough to take a lot of damage."
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesAssaultBig",
+            "hex": "BDEDFE"
+        },
+        "image_big_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesAssaultBig",
+        "image_small_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesAssaultSmall"
+    },
+    "DA_CharacterClass_Flanker.0": {
+        "id": "DA_CharacterClass_Flanker.0",
+        "name": {
+            "Key": "Class_Flanker_name",
+            "TableNamespace": "ST_C_Classes",
+            "en": "Flanker"
+        },
+        "description": {
+            "TableId": "/Game/Sparrow/Localization/ST_Classes.ST_Classes",
+            "Key": "Class_Flanker_descr",
+            "SourceString": "Flankers are fast robots that work best as scouts or assassins. Their speed allows them to move quickly across the map and strike at unprotected areas or capture points of interest.",
+            "LocalizedString": "Flankers are fast robots that work best as scouts or assassins. Their speed allows them to move quickly across the map, capture unguarded Warp Gates, or conduct hit-and-run attacks from the sidelines."
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesFlankerBig",
+            "hex": "BDEDFE"
+        },
+        "image_big_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesFlankerBig",
+        "image_small_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesFlankerSmall"
+    }
+}
