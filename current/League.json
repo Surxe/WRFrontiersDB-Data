@@ -1,0 +1,79 @@
+{
+    "DA_BronzeLeague.0": {
+        "id": "DA_BronzeLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueBronzeNew",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueIconBronzeSmall",
+        "name": {
+            "Key": "PlayerLeague_Bronze",
+            "TableNamespace": "UI_Leagues",
+            "en": "Bronze"
+        },
+        "league_id": "Bronze"
+    },
+    "DA_SilverLeague.0": {
+        "id": "DA_SilverLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueIconSilverNew",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueIconSilverSmall",
+        "name": {
+            "Key": "PlayerLeague_Silver",
+            "TableNamespace": "UI_Leagues",
+            "en": "Silver"
+        },
+        "league_id": "Silver"
+    },
+    "DA_GoldLeague.0": {
+        "id": "DA_GoldLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueIconGoldNew",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueIconGoldSmall",
+        "name": {
+            "Key": "PlayerLeague_Gold",
+            "TableNamespace": "UI_Leagues",
+            "en": "Gold"
+        },
+        "league_id": "Gold"
+    },
+    "DA_PlatinumLeague.0": {
+        "id": "DA_PlatinumLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueMaster",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueMasterSmall",
+        "name": {
+            "Key": "PlayerLeague_Platinum",
+            "TableNamespace": "UI_Leagues",
+            "en": "Platinum"
+        },
+        "league_id": "Platinum"
+    },
+    "DA_DiamondLeague.0": {
+        "id": "DA_DiamondLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueDiamond",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueDiamondSmall",
+        "name": {
+            "Key": "PlayerLeague_Diamond",
+            "TableNamespace": "UI_Leagues",
+            "en": "Diamond"
+        },
+        "league_id": "Diamond"
+    },
+    "DA_EmeraldLeague.0": {
+        "id": "DA_EmeraldLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueExpert",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueExpertSmall",
+        "name": {
+            "Key": "PlayerLeague_Emerald",
+            "TableNamespace": "UI_Leagues",
+            "en": "Emerald"
+        },
+        "league_id": "Emerald"
+    },
+    "DA_NoachiumLeague.0": {
+        "id": "DA_NoachiumLeague.0",
+        "league_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueChampion",
+        "small_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Profile/T_LeagueChampionSmall",
+        "name": {
+            "Key": "PlayerLeague_Noachium",
+            "TableNamespace": "UI_Leagues",
+            "en": "Noachium"
+        },
+        "league_id": "Noachium"
+    }
+}

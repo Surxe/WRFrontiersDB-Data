@@ -1,0 +1,50 @@
+{
+    "DA_Class_Tank.0": {
+        "id": "DA_Class_Tank.0",
+        "name": {
+            "Key": "Pilot_Class_Tank",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Defender"
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesDefenderBig",
+            "hex": "CBF4F9"
+        }
+    },
+    "DA_Class_Flanker.0": {
+        "id": "DA_Class_Flanker.0",
+        "name": {
+            "Key": "Pilot_Class_Flanker",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Flanker"
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesFlankerBig",
+            "hex": "CBF4F9"
+        }
+    },
+    "DA_Class_RangedSupport.0": {
+        "id": "DA_Class_RangedSupport.0",
+        "name": {
+            "Key": "Pilot_Class_RangedSupport",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Tactician"
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesTacticianBig",
+            "hex": "CBF4F9"
+        }
+    },
+    "DA_Class_Brawler.0": {
+        "id": "DA_Class_Brawler.0",
+        "name": {
+            "Key": "Pilot_Class_Brawler",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Assault"
+        },
+        "badge": {
+            "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesAssaultBig",
+            "hex": "CBF4F9"
+        }
+    }
+}
