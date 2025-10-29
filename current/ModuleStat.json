@@ -482,6 +482,20 @@
         "max_stat_value_ui": 40795.0,
         "max_stat_titan_value_ui": 58913.0
     },
+    "DA_ModuleStat_ActiveCount.0": {
+        "id": "DA_ModuleStat_ActiveCount.0",
+        "stat_name": {
+            "Key": "ModuleStat_ActiveDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ActCount"
+    },
     "DA_ModuleStat_ShieldHP.0": {
         "id": "DA_ModuleStat_ShieldHP.0",
         "stat_name": {
@@ -929,6 +943,16 @@
         },
         "short_key": "RocketDmg"
     },
+    "DA_ModuleStat_BurningAOEDamage.0": {
+        "id": "DA_ModuleStat_BurningAOEDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_BurningDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fire Damage"
+        },
+        "unit_scaler": 6.0,
+        "short_key": "BurningAoE"
+    },
     "DA_ModuleStat_BeaconTime.0": {
         "id": "DA_ModuleStat_BeaconTime.0",
         "stat_name": {
@@ -1128,6 +1152,26 @@
         "unit_scaler": 100.0,
         "short_key": "DmgBoost"
     },
+    "DA_ModuleStat_ShieldRegBoost.0": {
+        "id": "DA_ModuleStat_ShieldRegBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldRegBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Regeneration Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ShieldRegBoost"
+    },
     "DA_ModuleStat_AbilityParamBoost.0": {
         "id": "DA_ModuleStat_AbilityParamBoost.0",
         "stat_name": {
@@ -1147,6 +1191,46 @@
         },
         "unit_scaler": 100.0,
         "short_key": "AbilParamBoost"
+    },
+    "DA_ModuleStat_FuelRegenBoost.0": {
+        "id": "DA_ModuleStat_FuelRegenBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_FuelRegenBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fuel Regeneration Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "FuelRegBoost"
+    },
+    "DA_ModuleStat_ReloadBoost.0": {
+        "id": "DA_ModuleStat_ReloadBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ReloadBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Reload Speed Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ReloadBoost"
     },
     "DA_ModuleStat_FireRateBoost.0": {
         "id": "DA_ModuleStat_FireRateBoost.0",
@@ -1229,15 +1313,6 @@
         "short_key": "FuelReg",
         "decimal_places": 1
     },
-    "DA_ModuleStat_TitanCharge.0": {
-        "id": "DA_ModuleStat_TitanCharge.0",
-        "stat_name": {
-            "Key": "ModuleStat_TitanCharge",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "Titan Charge"
-        },
-        "short_key": "TitanCharge"
-    },
     "DA_ModuleStat_HealthCap.0": {
         "id": "DA_ModuleStat_HealthCap.0",
         "stat_name": {
@@ -1258,65 +1333,14 @@
         "unit_scaler": 100.0,
         "short_key": "HP_Cap"
     },
-    "DA_ModuleStat_ShieldRegBoost.0": {
-        "id": "DA_ModuleStat_ShieldRegBoost.0",
+    "DA_ModuleStat_TitanCharge.0": {
+        "id": "DA_ModuleStat_TitanCharge.0",
         "stat_name": {
-            "Key": "ModuleStat_ShieldRegBoost",
+            "Key": "ModuleStat_TitanCharge",
             "TableNamespace": "ModuleStatKeys",
-            "en": "Shield Regeneration Boost"
+            "en": "Titan Charge"
         },
-        "unit_name": {
-            "Key": "ModuleStat_Unit_Percents",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "%"
-        },
-        "unit_pattern": {
-            "Key": "ModuleStatPattern_Default",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "{Amount}{Unit}"
-        },
-        "unit_scaler": 100.0,
-        "short_key": "ShieldRegBoost"
-    },
-    "DA_ModuleStat_FuelRegenBoost.0": {
-        "id": "DA_ModuleStat_FuelRegenBoost.0",
-        "stat_name": {
-            "Key": "ModuleStat_FuelRegenBoost",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "Fuel Regeneration Boost"
-        },
-        "unit_name": {
-            "Key": "ModuleStat_Unit_Percents",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "%"
-        },
-        "unit_pattern": {
-            "Key": "ModuleStatPattern_Default",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "{Amount}{Unit}"
-        },
-        "unit_scaler": 100.0,
-        "short_key": "FuelRegBoost"
-    },
-    "DA_ModuleStat_ReloadBoost.0": {
-        "id": "DA_ModuleStat_ReloadBoost.0",
-        "stat_name": {
-            "Key": "ModuleStat_ReloadBoost",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "Reload Speed Boost"
-        },
-        "unit_name": {
-            "Key": "ModuleStat_Unit_Percents",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "%"
-        },
-        "unit_pattern": {
-            "Key": "ModuleStatPattern_Default",
-            "TableNamespace": "ModuleStatKeys",
-            "en": "{Amount}{Unit}"
-        },
-        "unit_scaler": 100.0,
-        "short_key": "ReloadBoost"
+        "short_key": "TitanCharge"
     },
     "DA_ModuleStat_UltimateCharge.0": {
         "id": "DA_ModuleStat_UltimateCharge.0",
