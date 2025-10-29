@@ -183,12 +183,6 @@
             "BP_Ability_IronVeil.3"
         ]
     },
-    "BP_Ability_KineticPulse.0": {
-        "id": "BP_Ability_KineticPulse.0",
-        "abilities_ids": [
-            "BP_Ability_KineticPulse.2"
-        ]
-    },
     "BP_Ability_MineField.0": {
         "id": "BP_Ability_MineField.0",
         "abilities_ids": [
@@ -229,12 +223,6 @@
         "id": "BP_Ability_Spotlight.0",
         "abilities_ids": [
             "BP_Ability_Spotlight.3"
-        ]
-    },
-    "BP_Ability_SupplySurge.0": {
-        "id": "BP_Ability_SupplySurge.0",
-        "abilities_ids": [
-            "BP_Ability_SupplySurge.3"
         ]
     },
     "BP_Ability_TensionLink.0": {
@@ -1799,7 +1787,7 @@
             },
             "ClipSize": 3,
             "ProjectileSpeed": 100000.0,
-            "TimeToReload": 2.29,
+            "TimeToReload": 2.68,
             "TimeBetweenShots": 0.17,
             "DistanceSettings": {
                 "InterpMode": "RCIM_Linear",
@@ -3317,167 +3305,6 @@
             "bAllowAssistanceTrajectoryPrediction": false
         }
     },
-    "BP_Weapon_Hefty.0": {
-        "id": "BP_Weapon_Hefty.0",
-        "fire_modes": {
-            "FiringBehavior": {
-                "MovementComponent": {
-                    "InitialSpeed": 125000.0,
-                    "ProjectileGravityScale": 6.0
-                },
-                "DirectDamage": {
-                    "DamageArmor": 775.0,
-                    "DamageShield": 520.0
-                },
-                "AoeDamage": {
-                    "DistToDamage": [
-                        {
-                            "Time": 0.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 0.33,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 0.6,
-                            "Value": 0.2,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 1.0,
-                            "Value": 0.2,
-                            "InterpMode": "RCIM_Linear"
-                        }
-                    ]
-                },
-                "TitanChargePerHit": 0.16,
-                "DistanceSettings": {
-                    "InterpMode": "RCIM_Linear",
-                    "CurveData": [
-                        {
-                            "Distance": 0.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MinDistanceState"
-                        },
-                        {
-                            "Distance": 1.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "ExpansionDistanceState"
-                        },
-                        {
-                            "Distance": 27500.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "EffectiveDistanceState"
-                        },
-                        {
-                            "Distance": 60000.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MaxDistanceState"
-                        },
-                        {
-                            "Distance": 60001.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "DeathDistanceState"
-                        }
-                    ]
-                },
-                "DistanceSettingsCurve": [
-                    {
-                        "Time": -1.0,
-                        "Value": 0.0,
-                        "InterpMode": "RCIM_Constant"
-                    },
-                    {
-                        "Time": 0.0,
-                        "Value": 0.05,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 1.0,
-                        "Value": 1.0,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 38000.0,
-                        "Value": 1.0,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 120000.0,
-                        "Value": 0.05,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 120001.0,
-                        "Value": 0.05,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 120002.0,
-                        "Value": 0.0,
-                        "InterpMode": "RCIM_Constant"
-                    }
-                ],
-                "ProjectilesPerShot": 6,
-                "TimeBetweenShots": 0.66,
-                "Spread": {
-                    "X": 1.2,
-                    "Y": 1.2
-                },
-                "AbilityChargePointsOnHit": 0.1
-            }
-        },
-        "module_scaler": {
-            "Spread": {
-                "X": 0.6,
-                "Y": 0.6
-            },
-            "DirectDamage": {
-                "DamageArmor": 1152.0,
-                "DamageShield": 950.0
-            },
-            "ClipSize": 34,
-            "ProjectileSpeed": 150000.0,
-            "TimeToReload": 3.31,
-            "TimeBetweenShots": 0.18,
-            "DistanceSettings": {
-                "InterpMode": "RCIM_Linear",
-                "CurveData": [
-                    {
-                        "Distance": 0.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "MinDistanceState"
-                    },
-                    {
-                        "Distance": 1.0,
-                        "DirectDamageMultiplier": 1.0,
-                        "DistanceState": "ExpansionDistanceState"
-                    },
-                    {
-                        "Distance": 27500.0,
-                        "DirectDamageMultiplier": 1.0,
-                        "DistanceState": "EffectiveDistanceState"
-                    },
-                    {
-                        "Distance": 60000.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "MaxDistanceState"
-                    },
-                    {
-                        "Distance": 60001.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "DeathDistanceState"
-                    }
-                ]
-            }
-        },
-        "misc": {
-            "VerticalAdjustmentAngle": 0.3
-        }
-    },
     "BP_Weapon_Hive_R.0": {
         "id": "BP_Weapon_Hive_R.0",
         "fire_modes": {
@@ -4436,7 +4263,7 @@
             },
             "ClipSize": 5,
             "ProjectileSpeed": 5000.0,
-            "TimeToReload": 4.49,
+            "TimeToReload": 4.15,
             "TimeBetweenShots": 0.05,
             "DistanceSettings": {
                 "InterpMode": "RCIM_Linear",
@@ -7230,7 +7057,7 @@
                 ]
             },
             "ClipSize": 3,
-            "ProjectileSpeed": 96000.0,
+            "ProjectileSpeed": 80000.0,
             "TimeToReload": 3.09,
             "TimeBetweenShots": 1.6,
             "DistanceSettings": {
@@ -7266,7 +7093,7 @@
         },
         "misc": {
             "ReloadType": "ReloadWhileFire",
-            "VerticalAdjustmentAngle": 0.3
+            "VerticalAdjustmentAngle": 0.78
         }
     },
     "BP_Weapon_Tusk.0": {
@@ -7803,169 +7630,6 @@
                     }
                 ]
             }
-        }
-    },
-    "BP_Weapon_Zenit.0": {
-        "id": "BP_Weapon_Zenit.0",
-        "fire_modes": {
-            "FiringBehavior": {
-                "MovementComponent": {
-                    "TurnSpeed": 50.0,
-                    "CruiseHeightMin": 3000.0,
-                    "CruiseHeightObstacleTestStep": 120.0,
-                    "HomingClimbSpeed": 10000.0,
-                    "HomingCruiseSpeed": 30000.0,
-                    "HomingAttackSpeed": 40000.0,
-                    "HomingClimbAcceleration": 5000.0,
-                    "HomingCruiseAcceleration": 10000.0,
-                    "HomingAttackAcceleration": 15000.0,
-                    "HomingClimbTurnRate": 160.0,
-                    "HomingCruiseTurnRate": 50.0,
-                    "HomingAttackTurnRate": 120.0,
-                    "InitialSpeed": 22000.0,
-                    "ProjectileGravityScale": 13.0
-                },
-                "DirectDamage": {
-                    "DamageArmor": 2000.0,
-                    "DamageShield": 1800.0
-                },
-                "AoeDamage": {
-                    "Radius": 3000.0,
-                    "DamageArmor": 290.0,
-                    "DamageShield": 220.0,
-                    "DistToDamage": [
-                        {
-                            "Time": 0.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 2000.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 3000.0,
-                            "Value": 0.6,
-                            "InterpMode": "RCIM_Linear"
-                        }
-                    ]
-                },
-                "TitanChargePerHit": 0.3,
-                "DistanceSettings": {
-                    "InterpMode": "RCIM_Linear",
-                    "CurveData": [
-                        {
-                            "Distance": 0.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MinDistanceState"
-                        },
-                        {
-                            "Distance": 1.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "ExpansionDistanceState"
-                        },
-                        {
-                            "Distance": 60000.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "EffectiveDistanceState"
-                        },
-                        {
-                            "Distance": 60001.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MaxDistanceState"
-                        },
-                        {
-                            "Distance": 130002.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "DeathDistanceState"
-                        }
-                    ]
-                },
-                "BallisticBehavior": {
-                    "MinAngle": 15.0,
-                    "bUseFocusComponentAlignment": true,
-                    "RangeReserve": 60000.0,
-                    "bBallisticModeForced": true
-                },
-                "TimeBetweenShots": 0.66,
-                "AbilityChargePointsOnHit": 0.33
-            },
-            "BurstBehavior": {
-                "BurstLength": 3,
-                "TimeBetweenBursts": 0.28
-            }
-        },
-        "module_scaler": {
-            "Spread": {
-                "X": 0.5,
-                "Y": 0.5
-            },
-            "DirectDamage": {
-                "DamageArmor": 1283.0,
-                "DamageShield": 507.0
-            },
-            "AoeDamage": {
-                "Radius": 2200.0,
-                "UnconditionalRadius": 200.0,
-                "DamageArmor": 820.0,
-                "DamageShield": 220.0,
-                "DistToDamage": [
-                    {
-                        "Time": 0.0,
-                        "Value": 1.0,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 1600.0,
-                        "Value": 1.0,
-                        "InterpMode": "RCIM_Linear"
-                    },
-                    {
-                        "Time": 2000.0,
-                        "Value": 0.4,
-                        "InterpMode": "RCIM_Linear"
-                    }
-                ]
-            },
-            "ClipSize": 18,
-            "ProjectileSpeed": 35000.0,
-            "TimeToReload": 3.51,
-            "TimeBetweenShots": 0.12,
-            "DistanceSettings": {
-                "InterpMode": "RCIM_Linear",
-                "CurveData": [
-                    {
-                        "Distance": 0.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "MinDistanceState"
-                    },
-                    {
-                        "Distance": 1.0,
-                        "DirectDamageMultiplier": 1.0,
-                        "DistanceState": "ExpansionDistanceState"
-                    },
-                    {
-                        "Distance": 60000.0,
-                        "DirectDamageMultiplier": 1.0,
-                        "DistanceState": "EffectiveDistanceState"
-                    },
-                    {
-                        "Distance": 60001.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "MaxDistanceState"
-                    },
-                    {
-                        "Distance": 130002.0,
-                        "DirectDamageMultiplier": 0.05,
-                        "DistanceState": "DeathDistanceState"
-                    }
-                ]
-            }
-        },
-        "misc": {
-            "ReloadType": "ReloadWhileFire",
-            "ReloadChunkSize": 3
         }
     },
     "BP_Weapon_Zeus.0": {
