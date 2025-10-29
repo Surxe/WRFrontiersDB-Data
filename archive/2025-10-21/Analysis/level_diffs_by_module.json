@@ -6,7 +6,7 @@
             "SecondaryParameter": 0.26103
         },
         "stats_percentile": {
-            "Cooldown": 0.92308
+            "Cooldown": 0.92857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -20,7 +20,7 @@
             "SecondaryParameter": 0.2959
         },
         "stats_percentile": {
-            "Cooldown": 0.23077
+            "Cooldown": 0.28571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -34,7 +34,7 @@
             "SecondaryParameter": 0.25984
         },
         "stats_percentile": {
-            "Cooldown": 0.84615
+            "Cooldown": 0.85714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -48,7 +48,7 @@
             "SecondaryParameter": 0.10656
         },
         "stats_percentile": {
-            "Cooldown": 0.15385
+            "Cooldown": 0.21429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -62,7 +62,7 @@
             "SecondaryParameter": 0.29594
         },
         "stats_percentile": {
-            "Cooldown": 0.07692
+            "Cooldown": 0.14286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -90,7 +90,7 @@
             "SecondaryParameter": 3.81928
         },
         "stats_percentile": {
-            "Cooldown": 0.46154
+            "Cooldown": 0.5
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -104,7 +104,7 @@
             "SecondaryParameter": 0.10668
         },
         "stats_percentile": {
-            "ChargeDuration": 0.6
+            "ChargeDuration": 0.5
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -118,7 +118,7 @@
             "SecondaryParameter": 0.2275
         },
         "stats_percentile": {
-            "Cooldown": 0.76923
+            "Cooldown": 0.78571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -132,7 +132,7 @@
             "SecondaryParameter": 0.36364
         },
         "stats_percentile": {
-            "Cooldown": 0.38462
+            "Cooldown": 0.42857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -141,12 +141,12 @@
     },
     "DA_Module_Ability_Grounded.1": {
         "stats_percent_increase": {
-            "Cooldown": -0.4186,
+            "Cooldown": -0.42857,
             "PrimaryParameter": 0.19048,
-            "SecondaryParameter": 0.37931
+            "SecondaryParameter": 0.38889
         },
         "stats_percentile": {
-            "Cooldown": 0.53846
+            "Cooldown": 0.07143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -160,7 +160,7 @@
             "SecondaryParameter": 0.10668
         },
         "stats_percentile": {
-            "ChargeDuration": 0.7
+            "ChargeDuration": 0.6
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -183,12 +183,26 @@
     },
     "DA_Module_Ability_IronVeil.1": {
         "stats_percent_increase": {
-            "ChargeDuration": -0.24915,
+            "ChargeDuration": -0.24812,
             "PrimaryParameter": 0.28571,
             "SecondaryParameter": 0.12903
         },
         "stats_percentile": {
-            "ChargeDuration": 0.5
+            "ChargeDuration": 0.8
+        },
+        "total_upgrade_cost": {
+            "DA_Meta_Currency_Alloys": 278400,
+            "DA_Meta_Currency_Intel": 600
+        }
+    },
+    "DA_Module_Ability_KineticPulse.1": {
+        "stats_percent_increase": {
+            "Cooldown": -0.41667,
+            "PrimaryParameter": 0.66667,
+            "SecondaryParameter": 0.46421
+        },
+        "stats_percentile": {
+            "Cooldown": 0.64286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -216,7 +230,7 @@
             "SecondaryParameter": 0.38889
         },
         "stats_percentile": {
-            "Cooldown": 0.61538
+            "Cooldown": 0.57143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -230,7 +244,7 @@
             "SecondaryParameter": 0.21951
         },
         "stats_percentile": {
-            "ChargeDuration": 0.8
+            "ChargeDuration": 0.7
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -258,7 +272,7 @@
             "SecondaryParameter": 0.10658
         },
         "stats_percentile": {
-            "Cooldown": 0.30769
+            "Cooldown": 0.35714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -272,7 +286,7 @@
             "SecondaryParameter": 0.22773
         },
         "stats_percentile": {
-            "Cooldown": 0.69231
+            "Cooldown": 0.71429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -1929,11 +1943,11 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10626,
             "DamageNoArmor": 0.04651,
-            "TimeToReload": -0.21642
+            "TimeToReload": -0.21397
         },
         "stats_percentile": {
-            "DamageArmor": 0.38889,
-            "DamageNoArmor": 0.94737,
+            "DamageArmor": 0.40541,
+            "DamageNoArmor": 0.95,
             "TimeToReload": 0.0
         },
         "total_upgrade_cost": {
@@ -1949,10 +1963,10 @@
             "TimeToReload": -0.11917
         },
         "stats_percentile": {
-            "DamageArmor": 0.55556,
-            "RoundsPerMinute": 0.27273,
+            "DamageArmor": 0.56757,
+            "RoundsPerMinute": 0.1875,
             "TimeBetweenShots": 0.6,
-            "TimeToReload": 0.5
+            "TimeToReload": 0.51429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -1967,10 +1981,10 @@
             "TimeToReload": -0.13706
         },
         "stats_percentile": {
-            "DamageArmor": 0.16667,
+            "DamageArmor": 0.18919,
             "RoundsPerMinute": 0.0,
             "TimeBetweenShots": 0.8,
-            "TimeToReload": 0.29412
+            "TimeToReload": 0.31429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -1985,8 +1999,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.27273,
-            "DamageArmor": 0.72222,
-            "TimeToReload": 0.79412
+            "DamageArmor": 0.72973,
+            "TimeToReload": 0.8
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2001,9 +2015,9 @@
             "TimeBetweenShots": -0.17417
         },
         "stats_percentile": {
-            "DamageArmor": 0.13889,
-            "DamageNoArmor": 0.05263,
-            "RoundsPerMinute": 0.36364,
+            "DamageArmor": 0.16216,
+            "DamageNoArmor": 0.05,
+            "RoundsPerMinute": 0.25,
             "TimeBetweenShots": 0.5
         },
         "total_upgrade_cost": {
@@ -2018,9 +2032,9 @@
             "TimeToReload": -0.1018
         },
         "stats_percentile": {
-            "DamageArmor": 0.58333,
-            "DamageNoArmor": 0.57895,
-            "TimeToReload": 0.73529
+            "DamageArmor": 0.59459,
+            "DamageNoArmor": 0.55,
+            "TimeToReload": 0.74286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2034,9 +2048,9 @@
             "TimeToReload": -0.16898
         },
         "stats_percentile": {
-            "DamageArmor": 0.5,
-            "DamageNoArmor": 0.52632,
-            "TimeToReload": 0.20588
+            "DamageArmor": 0.51351,
+            "DamageNoArmor": 0.5,
+            "TimeToReload": 0.2
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2047,12 +2061,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10626,
             "DamageNoArmor": 0.10701,
+            "RoundsPerMinute": 0.11111,
             "TimeToReload": -0.10979
         },
         "stats_percentile": {
-            "DamageArmor": 0.41667,
-            "DamageNoArmor": 0.78947,
-            "TimeToReload": 0.64706
+            "DamageArmor": 0.43243,
+            "DamageNoArmor": 0.75,
+            "RoundsPerMinute": 0.625,
+            "TimeToReload": 0.65714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2067,10 +2083,10 @@
             "TimeToReload": -0.11917
         },
         "stats_percentile": {
-            "DamageArmor": 0.30556,
-            "RoundsPerMinute": 0.18182,
+            "DamageArmor": 0.32432,
+            "RoundsPerMinute": 0.125,
             "TimeBetweenShots": 0.7,
-            "TimeToReload": 0.47059
+            "TimeToReload": 0.48571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2085,8 +2101,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.63636,
-            "DamageArmor": 0.05556,
-            "DamageNoArmor": 0.15789
+            "DamageArmor": 0.05405,
+            "DamageNoArmor": 0.15
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2096,15 +2112,15 @@
     "DA_Module_Weapon_GrenadeLauncher.0": {
         "stats_percent_increase": {
             "DamageArmor": 0.10585,
-            "RoundsPerMinute": 0.16216,
+            "RoundsPerMinute": 0.125,
             "TimeBetweenShots": -0.1358,
             "TimeToReload": -0.12698
         },
         "stats_percentile": {
-            "DamageArmor": 0.86111,
-            "RoundsPerMinute": 0.54545,
+            "DamageArmor": 0.86486,
+            "RoundsPerMinute": 0.5625,
             "TimeBetweenShots": 0.1,
-            "TimeToReload": 0.44118
+            "TimeToReload": 0.45714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2115,12 +2131,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10625,
             "DamageNoArmor": 0.10715,
+            "RoundsPerMinute": 0.06977,
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.47222,
-            "DamageNoArmor": 0.31579,
-            "TimeToReload": 0.91176
+            "DamageArmor": 0.48649,
+            "DamageNoArmor": 0.3,
+            "RoundsPerMinute": 0.9375,
+            "TimeToReload": 0.91429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2135,10 +2153,10 @@
             "TimeToReload": -0.13514
         },
         "stats_percentile": {
-            "DamageArmor": 0.44444,
-            "RoundsPerMinute": 0.09091,
+            "DamageArmor": 0.45946,
+            "RoundsPerMinute": 0.0625,
             "TimeBetweenShots": 0.9,
-            "TimeToReload": 0.32353
+            "TimeToReload": 0.34286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2153,8 +2171,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.0,
-            "DamageArmor": 0.97222,
-            "TimeToReload": 0.26471
+            "DamageArmor": 0.97297,
+            "TimeToReload": 0.28571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2169,10 +2187,10 @@
             "TimeToReload": -0.12844
         },
         "stats_percentile": {
-            "DamageArmor": 0.69444,
-            "RoundsPerMinute": 0.72727,
+            "DamageArmor": 0.7027,
+            "RoundsPerMinute": 0.4375,
             "TimeBetweenShots": 0.3,
-            "TimeToReload": 0.35294
+            "TimeToReload": 0.37143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2187,8 +2205,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.36364,
-            "DamageArmor": 0.27778,
-            "TimeToReload": 0.61765
+            "DamageArmor": 0.2973,
+            "TimeToReload": 0.62857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2202,9 +2220,9 @@
             "TimeToReload": -0.15966
         },
         "stats_percentile": {
-            "DamageArmor": 0.83333,
-            "DamageNoArmor": 0.84211,
-            "TimeToReload": 0.23529
+            "DamageArmor": 0.83784,
+            "DamageNoArmor": 0.8,
+            "TimeToReload": 0.22857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2218,9 +2236,9 @@
             "TimeToReload": -0.10913
         },
         "stats_percentile": {
-            "DamageArmor": 0.66667,
-            "DamageNoArmor": 0.21053,
-            "TimeToReload": 0.67647
+            "DamageArmor": 0.67568,
+            "DamageNoArmor": 0.2,
+            "TimeToReload": 0.68571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -2236,7 +2254,7 @@
         "stats_percentile": {
             "AoeArmor": 0.5,
             "AoeNoArmor": 0.0,
-            "TimeToReload": 0.41176
+            "TimeToReload": 0.42857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2251,8 +2269,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.18182,
-            "DamageArmor": 0.94444,
-            "TimeToReload": 0.85294
+            "DamageArmor": 0.94595,
+            "TimeToReload": 0.85714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -2266,9 +2284,9 @@
             "TimeToReload": -0.17431
         },
         "stats_percentile": {
-            "DamageArmor": 0.02778,
-            "DamageNoArmor": 0.89474,
-            "TimeToReload": 0.17647
+            "DamageArmor": 0.02703,
+            "DamageNoArmor": 0.85,
+            "TimeToReload": 0.17143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2279,14 +2297,12 @@
         "stats_percent_increase": {
             "ClipSize": 0.33333,
             "DamageArmor": 0.13466,
-            "RoundsPerMinute": -0.01377,
             "TimeToReload": -0.17492
         },
         "stats_percentile": {
             "ClipSize": 0.09091,
             "DamageArmor": 0.0,
-            "RoundsPerMinute": 0.90909,
-            "TimeToReload": 0.14706
+            "TimeToReload": 0.14286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2301,8 +2317,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.54545,
-            "DamageArmor": 0.11111,
-            "TimeToReload": 0.76471
+            "DamageArmor": 0.10811,
+            "TimeToReload": 0.77143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2313,12 +2329,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10634,
             "DamageNoArmor": 0.10705,
+            "RoundsPerMinute": 0.07692,
             "TimeToReload": -0.06181
         },
         "stats_percentile": {
-            "DamageArmor": 0.25,
-            "DamageNoArmor": 0.73684,
-            "TimeToReload": 0.97059
+            "DamageArmor": 0.27027,
+            "DamageNoArmor": 0.7,
+            "RoundsPerMinute": 0.8125,
+            "TimeToReload": 0.97143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2332,9 +2350,9 @@
             "TimeToReload": -0.2069
         },
         "stats_percentile": {
-            "DamageArmor": 0.52778,
-            "DamageNoArmor": 0.68421,
-            "TimeToReload": 0.02941
+            "DamageArmor": 0.54054,
+            "DamageNoArmor": 0.65,
+            "TimeToReload": 0.02857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -2349,8 +2367,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.81818,
-            "DamageArmor": 0.63889,
-            "TimeToReload": 0.58824
+            "DamageArmor": 0.64865,
+            "TimeToReload": 0.6
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2365,8 +2383,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.45455,
-            "DamageArmor": 0.08333,
-            "TimeToReload": 0.82353
+            "DamageArmor": 0.08108,
+            "TimeToReload": 0.82857
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2379,7 +2397,7 @@
             "DamageNoArmor": 0.16441
         },
         "stats_percentile": {
-            "DamageArmor": 0.80556,
+            "DamageArmor": 0.81081,
             "DamageNoArmor": 0.0
         },
         "total_upgrade_cost": {
@@ -2396,8 +2414,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.90909,
-            "DamageArmor": 0.88889,
-            "RoundsPerMinute": 0.81818,
+            "DamageArmor": 0.89189,
+            "RoundsPerMinute": 0.6875,
             "TimeBetweenShots": 0.0
         },
         "total_upgrade_cost": {
@@ -2414,9 +2432,9 @@
         },
         "stats_percentile": {
             "AoeArmor": 0.0,
-            "RoundsPerMinute": 0.63636,
+            "RoundsPerMinute": 0.375,
             "TimeBetweenShots": 0.2,
-            "TimeToReload": 0.08824
+            "TimeToReload": 0.08571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2430,9 +2448,9 @@
             "TimeToReload": -0.17544
         },
         "stats_percentile": {
-            "DamageArmor": 0.75,
-            "DamageNoArmor": 0.10526,
-            "TimeToReload": 0.11765
+            "DamageArmor": 0.75676,
+            "DamageNoArmor": 0.1,
+            "TimeToReload": 0.11429
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2447,8 +2465,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.72727,
-            "DamageArmor": 0.91667,
-            "TimeToReload": 0.38235
+            "DamageArmor": 0.91892,
+            "TimeToReload": 0.4
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2459,12 +2477,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10629,
             "DamageNoArmor": 0.10715,
+            "RoundsPerMinute": 0.07692,
             "TimeToReload": -0.06181
         },
         "stats_percentile": {
-            "DamageArmor": 0.33333,
-            "DamageNoArmor": 0.36842,
-            "TimeToReload": 0.94118
+            "DamageArmor": 0.35135,
+            "DamageNoArmor": 0.35,
+            "RoundsPerMinute": 0.75,
+            "TimeToReload": 0.94286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2478,9 +2498,9 @@
             "TimeToReload": -0.19094
         },
         "stats_percentile": {
-            "DamageArmor": 0.36111,
-            "DamageNoArmor": 0.42105,
-            "TimeToReload": 0.05882
+            "DamageArmor": 0.37838,
+            "DamageNoArmor": 0.4,
+            "TimeToReload": 0.05714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2495,10 +2515,10 @@
             "TimeToReload": -0.11137
         },
         "stats_percentile": {
-            "DamageArmor": 0.61111,
-            "RoundsPerMinute": 0.45455,
+            "DamageArmor": 0.62162,
+            "RoundsPerMinute": 0.3125,
             "TimeBetweenShots": 0.4,
-            "TimeToReload": 0.52941
+            "TimeToReload": 0.54286
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,
@@ -2509,12 +2529,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10638,
             "DamageNoArmor": 0.10723,
+            "RoundsPerMinute": 0.06977,
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.19444,
-            "DamageNoArmor": 0.26316,
-            "TimeToReload": 0.88235
+            "DamageArmor": 0.21622,
+            "DamageNoArmor": 0.25,
+            "RoundsPerMinute": 0.875,
+            "TimeToReload": 0.88571
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -2528,9 +2550,25 @@
             "TimeToReload": -0.10221
         },
         "stats_percentile": {
-            "DamageArmor": 0.77778,
-            "DamageNoArmor": 0.63158,
-            "TimeToReload": 0.70588
+            "DamageArmor": 0.78378,
+            "DamageNoArmor": 0.6,
+            "TimeToReload": 0.71429
+        },
+        "total_upgrade_cost": {
+            "DA_Meta_Currency_Alloys": 371200,
+            "DA_Meta_Currency_Intel": 800
+        }
+    },
+    "DA_Module_Weapon_Zenit.0": {
+        "stats_percent_increase": {
+            "DamageArmor": 0.10678,
+            "DamageNoArmor": 0.08481,
+            "TimeToReload": -0.1453
+        },
+        "stats_percentile": {
+            "DamageArmor": 0.13514,
+            "DamageNoArmor": 0.9,
+            "TimeToReload": 0.25714
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
@@ -2541,12 +2579,14 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10635,
             "DamageNoArmor": 0.10714,
+            "RoundsPerMinute": 0.13333,
             "TimeToReload": -0.11111
         },
         "stats_percentile": {
-            "DamageArmor": 0.22222,
-            "DamageNoArmor": 0.47368,
-            "TimeToReload": 0.55882
+            "DamageArmor": 0.24324,
+            "DamageNoArmor": 0.45,
+            "RoundsPerMinute": 0.5,
+            "TimeToReload": 0.57143
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 278400,

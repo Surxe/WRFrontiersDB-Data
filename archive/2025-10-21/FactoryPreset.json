@@ -50,12 +50,13 @@
     },
     "DA_Preset_DevbotCeres.0": {
         "id": "DA_Preset_DevbotCeres.0",
-        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotCeres",
         "name": {
             "Key": "CMP_name_Demeter_Torso",
             "TableNamespace": "Component_name",
             "en": "Ceres"
         },
+        "production_status": true,
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisDemeter.2",
@@ -109,6 +110,7 @@
             "TableNamespace": "Component_name",
             "en": "Mesa"
         },
+        "production_status": true,
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisMesa.2",
@@ -1803,6 +1805,7 @@
             "TableNamespace": "Component_name",
             "en": "Loki"
         },
+        "production_status": true,
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisLoki.2",
