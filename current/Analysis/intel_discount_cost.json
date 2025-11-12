@@ -1,0 +1,89 @@
+{
+    "DA_ModuleRarity_Common.0": {
+        "levels": {
+            "3": {
+                "cost": 6,
+                "difference": -14,
+                "percent_difference": -0.7
+            },
+            "5": {
+                "cost": 12,
+                "difference": -28,
+                "percent_difference": -0.7
+            },
+            "9": {
+                "cost": 33,
+                "difference": -77,
+                "percent_difference": -0.7
+            },
+            "13": {
+                "cost": 100,
+                "difference": -130,
+                "percent_difference": -0.56522
+            }
+        },
+        "cumulative": {
+            "cost": 151,
+            "difference": -249,
+            "percent_difference": -0.6225
+        }
+    },
+    "DA_ModuleRarity_Rare.0": {
+        "levels": {
+            "3": {
+                "cost": 12,
+                "difference": -28,
+                "percent_difference": -0.7
+            },
+            "5": {
+                "cost": 24,
+                "difference": -56,
+                "percent_difference": -0.7
+            },
+            "9": {
+                "cost": 66,
+                "difference": -154,
+                "percent_difference": -0.7
+            },
+            "13": {
+                "cost": 200,
+                "difference": -260,
+                "percent_difference": -0.56522
+            }
+        },
+        "cumulative": {
+            "cost": 302,
+            "difference": -498,
+            "percent_difference": -0.6225
+        }
+    },
+    "DA_ModuleRarity_Uncommon.0": {
+        "levels": {
+            "3": {
+                "cost": 9,
+                "difference": -21,
+                "percent_difference": -0.7
+            },
+            "5": {
+                "cost": 18,
+                "difference": -42,
+                "percent_difference": -0.7
+            },
+            "9": {
+                "cost": 50,
+                "difference": -115,
+                "percent_difference": -0.69697
+            },
+            "13": {
+                "cost": 150,
+                "difference": -195,
+                "percent_difference": -0.56522
+            }
+        },
+        "cumulative": {
+            "cost": 227,
+            "difference": -373,
+            "percent_difference": -0.62167
+        }
+    }
+}
