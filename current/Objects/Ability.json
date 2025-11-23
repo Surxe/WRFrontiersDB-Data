@@ -33,7 +33,8 @@
             "ConfirmationAction": {
                 "MaxTargetingDistance": 25000.0,
                 "bIgnoreTypeOfTeamAttitude": true,
-                "bCanBePlacedOnWalls": true
+                "bCanBePlacedOnWalls": true,
+                "bLockOnActor": true
             }
         },
         "projectile_types": [
@@ -437,6 +438,7 @@
                     ]
                 },
                 "bPassThroughShields": true,
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 70000.0,
                 "MaxDistanceSettings": 70001.0,
@@ -806,6 +808,7 @@
         },
         "misc": {
             "ActiveStateBuffs": {
+                "bRegenInAbsoulute": false,
                 "ArmorRegenPerSecond": 10.0,
                 "RegenInterval": 0.016667,
                 "bRemoveOnDamage": false,
@@ -851,6 +854,7 @@
         },
         "misc": {
             "ActiveStateBuffs": {
+                "bRegenInAbsoulute": false,
                 "ArmorRegenPerSecond": 10.0,
                 "RegenInterval": 0.016667,
                 "bRemoveOnDamage": false,
@@ -871,91 +875,6 @@
             "bStartWithMaxCharges": false
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_FullArmorRepairing"
-    },
-    "BP_Ability_Repulsor.2": {
-        "id": "BP_Ability_Repulsor.2",
-        "misc": {
-            "ImpulsePower": 500000.0,
-            "VerticalImpulsePowerRatio": 0.4,
-            "MinVerticalImpulsePower": 70000.0,
-            "PrimaryParameter": 7000.0,
-            "SecondaryParameter": 10000.0
-        },
-        "projectile_types": [
-            {
-                "MovementComponent": {
-                    "InitialSpeed": 80000.0,
-                    "MaxSpeed": 80000.0
-                },
-                "DirectDamage": {
-                    "DamageArmor": 1000.0,
-                    "DamageShield": 1000.0
-                },
-                "AoeDamage": {
-                    "Axis": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 3000.0
-                    },
-                    "DistToDamage": [
-                        {
-                            "Time": 0.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 1.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 5000.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 5500.0,
-                            "Value": 0.1,
-                            "InterpMode": "RCIM_Linear"
-                        }
-                    ]
-                },
-                "CorpseTime": 0.2,
-                "CorpseVisible": true,
-                "ExpansionDistanceSettings": 1.0,
-                "EffectiveDistanceSettings": 20000.0,
-                "MaxDistanceSettings": 20000.0,
-                "DeathDistanceSettings": 20010.0,
-                "PushingSettings": {
-                    "VerticalImpulsePowerRatio": 0.4,
-                    "MinVerticalImpulsePower": 70000.0,
-                    "ImpulsePower": 500000.0
-                },
-                "InitialLifeSpan": 0.0,
-                "SpawnSocketName": "Ability"
-            }
-        ],
-        "ai": {
-            "conditions": [
-                {
-                    "bCheckSelf": true
-                }
-            ]
-        },
-        "name": {
-            "Key": "ABL_name_Repulsor",
-            "TableNamespace": "Ability_name",
-            "en": "Repulsor"
-        },
-        "description": {
-            "Key": "ABL_descr_Repulsor",
-            "TableNamespace": "Ability_descripton",
-            "en": "Deals {Dmg} damage to enemies, and pushes them and you away from each other with {Force} force. Cooldown: {CD}. {Consum} uses."
-        },
-        "cooldown": {
-            "Cooldown": 20.0
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Repulsor"
     },
     "BP_Ability_SmokeWall.2": {
         "id": "BP_Ability_SmokeWall.2",
@@ -1004,6 +923,7 @@
                         }
                     ]
                 },
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 3999.0,
                 "MaxDistanceSettings": 3999.0,
@@ -1039,6 +959,7 @@
                         }
                     ]
                 },
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 3999.0,
                 "MaxDistanceSettings": 3999.0,
@@ -1074,6 +995,7 @@
                         }
                     ]
                 },
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 3999.0,
                 "MaxDistanceSettings": 3999.0,
@@ -1109,6 +1031,7 @@
                         }
                     ]
                 },
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 3999.0,
                 "MaxDistanceSettings": 3999.0,
@@ -1144,6 +1067,7 @@
                         }
                     ]
                 },
+                "CollisionProfileName": "ProjectileBlockWorldStatic",
                 "ExpansionDistanceSettings": 1.0,
                 "EffectiveDistanceSettings": 3999.0,
                 "MaxDistanceSettings": 3999.0,
@@ -1212,24 +1136,12 @@
         },
         "misc": {
             "ActiveStateBuffs": {
-                "SpeedMultiplier": 1.7,
-                "Modifiers": [
-                    {
-                        "what": "MaxSpeed",
-                        "operator": "Multiply",
-                        "value": 1.7
-                    },
-                    {
-                        "what": "MaxAcceleration",
-                        "operator": "Multiply",
-                        "value": 1.5
-                    }
-                ],
+                "SpeedIncrement": 1425.0,
                 "StackMode": "Reset"
             },
             "InitialDuration": 3.5,
-            "PrimaryParameter": 3.5,
-            "SecondaryParameter": 1.7
+            "PrimaryParameter": 6.0,
+            "SecondaryParameter": 1425.0
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_SpeedBoost"
     },
@@ -4479,7 +4391,8 @@
             "TargetingActionWithConfirmation": {
                 "MaxTargetingDistance": 30000.0,
                 "bIgnoreTypeOfTeamAttitude": true,
-                "bCanBePlacedOnWalls": true
+                "bCanBePlacedOnWalls": true,
+                "bLockOnActor": true
             }
         },
         "ai": {
@@ -5111,168 +5024,6 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_RoundTable"
-    },
-    "BP_Module_Loki_Chassis.1": {
-        "id": "BP_Module_Loki_Chassis.1",
-        "misc": {
-            "Actions": [
-                {
-                    "CanStartMidair": false,
-                    "Duration": 1.0,
-                    "MaxSpeedModifier": {
-                        "Value": 3000.0,
-                        "Type": "Add"
-                    }
-                },
-                {
-                    "StartImpulse": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 700.0
-                    }
-                },
-                {
-                    "Duration": 0.3,
-                    "VerticalAcceleration": 1400.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 4500.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "Duration": 0.6,
-                    "RequestedDirectionAcceleration": 5000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5500.0,
-                    "MinSpeedToStartAction": 2100.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 8000.0,
-                    "VelocityThreshold": 2200.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 8000.0,
-                    "VelocityThreshold": 2200.0
-                },
-                {
-                    "Duration": 0.6,
-                    "RequestedDirectionAcceleration": 5000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5500.0,
-                    "MinSpeedToStartAction": 2100.0
-                },
-                {
-                    "CanStartOnGround": true,
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 1.0,
-                    "bBlocksAirControl": true
-                }
-            ],
-            "InitialDuration": 1.2,
-            "bAllowStatsReporting": false,
-            "UsageFuelCost": 6.0,
-            "FuelConsumptionDuration": 1.2,
-            "MinimumDuration": 1.2
-        },
-        "name": {
-            "Key": "ABL_name_Dash",
-            "TableNamespace": "Ability_name",
-            "en": "Dash Thrusters"
-        },
-        "description": {
-            "Key": "ABL_descr_Dash",
-            "TableNamespace": "Ability_descripton",
-            "en": "Dash in a direction you're facing. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 1.5
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
-    },
-    "BP_Module_Loki_Chassis.2": {
-        "id": "BP_Module_Loki_Chassis.2",
-        "misc": {
-            "JumpFuelCost": 2.0,
-            "FuelCostToStartAirborne": 2.0,
-            "JumpTime": 1.1,
-            "JetpackMaxVerticalSpeed": 3000000.0,
-            "bOverrideAirControl": true,
-            "AirControl": 0.5,
-            "JetpackStartVerticalImpulse": 0.0,
-            "JetpackJumpAccelerationForce": 280000.0,
-            "bAllowStatsReporting": false,
-            "FuelUsagePerSecond": 6.0,
-            "VerticalAccelerationForceCurve": [
-                {
-                    "Time": 0.0,
-                    "Value": 140000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 0.1,
-                    "Value": 70000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 1200.0,
-                    "Value": 15000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 3000.0,
-                    "Value": 0.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 3000.0,
-                    "Value": 0.0,
-                    "InterpMode": "RCIM_Linear"
-                }
-            ],
-            "AirControlBoostMultiplier": 0.75,
-            "AirControlBoostVelocityThreshold": 1000.0,
-            "JumpMovementMode": "MOVE_Falling"
-        },
-        "name": {
-            "Key": "ABL_name_Jetpack",
-            "TableNamespace": "Ability_name",
-            "en": "Jump Jet"
-        },
-        "description": {
-            "Key": "ABL_descr_Jetpack",
-            "TableNamespace": "Ability_descripton",
-            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 15.0,
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
-    },
-    "BP_Module_Loki_Torso.1": {
-        "id": "BP_Module_Loki_Torso.1",
-        "misc": {
-            "CloneSpawnLocationOffset": -500.0,
-            "EffectType": "Defensive",
-            "InitialDuration": 8.0,
-            "PrimaryParameter": 8.0,
-            "SecondaryParameter": 40000.0
-        },
-        "name": {
-            "Key": "ABL_name_Trick",
-            "TableNamespace": "Ability_name",
-            "en": "Holographic Decoy"
-        },
-        "description": {
-            "Key": "ABL_descr_Trick",
-            "TableNamespace": "Ability_descripton",
-            "en": "Makes you invisible and projects your copy for {ActDuration}. The decoy has {ActEfficiency} more armor and shields. Cooldown: {CD}"
-        },
-        "cooldown": {
-            "Cooldown": 35.0,
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Trick"
     },
     "BP_Module_Matriarch_Chassis.1": {
         "id": "BP_Module_Matriarch_Chassis.1",
@@ -6504,224 +6255,6 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_SharpFeathers"
     },
-    "BP_Module_Scorpion_Chassis.1": {
-        "id": "BP_Module_Scorpion_Chassis.1",
-        "misc": {
-            "Actions": [
-                {
-                    "CanStartMidair": false,
-                    "Duration": 1.0,
-                    "MaxSpeedModifier": {
-                        "Value": 3000.0,
-                        "Type": "Add"
-                    }
-                },
-                {
-                    "StartImpulse": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 700.0
-                    }
-                },
-                {
-                    "Duration": 0.3,
-                    "VerticalAcceleration": 1400.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 4500.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "Duration": 0.6,
-                    "RequestedDirectionAcceleration": 5000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5500.0,
-                    "MinSpeedToStartAction": 2100.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 8000.0,
-                    "VelocityThreshold": 2200.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 8000.0,
-                    "VelocityThreshold": 2200.0
-                },
-                {
-                    "Duration": 0.6,
-                    "RequestedDirectionAcceleration": 5000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5500.0,
-                    "MinSpeedToStartAction": 2100.0
-                },
-                {
-                    "CanStartOnGround": true,
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 1.0,
-                    "bBlocksAirControl": true
-                }
-            ],
-            "InitialDuration": 1.2,
-            "bAllowStatsReporting": false,
-            "UsageFuelCost": 6.0,
-            "FuelConsumptionDuration": 1.2,
-            "MinimumDuration": 1.2
-        },
-        "name": {
-            "Key": "ABL_name_Dash",
-            "TableNamespace": "Ability_name",
-            "en": "Dash Thrusters"
-        },
-        "description": {
-            "Key": "ABL_descr_Dash",
-            "TableNamespace": "Ability_descripton",
-            "en": "Dash in a direction you're facing. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 1.5
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
-    },
-    "BP_Module_Scorpion_Chassis.2": {
-        "id": "BP_Module_Scorpion_Chassis.2",
-        "misc": {
-            "JumpFuelCost": 2.0,
-            "FuelCostToStartAirborne": 2.0,
-            "JumpTime": 1.1,
-            "JetpackMaxVerticalSpeed": 3000000.0,
-            "bOverrideAirControl": true,
-            "AirControl": 0.5,
-            "JetpackStartVerticalImpulse": 0.0,
-            "JetpackJumpAccelerationForce": 280000.0,
-            "bAllowStatsReporting": false,
-            "FuelUsagePerSecond": 6.0,
-            "VerticalAccelerationForceCurve": [
-                {
-                    "Time": 0.0,
-                    "Value": 140000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 0.1,
-                    "Value": 70000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 1200.0,
-                    "Value": 15000.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 3000.0,
-                    "Value": 0.0,
-                    "InterpMode": "RCIM_Linear"
-                },
-                {
-                    "Time": 3000.0,
-                    "Value": 0.0,
-                    "InterpMode": "RCIM_Linear"
-                }
-            ],
-            "AirControlBoostMultiplier": 0.75,
-            "AirControlBoostVelocityThreshold": 1000.0,
-            "JumpMovementMode": "MOVE_Falling"
-        },
-        "name": {
-            "Key": "ABL_name_Jetpack",
-            "TableNamespace": "Ability_name",
-            "en": "Jump Jet"
-        },
-        "description": {
-            "Key": "ABL_descr_Jetpack",
-            "TableNamespace": "Ability_descripton",
-            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 15.0,
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
-    },
-    "BP_Module_Scorpion_Torso.1": {
-        "id": "BP_Module_Scorpion_Torso.1",
-        "targeting": {
-            "ConfirmationAction": {
-                "ConeRadius": 17000.0,
-                "ConeHalfAngleInDegrees": 15.0,
-                "MaxTargetNum": 1
-            }
-        },
-        "projectile_types": [
-            {
-                "MovementComponent": {
-                    "InitialSpeed": 10000.0,
-                    "MaxSpeed": 50000.0,
-                    "bIsHomingProjectile": true,
-                    "ProjectileGravityScale": 0.0
-                },
-                "BuffsOnHit": {
-                    "DirectDamagePerSecond": {
-                        "DamageArmor": 5000.0,
-                        "DamageShield": 3000.0
-                    },
-                    "TickInterval": 500.0,
-                    "Lifetime": 5.0,
-                    "StackMode": "StackPerModule"
-                },
-                "DirectDamage": {
-                    "DamageArmor": 30000.0,
-                    "DamageShield": 0.0
-                },
-                "AoeDamage": {
-                    "Radius": 0.0,
-                    "DamageArmor": 0.0,
-                    "DamageShield": 0.0,
-                    "DistToDamage": [
-                        {
-                            "Time": 0.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 70000.0,
-                            "Value": 1.0,
-                            "InterpMode": "RCIM_Linear"
-                        },
-                        {
-                            "Time": 70001.0,
-                            "Value": 0.1,
-                            "InterpMode": "RCIM_Linear"
-                        }
-                    ]
-                },
-                "ExpansionDistanceSettings": 1.0,
-                "EffectiveDistanceSettings": 70000.0,
-                "MaxDistanceSettings": 70001.0,
-                "DeathDistanceSettings": 100002.0,
-                "InitialLifeSpan": 10.0,
-                "SpawnSocketName": "Torso_Tail05_Center"
-            }
-        ],
-        "name": {
-            "Key": "ABL_name_Whiplash",
-            "TableNamespace": "Ability_name",
-            "en": "Whiplash"
-        },
-        "description": {
-            "Key": "ABL_descr_Whiplash",
-            "TableNamespace": "Ability_descripton",
-            "en": "A homing projectile deals {Dmg} damage on hit and then {Burning} per second to all modules. Recharges if target is destroyed while active, otherwise Cooldown: {CD}"
-        },
-        "misc": {
-            "PrimaryParameter": 30000.0,
-            "SecondaryParameter": 1000.0,
-            "EffectType": "Attacking",
-            "bDeactivateIfOwnerDie": true
-        },
-        "cooldown": {
-            "Cooldown": 25.0
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Backstab"
-    },
     "BP_Module_Siren_Chassis.1": {
         "id": "BP_Module_Siren_Chassis.1",
         "misc": {
@@ -7696,7 +7229,8 @@
                 "TypeOfTeamAttitude": [
                     "Friendly"
                 ],
-                "bCanBePlacedOnWalls": true
+                "bCanBePlacedOnWalls": true,
+                "bLockOnActor": true
             }
         },
         "ai": {
