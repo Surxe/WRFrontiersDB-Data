@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Devasa patlama alanı olan bir bomba yerleştirir. Basit, etkili ve tahripkâr.",
         "ABL_descr_InstantReload": "{CastDuration} gecikme ardından {AmmoPerc} cephane doldurur.",
         "ABL_descr_InfiniteAmmo": "{CastDuration} gecikmeden sonra {Duration} boyunca sonsuz cephane verir.",
-        "ABL_descr_Stealth": "{FadeSpeed} sonra seni {Duration} boyunca görünmez yapar.",
         "ABL_descr_FullRegeneration": "Tüm modüller döngü başına %{RegenSpeed} zırh yeniler. {Duration} sürer.",
         "ABL_descr_StickySensor": "Katı yüzeylere yapışan bir aygıt atar. Aygıt {ActDuration} boyunca {ActRadius} dahilindeki düşmanları ortaya çıkarır, görünmez olsalar bile.",
         "ABL_descr_TensionLink": "{ActDuration} Boyunca düşman üzerine kilitlenerek saniyede en fazla {Dmg} hasar verir. Hasar uzaklığa göre ölçeklenir.",
@@ -2576,9 +2575,6 @@
         "Daily_Freecon_WinBattlesFreeconGuns_Goal": "Kinetik silah kullanarak {Limit} hasar ver",
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Enerji silahı kullanarak {Limit} hasar ver",
         "Daily_Freecon_WinBattles_Goal": "{Limit} hasar ver"
-    },
-    "ST_RatingSeason_Name": {
-        "Season1": "1. Sezon"
     },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Devir Teçhizatı Ekle",
@@ -5183,8 +5179,6 @@
         "BattlePass_SalePrice": "Satış Fiyatı:",
         "BattlePass_S2A1_Title": "Kaçakçının Vurgunu",
         "BattlePass_Season1": "1. Sezon",
-        "BattlePass_S1A1_Header": "1. Sezon 1. Bölüm",
-        "BattlePass_S1A2_Header": "1. Sezon 2. Bölüm",
         "BattlePass_S2A1_Header": "2. Sezon 1. Bölüm",
         "BattlePass_S2A2_Header": "2. Sezon 2. Bölüm",
         "BattlePass_S1A2_Title": "Kaçakçının Kaçışı",
@@ -5240,6 +5234,7 @@
         "HNG_Abilities": "Teçhizat",
         "LockedSlotWarningAccess": "Eriş",
         "HNG_All": "Tümü",
+        "HNG_ModuleSocketTypeHeavyWeapon": "Tüm silahlar",
         "HNG_DeletePresetDialogue": "Bunu silmek istediğine emin misin?",
         "Character_Dismantle_Description": "Bu robotu parçalayacak mısın?",
         "Character_Reset_Description": "Tüm değişiklikleri sıfırlayacak mısın?",

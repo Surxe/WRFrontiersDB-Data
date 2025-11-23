@@ -24002,6 +24002,28 @@
             "default_scalars": {
                 "AoeDamage": {
                     "Radius": 800.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DistToDamage": [
                         {
                             "Time": 0.0,
@@ -24920,9 +24942,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl1_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl1_scrap2"
                         ],
-                        "DamageArmor": 314.0,
-                        "DamageNoArmor": 300.0,
-                        "ClipSize": 54
+                        "DamageArmor": 343.0,
+                        "DamageNoArmor": 307.0,
+                        "ClipSize": 58
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl2",
@@ -24930,9 +24952,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl2_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl2_scrap2"
                         ],
-                        "DamageArmor": 330.0,
-                        "DamageNoArmor": 300.0,
-                        "ClipSize": 54
+                        "DamageArmor": 352.0,
+                        "DamageNoArmor": 307.0,
+                        "ClipSize": 58
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl3",
@@ -24940,9 +24962,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl3_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl3_scrap2"
                         ],
-                        "DamageArmor": 330.0,
-                        "DamageNoArmor": 300.0,
-                        "ClipSize": 60
+                        "DamageArmor": 352.0,
+                        "DamageNoArmor": 307.0,
+                        "ClipSize": 61
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl4",
@@ -24950,9 +24972,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl4_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl4_scrap2"
                         ],
-                        "DamageArmor": 347.0,
-                        "DamageNoArmor": 300.0,
-                        "ClipSize": 60
+                        "DamageArmor": 361.0,
+                        "DamageNoArmor": 307.0,
+                        "ClipSize": 61
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl5",
@@ -24960,9 +24982,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl5_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl5_scrap2"
                         ],
-                        "DamageArmor": 347.0,
-                        "DamageNoArmor": 316.0,
-                        "ClipSize": 60
+                        "DamageArmor": 361.0,
+                        "DamageNoArmor": 320.0,
+                        "ClipSize": 61
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl6",
@@ -24970,9 +24992,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl6_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl6_scrap2"
                         ],
-                        "DamageArmor": 365.0,
-                        "DamageNoArmor": 316.0,
-                        "ClipSize": 60
+                        "DamageArmor": 366.0,
+                        "DamageNoArmor": 320.0,
+                        "ClipSize": 61
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl7",
@@ -24980,9 +25002,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl7_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl7_scrap2"
                         ],
-                        "DamageArmor": 365.0,
-                        "DamageNoArmor": 316.0,
-                        "ClipSize": 65
+                        "DamageArmor": 366.0,
+                        "DamageNoArmor": 320.0,
+                        "ClipSize": 64
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl8",
@@ -24990,9 +25012,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl8_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl8_scrap2"
                         ],
-                        "DamageArmor": 384.0,
-                        "DamageNoArmor": 316.0,
-                        "ClipSize": 65
+                        "DamageArmor": 372.0,
+                        "DamageNoArmor": 320.0,
+                        "ClipSize": 64
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl9",
@@ -25000,9 +25022,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl9_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl9_scrap2"
                         ],
-                        "DamageArmor": 384.0,
-                        "DamageNoArmor": 333.0,
-                        "ClipSize": 65
+                        "DamageArmor": 372.0,
+                        "DamageNoArmor": 332.0,
+                        "ClipSize": 64
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl10",
@@ -25010,9 +25032,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl10_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl10_scrap2"
                         ],
-                        "DamageArmor": 404.0,
-                        "DamageNoArmor": 333.0,
-                        "ClipSize": 65
+                        "DamageArmor": 376.0,
+                        "DamageNoArmor": 332.0,
+                        "ClipSize": 64
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl11",
@@ -25020,9 +25042,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl11_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl11_scrap2"
                         ],
-                        "DamageArmor": 404.0,
-                        "DamageNoArmor": 333.0,
-                        "ClipSize": 68
+                        "DamageArmor": 376.0,
+                        "DamageNoArmor": 332.0,
+                        "ClipSize": 66
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl12",
@@ -25030,9 +25052,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl12_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl12_scrap2"
                         ],
-                        "DamageArmor": 425.0,
-                        "DamageNoArmor": 333.0,
-                        "ClipSize": 68
+                        "DamageArmor": 380.0,
+                        "DamageNoArmor": 332.0,
+                        "ClipSize": 66
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_Gozer.0_lvl13",
@@ -25040,9 +25062,9 @@
                             "DA_Module_Weapon_Gozer.0_lvl13_scrap1",
                             "DA_Module_Weapon_Gozer.0_lvl13_scrap2"
                         ],
-                        "DamageArmor": 425.0,
-                        "DamageNoArmor": 350.0,
-                        "ClipSize": 68
+                        "DamageArmor": 380.0,
+                        "DamageNoArmor": 340.0,
+                        "ClipSize": 66
                     }
                 ]
             },
@@ -25100,6 +25122,28 @@
                 },
                 "AoeDamage": {
                     "Radius": 3000.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DamageArmor": 290.0,
                     "DamageShield": 220.0,
                     "DistToDamage": [
@@ -25942,6 +25986,48 @@
                 },
                 "AoeDamage": {
                     "Radius": 3000.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftShoulder'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftShoulder.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Torso'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Torso.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightShoulder'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightShoulder.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Torso'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Torso.0"
+                            }
+                        }
+                    ],
                     "DamageArmor": 290.0,
                     "DamageShield": 220.0,
                     "DistToDamage": [
@@ -26167,6 +26253,7 @@
                 },
                 "AoeDamage": {
                     "Radius": 400.0,
+                    "bTraceRobots": false,
                     "DamageArmor": 350.0,
                     "DamageShield": 120.0,
                     "DistToDamage": [
@@ -28412,6 +28499,28 @@
                 },
                 "AoeDamage": {
                     "Radius": 1000.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DamageArmor": 1000.0,
                     "DamageShield": 900.0,
                     "DistToDamage": [
@@ -28458,7 +28567,7 @@
                     "DamageArmor": 21.0,
                     "DamageNoArmor": 21.0,
                     "AoeNoArmor": 517.0,
-                    "ProjectileSpeed": 27500.0,
+                    "ProjectileSpeed": 28000.0,
                     "ClipSize": 6,
                     "ProjectilesPerShot": 1,
                     "ID": "StickyGun",
@@ -28473,10 +28582,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl1_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl1_scrap2"
                         ],
-                        "AoeArmor": 1565.0,
-                        "TimeToReload": 3.78,
-                        "TimeBetweenShots": 0.608,
-                        "RoundsPerMinute": 99.0
+                        "AoeArmor": 1627.0,
+                        "TimeToReload": 3.64,
+                        "TimeBetweenShots": 0.521,
+                        "RoundsPerMinute": 115.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl2",
@@ -28484,10 +28593,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl2_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl2_scrap2"
                         ],
-                        "AoeArmor": 1630.0,
-                        "TimeToReload": 3.78,
-                        "TimeBetweenShots": 0.608,
-                        "RoundsPerMinute": 99.0
+                        "AoeArmor": 1669.0,
+                        "TimeToReload": 3.64,
+                        "TimeBetweenShots": 0.521,
+                        "RoundsPerMinute": 115.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl3",
@@ -28495,10 +28604,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl3_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl3_scrap2"
                         ],
-                        "AoeArmor": 1630.0,
-                        "TimeToReload": 3.5,
-                        "TimeBetweenShots": 0.608,
-                        "RoundsPerMinute": 99.0
+                        "AoeArmor": 1669.0,
+                        "TimeToReload": 3.37,
+                        "TimeBetweenShots": 0.521,
+                        "RoundsPerMinute": 115.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl4",
@@ -28506,10 +28615,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl4_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl4_scrap2"
                         ],
-                        "AoeArmor": 1698.0,
-                        "TimeToReload": 3.5,
-                        "TimeBetweenShots": 0.608,
-                        "RoundsPerMinute": 99.0
+                        "AoeArmor": 1712.0,
+                        "TimeToReload": 3.37,
+                        "TimeBetweenShots": 0.521,
+                        "RoundsPerMinute": 115.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl5",
@@ -28517,10 +28626,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl5_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl5_scrap2"
                         ],
-                        "AoeArmor": 1698.0,
-                        "TimeToReload": 3.5,
-                        "TimeBetweenShots": 0.529,
-                        "RoundsPerMinute": 113.0
+                        "AoeArmor": 1712.0,
+                        "TimeToReload": 3.37,
+                        "TimeBetweenShots": 0.496,
+                        "RoundsPerMinute": 121.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl6",
@@ -28528,10 +28637,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl6_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl6_scrap2"
                         ],
-                        "AoeArmor": 1769.0,
-                        "TimeToReload": 3.5,
-                        "TimeBetweenShots": 0.529,
-                        "RoundsPerMinute": 113.0
+                        "AoeArmor": 1738.0,
+                        "TimeToReload": 3.37,
+                        "TimeBetweenShots": 0.496,
+                        "RoundsPerMinute": 121.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl7",
@@ -28539,10 +28648,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl7_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl7_scrap2"
                         ],
-                        "AoeArmor": 1769.0,
-                        "TimeToReload": 3.24,
-                        "TimeBetweenShots": 0.529,
-                        "RoundsPerMinute": 113.0
+                        "AoeArmor": 1738.0,
+                        "TimeToReload": 3.15,
+                        "TimeBetweenShots": 0.496,
+                        "RoundsPerMinute": 121.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl8",
@@ -28550,10 +28659,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl8_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl8_scrap2"
                         ],
-                        "AoeArmor": 1843.0,
-                        "TimeToReload": 3.24,
-                        "TimeBetweenShots": 0.529,
-                        "RoundsPerMinute": 113.0
+                        "AoeArmor": 1764.0,
+                        "TimeToReload": 3.15,
+                        "TimeBetweenShots": 0.496,
+                        "RoundsPerMinute": 121.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl9",
@@ -28561,10 +28670,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl9_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl9_scrap2"
                         ],
-                        "AoeArmor": 1843.0,
-                        "TimeToReload": 3.24,
-                        "TimeBetweenShots": 0.46,
-                        "RoundsPerMinute": 130.0
+                        "AoeArmor": 1764.0,
+                        "TimeToReload": 3.15,
+                        "TimeBetweenShots": 0.473,
+                        "RoundsPerMinute": 127.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl10",
@@ -28572,10 +28681,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl10_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl10_scrap2"
                         ],
-                        "AoeArmor": 1920.0,
-                        "TimeToReload": 3.24,
-                        "TimeBetweenShots": 0.46,
-                        "RoundsPerMinute": 130.0
+                        "AoeArmor": 1782.0,
+                        "TimeToReload": 3.15,
+                        "TimeBetweenShots": 0.473,
+                        "RoundsPerMinute": 127.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl11",
@@ -28583,10 +28692,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl11_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl11_scrap2"
                         ],
-                        "AoeArmor": 1920.0,
+                        "AoeArmor": 1782.0,
                         "TimeToReload": 3.0,
-                        "TimeBetweenShots": 0.46,
-                        "RoundsPerMinute": 130.0
+                        "TimeBetweenShots": 0.473,
+                        "RoundsPerMinute": 127.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl12",
@@ -28594,10 +28703,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl12_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl12_scrap2"
                         ],
-                        "AoeArmor": 2000.0,
+                        "AoeArmor": 1800.0,
                         "TimeToReload": 3.0,
-                        "TimeBetweenShots": 0.46,
-                        "RoundsPerMinute": 130.0
+                        "TimeBetweenShots": 0.473,
+                        "RoundsPerMinute": 127.0
                     },
                     {
                         "upgrade_cost_id": "DA_Module_Weapon_StickyGun.0_lvl13",
@@ -28605,10 +28714,10 @@
                             "DA_Module_Weapon_StickyGun.0_lvl13_scrap1",
                             "DA_Module_Weapon_StickyGun.0_lvl13_scrap2"
                         ],
-                        "AoeArmor": 2000.0,
+                        "AoeArmor": 1800.0,
                         "TimeToReload": 3.0,
-                        "TimeBetweenShots": 0.4,
-                        "RoundsPerMinute": 150.0
+                        "TimeBetweenShots": 0.45,
+                        "RoundsPerMinute": 133.0
                     }
                 ]
             },
@@ -28906,7 +29015,30 @@
                 },
                 "AoeDamage": {
                     "Radius": 250.0,
+                    "bTraceRobots": false,
                     "UnconditionalRadius": 250.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DamageArmor": 220.0,
                     "DamageShield": 190.0,
                     "DistToDamage": [
@@ -29362,6 +29494,29 @@
                 },
                 "AoeDamage": {
                     "Radius": 450.0,
+                    "bTraceRobots": false,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DistToDamage": [
                         {
                             "Time": 0.0,
@@ -29827,6 +29982,29 @@
                 },
                 "AoeDamage": {
                     "Radius": 350.0,
+                    "bTraceRobots": false,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
                     "DistToDamage": [
                         {
                             "Time": 0.0,

@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Posiciona uma bomba com uma área de explosão enorme. Simples, eficiente e devastador.",
         "ABL_descr_InstantReload": "Recupera {AmmoPerc} da munição após um atraso de {CastDuration}.",
         "ABL_descr_InfiniteAmmo": "Após {CastDuration} da ativação, concede munição ilimitada por {Duration}.",
-        "ABL_descr_Stealth": "Após um atraso de {FadeSpeed}, você fica invisível por {Duration}.",
         "ABL_descr_FullRegeneration": "Repara todos os módulos em {RegenSpeed}% da armadura por ciclo. Dura {Duration}.",
         "ABL_descr_StickySensor": "Lança um aparelho que gruda em superfícies sólidas. Ele revela os inimigos dentro de {ActRadius} por {ActDuration}, mesmo que estejam invisíveis.",
         "ABL_descr_TensionLink": "Trava no inimigo por {ActDuration}, causando até {Dmg} de dano por segundo. O dano aumenta com a proximidade.",
@@ -2618,9 +2617,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Cause {Limit} de dano usando armas de energia",
         "Daily_Freecon_WinBattles_Goal": "Cause {Limit} de dano"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "Temporada 1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Adicionar equipamento de turno",
         "ETXT_Add_Chassis": "Adicionar Chassis",
@@ -5223,8 +5219,6 @@
         "BattlePass_SalePrice": "Valor em promoção:",
         "BattlePass_S2A1_Title": "Tesouro do Ferro-Velho",
         "BattlePass_Season1": "Temporada 1",
-        "BattlePass_S1A1_Header": "Temporada 1 Ato 1",
-        "BattlePass_S1A2_Header": "Temporada 1 Ato 2",
         "BattlePass_S2A1_Header": "Temporada 2. Ato 1",
         "BattlePass_S2A2_Header": "Temporada 2. Ato 2",
         "BattlePass_S1A2_Title": "Rota do Contrabandista",
@@ -5281,6 +5275,7 @@
         "HNG_Abilities": "Equipamento",
         "LockedSlotWarningAccess": "Acesso",
         "HNG_All": "Todos",
+        "HNG_ModuleSocketTypeHeavyWeapon": "Qualquer arma",
         "HNG_DeletePresetDialogue": "Você tem certeza de que quer deletar isto?",
         "Character_Dismantle_Description": "Você tem certeza que quer desmontar este robô?",
         "Character_Reset_Description": "Você tem certeza que quer desfazer todas as mudanças?",
