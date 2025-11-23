@@ -4432,7 +4432,8 @@
         "BattlePass_XP": "{0}/{1} EXP",
         "BattlePass_ItemsClaimed": "{0}/{1} coletado(s)",
         "BattlePass_ShelveHours": "{0}h {1}m",
-        "BattlePass_TimeRemaining": "{0}h {1}min restantes"
+        "BattlePass_TimeRemaining": "{0}h {1}min restantes",
+        "BattlePass_AfterSeasonSubtitle": "O Ato {0} terminou"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Login inválido",
@@ -5289,7 +5290,6 @@
         "Robodex_CustomBuilds": "Robôs personalizados",
         "Workshop_Button_Customize": "Personalizar",
         "Robodex_Customize_Build": "Personalizar aparência",
-        "Workshop_Button_CustomizeRobot": "Converter para Customizado",
         "Workshop_Button_CustomizeTitan": "Personalizar",
         "Workshop_CustomizedKey": "Customizar",
         "Workshop_CycleGear": "Equipamento de turno:",
@@ -5376,7 +5376,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Remova do robô antes de vender.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Remova do robô antes de vender.",
         "Workshop_Procced": "Continuar",
-        "Workshop_Progress": "Nível do perfil",
         "Workshop_SortRarity": "Raridade",
         "Workshop_RairitySort": "Raridade (Alta-Baixa)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Precisa de energia",
@@ -5535,6 +5534,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "Você não recebeu o e-mail? Verifique a sua pasta de spam ou entre em contato conosco.",
         "Subscriptions_EmailConfirmed": "E-mail confirmado.",
         "Subscriptions_EmailPopUp_EnterYourEmail": "INSIRA O SEU ENDEREÇO DE E-MAIL",
+        "Subscriptions_EmailText_EnterYourEmail": "Insira o seu endereço de e-mail",
         "Subscriptions_ContactSupport": "Está com problemas para se conectar? Fale com a gente.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "Eu concordo com receber atualizações, marketing personalizado e ofertas exclusivas da MY.GAMES e seus afiliados via e-mail.",
         "Subscriptions_EmailMatch": "O seu e-mail precisa ser o mesmo que você usou para entrar.",

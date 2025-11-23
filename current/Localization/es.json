@@ -4460,7 +4460,8 @@
         "BattlePass_XP": "{0}/{1} de EXP",
         "BattlePass_ItemsClaimed": "Has reclamado: {0}/{1}",
         "BattlePass_ShelveHours": "{0} h {1} m",
-        "BattlePass_TimeRemaining": "Quedan {0} h y {1} m"
+        "BattlePass_TimeRemaining": "Quedan {0} h y {1} m",
+        "BattlePass_AfterSeasonSubtitle": "El episodio {0} ha terminado"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Inicio de sesión no válido",
@@ -5316,7 +5317,6 @@
         "Robodex_CustomBuilds": "Robots personalizados",
         "Workshop_Button_Customize": "Personalizar",
         "Robodex_Customize_Build": "Aspecto personalizado",
-        "Workshop_Button_CustomizeRobot": "Convertir en personalizado",
         "Workshop_Button_CustomizeTitan": "Personalizar",
         "Workshop_CustomizedKey": "Personalizado",
         "Workshop_CycleGear": "Componente cíclico:",
@@ -5403,7 +5403,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Elimínalo del robot antes de venderlo.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Elimínalo del robot antes de venderlo.",
         "Workshop_Procced": "Proceder",
-        "Workshop_Progress": "Nivel del perfil",
         "Workshop_SortRarity": "Rareza",
         "Workshop_RairitySort": "Rareza (alta-baja)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Necesita energía",
@@ -5561,6 +5560,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "¿No ha recibido el email? Echa un vistazo a la bandeja de correo no deseado y contáctanos.",
         "Subscriptions_EmailConfirmed": "Email confirmado.",
         "Subscriptions_EmailPopUp_EnterYourEmail": "ESCRIBE TU EMAIL",
+        "Subscriptions_EmailText_EnterYourEmail": "Escribe tu email",
         "Subscriptions_ContactSupport": "¿Tienes problemas de conexión? Contáctanos.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "Acepto recibir actualizaciones, marketing personalizado y ofertas exclusivas de MY.GAMES y sus afiliados por correo electrónico.",
         "Subscriptions_EmailMatch": "Tu email debe ser el mismo con el que te inscribiste.",

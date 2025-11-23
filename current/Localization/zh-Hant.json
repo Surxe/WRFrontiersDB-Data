@@ -4629,7 +4629,8 @@
         "BattlePass_XP": "{0}/{1} 經驗值",
         "BattlePass_ItemsClaimed": "已領取 {0}/{1}",
         "BattlePass_ShelveHours": "{0} 小時 {1}分",
-        "BattlePass_TimeRemaining": "剩餘 {0} 小時 {1} 分"
+        "BattlePass_TimeRemaining": "剩餘 {0} 小時 {1} 分",
+        "BattlePass_AfterSeasonSubtitle": "第 {0} 賽幕已結束"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "無效登入",
@@ -5504,7 +5505,6 @@
         "Robodex_CustomBuilds": "自訂機器人",
         "Workshop_Button_Customize": "自訂",
         "Robodex_Customize_Build": "自訂外觀",
-        "Workshop_Button_CustomizeRobot": "轉換為自訂",
         "Workshop_Button_CustomizeTitan": "自訂",
         "Workshop_CustomizedKey": "自訂",
         "Workshop_CycleGear": "循環裝備：",
@@ -5591,7 +5591,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "請在出售前從機器人身上移除。",
         "Workshop_PopUpSellingItemsPleaseUnequip": "請在出售前從機器人身上移除。",
         "Workshop_Procced": "繼續",
-        "Workshop_Progress": "個人等級",
         "Workshop_SortRarity": "稀有度",
         "Workshop_RairitySort": "稀有度（高到低）",
         "Workshop_RobotEditWarningInfoSupplyGear": "需要能量",
@@ -5751,6 +5750,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "沒有收到郵件？請檢查垃圾郵件資料夾，或者聯絡我們。",
         "Subscriptions_EmailConfirmed": "已確認電子郵件。",
         "Subscriptions_EmailPopUp_EnterYourEmail": "輸入你的電子郵件地址",
+        "Subscriptions_EmailText_EnterYourEmail": "輸入你的電子郵件地址",
         "Subscriptions_ContactSupport": "遇到連線問題嗎？請聯絡我們。",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "我同意接收MY.GAMES及其合作夥伴透過電子郵件發送的客製化營銷信息、促銷活動和獨家優惠。",
         "Subscriptions_EmailMatch": "你的電子郵件地址必須符合登入時的電子郵件地址。",

@@ -117,7 +117,7 @@
             },
             "bStandaloneActor": true,
             "EffectType": "Defensive",
-            "InitialDuration": 12.0,
+            "InitialDuration": 9.0,
             "PrimaryParameter": 2500.0,
             "SecondaryParameter": 180000.0
         },
@@ -758,7 +758,8 @@
         },
         "targeting": {
             "TargetingType": "TargetOnMap",
-            "MaxTargetingDistance": 40000.0
+            "MaxTargetingDistance": 40000.0,
+            "bLockOnActor": true
         },
         "ai": {
             "conditions": [
@@ -4597,6 +4598,7 @@
                     "DamageArmor": 4000.0,
                     "DamageShield": 3500.0
                 },
+                "CanBeTransferred": false,
                 "CorpseTime": 3.0,
                 "CorpseVisible": true,
                 "ExpansionDistanceSettings": 1.0,
