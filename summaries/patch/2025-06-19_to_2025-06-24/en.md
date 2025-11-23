@@ -1,0 +1,9 @@
+* Updated Cascade
+* Updated Gemini
+* Updated Gozer
+* Updated Lighter
+* Updated Magneto
+* Updated Noricum
+* Updated Orkan
+* Updated Rampant
+* Updated Trident

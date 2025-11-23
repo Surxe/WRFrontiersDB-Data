@@ -1,0 +1,30 @@
+* Added Bayonet
+* Added Bisector
+* Added Ceres
+* Updated Ares
+* Updated Bulgasari
+* Updated Bulwark
+* Updated Cascade
+* Updated Cyclops
+* Updated Fenrir
+* Updated Fury
+* Updated Griffin
+* Updated Halo
+* Updated Harpy
+* Updated Lancelot
+* Updated Loki
+* Updated Orochi
+* Updated Phantom
+* Updated Purifier
+* Updated Pursuer
+* Updated Ravana
+* Updated Raven
+* Updated Scorpion
+* Updated Shocktrain
+* Updated Siren
+* Updated Tusk
+* Updated Typhon
+* Updated Tyr
+* Updated Varangian Mk. I
+* Updated Varangian Mk. II
+* Updated Volta

@@ -1,0 +1,32 @@
+* Added Ammo Fabricator
+* Added Locust
+* Added Mesa
+* Updated Alpha
+* Updated Ares
+* Updated Bulgasari
+* Updated Bulwark
+* Updated Ceres
+* Updated Cyclops
+* Updated Fenrir
+* Updated Fury
+* Updated Griffin
+* Updated Grim
+* Updated Halo
+* Updated Harpy
+* Updated Homing Missile
+* Updated Lancelot
+* Updated Loki
+* Updated Matriarch
+* Updated Minefield
+* Updated Orochi
+* Updated Phantom
+* Updated Purifier
+* Updated Pursuer
+* Updated Ravana
+* Updated Raven
+* Updated Scorpion
+* Updated Siren
+* Updated Typhon
+* Updated Tyr
+* Updated Varangian
+* Updated Volta
