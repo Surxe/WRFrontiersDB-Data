@@ -16,23 +16,39 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for git operations
       
+      - name: Check if commit has a tag
+        id: check_tag
+        run: |
+          TAG=$(git tag --points-at HEAD)
+          if [ -z "$TAG" ]; then
+            echo "No tag found for this commit, skipping workflow"
+            echo "has_tag=false" >> $GITHUB_OUTPUT
+          else
+            echo "Tag found: $TAG"
+            echo "has_tag=true" >> $GITHUB_OUTPUT
+          fi
+      
       - name: Set up Python
+        if: steps.check_tag.outputs.has_tag == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
       - name: Install dependencies
+        if: steps.check_tag.outputs.has_tag == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
       - name: Generate patch summary
+        if: steps.check_tag.outputs.has_tag == 'true'
         run: |
           python src/summarizer.py
         env:
           BRANCH_NAME: ${{ github.ref_name }}
       
       - name: Commit and push summary files
+        if: steps.check_tag.outputs.has_tag == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
