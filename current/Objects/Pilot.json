@@ -5031,6 +5031,93 @@
             }
         ]
     },
+    "DA_Pilot_Rare_DuncanPrasad.0": {
+        "id": "DA_Pilot_Rare_DuncanPrasad.0",
+        "first_name": {
+            "Key": "NAME_DuncanPrasad",
+            "TableNamespace": "Pilots_Info",
+            "en": "Duncan"
+        },
+        "second_name": {
+            "Key": "SRNM_DuncanPrasad",
+            "TableNamespace": "Pilots_Info",
+            "en": "Prasad"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_DuncanPrasad_IconMini",
+        "bio": {
+            "Key": "Hero_Pilot_Duncan_Bio",
+            "TableNamespace": "Pilot_Bio",
+            "en": "\"Some call me a hustler, a thief, or even a scoundrel, but I prefer the term entrepreneur. When I first arrived, the authorities locked me up—unjustly, of course—for a slight misunderstanding with a fellow worker. As punishment, they slapped this ridiculous lie detector on me, claiming it can expose untruths. Nonsense, obviously. <LIE> Oh, shut up! Where was I? Ah, yes. After the rebellion, I was freed from confinement, but not from this blasted contraption. Now, I earn an honest living as a mercenary pilot on the Wild Ten. <LIE> Be quiet! As I said, now I earn a living as a mercenary pilot on the Wild Ten...irritating.\""
+        },
+        "pilot_type_id": "DA_PilotType_Legendary.0",
+        "pilot_class_id": "DA_Class_Flanker.0",
+        "personality_id": "DA_Personality_Sneaky.0",
+        "faction_id": "DA_Faction_Tortuga.0",
+        "sell_price": {
+            "currency_id": "DA_Meta_Currency_Credits.0",
+            "amount": 1500
+        },
+        "levels": [
+            {
+                "talent_type_id": "DA_TalentType_General.0",
+                "talents": [
+                    "DA_Talent_General1.0",
+                    "DA_Talent_General2.0",
+                    "DA_Talent_General3.0"
+                ]
+            },
+            {
+                "talent_type_id": "DA_TalentType_ClassFlanker.0",
+                "reputation_cost": 1000,
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 100
+                },
+                "talents": [
+                    "DA_Talent_Flanker1.0",
+                    "DA_Talent_Flanker2.0",
+                    "DA_Talent_Flanker3.0"
+                ]
+            },
+            {
+                "talent_type_id": "DA_TalentType_PersSneaky.0",
+                "reputation_cost": 2000,
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 200
+                },
+                "talents": [
+                    "DA_Talent_Sneaky1.0",
+                    "DA_Talent_Sneaky2.0",
+                    "DA_Talent_Sneaky3.0"
+                ]
+            },
+            {
+                "talent_type_id": "DA_TalentType_FactionTortuga.0",
+                "reputation_cost": 5000,
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 500
+                },
+                "talents": [
+                    "DA_Talent_Tortuga1.0",
+                    "DA_Talent_Tortuga2.0",
+                    "DA_Talent_Tortuga3.0"
+                ]
+            },
+            {
+                "talent_type_id": "DA_TalentType_Ult.0",
+                "reputation_cost": 10000,
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 1000
+                },
+                "talents": [
+                    "DA_Talent_Ult_Duncan.0"
+                ]
+            }
+        ]
+    },
     "DA_Pilot_Rare_Ever.0": {
         "id": "DA_Pilot_Rare_Ever.0",
         "first_name": {
