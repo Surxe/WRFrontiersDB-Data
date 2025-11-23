@@ -2827,6 +2827,11 @@
     "DA_Preset_DevbotAres.0": {
         "id": "DA_Preset_DevbotAres.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres",
+        "name": {
+            "Key": "CMP_name_Ares_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ares"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisAres.2",
@@ -2876,6 +2881,11 @@
     "DA_Preset_DevbotBulgasari.0": {
         "id": "DA_Preset_DevbotBulgasari.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulgasari",
+        "name": {
+            "Key": "CMP_name_Bulgasari_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Bulgasari"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisBulgasari.2",
@@ -2919,12 +2929,17 @@
             }
         },
         "pilot_id": "DA_Pilot_Common15.0",
-        "is_factory_preset": false,
+        "is_factory_preset": true,
         "character_type": "Mech"
     },
     "DA_Preset_DevbotBulwark.0": {
         "id": "DA_Preset_DevbotBulwark.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulwark",
+        "name": {
+            "Key": "CMP_name_Bulwark_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Bulwark"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisBulwark.2",
@@ -2963,66 +2978,17 @@
             }
         },
         "pilot_id": "DA_Pilot_Common21.0",
-        "is_factory_preset": false,
-        "character_type": "Mech"
-    },
-    "DA_Preset_DevbotCeres.0": {
-        "id": "DA_Preset_DevbotCeres.0",
-        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
-        "name": {
-            "Key": "CMP_name_Demeter_Torso",
-            "TableNamespace": "Component_name",
-            "en": "Ceres"
-        },
-        "modules": {
-            "None": {
-                "id": "DA_Module_ChassisDemeter.2",
-                "parent_socket_name": null,
-                "level": 1
-            },
-            "Root": {
-                "id": "DA_Module_TorsoDemeter.1",
-                "parent_socket_name": "None",
-                "level": 1
-            },
-            "Shoulder_L": {
-                "id": "DA_Module_ShoulderDemeter.0",
-                "parent_socket_name": "Root",
-                "level": 1
-            },
-            "Shoulder_Weapon_0": {
-                "id": "DA_Module_Weapon_Bisector.0",
-                "parent_socket_name": "Shoulder_R",
-                "level": 1
-            },
-            "Shoulder_R": {
-                "id": "DA_Module_ShoulderDemeter.0",
-                "parent_socket_name": "Root",
-                "level": 1
-            },
-            "Ability": {
-                "id": "DA_Module_Ability_GhostTurret.1",
-                "parent_socket_name": "Root",
-                "level": 1
-            },
-            "UltAbility": {
-                "id": "DA_Module_Ability_CounterAttack.1",
-                "parent_socket_name": "Root",
-                "level": 1
-            },
-            "Torso_Weapon_0": {
-                "id": "DA_Module_Weapon_Bisector.0",
-                "parent_socket_name": "Root",
-                "level": 1
-            }
-        },
-        "pilot_id": "DA_Pilot_Common42.0",
         "is_factory_preset": true,
         "character_type": "Mech"
     },
     "DA_Preset_DevbotCyclops.0": {
         "id": "DA_Preset_DevbotCyclops.0",
-        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotCyclops",
+        "name": {
+            "Key": "CMP_name_Cyclops_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Cyclops"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisCyclops.2",
@@ -3072,6 +3038,11 @@
     "DA_Preset_DevbotFenrir.0": {
         "id": "DA_Preset_DevbotFenrir.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFenrir",
+        "name": {
+            "Key": "CMP_name_Fenrir_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Fenrir"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisFenrir.2",
@@ -3121,6 +3092,11 @@
     "DA_Preset_DevbotFury.0": {
         "id": "DA_Preset_DevbotFury.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFury",
+        "name": {
+            "Key": "CMP_name_Fury_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Fury"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisFury.2",
@@ -3170,6 +3146,11 @@
     "DA_Preset_DevbotGriffin.0": {
         "id": "DA_Preset_DevbotGriffin.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotGriffin",
+        "name": {
+            "Key": "CMP_name_Griffin_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Griffin"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisGriffin.2",
@@ -3219,6 +3200,11 @@
     "DA_Preset_DevbotHarpy.0": {
         "id": "DA_Preset_DevbotHarpy.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHarpy",
+        "name": {
+            "Key": "CMP_name_Harpy_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Harpy"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisHarpy.2",
@@ -3262,12 +3248,17 @@
             }
         },
         "pilot_id": "DA_Pilot_Common10.0",
-        "is_factory_preset": false,
+        "is_factory_preset": true,
         "character_type": "Mech"
     },
     "DA_Preset_DevbotLancelot.0": {
         "id": "DA_Preset_DevbotLancelot.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLancelot",
+        "name": {
+            "Key": "CMP_name_Lancelot_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Lancelot"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisLancelot.2",
@@ -3317,6 +3308,11 @@
     "DA_Preset_DevbotLoki.0": {
         "id": "DA_Preset_DevbotLoki.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLoki",
+        "name": {
+            "Key": "CMP_name_Loki_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Loki"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisLoki.2",
@@ -3366,6 +3362,11 @@
     "DA_Preset_DevbotOrochi.0": {
         "id": "DA_Preset_DevbotOrochi.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "name": {
+            "Key": "CMP_name_Orochi_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Orochi"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisOrochi.2",
@@ -3410,6 +3411,11 @@
     "DA_Preset_DevbotPhantom.0": {
         "id": "DA_Preset_DevbotPhantom.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPhantom",
+        "name": {
+            "Key": "CMP_name_Phantom_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisPhantom.2",
@@ -3459,6 +3465,11 @@
     "DA_Preset_DevbotPurifier.0": {
         "id": "DA_Preset_DevbotPurifier.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPurifier",
+        "name": {
+            "Key": "CMP_name_Purifier_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Purifier"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisInquisitor.2",
@@ -3508,6 +3519,11 @@
     "DA_Preset_DevbotPursuer.0": {
         "id": "DA_Preset_DevbotPursuer.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPursuer",
+        "name": {
+            "Key": "CMP_name_Pursuer_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Pursuer"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisPursuer.2",
@@ -3557,6 +3573,11 @@
     "DA_Preset_DevbotRavana.0": {
         "id": "DA_Preset_DevbotRavana.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRavana",
+        "name": {
+            "Key": "CMP_name_Ravana_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisRavana.2",
@@ -3606,6 +3627,11 @@
     "DA_Preset_DevbotRaven.0": {
         "id": "DA_Preset_DevbotRaven.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRaven",
+        "name": {
+            "Key": "CMP_name_Raven_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Raven"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisRaven.2",
@@ -3655,6 +3681,11 @@
     "DA_Preset_DevbotScorpion.0": {
         "id": "DA_Preset_DevbotScorpion.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion",
+        "name": {
+            "Key": "CMP_name_Scorpion_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Scorpion"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisScorpion.2",
@@ -3704,6 +3735,11 @@
     "DA_Preset_DevbotSiren.0": {
         "id": "DA_Preset_DevbotSiren.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotSiren",
+        "name": {
+            "Key": "CMP_name_Siren_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisSiren.2",
@@ -3753,6 +3789,11 @@
     "DA_Preset_DevbotTyphon.0": {
         "id": "DA_Preset_DevbotTyphon.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon",
+        "name": {
+            "Key": "CMP_name_Typhon_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisTyphon.2",
@@ -3802,6 +3843,11 @@
     "DA_Preset_DevbotVarangian.0": {
         "id": "DA_Preset_DevbotVarangian.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian",
+        "name": {
+            "Key": "CMP_name_Varangian_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Varangian"
+        },
         "modules": {
             "None": {
                 "id": "DA_Module_ChassisVityaz.2",
@@ -4576,7 +4622,7 @@
                 "level": 1
             }
         },
-        "is_factory_preset": false
+        "is_factory_preset": true
     },
     "DA_Preset_Titan_Grim.0": {
         "id": "DA_Preset_Titan_Grim.0",
@@ -4614,7 +4660,7 @@
                 "level": 1
             }
         },
-        "is_factory_preset": false
+        "is_factory_preset": true
     },
     "DA_Preset_Titan_Grim_Jigsaw.0": {
         "id": "DA_Preset_Titan_Grim_Jigsaw.0",
@@ -4690,7 +4736,7 @@
                 "level": 1
             }
         },
-        "is_factory_preset": false
+        "is_factory_preset": true
     },
     "DA_Preset_Titan_ScrubberMatriarch.0": {
         "id": "DA_Preset_Titan_ScrubberMatriarch.0",
@@ -4729,5 +4775,43 @@
             }
         },
         "is_factory_preset": false
+    },
+    "DA_Preset_Titan_Spire.0": {
+        "id": "DA_Preset_Titan_Spire.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Spire",
+        "name": {
+            "Key": "CMP_name_SPIRE",
+            "TableNamespace": "Component_name",
+            "en": "Volta"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "id": "DA_Module_ChassisSpire.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "id": "DA_Module_TorsoSpire.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "id": "DA_Module_ShoulderLSpire.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "id": "DA_Module_ShoulderRSpire.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Cascade.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            }
+        },
+        "is_factory_preset": true
     }
 }

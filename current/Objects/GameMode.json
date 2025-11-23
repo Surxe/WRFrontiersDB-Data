@@ -12,20 +12,31 @@
             "en": "There are several Warp Gates on the map. Your task is to take and hold them. The team that holds the most earns points. To win, either reach the points target first or eliminate the opposition."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.96,
-            "ReputationPerHonorPoint": 0.6,
+            "VictoryMultiplier": 1.0,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
                     "Multiplier": 0.66
                 },
                 {
-                    "HonorPoints": 200,
+                    "HonorPoints": 300,
                     "Multiplier": 0.48
                 },
                 {
                     "HonorPoints": 1000000,
                     "Multiplier": 0.24
+                }
+            ],
+            "ReputationMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.6
+                }
+            ],
+            "CreditsMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.96
                 }
             ]
         },
@@ -165,7 +176,7 @@
             "DA_Honor_Top1MechKills_BCN.0",
             "DA_Honor_Top2MechKills_BCN.0",
             "DA_Honor_Top3MechKills_BCN.0",
-            "DA_Honor_TopCapturedBeacons.0",
+            "DA_Honor_Top1CapturedBeacons.0",
             "DA_Honor_TopTitanKills_BCN.0",
             "DA_Honor_Top1Assists_BCN.0",
             "DA_Honor_Top2Assists_BCN.0",
@@ -173,10 +184,19 @@
             "DA_Honor_Top1Heal_BCN.0",
             "DA_Honor_Top2Heal_BCN.0",
             "DA_Honor_Top3Heal_BCN.0",
-            "DA_Honor_Damage_BCN.0",
-            "DA_Honor_Heal_BCN.0",
-            "DA_Honor_MechAssist_Boost_BCN.1",
-            "DA_Honor_TitanAssist_Boost_BCN.1"
+            "DA_Honor_DamageDealing_BCN.0",
+            "DA_Honor_Healing_BCN.0",
+            "DA_Honor_HoldGround_BCN.0",
+            "DA_Honor_MostDamageDeal_BCN.0",
+            "DA_Honor_KillMostDamageDeal_BCN.0",
+            "DA_Honor_BeaconNeutralize_BCN.0",
+            "DA_Honor_Spawn_BCN.0",
+            "DA_Honor_BountyHunter_BCN.0",
+            "DA_Honor_SteelCrusher_BCN.0",
+            "DA_Honor_ShieldCrusher_BCN.0",
+            "DA_Honor_DamageAbsorb_BCN.0",
+            "DA_Honor_Top2CapturedBeacons.0",
+            "DA_Honor_Top3CapturedBeacons.0"
         ],
         "misc": {
             "PointsPerBeaconsDiff": {
@@ -212,20 +232,31 @@
             "en": "The first team to destroy all opposing robots wins the battle. If the time runs out, the team with the most remaining robots wins."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.96,
-            "ReputationPerHonorPoint": 0.6,
+            "VictoryMultiplier": 1.0,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
                     "Multiplier": 0.66
                 },
                 {
-                    "HonorPoints": 200,
+                    "HonorPoints": 300,
                     "Multiplier": 0.48
                 },
                 {
                     "HonorPoints": 1000000,
                     "Multiplier": 0.24
+                }
+            ],
+            "ReputationMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.6
+                }
+            ],
+            "CreditsMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.96
                 }
             ]
         },
@@ -372,10 +403,15 @@
             "DA_Honor_Top1Heal_ELM.0",
             "DA_Honor_Top2Heal_ELM.0",
             "DA_Honor_Top3Heal_ELM.0",
-            "DA_Honor_Damage_ELM.0",
-            "DA_Honor_Heal_ELM.0",
-            "DA_Honor_MechAssist_Boost_ELM.1",
-            "DA_Honor_TitanAssist_Boost_ELM.1"
+            "DA_Honor_DamageDealing_ELM.0",
+            "DA_Honor_Healing_ELM.0",
+            "DA_Honor_MostDamageDeal_ELM.0",
+            "DA_Honor_KillMostDamageDeal_ELM.0",
+            "DA_Honor_Spawn_ELM.0",
+            "DA_Honor_BountyHunter_ELM.0",
+            "DA_Honor_SteelCrusher_ELM.0",
+            "DA_Honor_ShieldCrusher_ELM.0",
+            "DA_Honor_DamageAbsorb_ELM.0"
         ],
         "misc": {
             "MatchTimeLimitMinutes": 15,
@@ -399,20 +435,31 @@
             "en": "Capture and defend Warp Probes to earn points.\r\nWhen a Warp Probe is depleted, a new one will appear on a marked spot. \r\nContinue holding Warp Probes until your team reaches score limit."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.96,
-            "ReputationPerHonorPoint": 0.6,
+            "VictoryMultiplier": 1.0,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
                     "Multiplier": 0.66
                 },
                 {
-                    "HonorPoints": 200,
+                    "HonorPoints": 300,
                     "Multiplier": 0.48
                 },
                 {
                     "HonorPoints": 1000000,
                     "Multiplier": 0.24
+                }
+            ],
+            "ReputationMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.6
+                }
+            ],
+            "CreditsMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.96
                 }
             ]
         },
@@ -557,11 +604,24 @@
             "DA_Honor_Top1HoldWarpProbe_SPH.0",
             "DA_Honor_Top2HoldWarpProbe_SPH.0",
             "DA_Honor_Top3HoldWarpProbe_SPH.0",
-            "DA_Honor_WinCombat.0"
+            "DA_Honor_WinCombat.0",
+            "DA_Honor_Healing_SPH.0",
+            "DA_Honor_MostDamageDeal_SPH.0",
+            "DA_Honor_KillMostDamageDeal_SPH.0",
+            "DA_Honor_Spawn_SPH.0",
+            "DA_Honor_BountyHunter_SPH.0",
+            "DA_Honor_SteelCrusher_SPH.0",
+            "DA_Honor_ShieldCrusher_SPH.0",
+            "DA_Honor_DamageAbsorb_SPH.0",
+            "DA_Honor_DamageDealing_SPH.0",
+            "DA_Honor_Top1Damage_SPH.0",
+            "DA_Honor_Top2Damage_SPH.0",
+            "DA_Honor_Top3Damage_SPH.0",
+            "DA_Honor_Top1Heal_SPH.0",
+            "DA_Honor_Top2Heal_SPH.0",
+            "DA_Honor_Top3Heal_SPH.0"
         ],
         "misc": {
-            "WarpProbeSelectionMethod": "SequentiallyByOrder",
-            "FirstWarpProbeSettings": "Randomly",
             "WinScore": 1200,
             "MatchTimeLimitMinutes": 15,
             "KillCamLifetime": 5.0,
@@ -584,20 +644,31 @@
             "en": "Destroying an enemy robot scores 1 point for your team. The first team to score {goal} points wins. Your supply of robots is unlimited."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.96,
-            "ReputationPerHonorPoint": 0.6,
+            "VictoryMultiplier": 1.0,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
                     "Multiplier": 0.66
                 },
                 {
-                    "HonorPoints": 200,
+                    "HonorPoints": 300,
                     "Multiplier": 0.48
                 },
                 {
                     "HonorPoints": 1000000,
                     "Multiplier": 0.24
+                }
+            ],
+            "ReputationMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.6
+                }
+            ],
+            "CreditsMultipliers": [
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.96
                 }
             ]
         },
@@ -744,9 +815,15 @@
             "DA_Honor_Top1Heal_TDM.0",
             "DA_Honor_Top2Heal_TDM.0",
             "DA_Honor_Top3Heal_TDM.0",
-            "DA_Honor_Damage_TDM.0",
-            "DA_Honor_Heal_TDM.0",
-            "DA_Honor_Assist_Boost_TDM.1"
+            "DA_Honor_DamageDealing_TDM.0",
+            "DA_Honor_Healing_TDM.0",
+            "DA_Honor_MostDamageDeal_TDM.0",
+            "DA_Honor_KillMostDamageDeal_TDM.0",
+            "DA_Honor_Spawn_TDM.0",
+            "DA_Honor_BountyHunter_TDM.0",
+            "DA_Honor_SteelCrusher_TDM.0",
+            "DA_Honor_ShieldCrusher_TDM.0",
+            "DA_Honor_DamageAbsorb_TDM.0"
         ],
         "misc": {
             "ScorePerTitanKill": 2,
