@@ -200,7 +200,7 @@
         "description": {
             "Key": "ABL_descr_CamouflageWeb",
             "TableNamespace": "Ability_descripton",
-            "en": "Creates a сamouflage web that makes allies inside it invisible to enemies outside."
+            "en": "Creates a Camouflage Web with a radius of {DomeRad} for {Duration}, making allies inside it invisible to enemies outside. Cooldown {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -3755,6 +3755,187 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_EvilEye"
+    },
+    "BP_Module_Demeter_Chassis.1": {
+        "id": "BP_Module_Demeter_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3400.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 7000.0,
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Demeter_Chassis.2": {
+        "id": "BP_Module_Demeter_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 0.4,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 6000.0,
+            "JetpackJumpAccelerationForce": 460000.0,
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": [
+                {
+                    "Time": 0.0,
+                    "Value": 80000.0,
+                    "InterpMode": "RCIM_Linear"
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 20000.0,
+                    "InterpMode": "RCIM_Linear"
+                }
+            ],
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Demeter_Torso.1": {
+        "id": "BP_Module_Demeter_Torso.1",
+        "misc": {
+            "spawn_actor_action": {
+                "ActorClass": {
+                    "CountStack": 1,
+                    "MaxStacks": 3,
+                    "RequiredCharForBoost": 2,
+                    "Radius": 6000.0,
+                    "BuffAreaComponent": {
+                        "buffs": [
+                            {
+                                "Target": "FriendsAndMeExceptTitans",
+                                "BuffLingerTime": 1.0,
+                                "Modifier": 2.0,
+                                "bRegenInAbsoulute": false,
+                                "ArmorRegenPerSecond": 2100.0,
+                                "bRegenMoreDamagedZone": false,
+                                "RegenInterval": 0.5,
+                                "bRemoveOnDamage": false,
+                                "bRemoveOnFull": false,
+                                "StackMode": "Reset"
+                            }
+                        ]
+                    }
+                }
+            },
+            "PrimaryParameter": 10.0,
+            "SecondaryParameter": 5.0,
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 8.0,
+            "ActorCDOShapeComponent": {
+                "SphereRadius": 32.0
+            }
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "Attitude": "ETeamAttitude::Friendly"
+                },
+                {
+                    "MaxDistance": 40000.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_Mundus",
+            "TableNamespace": "Ability_name",
+            "en": "Rejuvenator"
+        },
+        "description": {
+            "Key": "ABL_descr_Mundus",
+            "TableNamespace": "Ability_descripton",
+            "en": "Restores {RegenSpeed}% armor per second to itself for 8 seconds and creates a healing area within {ActRadius} of itself. If there is at least one allied robot in the area, both Ceres and all allies will receive twice the amount of repairs.  Cooldown {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Mundus"
     },
     "BP_Module_Fenrir_Chassis.1": {
         "id": "BP_Module_Fenrir_Chassis.1",

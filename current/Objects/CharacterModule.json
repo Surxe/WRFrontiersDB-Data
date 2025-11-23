@@ -442,6 +442,55 @@
             "BP_Module_Cyclops_Torso.1"
         ]
     },
+    "BP_Module_Demeter_Chassis.0": {
+        "id": "BP_Module_Demeter_Chassis.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Demeter_Chassis",
+            "default_scalars": {
+                "LegsArmor": 80000.0,
+                "MaxSpeed": 2500.0,
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_ids": [
+            "BP_Module_Demeter_Chassis.1",
+            "BP_Module_Demeter_Chassis.2"
+        ]
+    },
+    "BP_Module_Demeter_ShoulderL.0": {
+        "id": "BP_Module_Demeter_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Demeter_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        }
+    },
+    "BP_Module_Demeter_ShoulderR.0": {
+        "id": "BP_Module_Demeter_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Demeter_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        }
+    },
+    "BP_Module_Demeter_Torso.0": {
+        "id": "BP_Module_Demeter_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Demeter_Torso",
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_ids": [
+            "BP_Module_Demeter_Torso.1"
+        ]
+    },
     "BP_Module_Fenrir_Chassis.0": {
         "id": "BP_Module_Fenrir_Chassis.0",
         "module_scaler": {
@@ -1630,6 +1679,195 @@
             }
         }
     },
+    "BP_Weapon_Bayonet.0": {
+        "id": "BP_Weapon_Bayonet.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "LaserDuration": 0.05,
+                "DamageApplicationTime": 0.33333,
+                "bSingleShot": true,
+                "TimeBetweenShakes": 1.0
+            },
+            "BurstBehavior": {
+                "BurstLength": 3,
+                "TimeBetweenBursts": 0.5
+            }
+        },
+        "module_scaler": {
+            "module_name": "Callisto",
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 8018.0,
+                    "DamageShield": 9288.0
+                },
+                "ClipSize": 3,
+                "ProjectileSpeed": 100000.0,
+                "TimeToReload": 2.68,
+                "TimeBetweenShots": 0.17,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 50000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 80000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 150002.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        },
+        "misc": {
+            "ZoomType": "Sniper"
+        }
+    },
+    "BP_Weapon_Bisector.0": {
+        "id": "BP_Weapon_Bisector.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "MovementComponent": {
+                    "ExpansionTemplate": {
+                        "FinishLength": 1000.0,
+                        "Type": "Vertical",
+                        "ExpansionDistance": 15000.0
+                    },
+                    "InitialSpeed": 60000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0,
+                    "DamageShield": 520.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 0.33,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 0.6,
+                            "Value": 0.2,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 1.0,
+                            "Value": 0.2,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "TitanChargePerHit": 0.3,
+                "NumberOfMulticomponent": 6,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 27000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 50000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 70001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                },
+                "ProjectilesPerShot": 6,
+                "TimeBetweenShots": 0.66,
+                "Spread": {
+                    "X": 1.2,
+                    "Y": 1.2
+                },
+                "AbilityChargePointsOnHit": 0.33
+            }
+        },
+        "module_scaler": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 0.0,
+                    "Y": 0.1
+                },
+                "DirectDamage": {
+                    "DamageArmor": 7729.0,
+                    "DamageShield": 3900.0
+                },
+                "ClipSize": 4,
+                "ProjectileSpeed": 60000.0,
+                "TimeToReload": 1.93,
+                "TimeBetweenShots": 1.26,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 27000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 50000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 70001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        }
+    },
     "BP_Weapon_Buckshot.0": {
         "id": "BP_Weapon_Buckshot.0",
         "fire_modes": {
@@ -2107,7 +2345,7 @@
                     ]
                 },
                 "ClipSize": 6,
-                "ProjectileSpeed": 45000.0,
+                "ProjectileSpeed": 52000.0,
                 "TimeToReload": 1.8,
                 "TimeBetweenShots": 0.666,
                 "DistanceSettings": {
@@ -2682,7 +2920,7 @@
                 },
                 "ClipSize": 5,
                 "ProjectileSpeed": 60000.0,
-                "TimeToReload": 1.76,
+                "TimeToReload": 1.93,
                 "TimeBetweenShots": 0.756,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -3898,6 +4136,7 @@
                 },
                 "AoeDamage": {
                     "Radius": 400.0,
+                    "bTraceRobots": false,
                     "DamageArmor": 430.0,
                     "DamageShield": 130.0,
                     "DistToDamage": [
@@ -4748,7 +4987,7 @@
             "FiringBehavior": {
                 "JumpsCount": 3,
                 "JumpPowerQuotient": 0.5,
-                "JumpRadius": 15000.0,
+                "JumpRadius": 11500.0,
                 "LaserDuration": 0.39,
                 "DamageApplicationTime": 0.13,
                 "bSingleShot": true,
@@ -4800,7 +5039,7 @@
                 },
                 "ClipSize": 3,
                 "ProjectileSpeed": 400000.0,
-                "TimeToReload": 2.4,
+                "TimeToReload": 4.1,
                 "TimeBetweenShots": 0.4,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -6036,8 +6275,8 @@
                     "ExpansionTemplate": {
                         "bFactorGravityIntoExpansion": true
                     },
-                    "InitialSpeed": 25000.0,
-                    "ProjectileGravityScale": 4.5
+                    "InitialSpeed": 30000.0,
+                    "ProjectileGravityScale": 4.0
                 },
                 "DirectDamage": {
                     "DamageArmor": 1250.0,
@@ -6069,12 +6308,12 @@
                             "DistanceState": "ExpansionDistanceState"
                         },
                         {
-                            "Distance": 50000.0,
+                            "Distance": 17500.0,
                             "DirectDamageMultiplier": 1.0,
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 80000.0,
+                            "Distance": 55000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
@@ -6094,7 +6333,7 @@
                 "AbilityChargePointsOnHit": 0.75
             },
             "ChargingBehavior": {
-                "TimeToCharge": 0.9,
+                "TimeToCharge": 1.5,
                 "ShootOnFullCharge": false,
                 "ChargeModifiers": [
                     {
@@ -6137,7 +6376,7 @@
                             },
                             {
                                 "Time": 1.0,
-                                "Value": 2.2,
+                                "Value": 3.0,
                                 "InterpMode": "RCIM_Linear"
                             }
                         ]
@@ -6149,12 +6388,12 @@
             "module_name": "Tusk",
             "default_scalars": {
                 "Spread": {
-                    "X": 3.0,
-                    "Y": 5.0
+                    "X": 3.8,
+                    "Y": 3.8
                 },
                 "DirectDamage": {
-                    "DamageArmor": 7593.0,
-                    "DamageShield": 4400.0
+                    "DamageArmor": 6780.0,
+                    "DamageShield": 7000.0
                 },
                 "AoeDamage": {
                     "DistToDamage": [
@@ -6165,10 +6404,10 @@
                         }
                     ]
                 },
-                "ClipSize": 5,
-                "ProjectileSpeed": 15000.0,
-                "TimeToReload": 4.0,
-                "TimeBetweenShots": 0.91,
+                "ClipSize": 7,
+                "ProjectileSpeed": 30000.0,
+                "TimeToReload": 8.44,
+                "TimeBetweenShots": 0.601,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -6183,12 +6422,12 @@
                             "DistanceState": "ExpansionDistanceState"
                         },
                         {
-                            "Distance": 50000.0,
+                            "Distance": 17500.0,
                             "DirectDamageMultiplier": 1.0,
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 80000.0,
+                            "Distance": 55000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
@@ -6202,7 +6441,8 @@
             }
         },
         "misc": {
-            "VerticalAdjustmentAngle": 3.0
+            "VerticalAdjustmentAngle": 1.0,
+            "bAllowAssistanceTrajectoryPrediction": false
         }
     },
     "BP_Weapon_Twinflare.0": {
