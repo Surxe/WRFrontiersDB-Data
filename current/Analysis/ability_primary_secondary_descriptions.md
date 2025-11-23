@@ -4,7 +4,7 @@
 
 * Munitionsgenerator: Aktiviert ein Gerät, das die Nachladezeit aller Verbündeter im Umkreis von {**Sekundär.x**}m um {**Primär.x**}% verringert.
 * Notfallschild: Stellt {**Sekundär.x**}s lang {**Primär.x**} Schildpunkte pro Sekunde wieder her.
-* Entstörer: Throw the sticky emitter, which reduces enemies' damage in area by {**Primär.x**}% for {**Sekundär.x**}s.
+* Entstörer: Setzt einen klebrigen Strahler ein, der {**Sekundär.x**}s lang den Schaden durch Feinde in einem Umkreis von {**Primär.x**}% verringert.
 * Explosionswelle: Platziert eine Bombe im Umkreis von {**Sekundär.x**}m. Diese verursacht nach einer kurzen Verzögerung {**Primär.x**} Schaden und schlägt Feinde zurück.
 * Energiewand: Aktiviert eine {**Primär.x**}m breite Barriere, die Feinde aufhält und bis zu {**Sekundär.x**} Schaden absorbiert.
 * Blinzeln: Teleportiert dich nach einer Verzögerung von {**Sekundär./**}s {**Primär.x**}m weit in Blickrichtung.
@@ -22,6 +22,7 @@
 * Blendgranate: Feuert ein Zielsuchprojektil ab, das {**Sekundär.x**} Schaden verursacht und das Ziel {**Primär.x**}s lang blendet.
 * Zielsuchrakete: Feuert eine Zielsuchrakete ab, die allen Panzersegmenten im Explosionsbereich {**Primär.x**} Schaden zufügt oder {**Sekundär.x**} Schildschaden verursacht.
 * Unendliche Munition: Gewährt nach einer Verzögerung von {**Sekundär./**}s {**Primär.x**}s lang unbegrenzt viel Munition.
+* Iron Veil: Reduces all damage taken by {**Primär.x**}% for {**Sekundär.x**}s. Charge needed: {ChargeDrain}.
 * Minenfeld: Legt ein unsichtbares Minenfeld aus, das {**Sekundär.x**}s lang bestehen bleibt. Jede Mine verlangsamt beim Aufprall Feinde und fügt ihnen {**Primär.x**} Schaden zu.
 * Nanoreparatur: Repariert alle Module um {**Primär.x**}% Panzerung pro Tick. Hält {**Sekundär.x**}s lang an.
 * Aufklärungsmodus: Der Roboter erhält einen Geschwindigkeitsschub und deckt alle Gegner {**Primär.x**}s lang im Umkreis von {**Sekundär.x**}m auf.
@@ -35,7 +36,7 @@
 * Bulgasari's Eisenregen: Bombardiert ein Gebiet und fügt in einem Radius von {**Sekundär.x**}m allen Modulen {**Primär.x**} Schaden pro Rakete zu.
 * Bulwark's Absorptionssphäre: Mildert {**Primär.x**}s lang {**Sekundär.x**}% des eintreffenden Schadens. Projektile, die in der Sphäre aufgefangen werden, füllen deine Munition wieder auf.
 * Cyclops's Todesstrahl: Nach einer kurzen Verzögerung wird ein Energiestrahl entfesselt, der {**Sekundär.x**}s lang {**Primär.x**} Schaden verursacht. Dein Roboter kann sich nicht bewegen, solange dies aktiv ist.
-* Ceres's Verjünger: Stellt pro Sekunde {**Primär.x**}% Rüstung wieder her. Wenn sich innerhalb von {**Sekundär.x**}m Verbündete befinden, werden sie ebenfalls repariert und die Reparaturrate wird verdoppelt. Hält 8 Sekunden an.
+* Ceres's Verjünger: Repairs {**Primär.x**}% of armor per second. If any allies are within {**Sekundär.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Verbrennt {**Sekundär.Cx**}% deiner aktuellen Panzerung, um den Waffenschaden 10 Sekunden lang zu steigern. Wandelt während der Aktivität {**Primär.x**}% des zugefügten Schadens in Schild- und Panzerpunkte.
 * Fury's Warp-Nachladung: Füllt nach einer Verzögerung von {**Primär./**}s {**Sekundär.x**}% Munition wieder auf.
 * Griffin's Scrambler: Verhindert, dass Feinde Verbündete im Umkreis von {**Primär.x**}m anvisieren können und teilt den gesamten eintreffenden Schaden auf die Module auf. Dauert {**Sekundär.x**}s. Kein davon betroffene Roboter kann zerstört werden.
@@ -62,7 +63,7 @@
 
 * Ammo Fabricator: Deploys a device that reduces the reload time of allies within {**Secondary.x**}m by {**Primary.x**}%.
 * Emergency Shield: Restores {**Primary.x**} shield per second for {**Secondary.x**}s.
-* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primary.x**}% for {**Secondary.x**}s.
+* Suppressor: Deploys a sticky emitter, which reduces enemies' damage in area by {**Primary.x**}% for {**Secondary.x**}s.
 * Blast Wave: Plants a bomb within {**Secondary.x**}m. After a short delay, explosion inflicts {**Primary.x**} damage and knocks back enemies.
 * Energy Wall: Deploys a {**Primary.x**}m wide barrier that stops enemies and absorbs up to {**Secondary.x**} damage.
 * Blink: After a {**Secondary./**}s delay, teleport over {**Primary.x**}m in a direction you're facing.
@@ -80,6 +81,7 @@
 * Flashbang: Fires a homing projectile that deals {**Secondary.x**} damage and blinds target for {**Primary.x**}s.
 * Homing Missile: Fires a homing missile that deals {**Primary.x**} damage to all armor segments in the blast area or {**Secondary.x**} to shields.
 * Infinite Ammo: After a {**Secondary./**}s delay, grants unlimited ammo for {**Primary.x**}s.
+* Iron Veil: Reduces all damage taken by {**Primary.x**}% for {**Secondary.x**}s. Charge needed: {ChargeDrain}.
 * Minefield: Deploys an invisible minefield lasting {**Secondary.x**}s. Each mine slows enemies on impact and deals {**Primary.x**} damage.
 * Nanite Repair: Repairs all modules for {**Primary.x**}% armor per tick. Lasts {**Secondary.x**}s.
 * Recon Mode: Robot gains a speed boost and reveals all enemies in {**Secondary.x**}m range for {**Primary.x**}s.
@@ -93,7 +95,7 @@
 * Bulgasari's Iron Rain: Bombards an area, dealing {**Primary.x**} damage per rocket to all modules within a {**Secondary.x**}m blast radius.
 * Bulwark's Absorber Sphere: Mitigates {**Secondary.x**}% of incoming damage for {**Primary.x**}s. Projectiles caught in the sphere refill your ammo.
 * Cyclops's Death Ray: After a short delay, unleashes an energy beam that deals {**Primary.x**} per second for {**Secondary.x**}s. Your robot can't walk while it's active.
-* Ceres's Rejuvenator: Repairs {**Primary.x**}% of armor per second. If any allies are within {**Secondary.x**}m, repairs them as well and doubles the repair rate. Lasts 8 seconds.
+* Ceres's Rejuvenator: Repairs {**Primary.x**}% of armor per second. If any allies are within {**Secondary.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Burns off {**Secondary.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Primary.x**}% of damage inflicted into shield and armor.
 * Fury's Warp Reload: Refills {**Secondary.x**}% of ammo after a {**Primary./**}s delay.
 * Griffin's Scrambler: Prevents enemies from locking on to allies within {**Primary.x**}m and splits all incoming damage between modules. Lasts {**Secondary.x**}s. Any robot affected cannot be destroyed.
@@ -120,7 +122,7 @@
 
 * Fabricante de munición: Despliega un dispositivo que reduce el tiempo de recarga de los aliados en un radio de {**Secundario.x**} m en {**Primario.x**}%.
 * Escudo de emergencia: Restaura {**Primario.x**} de escudo por segundo durante {**Secundario.x**} s.
-* Supresor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primario.x**}% for {**Secundario.x**} s.
+* Supresor: Despliega un emisor adhesivo que reduce el daño de los enemigos en el área en {**Primario.x**}% durante {**Secundario.x**} s.
 * Onda expansiva: Coloca una bomba en un radio de {**Secundario.x**} m. Después de un breve retardo, la explosión inflige {**Primario.x**} de daño y repele a los enemigos.
 * Muro energético: Despliega una barrera de {**Primario.x**} m de ancho que detiene a los enemigos y absorbe hasta {**Secundario.x**} de daño.
 * Parpadeo: Después de un retardo de {**Secundario./**} s, te teletransporta {**Primario.x**} m de frente.
@@ -138,6 +140,7 @@
 * Explosión cegadora: Dispara un proyectil teledirigido que inflige {**Secundario.x**} de daño y ciega al objetivo durante {**Primario.x**} s.
 * Misil teledirigido: Lanza un misil teledirigido que inflige {**Primario.x**} de daño a todos los segmentos de armadura del radio de explosión o a {**Secundario.x**} escudos.
 * Munición infinita: Después de un retardo de {**Secundario./**} s, proporciona munición ilimitada durante {**Primario.x**} s.
+* Iron Veil: Reduces all damage taken by {**Primario.x**}% for {**Secundario.x**} s. Charge needed: {ChargeDrain}.
 * Campo de minas: Despliega un campo de minas invisible que dura {**Secundario.x**} s. Cada mina ralentiza a los enemigos al impactar e inflige {**Primario.x**} de daño.
 * Reparación de nanobots: Repara un {**Primario.x**} % de armadura por tic en todos los módulos. Dura {**Secundario.x**} s.
 * Modo de reconocimiento: El robot obtiene un potenciador de velocidad y revela a todos los enemigos en un radio de {**Secundario.x**} m durante {**Primario.x**} s.
@@ -151,7 +154,7 @@
 * Bulgasari's Lluvia de hierro: Bombardea un área infligiendo {**Primario.x**} de daño por cohete a todos los módulos en un radio de explosión de {**Secundario.x**} m.
 * Bulwark's Esfera absorbente: Mitiga {**Secundario.x**}% del daño entrante durante {**Primario.x**} s. Los proyectiles atrapados en la esfera recargan tu munición.
 * Cyclops's Rayo de la muerte: Después de un breve retardo, lanza un rayo energético que inflige {**Primario.x**} de daño por segundo durante {**Secundario.x**} s. Tu robot no puede andar mientras está activo.
-* Ceres's Regenerador: Repara un {**Primario.x**}% de armadura por segundo. Si hay aliados dentro de un radio de {**Secundario.x**} m, también los repara a ellos y duplica la velocidad de reparación. Dura 8 segundos.
+* Ceres's Regenerador: Repairs {**Primario.x**}% of armor per second. If any allies are within {**Secundario.x**} m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Quema {**Secundario.Cx**}% de armadura para potenciar el daño de arma durante 10 segundos. Mientras está activo, convierte {**Primario.x**}% del daño infligido en escudo y armadura.
 * Fury's Recarga de distorsión: Rellena {**Secundario.x**}% de munición tras un retardo de {**Primario./**} s.
 * Griffin's Codificador: Evita que los enemigos apunten a los aliados en un radio de {**Primario.x**} m y divide el daño entrante entre los módulos. Dura {**Secundario.x**} s. Cualquier robot afectado no puede ser destruido.
@@ -178,7 +181,7 @@
 
 * Fabricant de munitions: Déploie un appareil qui réduit la vitesse de recharge des alliés dans les {**Secondaire.x**} m m de{**Primaire.x**} %.
 * Bouclier d'urgence: Restaure {**Primaire.x**} points de bouclier par seconde pendant {**Secondaire.x**} s.
-* Suppresseur: Throw the sticky emitter, which reduces enemies' damage in area by {**Primaire.x**} % for {**Secondaire.x**} s.
+* Suppresseur: Déploie un émetteur collant qui réduit les dégâts des ennemis dans la zone de {**Primaire.x**} % pendant {**Secondaire.x**} s.
 * Onde de choc: Pose une bombe dans un rayon de {**Secondaire.x**} m. Après un court délai, l'explosion inflige {**Primaire.x**} points de dégâts et repousse les ennemis.
 * Mur d'énergie: Déploie une barrière large de {**Primaire.x**} m qui arrête les ennemis et absorbe jusqu'à {**Secondaire.x**} points de dégâts.
 * Clignement: Après un délai de {**Secondaire./**} s, vous téléporte sur {**Primaire.x**} m droit devant vous.
@@ -196,6 +199,7 @@
 * Étourdissement: Tire un projectile à tête chercheuse qui inflige {**Secondaire.x**} points de dégâts et aveugle la cible pendant {**Primaire.x**} s.
 * Missile chercheur: Tire un missile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts à toutes les pièces de blindage dans la zone d'explosion ou {**Secondaire.x**} aux boucliers.
 * Munitions infinies: Après un délai de {**Secondaire./**} s, fournit des munitions illimitées pendant {**Primaire.x**} s.
+* Iron Veil: Reduces all damage taken by {**Primaire.x**} % for {**Secondaire.x**} s. Charge needed: {ChargeDrain}.
 * Champ de mines: Déploie un champ de mines invisible pendant {**Secondaire.x**} s. Chaque mine ralentit les ennemis à l'impact et inflige {**Primaire.x**} points de dégâts.
 * Réparation de nanites: Répare tous les modules à hauteur de {**Primaire.x**} points de blindage par cycle. Dure {**Secondaire.x**} s.
 * Mode reconnaissance: Votre robot gagne un boost de vitesse et révèle tous les ennemis dans un rayon de {**Secondaire.x**} m pendant {**Primaire.x**} s.
@@ -209,7 +213,7 @@
 * Bulgasari's Pluie de fer: Bombarde une zone, infligeant {**Primaire.x**} points de dégâts par roquette à tous les modules dans un rayon d'explosion de {**Secondaire.x**} m.
 * Bulwark's Sphère absorbante: Atténue {**Secondaire.x**} % des dégâts reçus pendant {**Primaire.x**} s. Les projectiles pris dans la sphère rechargent vos munitions.
 * Cyclops's Rayon mortel: Après un court délai, libère un faisceau d'énergie qui inflige {**Primaire.x**} points de dégâts par seconde pendant {**Secondaire.x**} s. Votre robot ne peut pas se déplacer pendant que l'effet est actif.
-* Ceres's Revitaliseur: Répare {**Primaire.x**} % du blindage par seconde. Répare également les alliés s'ils sont à moins de {**Secondaire.x**} m, et double la fréquence de réparation. Dure 8 secondes.
+* Ceres's Revitaliseur: Repairs {**Primaire.x**}% of armor per second. If any allies are within {**Secondaire.x**} m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Consomme {**Secondaire.Cx**} % de votre blindage actuel pour booster les dégâts de vos armes durant 10 secondes. Tant que ceci est actif, {**Primaire.x**} % des dégâts infligés sont convertis en bouclier et en blindage.
 * Fury's Recharge de distorsion: Régénère {**Secondaire.x**} % des munitions après un délai de {**Primaire./**} s.
 * Griffin's Brouilleur: Empêche les ennemis de prendre vos alliés pour cibles dans un rayon de {**Primaire.x**} m et répartit les dégâts subis entre les modules. Dure {**Secondaire.x**} s. Tout robot affecté ne peut être détruit.
@@ -236,7 +240,7 @@
 
 * 弾薬ファブリケーター: {**サブ.x**}m以内の味方のリロード時間を{**メイン.x**}%短縮するデバイスを展開する。
 * 緊急シールド: {**メイン.x**}間、1秒あたり{**サブ.x**}秒シールドを回復する。
-* サプレッサー: Throw the sticky emitter, which reduces enemies' damage in area by {**メイン.x**}% for {**サブ.x**}秒.
+* サプレッサー: 範囲内の敵のダメージを{**サブ.x**}秒間、{**メイン.x**}%軽減する粘着性エミッターを展開する。
 * ブラストウェーブ: {**サブ.x**}m以内に爆弾を設置する。しばらくすると爆発して{**メイン.x**}ダメージを与え、敵をノックバックさせる。
 * エネルギーウォール: 敵の動きを止め、最大{**サブ.x**}ダメージを吸収する{**メイン.x**}m幅のバリアを展開する。
 * ブリンク: {**サブ./**}秒後、向いている方向に{**メイン.x**}mテレポートする。
@@ -254,6 +258,7 @@
 * フラッシュバン: {**サブ.x**}ダメージを与え、ターゲットを{**メイン.x**}秒間盲目にする誘導式発射体を発射する。
 * 誘導ミサイル: 爆発エリア内のすべての装甲セグメントに{**メイン.x**}、またはシールドに{**サブ.x**}ダメージを与える誘導ミサイルを発射する。
 * 無限弾薬: {**サブ./**}秒後に{**メイン.x**}秒間、弾薬が無限になる。
+* Iron Veil: Reduces all damage taken by {**メイン.x**}% for {**サブ.x**}秒. Charge needed: {ChargeDrain}.
 * 地雷原: {**サブ.x**}秒間持続する目に見えない地雷原を展開する。それぞれの地雷は命中時に敵を減速させ、{**メイン.x**}ダメージを与える。
 * ナナイト修復: すべてのモジュールの装甲を1カウントごとに{**メイン.x**}%修復する。{**サブ.x**}秒間持続する。
 * リーコンモード: {**メイン.x**}秒間、ロボットがスピードブーストを獲得し、{**サブ.x**}m以内のすべての敵を発見状態にする。
@@ -267,7 +272,7 @@
 * Bulgasari's 鉄の雨: エリアを砲撃し、爆発半径{**サブ.x**}m以内のすべてのモジュールにロケット1発につき{**メイン.x**}ダメージを与える。
 * Bulwark's アブソーバースフィア: 受けるダメージを{**メイン.x**}秒間、{**サブ.x**}%軽減する。球体に捕らえられた発射体がプレイヤーの弾薬を補充する。
 * Cyclops's デス・レイ: しばらくするとエネルギービームを発射し、{**サブ.x**}秒間、1秒あたり{**メイン.x**}ダメージを与える。アクティブな間、プレイヤーのロボットは歩けない。
-* Ceres's リジュビネーター: 装甲を1秒あたり{**メイン.x**}%修復する。{**サブ.x**}m内に味方がいる場合、その味方も修復し、修復率が2倍になる。8秒間持続する。
+* Ceres's リジュビネーター: Repairs {**メイン.x**}% of armor per second. If any allies are within {**サブ.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's ラグナロク: 現在の装甲を{**サブ.Cx**}%燃やして、10秒間武器ダメージをブーストさせる。アクティブな間、与えたダメージの{**メイン.x**}%をシールドと装甲に変換する。
 * Fury's ワープリロード: {**メイン./**}秒後に{**サブ.x**}%の弾薬が補充される。
 * Griffin's スクランブラー: 敵が{**メイン.x**}m以内の味方にロックオンするのを防ぎ、被ダメージをすべてのモジュール間で分割する。{**サブ.x**}秒間持続する。影響を受けたロボットは破壊されない。
@@ -294,7 +299,7 @@
 
 * 탄약 제조기: {**주.x**}% 내 아군의 재장전 시간을 {**주.x**}% 감소시키는 장치를 배치합니다.
 * 긴급 실드: {**보조.x**}초 동안 초당 실드가 {**주.x**} 재생됩니다.
-* 억제기: Throw the sticky emitter, which reduces enemies' damage in area by {**주.x**}% for {**보조.x**}초.
+* 억제기: 적에게 주는 피해를 {**주.x**}%만큼 줄여주는 스틱 발사기를 배치해. 지속 시간은 {**보조.x**}초야.
 * 폭발 파동: {**보조.x**}m 내에 폭탄을 설치합니다. 짧은 지연 후 폭발하여 {**주.x**} 피해를 입히고 적을 밀쳐냅니다.
 * 에너지 벽: 적을 막고 최대 {**보조.x**} 피해를 흡수하는 {**주.x**}m 너비의 장벽을 배치합니다.
 * 점멸: {**보조./**}초 지연 후, 바라보는 방향으로 {**주.x**}m 순간이동합니다.
@@ -312,6 +317,7 @@
 * 섬광탄: 유도 투사체를 발사하여 대상에게 {**보조.x**} 피해를 입히고 {**주.x**}초 동안 실명시킵니다.
 * 유도 미사일: 유도 미사일 한 발을 발사하여 폭발 범위의 모든 아머 부위에 {**주.x**} 피해 또는 실드에 {**보조.x**} 피해를 입힙니다.
 * 무한 탄약: {**보조./**}초 지연 후, {**주.x**}초 동안 무제한 탄약을 제공합니다.
+* Iron Veil: Reduces all damage taken by {**주.x**}% for {**보조.x**}초. Charge needed: {ChargeDrain}.
 * 지뢰밭: {**보조.x**}초 동안 지속되는 투명 지뢰밭을 배치합니다. 각 지뢰는 접촉 시 적을 둔화시키고 {**주.x**} 피해를 입힙니다.
 * 나나이트 수리: 모든 모듈의 아머를 틱당 {**주.x**}% 수리합니다. {**보조.x**}초 동안 지속됩니다.
 * 정찰 모드: 로봇의 속도가 증가하고, {**보조.x**}m 범위 내의 모든 적을 {**주.x**}초 동안 드러냅니다.
@@ -325,7 +331,7 @@
 * 불가사리's 강철비: 해당 지역을 폭격하여 {**보조.x**}m 폭발 반경 내의 모든 모듈에 로켓 한 발당 {**주.x**} 피해를 입힙니다.
 * 불워크's 흡수 구체: {**주.x**}초 동안 받는 피해를 {**보조.x**}% 완화합니다. 구체에 맞은 투사체는 탄약을 보충합니다.
 * 사이클롭스's 죽음의 광선: 짧은 지연 후 {**보조.x**}초 동안 초당 {**주.x**}의 피해를 주는 에너지 빔을 발사합니다. 이 능력이 활성화된 동안에는 로봇이 걸을 수 없습니다.
-* 세레스's 회복기: 초당 아머의 {**주.x**}%를 수리합니다. {**보조.x**}m 내에 아군이 있으면 아군도 수리하며 수리 속도가 두 배가 됩니다. 8초 동안 지속됩니다.
+* 세레스's 회복기: Repairs {**주.x**}% of armor per second. If any allies are within {**보조.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * 펜리르's 라그나로크: 현재 아머의 {**보조.Cx**}%를 연소하여 10초 동안 무기 피해를 증가시킵니다. 활성화된 동안 입힌 피해의 {**주.x**}%를 실드와 아머로 전환합니다.
 * 퓨리's 워프 재장전: {**주./**}초 지연 후 탄약의 {**보조.x**}%를 보충합니다.
 * 그리핀's 스크램블러: 적이 {**주.x**}m 내의 아군을 추적하지 못하게 하고, 받는 모든 피해를 모듈 간에 분산시킵니다. {**보조.x**}초 동안 지속됩니다. 영향받는 로봇은 파괴할 수 없습니다.
@@ -352,7 +358,7 @@
 
 * Wytwarzanie amunicji: Uaktywnia urządzenie, które zwiększa szybkość przeładowania sojuszników w promieniu {**Drugoplanowy.x**} m o {**Podstawowy.x**}%.
 * Tarcza awaryjna: Przywraca {**Podstawowy.x**} wytrzymałości tarczy w ciągu {**Drugoplanowy.x**} sek.
-* Tłumik: Throw the sticky emitter, which reduces enemies' damage in area by {**Podstawowy.x**}% for {**Drugoplanowy.x**} sek.
+* Tłumik: Powoduje wypuszczenie emitera, który przykleja się do powierzchni i zmniejsza obrażenia zadawane przez wrogów w obszarze o {**Podstawowy.x**}%; czas aktywności: {**Drugoplanowy.x**} sek.
 * Fala uderzeniowa: Wystrzeliwuje bombę na odległość {**Drugoplanowy.x**} m. Eksplozja po krótkim opóźnieniu powoduje {**Podstawowy.x**} obrażeń i odrzuca roboty w polu rażenia.
 * Ściana energetyczna: Uaktywnia barierę osłony o szerokości {**Podstawowy.x**} m, która powstrzymuje wrogów i absorbuje do {**Drugoplanowy.x**} obrażeń.
 * Błysk: Po opóźnieniu wynoszącym {**Drugoplanowy./**} sek, teleportuje cię na odległość {**Podstawowy.x**} m w kierunku, w którym zwrócony jest robot.
@@ -370,6 +376,7 @@
 * Błyskawica: Wystrzeliwuje samonaprowadzający pocisk, który powoduje {**Drugoplanowy.x**} obrażeń i oślepia cel na {**Podstawowy.x**} sek.
 * Pocisk samonaprowadzający: Wystrzeliwuje rakietę samonaprowadzającą, która powoduje {**Podstawowy.x**} obrażeń wszystkim segmentom pancerza w polu rażenia po eksplozji lub {**Drugoplanowy.x**} obrażeń tarcz.
 * Nieskończona amunicja: Po opóźnieniu wynoszącym {**Drugoplanowy./**} sek przez {**Podstawowy.x**} sek zapewnia nieograniczoną amunicję.
+* Iron Veil: Reduces all damage taken by {**Podstawowy.x**}% for {**Drugoplanowy.x**} sek. Charge needed: {ChargeDrain}.
 * Pole minowe: Rozmieszcza niewidoczne dla wroga pole minowe aktywne przez {**Drugoplanowy.x**} sek. Każda mina spowalnia wrogów i powoduje {**Podstawowy.x**} obrażeń.
 * Naprawcze nanity: Naprawia wszystkie moduły z szybkością {**Podstawowy.x**}% pancerza na jedn. czasu. Czas aktywności: {**Drugoplanowy.x**} sek.
 * Tryb zwiadowcy: Robot zyskuje premię do szybkości i odkrywa pozycje wszystkich wrogów odległości {**Drugoplanowy.x**} m. Czas aktywności: {**Podstawowy.x**} sek.
@@ -383,7 +390,7 @@
 * Bulgasari's Żelazny deszcz: Rozpoczyna ostrzał obszarowy, podczas którego każda rakieta zadaje {**Podstawowy.x**} obrażeń wszystkich modułów w polu rażenia {**Drugoplanowy.x**} m.
 * Bulwark's Sfera łapacza: Blokuje {**Drugoplanowy.x**}% otrzymywanych obrażeń w ciągu {**Podstawowy.x**} sek. Pociski przejęte w tym czasie uzupełniają zapasy twojej amunicji.
 * Cyclops's Promień śmierci: Po krótkim opóźnieniu wystrzeliwuje promień energii, który powoduje {**Podstawowy.x**} obrażeń na sek. Czas działania: {**Drugoplanowy.x**} sek. W tym czasie twój robot nie może się poruszać.
-* Ceres's Źródło regeneracji: Przywraca {**Podstawowy.x**}% pancerza na sek. Jeśli w promieniu {**Drugoplanowy.x**} m znajdują się sojusznicy, regeneracja obejmie również te jednostki (tempo napraw zostaje podwojone). Czas aktywności: 8 sek.
+* Ceres's Źródło regeneracji: Repairs {**Podstawowy.x**}% of armor per second. If any allies are within {**Drugoplanowy.x**} m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Tracisz {**Drugoplanowy.Cx**}% bieżącej wartości pancerza na potrzeby źródła energii, które zapewnia 10 sek. premię do obrażeń powodowanych przez twoją broń. W czasie aktywności efektu dochodzi do konwersji {**Podstawowy.x**}% otrzymanych obrażeń na tarczę i zbroję.
 * Fury's Przeładowanie warp: Uzupełnia {**Drugoplanowy.x**}% amunicji po opóźnieniu wynoszącym {**Podstawowy./**} sek.
 * Griffin's Szyfrator: Zapobiega blokadzie pocisków naprowadzanych wroga na sojusznikach w odległości {**Podstawowy.x**} m oraz rozdziela otrzymywane obrażenia pomiędzy moduły. Czas aktywności: {**Drugoplanowy.x**} sek. Robot pod wpływem nie może zostać zniszczony.
@@ -410,7 +417,7 @@
 
 * Fábrica de munição: Posiciona um dispositivo que reduz o tempo de recarga de aliados dentro de {**Secundário.x**}m em {**Primário.x**}%.
 * Escudo de Emergência: Restaura {**Primário.x**} de escudo por segundo por {**Secundário.x**}s.
-* Supressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primário.x**}% for {**Secundário.x**}s.
+* Supressor: Posiciona um emissor adesivo, que reduz o dano dos inimigos na área em {**Primário.x**}% por {**Secundário.x**}s.
 * Onda Explosiva: Planta uma bomba dentro de {**Secundário.x**}m. Após um pequeno atraso, a explosão causa {**Primário.x**} de dano e empurra os inimigos para trás.
 * Barreira de Plasma: Lança uma barreira de {**Primário.x**}m que para os inimigos e absorve até {**Secundário.x**} de dano.
 * Piscadela: Após um atraso de {**Primário.x**}m, teletransporta {**Primário.x**}m na direção onde você apontar.
@@ -428,6 +435,7 @@
 * Granada de Luz: Atira um projétil guiado que causa {**Secundário.x**} de dano e cega o alvo por {**Primário.x**}s.
 * Míssil Guiado: Atira um míssil guiado que causa {**Primário.x**} de dano a qualquer parte de armadura na área da explosão ou {**Secundário.x**} a escudos.
 * Munição Infinita: Após {**Secundário./**}s da ativação, concede munição ilimitada por {**Primário.x**}s.
+* Iron Veil: Reduces all damage taken by {**Primário.x**}% for {**Secundário.x**}s. Charge needed: {ChargeDrain}.
 * Campo Minado: Posiciona um campo minado invisível por {**Secundário.x**}s. Cada mina desacelera os inimigos ao explodir e causa {**Primário.x**} de dano.
 * Nano Reparadores: Repara todos os módulos em {**Primário.x**}% da armadura por ciclo. Dura {**Secundário.x**}s.
 * Modo de Reconhecimento: O Robô ganha um impulso de velocidade e revela todos os inimigos dentro de {**Secundário.x**}m por {**Primário.x**}s.
@@ -441,7 +449,7 @@
 * Bulgasari's Chuva de Balas: Bombardeia uma área, causando {**Primário.x**} de dano por foguete a todos os módulos dentro de um raio de explosão de {**Secundário.x**}m.
 * Bulwark's Esfera de Absorção: Mitiga {**Secundário.x**}% do dano recebido por {**Primário.x**}s. Projéteis pegos na esfera recarregam sua munição.
 * Cyclops's Raio da Morte: Após um certo atraso, libera um raio de energia que causa {**Primário.x**} por segundo durante {**Secundário.x**}s. Seu robô não pode andar enquanto estiver ativo.
-* Ceres's Fonte da Juventude: Repara {**Primário.x**}% da armadura por segundo. Se houver aliados dentro de {**Secundário.x**}m, eles recebem reparos e suas taxas de reparo são dobradas. Dura por 8 segundos.
+* Ceres's Fonte da Juventude: Repairs {**Primário.x**}% of armor per second. If any allies are within {**Secundário.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Consome {**Secundário.Cx**}% da sua armadura para aumentar o dano da arma por 10 s. Enquanto ativo, converte {**Primário.x**}% do dano causado em escudo e armadura.
 * Fury's Recarregar a Dobra: Recupera {**Secundário.x**}% da munição após um atraso de {**Primário./**}s.
 * Griffin's Misturador: Impede que os inimigos travem nos aliados dentro de {**Primário.x**}m e divide todo o dano recebido entre os módulos. Dura {Duration}. Nenhum robô afetado pode ser destruído.
@@ -468,7 +476,7 @@
 
 * Фабрикатор боеприпасов: Размещает устройство, повышающее скорость перезарядки союзников в радиусе {**Второстепенное.x**}м на {**Основное.x**}%.
 * Экстренный щит: Ежесекундно восстанавливает {**Основное.x**} ед. энергии щита в течение {**Второстепенное.x**}сек..
-* Подавитель: Throw the sticky emitter, which reduces enemies' damage in area by {**Основное.x**}% for {**Второстепенное.x**}сек..
+* Подавитель: Размещает магнитный излучатель, который снижает урон врагов в радиусе действия на {**Основное.x**}% в течение {**Второстепенное.x**}сек. сек.
 * Ударная волна: Устанавливает бомбу в пределах {**Второстепенное.x**}м. Вскоре она взрывается, нанося противникам {**Основное.x**} ед. урона и отбрасывая их.
 * Энергостена: Устанавливает барьер шириной {**Основное.x**}м. Он останавливает врагов и поглощает до {**Второстепенное.x**} ед. урона.
 * Скачок: Через {**Второстепенное./**}сек. телепортирует вас на расстояние {**Основное.x**}м в том направлении, куда вы смотрите.
@@ -486,6 +494,7 @@
 * Ослепление: Выпускает самонаводящийся снаряд, наносящий {**Второстепенное.x**} ед. урона и ослепляющий цели на {**Основное.x**}сек..
 * Умная ракета: Выпускает самонаводящуюся ракету, наносящую {**Основное.x**} ед. урона броне в зоне взрыва или {**Второстепенное.x**} ед. урона щитам.
 * Бесконечные снаряды: Через {**Второстепенное./**}сек. боезапас становится бесконечным на {**Основное.x**}сек..
+* Iron Veil: Reduces all damage taken by {**Основное.x**}% for {**Второстепенное.x**}сек.. Charge needed: {ChargeDrain}.
 * Минное поле: На {**Второстепенное.x**}сек. устанавливает невидимое минное поле. Каждая мина при срабатывании замедляет противников и наносит {**Основное.x**} ед. урона.
 * Наноремонт: Чинит все модули, восстанавливая {**Основное.x**}% брони в ед. времени. Длительность: {**Второстепенное.x**}сек..
 * Режим разведки: Робот ускоряется и раскрывает всех противников в пределах {**Второстепенное.x**}м. Время действия: {**Основное.x**}сек..
@@ -499,7 +508,7 @@
 * Bulgasari's Железный дождь: Выпускает залп по области {**Второстепенное.x**}м. Каждая ракета наносит {**Основное.x**} ед. урона всем модулям.
 * Bulwark's Поглощающая сфера: Блокирует {**Второстепенное.x**}% урона в течение {**Основное.x**}сек.. Оказавшиеся в сфере снаряды пополняют ваш боезапас.
 * Cyclops's Луч смерти: После небольшой задержки выпускает энергетический луч, наносящий {**Основное.x**} ед. урона в секунду в течение {**Второстепенное.x**}сек.. Во время действия луча ваш робот не может передвигаться.
-* Ceres's Регенератор: Восстанавливает {**Основное.x**}% брони в секунду. Если в радиусе {**Второстепенное.x**}м есть союзники, удваивает скорость их починки. Длится 8 секунд.
+* Ceres's Регенератор: Repairs {**Основное.x**}% of armor per second. If any allies are within {**Второстепенное.x**}м, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Рагнарёк: Отнимает {**Второстепенное.Cx**}% актуальной брони и увеличивает урон вашего оружия в течение 10 сек. Во время действия возвращает вам {**Основное.x**}% нанесённого урона в виде брони и щитов.
 * Fury's Варп-перезарядка: Через {**Основное./**}сек. восполняет {**Второстепенное.x**}% боезапаса.
 * Griffin's Подавитель сигнала: Не позволяет противникам захватывать цели в пределах {**Основное.x**}м и разделяет получаемый урон между модулями. Длительность: {**Второстепенное.x**}сек.. Находящиеся под действием эффекта роботы не могут быть уничтожены.
@@ -526,7 +535,7 @@
 
 * Cephane Üretici: {**İkincil.x**}m dahilindeki müttefiklerin silah doldurma süresini {**Birincil.x**}% kısaltan bir cihaz konuşlandırır.
 * Acil Durum Kalkanı: {**İkincil.x**}sn boyunca saniyede {**Birincil.x**} kalkan yeniler.
-* Baskılayıcı: Throw the sticky emitter, which reduces enemies' damage in area by {**Birincil.x**}% for {**İkincil.x**}sn.
+* Baskılayıcı: Yapışkan bir yayıcı yerleştirir, bu da düşmanların alandaki hasarını {**İkincil.x**}sn boyunca {**Birincil.x**}% azaltır.
 * İnfilak Dalgası: {**İkincil.x**}m Menzilli bir bomba yerleştirir. Kısa bir gecikmeden sonra patlama {**Birincil.x**} hasar verip düşmanları geriye iter.
 * Enerji Suru: Düşmanları durduran ve en fazla {**İkincil.x**} hasar soğuran {**Birincil.x**}m genişliğinde bir duvar konuşlandırır.
 * Parıltı: {**İkincil./**}sn gecikme ardından önüne doğru {**Birincil.x**}m öteye teleport olursun.
@@ -544,6 +553,7 @@
 * Flaş Bombası: {**İkincil.x**} hasar veren ve hedefi {**Birincil.x**}sn boyunca kör eden bir güdümlü füze atar.
 * Güdümlü Füze: Patlama alanındaki tüm zırh parçalarına {**Birincil.x**} veya kalkanlara {**İkincil.x**} hasar veren bir güdümlü füze atar.
 * Sonsuz Cephane: {**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca sonsuz cephane verir.
+* Iron Veil: Reduces all damage taken by {**Birincil.x**}% for {**İkincil.x**}sn. Charge needed: {ChargeDrain}.
 * Mayın Tarlası: {**İkincil.x**}sn süren görünmez bir mayın tarlası konuşlandırır. Her mayın temas ettiği düşmanlara {**Birincil.x**} hasar verir ve onları yavaşlatır.
 * Nanit Onarımı: Tüm modüller döngü başına %{**Birincil.x**} zırh yeniler. {**İkincil.x**}sn sürer.
 * Keşif Modu: Robot bir hız desteği kazanır ve {**İkincil.x**}m dahilindeki tüm düşmanları {**Birincil.x**}sn boyunca ifşa eder.
@@ -557,7 +567,7 @@
 * Bulgasari's Demir Yağmur: Bir alanı bombalar, {**İkincil.x**}m yarıçaplı bir patlama alanı içindekilere roket başına tüm modüllere {**Birincil.x**} hasar verir.
 * Bulwark's Soğurma Küresi: {**Birincil.x**}sn boyunca alınan hasarı {**İkincil.x**}% oranında engeller. Küreye yakalanan mermiler cephaneni doldurur.
 * Cyclops's Ölüm Işını: Kısa bir gecikmeden sonra, {**İkincil.x**}sn boyunca saniyede {**Birincil.x**} veren bir enerji hüzmesi salar. Etkinken robot yürüyemez.
-* Ceres's Rejüvenatör: Saniyede %{**Birincil.x**} zırh onarır. {**İkincil.x**}m dahilinde müttefik varsa onlara da onarım yapar ve onarım oranını ikiye katlar. 8 saniye sürer.
+* Ceres's Rejüvenatör: Repairs {**Birincil.x**}% of armor per second. If any allies are within {**İkincil.x**}m, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's Ragnarok: Mevcut zırhını {**İkincil.Cx**}% oranında tüketerek silah hasarını 10 saniyeliğine artırır. Aktifken zırha ve kalkana gelen {**Birincil.x**}% hasarı dönüştürür.
 * Fury's Işın Doldurma: {**Birincil./**}sn gecikme ardından {**İkincil.x**}% cephane doldurur.
 * Griffin's Çırpıcı: Düşmanların {**Birincil.x**}m dahilindeki müttefikler üzerinde kilitlenmesini önler ve alınan hasarı tüm modüllere bölüştürür. {**İkincil.x**}sn sürer. Etkilenen robotlar imha edilemez.
@@ -584,7 +594,7 @@
 
 * 弹药制造器: 部署一个装置，使{**副.x**}米范围内队友的装弹时间缩短{**主.x**}%。
 * 应急护盾: 每秒恢复{**主.x**}点护盾，持续{**副.x**}秒。
-* 压制者: Throw the sticky emitter, which reduces enemies' damage in area by {**主.x**}% for {**副.x**}秒.
+* 压制者: 部署一个可吸附的发射器，使范围内敌人的伤害降低{**主.x**}%，持续{**副.x**}秒。
 * 冲击波: 在{**副.x**}米范围内埋下一颗炸弹。炸弹会在短暂延迟后爆炸，造成{**主.x**}点伤害并击退敌人。
 * 能量墙: 部署一道{**主.x**}米宽的屏障，该屏障可阻挡敌人，且最多能吸收{**副.x**}点伤害。
 * 闪现: {**副./**}秒延迟后，朝面朝方向传送{**主.x**}米距离。
@@ -602,6 +612,7 @@
 * 闪光弹: 发射一枚追踪炮弹，造成{**副.x**}点伤害并致盲目标，持续{**主.x**}秒。
 * 追踪飞弹: 发射一枚追踪飞弹，对爆炸区域的所有装甲部位造成{**主.x**}点伤害，或对护盾造成{**副.x**}点伤害。
 * 无限弹药: 在{**副./**}秒延迟后提供无限弹药，持续{**主.x**}秒。
+* Iron Veil: Reduces all damage taken by {**主.x**}% for {**副.x**}秒. Charge needed: {ChargeDrain}.
 * 雷区: 部署一片持续存在{**副.x**}秒的隐形雷区，每颗地雷在引爆时都会使敌人减速，并对其造成{**主.x**}点伤害。
 * 纳米修复: 每跳为所有模块恢复{**主.x**}%的装甲，持续{**副.x**}秒。
 * 侦察模式: 提升机器人的速度，并使{**副.x**}米范围内的所有敌人暴露，持续{**主.x**}秒。
@@ -615,7 +626,7 @@
 * Bulgasari's 铁雨: 轰炸一片区域，每枚火箭弹可对{**副.x**}米爆炸半径范围内的所有模块造成{**主.x**}点伤害。
 * Bulwark's 缴械领域: 受到的伤害降低{**副.x**}%，持续{**主.x**}秒。球形范围内捕获到的炮弹会补充你的弹药。
 * Cyclops's 死亡射线: 短暂延迟后，释放一道能量激光，每秒造成{**主.x**}点伤害，持续{**副.x**}秒秒。技能生效期间，你的机器人无法移动。
-* Ceres's 回春: 每秒修复{**主.x**}%点装甲。如果{**副.x**}米内有队友，则一并修复且修复速度加倍。持续8秒。
+* Ceres's 回春: Repairs {**主.x**}% of armor per second. If any allies are within {**副.x**}米, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's 诸神黄昏: 燃烧掉当前装甲的{**副.Cx**}%来提升武器伤害，持续10秒。技能生效期间，将造成伤害的{**主.x**}%转化为护盾和装甲。
 * Fury's 曲速装弹: {**副.x**}%延迟后，补充{**主./**}秒的弹药。
 * Griffin's 扰频器: 使敌人无法锁定{**主.x**}米范围内的队友，并将受到的伤害均摊给所有模块。持续{**副.x**}秒。所有受影响的机器人均无法被摧毁。
@@ -642,7 +653,7 @@
 
 * 彈藥製造商: 部署裝置，該裝置可以讓 {**次要.x**}公尺 範圍內的盟友填裝速度縮短 {**主要.x**}%。
 * 緊急護盾: 每秒恢復 {**主要.x**} 護盾，持續 {**次要.x**}秒。
-* 抑制器: Throw the sticky emitter, which reduces enemies' damage in area by {**主要.x**}% for {**次要.x**}秒.
+* 抑制器: 部署一個黏性信號發射器，使範圍內敵人的傷害降低 {**主要.x**}%，持續 {**次要.x**}秒。
 * 衝擊波爆破: 在 {**次要.x**}公尺 範圍内部署一顆炸彈。短暫延遲後，爆炸會造成 {**主要.x**} 傷害並擊退敵人。
 * 能量障壁: 部署寬度為 {**主要.x**}公尺 的屏障，能夠阻撓敵人並吸收最多 {**次要.x**} 傷害。
 * 閃現: 延遲 {**次要./**}秒 之後，朝你面對的方向傳送 {**主要.x**}公尺。
@@ -660,6 +671,7 @@
 * 震撼彈: 發射追蹤裝置，該裝置會造成 {**次要.x**} 傷害並使目標失去視野，持續 {**主要.x**}秒。
 * 追蹤導彈: 發射追蹤飛彈，該飛彈會對爆炸範圍內的所有裝甲部分造成 {**主要.x**} 傷害，或對護盾造成 {**次要.x**} 傷害。
 * 無限彈藥: 延遲 {**次要./**}秒 之後，獲得無限彈藥，持續 {**主要.x**}秒。
+* Iron Veil: Reduces all damage taken by {**主要.x**}% for {**次要.x**}秒. Charge needed: {ChargeDrain}.
 * 雷區: 建立一片隱形雷區，持續 {**次要.x**}秒。每顆地雷都會讓踩中的敵人緩速並造成 {**主要.x**} 傷害。
 * 奈米修復: 每秒恢復所有模組 {**主要.x**}% 裝甲。持續 {**次要.x**}秒。
 * 情報員模式: 機器人獲得加速並暴露 {**次要.x**}公尺 範圍內的所有敵人，持續 {**主要.x**}秒。
@@ -673,7 +685,7 @@
 * Bulgasari's 鋼鐵火雨: 轟炸特定範圍，在 {**次要.x**}公尺 爆破半徑內每一枚火箭對所有模組造成 {**主要.x**} 傷害。
 * Bulwark's 球體吸收: 阻擋來襲傷害的 {**次要.x**}%，持續 {**主要.x**}秒。進入球形範圍內的投射物會填裝你的彈藥。
 * Cyclops's 死亡射線: 短暫延遲後，射出能量波，每秒造成 {**主要.x**} 傷害，持續 {**次要.x**}秒。此武器激活時，你的機器人無法移動。
-* Ceres's 再生矩陣: 每秒修復 {**主要.x**}% 裝甲。如果 {**次要.x**}公尺 內有友軍，將以雙倍的修復速度同時為友軍修復裝甲。持續 8 秒。
+* Ceres's 再生矩陣: Repairs {**主要.x**}% of armor per second. If any allies are within {**次要.x**}公尺, repairs them as well and doubles the repair rate. Lasts 10 seconds.
 * Fenrir's 諸神殞落: 可透過消耗 {**次要.Cx**}% 裝甲來提升速度與武器攻擊力，持續 10 秒。啟用之後，將{**主要.x**}%造成的傷害轉化為護盾和裝甲。
 * Fury's 蟲洞填裝: 延遲 {**主要./**}秒 之後，補充 {**次要.x**}% 彈藥。
 * Griffin's 脈衝干擾: 防止敵人鎖定 {**主要.x**}公尺 範圍內的友軍，且會將來襲的傷害分攤至各個模組之上。持續 {**次要.x**}秒。受到影響的所有機器人無法被摧毀。

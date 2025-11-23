@@ -94,6 +94,9 @@
         ],
         "levels": [
             "25"
+        ],
+        "league_ids": [
+            "DA_GoldLeague.0"
         ]
     },
     "DA_BotPreset_Beginner.0": {
@@ -111,6 +114,9 @@
         ],
         "levels": [
             "10"
+        ],
+        "league_ids": [
+            "DA_BronzeLeague.0"
         ]
     },
     "DA_BotPreset_Intermediate.0": {
@@ -129,6 +135,9 @@
         ],
         "levels": [
             "15"
+        ],
+        "league_ids": [
+            "DA_SilverLeague.0"
         ]
     },
     "DA_BotPreset_Professional.0": {
@@ -150,6 +159,12 @@
         ],
         "levels": [
             "110"
+        ],
+        "league_ids": [
+            "DA_PlatinumLeague.0",
+            "DA_DiamondLeague.0",
+            "DA_EmeraldLeague.0",
+            "DA_NoachiumLeague.0"
         ]
     }
 }
