@@ -765,7 +765,7 @@
         "description": {
             "Key": "ABL_descr_Grounded",
             "TableNamespace": "Ability_descripton",
-            "en": "Burns {Eff} fuel from the target and blocks its regeneration for {Duration} duration. Cooldown {CD}, {Consum} charges."
+            "en": "Burns {Eff} fuel from the target and blocks its regeneration for {Duration}. Cooldown {CD}, {Consum} charges."
         },
         "cooldown": {
             "Cooldown": 20.0
