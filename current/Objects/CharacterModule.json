@@ -2514,12 +2514,12 @@
             "default_scalars": {
                 "DirectDamage": {
                     "DamageArmor": 1266.0,
-                    "DamageShield": 1600.0
+                    "DamageShield": 1000.0
                 },
                 "AoeDamage": {
                     "Radius": 3000.0,
                     "DamageArmor": 1250.0,
-                    "DamageShield": 1200.0,
+                    "DamageShield": 800.0,
                     "DistToDamage": [
                         {
                             "Time": 0.0,
@@ -3230,7 +3230,7 @@
                 },
                 "ClipSize": 14,
                 "ProjectileSpeed": 40000.0,
-                "TimeToReload": 4.59,
+                "TimeToReload": 5.73,
                 "TimeBetweenShots": 0.08,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
