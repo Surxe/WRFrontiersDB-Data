@@ -115,10 +115,10 @@
         "DA_Module_Ability_CounterAttack.1": -0.24933,
         "DA_Module_Ability_TensionLink.1": -0.24915,
         "DA_Module_Ability_MineField.1": -0.24915,
-        "DA_Module_Ability_IronVeil.1": -0.24915,
         "DA_Module_Ability_Dazzle.1": -0.24915,
         "DA_Module_Ability_Homing.1": -0.24893,
         "DA_Module_Ability_RegenerationFull.1": -0.24812,
+        "DA_Module_Ability_IronVeil.1": -0.24812,
         "DA_Module_Ability_InfiniteAmmo.1": -0.24812
     },
     "ClipSize": {
@@ -139,10 +139,11 @@
         "DA_Module_ShoulderRMatriarch.0": -0.42857,
         "DA_Module_ShoulderLAlpha.0": -0.42857,
         "DA_Module_Ability_Repulsor.1": -0.42857,
+        "DA_Module_Ability_Grounded.1": -0.42857,
         "DA_Module_Ability_BlockingField.1": -0.42857,
         "DA_Module_Ability_BlastWave.1": -0.42857,
+        "DA_Module_TorsoMatriarch.0": -0.42373,
         "DA_Module_Ability_ArmorShield.1": -0.42373,
-        "DA_Module_TorsoMatriarch.0": -0.42308,
         "DA_Module_ShoulderRSpire_3dVar02.0": -0.42308,
         "DA_Module_ShoulderRSpire_3dVar01.0": -0.42308,
         "DA_Module_ShoulderRSpire.0": -0.42308,
@@ -157,7 +158,6 @@
         "DA_Module_TorsoScorpion.1": -0.4186,
         "DA_Module_TorsoGrim.0": -0.4186,
         "DA_Module_ShoulderLGrim.0": -0.4186,
-        "DA_Module_Ability_Grounded.1": -0.4186,
         "DA_Module_TorsoAlpha.0": -0.41667,
         "DA_Module_ShoulderRAlpha.0": -0.41667,
         "DA_Module_ShoulderLSpire_3dVar03.0": -0.41667,
@@ -166,6 +166,7 @@
         "DA_Module_ShoulderLSpire.0": -0.41667,
         "DA_Module_ShoulderLMatriarch.0": -0.41667,
         "DA_Module_Ability_Regeneration.1": -0.41667,
+        "DA_Module_Ability_KineticPulse.1": -0.41667,
         "DA_Module_Ability_SpeedBoost.1": -0.40541,
         "DA_Module_Ability_FuelReserve.1": -0.40541,
         "DA_Module_TorsoPursuer.1": -0.3913,
@@ -189,8 +190,8 @@
         "DA_Module_TorsoAres.1": -0.36364,
         "DA_Module_TorsoPhantom.1": -0.36,
         "DA_Module_TorsoSiren.1": -0.31818,
+        "DA_Module_TorsoDemeter.1": -0.2623,
         "DA_Module_TorsoMesa.1": -0.2549,
-        "DA_Module_TorsoDemeter.1": -0.2549,
         "DA_Module_Ability_Atrophy.1": -0.22222,
         "DA_Module_Ability_AmmoGenerator.1": -0.22222
     },
@@ -200,6 +201,7 @@
         "DA_Module_Weapon_Gozer.0": 0.10787,
         "DA_Module_Weapon_Scrubber.0": 0.10738,
         "DA_Module_Weapon_Punisher.0": 0.10727,
+        "DA_Module_Weapon_Zenit.0": 0.10678,
         "DA_Module_Weapon_Cascade.0": 0.1065,
         "DA_Module_Weapon_Buckshot.0": 0.10641,
         "DA_Module_Weapon_Twinflare.0": 0.10638,
@@ -251,6 +253,7 @@
         "DA_Module_Weapon_Gimcoil.0": 0.10701,
         "DA_Module_Weapon_Locust.0": 0.10677,
         "DA_Module_Weapon_Orkan.0": 0.08621,
+        "DA_Module_Weapon_Zenit.0": 0.08481,
         "DA_Module_Weapon_Bayonet.0": 0.04651
     },
     "FuelCapacity": {
@@ -362,11 +365,16 @@
         "DA_Module_Weapon_Bisector.0": 0.25,
         "DA_Module_Weapon_Cascade.0": 0.21111,
         "DA_Module_Weapon_Tusk.0": 0.2,
-        "DA_Module_Weapon_GrenadeLauncher.0": 0.16216,
         "DA_Module_Weapon_StickyGun.0": 0.15652,
         "DA_Module_Weapon_Jigsaw.0": 0.15517,
+        "DA_Module_Weapon_Zeus.0": 0.13333,
+        "DA_Module_Weapon_GrenadeLauncher.0": 0.125,
+        "DA_Module_Weapon_Gimcoil.0": 0.11111,
         "DA_Module_Weapon_Shredder.0": 0.1043,
-        "DA_Module_Weapon_Pulsar.0": -0.01377
+        "DA_Module_Weapon_Trebuchet.0": 0.07692,
+        "DA_Module_Weapon_Railgun.0": 0.07692,
+        "DA_Module_Weapon_Twinflare.0": 0.06977,
+        "DA_Module_Weapon_Hive.0": 0.06977
     },
     "ShieldAmount": {
         "DA_Module_ShoulderVityaz02.0": 0.42534,
@@ -477,7 +485,7 @@
         "DA_Module_Weapon_Horde.0": -0.31271
     },
     "TimeToReload": {
-        "DA_Module_Weapon_Bayonet.0": -0.21642,
+        "DA_Module_Weapon_Bayonet.0": -0.21397,
         "DA_Module_Weapon_Scatter.0": -0.2069,
         "DA_Module_Weapon_Trident.0": -0.19094,
         "DA_Module_Weapon_StickyGun.0": -0.17582,
@@ -486,6 +494,7 @@
         "DA_Module_Weapon_Orkan.0": -0.17431,
         "DA_Module_Weapon_Fowler.0": -0.16898,
         "DA_Module_Weapon_Locust.0": -0.15966,
+        "DA_Module_Weapon_Zenit.0": -0.1453,
         "DA_Module_Weapon_Incinerator.0": -0.14449,
         "DA_Module_Weapon_Buckshot.0": -0.13706,
         "DA_Module_Weapon_Horde.0": -0.13514,

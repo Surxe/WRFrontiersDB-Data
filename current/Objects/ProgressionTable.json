@@ -5,6 +5,68 @@
             "1": {
                 "reputation_cost": 0,
                 "rewards": {
+                    "modules": [
+                        {
+                            "module_id": "DA_Module_Weapon_Incinerator.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Incinerator.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Buckshot.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Buckshot.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Railgun.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Trebuchet.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Punisher.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Punisher.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Scourge.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Scourge.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Bisector.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_StickyGun.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Pulsar.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Pulsar.0",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Gozer.0",
+                            "level": 1
+                        }
+                    ],
                     "content_unlocks_ids": [
                         "DA_BulgasariUnlock.0"
                     ]
@@ -133,23 +195,15 @@
                     ],
                     "modules": [
                         {
-                            "module_id": "DA_Module_Weapon_Pulsar.0",
-                            "level": 1
-                        },
-                        {
-                            "module_id": "DA_Module_Weapon_Pulsar.0",
-                            "level": 1
-                        },
-                        {
-                            "module_id": "DA_Module_Weapon_Pulsar.0",
-                            "level": 1
-                        },
-                        {
                             "module_id": "DA_Module_Ability_SpeedBoost.1",
                             "level": 1
                         },
                         {
                             "module_id": "DA_Module_Ability_CounterAttack.1",
+                            "level": 1
+                        },
+                        {
+                            "module_id": "DA_Module_Weapon_Pulsar.0",
                             "level": 1
                         }
                     ]
@@ -1371,6 +1425,468 @@
                 "rewards": {
                     "blueprints_ids": [
                         "DA_Module_TorsoLoki.1"
+                    ]
+                }
+            },
+            "126": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "127": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "128": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ShoulderMesa.0"
+                    ]
+                }
+            },
+            "129": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "130": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "131": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisMesa.2"
+                    ]
+                }
+            },
+            "132": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "133": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "134": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_AmmoGenerator.1"
+                    ]
+                }
+            },
+            "135": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "136": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "137": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Locust.0"
+                    ]
+                }
+            },
+            "138": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "139": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "140": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoMesa.1"
+                    ]
+                }
+            },
+            "141": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "142": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "143": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ShoulderDemeter.0"
+                    ]
+                }
+            },
+            "144": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "145": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "146": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisDemeter.2"
+                    ]
+                }
+            },
+            "147": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "148": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "149": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "150": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "151": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "152": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Bisector.0"
+                    ]
+                }
+            },
+            "153": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "154": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "155": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoDemeter.1"
+                    ]
+                }
+            },
+            "156": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "157": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "158": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "159": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "160": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "161": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "162": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Nucleon.0"
+                    ]
+                }
+            },
+            "163": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "164": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "165": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "166": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "167": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "168": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "169": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "170": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Gimcoil.0"
                     ]
                 }
             }

@@ -1899,7 +1899,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_FireRateBoost.0",
-                "value": 0.15
+                "value": 0.2
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -2151,7 +2151,7 @@
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldBoost.0",
-                "value": 0.15
+                "value": 0.2
             }
         ]
     },
@@ -2226,10 +2226,7 @@
             "en": "+{SpeedBoostTal} speed"
         },
         "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateIdy",
-        "default_properties": {
-            "MaxStacks": 6,
-            "Lifetime": 10.0
-        },
+        "reactivation_policy": "Reactivate",
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SpeedBoostTalents.0",
@@ -2240,7 +2237,10 @@
             {
                 "Modifier": 1.1
             }
-        ]
+        ],
+        "default_properties": {
+            "Lifetime": 10.0
+        }
     },
     "DA_Talent_Ult_Kate.0": {
         "id": "DA_Talent_Ult_Kate.0",
@@ -2351,7 +2351,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Chance.0",
-                "value": 0.15
+                "value": 0.1
             }
         ]
     }
