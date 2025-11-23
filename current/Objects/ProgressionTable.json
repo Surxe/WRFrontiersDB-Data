@@ -92,7 +92,9 @@
                         "DA_PremiumUnlock.0",
                         "DA_ShopUnlock.0",
                         "DA_HarpyUnlock.0",
-                        "DA_Unlock_Workshop.0"
+                        "DA_Unlock_Workshop.0",
+                        "DA_InventorySellUnlock.0",
+                        "DA_SellPilots_Unlock.0"
                     ],
                     "decals_ids": [
                         "DA_Decal_Com_Mechanic.0",
@@ -125,10 +127,6 @@
                             "currency_id": "DA_Meta_Currency_Credits.0",
                             "amount": 2000
                         }
-                    ],
-                    "content_unlocks_ids": [
-                        "DA_InventorySellUnlock.0",
-                        "DA_SellPilots_Unlock.0"
                     ]
                 }
             },
@@ -155,8 +153,7 @@
                     ],
                     "content_unlocks_ids": [
                         "DA_TitanSlotUnlock.0",
-                        "DA_AlphaUnlock.0",
-                        "DA_LeagueUnlock.0"
+                        "DA_AlphaUnlock.0"
                     ],
                     "decals_ids": [
                         "DA_Decal_Uncom_WildTenColonizer.0"
@@ -261,6 +258,9 @@
                     ],
                     "blueprints_ids": [
                         "DA_Module_Ability_ArmorShield.1"
+                    ],
+                    "content_unlocks_ids": [
+                        "DA_LeagueUnlock.0"
                     ],
                     "decals_ids": [
                         "DA_Decal_Rare_Horticulturist.0"
@@ -598,6 +598,9 @@
                         "DA_Module_Ability_SpeedBoost.1",
                         "DA_Module_Weapon_StickyGun.0"
                     ],
+                    "content_unlocks_ids": [
+                        "DA_SpireUnlock.0"
+                    ],
                     "decals_ids": [
                         "DA_Decal_Uni_AttentionNow.0"
                     ]
@@ -863,6 +866,156 @@
                     "materials_ids": [
                         "DA_MatLegen_S0_14_Red_02.0",
                         "DA_MatLegen_S0_14_Grey_01.0"
+                    ]
+                }
+            },
+            "81": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "82": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "83": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ShoulderCyclops.0"
+                    ]
+                }
+            },
+            "84": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "85": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "86": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_ChassisCyclops.2"
+                    ]
+                }
+            },
+            "87": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "88": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "89": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Ability_DashBlinkedVisible.1"
+                    ]
+                }
+            },
+            "90": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "91": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "92": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_Weapon_Twinflare.0"
+                    ]
+                }
+            },
+            "93": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "94": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_id": "DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "95": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_ids": [
+                        "DA_Module_TorsoCyclops.1"
                     ]
                 }
             }
