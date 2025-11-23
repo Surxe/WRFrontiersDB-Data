@@ -208,4 +208,8 @@ def main(branch: Literal['main', 'testing-grounds']='main'):
 
 
 if __name__ == "__main__":
-    main('main')
+    branch = os.getenv('BRANCH_NAME', 'main')
+    if branch not in ['main', 'testing-grounds']:
+        logger.warning(f"Unknown branch '{branch}', defaulting to 'main'")
+        branch = 'main'
+    main(branch)
