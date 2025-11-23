@@ -6196,6 +6196,54 @@
         "is_factory_preset": true,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotKumo.0": {
+        "id": "DA_Preset_DevbotKumo.0",
+        "name": {
+            "Key": "CMP_name_Kumo_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Kumo"
+        },
+        "modules": {
+            "None": {
+                "id": "DA_Module_ChassisKumo.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "id": "DA_Module_TorsoKumo.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "id": "DA_Module_ShoulderKumo.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Horde.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "id": "DA_Module_ShoulderKumo.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "id": "DA_Module_Ability_Atrophy.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "id": "DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_id": "DA_Pilot_Common49.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotLancelot.0": {
         "id": "DA_Preset_DevbotLancelot.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLancelot",
@@ -6459,6 +6507,60 @@
         },
         "pilot_id": "DA_Pilot_Common4.0",
         "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotPhantom_Legend.0": {
+        "id": "DA_Preset_DevbotPhantom_Legend.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPhantom",
+        "name": {
+            "Key": "CMP_name_Phantom_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "modules": {
+            "None": {
+                "id": "DA_Module_ChassisPhantom.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "id": "DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "id": "DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "id": "DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "id": "DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "id": "DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "id": "DA_Module_Ability_MineField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_id": "DA_Pilot_Rare_IdyDemorest.0",
+        "is_factory_preset": false,
         "character_type": "Mech"
     },
     "DA_Preset_DevbotPurifier.0": {

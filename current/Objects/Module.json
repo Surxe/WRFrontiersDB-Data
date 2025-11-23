@@ -8246,6 +8246,208 @@
             "DA_ModuleSocketType_Torso.0"
         ]
     },
+    "DA_Module_ChassisKumo.2": {
+        "id": "DA_Module_ChassisKumo.2",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisKumo",
+        "module_rarity_id": "DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_id": "BP_Module_Kumo_Chassis.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "LegsArmor": 64000.0,
+                "MaxSpeed": 1700.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 8000.0,
+                "PrimaryArmor": 64000.0
+            },
+            "levels": {
+                "constants": {
+                    "module_class_id_1": "DA_Module_Class_Defender",
+                    "module_faction_id": "DA_Faction_Freecon",
+                    "LoadCapacity": 54.0,
+                    "EnergyCapacity": 23.0,
+                    "ID": "BP_Module_Kumo_Chassis",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl1",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl1_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl1_scrap2"
+                        ],
+                        "LegsArmor": 109000.0,
+                        "MaxSpeed": 1500.0,
+                        "FuelCapacity": 15.0,
+                        "Armor": 109000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl2",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl2_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl2_scrap2"
+                        ],
+                        "LegsArmor": 117700.0,
+                        "MaxSpeed": 1500.0,
+                        "FuelCapacity": 15.0,
+                        "Armor": 117700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl3",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl3_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl3_scrap2"
+                        ],
+                        "LegsArmor": 117700.0,
+                        "MaxSpeed": 1500.0,
+                        "FuelCapacity": 17.0,
+                        "Armor": 117700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl4",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl4_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl4_scrap2"
+                        ],
+                        "LegsArmor": 117700.0,
+                        "MaxSpeed": 1583.3334,
+                        "FuelCapacity": 17.0,
+                        "Armor": 117700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl5",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl5_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl5_scrap2"
+                        ],
+                        "LegsArmor": 117700.0,
+                        "MaxSpeed": 1583.3334,
+                        "FuelCapacity": 17.0,
+                        "Armor": 117700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl6",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl6_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl6_scrap2"
+                        ],
+                        "LegsArmor": 124800.0,
+                        "MaxSpeed": 1583.3334,
+                        "FuelCapacity": 17.0,
+                        "Armor": 124800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl7",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl7_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl7_scrap2"
+                        ],
+                        "LegsArmor": 124800.0,
+                        "MaxSpeed": 1583.3334,
+                        "FuelCapacity": 18.0,
+                        "Armor": 124800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl8",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl8_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl8_scrap2"
+                        ],
+                        "LegsArmor": 124800.0,
+                        "MaxSpeed": 1638.8889,
+                        "FuelCapacity": 18.0,
+                        "Armor": 124800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl9",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl9_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl9_scrap2"
+                        ],
+                        "LegsArmor": 124800.0,
+                        "MaxSpeed": 1638.8889,
+                        "FuelCapacity": 18.0,
+                        "Armor": 124800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl10",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl10_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl10_scrap2"
+                        ],
+                        "LegsArmor": 131000.0,
+                        "MaxSpeed": 1638.8889,
+                        "FuelCapacity": 18.0,
+                        "Armor": 131000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl11",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl11_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl11_scrap2"
+                        ],
+                        "LegsArmor": 131000.0,
+                        "MaxSpeed": 1638.8889,
+                        "FuelCapacity": 19.0,
+                        "Armor": 131000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl12",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl12_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl12_scrap2"
+                        ],
+                        "LegsArmor": 131000.0,
+                        "MaxSpeed": 1694.4445,
+                        "FuelCapacity": 19.0,
+                        "Armor": 131000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ChassisKumo.2_lvl13",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ChassisKumo.2_lvl13_scrap1",
+                            "DA_Module_ChassisKumo.2_lvl13_scrap2"
+                        ],
+                        "LegsArmor": 131000.0,
+                        "MaxSpeed": 1694.4445,
+                        "FuelCapacity": 19.0,
+                        "Armor": 131000.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Kumo_Chassis"
+        },
+        "abilities_scalars": [
+            {},
+            {
+                "default_scalars": {
+                    "ChargeRegenDuration": 20.0
+                }
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Kumo_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Kumo"
+        },
+        "faction_id": "DA_Faction_Freecon.0",
+        "module_classes_ids": [
+            "DA_Module_Class_Defender.0"
+        ],
+        "module_stats_table_id": "DA_ModuleStatsTable.0",
+        "module_type_id": "DA_ModuleType_Chassis.0",
+        "module_socket_type_ids": [
+            "DA_ModuleSocketType_Torso.0"
+        ]
+    },
     "DA_Module_ChassisLancelot.2": {
         "id": "DA_Module_ChassisLancelot.2",
         "production_status": "Ready",
@@ -14528,6 +14730,199 @@
             "DA_ModuleSocketType_WeaponHeavy.0"
         ]
     },
+    "DA_Module_ShoulderKumo.0": {
+        "id": "DA_Module_ShoulderKumo.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderKumo",
+        "module_rarity_id": "DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_id": "BP_Module_Kumo_ShoulderL.0",
+                "mount": "Left"
+            },
+            {
+                "character_module_id": "BP_Module_Kumo_ShoulderR.0",
+                "mount": "Right"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_id_1": "DA_Module_Class_Defender",
+                    "module_faction_id": "DA_Faction_Freecon",
+                    "ID": "BP_Module_Kumo_ShoulderL",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 13.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl1",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl1_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl1_scrap2"
+                        ],
+                        "ShieldAmount": 9000.0,
+                        "ShieldRegeneration": 9000.0,
+                        "ShieldDelayReduction": 0.06,
+                        "Armor": 104000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl2",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl2_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl2_scrap2"
+                        ],
+                        "ShieldAmount": 9200.0,
+                        "ShieldRegeneration": 9200.0,
+                        "ShieldDelayReduction": 0.06,
+                        "Armor": 109200.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl3",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl3_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl3_scrap2"
+                        ],
+                        "ShieldAmount": 9400.0,
+                        "ShieldRegeneration": 9400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "Armor": 109200.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl4",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl4_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl4_scrap2"
+                        ],
+                        "ShieldAmount": 9600.0,
+                        "ShieldRegeneration": 9600.0,
+                        "ShieldDelayReduction": 0.07,
+                        "Armor": 114700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl5",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl5_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl5_scrap2"
+                        ],
+                        "ShieldAmount": 9800.0,
+                        "ShieldRegeneration": 9800.0,
+                        "ShieldDelayReduction": 0.08,
+                        "Armor": 114700.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl6",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl6_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl6_scrap2"
+                        ],
+                        "ShieldAmount": 10000.0,
+                        "ShieldRegeneration": 10000.0,
+                        "ShieldDelayReduction": 0.08,
+                        "Armor": 119300.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl7",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl7_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl7_scrap2"
+                        ],
+                        "ShieldAmount": 10200.0,
+                        "ShieldRegeneration": 10200.0,
+                        "ShieldDelayReduction": 0.08,
+                        "Armor": 124100.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl8",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl8_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl8_scrap2"
+                        ],
+                        "ShieldAmount": 10400.0,
+                        "ShieldRegeneration": 10400.0,
+                        "ShieldDelayReduction": 0.08,
+                        "Armor": 129100.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl9",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl9_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl9_scrap2"
+                        ],
+                        "ShieldAmount": 10600.0,
+                        "ShieldRegeneration": 10600.0,
+                        "ShieldDelayReduction": 0.09,
+                        "Armor": 129100.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl10",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl10_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl10_scrap2"
+                        ],
+                        "ShieldAmount": 10800.0,
+                        "ShieldRegeneration": 10800.0,
+                        "ShieldDelayReduction": 0.09,
+                        "Armor": 133000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl11",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl11_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl11_scrap2"
+                        ],
+                        "ShieldAmount": 11000.0,
+                        "ShieldRegeneration": 11000.0,
+                        "ShieldDelayReduction": 0.09,
+                        "Armor": 137000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl12",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl12_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl12_scrap2"
+                        ],
+                        "ShieldAmount": 11200.0,
+                        "ShieldRegeneration": 11200.0,
+                        "ShieldDelayReduction": 0.09,
+                        "Armor": 141100.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_ShoulderKumo.0_lvl13",
+                        "scrap_rewards_ids": [
+                            "DA_Module_ShoulderKumo.0_lvl13_scrap1",
+                            "DA_Module_ShoulderKumo.0_lvl13_scrap2"
+                        ],
+                        "ShieldAmount": 11400.0,
+                        "ShieldRegeneration": 11400.0,
+                        "ShieldDelayReduction": 0.1,
+                        "Armor": 141100.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Kumo_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8000.0,
+                "PrimaryArmor": 36000.0
+            }
+        },
+        "name": {
+            "Key": "CMP_name_Kumo_Shoulder",
+            "TableNamespace": "Component_name",
+            "en": "Kumo"
+        },
+        "faction_id": "DA_Faction_Freecon.0",
+        "module_classes_ids": [
+            "DA_Module_Class_Defender.0"
+        ],
+        "module_stats_table_id": "DA_ModuleStatsTable.0",
+        "module_type_id": "DA_ModuleType_Shoulder.0",
+        "module_socket_type_ids": [
+            "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+    },
     "DA_Module_ShoulderLAlpha.0": {
         "id": "DA_Module_ShoulderLAlpha.0",
         "production_status": "Ready",
@@ -15356,8 +15751,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl1_scrap2"
                             ],
                             "Cooldown": 43.0,
-                            "PrimaryParameter": 14584.0,
-                            "SecondaryParameter": 70.31
+                            "PrimaryParameter": 14601.0,
+                            "SecondaryParameter": 62.65
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl2",
@@ -15366,8 +15761,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl2_scrap2"
                             ],
                             "Cooldown": 43.0,
-                            "PrimaryParameter": 15352.0,
-                            "SecondaryParameter": 70.31
+                            "PrimaryParameter": 16045.0,
+                            "SecondaryParameter": 62.65
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl3",
@@ -15376,8 +15771,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl3_scrap2"
                             ],
                             "Cooldown": 43.0,
-                            "PrimaryParameter": 15352.0,
-                            "SecondaryParameter": 74.01
+                            "PrimaryParameter": 16045.0,
+                            "SecondaryParameter": 68.1
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl4",
@@ -15385,9 +15780,9 @@
                                 "DA_Module_ShoulderLGrim.0_lvl4_scrap1",
                                 "DA_Module_ShoulderLGrim.0_lvl4_scrap2"
                             ],
-                            "Cooldown": 36.0,
-                            "PrimaryParameter": 15352.0,
-                            "SecondaryParameter": 74.01
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 17440.0,
+                            "SecondaryParameter": 68.1
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl5",
@@ -15396,8 +15791,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl5_scrap2"
                             ],
                             "Cooldown": 36.0,
-                            "PrimaryParameter": 16160.0,
-                            "SecondaryParameter": 74.01
+                            "PrimaryParameter": 17440.0,
+                            "SecondaryParameter": 68.1
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl6",
@@ -15406,8 +15801,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl6_scrap2"
                             ],
                             "Cooldown": 36.0,
-                            "PrimaryParameter": 16160.0,
-                            "SecondaryParameter": 77.9
+                            "PrimaryParameter": 17440.0,
+                            "SecondaryParameter": 73.23
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl7",
@@ -15416,8 +15811,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl7_scrap2"
                             ],
                             "Cooldown": 36.0,
-                            "PrimaryParameter": 17010.0,
-                            "SecondaryParameter": 77.9
+                            "PrimaryParameter": 18753.0,
+                            "SecondaryParameter": 73.23
                         },
                         {
                             "upgrade_cost_id": "DA_Module_ShoulderLGrim.0_lvl8",
@@ -15425,8 +15820,8 @@
                                 "DA_Module_ShoulderLGrim.0_lvl8_scrap1",
                                 "DA_Module_ShoulderLGrim.0_lvl8_scrap2"
                             ],
-                            "Cooldown": 30.0,
-                            "PrimaryParameter": 17010.0,
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 18753.0,
                             "SecondaryParameter": 77.9
                         },
                         {
@@ -15436,7 +15831,7 @@
                                 "DA_Module_ShoulderLGrim.0_lvl9_scrap2"
                             ],
                             "Cooldown": 30.0,
-                            "PrimaryParameter": 17010.0,
+                            "PrimaryParameter": 18753.0,
                             "SecondaryParameter": 77.9
                         },
                         {
@@ -15446,7 +15841,7 @@
                                 "DA_Module_ShoulderLGrim.0_lvl10_scrap2"
                             ],
                             "Cooldown": 30.0,
-                            "PrimaryParameter": 18900.0,
+                            "PrimaryParameter": 19950.0,
                             "SecondaryParameter": 77.9
                         },
                         {
@@ -15456,7 +15851,7 @@
                                 "DA_Module_ShoulderLGrim.0_lvl11_scrap2"
                             ],
                             "Cooldown": 30.0,
-                            "PrimaryParameter": 18900.0,
+                            "PrimaryParameter": 19950.0,
                             "SecondaryParameter": 82.0
                         },
                         {
@@ -25448,6 +25843,257 @@
             "DA_ModuleSocketType_Ability4.0"
         ]
     },
+    "DA_Module_TorsoKumo.1": {
+        "id": "DA_Module_TorsoKumo.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_TorsoKumo",
+        "module_rarity_id": "DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_id": "BP_Module_Kumo_Torso.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_ids": [
+            "DA_Tag_AbilityType_Movement.0"
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_id_1": "DA_Module_Class_Defender",
+                    "module_tag_id_1": "DA_Tag_AbilityType_Movement",
+                    "module_faction_id": "DA_Faction_Freecon",
+                    "ID": "BP_Module_Kumo_Torso",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 12.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl1",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl1_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl1_scrap2"
+                        ],
+                        "Armor": 113100.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl2",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl2_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl2_scrap2"
+                        ],
+                        "Armor": 116000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl3",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl3_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl3_scrap2"
+                        ],
+                        "Armor": 116000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl4",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl4_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl4_scrap2"
+                        ],
+                        "Armor": 119000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl5",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl5_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl5_scrap2"
+                        ],
+                        "Armor": 119000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl6",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl6_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl6_scrap2"
+                        ],
+                        "Armor": 120800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl7",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl7_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl7_scrap2"
+                        ],
+                        "Armor": 120800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl8",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl8_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl8_scrap2"
+                        ],
+                        "Armor": 122600.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl9",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl9_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl9_scrap2"
+                        ],
+                        "Armor": 122600.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl10",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl10_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl10_scrap2"
+                        ],
+                        "Armor": 123800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl11",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl11_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl11_scrap2"
+                        ],
+                        "Armor": 123800.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl12",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl12_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl12_scrap2"
+                        ],
+                        "Armor": 125000.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_TorsoKumo.1_lvl13",
+                        "scrap_rewards_ids": [
+                            "DA_Module_TorsoKumo.1_lvl13_scrap1",
+                            "DA_Module_TorsoKumo.1_lvl13_scrap2"
+                        ],
+                        "Armor": 125000.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Kumo_Torso",
+            "default_scalars": {
+                "HullShare": 11000.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_scalars": [
+            {
+                "default_scalars": {
+                    "Cooldown": 40.0,
+                    "PrimaryParameter": 10.0,
+                    "SecondaryParameter": 800.0
+                },
+                "primary_stat_id": "DA_ModuleStat_ActiveEfficiency.0",
+                "secondary_stat_id": "DA_ModuleStat_ActiveDuration.0",
+                "levels": {
+                    "constants": {
+                        "module_class_id_1": "DA_Module_Class_Defender",
+                        "module_tag_id_1": "DA_Tag_AbilityType_Movement",
+                        "module_faction_id": "DA_Faction_Freecon",
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "ID": "WarpArmor",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 3.9
+                        },
+                        {
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 3.9
+                        },
+                        {
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 26.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 42.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 42.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 4.2
+                        },
+                        {
+                            "Cooldown": 42.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 6.0
+                        },
+                        {
+                            "Cooldown": 42.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 6.0
+                        },
+                        {
+                            "Cooldown": 37.0,
+                            "PrimaryParameter": 30.0,
+                            "SecondaryParameter": 6.0
+                        }
+                    ]
+                },
+                "module_name": "WarpArmor"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Kumo_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Kumo"
+        },
+        "faction_id": "DA_Faction_Freecon.0",
+        "module_classes_ids": [
+            "DA_Module_Class_Defender.0"
+        ],
+        "module_stats_table_id": "DA_ModuleStatsTable.0",
+        "module_type_id": "DA_ModuleType_Torso.0",
+        "module_socket_type_ids": [
+            "DA_ModuleSocketType_ShoulderL.0",
+            "DA_ModuleSocketType_ShoulderR.0",
+            "DA_ModuleSocketType_Ability3.0",
+            "DA_ModuleSocketType_Ability4.0"
+        ]
+    },
     "DA_Module_TorsoLancelot.1": {
         "id": "DA_Module_TorsoLancelot.1",
         "production_status": "Ready",
@@ -33565,6 +34211,259 @@
         ],
         "module_stats_table_id": "DA_ModuleStatsTable.0",
         "module_type_id": "DA_ModuleType_TitanWeaponTank.0"
+    },
+    "DA_Module_Weapon_Horde.0": {
+        "id": "DA_Module_Weapon_Horde.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Horde",
+        "module_rarity_id": "DA_ModuleRarity_Common.0",
+        "character_module_mounts": [
+            {
+                "character_module_id": "BP_Weapon_Horde.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_ids": [
+            "DA_Tag_WeaponDamageElectromagnetic.0",
+            "DA_Tag_WeaponTypeShotgun.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 13500.0,
+                    "DamageShield": 10000.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 0.0,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 1.0,
+                            "Value": 0.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ClipSize": 1,
+                "TimeToReload": 4.0
+            },
+            "levels": {
+                "constants": {
+                    "module_class_id_1": "DA_Module_Class_Defender",
+                    "module_tag_id_1": "DA_Tag_WeaponDamageElectromagnetic",
+                    "module_tag_id_2": "DA_Tag_WeaponTypeShotgun",
+                    "module_faction_id": "DA_Faction_Freecon",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 13000.0,
+                    "RangeMax": 22000.0,
+                    "RangeDeath": 22001.0,
+                    "SpreadX": 0.0,
+                    "SpreadY": 0.0,
+                    "DamageNoArmor": 25000.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 100000.0,
+                    "ClipSize": 2,
+                    "ProjectilesPerShot": 1,
+                    "ID": "Horde",
+                    "Armor": 0.0,
+                    "WeightDrain": 7.0,
+                    "EnergyDrain": 7.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl1",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl1_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 18983.0,
+                        "TimeToReload": 3.7,
+                        "TimeBetweenShots": 1.164,
+                        "RoundsPerMinute": 52.0,
+                        "ArmorDPS": 5035.0,
+                        "ShieldDPS": 6631.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl2",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl2_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 19470.0,
+                        "TimeToReload": 3.7,
+                        "TimeBetweenShots": 1.164,
+                        "RoundsPerMinute": 52.0,
+                        "ArmorDPS": 5164.0,
+                        "ShieldDPS": 6631.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl3",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl3_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 19470.0,
+                        "TimeToReload": 3.53,
+                        "TimeBetweenShots": 1.164,
+                        "RoundsPerMinute": 52.0,
+                        "ArmorDPS": 5320.0,
+                        "ShieldDPS": 6831.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl4",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl4_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 19969.0,
+                        "TimeToReload": 3.53,
+                        "TimeBetweenShots": 1.164,
+                        "RoundsPerMinute": 52.0,
+                        "ArmorDPS": 5456.0,
+                        "ShieldDPS": 6831.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl5",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl5_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 19969.0,
+                        "TimeToReload": 3.53,
+                        "TimeBetweenShots": 1.012,
+                        "RoundsPerMinute": 59.0,
+                        "ArmorDPS": 5755.0,
+                        "ShieldDPS": 7205.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl6",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl6_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 20273.0,
+                        "TimeToReload": 3.53,
+                        "TimeBetweenShots": 1.012,
+                        "RoundsPerMinute": 59.0,
+                        "ArmorDPS": 5842.0,
+                        "ShieldDPS": 7205.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl7",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl7_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 20273.0,
+                        "TimeToReload": 3.36,
+                        "TimeBetweenShots": 1.012,
+                        "RoundsPerMinute": 59.0,
+                        "ArmorDPS": 6025.0,
+                        "ShieldDPS": 7429.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl8",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl8_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 20582.0,
+                        "TimeToReload": 3.36,
+                        "TimeBetweenShots": 1.012,
+                        "RoundsPerMinute": 59.0,
+                        "ArmorDPS": 6116.0,
+                        "ShieldDPS": 7429.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl9",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl9_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 20582.0,
+                        "TimeToReload": 3.36,
+                        "TimeBetweenShots": 0.88,
+                        "RoundsPerMinute": 68.0,
+                        "ArmorDPS": 6432.0,
+                        "ShieldDPS": 7813.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl10",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl10_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 20790.0,
+                        "TimeToReload": 3.36,
+                        "TimeBetweenShots": 0.88,
+                        "RoundsPerMinute": 68.0,
+                        "ArmorDPS": 6497.0,
+                        "ShieldDPS": 7813.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl11",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl11_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 20790.0,
+                        "TimeToReload": 3.2,
+                        "TimeBetweenShots": 0.88,
+                        "RoundsPerMinute": 68.0,
+                        "ArmorDPS": 6706.0,
+                        "ShieldDPS": 8065.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl12",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl12_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 21000.0,
+                        "TimeToReload": 3.2,
+                        "TimeBetweenShots": 0.88,
+                        "RoundsPerMinute": 68.0,
+                        "ArmorDPS": 6774.0,
+                        "ShieldDPS": 8065.0
+                    },
+                    {
+                        "upgrade_cost_id": "DA_Module_Weapon_Horde.0_lvl13",
+                        "scrap_rewards_ids": [
+                            "DA_Module_Weapon_Horde.0_lvl13_scrap1",
+                            "DA_Module_Weapon_Horde.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 21000.0,
+                        "TimeToReload": 3.2,
+                        "TimeBetweenShots": 0.8,
+                        "RoundsPerMinute": 75.0,
+                        "ArmorDPS": 7000.0,
+                        "ShieldDPS": 8333.0
+                    }
+                ]
+            },
+            "module_name": "Horde"
+        },
+        "name": {
+            "Key": "WPN_name_Horde",
+            "TableNamespace": "Weapon_name",
+            "en": "Horde"
+        },
+        "description": {
+            "Key": "WPN_desc_Horde",
+            "TableNamespace": "Weapon_description",
+            "en": "Plasma shotgun for close and medium distance. Deals extra damage to shields."
+        },
+        "faction_id": "DA_Faction_Freecon.0",
+        "module_classes_ids": [
+            "DA_Module_Class_Defender.0"
+        ],
+        "module_stats_table_id": "DA_ModuleStatsTable.0",
+        "module_type_id": "DA_ModuleType_WeaponHeavy.0"
     },
     "DA_Module_Weapon_Incinerator.0": {
         "id": "DA_Module_Weapon_Incinerator.0",
