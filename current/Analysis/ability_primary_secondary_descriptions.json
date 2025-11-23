@@ -18,7 +18,7 @@
             "Zielsuchrakete": "Feuert eine Zielsuchrakete ab, die {**Primär.x**} Schildschaden oder {**Sekundär.x**} Panzerschaden verursacht. Erforderliche Ladung: {ChargeDrain}.",
             "Unendliche Munition": "Gewährt nach einer Verzögerung von {**Sekundär./**} {**Primär.x**} lang unbegrenzt viel Munition. Erforderliche Ladung: {ChargeDrain}.",
             "Minenfeld": "Legt ein Minenfeld aus, das {**Sekundär.x**} bestehen bleibt. Jede Mine verlangsamt beim Aufprall Feinde und fügt ihnen {**Primär.x**} Schaden zu. Erforderliche Ladung: {ChargeDrain}.",
-            "Nanoreparatur": "Repariert alle Module um {**Primär.x**} Panzerpunkte pro Tick. Hält {**Sekundär.x**} lang an. Ladung erforderlich: {ChargeDrain}.",
+            "Nanoreparatur": "Repariert alle Module um {**Primär.x**}% Panzerung pro Tick. Hält {**Sekundär.x**} lang an. Erforderliche Ladung: {ChargeDrain}.",
             "Aufklärungsmodus": "Der Roboter erhält einen Geschwindigkeitsschub und deckt alle Gegner {**Primär.x**} lang im Umkreis von {**Sekundär.x**} auf. Erforderliche Ladung: {ChargeDrain}.",
             "Gammastrahl": "Bleibt am Feind {**Sekundär.x**} lang haften und fügt diesem bis zu {**Primär.x**} Schaden pro Sekunde zu. Der Schaden hängt von der Entfernung ab. Erforderliche Ladung: {ChargeDrain}.",
             "Schirm": "Aktiviert eine Barriere mit einem Radius von {**Sekundär.x**} ein, die gegen Angriffe von oben schützt. Sie hält {**Primär.x**} lang an. Erforderliche Ladung: {ChargeDrain}."
@@ -40,7 +40,7 @@
             "Ravana's Wächtermatrix": "Verbündete vor dir erleiden {**Primär.x**} lang {**Sekundär.x**} weniger Schaden. Du kannst nicht getötet werden, solange ein Verbündeter davon betroffen ist. Abklingzeit: {CD}.",
             "Raven's Stahlfedern": "Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}. Abklingzeit: {CD}.",
             "Siren's Kälteeinbruch": "Feuert ein Gefrierprojektil ab, das Feinden im Wirkradius {**Primär.x**} Schaden zufügt und sie {**Sekundär.x**} lang bewegungsunfähig macht. Abklingzeit: {CD}.",
-            "Typhon's Blackout": "Feuert Zielsuchraketen ab, die bis zu 3 Feinde dazu zwingt, nachzuladen. Gleichzeitig verlangsamt sie ihre Nachladezeiten {**Sekundär.x**} lang um {**Primär.x**}. Abklingzeit: {CD}.",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Drohnenreparatur": "Aktiviert eine Drohne, die Verbündete im Umkreis von {**Primär.x**} {**Sekundär.x**} lang repariert. Abklingzeit: {CD}.",
             "Varangian's Energiekuppel": "Aktiviert eine Barriere mit einem Umkreis von {**Sekundär.x**}, die bis zu {**Primär.x**} Schaden durch feindliche Angriffe absorbiert. Abklingzeit: {CD}."
         }
@@ -86,7 +86,7 @@
             "Ravana's Guardian Matrix": "Allies in front of you take {**Secondary.x**} less damage for {**Primary.x**}. You cannot be destroyed while any ally is affected by this. Cooldown: {CD}",
             "Raven's Steel Feathers": "Fires a barrage of missiles dead ahead, each dealing {**Primary.x**} damage with a {**Secondary.x**} blast radius. Cooldown: {CD}",
             "Siren's Cold Snap": "Fires a freezing projectile that deals {**Primary.x**} damage to enemies within a blast radius and immobilizes them for {**Secondary.x**}. Cooldown: {CD}",
-            "Typhon's Blackout": "Fires homing missiles that force up to 3 enemies to reload, while also slowing their reloads by {**Primary.x**} for {**Secondary.x**}. Cooldown: {CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Repair Drone": "Deploys a drone that repairs allies within {**Primary.x**} for {**Secondary.x**}. Cooldown: {CD}",
             "Varangian's Energy Dome": "Deploys a barrier with {**Secondary.x**} radius that absorbs up to {**Primary.x**} damage from enemy attacks. Cooldown: {CD}"
         }
@@ -110,7 +110,7 @@
             "Misil teledirigido": "Lanza un misil teledirigido que inflige {**Primario.x**} de daño a escudos o {**Secundario.x**} a armaduras. Carga necesaria: {ChargeDrain}",
             "Munición infinita": "Después de un retardo de {**Secundario./**}, proporciona munición ilimitada durante {**Primario.x**}. Carga necesaria: {ChargeDrain}",
             "Campo de minas": "Despliega un campo de minas que dura {**Secundario.x**}. Cada mina ralentiza a los enemigos al impactar e inflige {**Primario.x**} de daño. Carga necesaria: {ChargeDrain}",
-            "Reparación de nanobots": "Repara {**Primario.x**} de armadura por tic en todos los módulos. Dura {**Secundario.x**}. Carga necesaria: {ChargeDrain}.",
+            "Reparación de nanobots": "Repara un {**Primario.x**} % de armadura por tic en todos los módulos. Dura {**Secundario.x**}. Carga necesaria: {ChargeDrain}.",
             "Modo de reconocimiento": "El robot obtiene un potenciador de velocidad y revela a todos los enemigos en un radio de {**Secundario.x**} durante {**Primario.x**}. Carga necesaria: {ChargeDrain}.",
             "Rayo gamma": "Sigue al enemigo durante {**Secundario.x**} e inflige hasta {**Primario.x**} de daño por segundo. El daño aumenta con la proximidad. Carga necesaria: {ChargeDrain}",
             "Paraguas": "Despliega una barrera con un radio de {**Secundario.x**} que protege contra los ataques desde arriba. Dura {**Primario.x**}. Carga necesaria: {ChargeDrain}"
@@ -132,7 +132,7 @@
             "Ravana's Matriz de guardianes": "Los aliados frente a ti reciben {**Secundario.x**} menos de daño durante {**Primario.x**}. No te podrán matar mientras haya aliados con este efecto activo. Tiempo de recarga: {CD}",
             "Raven's Plumas de acero": "Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**}. Tiempo de recarga: {CD}",
             "Siren's Ola de frío": "Dispara un proyectil congelador que inflige {**Primario.x**} de daño a los enemigos en un radio de explosión y los inmoviliza durante {**Secundario.x**}. Tiempo de recarga: {CD}",
-            "Typhon's Apagón": "Dispara misiles teledirigidos que obligan hasta a 3 enemigos a recargar mientras se ralentizan sus recargas {**Primario.x**} durante {**Secundario.x**}. Tiempo de recarga: {CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Dron de reparación": "Despliega un dron que repara a los aliados en un radio de {**Primario.x**} durante {**Secundario.x**}. Tiempo de recarga: {CD}",
             "Varangian's Cúpula energética": "Despliega una barrera con un radio de {**Secundario.x**} que absorbe hasta {**Primario.x**} de daño de los ataques enemigos. Tiempo de recarga: {CD}."
         }
@@ -156,7 +156,7 @@
             "Missile chercheur": "Tire un missile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts aux boucliers ou {**Secondaire.x**} au blindage. Énergie requise : {ChargeDrain}",
             "Munitions infinies": "Après un délai de {**Secondaire./**}, fournit des munitions illimitées pendant {**Primaire.x**}. Énergie requise : {ChargeDrain}",
             "Champ de mines": "Déploie un champ de mines pendant {**Secondaire.x**}. Chaque mine ralentit les ennemis à l'impact et inflige {**Primaire.x**} points de dégâts. Énergie requise : {ChargeDrain}",
-            "Réparation de nanites": "Répare tous les modules à hauteude {**Primaire.x**} points de blindage par cycle. Dure {**Secondaire.x**}. Énergie requise : {ChargeDrain}",
+            "Réparation de nanites": "Répare tous les modules à hauteur de {**Primaire.x**} points de blindage par cycle. Dure {**Secondaire.x**}. Énergie requise : {ChargeDrain}.",
             "Mode reconnaissance": "Votre robot gagne un boost de vitesse et révèle tous les ennemis dans un rayon de {**Secondaire.x**} pendant {**Primaire.x**}. Énergie requise : {ChargeDrain}",
             "Rayon gamma": "Se verrouille sur l'ennemi pendant {**Secondaire.x**}, infligeant jusqu'à {**Primaire.x**} points de dégâts par seconde. Les dégâts augmentent avec la proximité. Énergie requise : {ChargeDrain}",
             "Parapluie": "Déploie une barrière d'un rayon de {**Secondaire.x**} qui vous protège des attaques venues du ciel. Dure {**Primaire.x**}. Énergie requise : {ChargeDrain}"
@@ -178,7 +178,7 @@
             "Ravana's Matrice gardienne": "Les alliés devant vous subissent {**Secondaire.x**} points de dégâts en moins pendant {**Primaire.x**}. Vous êtes invincible tant qu'un allié est touché par cet effet. Temps de recharge : {CD}",
             "Raven's Plumes d'acier": "Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**}. Temps de recharge : {CD}",
             "Siren's Coup de froid": "Tire un projectile glaçant qui inflige {**Primaire.x**} points de dégâts aux ennemis dans son rayon d'explosion et les immobilise pendant {**Secondaire.x**}. Temps de recharge : {CD}",
-            "Typhon's Trou noir": "Tire des missiles à tête chercheuse qui forcent jusqu'à 3 ennemis à recharger et diminuent leur vitesse de recharge de {**Primaire.x**} pendant {**Secondaire.x**}. Temps de recharge : {CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Drone réparateur": "Déploie un drone qui répare vos alliés dans un rayon de {**Primaire.x**} pendant {**Secondaire.x**}. Temps de recharge : {CD}",
             "Varangian's Dôme d'énergie": "Déploie une barrière d'un rayon de {**Secondaire.x**}. Elle empêche les ennemis d'y entrer ou d'en sortir et absorbe jusqu'à {**Primaire.x**} points de dégâts. Temps de recharge : {CD}"
         }
@@ -202,7 +202,7 @@
             "誘導ミサイル": "シールドに{**メイン.x**}ダメージ、または装甲に{**サブ.x**}ダメージを与える誘導ミサイルを発射する。必要チャージ：{ChargeDrain}。",
             "無限弾薬": "{**サブ./**}後に{**メイン.x**}間、弾薬が無限になる。必要チャージ：{ChargeDrain}",
             "地雷原": "{**サブ.x**}間持続する地雷原を展開する。それぞれの地雷は命中時に敵を減速させ、{**メイン.x**}ダメージを与える。必要チャージ：{ChargeDrain}",
-            "ナナイト修復": "すべてのモジュールの装甲を1カウントごとに{**メイン.x**}修復する。{**サブ.x**}間持続する。必要チャージ：{ChargeDrain}。",
+            "ナナイト修復": "すべてのモジュールの装甲を1カウントごとに{**メイン.x**}%修復する。{**サブ.x**}間持続する。必要チャージ：{ChargeDrain}。",
             "リーコンモード": "{**メイン.x**}間、ロボットがスピードブーストを獲得し、{**サブ.x**}以内のすべての敵を発見状態にする。必要チャージ：{ChargeDrain}。",
             "ガンマビーム": "{**サブ.x**}間、敵をロックオンし、1秒あたり最大{**メイン.x**}ダメージを与える。ダメージは距離に応じて変化する。必要チャージ：{ChargeDrain}",
             "アンブレラ": "半径{**サブ.x**}のバリアを展開し、上空からの攻撃を防ぐ。{**メイン.x**}間持続する。必要チャージ：{ChargeDrain}"
@@ -224,7 +224,7 @@
             "Ravana's ガーディアンマトリクス": "目の前の味方が受けるダメージが{**メイン.x**}間、{**サブ.x**}減少する。味方がこれによって影響を受けている間はキルされない。クールダウン：{CD}",
             "Raven's 鋼鉄の羽根": "前方にミサイルの弾幕を形成する。それぞれのミサイルは{**サブ.x**}の爆発半径で{**メイン.x**}ダメージを与える。クールダウン：{CD}",
             "Siren's コールドスナップ": "凍結弾を発射し、爆発半径内の敵に{**メイン.x**}ダメージを与え、{**サブ.x**}間動けなくする。クールダウン：{CD}",
-            "Typhon's ブラックアウト": "最大3体の敵にリロードを強制する誘導ミサイルを発射し、同時に{**サブ.x**}間、リロード速度を{**メイン.x**}遅くする。クールダウン：{CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's 修復ドローン": "{**メイン.x**}以内の味方を{**サブ.x**}間、修復するドローンを展開する。クールダウン：{CD}",
             "Varangian's エネルギードーム": "半径{**サブ.x**} のバリアを展開し、敵の攻撃から最大{**メイン.x**}ダメージを吸収する。クールダウン：{CD}"
         }
@@ -248,7 +248,7 @@
             "Pocisk samonaprowadzający": "Wystrzelona rakieta samonaprowadzająca powoduje {**Podstawowy.x**} obrażeń tarcz lub {**Drugoplanowy.x**} pancerza. Wymagany ładunek: {ChargeDrain}.",
             "Nieskończona amunicja": "Po opóźnieniu wynoszącym {**Drugoplanowy./**} przez {**Podstawowy.x**} zapewnia nieograniczoną amunicję. Wymagany ładunek energii: {ChargeDrain}.",
             "Pole minowe": "Rozmieszcza pole minowe aktywne przez {**Drugoplanowy.x**}. Każda mina spowalnia wrogów i powoduje {**Podstawowy.x**} obrażeń. Wymagany ładunek energii: {ChargeDrain}.",
-            "Naprawcze nanity": "Naprawia {**Podstawowy.x**} pancerza wszystkich modułów na jedn. czasu. Czas trwania: {**Drugoplanowy.x**}. Wymagany ładunek: {ChargeDrain}.",
+            "Naprawcze nanity": "Naprawia {**Podstawowy.x**}% pancerza wszystkich modułów na jedn. czasu. Czas trwania: {**Drugoplanowy.x**}. Wymagany ładunek: {ChargeDrain}.",
             "Tryb zwiadowcy": "Robot zyskuje premię do szybkości i odkrywa pozycje wszystkich wrogów odległości {**Drugoplanowy.x**}. Czas aktywności: {**Podstawowy.x**}. Wymagany ładunek: {ChargeDrain}.",
             "Promień gamma": "Uaktywnia urządzenie, które koncentruje się na wrogu i przez {**Drugoplanowy.x**} zadaje mu do {**Podstawowy.x**} obrażeń na sek. Obrażenia zmieniają się wraz z odległością od celu. Wymagany ładunek: {ChargeDrain}.",
             "Parasol": "Uaktywnia barierę o promieniu {**Drugoplanowy.x**}, która chroni cię przed atakami z góry. Czas aktywności: {**Podstawowy.x**}. Wymagany ładunek: {ChargeDrain}."
@@ -270,7 +270,7 @@
             "Ravana's Strażnik": "Sojusznicy znajdujący się przed tobą otrzymują {**Drugoplanowy.x**} mniej obrażeń przez {**Podstawowy.x**}. W czasie aktywności tej funkcji twój robot nie może zostać zniszczony. Czas reaktywacji: {CD}.",
             "Raven's Stalowe pióra": "Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.",
             "Siren's Uderzenie mrozu": "Wystrzeliwuje pocisk zamrażający, który powoduje {**Podstawowy.x**} obrażeń w polu rażenia i unieruchamia wrogów na {**Drugoplanowy.x**}. Czas reaktywacji: {CD}",
-            "Typhon's Zaciemnienie": "Wystrzeliwuje rakiety samonaprowadzające, które zmuszają maks. 3 wrogów do przeładowania broni, przy czym przeładowanie jest spowalniane o {**Podstawowy.x**} przez {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Dron naprawczy": "Uaktywnia drona, który naprawia roboty sojuszników w promieniu {**Podstawowy.x**}. Czas trwania: {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.",
             "Varangian's Kopuła energetyczna": "Uaktywnia barierę osłony o promieniu {**Drugoplanowy.x**}, która pochłania do {**Podstawowy.x**} obrażeń zadawanych przez atakujących wrogów. Czas reaktywacji: {CD}."
         }
@@ -294,7 +294,7 @@
             "Míssil Guiado": "Atira um míssil guiado que causa {**Primário.x**} de dano a escudos ou {**Secundário.x**} a armaduras. Carga necessária: {ChargeDrain}.",
             "Munição Infinita": "Após {**Secundário./**} da ativação, concede munição ilimitada por {**Primário.x**}. Carga necessária: {ChargeDrain}.",
             "Campo Minado": "Posiciona um campo minado por {**Secundário.x**}. Cada mina desacelera os inimigos ao explodir e causa {**Primário.x**} de dano. Carga necessária: {ChargeDrain}.",
-            "Nano Reparadores": "Conserta {**Primário.x**} da armadura de todos os módulos por ciclo. Dura {**Secundário.x**}. Carga necessária: {ChargeDrain}.",
+            "Nano Reparadores": "Repara todos os módulos em {**Primário.x**}% da armadura por ciclo. Dura {**Secundário.x**}. Carga necessária: {ChargeDrain}.",
             "Modo de Reconhecimento": "O Robô ganha um impulso de velocidade e revela todos os inimigos dentro de {**Secundário.x**} por {**Primário.x**}. Carga necessária: {ChargeDrain}.",
             "Onda Gamma": "Trava no inimigo por {**Secundário.x**}, causando até {**Primário.x**} de dano por segundo. O dano aumenta com a proximidade. Carga necessária: {ChargeDrain}.",
             "Guarda-Chuva": "Lança uma barreira com um raio de {**Secundário.x**}, que protege contra ataques de cima. Dura por {**Primário.x**}. Carga necessária: {ChargeDrain}."
@@ -316,7 +316,7 @@
             "Ravana's Matriz Guardiã": "Aliados na sua frente sofrem {**Secundário.x**} menos dano por {**Primário.x**}. Você não morre enquanto algum aliado estiver sob este efeito. Reativação: {CD}",
             "Raven's Penas de Aço": "Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}. Reativação: {CD}",
             "Siren's Tiro Congelante": "Atira um projétil que causa {**Primário.x**} de dano a inimigos no raio da explosão e os imobiliza por {**Secundário.x**}. Reativação: {CD}",
-            "Typhon's Blecaute": "Atira mísseis guiados que forçam até 3 inimigos a recarregar, além de desacelerar suas recargas em {**Primário.x**} por {**Secundário.x**}. Reativação: {CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Drone de Reparo": "Lança um drone que conserta seus aliados dentro de {**Primário.x**} por {**Secundário.x**}. Reativação: {CD}.",
             "Varangian's Domo de Energia": "Posiciona uma barreira com um raio de {**Secundário.x**} que absorve até {**Primário.x**} de dano dos ataques inimigos. Reativação: {CD}."
         }
@@ -340,7 +340,7 @@
             "Умная ракета": "Выпускает самонаводящуюся ракету, наносящую {**Основное.x**} ед. урона щитам или {**Второстепенное.x**} ед. урона броне. Требуемая энергия: {ChargeDrain}.",
             "Бесконечные снаряды": "Через {**Второстепенное./**} боезапас становится бесконечным на {**Основное.x**}. Требуемая энергия: {ChargeDrain}.",
             "Минное поле": "На {**Второстепенное.x**} устанавливает минное поле. Каждая мина при срабатывании замедляет противников и наносит {**Основное.x**} ед. урона. Требуемая энергия: {ChargeDrain}.",
-            "Наноремонт": "Чинит все модули, восстанавливая {**Основное.x**} брони в ед. времени. Длительность: {**Второстепенное.x**}. Требуемая энергия: {ChargeDrain}.",
+            "Наноремонт": "Чинит все модули, восстанавливая {**Основное.x**}% брони в ед. времени. Длительность: {**Второстепенное.x**}. Требуемая энергия: {ChargeDrain}.",
             "Режим разведки": "Робот ускоряется и раскрывает всех противников в пределах {**Второстепенное.x**}. Время действия: {**Основное.x**}. Требуемая энергия: {ChargeDrain}.",
             "Гамма-луч": "Наводится на противника и в течение {**Второстепенное.x**} наносит до {**Основное.x**} ед. урона в секунду (урон зависит от расстояния). Требуемая энергия: {ChargeDrain}.",
             "Зонт": "Создаёт барьер радиусом {**Второстепенное.x**}, защищающий от атак сверху. Длительность: {**Основное.x**}. Требуемая энергия: {ChargeDrain}."
@@ -362,7 +362,7 @@
             "Ravana's Защитная матрица": "Союзники перед вами получают на {**Второстепенное.x**} меньше урона в течение {**Основное.x**}. Пока этот эффект действует хотя бы на одного союзника, вы неуничтожимы. Перезарядка: {CD}.",
             "Raven's Стальные перья": "Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}. Перезарядка: {CD}",
             "Siren's Заморозок": "Выпускает замораживающий снаряд. Он наносит противникам {**Основное.x**} ед. урона и обездвиживает их на {**Второстепенное.x**}. Перезарядка: {CD}.",
-            "Typhon's Перебой": "Выпускает самонаводящиеся ракеты, которые поражают до 3 противников и вынуждают их перезарядиться. Их скорость перезарядки снижается на {**Основное.x**} на {**Второстепенное.x**}. Перезарядка: {CD}.",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Ремонтный дрон": "Выпускает дрона, ремонтирующего союзников в области действия ({**Основное.x**}) в течение {**Второстепенное.x**}. Перезарядка: {CD}.",
             "Varangian's Энергокупол": "Создаёт барьер радиусом {**Второстепенное.x**}, не дающий врагам войти в его область действия или выйти из неё. Поглощает до {**Основное.x**} ед. урона. Перезарядка: {CD}."
         }
@@ -386,7 +386,7 @@
             "Güdümlü Füze": "Kalkanlara {**Birincil.x**}, zırhlara {**İkincil.x**} hasar veren bir güdümlü füze atar. Gereken şarj: {ChargeDrain}",
             "Sonsuz Cephane": "{**İkincil./**} gecikmeden sonra {**Birincil.x**} boyunca sonsuz cephane verir. Gereken enerji: {ChargeDrain}",
             "Mayın Tarlası": "{**İkincil.x**} süren bir mayın tarlası konuşlandırır. Her mayın temas ettiği düşmanlara {**Birincil.x**} hasar verir ve onları yavaşlatır. Gereken şarj: {ChargeDrain}",
-            "Nanit Onarımı": "Tüm modüller döngü başına {**Birincil.x**} zırh yeniler. {**İkincil.x**} sürer. Gereken şarj: {ChargeDrain}.",
+            "Nanit Onarımı": "Tüm modüller döngü başına %{**Birincil.x**} zırh yeniler. {**İkincil.x**} sürer. Gereken şarj: {ChargeDrain}.",
             "Keşif Modu": "Robot bir hız desteği kazanır ve {**İkincil.x**} dahilindeki tüm düşmanları {**Birincil.x**} boyunca ifşa eder. Gereken şarj: {ChargeDrain}.",
             "Gama Işını": "{**İkincil.x**} boyunca düşman üzerine kilitlenerek saniyede en fazla {**Birincil.x**} hasar verir. Hasar uzaklığa göre ölçeklenir. Gereken şarj: {ChargeDrain}",
             "Şemsiye": "Yukarıdan gelen saldırılardan koruyan {**İkincil.x**} yarıçaplı bir bariyer konuşlandırır. {**Birincil.x**} sürer. Gereken şarj: {ChargeDrain}"
@@ -408,7 +408,7 @@
             "Ravana's Muhafız Matriksi": "Önündeki müttefikler {**Birincil.x**} boyunca {**İkincil.x**} daha az hasar alır. Bir müttefik bu etkinin altındaysa öldürülemezsin. Bekleme süresi: {CD}",
             "Raven's Çelik Tüyler": "Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**} patlama yarıçaplı {**Birincil.x**} hasar verir. Bekleme süresi: {CD}",
             "Siren's Soğuk Kapış": "Patlama alanında kalan düşmanlara {**Birincil.x**} hasar veren ve onları {**İkincil.x**} boyunca hareketsiz kılan bir dondurucu mermi atar. Bekleme süresi: {CD}",
-            "Typhon's Karartma": "3’e kadar düşmanı silah doldurmaya zorlayan, bir yandan da silah doldurma hızlarını {**İkincil.x**} boyunca {**Birincil.x**} yavaşlatan güdümlü füzeler atar. Bekleme süresi: {CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's Onarım Dronu": "{**İkincil.x**} boyunca {**Birincil.x**} dahilindeki müttefikleri onaran bir dron konuşlandırır. Bekleme süresi: {CD}",
             "Varangian's Enerji Kubbesi": "En fazla {**Birincil.x**} hasar soğuran {**İkincil.x**} yarıçapı olan bir bariyer konuşlandırır. Bekleme süresi: {CD}"
         }
@@ -432,7 +432,7 @@
             "追踪飞弹": "发射一枚追踪飞弹，造成{**主.x**}点护盾伤害或{**副.x**}点装甲伤害。需要充能：{ChargeDrain}。",
             "无限弹药": "在{**副./**}延迟后提供无限弹药，持续{**主.x**}。需要充能：{ChargeDrain}。",
             "雷区": "部署一个持续{**副.x**}的雷区，每颗地雷都可在命中敌人后使其减速并造成{**主.x**}点伤害。需要充能：{ChargeDrain}。",
-            "纳米修复": "每跳为所有模块恢复{**主.x**}点装甲，持续{**副.x**}。需要充能：{ChargeDrain}",
+            "纳米修复": "每跳为所有模块恢复{**主.x**}%装甲，持续{**副.x**}。需要充能：{ChargeDrain}。",
             "侦察模式": "提升机器人速度，并使{**副.x**}范围内的所有敌人暴露，持续{**主.x**}。需要充能：{ChargeDrain}。",
             "伽马光束": "锁定敌人{**副.x**}，每秒最多造成{**主.x**}点伤害。距离越近，造成的伤害越高。需要充能：{ChargeDrain}。",
             "保护伞": "部署一个半径为{**副.x**}的屏障，该屏障可抵御来自上方的攻击，持续存在{**主.x**}。需要充能：{ChargeDrain}。"
@@ -454,7 +454,7 @@
             "Ravana's 守护者母体": "位于你前方的队友受到的伤害降低{**副.x**}，持续{**主.x**}。当有任何队友受此效果影响时，你无法被杀死。冷却时间：{CD}。",
             "Raven's 钢之羽": "向正前方发射一波飞弹，每枚飞弹可对{**副.x**}爆炸半径范围内目标造成{**主.x**}点伤害。冷却时间：{CD}。",
             "Siren's 寒流": "发射一枚冷凝弹，对爆炸半径内的敌人造成{**主.x**}点伤害，并将其短暂禁锢在原地，持续{**副.x**}。冷却时间：{CD}。",
-            "Typhon's 弹药管制": "发射一波追踪飞弹，强制最多3名敌人重新装填武器，同时使其装填速度降低{**主.x**}，持续{**副.x**}。冷却时间：{CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's 维修无人机": "部署一架无人机修复{**主.x**}范围内的队友，持续存在{**副.x**}。冷却时间：{CD}",
             "Varangian's 能量穹顶": "部署一道半径{**副.x**}的屏障，该屏障最多可吸收{**主.x**}点敌方攻击伤害。冷却时间：{CD}。"
         }
@@ -478,7 +478,7 @@
             "追蹤導彈": "發射會追蹤飛彈，該飛彈會對護盾造成 {**主要.x**} 傷害或對裝甲造成 {**次要.x**} 傷害。需要充能：{ChargeDrain}。",
             "無限彈藥": "延遲 {**次要./**}之後，獲得無限彈藥，持續 {**主要.x**}。需要充能：{ChargeDrain}",
             "雷區": "建立一片雷區，持續 {**次要.x**}。每顆地雷都會讓踩中的敵人緩速並造成 {**主要.x**} 傷害。需要充能：{ChargeDrain}",
-            "奈米修復": "每秒恢復所有模組 {**主要.x**} 裝甲。持續 {**次要.x**}。需要充能：{ChargeDrain}。",
+            "奈米修復": "每秒恢復所有模組 {**主要.x**}% 裝甲。持續 {**次要.x**}。需要充能：{ChargeDrain}。",
             "情報員模式": "機器人獲得加速並暴露 {**次要.x**} 範圍內的敵人。持續 {**主要.x**}。需要充能：{ChargeDrain}。",
             "伽瑪束": "鎖定敵人，持續 {**次要.x**}，每秒造成最多 {**主要.x**} 傷害。距離目標越近，傷害越高。需要充能：{ChargeDrain}",
             "保護傘": "設下範圍 {**次要.x**} 的屏障，抵禦空襲。持續 {**主要.x**}。需要充能：{ChargeDrain}"
@@ -500,7 +500,7 @@
             "Ravana's 守護矩陣": "你前方的友軍承受的傷害減少 {**次要.x**}，持續 {**主要.x**}。在任一友軍受此影響的期間你無法遭到擊殺。冷卻時間：{CD}",
             "Raven's 鐵翼彈雨": "朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}。冷卻時間：{CD}",
             "Siren's 至寒重擊": "發射急凍投射物，在爆破半徑內對敵人造成 {**主要.x**} 傷害並將其凍結，持續 {**次要.x**}。冷卻時間：{CD}",
-            "Typhon's 強制填裝": "發射追蹤飛彈，這些飛彈會迫使最多 3 名敵人填裝，同時減緩其填裝速度 {**主要.x**}，持續 {**次要.x**}。冷卻時間：{CD}",
+            "Typhon's Unnamed Ability BP_Module_Typhon_Torso.1": "No Description for Ability BP_Module_Typhon_Torso.1",
             "Tyr's 維修子機": "派出無人機，能夠修復 {**主要.x**} 範圍內的友軍，持續 {**次要.x**}。冷卻時間：{CD}",
             "Varangian's 能量穹頂": "部署範圍 {**次要.x**} 的屏障。該屏障可以防止敵人進出，且能吸收最多 {**主要.x**} 傷害。冷卻時間：{CD}"
         }

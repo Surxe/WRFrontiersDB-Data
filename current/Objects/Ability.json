@@ -397,7 +397,8 @@
                     "OpenTime": 2.0,
                     "DesiredDamage": 650.0,
                     "FocusComponent": {
-                        "SpottingDistance": 12000.0
+                        "SpottingDistance": 12000.0,
+                        "SpottingHeightOffset": 450.0
                     },
                     "bCanBeDamaged": false,
                     "InitialLifeSpan": 10.0
@@ -7019,6 +7020,13 @@
     },
     "BP_Module_Typhon_Torso.1": {
         "id": "BP_Module_Typhon_Torso.1",
+        "targeting": {
+            "ConfirmationAction": {
+                "ConeRadius": 70000.0,
+                "ConeHalfAngleInDegrees": 32.0,
+                "MaxTargetNum": 3
+            }
+        },
         "projectile_types": [
             {
                 "MovementComponent": {
@@ -7189,29 +7197,14 @@
             ]
         },
         "cooldown": {
-            "Cooldown": 35.0,
+            "Cooldown": 20.0,
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "misc": {
-            "CastDuration": 0.7,
-            "EffectType": "Attacking",
-            "ProjectileActivationType": "SpawnToEachTargetOnActivation",
-            "ConeRadius": 70000.0,
-            "ConeHalfAngleInDegrees": 32.0,
-            "PrimaryParameter": 3.0,
-            "SecondaryParameter": 1.3
+            "CastDuration": 1.3,
+            "EffectType": "Attacking"
         },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BlackoutIcon",
-        "name": {
-            "Key": "ABL_name_Blackout",
-            "TableNamespace": "Ability_name",
-            "en": "Blackout"
-        },
-        "description": {
-            "Key": "ABL_descr_Blackout",
-            "TableNamespace": "Ability_descripton",
-            "en": "Fires homing missiles that force up to 3 enemies to reload, while also slowing their reloads by {JamRelSlow} for {JamDur}. Cooldown: {CD}"
-        }
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BlackoutIcon"
     },
     "BP_Module_Tyr_Chassis.1": {
         "id": "BP_Module_Tyr_Chassis.1",
