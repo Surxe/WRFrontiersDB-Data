@@ -163,7 +163,9 @@ def summarize_changes(parse_object_class: Literal['Module', 'Pilot'], before: di
 
 def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional[str]=None):
     setup_logger()
-    repo = git.Repo('.')
+    # Get repo from this scripts location and not current working directory
+    # Need to go up 1 level since this script is in src/
+    repo = git.Repo(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     logger.debug(f"Repository at {repo.working_tree_dir}")
     
     if commit_sha is None: # then get latest
@@ -189,7 +191,8 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
     logger.info(f"Tag was an upgrade from version {prev_version} to {new_version}")
     parent_commit = commit.parents[0]
 
-    summaries_dir = os.path.join('summaries', 'patch')
+    # Make summaries at repo/summaries, where this file is in repo/src/summarizer.py
+    summaries_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'summaries', 'patch')
     current_data_dir = 'current'
     files_to_retrieve = {
         "Module": "Objects/Module.json",
@@ -228,8 +231,29 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
 
 
 if __name__ == "__main__":
-    branch = os.getenv('BRANCH_NAME', 'main')
+    import sys
+    
+    # Support args passed by command line
+    # 1st arg: branch name (optional, defaults to env var or 'main')
+    # 2nd arg: commit sha (optional)
+    
+    branch = None
+    commit_sha = None
+    
+    # Check command line args
+    if len(sys.argv) > 1:
+        branch = sys.argv[1]
+    
+    if len(sys.argv) > 2:
+        commit_sha = sys.argv[2]
+    
+    # Fall back to environment variable if no arg provided
+    if branch is None:
+        branch = os.getenv('BRANCH_NAME', 'main')
+    
+    # Validate branch
     if branch not in ['main', 'testing-grounds']:
         logger.warning(f"Unknown branch '{branch}', defaulting to 'main'")
         branch = 'main'
-    main(branch, commit_sha=None)
+    
+    main(branch, commit_sha=commit_sha)
