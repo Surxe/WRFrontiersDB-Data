@@ -12,20 +12,20 @@
             "en": "There are several Warp Gates on the map. Your task is to take and hold them. The team that holds the most earns points. To win, either reach the points target first or eliminate the opposition."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.8,
-            "ReputationPerHonorPoint": 0.5,
+            "CreditsPerHonorPoint": 1.2,
+            "ReputationPerHonorPoint": 0.75,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.55
+                    "Multiplier": 0.8
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.4
+                    "Multiplier": 0.6
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.2
+                    "Multiplier": 0.3
                 }
             ]
         },
@@ -39,7 +39,7 @@
                 {
                     "what": "IncomingDamage",
                     "operator": "Multiply",
-                    "value": 0.5
+                    "value": 0.1
                 }
             ],
             "Lifetime": 10.0,
@@ -211,34 +211,29 @@
             "en": "The first team to destroy all opposing robots wins the battle. If the time runs out, the team with the most remaining robots wins."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.8,
-            "ReputationPerHonorPoint": 0.5,
+            "CreditsPerHonorPoint": 1.2,
+            "ReputationPerHonorPoint": 0.75,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.55
+                    "Multiplier": 0.8
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.4
+                    "Multiplier": 0.6
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.2
+                    "Multiplier": 0.3
                 }
             ]
         },
         "base_protection_buff": {
             "Modifiers": [
                 {
-                    "what": "MaxAcceleration",
+                    "what": "OutgoingDamage",
                     "operator": "Multiply",
-                    "value": 1.25
-                },
-                {
-                    "what": "MaxSpeed",
-                    "operator": "Multiply",
-                    "value": 1.25
+                    "value": 1.5
                 },
                 {
                     "what": "IncomingDamage",
@@ -430,7 +425,7 @@
                 {
                     "what": "IncomingDamage",
                     "operator": "Multiply",
-                    "value": 0.5
+                    "value": 0.1
                 }
             ],
             "Lifetime": 10.0,
@@ -570,34 +565,29 @@
             "en": "Destroying an enemy robot scores 1 point for your team. The first team to score {goal} points wins. Your supply of robots is unlimited."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.8,
-            "ReputationPerHonorPoint": 0.5,
+            "CreditsPerHonorPoint": 1.2,
+            "ReputationPerHonorPoint": 0.75,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.55
+                    "Multiplier": 0.8
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.4
+                    "Multiplier": 0.6
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.2
+                    "Multiplier": 0.3
                 }
             ]
         },
         "base_protection_buff": {
             "Modifiers": [
                 {
-                    "what": "MaxAcceleration",
+                    "what": "OutgoingDamage",
                     "operator": "Multiply",
-                    "value": 1.25
-                },
-                {
-                    "what": "MaxSpeed",
-                    "operator": "Multiply",
-                    "value": 1.25
+                    "value": 1.5
                 },
                 {
                     "what": "IncomingDamage",
@@ -741,7 +731,7 @@
         ],
         "misc": {
             "ScorePerTitanKill": 2,
-            "InitialRobotBlockTimeSeconds": 270.0,
+            "InitialRobotBlockTimeSeconds": 150.0,
             "RobotBlockTimeReductionOnMechKillSeconds": 0.0,
             "RobotBlockTimeReductionOnTitanKillSeconds": 0.0,
             "RobotBlockTimeReductionOnArmorDestructionSeconds": 0.0,

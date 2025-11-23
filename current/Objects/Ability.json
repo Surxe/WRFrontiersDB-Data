@@ -800,7 +800,7 @@
         "description": {
             "Key": "ABL_descr_Regeneration",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs your most damaged module for {RegenSpeed} armor per second. Lasts {Duration}. Cooldown: {CD}. {Consum} uses."
+            "en": "Repairs your most damaged module for {RegenSpeed}% of armor per second. Lasts {Duration}. Cooldown: {CD}. {Consum} uses."
         },
         "cooldown": {
             "Cooldown": 35.0,
@@ -846,7 +846,7 @@
         "description": {
             "Key": "ABL_descr_FullRegeneration",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs all modules for {RegenSpeed} armor per tick. Lasts {Duration}. Charge required: {ChargeDrain}."
+            "en": "Repairs all modules for {RegenSpeed}% of armor per tick. Lasts {Duration}. Charge required: {ChargeDrain}."
         },
         "cooldown": {
             "Cooldown": 0.0,
@@ -6177,6 +6177,168 @@
     "BP_Module_Raven_Torso.1": {
         "id": "BP_Module_Raven_Torso.1",
         "projectile_types": [
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_L"
+            },
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_R"
+            },
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_L"
+            },
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_R"
+            },
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_L"
+            },
+            {
+                "DelayTime": 2.0,
+                "MovementComponent": {
+                    "InitialSpeed": 100000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "Radius": 1000.0,
+                    "DamageArmor": 2500.0,
+                    "DamageShield": 2500.0,
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "SpawnSocketName": "Bullet_01_R"
+            },
             {
                 "DelayTime": 2.0,
                 "MovementComponent": {
