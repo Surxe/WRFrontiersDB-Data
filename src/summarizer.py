@@ -171,7 +171,7 @@ def main(branch: Literal['main', 'testing-grounds']='main'):
     logger.info(f"Tag was an upgrade from version {prev_version} to {new_version}")
     parent_commit = latest_commit.parents[0]
 
-    summaries_dir = 'patch-summaries'
+    summaries_dir = os.path.join('summaries', 'patch')
     current_data_dir = 'current'
     files_to_retrieve = {
         "Module": "Objects/Module.json",
@@ -185,7 +185,7 @@ def main(branch: Literal['main', 'testing-grounds']='main'):
         before_content, after_content = get_before_after_content(
             latest_commit,
             parent_commit,
-            f"{current_data_dir}/{file_path}"
+            os.path.join(current_data_dir, file_path)
         )
         logger.debug(f"Changes in {obj_name} ({file_path}):")
 
@@ -196,12 +196,12 @@ def main(branch: Literal['main', 'testing-grounds']='main'):
         logger.info(f"Summary extended for each language.")
 
     # Add summary to file
-    summary_dir = f"{summaries_dir}/{prev_version}_to_{new_version}"
+    summary_dir = os.path.join(summaries_dir, f"{prev_version}_to_{new_version}")
     for lang, summary_lines in all_langs_summary_lines.items():
         if not summary_lines:
             logger.info(f"No changes detected for language {lang}, skipping summary file.")
             continue
-        summary_file_path = f"{summary_dir}/{lang}.md"
+        summary_file_path = os.path.join(summary_dir, f"{lang}.md")
         os.makedirs(summary_dir, exist_ok=True)
         with open(summary_file_path, 'w') as summary_file:
             summary_file.write('\n'.join(summary_lines))
