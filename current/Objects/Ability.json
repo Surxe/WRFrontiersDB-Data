@@ -5734,7 +5734,7 @@
         "description": {
             "Key": "ABL_descr_NaniteField",
             "TableNamespace": "Ability_descripton",
-            "en": "Creates a wide area that speeds up allies by {ActDuration} and restores {RegenSpeed} armor per tick."
+            "en": "Creates a wide area that speeds up allies for {ActDuration} and restores {RegenSpeed} armor per tick."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
