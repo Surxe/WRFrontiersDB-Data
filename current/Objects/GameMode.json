@@ -628,7 +628,8 @@
             "DropTimeLimitSeconds": 15.0,
             "RegenPercent": 1.0,
             "RegenDelay": 6.5,
-            "RegenTickDuration": 0.125
+            "RegenTickDuration": 0.125,
+            "InactivePlayerStateLifeSpan": 20.0
         }
     },
     "DA_GameMode_TeamDeathMatch.0": {
