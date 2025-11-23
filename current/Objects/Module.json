@@ -20483,69 +20483,69 @@
                     },
                     "variables": [
                         {
-                            "Cooldown": 40.0,
+                            "Cooldown": 66.0,
                             "PrimaryParameter": 5075.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 40.0,
+                            "Cooldown": 66.0,
                             "PrimaryParameter": 5075.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 40.0,
+                            "Cooldown": 66.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 40.0,
+                            "Cooldown": 66.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 33.0,
+                            "Cooldown": 57.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 33.0,
+                            "Cooldown": 57.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 4.2
+                            "SecondaryParameter": 3.5
                         },
                         {
-                            "Cooldown": 33.0,
+                            "Cooldown": 57.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 33.0,
+                            "Cooldown": 57.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 28.0,
+                            "Cooldown": 51.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 28.0,
+                            "Cooldown": 51.0,
                             "PrimaryParameter": 6078.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 28.0,
+                            "Cooldown": 51.0,
                             "PrimaryParameter": 6500.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 28.0,
+                            "Cooldown": 51.0,
                             "PrimaryParameter": 6500.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         },
                         {
-                            "Cooldown": 25.0,
+                            "Cooldown": 45.0,
                             "PrimaryParameter": 6500.0,
-                            "SecondaryParameter": 6.0
+                            "SecondaryParameter": 5.0
                         }
                     ]
                 },
@@ -23630,7 +23630,7 @@
                     "ClipSize": 14,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.08,
-                    "RoundsPerMinute": 629.0,
+                    "RoundsPerMinute": 605.0,
                     "ID": "Noricum",
                     "Armor": 0.0,
                     "WeightDrain": 3.0,
@@ -26492,6 +26492,37 @@
         "module_stats_table_id": "DA_ModuleStatsTable.0",
         "module_type_id": "DA_ModuleType_WeaponHeavy.0"
     },
+    "DA_Module_Weapon_TitanAuto.0": {
+        "id": "DA_Module_Weapon_TitanAuto.0",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Vortex",
+        "module_rarity_id": "DA_ModuleRarity_Common.0",
+        "character_module_mounts": [
+            {
+                "character_module_id": "BP_Weapon_TitanAuto.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 750.0,
+                    "DamageShield": 750.0
+                },
+                "ClipSize": 1,
+                "ProjectileSpeed": 5000.0,
+                "TimeToReload": 0.5,
+                "TimeBetweenShots": 1.5
+            }
+        },
+        "name": {
+            "InvariantString": "Homing Missiles"
+        },
+        "faction_id": "DA_Faction_Mayflower.0",
+        "module_classes_ids": [
+            "DA_Module_Class_Tactician.0"
+        ],
+        "module_type_id": "DA_ModuleType_TitanWeapon.0"
+    },
     "DA_Module_Weapon_Toxin.0": {
         "id": "DA_Module_Weapon_Toxin.0",
         "production_status": "Ready",
@@ -26557,9 +26588,9 @@
                     "RangeDeath": 12001.0,
                     "SpreadX": 3.0,
                     "SpreadY": 3.0,
-                    "DamageNoArmor": 420.0,
-                    "AoeArmor": 270.0,
-                    "AoeNoArmor": 135.0,
+                    "DamageNoArmor": 465.0,
+                    "AoeArmor": 200.0,
+                    "AoeNoArmor": 90.0,
                     "ProjectileSpeed": 40000.0,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.08,
@@ -26576,7 +26607,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl1_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl1_scrap2"
                         ],
-                        "DamageArmor": 403.0,
+                        "DamageArmor": 466.0,
                         "ClipSize": 53,
                         "TimeToReload": 5.16
                     },
@@ -26586,7 +26617,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl2_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl2_scrap2"
                         ],
-                        "DamageArmor": 413.0,
+                        "DamageArmor": 478.0,
                         "ClipSize": 53,
                         "TimeToReload": 5.16
                     },
@@ -26596,7 +26627,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl3_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl3_scrap2"
                         ],
-                        "DamageArmor": 413.0,
+                        "DamageArmor": 478.0,
                         "ClipSize": 56,
                         "TimeToReload": 5.16
                     },
@@ -26606,7 +26637,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl4_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl4_scrap2"
                         ],
-                        "DamageArmor": 424.0,
+                        "DamageArmor": 490.0,
                         "ClipSize": 56,
                         "TimeToReload": 5.16
                     },
@@ -26616,7 +26647,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl5_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl5_scrap2"
                         ],
-                        "DamageArmor": 424.0,
+                        "DamageArmor": 490.0,
                         "ClipSize": 56,
                         "TimeToReload": 4.87
                     },
@@ -26626,7 +26657,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl6_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl6_scrap2"
                         ],
-                        "DamageArmor": 430.0,
+                        "DamageArmor": 497.0,
                         "ClipSize": 56,
                         "TimeToReload": 4.87
                     },
@@ -26636,7 +26667,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl7_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl7_scrap2"
                         ],
-                        "DamageArmor": 430.0,
+                        "DamageArmor": 497.0,
                         "ClipSize": 58,
                         "TimeToReload": 4.87
                     },
@@ -26646,7 +26677,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl8_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl8_scrap2"
                         ],
-                        "DamageArmor": 437.0,
+                        "DamageArmor": 505.0,
                         "ClipSize": 58,
                         "TimeToReload": 4.87
                     },
@@ -26656,7 +26687,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl9_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl9_scrap2"
                         ],
-                        "DamageArmor": 437.0,
+                        "DamageArmor": 505.0,
                         "ClipSize": 58,
                         "TimeToReload": 4.68
                     },
@@ -26666,7 +26697,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl10_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl10_scrap2"
                         ],
-                        "DamageArmor": 441.0,
+                        "DamageArmor": 510.0,
                         "ClipSize": 58,
                         "TimeToReload": 4.68
                     },
@@ -26676,7 +26707,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl11_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl11_scrap2"
                         ],
-                        "DamageArmor": 441.0,
+                        "DamageArmor": 510.0,
                         "ClipSize": 60,
                         "TimeToReload": 4.68
                     },
@@ -26686,7 +26717,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl12_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl12_scrap2"
                         ],
-                        "DamageArmor": 445.0,
+                        "DamageArmor": 515.0,
                         "ClipSize": 60,
                         "TimeToReload": 4.68
                     },
@@ -26696,7 +26727,7 @@
                             "DA_Module_Weapon_Toxin.0_lvl13_scrap1",
                             "DA_Module_Weapon_Toxin.0_lvl13_scrap2"
                         ],
-                        "DamageArmor": 445.0,
+                        "DamageArmor": 515.0,
                         "ClipSize": 60,
                         "TimeToReload": 4.5
                     }
@@ -27226,14 +27257,14 @@
                     "RangeEffective": 50000.0,
                     "RangeMax": 80000.0,
                     "RangeDeath": 130001.0,
-                    "SpreadX": 5.0,
-                    "SpreadY": 8.0,
-                    "DamageNoArmor": 3800.0,
+                    "SpreadX": 3.0,
+                    "SpreadY": 5.0,
+                    "DamageNoArmor": 4400.0,
                     "AoeArmor": 0.0,
                     "AoeNoArmor": 0.0,
-                    "ProjectileSpeed": 38000.0,
+                    "ProjectileSpeed": 12000.0,
                     "ProjectilesPerShot": 1,
-                    "TimeToReload": 3.0,
+                    "TimeToReload": 4.0,
                     "ID": "Tusk",
                     "Armor": 0.0,
                     "WeightDrain": 4.0,
@@ -27246,7 +27277,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl1_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl1_scrap2"
                         ],
-                        "DamageArmor": 5515.0,
+                        "DamageArmor": 7593.0,
                         "ClipSize": 5,
                         "TimeBetweenShots": 0.91,
                         "RoundsPerMinute": 66.0
@@ -27257,7 +27288,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl2_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl2_scrap2"
                         ],
-                        "DamageArmor": 5656.0,
+                        "DamageArmor": 7788.0,
                         "ClipSize": 5,
                         "TimeBetweenShots": 0.91,
                         "RoundsPerMinute": 66.0
@@ -27268,7 +27299,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl3_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl3_scrap2"
                         ],
-                        "DamageArmor": 5656.0,
+                        "DamageArmor": 7788.0,
                         "ClipSize": 6,
                         "TimeBetweenShots": 0.91,
                         "RoundsPerMinute": 66.0
@@ -27279,7 +27310,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl4_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl4_scrap2"
                         ],
-                        "DamageArmor": 5801.0,
+                        "DamageArmor": 7988.0,
                         "ClipSize": 6,
                         "TimeBetweenShots": 0.91,
                         "RoundsPerMinute": 66.0
@@ -27290,7 +27321,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl5_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl5_scrap2"
                         ],
-                        "DamageArmor": 5801.0,
+                        "DamageArmor": 7988.0,
                         "ClipSize": 6,
                         "TimeBetweenShots": 0.875,
                         "RoundsPerMinute": 69.0
@@ -27301,7 +27332,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl6_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl6_scrap2"
                         ],
-                        "DamageArmor": 5889.0,
+                        "DamageArmor": 8110.0,
                         "ClipSize": 6,
                         "TimeBetweenShots": 0.875,
                         "RoundsPerMinute": 69.0
@@ -27312,7 +27343,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl7_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl7_scrap2"
                         ],
-                        "DamageArmor": 5889.0,
+                        "DamageArmor": 8110.0,
                         "ClipSize": 7,
                         "TimeBetweenShots": 0.875,
                         "RoundsPerMinute": 69.0
@@ -27323,7 +27354,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl8_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl8_scrap2"
                         ],
-                        "DamageArmor": 5979.0,
+                        "DamageArmor": 8233.0,
                         "ClipSize": 7,
                         "TimeBetweenShots": 0.875,
                         "RoundsPerMinute": 69.0
@@ -27334,7 +27365,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl9_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl9_scrap2"
                         ],
-                        "DamageArmor": 5979.0,
+                        "DamageArmor": 8233.0,
                         "ClipSize": 7,
                         "TimeBetweenShots": 0.81,
                         "RoundsPerMinute": 74.0
@@ -27345,7 +27376,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl10_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl10_scrap2"
                         ],
-                        "DamageArmor": 6039.0,
+                        "DamageArmor": 8316.0,
                         "ClipSize": 7,
                         "TimeBetweenShots": 0.81,
                         "RoundsPerMinute": 74.0
@@ -27356,7 +27387,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl11_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl11_scrap2"
                         ],
-                        "DamageArmor": 6039.0,
+                        "DamageArmor": 8316.0,
                         "ClipSize": 8,
                         "TimeBetweenShots": 0.81,
                         "RoundsPerMinute": 74.0
@@ -27367,7 +27398,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl12_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl12_scrap2"
                         ],
-                        "DamageArmor": 6100.0,
+                        "DamageArmor": 8400.0,
                         "ClipSize": 8,
                         "TimeBetweenShots": 0.81,
                         "RoundsPerMinute": 74.0
@@ -27378,7 +27409,7 @@
                             "DA_Module_Weapon_Tusk.0_lvl13_scrap1",
                             "DA_Module_Weapon_Tusk.0_lvl13_scrap2"
                         ],
-                        "DamageArmor": 6100.0,
+                        "DamageArmor": 8400.0,
                         "ClipSize": 8,
                         "TimeBetweenShots": 0.75,
                         "RoundsPerMinute": 80.0

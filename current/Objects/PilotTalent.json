@@ -104,7 +104,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_AmmoPercentage.0",
-                "value": 0.2
+                "value": 0.3
             }
         ],
         "buffs": [
@@ -119,7 +119,7 @@
         "name": {
             "Key": "TAL_name_Brawler1",
             "TableNamespace": "ST_Talent_Name",
-            "en": "Gun Nut"
+            "en": "Rocketeer"
         },
         "description": {
             "Key": "TAL_desc_Brawler1",
@@ -188,11 +188,11 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Damage.0",
-                "value": 200000.0
+                "value": 100000.0
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldBoost.0",
-                "value": 0.2
+                "value": 0.3
             }
         ]
     },
@@ -392,7 +392,7 @@
         "name": {
             "Key": "TAL_name_Flanker1",
             "TableNamespace": "ST_Talent_Name",
-            "en": "Rocketeer"
+            "en": "Gun Nut"
         },
         "description": {
             "Key": "TAL_desc_Flanker1",
@@ -684,7 +684,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_ShieldHP.0",
-                "value": 500.0
+                "value": 800.0
             }
         ],
         "buffs": [
@@ -725,18 +725,11 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_FireRateBoost.0",
-                "value": 0.06
+                "value": 0.04
             }
         ],
         "buffs": [
             {
-                "Modifiers": [
-                    {
-                        "what": "FireRate",
-                        "operator": "Multiply",
-                        "value": 0.94
-                    }
-                ],
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_RapidShooter"
             }
         ]
@@ -1346,7 +1339,7 @@
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
-                "value": 5.0
+                "value": 15.0
             }
         ]
     },
@@ -1528,25 +1521,13 @@
             },
             {
                 "stat_id": "DA_ModuleStat_FuelRegen.0",
-                "value": 1.0
-            },
-            {
-                "stat_id": "DA_ModuleStat_Duration.0",
-                "value": 0.5
+                "value": 5.0
             },
             {
                 "stat_id": "DA_ModuleStat_Cooldown.0",
                 "value": 10.0
             }
-        ],
-        "buffs": [
-            {
-                "FuelPerSecond": 0.02
-            }
-        ],
-        "default_properties": {
-            "Lifetime": 5.0
-        }
+        ]
     },
     "DA_Talent_Sneaky2.0": {
         "id": "DA_Talent_Sneaky2.0",
@@ -1578,7 +1559,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_DamageResist.0",
-                "value": 0.04
+                "value": 0.07
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -1901,7 +1882,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_FireRateBoost.0",
-                "value": 0.3
+                "value": 0.15
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -1943,7 +1924,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Armor.0",
-                "value": 2000.0
+                "value": 4000.0
             }
         ]
     },
@@ -1977,7 +1958,7 @@
             },
             {
                 "stat_id": "DA_ModuleStat_ArmorBoost.0",
-                "value": 0.06
+                "value": 0.08
             }
         ],
         "buffs": [
@@ -2064,7 +2045,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SecCastDuration.0",
-                "value": 5.0
+                "value": 3.0
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldHP.0",
@@ -2104,7 +2085,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SecCastDuration.0",
-                "value": 5.0
+                "value": 3.0
             },
             {
                 "stat_id": "DA_ModuleStat_DamageBoost.0",
@@ -2275,7 +2256,11 @@
             },
             {
                 "stat_id": "DA_ModuleStat_DamageReturn.0",
-                "value": 0.3
+                "value": 0.15
+            },
+            {
+                "stat_id": "DA_ModuleStat_Cooldown.0",
+                "value": 7.0
             }
         ],
         "buffs": [
@@ -2316,11 +2301,11 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Armor.0",
-                "value": 10000.0
+                "value": 7500.0
             },
             {
                 "stat_id": "DA_ModuleStat_Distance.0",
-                "value": 20000.0
+                "value": 15000.0
             }
         ]
     },

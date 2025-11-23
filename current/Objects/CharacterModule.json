@@ -2852,13 +2852,15 @@
                     "ProjectileGravityScale": 1.0
                 },
                 "BuffsOnHit": {
+                    "ProjectileArmorDamageMult": 20.0,
+                    "ProjectileShieldDamageMult": 5.0,
                     "DirectDamagePerSecond": {
                         "DamageArmor": 18000.0,
                         "DamageShield": 3000.0
                     },
                     "TickInterval": 500.0,
                     "Lifetime": 4.5,
-                    "StackMode": "Reset"
+                    "StackMode": "StackData"
                 },
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -3128,7 +3130,7 @@
             },
             "BurstBehavior": {
                 "BurstLength": 7,
-                "TimeBetweenBursts": 0.2,
+                "TimeBetweenBursts": 0.25,
                 "bOneShotEffectPerBurst": true
             }
         },
@@ -4782,6 +4784,74 @@
             "ReloadType": "ReloadWhileFire"
         }
     },
+    "BP_Weapon_TitanAuto.0": {
+        "id": "BP_Weapon_TitanAuto.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "MovementComponent": {
+                    "TurnSpeed": 50.0,
+                    "CruiseHeightMin": 3000.0,
+                    "CruiseHeightObstacleTestStep": 120.0,
+                    "HomingClimbSpeed": 10000.0,
+                    "HomingCruiseSpeed": 30000.0,
+                    "HomingAttackSpeed": 40000.0,
+                    "HomingClimbAcceleration": 5000.0,
+                    "HomingCruiseAcceleration": 10000.0,
+                    "HomingAttackAcceleration": 15000.0,
+                    "HomingClimbTurnRate": 160.0,
+                    "HomingCruiseTurnRate": 50.0,
+                    "HomingAttackTurnRate": 120.0,
+                    "InitialSpeed": 5000.0,
+                    "MaxSpeed": 999900.0,
+                    "bIsHomingProjectile": true,
+                    "ProjectileGravityScale": 1.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 750.0,
+                    "DamageShield": 750.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 100.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        },
+                        {
+                            "Time": 400.0,
+                            "Value": 0.5,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "TitanChargePerHit": 2.0,
+                "bEnableProximityFuse": true,
+                "ProximityFuseRadius": 200.0,
+                "TimeBetweenShots": 1.5
+            }
+        },
+        "module_scaler": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 750.0,
+                    "DamageShield": 750.0
+                },
+                "ClipSize": 1,
+                "ProjectileSpeed": 5000.0,
+                "TimeToReload": 0.5,
+                "TimeBetweenShots": 1.5
+            }
+        },
+        "misc": {
+            "AimType": "Auto",
+            "AutoTargetingPolicy": "Unattacked"
+        }
+    },
     "BP_Weapon_Toxin.0": {
         "id": "BP_Weapon_Toxin.0",
         "fire_modes": {
@@ -4902,13 +4972,13 @@
                     "Y": 3.0
                 },
                 "DirectDamage": {
-                    "DamageArmor": 403.0,
-                    "DamageShield": 420.0
+                    "DamageArmor": 466.0,
+                    "DamageShield": 465.0
                 },
                 "AoeDamage": {
                     "Radius": 350.0,
-                    "DamageArmor": 270.0,
-                    "DamageShield": 135.0,
+                    "DamageArmor": 200.0,
+                    "DamageShield": 90.0,
                     "DistToDamage": [
                         {
                             "Time": 0.0,
@@ -5268,7 +5338,7 @@
                         "bFactorGravityIntoExpansion": true
                     },
                     "InitialSpeed": 25000.0,
-                    "ProjectileGravityScale": 10.0
+                    "ProjectileGravityScale": 4.5
                 },
                 "DirectDamage": {
                     "DamageArmor": 1250.0,
@@ -5325,7 +5395,7 @@
                 "AbilityChargePointsOnHit": 0.75
             },
             "ChargingBehavior": {
-                "TimeToCharge": 1.2,
+                "TimeToCharge": 0.9,
                 "ShootOnFullCharge": false,
                 "ChargeModifiers": [
                     {
@@ -5368,22 +5438,7 @@
                             },
                             {
                                 "Time": 1.0,
-                                "Value": 1.65,
-                                "InterpMode": "RCIM_Linear"
-                            }
-                        ]
-                    },
-                    {
-                        "what": "ProjectileGravityScale",
-                        "CurveData": [
-                            {
-                                "Time": 0.0,
-                                "Value": 1.0,
-                                "InterpMode": "RCIM_Linear"
-                            },
-                            {
-                                "Time": 1.0,
-                                "Value": 0.65,
+                                "Value": 2.2,
                                 "InterpMode": "RCIM_Linear"
                             }
                         ]
@@ -5395,12 +5450,12 @@
             "module_name": "Tusk",
             "default_scalars": {
                 "Spread": {
-                    "X": 5.0,
-                    "Y": 8.0
+                    "X": 3.0,
+                    "Y": 5.0
                 },
                 "DirectDamage": {
-                    "DamageArmor": 5515.0,
-                    "DamageShield": 3800.0
+                    "DamageArmor": 7593.0,
+                    "DamageShield": 4400.0
                 },
                 "AoeDamage": {
                     "DistToDamage": [
@@ -5412,8 +5467,8 @@
                     ]
                 },
                 "ClipSize": 5,
-                "ProjectileSpeed": 38000.0,
-                "TimeToReload": 3.0,
+                "ProjectileSpeed": 12000.0,
+                "TimeToReload": 4.0,
                 "TimeBetweenShots": 0.91,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -5448,7 +5503,7 @@
             }
         },
         "misc": {
-            "VerticalAdjustmentAngle": 1.5
+            "VerticalAdjustmentAngle": 3.0
         }
     },
     "BP_Weapon_Twinflare.0": {
@@ -5619,11 +5674,11 @@
                     "HomingAttackAcceleration": 5000.0,
                     "HomingClimbTurnRate": 210.0,
                     "HomingCruiseTurnRate": 100.0,
-                    "HomingAttackTurnRate": 150.0,
+                    "HomingAttackTurnRate": 180.0,
+                    "DistanceToDisableVelocityPrediction": 3000.0,
                     "InitialSpeed": 5000.0,
                     "MaxSpeed": 30000.0,
-                    "bIsHomingProjectile": true,
-                    "ProjectileGravityScale": 1.0
+                    "bIsHomingProjectile": true
                 },
                 "DirectDamage": {
                     "DamageArmor": 2250.0,
