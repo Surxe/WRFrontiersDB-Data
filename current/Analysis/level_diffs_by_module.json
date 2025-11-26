@@ -268,7 +268,7 @@
     "DA_Module_Ability_SmokeWall.1": {
         "stats_percent_increase": {
             "Cooldown": -0.42308,
-            "PrimaryParameter": 0.28205,
+            "PrimaryParameter": 0.28713,
             "SecondaryParameter": 0.10658
         },
         "stats_percentile": {
@@ -2242,7 +2242,7 @@
             "TimeToReload": -0.21397
         },
         "stats_percentile": {
-            "DamageArmor": 0.41026,
+            "DamageArmor": 0.4359,
             "DamageNoArmor": 0.95238,
             "TimeToReload": 0.0
         },
@@ -2254,14 +2254,14 @@
     "DA_Module_Weapon_Bisector.0": {
         "stats_percent_increase": {
             "DamageArmor": 0.10622,
-            "RoundsPerMinute": 0.25,
+            "RoundsPerMinute": 0.26829,
             "TimeBetweenShots": -0.20635,
             "TimeToReload": -0.11917
         },
         "stats_percentile": {
             "DamageArmor": 0.5641,
-            "RoundsPerMinute": 0.1875,
-            "TimeBetweenShots": 0.6,
+            "RoundsPerMinute": 0.125,
+            "TimeBetweenShots": 0.7,
             "TimeToReload": 0.5
         },
         "total_upgrade_cost": {
@@ -2339,12 +2339,12 @@
     },
     "DA_Module_Weapon_Fowler.0": {
         "stats_percent_increase": {
-            "DamageArmor": 0.10623,
+            "DamageArmor": 0.10626,
             "DamageNoArmor": 0.10713,
             "TimeToReload": -0.16898
         },
         "stats_percentile": {
-            "DamageArmor": 0.51282,
+            "DamageArmor": 0.41026,
             "DamageNoArmor": 0.52381,
             "TimeToReload": 0.19444
         },
@@ -2361,7 +2361,7 @@
             "TimeToReload": -0.10979
         },
         "stats_percentile": {
-            "DamageArmor": 0.4359,
+            "DamageArmor": 0.46154,
             "DamageNoArmor": 0.7619,
             "RoundsPerMinute": 0.625,
             "TimeToReload": 0.63889
@@ -2380,8 +2380,8 @@
         },
         "stats_percentile": {
             "DamageArmor": 0.33333,
-            "RoundsPerMinute": 0.125,
-            "TimeBetweenShots": 0.7,
+            "RoundsPerMinute": 0.1875,
+            "TimeBetweenShots": 0.6,
             "TimeToReload": 0.47222
         },
         "total_upgrade_cost": {
@@ -2447,7 +2447,7 @@
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.48718,
+            "DamageArmor": 0.51282,
             "DamageNoArmor": 0.33333,
             "RoundsPerMinute": 0.9375,
             "TimeToReload": 0.91667
@@ -2465,7 +2465,7 @@
             "TimeToReload": -0.13514
         },
         "stats_percentile": {
-            "DamageArmor": 0.46154,
+            "DamageArmor": 0.48718,
             "RoundsPerMinute": 0.0625,
             "TimeBetweenShots": 0.9,
             "TimeToReload": 0.33333
@@ -2484,7 +2484,7 @@
         "stats_percentile": {
             "ClipSize": 0.0,
             "DamageArmor": 0.97436,
-            "TimeToReload": 0.27778
+            "TimeToReload": 0.25
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 176000,
@@ -2891,12 +2891,12 @@
         "stats_percent_increase": {
             "DamageArmor": 0.10678,
             "DamageNoArmor": 0.08481,
-            "TimeToReload": -0.1453
+            "TimeToReload": -0.14333
         },
         "stats_percentile": {
             "DamageArmor": 0.12821,
             "DamageNoArmor": 0.90476,
-            "TimeToReload": 0.25
+            "TimeToReload": 0.27778
         },
         "total_upgrade_cost": {
             "DA_Meta_Currency_Alloys": 371200,
