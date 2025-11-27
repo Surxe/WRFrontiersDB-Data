@@ -90,7 +90,6 @@ def get_pilot_name(pilot_data: dict, lang: str) -> str:
     if localized_second_name == " ":  # empty second name
         return localized_first_name
     return f"{localized_first_name} {localized_second_name}"
-    
 
 def get_module_name(module_data: dict, lang: str) -> str:
     if lang == 'id':
@@ -98,7 +97,7 @@ def get_module_name(module_data: dict, lang: str) -> str:
     return localize(module_data['name'], lang)
 
 
-def summarize_changes(parse_object_class: Literal['Module', 'Pilot'], before: dict, after: dict) -> dict[str, list[str]]:
+def summarize_changes(parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'], before: dict, after: dict) -> dict[str, list[str]]:
     """
     Summarize changes in Module.json content.
     
@@ -117,6 +116,7 @@ def summarize_changes(parse_object_class: Literal['Module', 'Pilot'], before: di
     parse_object_class_to_name_getter = {
         'Module': get_module_name,
         'Pilot': get_pilot_name,
+        'PilotTalent': get_module_name, # name is stored the same
     }
 
     # {"en": set(), "id": set()}
@@ -136,7 +136,11 @@ def summarize_changes(parse_object_class: Literal['Module', 'Pilot'], before: di
                 localized_name = name_getter_func(value, lang)
                 # Remove BOM and other special characters
                 localized_name = localized_name.replace('\ufeff', '').replace('\u200b', '')
-                type_string = "Pilot " if parse_object_class == 'Pilot' else "" 
+                type_string = ""
+                if parse_object_class == 'PilotTalent':
+                    type_string = "Pilot Talent "
+                elif parse_object_class == 'Pilot':
+                    type_string = "Pilot "
                     # dont prefix shoulders/weapons/torsos/chassis with "Module" since they will be confused. 
                     # The english will also be "Added Crix" so it would be confusing to be "Added Module Crix" when 
                     # its more like "Added Robot Crix" at that point
@@ -197,6 +201,7 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
     files_to_retrieve = {
         "Module": "Objects/Module.json",
         "Pilot": "Objects/Pilot.json",
+        "PilotTalent": "Objects/PilotTalent.json",
     }
     all_langs_summary_lines = {lang: [] for lang in LANGS}
     for obj_name, file_path in files_to_retrieve.items():
