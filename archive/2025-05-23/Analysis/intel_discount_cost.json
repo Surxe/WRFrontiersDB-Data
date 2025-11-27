@@ -1,0 +1,64 @@
+{
+    "DA_ModuleRarity_Common.0": {
+        "levels": {
+            "3": {
+                "cost": 5,
+                "difference": -15,
+                "percent_difference": -0.75
+            },
+            "5": {
+                "cost": 10,
+                "difference": -30,
+                "percent_difference": -0.75
+            },
+            "9": {
+                "cost": 30,
+                "difference": -80,
+                "percent_difference": -0.72727
+            },
+            "13": {
+                "cost": 100,
+                "difference": -130,
+                "percent_difference": -0.56522
+            }
+        },
+        "cumulative": {
+            "cost": 145,
+            "difference": -255,
+            "percent_difference": -0.6375
+        }
+    },
+    "DA_ModuleRarity_Rare.0": {
+        "levels": {},
+        "cumulative": null
+    },
+    "DA_ModuleRarity_Uncommon.0": {
+        "levels": {
+            "3": {
+                "cost": 6,
+                "difference": -24,
+                "percent_difference": -0.8
+            },
+            "5": {
+                "cost": 12,
+                "difference": -48,
+                "percent_difference": -0.8
+            },
+            "9": {
+                "cost": 40,
+                "difference": -125,
+                "percent_difference": -0.75758
+            },
+            "13": {
+                "cost": 150,
+                "difference": -195,
+                "percent_difference": -0.56522
+            }
+        },
+        "cumulative": {
+            "cost": 208,
+            "difference": -392,
+            "percent_difference": -0.65333
+        }
+    }
+}

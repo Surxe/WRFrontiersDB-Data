@@ -1,0 +1,34 @@
+{
+    "DA_ModuleRarity_Common.0": {
+        "levels": {
+            "5": {
+                "cost": 150,
+                "difference": 110,
+                "percent_difference": 2.75
+            },
+            "9": {
+                "cost": 450,
+                "difference": 340,
+                "percent_difference": 3.09091
+            },
+            "13": {
+                "cost": 750,
+                "difference": 520,
+                "percent_difference": 2.26087
+            }
+        },
+        "cumulative": {
+            "cost": 1350,
+            "difference": 950,
+            "percent_difference": 2.375
+        }
+    },
+    "DA_ModuleRarity_Rare.0": {
+        "levels": {},
+        "cumulative": null
+    },
+    "DA_ModuleRarity_Uncommon.0": {
+        "levels": {},
+        "cumulative": null
+    }
+}

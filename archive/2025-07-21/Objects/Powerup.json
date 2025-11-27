@@ -1,0 +1,39 @@
+{
+    "BP_PowerUp_AddAbility": {
+        "id": "BP_PowerUp_AddAbility",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapAddAbility",
+        "icon_hex": "CCE1FF",
+        "attached_buff": {
+            "AbilityClasses": [
+                "BP_Ability_PowerUp_OrbitalStrike.0"
+            ],
+            "MaxAbilitiesInvocationsCount": 1
+        }
+    },
+    "BP_PowerUp_AttachBuffs": {
+        "id": "BP_PowerUp_AttachBuffs",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Weapons/T_MiniWeaponProgress",
+        "icon_hex": "FF00FF"
+    },
+    "BP_PowerUp_DoubleDamage": {
+        "id": "BP_PowerUp_DoubleDamage",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapDoubleDamage",
+        "icon_hex": "FCD1BB",
+        "attached_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 2.0
+                }
+            ],
+            "StackMode": "Reset"
+        },
+        "buff_duration": 30.0
+    },
+    "BP_PowerUp_RechargeAbilities": {
+        "id": "BP_PowerUp_RechargeAbilities",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapRechargeAbilities",
+        "icon_hex": "C6EFCE"
+    }
+}

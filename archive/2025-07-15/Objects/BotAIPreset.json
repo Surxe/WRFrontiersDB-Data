@@ -1,0 +1,153 @@
+{
+    "DA_BotPreset_1Robot.0": {
+        "id": "DA_BotPreset_1Robot.0",
+        "level_interval": {
+            "min": 1,
+            "max": 1
+        },
+        "drop_teams": [
+            "DA_Bot_1Robot_Dropteam_1.0",
+            "DA_Bot_1Robot_Dropteam_2.0",
+            "DA_Bot_1Robot_Dropteam_3.0"
+        ],
+        "levels": [
+            "1"
+        ]
+    },
+    "DA_BotPreset_2Robots.0": {
+        "id": "DA_BotPreset_2Robots.0",
+        "skill_rate": 0.15,
+        "level_interval": {
+            "min": 2,
+            "max": 3
+        },
+        "drop_teams": [
+            "DA_Bot_2Robots_Dropteam_1.0",
+            "DA_Bot_2Robots_Dropteam_2.0",
+            "DA_Bot_2Robots_Dropteam_3.0"
+        ],
+        "levels": [
+            "3"
+        ]
+    },
+    "DA_BotPreset_3Robots.0": {
+        "id": "DA_BotPreset_3Robots.0",
+        "level_interval": {
+            "min": 3,
+            "max": 3
+        },
+        "drop_teams": [
+            "DA_Bot_3robots_Dropteam_1.0",
+            "DA_Bot_3robots_Dropteam_2.0",
+            "DA_Bot_3robots_Dropteam_3.0"
+        ],
+        "levels": [
+            "4"
+        ]
+    },
+    "DA_BotPreset_4Robots.0": {
+        "id": "DA_BotPreset_4Robots.0",
+        "skill_rate": 0.15,
+        "level_interval": {
+            "min": 4,
+            "max": 4
+        },
+        "drop_teams": [
+            "DA_Bot_4Robots_Dropteam_1.0",
+            "DA_Bot_4Robots_Dropteam_2.0",
+            "DA_Bot_4Robots_Dropteam_3.0"
+        ],
+        "levels": [
+            "5"
+        ]
+    },
+    "DA_BotPreset_5Robots.0": {
+        "id": "DA_BotPreset_5Robots.0",
+        "skill_rate": 0.23,
+        "level_interval": {
+            "min": 5,
+            "max": 5
+        },
+        "drop_teams": [
+            "DA_Bot_5Robots_Dropteam_1.0",
+            "DA_Bot_5Robots_Dropteam_2.0",
+            "DA_Bot_5Robots_Dropteam_3.0"
+        ],
+        "levels": [
+            "6"
+        ]
+    },
+    "DA_BotPreset_Advanced.0": {
+        "id": "DA_BotPreset_Advanced.0",
+        "skill_rate": 0.7,
+        "level_interval": {
+            "min": 16,
+            "max": 25
+        },
+        "drop_teams": [
+            "DA_Bot_Advanced_Dropteam_1.0",
+            "DA_Bot_Advanced_Dropteam_2.0",
+            "DA_Bot_Advanced_Dropteam_3.0",
+            "DA_Bot_Advanced_Dropteam_4.0",
+            "DA_Bot_Advanced_Dropteam_5.0"
+        ],
+        "levels": [
+            "25"
+        ]
+    },
+    "DA_BotPreset_Beginner.0": {
+        "id": "DA_BotPreset_Beginner.0",
+        "skill_rate": 0.3,
+        "level_interval": {
+            "min": 6,
+            "max": 10
+        },
+        "drop_teams": [
+            "DA_Bot_Beginner_Dropteam_1.0",
+            "DA_Bot_Beginner_Dropteam_2.0",
+            "DA_Bot_Beginner_Dropteam_3.0",
+            "DA_Bot_Beginner_Dropteam_4.0"
+        ],
+        "levels": [
+            "10"
+        ]
+    },
+    "DA_BotPreset_Intermediate.0": {
+        "id": "DA_BotPreset_Intermediate.0",
+        "skill_rate": 0.4,
+        "level_interval": {
+            "min": 10,
+            "max": 15
+        },
+        "drop_teams": [
+            "DA_Bot_Intermediate_Dropteam_1.0",
+            "DA_Bot_Intermediate_Dropteam_2.0",
+            "DA_Bot_Intermediate_Dropteam_3.0",
+            "DA_Bot_Intermediate_Dropteam_4.0",
+            "DA_Bot_Intermediate_Dropteam_5.0"
+        ],
+        "levels": [
+            "15"
+        ]
+    },
+    "DA_BotPreset_Professional.0": {
+        "id": "DA_BotPreset_Professional.0",
+        "skill_rate": 1.0,
+        "level_interval": {
+            "min": 26,
+            "max": 80
+        },
+        "drop_teams": [
+            "DA_Bot_Professional_Dropteam_1.0",
+            "DA_Bot_Professional_Dropteam_2.0",
+            "DA_Bot_Professional_Dropteam_3.0",
+            "DA_Bot_Professional_Dropteam_4.0",
+            "DA_Bot_Professional_Dropteam_5.0",
+            "DA_Bot_Professional_Dropteam_6.0",
+            "DA_Bot_Professional_Dropteam_7.0"
+        ],
+        "levels": [
+            "95"
+        ]
+    }
+}

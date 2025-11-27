@@ -1,0 +1,2358 @@
+{
+    "DA_Talent_Brave1.0": {
+        "id": "DA_Talent_Brave1.0",
+        "name": {
+            "Key": "TAL_name_Brave1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Fearless"
+        },
+        "description": {
+            "Key": "TAL_desc_Brave1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Your weapons deal {DmgBoost} more damage against enemies within {Dist}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_BraveTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 10000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.06
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingDamage",
+                        "operator": "Grow",
+                        "value": 0.06
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Brave2.0": {
+        "id": "DA_Talent_Brave2.0",
+        "name": {
+            "Key": "TAL_name_Brave2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Improviser"
+        },
+        "description": {
+            "Key": "TAL_desc_Brave2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "After your module armor drops below {HPLim}, get {ShieldHP} shield. Can activate once per module."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_Shield",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldHP} shield energy gained"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_Shield_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldHP} shield"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_BraveTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_HealthLimit.0",
+                "value": 0.3
+            },
+            {
+                "stat_id": "DA_ModuleStat_ShieldHP.0",
+                "value": 10000.0
+            }
+        ]
+    },
+    "DA_Talent_Brave3.0": {
+        "id": "DA_Talent_Brave3.0",
+        "name": {
+            "Key": "TAL_name_Brave3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Scavenger"
+        },
+        "description": {
+            "Key": "TAL_desc_Brave3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Destroying an enemy refills up to {AmmoPerc} of your ammunition."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AmmoPercent",
+            "TableNamespace": "UI_Pilots",
+            "en": "{AmmoPerc} ammo restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AmmoPercent_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{AmmoPerc} ammo restored"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_BraveTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AmmoPercentage.0",
+                "value": 0.3
+            }
+        ],
+        "buffs": [
+            {
+                "AmmoPartToAdd": 0.2,
+                "Lifetime": 2.0
+            }
+        ]
+    },
+    "DA_Talent_Brawler1.0": {
+        "id": "DA_Talent_Brawler1.0",
+        "name": {
+            "Key": "TAL_name_Brawler1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Rocketeer"
+        },
+        "description": {
+            "Key": "TAL_desc_Brawler1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Your autocannons and rocket launchers deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_AssaultTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.04
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 1.04,
+                "module_tag_selector": {
+                    "list_operator": "Or",
+                    "module_tags": [
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeAutocannon.0"
+                        },
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeRocketLauncher.0"
+                        }
+                    ]
+                },
+                "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_GunsmithAutocannon",
+                "StackMode": "Reset"
+            }
+        ]
+    },
+    "DA_Talent_Brawler2.0": {
+        "id": "DA_Talent_Brawler2.0",
+        "name": {
+            "Key": "TAL_name_Brawler2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Maximizer"
+        },
+        "description": {
+            "Key": "TAL_desc_Brawler2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "For every {Dmg} total damage you deal, instantly regenerates {ShieldBoost} of shield."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShieldBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield energy restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShieldBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield restored"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_AssaultTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Damage.0",
+                "value": 100000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_ShieldBoost.0",
+                "value": 0.3
+            }
+        ]
+    },
+    "DA_Talent_Brawler3.0": {
+        "id": "DA_Talent_Brawler3.0",
+        "name": {
+            "Key": "TAL_name_Brawler3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Offensive Tactics"
+        },
+        "description": {
+            "Key": "TAL_desc_Brawler3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts primary and secondary stats of Attack gear by {AbilParamBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_AssaultTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.05,
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Consumable",
+                            "Signature",
+                            "Chargeable"
+                        ],
+                        "module_tags": [
+                            {
+                                "module_tag_id": "DA_Tag_AbilityType_Attacking.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Cautious1.0": {
+        "id": "DA_Talent_Cautious1.0",
+        "name": {
+            "Key": "TAL_name_Cautious1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Crack Shot"
+        },
+        "description": {
+            "Key": "TAL_desc_Cautious1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Whenever enemy hits your undamaged module, take {DmgResist} less damage for {Duration}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResist",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResist_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_CautiousTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageResist.0",
+                "value": 0.1
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 5.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.9
+                    }
+                ],
+                "StackMode": "Reset"
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 10.0
+        }
+    },
+    "DA_Talent_Cautious2.0": {
+        "id": "DA_Talent_Cautious2.0",
+        "name": {
+            "Key": "TAL_name_Cautious2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Gas Guzzler"
+        },
+        "description": {
+            "Key": "TAL_desc_Cautious2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If no enemies are within {Dist}, fuel regenerates faster by {FuelRegBoost}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_FuelRegenBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelRegBoost} fuel regeneration"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_FuelRegenBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelRegBoost} fuel regen"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_CautiousTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 20000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_FuelRegenBoost.0",
+                "value": 0.2
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "FuelRegenPerSecond",
+                        "operator": "Multiply",
+                        "value": 1.2
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Cautious3.0": {
+        "id": "DA_Talent_Cautious3.0",
+        "name": {
+            "Key": "TAL_name_Cautious3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Deadeye"
+        },
+        "description": {
+            "Key": "TAL_desc_Cautious3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "After destroying a foe from at least {Dist}, your weapons reload {ReloadBoost} faster."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ReloadSpeed",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ReloadBoost} weapon reload rate"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ReloadSpeed_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ReloadBoost} WEP RLD"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_CautiousTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 30000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_ReloadBoost.0",
+                "value": 0.3
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "ReloadRate",
+                        "operator": "Multiply",
+                        "value": 0.7
+                    }
+                ]
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 5.0
+        }
+    },
+    "DA_Talent_Flanker1.0": {
+        "id": "DA_Talent_Flanker1.0",
+        "name": {
+            "Key": "TAL_name_Flanker1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Gun Nut"
+        },
+        "description": {
+            "Key": "TAL_desc_Flanker1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Your shotguns and special weapons deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FlankerTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.04
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 1.04,
+                "module_tag_selector": {
+                    "list_operator": "Or",
+                    "module_tags": [
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeShotgun.0"
+                        },
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeSpecial.0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "DA_Talent_Flanker2.0": {
+        "id": "DA_Talent_Flanker2.0",
+        "name": {
+            "Key": "TAL_name_Flanker2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Shields Expert"
+        },
+        "description": {
+            "Key": "TAL_desc_Flanker2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts your shield by {ShieldBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShieldBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield energy restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShieldBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield restored"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FlankerTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ShieldBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.05,
+                "ShieldHealth": 0.0
+            }
+        ]
+    },
+    "DA_Talent_Flanker3.0": {
+        "id": "DA_Talent_Flanker3.0",
+        "name": {
+            "Key": "TAL_name_Flanker3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Fast Reflexes"
+        },
+        "description": {
+            "Key": "TAL_desc_Flanker3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts primary and secondary stats of Movement gear by {AbilParamBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FlankerTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.05,
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Signature",
+                            "Consumable",
+                            "Chargeable"
+                        ],
+                        "module_tags": [
+                            {
+                                "module_tag_id": "DA_Tag_AbilityType_Movement.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_FortEvo1.0": {
+        "id": "DA_Talent_FortEvo1.0",
+        "name": {
+            "Key": "TAL_name_FortEvo1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Bio Repair"
+        },
+        "description": {
+            "Key": "TAL_desc_FortEvo1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Whenever you lose shields, a random module regenerates {RegenSpeed} armor per second for {Duration}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_HPRegen",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RegenSpeed} armor regeneration"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_HPRegen_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RegenSpeed} armor regen"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FortEvoTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_RegenSpeed.0",
+                "value": 4000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 2.0
+            }
+        ],
+        "buffs": [
+            {
+                "ArmorRegenPerSecond": 2000.0,
+                "RegenInterval": 1.0,
+                "bRemoveOnDamage": false
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 2.0
+        }
+    },
+    "DA_Talent_FortEvo2.0": {
+        "id": "DA_Talent_FortEvo2.0",
+        "name": {
+            "Key": "TAL_name_FortEvo2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Charge Loop"
+        },
+        "description": {
+            "Key": "TAL_desc_Fortevo2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Using any gear charges up your cycle gear by {UltCharge} points."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_UltCharge",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{UltCharge} cycle gear charge"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_UltCharge_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{UltCharge} cycle charge"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FortEvoTalent2",
+        "default_properties": {
+            "ChargeToAdd": 30.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_UltimateCharge.0",
+                "value": 30.0
+            }
+        ]
+    },
+    "DA_Talent_FortEvo3.0": {
+        "id": "DA_Talent_FortEvo3.0",
+        "name": {
+            "Key": "TAL_name_FortEvo3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Superefficiency"
+        },
+        "description": {
+            "Key": "TAL_desc_Fortevo3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Increases maximum fuel by {FuelCap}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_MaxFuel",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelCap} max fuel"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_MaxFuel_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelCap} max fuel"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FortEvoTalent3",
+        "default_properties": {
+            "AdditionalFuel": 2.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_FuelCapacity.0",
+                "value": 2.0
+            }
+        ]
+    },
+    "DA_Talent_Freecon1.0": {
+        "id": "DA_Talent_Freecon1.0",
+        "name": {
+            "Key": "TAL_name_Freecon1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Gear Hacker"
+        },
+        "description": {
+            "Key": "TAL_desc_Freecon1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts all your gear damage by {AbilParamBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FreeconTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.04
+            }
+        ]
+    },
+    "DA_Talent_Freecon2.0": {
+        "id": "DA_Talent_Freecon2.0",
+        "name": {
+            "Key": "TAL_name_Freecon2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Shield Preheater"
+        },
+        "description": {
+            "Key": "TAL_desc_Freecon2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Restores {ShieldHP} more shield per second."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShieldRegenHP",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldHP} Shd Reg / Sec"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShieldRegenHP_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {ShieldHP} Shd Reg"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FreeconTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ShieldHP.0",
+                "value": 800.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "ArmorShield",
+                        "operator": "Grow",
+                        "value": 0.08
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Freecon3.0": {
+        "id": "DA_Talent_Freecon3.0",
+        "name": {
+            "Key": "TAL_name_Freecon3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Trigger-Happy"
+        },
+        "description": {
+            "Key": "TAL_desc_Freecon3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts rate of fire by {FireRateBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_RateOfFire",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} rate of fire"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_RateOfFire_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} fire rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_FreeconTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_FireRateBoost.0",
+                "value": 0.04
+            }
+        ],
+        "buffs": [
+            {
+                "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_RapidShooter"
+            }
+        ]
+    },
+    "DA_Talent_General1.0": {
+        "id": "DA_Talent_General1.0",
+        "name": {
+            "Key": "TAL_name_General1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Gearhead"
+        },
+        "description": {
+            "Key": "TAL_desc_General1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Gear goes off cooldown {CDReduct} faster."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_CooldownRewind",
+            "TableNamespace": "UI_Pilots",
+            "en": "All gear cooldowns reduced by {CDReduct}"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_CooldownRewind_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "−{CDReduct} gear CD"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_GeneralTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_CooldownReduction.0",
+                "value": 0.05
+            }
+        ]
+    },
+    "DA_Talent_General2.0": {
+        "id": "DA_Talent_General2.0",
+        "name": {
+            "Key": "TAL_name_General2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Case-Hardened"
+        },
+        "description": {
+            "Key": "TAL_desc_General2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "You take {ArmorBoost} less damage from all sources."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResistArmor",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ArmorBoost} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResistArmor_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ArmorBoost} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_GeneralTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ArmorBoost.0",
+                "value": 0.03
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.9
+                    }
+                ],
+                "StackMode": "Reset"
+            }
+        ]
+    },
+    "DA_Talent_General3.0": {
+        "id": "DA_Talent_General3.0",
+        "name": {
+            "Key": "TAL_name_General3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Feed Hacker"
+        },
+        "description": {
+            "Key": "TAL_desc_General3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Your weapons reload {RldSpeedBoost} quicker."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} reload speed"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} RLD rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_GeneralTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ReloadSpeedBoost.0",
+                "value": 0.05
+            }
+        ]
+    },
+    "DA_Talent_Handy1.0": {
+        "id": "DA_Talent_Handy1.0",
+        "name": {
+            "Key": "TAL_name_Handy1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Backup Plan"
+        },
+        "description": {
+            "Key": "TAL_desc_Handy1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Whenever all your gear is on cooldown, activates a {ShieldHP} shield for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_Shield",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldHP} shield energy gained"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_Shield_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldHP} shield"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_HandyTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ShieldHP.0",
+                "value": 20000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 10.0
+            }
+        ],
+        "buffs": [
+            {
+                "ShieldHealth": 20000.0,
+                "StackMode": "Reset"
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 10.0
+        }
+    },
+    "DA_Talent_Handy2.0": {
+        "id": "DA_Talent_Handy2.0",
+        "name": {
+            "Key": "TAL_name_Handy2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Air Warrior"
+        },
+        "description": {
+            "Key": "TAL_desc_Handy2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If you are in the air for over {CastDuration}, deal {DmgBoost} more damage against armor."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_HandyTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.05
+            },
+            {
+                "stat_id": "DA_ModuleStat_CastDuration.0",
+                "value": 1.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingArmorDamage",
+                        "operator": "Multiply",
+                        "value": 1.05
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Handy3.0": {
+        "id": "DA_Talent_Handy3.0",
+        "name": {
+            "Key": "TAL_name_Handy3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Synergist"
+        },
+        "description": {
+            "Key": "TAL_desc_Handy3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Assists reduce cooldowns of your gear by {CDReduct}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_CooldownRewind",
+            "TableNamespace": "UI_Pilots",
+            "en": "All gear cooldowns reduced by {CDReduct}"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_CooldownRewind_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "−{CDReduct} gear CD"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_HandyTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_CooldownReduction.0",
+                "value": 0.2
+            }
+        ]
+    },
+    "DA_Talent_Leader1.0": {
+        "id": "DA_Talent_Leader1.0",
+        "name": {
+            "Key": "TAL_name_Leader1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Vanguard"
+        },
+        "description": {
+            "Key": "TAL_desc_Leader1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If two or more allies are within 100m, boosts all of your gear's primary stats by {AbilParamBoost} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_LeaderTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.1
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 20.0
+            }
+        ],
+        "buffs": [
+            {
+                "PrimaryChannelModificator": 1.1
+            }
+        ]
+    },
+    "DA_Talent_Leader2.0": {
+        "id": "DA_Talent_Leader2.0",
+        "name": {
+            "Key": "TAL_name_Leader2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Fire Support"
+        },
+        "description": {
+            "Key": "TAL_desc_Leader2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If two or more allies are within {Dist}, your weapons deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_LeaderTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.07
+            },
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 10000.0
+            }
+        ],
+        "buffs": [
+            {
+                "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_SquadronAttack"
+            }
+        ]
+    },
+    "DA_Talent_Leader3.0": {
+        "id": "DA_Talent_Leader3.0",
+        "name": {
+            "Key": "TAL_name_Leader3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "It Takes Two"
+        },
+        "description": {
+            "Key": "TAL_desc_Leader3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Assists boost your speed and mobility by {SpeedBoostTal} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_SpeedBoostTal",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{SpeedBoostTal} SPD"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_SpeedBoostTal_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{SpeedBoostTal} speed"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_LeaderTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_SpeedBoostTalents.0",
+                "value": 0.15
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 5.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "MaxSpeed",
+                        "operator": "Multiply",
+                        "value": 1.3
+                    },
+                    {
+                        "what": "MaxAcceleration",
+                        "operator": "Multiply",
+                        "value": 1.3
+                    }
+                ]
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 5.0
+        }
+    },
+    "DA_Talent_Madman1.0": {
+        "id": "DA_Talent_Madman1.0",
+        "name": {
+            "Key": "TAL_name_Madman1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Reactive Rage"
+        },
+        "description": {
+            "Key": "TAL_desc_Madman1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If any of your modules is missing more than {HP_Cap} of armor, your weapons deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MadmanTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.06
+            },
+            {
+                "stat_id": "DA_ModuleStat_HealthCap.0",
+                "value": 0.5
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingDamage",
+                        "operator": "Multiply",
+                        "value": 1.06
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Madman2.0": {
+        "id": "DA_Talent_Madman2.0",
+        "name": {
+            "Key": "TAL_name_Madman2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Chemical Hazard"
+        },
+        "description": {
+            "Key": "TAL_desc_Madman2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "All corrosive and fire effects deal {DmgBoost} more damage and last {DurBoost} longer."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MadmanTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.15
+            },
+            {
+                "stat_id": "DA_ModuleStat_DurationBoost.0",
+                "value": 0.15
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingPeriodicDamage",
+                        "operator": "Multiply",
+                        "value": 1.15
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Madman3.0": {
+        "id": "DA_Talent_Madman3.0",
+        "name": {
+            "Key": "TAL_name_Madman3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Hellraiser"
+        },
+        "description": {
+            "Key": "TAL_desc_Madman3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Destroying enemies boosts your blast damage by {DmgBoost} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MadmanTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.15
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 10.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingAoeDamage",
+                        "operator": "Multiply",
+                        "value": 1.15
+                    }
+                ]
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 10.0
+        }
+    },
+    "DA_Talent_Mayflower1.0": {
+        "id": "DA_Talent_Mayflower1.0",
+        "name": {
+            "Key": "TAL_name_Mayflower1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Red Alert"
+        },
+        "description": {
+            "Key": "TAL_desc_Mayflower1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Taking damage speeds up your weapon reload by {RldSpeedBoost} every {CD}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} reload speed"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} RLD rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MayflowerTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ReloadSpeedBoost.0",
+                "value": 0.07
+            },
+            {
+                "stat_id": "DA_ModuleStat_Cooldown.0",
+                "value": 5.0
+            }
+        ],
+        "buffs": [
+            {
+                "AdditionalProgress": 0.07,
+                "Lifetime": 1.0
+            }
+        ]
+    },
+    "DA_Talent_Mayflower2.0": {
+        "id": "DA_Talent_Mayflower2.0",
+        "name": {
+            "Key": "TAL_name_Mayflower2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Survival Instinct"
+        },
+        "description": {
+            "Key": "TAL_desc_Mayflower2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If any module has less than {HP_Cap} of armor, you take {DmgResist} less damage from all sources."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResist",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResist_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MayflowerTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_HealthCap.0",
+                "value": 0.3
+            },
+            {
+                "stat_id": "DA_ModuleStat_DamageResist.0",
+                "value": 0.1
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.85
+                    }
+                ],
+                "StackMode": "Stack"
+            }
+        ]
+    },
+    "DA_Talent_Mayflower3.0": {
+        "id": "DA_Talent_Mayflower3.0",
+        "name": {
+            "Key": "TAL_name_Mayflower3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Quick Reflexes"
+        },
+        "description": {
+            "Key": "TAL_desc_Mayflower3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Activating any defensive gear reduces shield cooldown by {ShieldDelay} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShiedDelay",
+            "TableNamespace": "UI_Pilots",
+            "en": "-{ShieldDelay} Shield regeneration delay"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShiedDelay_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "- {ShieldDelay} shield CD"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MayflowerTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ShieldDelayReduction.0",
+                "value": 0.25
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 15.0
+            }
+        ]
+    },
+    "DA_Talent_RSupport1.0": {
+        "id": "DA_Talent_RSupport1.0",
+        "name": {
+            "Key": "TAL_name_RSupport1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Master Gunner"
+        },
+        "description": {
+            "Key": "TAL_desc_RSupport1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Artillery and sniper weapons deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TacticianTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.04
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 1.04,
+                "module_tag_selector": {
+                    "list_operator": "Or",
+                    "module_tags": [
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeSniper.0"
+                        },
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeArtilery.0"
+                        }
+                    ]
+                },
+                "StackMode": "Reset"
+            }
+        ]
+    },
+    "DA_Talent_RSupport2.0": {
+        "id": "DA_Talent_RSupport2.0",
+        "name": {
+            "Key": "TAL_name_RSupport2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Power to Shields"
+        },
+        "description": {
+            "Key": "TAL_desc_RSupport2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Shield regenerates {ShieldRegBoost} faster."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShieldRegen",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldRegBoost} shield regeneration"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShieldRegen_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldRegBoost} SHD regen"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TacticianTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ShieldRegBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "ArmorShield",
+                        "operator": "Grow",
+                        "value": 0.05
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_RSupport3.0": {
+        "id": "DA_Talent_RSupport3.0",
+        "name": {
+            "Key": "TAL_name_RSupport3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Support Tactics"
+        },
+        "description": {
+            "Key": "TAL_desc_RSupport3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts support-type gear by {AbilParamBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TacticianTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Signature",
+                            "Consumable",
+                            "Chargeable"
+                        ],
+                        "module_tags": [
+                            {
+                                "module_tag_id": "DA_Tag_AbilityType_Support.0"
+                            }
+                        ]
+                    }
+                ],
+                "Modifiers": [
+                    {
+                        "what": "PrimaryParameter",
+                        "operator": "Grow",
+                        "value": 0.05
+                    },
+                    {
+                        "what": "SecondaryParameter",
+                        "operator": "Grow",
+                        "value": 0.05
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Sneaky1.0": {
+        "id": "DA_Talent_Sneaky1.0",
+        "name": {
+            "Key": "TAL_name_Sneaky1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Fuel Thief"
+        },
+        "description": {
+            "Key": "TAL_desc_Sneaky1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Hitting an enemy that has not damaged you in the last {SecCastDur} restores {FuelReg} fuel. Cooldown: {CD}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_FuelRegen",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelReg} fuel regen"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_FuelRegen_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FuelReg} fuel regen"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_SneakyTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_SecCastDuration.0",
+                "value": 10.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_FuelRegen.0",
+                "value": 5.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_Cooldown.0",
+                "value": 10.0
+            }
+        ]
+    },
+    "DA_Talent_Sneaky2.0": {
+        "id": "DA_Talent_Sneaky2.0",
+        "name": {
+            "Key": "TAL_name_Sneaky2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Gear Resonator"
+        },
+        "description": {
+            "Key": "TAL_desc_Sneaky2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Using any gear reduces incoming damage by {DmgResist} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResist",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResist_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_SneakyTalent2",
+        "default_properties": {
+            "MaxStacks": 3,
+            "Lifetime": 15.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageResist.0",
+                "value": 0.07
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 5.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.92
+                    }
+                ],
+                "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MomentumDefence",
+                "StackMode": "Stack"
+            }
+        ]
+    },
+    "DA_Talent_Sneaky3.0": {
+        "id": "DA_Talent_Sneaky3.0",
+        "name": {
+            "Key": "TAL_name_Sneaky3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Parasite Protocol"
+        },
+        "description": {
+            "Key": "TAL_desc_Sneaky3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Every kill increases a random parameter of your core gear by {AbilParamBoost}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_SneakyTalent3",
+        "default_properties": {
+            "MaxStacks": 20
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.08
+            }
+        ],
+        "buffs": [
+            {
+                "AbilityGearGrowModifier": 0.08,
+                "Stream": {
+                    "InitialSeed": 42,
+                    "Seed": 0
+                },
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Signature"
+                        ]
+                    }
+                ],
+                "StackMode": "Stack"
+            }
+        ]
+    },
+    "DA_Talent_Tank1.0": {
+        "id": "DA_Talent_Tank1.0",
+        "name": {
+            "Key": "TAL_name_Tank1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "On Target"
+        },
+        "description": {
+            "Key": "TAL_desc_Tank1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Autocannons and shotguns deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_DefenderTalent1",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.04
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 1.04,
+                "module_tag_selector": {
+                    "list_operator": "Or",
+                    "module_tags": [
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeShotgun.0"
+                        },
+                        {
+                            "module_tag_id": "DA_Tag_WeaponTypeAutocannon.0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "DA_Talent_Tank2.0": {
+        "id": "DA_Talent_Tank2.0",
+        "name": {
+            "Key": "TAL_name_Tank2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Brawler's Sense"
+        },
+        "description": {
+            "Key": "TAL_desc_Tank2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "You take {DmgResist} less damage from enemies within {Dist}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResist",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResist_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgResist} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_DefenderTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageResist.0",
+                "value": 0.05
+            },
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 20000.0
+            }
+        ],
+        "buffs": [
+            {
+                "Radius": 20000.0,
+                "ModifierFactor": 0.95
+            }
+        ]
+    },
+    "DA_Talent_Tank3.0": {
+        "id": "DA_Talent_Tank3.0",
+        "name": {
+            "Key": "TAL_name_Tank3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Hotwired Defenses"
+        },
+        "description": {
+            "Key": "TAL_desc_Tank3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Boosts primary and secondary stats of Defense gear by {AbilParamBoost}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AbilityPower",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear power"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AbilityPower_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+ {AbilParamBoost} gear PWR"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_DefenderTalent3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.05
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.05,
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Signature",
+                            "Consumable",
+                            "Chargeable"
+                        ],
+                        "module_tags": [
+                            {
+                                "module_tag_id": "DA_Tag_AbilityType_Defensive.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Tortuga1.0": {
+        "id": "DA_Talent_Tortuga1.0",
+        "name": {
+            "Key": "TAL_name_Tortuga1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Damage Cascade"
+        },
+        "description": {
+            "Key": "TAL_desc_Tortuga1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If your Robot has more than 6 modules, deal {DmgBoost} extra weapon damage for every module past the sixth."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TortugaTalent1",
+        "default_properties": {
+            "DamageBoost": 0.01
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.01
+            }
+        ]
+    },
+    "DA_Talent_Tortuga2.0": {
+        "id": "DA_Talent_Tortuga2.0",
+        "name": {
+            "Key": "TAL_name_Tortuga2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Closing the Deal"
+        },
+        "description": {
+            "Key": "TAL_desc_Tortuga2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If your team has more kills than the enemy, your weapons reload faster by {RldSpeedBoost}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} reload speed"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ReloadSpeedBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{RldSpeedBoost} RLD rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TortugaTalent2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_ReloadSpeedBoost.0",
+                "value": 0.06
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "ReloadRate",
+                        "operator": "Multiply",
+                        "value": 0.94
+                    }
+                ],
+                "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_DominationReload"
+            }
+        ]
+    },
+    "DA_Talent_Tortuga3.0": {
+        "id": "DA_Talent_Tortuga3.0",
+        "name": {
+            "Key": "TAL_name_Tortuga3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Titan Summoner"
+        },
+        "description": {
+            "Key": "TAL_desc_Tortuga3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Every assist or kill grants you extra {TitanCharge} Titan points."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_TitanCharge",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{TitanCharge} Titan charge"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_TitanCharge_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{TitanCharge} Titan charge"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_TortugaTalent3",
+        "default_properties": {
+            "TitanPoints": 30.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_TitanCharge.0",
+                "value": 30.0
+            }
+        ]
+    },
+    "DA_Talent_Ult_Carmen.0": {
+        "id": "DA_Talent_Ult_Carmen.0",
+        "name": {
+            "Key": "TAL_name_Ult_Carmen",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Press the Attack"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Carmen",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Damaging an enemy with your gear boosts rate of fire by {FireRateBoost} for {Duration}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_RateOfFire",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} rate of fire"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_RateOfFire_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} fire rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateBooksRuiz",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_FireRateBoost.0",
+                "value": 0.15
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 7.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.1
+            }
+        ]
+    },
+    "DA_Talent_Ult_Common1.0": {
+        "id": "DA_Talent_Ult_Common1.0",
+        "name": {
+            "Key": "TAL_name_Ult_Common1",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Field Repairs"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Common1",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Using Support gear restores {Armor} armor to all damaged modules."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_HPRestored",
+            "TableNamespace": "UI_Pilots",
+            "en": "{Armor} armor restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_HPRestored_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{Armor} armor"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCommon1",
+        "default_properties": {
+            "ArmorToRestore": 2000.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Armor.0",
+                "value": 4000.0
+            }
+        ]
+    },
+    "DA_Talent_Ult_Common2.0": {
+        "id": "DA_Talent_Ult_Common2.0",
+        "name": {
+            "Key": "TAL_name_Ult_Common2",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Bullet-Catcher"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Common2",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If any enemy is within {Dist}, you take {ArmorBoost} less damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgResistArmor",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ArmorBoost} damage resistance"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgResistArmor_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ArmorBoost} DMG resist"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCommon2",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 10000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_ArmorBoost.0",
+                "value": 0.08
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.9
+                    }
+                ],
+                "StackMode": "Reset"
+            }
+        ]
+    },
+    "DA_Talent_Ult_Common3.0": {
+        "id": "DA_Talent_Ult_Common3.0",
+        "name": {
+            "Key": "TAL_name_Ult_Common3",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Blood Lust"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Common3",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "If any enemy is within {Dist}, increases rate of fire by {FireRateBoost}"
+        },
+        "ui_description": {
+            "Key": "PilotHUD_RateOfFire",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} rate of fire"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_RateOfFire_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{FireRateBoost} fire rate"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCommon3",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 20000.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_FireRateBoost.0",
+                "value": 0.07
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "FireRate",
+                        "operator": "Multiply",
+                        "value": 0.93
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Ult_Common4.0": {
+        "id": "DA_Talent_Ult_Common4.0",
+        "name": {
+            "Key": "TAL_name_Ult_Common4",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Siege Tower"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Common4",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Staying still for {SecCastDur} adds {ShieldHP} to your shields. Cancels on movement."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_Shield",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldHP} shield energy gained"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_Shield_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{ShieldHP} shield"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCommon4",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_SecCastDuration.0",
+                "value": 3.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_ShieldHP.0",
+                "value": 40000.0
+            }
+        ],
+        "buffs": [
+            {
+                "ShieldHealth": 40000.0,
+                "StackMode": "Reset"
+            }
+        ]
+    },
+    "DA_Talent_Ult_Common5.0": {
+        "id": "DA_Talent_Ult_Common5.0",
+        "name": {
+            "Key": "TAL_name_Ult_Common5",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Well-Timed"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Common5",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Staying still for {SecCastDur} boosts your weapon damage by {DmgBoost}. Cancels on movement."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCommon5",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_SecCastDuration.0",
+                "value": 3.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.07
+            }
+        ],
+        "buffs": [
+            {
+                "Modifiers": [
+                    {
+                        "what": "OutgoingDamage",
+                        "operator": "Multiply",
+                        "value": 1.06
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Ult_Duncan.0": {
+        "id": "DA_Talent_Ult_Duncan.0",
+        "name": {
+            "Key": "TAL_name_Ult_Duncan",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Trickster's Triumph"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Duncan",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Pushing enemy's module into critical state regenerates {ShieldBoost} of your shield."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_ShieldBoost",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield energy restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_ShieldBoost_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "{ShieldBoost} shield restored"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateDuncan",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_HealthCap.0",
+                "value": 0.3
+            },
+            {
+                "stat_id": "DA_ModuleStat_ShieldBoost.0",
+                "value": 0.15
+            }
+        ]
+    },
+    "DA_Talent_Ult_Ever.0": {
+        "id": "DA_Talent_Ult_Ever.0",
+        "name": {
+            "Key": "TAL_name_Ult_Ever",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Sharpshooter"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Ever",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Artillery and sniper weapons have a {Chance} chance to deal {DmgBoost} more damage."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_CriticalShot",
+            "TableNamespace": "UI_Pilots",
+            "en": "Critical hit! Damage x{DmgBoost}"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_CriticalShot_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "Critical! DMG +{DmgBoost}"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateEver",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_DamageBoost.0",
+                "value": 0.5
+            },
+            {
+                "stat_id": "DA_ModuleStat_Chance.0",
+                "value": 0.15
+            }
+        ],
+        "buffs": [
+            {
+                "CriticalDamageChance": 0.02,
+                "CriticalDamage": 0.5,
+                "WeaponSelectors": [
+                    {
+                        "module_tag_id": "DA_Tag_WeaponTypeSniper.0"
+                    },
+                    {
+                        "module_tag_id": "DA_Tag_WeaponTypeArtilery.0"
+                    }
+                ]
+            }
+        ]
+    },
+    "DA_Talent_Ult_Idy.0": {
+        "id": "DA_Talent_Ult_Idy.0",
+        "name": {
+            "Key": "TAL_name_Ult_Idy",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Frontliner"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Idy",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Activating any gear speeds you up by {SpeedBoostTal}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_SpeedBoostTal",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{SpeedBoostTal} SPD"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_SpeedBoostTal_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{SpeedBoostTal} speed"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateIdy",
+        "default_properties": {
+            "MaxStacks": 6,
+            "Lifetime": 10.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_SpeedBoostTalents.0",
+                "value": 0.2
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 1.1
+            }
+        ]
+    },
+    "DA_Talent_Ult_Kate.0": {
+        "id": "DA_Talent_Ult_Kate.0",
+        "name": {
+            "Key": "TAL_name_Ult_Kate",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Deflector Gizmo"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Kate",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "After losing shields, reflects {DmgReturn} of damage taken over the next {Duration} back at the enemy. Cooldown: {CD}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgReturn",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgReturn} damage reflection"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgReturn_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgReturn} DMG reflect"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateKate",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 5.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_DamageReturn.0",
+                "value": 0.3
+            },
+            {
+                "stat_id": "DA_ModuleStat_Cooldown.0",
+                "value": 10.0
+            }
+        ],
+        "buffs": [
+            {
+                "Modifier": 0.2
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 5.0
+        }
+    },
+    "DA_Talent_Ult_Marcus.0": {
+        "id": "DA_Talent_Ult_Marcus.0",
+        "name": {
+            "Key": "TAL_name_Ult_Marcus",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Prizefighter"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Marcus",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Destroying an enemy within {Dist} restores {Armor} armor to all modules."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_HPRestored",
+            "TableNamespace": "UI_Pilots",
+            "en": "{Armor} armor restored"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_HPRestored_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{Armor} armor"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateMarcus",
+        "default_properties": {
+            "Regen amount": 0.08
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Armor.0",
+                "value": 7500.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_Distance.0",
+                "value": 15000.0
+            }
+        ]
+    },
+    "DA_Talent_Ult_Sora.0": {
+        "id": "DA_Talent_Ult_Sora.0",
+        "name": {
+            "Key": "TAL_name_Ult_Sora",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Ricochet"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Sora",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Your shots have a {Chance} chance to hit all of the target's modules at once."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_Bounce",
+            "TableNamespace": "UI_Pilots",
+            "en": "Slam! Damage to all enemy modules"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_Bounce_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "DMG All Enemy Modules"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateSora",
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Chance.0",
+                "value": 0.05
+            }
+        ]
+    }
+}

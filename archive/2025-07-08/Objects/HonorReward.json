@@ -1,0 +1,1088 @@
+{
+    "DA_Honor_Assist_BCN.0": {
+        "id": "DA_Honor_Assist_BCN.0",
+        "honor_points": 24.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Assist_Boost_TDM.1": {
+        "id": "DA_Honor_Assist_Boost_TDM.1",
+        "honor_points": 7.0,
+        "name": {
+            "Key": "Talent_Assist_Boost",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Pilot's Assist Boost"
+        },
+        "condition": {
+            "MechAssistPointValue": 1.0,
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_Assist_Boost_TDM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/TeamDeathMatch/DA_Honor_Assist_Boost_TDM.2"
+                }
+            ]
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Assist_ELM.0": {
+        "id": "DA_Honor_Assist_ELM.0",
+        "honor_points": 26.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Assist_SPH.0": {
+        "id": "DA_Honor_Assist_SPH.0",
+        "honor_points": 24.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Assist_TDM.0": {
+        "id": "DA_Honor_Assist_TDM.0",
+        "honor_points": 26.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_CaptureBeacon.0": {
+        "id": "DA_Honor_CaptureBeacon.0",
+        "honor_points": 10.0,
+        "name": {
+            "Key": "Beacons_Capture",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Warp Gates Captured"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "CapturedBeacons"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Damage_BCN.0": {
+        "id": "DA_Honor_Damage_BCN.0",
+        "name": {
+            "Key": "Damage_Dealt",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage Dealt"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Damage_ELM.0": {
+        "id": "DA_Honor_Damage_ELM.0",
+        "name": {
+            "Key": "Damage_Dealt",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage Dealt"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Damage_TDM.0": {
+        "id": "DA_Honor_Damage_TDM.0",
+        "name": {
+            "Key": "Damage_Dealt",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage Dealt"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Heal_BCN.0": {
+        "id": "DA_Honor_Heal_BCN.0",
+        "name": {
+            "Key": "Heal_Ally",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Crew Repairs"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Heal_ELM.0": {
+        "id": "DA_Honor_Heal_ELM.0",
+        "name": {
+            "Key": "Heal_Ally",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Crew Repairs"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_Heal_TDM.0": {
+        "id": "DA_Honor_Heal_TDM.0",
+        "name": {
+            "InvariantString": "Heal"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_HoldingWarpProbe_SPH.1": {
+        "id": "DA_Honor_HoldingWarpProbe_SPH.1",
+        "honor_points": 3.0,
+        "name": {
+            "Key": "WarpProbe_Hold",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Holding Warp Probe"
+        },
+        "condition": {
+            "PointsForHold": 1.0
+        },
+        "processing_time": "Frame",
+        "b_incremental": true
+    },
+    "DA_Honor_KillRobot_BCN.0": {
+        "id": "DA_Honor_KillRobot_BCN.0",
+        "honor_points": 30.0,
+        "name": {
+            "Key": "Robots_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Robots Destroyed"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillRobot_ELM.0": {
+        "id": "DA_Honor_KillRobot_ELM.0",
+        "honor_points": 40.0,
+        "name": {
+            "Key": "Robots_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Robots Destroyed"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillRobot_SPH.0": {
+        "id": "DA_Honor_KillRobot_SPH.0",
+        "honor_points": 30.0,
+        "name": {
+            "Key": "Robots_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Robots Destroyed"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillRobot_TDM.0": {
+        "id": "DA_Honor_KillRobot_TDM.0",
+        "honor_points": 38.0,
+        "name": {
+            "Key": "Robots_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Robots Destroyed"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillTitan_BCN.0": {
+        "id": "DA_Honor_KillTitan_BCN.0",
+        "honor_points": 50.0,
+        "name": {
+            "Key": "Titans_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Destroyer"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillTitan_ELM.0": {
+        "id": "DA_Honor_KillTitan_ELM.0",
+        "honor_points": 40.0,
+        "name": {
+            "Key": "Titans_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Destroyer"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillTitan_SPH.0": {
+        "id": "DA_Honor_KillTitan_SPH.0",
+        "honor_points": 50.0,
+        "name": {
+            "Key": "Titans_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Destroyer"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillTitan_TDM.0": {
+        "id": "DA_Honor_KillTitan_TDM.0",
+        "honor_points": 64.0,
+        "name": {
+            "Key": "Titan_Kill_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Most Titan Kills"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_MechAssist_Boost_BCN.1": {
+        "id": "DA_Honor_MechAssist_Boost_BCN.1",
+        "honor_points": 3.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "MechAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_MechAssist_Boost_BCN:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Beacon/DA_Honor_MechAssist_Boost_BCN.2"
+                }
+            ]
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_MechAssist_Boost_ELM.1": {
+        "id": "DA_Honor_MechAssist_Boost_ELM.1",
+        "honor_points": 6.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "MechAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_MechAssist_Boost_ELM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Elimination/DA_Honor_MechAssist_Boost_ELM.2"
+                }
+            ]
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TitanAssist_Boost_BCN.1": {
+        "id": "DA_Honor_TitanAssist_Boost_BCN.1",
+        "honor_points": 13.0,
+        "name": {
+            "Key": "Titan_Assist",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Kill Assists"
+        },
+        "condition": {
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_TitanAssist_Boost_BCN:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Beacon/DA_Honor_TitanAssist_Boost_BCN.2"
+                }
+            ]
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TitanAssist_Boost_ELM.1": {
+        "id": "DA_Honor_TitanAssist_Boost_ELM.1",
+        "honor_points": 19.0,
+        "name": {
+            "Key": "Titan_Assist",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Kill Assists"
+        },
+        "condition": {
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_TitanAssist_Boost_ELM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Elimination/DA_Honor_TitanAssist_Boost_ELM.2"
+                }
+            ]
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Assists_BCN.0": {
+        "id": "DA_Honor_Top1Assists_BCN.0",
+        "name": {
+            "Key": "Assists_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Assists_ELM.0": {
+        "id": "DA_Honor_Top1Assists_ELM.0",
+        "name": {
+            "Key": "Assists_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Assists_TDM.0": {
+        "id": "DA_Honor_Top1Assists_TDM.0",
+        "name": {
+            "Key": "Assists_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Damage_BCN.0": {
+        "id": "DA_Honor_Top1Damage_BCN.0",
+        "honor_points": 60.0,
+        "name": {
+            "Key": "Damage_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Damage_ELM.0": {
+        "id": "DA_Honor_Top1Damage_ELM.0",
+        "honor_points": 75.0,
+        "name": {
+            "Key": "Damage_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Damage_SPH.0": {
+        "id": "DA_Honor_Top1Damage_SPH.0",
+        "honor_points": 20.0,
+        "name": {
+            "Key": "Damage_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Damage_TDM.0": {
+        "id": "DA_Honor_Top1Damage_TDM.0",
+        "honor_points": 75.0,
+        "name": {
+            "Key": "Damage_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Heal_BCN.0": {
+        "id": "DA_Honor_Top1Heal_BCN.0",
+        "name": {
+            "Key": "Heal_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Heal_ELM.0": {
+        "id": "DA_Honor_Top1Heal_ELM.0",
+        "name": {
+            "Key": "Heal_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1Heal_TDM.0": {
+        "id": "DA_Honor_Top1Heal_TDM.0",
+        "name": {
+            "Key": "Heal_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top1HoldWarpProbe_SPH.0",
+        "honor_points": 40.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top1"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1MechKills_BCN.0": {
+        "id": "DA_Honor_Top1MechKills_BCN.0",
+        "name": {
+            "Key": "Kills_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1MechKills_ELM.0": {
+        "id": "DA_Honor_Top1MechKills_ELM.0",
+        "name": {
+            "Key": "Kills_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1MechKills_TDM.0": {
+        "id": "DA_Honor_Top1MechKills_TDM.0",
+        "name": {
+            "Key": "Kills_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Assists_BCN.0": {
+        "id": "DA_Honor_Top2Assists_BCN.0",
+        "name": {
+            "Key": "Assists_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Assists_ELM.0": {
+        "id": "DA_Honor_Top2Assists_ELM.0",
+        "name": {
+            "Key": "Assists_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Assists_TDM.0": {
+        "id": "DA_Honor_Top2Assists_TDM.0",
+        "name": {
+            "Key": "Assists_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Damage_BCN.0": {
+        "id": "DA_Honor_Top2Damage_BCN.0",
+        "honor_points": 50.0,
+        "name": {
+            "Key": "Damage_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Damage_ELM.0": {
+        "id": "DA_Honor_Top2Damage_ELM.0",
+        "honor_points": 65.0,
+        "name": {
+            "Key": "Damage_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Damage_SPH.0": {
+        "id": "DA_Honor_Top2Damage_SPH.0",
+        "honor_points": 15.0,
+        "name": {
+            "Key": "Damage_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Damage_TDM.0": {
+        "id": "DA_Honor_Top2Damage_TDM.0",
+        "honor_points": 65.0,
+        "name": {
+            "Key": "Damage_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Heal_BCN.0": {
+        "id": "DA_Honor_Top2Heal_BCN.0",
+        "name": {
+            "Key": "Heal_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Heal_ELM.0": {
+        "id": "DA_Honor_Top2Heal_ELM.0",
+        "name": {
+            "Key": "Heal_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2Heal_TDM.0": {
+        "id": "DA_Honor_Top2Heal_TDM.0",
+        "name": {
+            "Key": "Heal_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top2HoldWarpProbe_SPH.0",
+        "honor_points": 35.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top2"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2MechKills_BCN.0": {
+        "id": "DA_Honor_Top2MechKills_BCN.0",
+        "name": {
+            "Key": "Kills_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2MechKills_ELM.0": {
+        "id": "DA_Honor_Top2MechKills_ELM.0",
+        "name": {
+            "Key": "Kills_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2MechKills_TDM.0": {
+        "id": "DA_Honor_Top2MechKills_TDM.0",
+        "name": {
+            "Key": "Kills_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Assists_BCN.0": {
+        "id": "DA_Honor_Top3Assists_BCN.0",
+        "name": {
+            "Key": "Assists_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Assists_ELM.0": {
+        "id": "DA_Honor_Top3Assists_ELM.0",
+        "name": {
+            "Key": "Assists_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Assists_TDM.0": {
+        "id": "DA_Honor_Top3Assists_TDM.0",
+        "name": {
+            "Key": "Assists_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Assists: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Damage_BCN.0": {
+        "id": "DA_Honor_Top3Damage_BCN.0",
+        "honor_points": 35.0,
+        "name": {
+            "Key": "Damage_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Damage_ELM.0": {
+        "id": "DA_Honor_Top3Damage_ELM.0",
+        "honor_points": 45.0,
+        "name": {
+            "Key": "Damage_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Damage_SPH.0": {
+        "id": "DA_Honor_Top3Damage_SPH.0",
+        "honor_points": 10.0,
+        "name": {
+            "Key": "Damage_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Damage_TDM.0": {
+        "id": "DA_Honor_Top3Damage_TDM.0",
+        "honor_points": 45.0,
+        "name": {
+            "Key": "Damage_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Heal_BCN.0": {
+        "id": "DA_Honor_Top3Heal_BCN.0",
+        "name": {
+            "Key": "Heal_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Heal_ELM.0": {
+        "id": "DA_Honor_Top3Heal_ELM.0",
+        "name": {
+            "Key": "Heal_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3Heal_TDM.0": {
+        "id": "DA_Honor_Top3Heal_TDM.0",
+        "name": {
+            "Key": "Heal_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Repairs: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top3HoldWarpProbe_SPH.0",
+        "honor_points": 25.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top3"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3MechKills_BCN.0": {
+        "id": "DA_Honor_Top3MechKills_BCN.0",
+        "name": {
+            "Key": "Kills_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3MechKills_ELM.0": {
+        "id": "DA_Honor_Top3MechKills_ELM.0",
+        "name": {
+            "Key": "Kills_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3MechKills_TDM.0": {
+        "id": "DA_Honor_Top3MechKills_TDM.0",
+        "name": {
+            "Key": "Kills_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kills: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TopCapturedBeacons.0": {
+        "id": "DA_Honor_TopCapturedBeacons.0",
+        "name": {
+            "Key": "Capture_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Captures: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "CapturedBeacons"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TopTitanKills_BCN.0": {
+        "id": "DA_Honor_TopTitanKills_BCN.0",
+        "name": {
+            "Key": "Titan_Kill_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Most Titan Kills"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TopTitanKills_ELM.0": {
+        "id": "DA_Honor_TopTitanKills_ELM.0",
+        "name": {
+            "Key": "Titan_Kill_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Most Titan Kills"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_TopTitanKills_TDM.0": {
+        "id": "DA_Honor_TopTitanKills_TDM.0",
+        "name": {
+            "Key": "Titan_Kill_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Most Titan Kills"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_WinCombat.0": {
+        "id": "DA_Honor_WinCombat.0",
+        "honor_points": 80.0,
+        "name": {
+            "Key": "Match_Win",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Match Win"
+        },
+        "condition": {
+            "ExpectedResult": "ESTeamMatchResult::Win"
+        }
+    }
+}
