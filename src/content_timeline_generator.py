@@ -45,7 +45,7 @@ class ContentTimelineGenerator:
 
             timeline_lines.append(f"## {to_date}")
             for addition in additions:
-                timeline_lines.append(f"**{addition}**")
+                timeline_lines.append(f"* {addition}")
             timeline_lines.append("")  # Add a blank line for spacing
                
         logger.info(f"Generated timeline with {len(timeline_lines)} entries.")
