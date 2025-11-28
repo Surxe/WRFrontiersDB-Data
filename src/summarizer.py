@@ -158,7 +158,8 @@ class PatchSummarizer:
             if not self.is_prod_ready(parse_object_class, value):
                 continue
             
-            def register(new_updated: Literal['Added', 'Updated']):
+            if key not in before:
+                logger.debug(f"New {parse_object_class} detected: {key}")
                 for lang in self.langs:
                     name_getter_func = parse_object_class_to_name_getter[parse_object_class]
                     localized_name = name_getter_func(value, lang)
@@ -169,20 +170,7 @@ class PatchSummarizer:
                         type_string = "Pilot Talent "
                     elif parse_object_class == 'Pilot':
                         type_string = "Pilot "
-                    summary_lines[lang].add(f"* {new_updated} {type_string}{localized_name}")
-            
-            if key not in before:
-                logger.debug(f"New {parse_object_class} detected: {key}")
-                register('Added')
-            else:
-                before_value = before[key]
-                if before_value != value:
-                    logger.debug(f"Updated {parse_object_class} detected: {key}")
-                    if not self.is_prod_ready(parse_object_class, before_value):
-                        logger.debug(f"Previous version of {parse_object_class} {key} was not production ready, treating as new {parse_object_class.lower()}.")
-                        register('Added')
-                    else:
-                        register('Updated')
+                    summary_lines[lang].add(f"* Added {type_string}{localized_name}")
         
         return {lang: list(sorted(lines)) for lang, lines in summary_lines.items()}
     
@@ -218,16 +206,26 @@ class PatchSummarizer:
         # Write summary files
         summary_dir = os.path.join(self.summaries_dir, f"{from_version}_to_{to_version}")
         for lang, summary_lines in all_langs_summary_lines.items():
-            if not summary_lines:
-                logger.info(f"No changes detected for language {lang}, skipping summary file.")
-                continue
-            
-            summary_lines = sorted(summary_lines)
             summary_file_path = os.path.join(summary_dir, f"{lang}.md")
-            os.makedirs(summary_dir, exist_ok=True)
-            with open(summary_file_path, encoding='utf-8', mode='w') as summary_file:
-                summary_file.write('\n'.join(summary_lines))
-                logger.info(f"Wrote summary for language {lang} to {summary_file_path} with {len(summary_lines)} lines.")
+            if not summary_lines:
+                logger.info(f"No changes detected for language {lang}, skipping creation of summary file.")
+                
+                # If the summary file already exists, remove it
+                if os.path.isfile(summary_file_path):
+                    os.remove(summary_file_path)
+                    logger.info(f"Existing summary file found, deleting it: {summary_file_path}")
+
+                # If the parent dir is empty, remove it
+                if os.path.isdir(summary_dir) and not os.listdir(summary_dir):
+                    os.rmdir(summary_dir)
+                    logger.info(f"Removed empty summary directory: {summary_dir}")
+                
+            else:
+                summary_lines = sorted(summary_lines)
+                os.makedirs(summary_dir, exist_ok=True)
+                with open(summary_file_path, encoding='utf-8', mode='w') as summary_file:
+                    summary_file.write('\n'.join(summary_lines))
+                    logger.info(f"Wrote summary for language {lang} to {summary_file_path} with {len(summary_lines)} lines.")
 
 
 def main(from_version: Optional[str] = None, to_version: Optional[str] = None):
