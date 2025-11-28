@@ -7,8 +7,8 @@
 import json
 from loguru import logger
 from typing import Literal, Optional
-import git
 import os
+import sys
 
 LANGS = ['id', 'en']
 
@@ -17,43 +17,20 @@ def setup_logger():
     logger.add(lambda msg: print(msg, end=''), level="DEBUG")
     logger.debug("Logger initialized.")
 
-def get_latest_commit(repo: git.Repo, branch: str) -> git.Commit:
-    """Get the latest commit on the specified branch."""
-    return repo.commit(branch)
-    
-def get_git_tag(commit: git.Commit) -> git.TagReference:
-    """Get the git tag associated with the specified commit."""
-    tags = commit.repo.tags
-    for tag in tags:
-        if tag.commit == commit:
-            return tag
-    return None
-    
-def parse_tag(tag: git.TagReference) -> tuple[str, str]:
-    """Parse the git tag to extract prev and new version."""
-    # current_testing_2025-10-28_to_2025-11-11
-    # <current or archive>_<branch_title>_<previous_version>_to_<new_version>
-    parts = tag.name.split('_')
-    if len(parts) == 5:
-        current_or_archive = parts[0]
-        branch_title = parts[1]
-        prev_version = parts[2]
-        # parts[3] is the string "to"
-        new_version = parts[4]
-        return prev_version, new_version
-    raise ValueError(f"Invalid tag format: {tag}")
+def get_archive_dir(version) -> str:
+    archive_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'archive')
+    version_archive_dir = os.path.join(archive_dir, version)
+    return version_archive_dir
 
-def get_before_after_content(
-    commit: git.Commit,
-    parent_commit: git.Commit,
-    file_path: str
-) -> tuple[Optional[dict], Optional[dict]]:
-    """Get the content of the file before and after the specified commit."""
-    # Normalize path to use forward slashes for Git
-    git_file_path = os.path.normpath(file_path).replace('\\', '/')
-    before_content = parent_commit.repo.git.show(f"{parent_commit.hexsha}:{git_file_path}")
-    after_content = commit.repo.git.show(f"{commit.hexsha}:{git_file_path}")
-    return json.loads(before_content), json.loads(after_content)
+def get_archive_content(version: str, file_path: str) -> dict:
+    version_archive_dir = get_archive_dir(version)
+    file =  os.path.join(version_archive_dir, file_path)
+    if not os.path.isfile(file):
+        raise FileNotFoundError(f"Archive file not found: {file}")
+    # Read as json
+    with open(file, encoding='utf-8') as f:
+        content = json.load(f)
+    return content
 
 def is_prod_ready(parse_object_class: Literal['Module', 'Pilot'], module_dict: dict) -> bool:
     if parse_object_class == 'Module':
@@ -165,39 +142,27 @@ def summarize_changes(parse_object_class: Literal['Module', 'Pilot', 'PilotTalen
     # Sort lines for consistent output
     return {lang: list(sorted(lines)) for lang, lines in summary_lines.items()}
 
-def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional[str]=None):
+def get_latest_two_versions() -> tuple[str, str]:
+    archive_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'archive')
+    versions = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
+    versions = sorted(versions)
+    previous_version = versions[-2]
+    new_version = versions[-1]
+    logger.info(f"Latest two versions detected: {previous_version} -> {new_version}")
+    return previous_version, new_version
+
+def main(from_version: Optional[str]=None, to_version: Optional[str]=None):
     setup_logger()
-    # Get repo from this scripts location and not current working directory
-    # Need to go up 1 level since this script is in src/
-    repo = git.Repo(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    logger.debug(f"Repository at {repo.working_tree_dir}")
     
-    if commit_sha is None: # then get latest
-        # Check if we're in detached HEAD (e.g., checked out at a tag in CI)
-        try:
-            commit = get_latest_commit(repo, branch)
-            logger.debug(f"Latest commit on branch {branch}: {commit.hexsha}")
-        except Exception as e:
-            # If branch doesn't exist (detached HEAD), use HEAD
-            logger.debug(f"Branch {branch} not found, using HEAD (detached state): {e}")
-            commit = repo.head.commit
-            logger.debug(f"Using HEAD commit: {commit.hexsha}")
-    else:
-        commit = repo.commit(commit_sha)
-        logger.debug(f"Using specified commit SHA: {commit.hexsha}")
-    
-    tag = get_git_tag(commit)
-    if tag is None:
-        logger.warning(f"No tag found for latest commit {commit.hexsha}. Exiting.")
-        return
-    logger.debug(f"Latest tag: {tag.name}")
-    prev_version, new_version = parse_tag(tag)
-    logger.info(f"Tag was an upgrade from version {prev_version} to {new_version}")
-    parent_commit = commit.parents[0]
+    if from_version is None and to_version is None:
+        logger.debug(f"No versions provided, searching archive for latest two versions.")
+        from_version, to_version = get_latest_two_versions()
+    elif from_version is None or to_version is None:
+        raise ValueError("Both from_version and to_version must be provided, or neither to auto-detect latest two versions.")
+
 
     # Make summaries at repo/summaries, where this file is in repo/src/summarizer.py
     summaries_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'summaries', 'patch')
-    current_data_dir = 'current'
     files_to_retrieve = {
         "Module": "Objects/Module.json",
         "Pilot": "Objects/Pilot.json",
@@ -208,11 +173,9 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
         logger.info(f"Retrieving changes for {obj_name} ({file_path})")
 
         # Get before and after content
-        before_content, after_content = get_before_after_content(
-            commit,
-            parent_commit,
-            os.path.join(current_data_dir, file_path)
-        )
+        before_content = get_archive_content(from_version, file_path)
+        after_content = get_archive_content(to_version, file_path)
+
         logger.debug(f"Changes in {obj_name} ({file_path}):")
 
         # Summarize changes
@@ -222,7 +185,7 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
         logger.info(f"Summary extended for each language.")
 
     # Add summary to file
-    summary_dir = os.path.join(summaries_dir, f"{prev_version}_to_{new_version}")
+    summary_dir = os.path.join(summaries_dir, f"{from_version}_to_{to_version}")
     for lang, summary_lines in all_langs_summary_lines.items():
         if not summary_lines:
             logger.info(f"No changes detected for language {lang}, skipping summary file.")
@@ -233,32 +196,8 @@ def main(branch: Literal['main', 'testing-grounds']='main', commit_sha: Optional
         os.makedirs(summary_dir, exist_ok=True)
         with open(summary_file_path, encoding='utf-8', mode='w') as summary_file:
             summary_file.write('\n'.join(summary_lines))
+            logger.info(f"Wrote summary for language {lang} to {summary_file_path} that has {len(summary_lines)} lines.")
 
 
 if __name__ == "__main__":
-    import sys
-    
-    # Support args passed by command line
-    # 1st arg: branch name (optional, defaults to env var or 'main')
-    # 2nd arg: commit sha (optional)
-    
-    branch = None
-    commit_sha = None
-    
-    # Check command line args
-    if len(sys.argv) > 1:
-        branch = sys.argv[1]
-    
-    if len(sys.argv) > 2:
-        commit_sha = sys.argv[2]
-    
-    # Fall back to environment variable if no arg provided
-    if branch is None:
-        branch = os.getenv('BRANCH_NAME', 'main')
-    
-    # Validate branch
-    if branch not in ['main', 'testing-grounds']:
-        logger.warning(f"Unknown branch '{branch}', defaulting to 'main'")
-        branch = 'main'
-    
-    main(branch, commit_sha=commit_sha)
+    main()
