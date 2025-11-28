@@ -1,9 +1,0 @@
-* Updated DA_Module_Weapon_Cascade.0
-* Updated DA_Module_Weapon_Gozer.0
-* Updated DA_Module_Weapon_GrenadeLauncher.0
-* Updated DA_Module_Weapon_Noricum.0
-* Updated DA_Module_Weapon_Orkan.0
-* Updated DA_Module_Weapon_StickyGun.0
-* Updated DA_Module_Weapon_Toxin.0
-* Updated DA_Module_Weapon_Trident.0
-* Updated DA_Module_Weapon_Twinflare.0

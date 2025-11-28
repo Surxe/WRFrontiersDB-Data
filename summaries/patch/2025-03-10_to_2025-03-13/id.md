@@ -1,2 +1,0 @@
-* Updated DA_Module_Ability_Regeneration.1
-* Updated DA_Module_Ability_RegenerationFull.1

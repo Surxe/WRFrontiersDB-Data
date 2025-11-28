@@ -1,2 +1,0 @@
-* Updated Noricum
-* Updated Rampant

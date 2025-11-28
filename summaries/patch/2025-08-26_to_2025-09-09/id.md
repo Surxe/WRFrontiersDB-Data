@@ -14,18 +14,3 @@
 * Added Pilot DA_Pilot_Halloween_Dredge.0
 * Added Pilot DA_Pilot_Halloween_Emma.0
 * Added Pilot DA_Pilot_Rare_Giancarlo.0
-* Updated DA_Module_Ability_Atrophy.1
-* Updated DA_Module_Ability_GhostTurret.1
-* Updated DA_Module_ChassisAnansi.2
-* Updated DA_Module_ChassisBulwark.2
-* Updated DA_Module_ShoulderAres.0
-* Updated DA_Module_ShoulderRAlpha.0
-* Updated DA_Module_TorsoAnansi.1
-* Updated DA_Module_TorsoDemeter.1
-* Updated DA_Module_TorsoFenrir.1
-* Updated DA_Module_TorsoFury.1
-* Updated DA_Module_TorsoMatriarch.0
-* Updated DA_Module_Weapon_Cascade.0
-* Updated DA_Module_Weapon_Dragoon.0
-* Updated DA_Module_Weapon_Scatter.0
-* Updated DA_Module_Weapon_Shocktrain.0
