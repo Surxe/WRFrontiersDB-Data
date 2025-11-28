@@ -6,9 +6,9 @@
 
 import json
 from loguru import logger
-from typing import Literal, Optional
+from typing import Literal, Optional, TypedDict
 import os
-import sys
+from dotenv import load_dotenv
 
 LANGS = ['id', 'en']
 
@@ -17,6 +17,13 @@ def setup_logger():
     logger.add(lambda msg: print(msg, end=''), level="DEBUG")
     logger.debug("Logger initialized.")
 
+
+class VersionConfig(TypedDict):
+    title: str
+    date_utc: str
+    manifest_id: str
+    patch_notes_url: str
+    is_season_release: bool
 
 class PatchSummarizer:
     """Generates patch summaries by comparing game data between versions."""
@@ -32,6 +39,7 @@ class PatchSummarizer:
         self.repo_root = repo_root
         self.archive_dir = os.path.join(repo_root, 'archive')
         self.summaries_dir = os.path.join(repo_root, 'summaries', 'patch')
+        self.version_config_file = os.path.join(repo_root, 'versions.json')
         self.langs = LANGS
         self.files_to_retrieve = {
             "Module": "Objects/Module.json",
@@ -227,33 +235,49 @@ class PatchSummarizer:
                     summary_file.write('\n'.join(summary_lines))
                     logger.info(f"Wrote summary for language {lang} to {summary_file_path} with {len(summary_lines)} lines.")
 
+    def load_versions_config(self) -> dict[str, VersionConfig]:
+        """
+        Load versions from version_config_file
+        """
+        if not os.path.isfile(self.version_config_file):
+            raise FileNotFoundError(f"Version config file not found: {self.version_config_file}")
+        with open(self.version_config_file, 'r', encoding='utf-8') as f:
+            versions_config = json.load(f)
+        return versions_config
 
-def main(from_version: Optional[str] = None, to_version: Optional[str] = None):
+    def generate_all(self):
+        """
+        For each version in version_config_file, generate patch summaries
+        """
+        versions_config = self.load_versions_config()
+        sorted_versions = sorted(versions_config.keys())
+        for i in range(1, len(sorted_versions)):
+            from_version = sorted_versions[i-1]
+            to_version = sorted_versions[i]
+            logger.info(f"Generating patch summary from {from_version} to {to_version}")
+            self.generate(from_version, to_version)
+
+
+def main(from_version: Optional[str] = None, to_version: Optional[str] = None, gen_all: bool = False):
     """Main entry point for generating patch summaries."""
     setup_logger()
+    logger.info(f"Inputs: from_version={from_version}, to_version={to_version}, gen_all={gen_all}")
     summarizer = PatchSummarizer()
-    summarizer.generate(from_version, to_version)
-
+    if gen_all:
+        summarizer.generate_all()
+    else:
+        summarizer.generate(from_version, to_version)
 
 if __name__ == "__main__":
     import sys
-    from_ver = None
-    to_ver = None
-    
-    # Simple arg parsing: python src/summarizer.py [from_version] [to_version]
-    if len(sys.argv) > 1:
-        from_ver = sys.argv[1]
-    if len(sys.argv) > 2:
-        to_ver = sys.argv[2]
+    load_dotenv()
+    from_ver = os.getenv('FROM_VERSION')
+    # If env var is empty string, treat as None
+    if from_ver == '': from_ver = None
         
-    # Also check env vars if args not provided
-    if from_ver is None:
-        from_ver = os.getenv('FROM_VERSION')
-        # If env var is empty string, treat as None
-        if from_ver == '': from_ver = None
-        
-    if to_ver is None:
-        to_ver = os.getenv('TO_VERSION')
-        if to_ver == '': to_ver = None
+    to_ver = os.getenv('TO_VERSION')
+    if to_ver == '': to_ver = None
 
-    main(from_ver, to_ver)
+    gen_all = os.getenv('GEN_ALL', 'false').lower() == 'true'
+
+    main(from_ver, to_ver, gen_all)
