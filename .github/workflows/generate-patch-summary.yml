@@ -1,42 +1,28 @@
 name: Generate Patch Summary
+run-name: Generate Patch Summary ${{ inputs.from_version && format('({0} -> {1})', inputs.from_version, inputs.to_version) || '(Auto-detect)' }}
 
 on:
   repository_dispatch:
     types: [data_updated]
   workflow_dispatch:
     inputs:
-      branch:
-        description: 'Branch to generate summary for'
-        required: true
-        type: choice
-        options:
-          - main
-          - testing-grounds
+      from_version:
+        description: 'From version (leave empty for auto-detect latest)'
+        required: false
+        type: string
+      to_version:
+        description: 'To version (leave empty for auto-detect latest)'
+        required: false
+        type: string
 
 jobs:
   generate-summary:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Determine branch
-        id: determine_branch
-        run: |
-          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
-            # Repository dispatch event
-            BRANCH="${{ github.event.client_payload.branch }}"
-            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-            echo "Detected branch from dispatch payload: $BRANCH"
-          else
-            # Manual workflow dispatch
-            BRANCH="${{ inputs.branch }}"
-            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-            echo "Detected branch from manual input: $BRANCH"
-          fi
-      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ steps.determine_branch.outputs.branch }}
           fetch-depth: 0  # Fetch all history for git operations
           token: ${{ secrets.WORKFLOW_PAT }}
       
@@ -54,7 +40,8 @@ jobs:
         run: |
           python src/summarizer.py
         env:
-          BRANCH_NAME: ${{ steps.determine_branch.outputs.branch }}
+          FROM_VERSION: ${{ inputs.from_version || github.event.client_payload.from_version }}
+          TO_VERSION: ${{ inputs.to_version || github.event.client_payload.to_version }}
       
       - name: Commit and push summary files
         run: |
@@ -64,6 +51,17 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-generate patch summary"
-            git push origin HEAD:${{ steps.determine_branch.outputs.branch }}
+            # Extract version info from the staged file path
+            # Expected path: summaries/patch/FROM_to_TO/lang.md
+            VERSION_DIR=$(git diff --name-only --cached | grep "summaries/patch/" | head -n 1 | cut -d'/' -f3)
+            
+            if [ -n "$VERSION_DIR" ]; then
+               READABLE_VER=$(echo "$VERSION_DIR" | sed 's/_to_/ -> /')
+               COMMIT_MSG="Auto-generate patch summary ($READABLE_VER)"
+            else
+               COMMIT_MSG="Auto-generate patch summary"
+            fi
+            
+            git commit -m "$COMMIT_MSG"
+            git push
           fi

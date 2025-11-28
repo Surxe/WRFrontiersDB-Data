@@ -238,4 +238,24 @@ def main(from_version: Optional[str] = None, to_version: Optional[str] = None):
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    from_ver = None
+    to_ver = None
+    
+    # Simple arg parsing: python src/summarizer.py [from_version] [to_version]
+    if len(sys.argv) > 1:
+        from_ver = sys.argv[1]
+    if len(sys.argv) > 2:
+        to_ver = sys.argv[2]
+        
+    # Also check env vars if args not provided
+    if from_ver is None:
+        from_ver = os.getenv('FROM_VERSION')
+        # If env var is empty string, treat as None
+        if from_ver == '': from_ver = None
+        
+    if to_ver is None:
+        to_ver = os.getenv('TO_VERSION')
+        if to_ver == '': to_ver = None
+
+    main(from_ver, to_ver)
