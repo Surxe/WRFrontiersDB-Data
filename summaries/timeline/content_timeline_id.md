@@ -84,6 +84,8 @@
 * DA_Module_Weapon_Hefty.0
 * Pilot DA_Pilot_Halloween_Dredge.0
 * Pilot DA_Pilot_Halloween_Emma.0
+* Pilot Talent DA_Talent_Ult_Dredge.0
+* Pilot Talent DA_Talent_Ult_Emma.0
 
 ## 2025-11-11
 * DA_Module_ChassisNipper.2
@@ -91,4 +93,5 @@
 * DA_Module_TorsoNipper.1
 * DA_Module_Weapon_Stormpike.0
 * Pilot DA_Pilot_Rare_Giancarlo.0
+* Pilot Talent DA_Talent_Ult_Giancarlo.0
 

@@ -67,6 +67,7 @@ class PatchSummarizer:
             raise FileNotFoundError(f"Archive file not found: {file}")
         with open(file, encoding='utf-8') as f:
             content = json.load(f)
+        logger.debug(f"Loaded archived content from {file} for version {version}, {len(content)} entries found.")
         return content
     
     def get_latest_two_versions(self) -> tuple[str, str]:
@@ -163,11 +164,24 @@ class PatchSummarizer:
         summary_lines = {lang: set() for lang in self.langs}
         
         for key, value in after.items():
-            if not self.is_prod_ready(parse_object_class, value):
-                continue
-            
+            is_added = False
+
             if key not in before:
                 logger.debug(f"New {parse_object_class} detected: {key}")
+                if not self.is_prod_ready(parse_object_class, value):
+                    logger.debug(f"{parse_object_class} {key} is not production ready, skipping.")
+                    continue
+                is_added = True
+            else:
+                # existing object
+                before_value = before[key]
+                # If prev is not prod ready, and now is, consider it added
+                if (not self.is_prod_ready(parse_object_class, before_value)) and \
+                     self.is_prod_ready(parse_object_class, value):
+                    logger.debug(f"{parse_object_class} {key} became production ready, considering it Added.")
+                    is_added = True
+
+            if is_added:
                 for lang in self.langs:
                     name_getter_func = parse_object_class_to_name_getter[parse_object_class]
                     localized_name = name_getter_func(value, lang)
@@ -234,6 +248,8 @@ class PatchSummarizer:
                 with open(summary_file_path, encoding='utf-8', mode='w') as summary_file:
                     summary_file.write('\n'.join(summary_lines))
                     logger.info(f"Wrote summary for language {lang} to {summary_file_path} with {len(summary_lines)} lines.")
+        logger.info(f"Patch summary generation complete for {from_version} to {to_version}.")
+
 
     def load_versions_config(self) -> dict[str, VersionConfig]:
         """

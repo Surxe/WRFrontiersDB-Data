@@ -56,10 +56,13 @@
 * Hefty
 * Pilot "Dredge" Collins
 * Pilot Emma James
+* Pilot Talent Fragments Synergy
+* Pilot Talent Ghost Visor
 * Supply Surge
 
 ## November 11, 2025
 * Crix
 * Pilot Giancarlo
+* Pilot Talent Free acceleration
 * Stormpike
 
