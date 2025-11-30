@@ -12,7 +12,7 @@ from loguru import logger
 from typing import Literal
 import json
 
-from summarizer import VersionConfig
+from summarizer import VersionConfig, LANGS
 
 def strip_list(list_of_str: list[str]) -> list[str]:
     if not list_of_str:
@@ -186,7 +186,6 @@ if __name__ == "__main__":
     logger.debug(f"Season releases: {list(season_releases.keys())}")
     logger.debug(f"Season releases patches: {season_releases}")
 
-    langs = ['en', 'id']
-    for lang in langs:
+    for lang in LANGS:
         gen = ContentTimelineGenerator(lang_code=lang)
         gen.save_timeline(output_file=os.path.join(timeline_dir, f'{lang}.md'))
