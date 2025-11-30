@@ -111,12 +111,12 @@ class ContentTimelineGenerator:
                 version_config = self.versions_configs[to_version]
                 to_date = self._version_to_date(version_config["date_utc"])
                 patch_notes_url = version_config["patch_notes_url"]
-                patch_notes_url_md = f"[Patch Notes]({patch_notes_url})" if patch_notes_url else "Patch Notes N/A"
+                patch_md = f"[{to_date}]({patch_notes_url})" if patch_notes_url else f"{to_date}"
 
                 if not additions:
                     continue
 
-                timeline_lines.append(f"### {to_date} - {patch_notes_url_md}")
+                timeline_lines.append(f"### {patch_md}")
                 for addition in additions:
                     timeline_lines.append(f"* {addition}")
                 timeline_lines.append("")  # Add a blank line for spacing
