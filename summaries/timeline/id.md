@@ -56,21 +56,7 @@
 
 ### [2025-09-09](https://warrobotsfrontiers.com/en/news/268-patch-notes-september-9-2025)
 * DA_Module_Ability_IronVeil.1
-* DA_Module_ChassisSpire_3dVar01.2
-* DA_Module_ChassisSpire_3dVar02.2
-* DA_Module_ChassisSpire_3dVar03.2
-* DA_Module_ShoulderLSpire_3dVar01.0
-* DA_Module_ShoulderLSpire_3dVar02.0
-* DA_Module_ShoulderLSpire_3dVar03.0
-* DA_Module_ShoulderRSpire_3dVar01.0
-* DA_Module_ShoulderRSpire_3dVar02.0
-* DA_Module_TorsoSpire_3dVar01.0
-* DA_Module_TorsoSpire_3dVar02.0
-* DA_Module_TorsoSpire_3dVar03.0
 * DA_Module_Weapon_Gimcoil.0
-* Pilot DA_Pilot_Halloween_Dredge.0
-* Pilot DA_Pilot_Halloween_Emma.0
-* Pilot DA_Pilot_Rare_Giancarlo.0
 
 ### [2025-09-23](https://warrobotsfrontiers.com/en/news/270-patch-notes-september-23-2025)
 * DA_Module_ChassisKumo.2

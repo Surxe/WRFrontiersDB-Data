@@ -44,10 +44,6 @@
 ### [September 09, 2025](https://warrobotsfrontiers.com/en/news/268-patch-notes-september-9-2025)
 * Apollo
 * Iron Veil
-* Pilot "Dredge" Collins
-* Pilot Emma James
-* Pilot Giancarlo
-* Volta
 
 ### [September 23, 2025](https://warrobotsfrontiers.com/en/news/270-patch-notes-september-23-2025)
 * Horde
