@@ -81,15 +81,15 @@ class ContentTimelineGenerator:
                                                                     versions=patch_versions)
         return summaries_en_per_season
 
-    def _version_to_date(self, version:str) -> str:
+    def _version_to_date(self, yyyy_mm_dd:str) -> str:
         """
         Convert a version string (YYYY-MM-DD) to a formatted date string.
         """
         if self.lang_code == 'id':
-            return version  # Keep as is for Indonesian
+            return yyyy_mm_dd  # Keep as is for Indonesian
         elif self.lang_code == 'en':
             # 2025-11-15 -> November 15, 2025
-            return datetime.strptime(version, "%Y-%m-%d").strftime("%B %d, %Y")
+            return datetime.strptime(yyyy_mm_dd, "%Y-%m-%d").strftime("%B %d, %Y")
         else:
             raise ValueError("lang_code invalid")
 
@@ -108,13 +108,15 @@ class ContentTimelineGenerator:
             timeline_lines.append("")  # Add a blank line for spacing
 
             for to_version, additions in season_summaries.items():
-                to_date = self._version_to_date(to_version)
                 version_config = self.versions_configs[to_version]
+                to_date = self._version_to_date(version_config["date_utc"])
+                patch_notes_url = version_config["patch_notes_url"]
+                patch_notes_url_md = f"[Patch Notes]({patch_notes_url})" if patch_notes_url else "Patch Notes N/A"
 
                 if not additions:
                     continue
 
-                timeline_lines.append(f"### {to_date}")
+                timeline_lines.append(f"### {to_date} - {patch_notes_url_md}")
                 for addition in additions:
                     timeline_lines.append(f"* {addition}")
                 timeline_lines.append("")  # Add a blank line for spacing
@@ -148,6 +150,9 @@ def load_versions_config(config_path='versions.json') -> dict:
 class VersionConfig(TypedDict): #keyed by version name str
     is_season_release: bool
     title: str
+    patch_notes_url: str
+    manifest_id: str
+    date_utc: str
     # has others that aren't needed here
 
 def get_season_releases(version_configs: dict[str, VersionConfig]) -> dict[str, list[str]]:
