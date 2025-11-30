@@ -24,14 +24,62 @@ def strip_list(list_of_str: list[str]) -> list[str]:
     return list_of_str
 
 class ContentTimelineGenerator:
-    def __init__(self, lang_code='en'):
+    def __init__(self, lang_code):
         if lang_code not in ['en', 'id']:
             raise ValueError("lang_code must be either 'en' or 'id'")
         
         self.summaries_dir = 'summaries'
         self.timeline_dir = os.path.join(self.summaries_dir, 'timeline')
         self.lang_code = lang_code
+        self.summaries = self._load_categorize_summaries()
         self.versions_configs = load_versions_config()
+        self._gen_timeline(self.summaries)
+
+    def _load_summaries(self,
+                        summaries_dir='summaries', 
+                        lang_code='en', 
+                        versions: Literal['all'] | list[str] = 'all'
+                        ) -> dict[str, list[str]]:
+        """
+        From summaries/patch/<from_to_version>/<lang_code>.md,
+        Save each line that starts with "* Added" into 
+        a dict: {from_to_version: [lines]}
+        """
+        patch_dir = os.path.join(summaries_dir, 'patch')
+        summaries = {}
+        if not os.path.exists(patch_dir):
+            logger.warning(f"Patch directory not found: {patch_dir}")
+            return summaries
+
+        for from_to_version in os.listdir(patch_dir): #from_to_version e.g. 2025-03-10_to_2025-03-13
+            from_version, to_version = from_to_version.split('_to_')
+            if not (versions == 'all' or to_version in versions):
+                continue
+
+            subdir_path = os.path.join(patch_dir, from_to_version)
+            if not os.path.isdir(subdir_path):
+                continue # e.g. summaries/.gitkeep
+            file_to_read = os.path.join(subdir_path, f'{lang_code}.md')
+            if os.path.isfile(file_to_read):
+                additions = []
+                with open(file_to_read, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        if line.startswith('* Added '):
+                            logger.debug(f"Found addition in {from_to_version}: {line.strip()}")
+                            additions.append(line.strip().removeprefix('* Added '))
+                if additions:
+                    summaries[to_version] = additions
+            else:
+                raise FileNotFoundError(f"Summary file not found: {file_to_read}")
+        logger.info(f"Loaded summaries for {len(summaries)} version(s).")
+        return summaries
+
+    def _load_categorize_summaries(self):
+        summaries_en_per_season = {}
+        for season_version, patch_versions in season_releases.items():
+            summaries_en_per_season[season_version] = self._load_summaries(lang_code=self.lang_code, 
+                                                                    versions=patch_versions)
+        return summaries_en_per_season
 
     def _version_to_date(self, version:str) -> str:
         """
@@ -45,7 +93,7 @@ class ContentTimelineGenerator:
         else:
             raise ValueError("lang_code invalid")
 
-    def gen_timeline(self, summaries: dict[str, dict[str, list[str]]]):
+    def _gen_timeline(self, summaries: dict[str, dict[str, list[str]]]):
         """
         summaries example: {'2025-03-13': {'2025-03-15': ['line1']}} where 13 is season release date, 
             15 is patch release date in that season
@@ -53,7 +101,6 @@ class ContentTimelineGenerator:
         
         timeline_lines = ['# Added robots/pilots since the first public steam release', '']
         for season_version, season_summaries in summaries.items():
-            season_date = self._version_to_date(season_version)
             season_config = self.versions_configs[season_version]
             season_title = season_config["title"]
 
@@ -63,7 +110,6 @@ class ContentTimelineGenerator:
             for to_version, additions in season_summaries.items():
                 to_date = self._version_to_date(to_version)
                 version_config = self.versions_configs[to_version]
-                title = version_config["title"]
 
                 if not additions:
                     continue
@@ -87,44 +133,6 @@ class ContentTimelineGenerator:
             for line in self.timeline_lines:
                 f.write(line + '\n')
         logger.info(f"Timeline saved to {output_file}.")
-
-def load_summaries(summaries_dir='summaries', 
-                   lang_code='en', 
-                   versions: Literal['all'] | list[str] = 'all'
-                   ) -> dict[str, list[str]]:
-    """
-    From summaries/patch/<from_to_version>/<lang_code>.md,
-    Save each line that starts with "* Added" into 
-    a dict: {from_to_version: [lines]}
-    """
-    patch_dir = os.path.join(summaries_dir, 'patch')
-    summaries = {}
-    if not os.path.exists(patch_dir):
-        logger.warning(f"Patch directory not found: {patch_dir}")
-        return summaries
-
-    for from_to_version in os.listdir(patch_dir): #from_to_version e.g. 2025-03-10_to_2025-03-13
-        from_version, to_version = from_to_version.split('_to_')
-        if not (versions == 'all' or to_version in versions):
-            continue
-
-        subdir_path = os.path.join(patch_dir, from_to_version)
-        if not os.path.isdir(subdir_path):
-            continue # e.g. summaries/.gitkeep
-        file_to_read = os.path.join(subdir_path, f'{lang_code}.md')
-        if os.path.isfile(file_to_read):
-            additions = []
-            with open(file_to_read, 'r', encoding='utf-8') as f:
-                for line in f:
-                    if line.startswith('* Added '):
-                        logger.debug(f"Found addition in {from_to_version}: {line.strip()}")
-                        additions.append(line.strip().removeprefix('* Added '))
-            if additions:
-                summaries[to_version] = additions
-        else:
-            raise FileNotFoundError(f"Summary file not found: {file_to_read}")
-    logger.info(f"Loaded summaries for {len(summaries)} version(s).")
-    return summaries
 
 def load_versions_config(config_path='versions.json') -> dict:
     """
@@ -181,10 +189,5 @@ if __name__ == "__main__":
 
     langs = ['en', 'id']
     for lang in langs:
-        summaries_en_per_season = {}
-        for season_version, patch_versions in season_releases.items():
-            summaries_en_per_season[season_version] = load_summaries(lang_code=lang, 
-                                                                    versions=patch_versions)
         gen = ContentTimelineGenerator(lang_code=lang)
-        gen.gen_timeline(summaries_en_per_season)
         gen.save_timeline(output_file=os.path.join(timeline_dir, f'{lang}.md'))
