@@ -9,8 +9,10 @@ TODO: Add it to the CI pipeline
 from datetime import datetime
 import os
 from loguru import logger
-from typing import Literal, TypedDict
+from typing import Literal
 import json
+
+from summarizer import VersionConfig
 
 def strip_list(list_of_str: list[str]) -> list[str]:
     if not list_of_str:
@@ -146,14 +148,6 @@ def load_versions_config(config_path='versions.json') -> dict:
         versions_config = json.load(f)
     logger.info(f"Loaded versions config with {len(versions_config)} entries.")
     return versions_config
-
-class VersionConfig(TypedDict): #keyed by version name str
-    is_season_release: bool
-    title: str
-    patch_notes_url: str
-    manifest_id: str
-    date_utc: str
-    # has others that aren't needed here
 
 def get_season_releases(version_configs: dict[str, VersionConfig]) -> dict[str, list[str]]:
     """
