@@ -143,26 +143,23 @@ class PatchSummarizer:
             return module_data['id']
         return PatchSummarizer.localize(module_data['name'], lang)
     
-    def summarize_changes(self, parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'],
-                         before: dict, after: dict) -> dict[str, list[str]]:
-        """Compare before/after content and generate summary lines.
+    def get_added_parse_objects(self, 
+                                parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'],
+                                before: dict, after: dict
+                                ) -> list[str]:
+        """
+        Get list of added parse objects between two versions.
         
         Args:
             parse_object_class: Type of objects being compared
             before: Content before the patch
             after: Content after the patch
-            
+
         Returns:
-            Dictionary mapping language codes to lists of summary lines
+            List of added object dictionaries
         """
-        parse_object_class_to_name_getter = {
-            'Module': self.get_name,
-            'Pilot': self.get_first_last_name,
-            'PilotTalent': self.get_name,
-        }
-        
-        summary_lines = {lang: set() for lang in self.langs}
-        
+        added_objects = []
+
         for key, value in after.items():
             is_added = False
 
@@ -180,19 +177,45 @@ class PatchSummarizer:
                      self.is_prod_ready(parse_object_class, value):
                     logger.debug(f"{parse_object_class} {key} became production ready, considering it Added.")
                     is_added = True
-
+            
             if is_added:
-                for lang in self.langs:
-                    name_getter_func = parse_object_class_to_name_getter[parse_object_class]
-                    localized_name = name_getter_func(value, lang)
-                    # Remove BOM and other special characters
-                    localized_name = localized_name.replace('\ufeff', '').replace('\u200b', '')
-                    type_string = ""
-                    if parse_object_class == 'PilotTalent':
-                        type_string = "Pilot Talent "
-                    elif parse_object_class == 'Pilot':
-                        type_string = "Pilot "
-                    summary_lines[lang].add(f"* Added {type_string}{localized_name}")
+                added_objects.append(value)
+        
+        return added_objects
+
+    def summarize_changes(self, 
+                          parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'],
+                          added_objects: list[dict]
+                          ) -> dict[str, list[str]]:
+        """Compare before/after content and generate summary lines.
+        
+        Args:
+            parse_object_class: Type of objects being compared
+            added_objects: List of added object dictionaries
+            
+        Returns:
+            Dictionary mapping language codes to lists of summary lines
+        """
+        parse_object_class_to_name_getter = {
+            'Module': self.get_name,
+            'Pilot': self.get_first_last_name,
+            'PilotTalent': self.get_name,
+        }
+        
+        summary_lines = {lang: set() for lang in self.langs}
+
+        for value in added_objects:
+            for lang in self.langs:
+                name_getter_func = parse_object_class_to_name_getter[parse_object_class]
+                localized_name = name_getter_func(value, lang)
+                # Remove BOM and other special characters
+                localized_name = localized_name.replace('\ufeff', '').replace('\u200b', '')
+                type_string = ""
+                if parse_object_class == 'PilotTalent':
+                    type_string = "Pilot Talent "
+                elif parse_object_class == 'Pilot':
+                    type_string = "Pilot "
+                summary_lines[lang].add(f"* Added {type_string}{localized_name}")
         
         return {lang: list(sorted(lines)) for lang, lines in summary_lines.items()}
     
@@ -212,21 +235,96 @@ class PatchSummarizer:
         all_langs_summary_lines = {lang: [] for lang in self.langs}
         
         # Retrieve the summary for each object type for each language
-        for obj_name, file_path in self.files_to_retrieve.items():
-            logger.info(f"Retrieving changes for {obj_name} ({file_path})")
+        for parse_object_class, file_path in self.files_to_retrieve.items():
+            logger.info(f"Retrieving changes for {parse_object_class} ({file_path})")
             
             before_content = self.get_archive_content(from_version, file_path)
             after_content = self.get_archive_content(to_version, file_path)
             
-            logger.debug(f"Changes in {obj_name} ({file_path}):")
+            logger.debug(f"Changes in {parse_object_class} ({file_path}):")
+
+            added_objects = self.get_added_parse_objects(parse_object_class, before_content, after_content)
+            added_objects = self.summary_fixer(to_version, added_objects)
             
-            langs_summary_lines = self.summarize_changes(obj_name, before_content, after_content)
+            langs_summary_lines = self.summarize_changes(parse_object_class, added_objects)
+
             for lang in self.langs:
-                all_langs_summary_lines[lang].extend(langs_summary_lines[lang])
+                lang_summary_lines = langs_summary_lines[lang]
+
+                all_langs_summary_lines[lang].extend(lang_summary_lines)
             logger.info(f"Summary extended for each language.")
         
         # Write summary files
+        self.save_summaries(all_langs_summary_lines, from_version, to_version)
+        
+        logger.info(f"Patch summary generation complete for {from_version} to {to_version}.")
+
+    def summary_fixer(self, 
+                      version_name: str, 
+                      added_objects: list[dict]
+                      ) -> list[dict]:
+        """
+        Would call this summary_patcher, but patch is already used to represent the version in some cases.
+
+        Sometimes the game data is updated to contain production ready items before they are actually ready.
+        Or it may add variations of production ready items that aren't actually available to players.
+        Unfortunately, there is no flag for "available_to_players" in the data.
+        This function aims to remove these from the summaries. This will need to be updated manually if more are spotted.
+        """
+
+        """
+        * DA_Module_ChassisSpire_3dVar01.2
+        * DA_Module_ChassisSpire_3dVar02.2
+        * DA_Module_ChassisSpire_3dVar03.2
+        * DA_Module_ShoulderLSpire_3dVar01.0
+        * DA_Module_ShoulderLSpire_3dVar02.0
+        * DA_Module_ShoulderLSpire_3dVar03.0
+        * DA_Module_ShoulderRSpire_3dVar01.0
+        * DA_Module_ShoulderRSpire_3dVar02.0
+        * DA_Module_TorsoSpire_3dVar01.0
+        * DA_Module_TorsoSpire_3dVar02.0
+        * DA_Module_TorsoSpire_3dVar03.0
+        """
+
+        modified_added_objects = []
+
+        exclusions_by_version = {
+            "2025-09-09": {
+                "DA_Module_ChassisSpire_3dVar01.2": True,
+                "DA_Module_ChassisSpire_3dVar02.2": True,
+                "DA_Module_ChassisSpire_3dVar03.2": True,
+                "DA_Module_ShoulderLSpire_3dVar01.0": True,
+                "DA_Module_ShoulderLSpire_3dVar02.0": True,
+                "DA_Module_ShoulderLSpire_3dVar03.0": True,
+                "DA_Module_ShoulderRSpire_3dVar01.0": True,
+                "DA_Module_ShoulderRSpire_3dVar02.0": True,
+                "DA_Module_TorsoSpire_3dVar01.0": True,
+                "DA_Module_TorsoSpire_3dVar02.0": True,
+                "DA_Module_TorsoSpire_3dVar03.0": True,
+                "DA_Pilot_Halloween_Dredge.0": True,
+                "DA_Pilot_Halloween_Emma.0": True,
+                "DA_Pilot_Rare_Giancarlo.0": True,
+            }
+        }
+
+        for obj in added_objects:
+            obj_id = obj.get('id', None)
+            if obj_id is None:
+                raise ValueError("Added object missing 'id' field.")
+
+            exclusions_for_version = exclusions_by_version.get(version_name, {})
+            if obj_id in exclusions_for_version:
+                logger.info(f"Excluding {obj_id} from summary for version {version_name}.")
+                continue
+
+            modified_added_objects.append(obj)
+
+        return modified_added_objects
+
+
+    def save_summaries(self, all_langs_summary_lines, from_version: str, to_version: str):
         summary_dir = os.path.join(self.summaries_dir, f"{from_version}_to_{to_version}")
+
         for lang, summary_lines in all_langs_summary_lines.items():
             summary_file_path = os.path.join(summary_dir, f"{lang}.md")
             if not summary_lines:
@@ -248,8 +346,6 @@ class PatchSummarizer:
                 with open(summary_file_path, encoding='utf-8', mode='w') as summary_file:
                     summary_file.write('\n'.join(summary_lines))
                     logger.info(f"Wrote summary for language {lang} to {summary_file_path} with {len(summary_lines)} lines.")
-        logger.info(f"Patch summary generation complete for {from_version} to {to_version}.")
-
 
     def load_versions_config(self) -> dict[str, VersionConfig]:
         """
