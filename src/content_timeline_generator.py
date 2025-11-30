@@ -7,7 +7,7 @@ TODO: Add it to the CI pipeline
 from datetime import datetime
 import os
 from loguru import logger
-from typing import TypedDict
+from typing import Literal, TypedDict
 import json
 
 class SummaryEntry(TypedDict):
@@ -23,7 +23,6 @@ class ContentTimelineGenerator:
         self.lang_code = lang_code
         self.summaries = summaries
         self.timeline_lines = self._generate_timeline()
-        self._save_timeline(output_file=os.path.join(self.timeline_dir, f'content_timeline_{lang_code}.md'))
 
     def _generate_timeline(self):
         """
@@ -52,7 +51,7 @@ class ContentTimelineGenerator:
         logger.info(f"Generated timeline with {len(timeline_lines)} entries.")
         return timeline_lines
     
-    def _save_timeline(self, output_file:str):
+    def save_timeline(self, output_file:str):
         """
         Save the generated timeline to a markdown file.
         """
@@ -64,7 +63,10 @@ class ContentTimelineGenerator:
                 f.write(line + '\n')
         logger.info(f"Timeline saved to {output_file}.")
 
-def load_summaries(summaries_dir='summaries', lang_code='en') -> dict[str, list[str]]:
+def load_summaries(summaries_dir='summaries', 
+                   lang_code='en', 
+                   versions: Literal['all'] | list[str] = 'all'
+                   ) -> dict[str, list[str]]:
     """
     From summaries/patch/<from_to_version>/<lang_code>.md,
     Save each line that starts with "* Added" into 
@@ -77,6 +79,9 @@ def load_summaries(summaries_dir='summaries', lang_code='en') -> dict[str, list[
         return summaries
 
     for from_to_version in os.listdir(patch_dir): #from_to_version e.g. 2025-03-10_to_2025-03-13
+        if not (versions == 'all' or from_to_version in versions):
+            continue
+
         subdir_path = os.path.join(patch_dir, from_to_version)
         if not os.path.isdir(subdir_path):
             continue # e.g. summaries/.gitkeep
@@ -118,16 +123,39 @@ def get_season_releases(version_configs: dict[str, VersionConfig]) -> dict[str, 
                 for each version that appeared before that season and after the previous season]
         }
     """
+    season_releases = {}
+    # version_configs is already sorted in reverse such that the latest version is first
+    # reverse the sort to process from oldest to newest
+    version_configs = dict(sorted(version_configs.items(), key=lambda item: item[0]))
+    previous_season_version = None
+    for version, config in version_configs.items():
+        if config.get('is_season_release', False):
+            season_releases[version] = []
+            previous_season_version = version
+        else:
+            if previous_season_version:
+                season_releases[previous_season_version].append(version)
+
+    return season_releases
+
+    
 
 
 if __name__ == "__main__":
+    summaries_dir = 'summaries'
+    timeline_dir = os.path.join(summaries_dir, 'timeline')
+    timeline_patch_dir = os.path.join(timeline_dir, 'patch')
+
+
     # Patch summaries first
     summaries_en = load_summaries(lang_code='en')
-    ContentTimelineGenerator(summaries_en, lang_code='en')
+    gen = ContentTimelineGenerator(summaries_en, lang_code='en')
+    gen.save_timeline(output_file=os.path.join(timeline_patch_dir, f'en.md'))
     
     summaries_id = load_summaries(lang_code='id')
-    ContentTimelineGenerator(summaries_id, lang_code='id')
-
+    gen = ContentTimelineGenerator(summaries_id, lang_code='id')
+    gen.save_timeline(output_file=os.path.join(timeline_patch_dir, f'id.md'))
+    
     
     # Season summmaries next
     versions_config_path = "versions.json"
@@ -135,3 +163,4 @@ if __name__ == "__main__":
 
     season_releases = get_season_releases(versions_config)
     logger.info(f"Identified {len(season_releases)} season releases.")
+    logger.debug(f"Season releases: {list(season_releases.keys())}")
