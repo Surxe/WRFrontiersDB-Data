@@ -1912,6 +1912,41 @@
             }
         ]
     },
+    "DA_Talent_Ult_Cole.0": {
+        "id": "DA_Talent_Ult_Cole.0",
+        "name": {
+            "Key": "TAL_name_Ult_Cole",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Afterparty"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Cole",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Each kill triggers a brief celebratory fireworks effect."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_AfterParty",
+            "TableNamespace": "UI_Pilots",
+            "en": "Showtime"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_AfterParty_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "Showtime"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCole",
+        "effect_offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        },
+        "stats": [
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 1.0
+            }
+        ]
+    },
     "DA_Talent_Ult_Common1.0": {
         "id": "DA_Talent_Ult_Common1.0",
         "name": {

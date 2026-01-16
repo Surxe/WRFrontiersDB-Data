@@ -8467,14 +8467,14 @@
                 "parent_socket_name": "Root",
                 "level": 13
             },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Cascade.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 13
+            },
             "Shoulder_R": {
                 "id": "DA_Module_ShoulderRSpire.0",
                 "parent_socket_name": "Root",
-                "level": 13
-            },
-            "Shoulder_Weapon_0": {
-                "id": "DA_Module_Weapon_Cascade.0",
-                "parent_socket_name": "Shoulder_L",
                 "level": 13
             }
         },
@@ -8588,6 +8588,44 @@
             },
             "Shoulder_Weapon_0": {
                 "id": "DA_Module_Weapon_Hive.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            }
+        },
+        "is_factory_preset": true
+    },
+    "DA_Preset_Titan_Norna.0": {
+        "id": "DA_Preset_Titan_Norna.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Norna",
+        "name": {
+            "Key": "CMP_name_NORNA",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "id": "DA_Module_ChassisNorna.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "id": "DA_Module_TorsoNorna.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "id": "DA_Module_ShoulderLNorna.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "id": "DA_Module_ShoulderRNorna.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Coriolis.0",
                 "parent_socket_name": "Shoulder_L",
                 "level": 1
             }

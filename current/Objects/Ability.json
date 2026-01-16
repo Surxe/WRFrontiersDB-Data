@@ -6825,6 +6825,228 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Grappling"
     },
+    "BP_Module_Norna_Chassis.1": {
+        "id": "BP_Module_Norna_Chassis.1",
+        "name": {
+            "Key": "ABL_name_Maneuverability",
+            "TableNamespace": "Ability_name",
+            "en": "Pneumatic Vault"
+        },
+        "description": {
+            "Key": "ABL_descr_Maneuverability",
+            "TableNamespace": "Ability_descripton",
+            "en": "Hold to hover over ground for greater speed and maneuverability. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility",
+        "misc": {
+            "LevitationHeight": 200.0,
+            "MaxVelocityHorizontal": 3400.0,
+            "DragCoefficientX": 200.0,
+            "DragCoefficientY": 200.0,
+            "FuelUsagePerSecond": 3.5,
+            "MinFuelRequired": 3.0
+        }
+    },
+    "BP_Module_Norna_Chassis.2": {
+        "id": "BP_Module_Norna_Chassis.2",
+        "name": {
+            "Key": "ABL_name_MultiJump",
+            "TableNamespace": "Ability_name",
+            "en": "Glide Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_MultiJump",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump. Activate mid-air to double jump. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ArcJump",
+        "misc": {
+            "DelayBetweenActions": 0.5,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0
+        }
+    },
+    "BP_Module_Norna_ShoulderL.1": {
+        "id": "BP_Module_Norna_ShoulderL.1",
+        "misc": {
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "CollisionComponent": {
+                        "SphereRadius": 2048.0,
+                        "bGenerateOverlapEvents": false,
+                        "PhysicsVolumeChangedDelegate": {
+                            "PhysicsVolumeChanged": {
+                                "bSimplifiedMovementCalculation": false,
+                                "InitialSpeed": 7000.0,
+                                "MaxSpeed": 7000.0
+                            }
+                        }
+                    },
+                    "MovementComponent": {
+                        "bSimplifiedMovementCalculation": false,
+                        "InitialSpeed": 7000.0,
+                        "MaxSpeed": 7000.0
+                    },
+                    "BuffsOnHit": {
+                        "Lifetime": 5.0
+                    }
+                }
+            },
+            "PrimaryParameter": 1500.0,
+            "SecondaryParameter": 1000.0,
+            "EffectType": "Attacking",
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 7.0,
+            "ActorCDOShapeComponent": {
+                "SphereRadius": 2048.0,
+                "bGenerateOverlapEvents": false,
+                "PhysicsVolumeChangedDelegate": {
+                    "PhysicsVolumeChanged": {
+                        "bSimplifiedMovementCalculation": false,
+                        "InitialSpeed": 7000.0,
+                        "MaxSpeed": 7000.0
+                    }
+                }
+            }
+        },
+        "name": {
+            "Key": "ABL_name_IonDisruptor",
+            "TableNamespace": "Ability_name",
+            "en": "Ion Disruptor"
+        },
+        "description": {
+            "Key": "ABL_descr_IonDisruptor",
+            "TableNamespace": "Ability_descripton",
+            "en": "Releases a large, slow-moving sphere that deals {Dmg} damage per second to each armor zone it touches and disables enemy gear activation for {Duration}. Cooldown {CD}."
+        },
+        "cooldown": {
+            "Cooldown": 5.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_IonDisruptor"
+    },
+    "BP_Module_Norna_ShoulderR.1": {
+        "id": "BP_Module_Norna_ShoulderR.1",
+        "projectile_types": [
+            {
+                "MovementComponent": {
+                    "InitialSpeed": 20000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 20000.0,
+                "MaxDistanceSettings": 20001.0,
+                "DeathDistanceSettings": 20002.0,
+                "SpawnSocketName": "ArmorCenter_Torso"
+            },
+            {
+                "MovementComponent": {
+                    "InitialSpeed": 20000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1500.0,
+                    "DamageShield": 1500.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": [
+                        {
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "InterpMode": "RCIM_Linear"
+                        }
+                    ]
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 20000.0,
+                "MaxDistanceSettings": 20001.0,
+                "DeathDistanceSettings": 20002.0,
+                "SpawnSocketName": "ArmorCenter_Torso"
+            }
+        ],
+        "name": {
+            "Key": "ABL_name_IonVolley",
+            "TableNamespace": "Ability_name",
+            "en": "Ion Volley"
+        },
+        "description": {
+            "Key": "ABL_descr_IonVolley",
+            "TableNamespace": "Ability_descripton",
+            "en": "Continuously releases a fan of lightning orbs ahead for {ActDuration}. Each orb deals {Dmg} damage on hit. Cooldown {CD}."
+        },
+        "misc": {
+            "PrimaryParameter": 1500.0,
+            "SecondaryParameter": 1000.0,
+            "EffectType": "Attacking",
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 2.0
+        },
+        "cooldown": {
+            "Cooldown": 5.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_IonVolley"
+    },
+    "BP_Module_Norna_Torso.1": {
+        "id": "BP_Module_Norna_Torso.1",
+        "misc": {
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "PushSettingsClass": {
+                        "ElevationAngle": 25.0,
+                        "ImpulsePower": 150000.0
+                    },
+                    "DamageApplier": {
+                        "TickFunction": {
+                            "bStartWithTickEnabled": true,
+                            "TickInterval": 0.1
+                        }
+                    },
+                    "Health": 1000.0,
+                    "bCanBeDamaged": true
+                }
+            },
+            "EffectType": "Defensive",
+            "InitialDuration": 10.0
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "MinLastDamagedByTime": 2.0,
+                    "MaxDistance": 20000.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_IonShield",
+            "TableNamespace": "Ability_name",
+            "en": "Kinetic Barrier"
+        },
+        "description": {
+            "Key": "ABL_descr_IonShield",
+            "TableNamespace": "Ability_descripton",
+            "en": "Fires a force barrier in the aimed direction. The barrier blocks enemy projectiles and pushes back enemies on contact. It remains active until it takes {FieldHP} damage or until {ActDuration} seconds have passed. Cooldown {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_IonShield"
+    },
     "BP_Module_Orochi_Chassis.1": {
         "id": "BP_Module_Orochi_Chassis.1",
         "misc": {
