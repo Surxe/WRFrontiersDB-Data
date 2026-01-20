@@ -6196,6 +6196,60 @@
         "is_factory_preset": true,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotHitcher.0": {
+        "id": "DA_Preset_DevbotHitcher.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHitcher",
+        "name": {
+            "Key": "CMP_name_Hitcher_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Hitcher"
+        },
+        "modules": {
+            "None": {
+                "id": "DA_Module_ChassisHitcher.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "id": "DA_Module_TorsoHitcher.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "id": "DA_Module_ShoulderHitcher.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "id": "DA_Module_Weapon_Nucleon.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "id": "DA_Module_ShoulderHitcher.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "id": "DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "id": "DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "id": "DA_Module_Weapon_Nucleon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_id": "DA_Pilot_Common43.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotKernel.0": {
         "id": "DA_Preset_DevbotKernel.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKernel",

@@ -5480,6 +5480,193 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Napalm"
     },
+    "BP_Module_Hitcher_Chassis.1": {
+        "id": "BP_Module_Hitcher_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3400.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 7000.0,
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Hitcher_Chassis.2": {
+        "id": "BP_Module_Hitcher_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 1.1,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": [
+                {
+                    "Time": 0.0,
+                    "Value": 140000.0,
+                    "InterpMode": "RCIM_Linear"
+                },
+                {
+                    "Time": 0.1,
+                    "Value": 70000.0,
+                    "InterpMode": "RCIM_Linear"
+                },
+                {
+                    "Time": 1200.0,
+                    "Value": 15000.0,
+                    "InterpMode": "RCIM_Linear"
+                },
+                {
+                    "Time": 3000.0,
+                    "Value": 0.0,
+                    "InterpMode": "RCIM_Linear"
+                },
+                {
+                    "Time": 3000.0,
+                    "Value": 0.0,
+                    "InterpMode": "RCIM_Linear"
+                }
+            ],
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Hitcher_Torso.1": {
+        "id": "BP_Module_Hitcher_Torso.1",
+        "misc": {
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "CollisionComponent": {
+                        "BoxExtent": {
+                            "X": 32.0,
+                            "Y": 512.0,
+                            "Z": 32.0
+                        },
+                        "bGenerateOverlapEvents": false
+                    },
+                    "MovementComponent": {
+                        "bSimplifiedMovementCalculation": false,
+                        "InitialSpeed": 7000.0,
+                        "MaxSpeed": 7000.0
+                    }
+                }
+            },
+            "PrimaryParameter": 1500.0,
+            "SecondaryParameter": 1000.0,
+            "EffectType": "Attacking",
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 7.0,
+            "ActorCDOShapeComponent": {
+                "BoxExtent": {
+                    "X": 32.0,
+                    "Y": 512.0,
+                    "Z": 32.0
+                },
+                "bGenerateOverlapEvents": false
+            }
+        },
+        "name": {
+            "Key": "ABL_name_WingedDrone",
+            "TableNamespace": "Ability_name",
+            "en": "Winged Drone"
+        },
+        "description": {
+            "Key": "ABL_descr_WingedDone",
+            "TableNamespace": "Ability_descripton",
+            "en": "Spawns a drone with flat {ProjLength} long wings that makes {Dmg} damage to all the enemies on its way."
+        },
+        "cooldown": {
+            "Cooldown": 5.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_WingedDrone"
+    },
     "BP_Module_Inquisitor_Chassis.1": {
         "id": "BP_Module_Inquisitor_Chassis.1",
         "misc": {
