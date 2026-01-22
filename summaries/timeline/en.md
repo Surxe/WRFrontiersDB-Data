@@ -70,3 +70,13 @@
 * Pilot Giancarlo
 * Pilot Talent Free acceleration
 * Stormpike
+
+### [December 23, 2025](https://warrobotsfrontiers.com/en/news/296-patch-notes-december-23-2025)
+* Coriolis
+* Norna
+* Pilot Rex Cole
+* Pilot Talent Afterparty
+
+### [January 20, 2026](https://warrobotsfrontiers.com/en/news/300-patch-notes-january-20-2026)
+* Hitcher
+* Slugger

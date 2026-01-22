@@ -89,3 +89,18 @@
 * DA_Module_Weapon_Stormpike.0
 * Pilot DA_Pilot_Rare_Giancarlo.0
 * Pilot Talent DA_Talent_Ult_Giancarlo.0
+
+### [2025-12-23](https://warrobotsfrontiers.com/en/news/296-patch-notes-december-23-2025)
+* DA_Module_ChassisNorna.2
+* DA_Module_ShoulderLNorna.0
+* DA_Module_ShoulderRNorna.0
+* DA_Module_TorsoNorna.0
+* DA_Module_Weapon_Coriolis.0
+* Pilot DA_Pilot_Common70.0
+* Pilot Talent DA_Talent_Ult_Cole.0
+
+### [2026-01-20](https://warrobotsfrontiers.com/en/news/300-patch-notes-january-20-2026)
+* DA_Module_ChassisHitcher.2
+* DA_Module_ShoulderHitcher.0
+* DA_Module_TorsoHitcher.1
+* DA_Module_Weapon_Slugger.0
