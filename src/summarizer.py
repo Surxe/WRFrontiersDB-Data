@@ -176,9 +176,11 @@ class PatchSummarizer:
         """Saves the changed objects as separate files for each parseObjectClass."""
         # deep order the changed objects
         for parse_object_class in self.changed_objects:
+            # Sort the version lists for each object
             for changed_object_id in self.changed_objects[parse_object_class]:
                 self.changed_objects[parse_object_class][changed_object_id] = sorted(self.changed_objects[parse_object_class][changed_object_id])
-            self.changed_objects[parse_object_class] = sorted(self.changed_objects[parse_object_class])
+            # Sort the dictionary by object IDs
+            self.changed_objects[parse_object_class] = dict(sorted(self.changed_objects[parse_object_class].items()))
         
         # Create separate files for each parseObjectClass
         summaries_dir = os.path.dirname(self.changed_objects_file)
