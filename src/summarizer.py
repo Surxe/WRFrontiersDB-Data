@@ -43,6 +43,8 @@ class PatchSummarizer:
             "Pilot": "Objects/Pilot.json",
             "PilotTalent": "Objects/PilotTalent.json",
         }
+        self.changed_objects_file = os.path.join(repo_root, 'summaries', 'changed_objects.json')
+        self.changed_objects = self.read_changed_objects()
     
     def get_version_archive_dir(self, version: str) -> str:
         """Get the directory path for a specific version in the archive."""
@@ -154,6 +156,22 @@ class PatchSummarizer:
                 changed_objects[key] = True
         
         return changed_objects
+
+    def read_changed_objects(self):
+        """Reads the changed objects file and returns it as a dictionary."""
+        if not os.path.exists(self.changed_objects_file):
+            return {}
+        with open(self.changed_objects_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def save_changed_objects(self):
+        """Saves the changed objects file."""
+        # deep order the changed objects
+        for parse_object_class in self.changed_objects:
+            for changed_object_id in self.changed_objects[parse_object_class]:
+                self.changed_objects[parse_object_class][changed_object_id] = sorted(self.changed_objects[parse_object_class][changed_object_id])
+        with open(self.changed_objects_file, 'w', encoding='utf-8') as f:
+            json.dump(self.changed_objects, f, indent=4)
     
     def generate(self, from_version: Optional[str] = None, to_version: Optional[str] = None):
         """Generate patch summary files.
@@ -179,7 +197,16 @@ class PatchSummarizer:
             changed_objects = self.get_changed_parse_objects(parse_object_class, before_content, after_content)
             changed_objects_per_object_type[parse_object_class] = changed_objects
 
-        print(changed_objects_per_object_type)
+        # Add this patch to each changed object in the changed objects file
+        for parse_object_class, changed_objects in changed_objects_per_object_type.items():
+            for changed_object_id in changed_objects:
+                if parse_object_class not in self.changed_objects:
+                    self.changed_objects[parse_object_class] = {}
+                if changed_object_id not in self.changed_objects[parse_object_class]:
+                    self.changed_objects[parse_object_class][changed_object_id] = []
+                # Add the object if not already added
+                if to_version not in self.changed_objects[parse_object_class][changed_object_id]:
+                    self.changed_objects[parse_object_class][changed_object_id].append(to_version)
         
         logger.info(f"Patch summary generation complete for {from_version} to {to_version}.")
 
@@ -215,6 +242,7 @@ def main(from_version: Optional[str] = None, to_version: Optional[str] = None, g
         summarizer.generate_all()
     else:
         summarizer.generate(from_version, to_version)
+    summarizer.save_changed_objects()
 
 if __name__ == "__main__":
     import sys
