@@ -38,13 +38,21 @@ class PatchSummarizer:
         self.archive_dir = os.path.join(repo_root, 'archive')
         self.summaries_dir = os.path.join(repo_root, 'summaries', 'patch')
         self.version_config_file = os.path.join(repo_root, 'versions.json')
-        self.files_to_retrieve = {
-            "Module": "Objects/Module.json",
-            "Pilot": "Objects/Pilot.json",
-            "PilotTalent": "Objects/PilotTalent.json",
-        }
         self.changed_objects_file = os.path.join(repo_root, 'summaries', 'changed_objects.json')
         self.changed_objects = self.read_changed_objects()
+
+    def get_files_to_retrieve(self, archive_version: str) -> dict[str, str]:
+        """Get all parse object files to retrieve, keyed by the file name without extension, representing the ParseObject class."""
+        #{ParseObjectClass: path to file relative to its archive directory}
+        archive_subdir = os.path.join(self.archive_dir, archive_version)
+        objects_dir = os.path.join(archive_subdir, 'Objects')
+        files_to_retrieve = {}
+        for file in os.listdir(objects_dir):
+            if file.endswith('.json'):
+                po_class = file[:-len('.json')]
+                files_to_retrieve[po_class] = f"Objects/{po_class}.json"
+        return files_to_retrieve
+
     
     def get_version_archive_dir(self, version: str) -> str:
         """Get the directory path for a specific version in the archive."""
@@ -188,7 +196,7 @@ class PatchSummarizer:
         
         # Retrieve the summary for each object type for each language
         changed_objects_per_object_type = {}
-        for parse_object_class, file_path in self.files_to_retrieve.items():
+        for parse_object_class, file_path in self.get_files_to_retrieve(to_version).items():
             logger.info(f"Retrieving changes for {parse_object_class} ({file_path})")
             
             before_content = self.get_archive_content(from_version, file_path)
