@@ -1,844 +1,187 @@
-{
-    "DA_Module_Ability_Repulsor.1": [
-        "2025-04-17",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisScorpion.2": [
-        "2025-04-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderScorpion.0": [
-        "2025-04-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoScorpion.1": [
-        "2025-04-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Tusk.0": [
-        "2025-04-17",
-        "2025-04-29",
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_BlockingField.1": [
-        "2025-03-06",
-        "2025-03-20",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_Regeneration.1": [
-        "2025-03-06",
-        "2025-03-13",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_RegenerationFull.1": [
-        "2025-03-06",
-        "2025-03-13",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_SpeedBoost.1": [
-        "2025-03-06",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisPursuer.2": [
-        "2025-03-06",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-08-26"
-    ],
-    "DA_Module_ShoulderCyclops.0": [
-        "2025-03-06",
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12",
-        "2025-11-11"
-    ],
-    "DA_Module_ShoulderRaven.0": [
-        "2025-03-06",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderSiren.0": [
-        "2025-03-06",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Railgun.0": [
-        "2025-03-06",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Trebuchet.0": [
-        "2025-03-06",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Zeus.0": [
-        "2025-03-06",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_TorsoFenrir.1": [
-        "2025-03-20",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Weapon_Hive.0": [
-        "2025-03-20",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Incinerator.0": [
-        "2025-03-20",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Katzbalger.0": [
-        "2025-03-20",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Scatter.0": [
-        "2025-03-20",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Weapon_Shredder.0": [
-        "2025-03-20",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Thunder.0": [
-        "2025-03-20",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Toxin.0": [
-        "2025-03-20",
-        "2025-04-29",
-        "2025-06-17",
-        "2025-06-24",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Vortex.0": [
-        "2025-03-20",
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_GrenadeLauncher.0": [
-        "2025-03-25",
-        "2025-06-24",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Noricum.0": [
-        "2025-03-25",
-        "2025-04-29",
-        "2025-06-17",
-        "2025-06-24",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_TorsoSiren.1": [
-        "2025-04-29",
-        "2025-08-12",
-        "2025-08-26"
-    ],
-    "DA_Module_Ability_MineField.1": [
-        "2025-05-23",
-        "2025-06-03",
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_ArmorShield.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_BlastWave.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_CounterAttack.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_DashBlinkedVisible.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_Dazzle.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_FuelReserve.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_GhostTurret.1": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Ability_Grounded.1": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-08-19",
-        "2025-10-14"
-    ],
-    "DA_Module_Ability_Homing.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-07-31",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_InfiniteAmmo.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_SmokeWall.1": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-11-25"
-    ],
-    "DA_Module_Ability_Spotlight.1": [
-        "2025-06-17",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_Ability_TensionLink.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_Ability_Umbrella.1": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisBulwark.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_ChassisGriffin.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisGrim.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisInquisitor.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisLancelot.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisLoki.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_ChassisMatriarch.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisRavana.2": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisSpire.2": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderBulwark.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderFenrir.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderFury.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderGriffin.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderInquisitor.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderLGrim.0": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-09-23"
-    ],
-    "DA_Module_ShoulderLMatriarch.0": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderLSpire.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderLancelot.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderLoki.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderRGrim.0": [
-        "2025-06-17",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderRMatriarch.0": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderRSpire.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderRavana.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoBulwark.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoCyclops.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoFury.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_TorsoGriffin.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoGrim.0": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoInquisitor.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoLancelot.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoLoki.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoMatriarch.0": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09",
-        "2025-10-14"
-    ],
-    "DA_Module_TorsoRavana.1": [
-        "2025-06-17",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoSpire.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Cascade.0": [
-        "2025-06-17",
-        "2025-06-24",
-        "2025-07-01",
-        "2025-07-15",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Weapon_Dragoon.0": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Weapon_Fowler.0": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-11-25"
-    ],
-    "DA_Module_Weapon_Glory.0": [
-        "2025-06-17",
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Pulsar.0": [
-        "2025-06-17",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Twinflare.0": [
-        "2025-06-17",
-        "2025-06-24",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Gozer.0": [
-        "2025-06-24",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Orkan.0": [
-        "2025-06-24",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_StickyGun.0": [
-        "2025-06-24",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Trident.0": [
-        "2025-06-24",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Alpha.0": [
-        "2025-07-01"
-    ],
-    "DA_Module_Weapon_Jigsaw.0": [
-        "2025-07-01",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisDemeter.2": [
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderAres.0": [
-        "2025-07-15",
-        "2025-08-12",
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderBulgasari.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderDemeter.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderHarpy.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderOrochi.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderPhantom.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderPursuer.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderTyphon.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderTyr.0": [
-        "2025-07-15",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderVityaz01.0": [
-        "2025-07-15",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderVityaz02.0": [
-        "2025-07-15",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoDemeter.1": [
-        "2025-07-15",
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Bayonet.0": [
-        "2025-07-15",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Bisector.0": [
-        "2025-07-15",
-        "2025-07-21",
-        "2025-08-12",
-        "2025-11-25"
-    ],
-    "DA_Module_Weapon_Shocktrain.0": [
-        "2025-07-15",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_Ability_AmmoGenerator.1": [
-        "2025-07-29",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_ChassisAlpha.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisAres.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisBulgasari.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisCyclops.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisFenrir.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisFury.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisHarpy.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisMesa.2": [
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_ChassisOrochi.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisPhantom.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisRaven.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisSiren.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisTyphon.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisTyr.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ChassisVityaz.2": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_ShoulderLAlpha.0": [
-        "2025-07-29",
-        "2025-08-12",
-        "2025-10-14"
-    ],
-    "DA_Module_ShoulderMesa.0": [
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderRAlpha.0": [
-        "2025-07-29",
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_TorsoAlpha.0": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoAres.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoBulgasari.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoHarpy.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoMesa.1": [
-        "2025-07-29",
-        "2025-08-12",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoOrochi.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoPhantom.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoPursuer.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoRaven.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoTyr.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoVityaz.1": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Locust.0": [
-        "2025-07-29",
-        "2025-08-12",
-        "2025-08-26"
-    ],
-    "DA_Module_Ability_Atrophy.1": [
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_ChassisAnansi.2": [
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_ShoulderAnansi.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_TorsoAnansi.1": [
-        "2025-08-12",
-        "2025-09-09"
-    ],
-    "DA_Module_TorsoTyphon.1": [
-        "2025-08-12",
-        "2025-08-26"
-    ],
-    "DA_Module_Weapon_Buckshot.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Callisto.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_MLx2.0": [
-        "2025-08-12",
-        "2025-10-14",
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Punisher.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Scourge.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Scrubber.0": [
-        "2025-08-12"
-    ],
-    "DA_Module_Weapon_Nucleon.0": [
-        "2025-08-26"
-    ],
-    "DA_Module_Ability_IronVeil.1": [
-        "2025-09-09",
-        "2025-10-14"
-    ],
-    "DA_Module_ChassisSpire_3dVar01.2": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ChassisSpire_3dVar02.2": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ChassisSpire_3dVar03.2": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderLSpire_3dVar01.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderLSpire_3dVar02.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderLSpire_3dVar03.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderRSpire_3dVar01.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderRSpire_3dVar02.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoSpire_3dVar01.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoSpire_3dVar02.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoSpire_3dVar03.0": [
-        "2025-09-09",
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Gimcoil.0": [
-        "2025-09-09",
-        "2025-10-14"
-    ],
-    "DA_Module_ChassisKumo.2": [
-        "2025-09-23",
-        "2025-10-14"
-    ],
-    "DA_Module_ShoulderKumo.0": [
-        "2025-09-23"
-    ],
-    "DA_Module_TorsoKumo.1": [
-        "2025-09-23"
-    ],
-    "DA_Module_Weapon_Horde.0": [
-        "2025-09-23"
-    ],
-    "DA_Module_Ability_KineticPulse.1": [
-        "2025-10-14"
-    ],
-    "DA_Module_Weapon_Zenit.0": [
-        "2025-10-14",
-        "2025-11-25"
-    ],
-    "DA_Module_Ability_SupplySurge.1": [
-        "2025-10-28"
-    ],
-    "DA_Module_ChassisKernel.2": [
-        "2025-10-28"
-    ],
-    "DA_Module_ShoulderKernel.0": [
-        "2025-10-28",
-        "2025-11-11"
-    ],
-    "DA_Module_TorsoKernel.1": [
-        "2025-10-28"
-    ],
-    "DA_Module_Weapon_Hefty.0": [
-        "2025-10-28"
-    ],
-    "DA_Module_ChassisNipper.2": [
-        "2025-11-11"
-    ],
-    "DA_Module_ShoulderNipper.0": [
-        "2025-11-11"
-    ],
-    "DA_Module_TorsoNipper.1": [
-        "2025-11-11",
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Stormpike.0": [
-        "2025-11-11",
-        "2026-01-20"
-    ],
-    "DA_Module_ChassisNorna.2": [
-        "2025-12-23"
-    ],
-    "DA_Module_ShoulderLNorna.0": [
-        "2025-12-23"
-    ],
-    "DA_Module_ShoulderRNorna.0": [
-        "2025-12-23"
-    ],
-    "DA_Module_TorsoNorna.0": [
-        "2025-12-23",
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Coriolis.0": [
-        "2025-12-23"
-    ],
-    "DA_Module_ChassisHitcher.2": [
-        "2026-01-20"
-    ],
-    "DA_Module_ShoulderHitcher.0": [
-        "2026-01-20"
-    ],
-    "DA_Module_TorsoHitcher.1": [
-        "2026-01-20"
-    ],
-    "DA_Module_Weapon_Slugger.0": [
-        "2026-01-20"
-    ]
-}
+[
+    "DA_Module_Ability_AmmoGenerator.1",
+    "DA_Module_Ability_ArmorShield.1",
+    "DA_Module_Ability_Atrophy.1",
+    "DA_Module_Ability_BlastWave.1",
+    "DA_Module_Ability_BlockingField.1",
+    "DA_Module_Ability_CounterAttack.1",
+    "DA_Module_Ability_DashBlinkedVisible.1",
+    "DA_Module_Ability_Dazzle.1",
+    "DA_Module_Ability_FuelReserve.1",
+    "DA_Module_Ability_GhostTurret.1",
+    "DA_Module_Ability_Grounded.1",
+    "DA_Module_Ability_Homing.1",
+    "DA_Module_Ability_InfiniteAmmo.1",
+    "DA_Module_Ability_IronVeil.1",
+    "DA_Module_Ability_KineticPulse.1",
+    "DA_Module_Ability_MineField.1",
+    "DA_Module_Ability_Regeneration.1",
+    "DA_Module_Ability_RegenerationFull.1",
+    "DA_Module_Ability_Repulsor.1",
+    "DA_Module_Ability_SmokeWall.1",
+    "DA_Module_Ability_SpeedBoost.1",
+    "DA_Module_Ability_Spotlight.1",
+    "DA_Module_Ability_SupplySurge.1",
+    "DA_Module_Ability_TensionLink.1",
+    "DA_Module_Ability_Umbrella.1",
+    "DA_Module_ChassisAlpha.1",
+    "DA_Module_ChassisAnansi.2",
+    "DA_Module_ChassisAres.2",
+    "DA_Module_ChassisBulgasari.2",
+    "DA_Module_ChassisBulwark.2",
+    "DA_Module_ChassisCyclops.2",
+    "DA_Module_ChassisDemeter.2",
+    "DA_Module_ChassisFenrir.2",
+    "DA_Module_ChassisFury.2",
+    "DA_Module_ChassisGriffin.2",
+    "DA_Module_ChassisGrim.1",
+    "DA_Module_ChassisHarpy.2",
+    "DA_Module_ChassisHitcher.2",
+    "DA_Module_ChassisInquisitor.2",
+    "DA_Module_ChassisKernel.2",
+    "DA_Module_ChassisKumo.2",
+    "DA_Module_ChassisLancelot.2",
+    "DA_Module_ChassisLoki.2",
+    "DA_Module_ChassisMatriarch.1",
+    "DA_Module_ChassisMesa.2",
+    "DA_Module_ChassisNipper.2",
+    "DA_Module_ChassisNorna.2",
+    "DA_Module_ChassisOrochi.2",
+    "DA_Module_ChassisPhantom.2",
+    "DA_Module_ChassisPursuer.2",
+    "DA_Module_ChassisRavana.2",
+    "DA_Module_ChassisRaven.2",
+    "DA_Module_ChassisScorpion.2",
+    "DA_Module_ChassisSiren.2",
+    "DA_Module_ChassisSpire.2",
+    "DA_Module_ChassisSpire_3dVar01.2",
+    "DA_Module_ChassisSpire_3dVar02.2",
+    "DA_Module_ChassisSpire_3dVar03.2",
+    "DA_Module_ChassisTyphon.2",
+    "DA_Module_ChassisTyr.2",
+    "DA_Module_ChassisVityaz.2",
+    "DA_Module_ShoulderAnansi.0",
+    "DA_Module_ShoulderAres.0",
+    "DA_Module_ShoulderBulgasari.0",
+    "DA_Module_ShoulderBulwark.0",
+    "DA_Module_ShoulderCyclops.0",
+    "DA_Module_ShoulderDemeter.0",
+    "DA_Module_ShoulderFenrir.0",
+    "DA_Module_ShoulderFury.0",
+    "DA_Module_ShoulderGriffin.0",
+    "DA_Module_ShoulderHarpy.0",
+    "DA_Module_ShoulderHitcher.0",
+    "DA_Module_ShoulderInquisitor.0",
+    "DA_Module_ShoulderKernel.0",
+    "DA_Module_ShoulderKumo.0",
+    "DA_Module_ShoulderLAlpha.0",
+    "DA_Module_ShoulderLGrim.0",
+    "DA_Module_ShoulderLMatriarch.0",
+    "DA_Module_ShoulderLNorna.0",
+    "DA_Module_ShoulderLSpire.0",
+    "DA_Module_ShoulderLSpire_3dVar01.0",
+    "DA_Module_ShoulderLSpire_3dVar02.0",
+    "DA_Module_ShoulderLSpire_3dVar03.0",
+    "DA_Module_ShoulderLancelot.0",
+    "DA_Module_ShoulderLoki.0",
+    "DA_Module_ShoulderMesa.0",
+    "DA_Module_ShoulderNipper.0",
+    "DA_Module_ShoulderOrochi.0",
+    "DA_Module_ShoulderPhantom.0",
+    "DA_Module_ShoulderPursuer.0",
+    "DA_Module_ShoulderRAlpha.0",
+    "DA_Module_ShoulderRGrim.0",
+    "DA_Module_ShoulderRMatriarch.0",
+    "DA_Module_ShoulderRNorna.0",
+    "DA_Module_ShoulderRSpire.0",
+    "DA_Module_ShoulderRSpire_3dVar01.0",
+    "DA_Module_ShoulderRSpire_3dVar02.0",
+    "DA_Module_ShoulderRavana.0",
+    "DA_Module_ShoulderRaven.0",
+    "DA_Module_ShoulderScorpion.0",
+    "DA_Module_ShoulderSiren.0",
+    "DA_Module_ShoulderTyphon.0",
+    "DA_Module_ShoulderTyr.0",
+    "DA_Module_ShoulderVityaz01.0",
+    "DA_Module_ShoulderVityaz02.0",
+    "DA_Module_TorsoAlpha.0",
+    "DA_Module_TorsoAnansi.1",
+    "DA_Module_TorsoAres.1",
+    "DA_Module_TorsoBulgasari.1",
+    "DA_Module_TorsoBulwark.1",
+    "DA_Module_TorsoCyclops.1",
+    "DA_Module_TorsoDemeter.1",
+    "DA_Module_TorsoFenrir.1",
+    "DA_Module_TorsoFury.1",
+    "DA_Module_TorsoGriffin.1",
+    "DA_Module_TorsoGrim.0",
+    "DA_Module_TorsoHarpy.1",
+    "DA_Module_TorsoHitcher.1",
+    "DA_Module_TorsoInquisitor.1",
+    "DA_Module_TorsoKernel.1",
+    "DA_Module_TorsoKumo.1",
+    "DA_Module_TorsoLancelot.1",
+    "DA_Module_TorsoLoki.1",
+    "DA_Module_TorsoMatriarch.0",
+    "DA_Module_TorsoMesa.1",
+    "DA_Module_TorsoNipper.1",
+    "DA_Module_TorsoNorna.0",
+    "DA_Module_TorsoOrochi.1",
+    "DA_Module_TorsoPhantom.1",
+    "DA_Module_TorsoPursuer.1",
+    "DA_Module_TorsoRavana.1",
+    "DA_Module_TorsoRaven.1",
+    "DA_Module_TorsoScorpion.1",
+    "DA_Module_TorsoSiren.1",
+    "DA_Module_TorsoSpire.0",
+    "DA_Module_TorsoSpire_3dVar01.0",
+    "DA_Module_TorsoSpire_3dVar02.0",
+    "DA_Module_TorsoSpire_3dVar03.0",
+    "DA_Module_TorsoTyphon.1",
+    "DA_Module_TorsoTyr.1",
+    "DA_Module_TorsoVityaz.1",
+    "DA_Module_Weapon_Alpha.0",
+    "DA_Module_Weapon_Bayonet.0",
+    "DA_Module_Weapon_Bisector.0",
+    "DA_Module_Weapon_Buckshot.0",
+    "DA_Module_Weapon_Callisto.0",
+    "DA_Module_Weapon_Cascade.0",
+    "DA_Module_Weapon_Coriolis.0",
+    "DA_Module_Weapon_Dragoon.0",
+    "DA_Module_Weapon_Fowler.0",
+    "DA_Module_Weapon_Gimcoil.0",
+    "DA_Module_Weapon_Glory.0",
+    "DA_Module_Weapon_Gozer.0",
+    "DA_Module_Weapon_GrenadeLauncher.0",
+    "DA_Module_Weapon_Hefty.0",
+    "DA_Module_Weapon_Hive.0",
+    "DA_Module_Weapon_Horde.0",
+    "DA_Module_Weapon_Incinerator.0",
+    "DA_Module_Weapon_Jigsaw.0",
+    "DA_Module_Weapon_Katzbalger.0",
+    "DA_Module_Weapon_Locust.0",
+    "DA_Module_Weapon_MLx2.0",
+    "DA_Module_Weapon_Noricum.0",
+    "DA_Module_Weapon_Nucleon.0",
+    "DA_Module_Weapon_Orkan.0",
+    "DA_Module_Weapon_Pulsar.0",
+    "DA_Module_Weapon_Punisher.0",
+    "DA_Module_Weapon_Railgun.0",
+    "DA_Module_Weapon_Scatter.0",
+    "DA_Module_Weapon_Scourge.0",
+    "DA_Module_Weapon_Scrubber.0",
+    "DA_Module_Weapon_Shocktrain.0",
+    "DA_Module_Weapon_Shredder.0",
+    "DA_Module_Weapon_Slugger.0",
+    "DA_Module_Weapon_StickyGun.0",
+    "DA_Module_Weapon_Stormpike.0",
+    "DA_Module_Weapon_Thunder.0",
+    "DA_Module_Weapon_Toxin.0",
+    "DA_Module_Weapon_Trebuchet.0",
+    "DA_Module_Weapon_Trident.0",
+    "DA_Module_Weapon_Tusk.0",
+    "DA_Module_Weapon_Twinflare.0",
+    "DA_Module_Weapon_Vortex.0",
+    "DA_Module_Weapon_Zenit.0",
+    "DA_Module_Weapon_Zeus.0"
+]

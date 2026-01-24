@@ -178,6 +178,7 @@ class PatchSummarizer:
         for parse_object_class in self.changed_objects:
             for changed_object_id in self.changed_objects[parse_object_class]:
                 self.changed_objects[parse_object_class][changed_object_id] = sorted(self.changed_objects[parse_object_class][changed_object_id])
+            self.changed_objects[parse_object_class] = sorted(self.changed_objects[parse_object_class])
         
         # Create separate files for each parseObjectClass
         summaries_dir = os.path.dirname(self.changed_objects_file)

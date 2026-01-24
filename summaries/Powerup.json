@@ -1,46 +1,13 @@
-{
-    "BP_PowerUp_AddAbility": [
-        "2025-07-15",
-        "2025-07-29"
-    ],
-    "BP_PowerUp_DoubleDamage": [
-        "2025-07-15",
-        "2025-07-29"
-    ],
-    "BP_PowerUp_RechargeAbilities": [
-        "2025-07-15",
-        "2025-07-29"
-    ],
-    "BP_PowerUp_TeamBuffs": [
-        "2025-07-29"
-    ],
-    "BP_PowerUp_TeamDamageResist": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "BP_PowerUp_TeamRegenArmor": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "BP_PowerUp_TeamRegenFuel": [
-        "2025-07-29",
-        "2025-08-12",
-        "2025-12-23"
-    ],
-    "BP_PowerUp_TeamShield": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "BP_PowerUp_TeamSpeedBoost": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "BP_PowerUp_TeamUltimateCharge": [
-        "2025-07-29",
-        "2025-08-12"
-    ],
-    "BP_PowerUp_GameModeScore": [
-        "2025-08-26",
-        "2025-09-09"
-    ]
-}
+[
+    "BP_PowerUp_AddAbility",
+    "BP_PowerUp_DoubleDamage",
+    "BP_PowerUp_GameModeScore",
+    "BP_PowerUp_RechargeAbilities",
+    "BP_PowerUp_TeamBuffs",
+    "BP_PowerUp_TeamDamageResist",
+    "BP_PowerUp_TeamRegenArmor",
+    "BP_PowerUp_TeamRegenFuel",
+    "BP_PowerUp_TeamShield",
+    "BP_PowerUp_TeamSpeedBoost",
+    "BP_PowerUp_TeamUltimateCharge"
+]
