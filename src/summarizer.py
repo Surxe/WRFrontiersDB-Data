@@ -173,13 +173,19 @@ class PatchSummarizer:
             return json.load(f)
 
     def save_changed_objects(self):
-        """Saves the changed objects file."""
+        """Saves the changed objects as separate files for each parseObjectClass."""
         # deep order the changed objects
         for parse_object_class in self.changed_objects:
             for changed_object_id in self.changed_objects[parse_object_class]:
                 self.changed_objects[parse_object_class][changed_object_id] = sorted(self.changed_objects[parse_object_class][changed_object_id])
-        with open(self.changed_objects_file, 'w', encoding='utf-8') as f:
-            json.dump(self.changed_objects, f, indent=4)
+        
+        # Create separate files for each parseObjectClass
+        summaries_dir = os.path.dirname(self.changed_objects_file)
+        for parse_object_class, objects_data in self.changed_objects.items():
+            output_file = os.path.join(summaries_dir, f"{parse_object_class}.json")
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(objects_data, f, indent=4)
+            logger.info(f"Saved {len(objects_data)} {parse_object_class} objects to {output_file}")
     
     def generate(self, from_version: Optional[str] = None, to_version: Optional[str] = None):
         """Generate patch summary files.
