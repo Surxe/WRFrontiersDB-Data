@@ -1,2 +1,0 @@
-* Added Hitcher
-* Added Slugger
