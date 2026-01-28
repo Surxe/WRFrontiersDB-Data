@@ -1,0 +1,1468 @@
+{
+    "DA_ModuleStat_AbilityParamBoost.0": {
+        "id": "DA_ModuleStat_AbilityParamBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_AbilityParamBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Gear Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "AbilParamBoost"
+    },
+    "DA_ModuleStat_AbilityPower.0": {
+        "id": "DA_ModuleStat_AbilityPower.0",
+        "stat_name": {
+            "Key": "ModuleStat_AbilityPower",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Gear Power Level"
+        },
+        "short_key": "AbilPower"
+    },
+    "DA_ModuleStat_Acceleration.0": {
+        "id": "DA_ModuleStat_Acceleration.0",
+        "stat_name": {
+            "Key": "ModuleStat_Acceleration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Acceleration"
+        },
+        "short_key": "Accel"
+    },
+    "DA_ModuleStat_ActiveCount.0": {
+        "id": "DA_ModuleStat_ActiveCount.0",
+        "stat_name": {
+            "Key": "ModuleStat_ActiveDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ActCount"
+    },
+    "DA_ModuleStat_ActiveDuration.0": {
+        "id": "DA_ModuleStat_ActiveDuration.0",
+        "stat_name": {
+            "Key": "ModuleStat_ActiveDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ActDuration"
+    },
+    "DA_ModuleStat_ActiveEfficiency.0": {
+        "id": "DA_ModuleStat_ActiveEfficiency.0",
+        "stat_name": {
+            "Key": "ModuleStat_Efficency",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Efficiency"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ActEfficiency"
+    },
+    "DA_ModuleStat_ActiveRadius.0": {
+        "id": "DA_ModuleStat_ActiveRadius.0",
+        "stat_name": {
+            "Key": "ModuleStat_ActiveRadius",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Effect Radius"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "ActRadius"
+    },
+    "DA_ModuleStat_Ammo.0": {
+        "id": "DA_ModuleStat_Ammo.0",
+        "stat_name": {
+            "Key": "ModuleStat_Ammo",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Ammo"
+        },
+        "short_key": "Ammo"
+    },
+    "DA_ModuleStat_AmmoPercentage.0": {
+        "id": "DA_ModuleStat_AmmoPercentage.0",
+        "stat_name": {
+            "Key": "ModuleStat_AmmoPercent",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Ammo Percentage"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "AmmoPerc"
+    },
+    "DA_ModuleStat_Armor.0": {
+        "id": "DA_ModuleStat_Armor.0",
+        "stat_name": {
+            "Key": "ModuleStat_Structure",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor"
+        },
+        "short_key": "Armor",
+        "max_stat_value_ui": 1009600.0,
+        "max_stat_titan_value_ui": 1178100.0
+    },
+    "DA_ModuleStat_ArmorBoost.0": {
+        "id": "DA_ModuleStat_ArmorBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ArmorBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ArmorBoost"
+    },
+    "DA_ModuleStat_ArmorDPS.0": {
+        "id": "DA_ModuleStat_ArmorDPS.0",
+        "stat_name": {
+            "Key": "ModuleStat_ArmorDPS",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor DPS"
+        },
+        "short_key": "ArmorDPS",
+        "max_stat_value_ui": 30905.0,
+        "max_stat_titan_value_ui": 52202.0
+    },
+    "DA_ModuleStat_ArmorDamage.0": {
+        "id": "DA_ModuleStat_ArmorDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_StructureDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor Damage"
+        },
+        "short_key": "ArmorDmg",
+        "max_stat_value_ui": 30000.0
+    },
+    "DA_ModuleStat_Atk.0": {
+        "id": "DA_ModuleStat_Atk.0",
+        "stat_name": {
+            "Key": "ModuleStat_ATK",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ATK"
+        },
+        "short_key": "Atk"
+    },
+    "DA_ModuleStat_BeaconTime.0": {
+        "id": "DA_ModuleStat_BeaconTime.0",
+        "stat_name": {
+            "Key": "ModuleStat_BeaconTime",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Warp Lifetime"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "BeaconTime"
+    },
+    "DA_ModuleStat_BlinkSpeed.0": {
+        "id": "DA_ModuleStat_BlinkSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_BlinkSpeed",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Teleport Speed"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "BlinkSpeed",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_BurningAOEDamage.0": {
+        "id": "DA_ModuleStat_BurningAOEDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_BurningDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fire Damage"
+        },
+        "unit_scaler": 6.0,
+        "short_key": "BurningAoE"
+    },
+    "DA_ModuleStat_BurningDamage.0": {
+        "id": "DA_ModuleStat_BurningDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_BurningDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fire Damage"
+        },
+        "short_key": "Burning"
+    },
+    "DA_ModuleStat_CastDuration.0": {
+        "id": "DA_ModuleStat_CastDuration.0",
+        "stat_name": {
+            "Key": "ModuleStat_CastDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cast Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "CastDuration",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_CastSpeed.0": {
+        "id": "DA_ModuleStat_CastSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_CastDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cast Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "CastDuration",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_Chance.0": {
+        "id": "DA_ModuleStat_Chance.0",
+        "stat_name": {
+            "Key": "ModuleStat_Chance",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Chance"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "Chance"
+    },
+    "DA_ModuleStat_ChargeDrain.0": {
+        "id": "DA_ModuleStat_ChargeDrain.0",
+        "stat_name": {
+            "Key": "ModuleStat_ChargeDrain",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Gear Recharge"
+        },
+        "more_is_better": false,
+        "short_key": "ChargeDrain"
+    },
+    "DA_ModuleStat_ClipSize.0": {
+        "id": "DA_ModuleStat_ClipSize.0",
+        "stat_name": {
+            "Key": "ModuleStat_ClipSize",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Clip size"
+        },
+        "short_key": "ClipSize"
+    },
+    "DA_ModuleStat_Consumables.0": {
+        "id": "DA_ModuleStat_Consumables.0",
+        "stat_name": {
+            "Key": "ModuleStat_Consumables",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Uses"
+        },
+        "short_key": "Consum"
+    },
+    "DA_ModuleStat_Cooldown.0": {
+        "id": "DA_ModuleStat_Cooldown.0",
+        "stat_name": {
+            "Key": "ModuleStat_Cooldown",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cooldown"
+        },
+        "more_is_better": false,
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "CD"
+    },
+    "DA_ModuleStat_CooldownReduction.0": {
+        "id": "DA_ModuleStat_CooldownReduction.0",
+        "stat_name": {
+            "Key": "ModuleStat_CooldownReduction",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cooldown Reduction"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "CDReduct"
+    },
+    "DA_ModuleStat_Damage.0": {
+        "id": "DA_ModuleStat_Damage.0",
+        "stat_name": {
+            "Key": "ModuleStat_PureDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Damage"
+        },
+        "short_key": "Dmg"
+    },
+    "DA_ModuleStat_DamageBoost.0": {
+        "id": "DA_ModuleStat_DamageBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_DamageBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Damage Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "DmgBoost"
+    },
+    "DA_ModuleStat_DamageResist.0": {
+        "id": "DA_ModuleStat_DamageResist.0",
+        "stat_name": {
+            "Key": "ModuleStat_DamageResist",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Damage resist"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "DmgResist"
+    },
+    "DA_ModuleStat_DamageReturn.0": {
+        "id": "DA_ModuleStat_DamageReturn.0",
+        "stat_name": {
+            "Key": "ModuleStat_DamageReturn",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Damage Counter"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "DmgReturn"
+    },
+    "DA_ModuleStat_Def.0": {
+        "id": "DA_ModuleStat_Def.0",
+        "stat_name": {
+            "Key": "ModuleStat_DEF",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "DEF"
+        },
+        "short_key": "Def"
+    },
+    "DA_ModuleStat_Distance.0": {
+        "id": "DA_ModuleStat_Distance.0",
+        "stat_name": {
+            "Key": "ModuleStat_Distance",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Range"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "Dist"
+    },
+    "DA_ModuleStat_DomeHP.0": {
+        "id": "DA_ModuleStat_DomeHP.0",
+        "stat_name": {
+            "Key": "ModuleStat_DomeHP",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Durability"
+        },
+        "short_key": "DomeHP"
+    },
+    "DA_ModuleStat_DomeRadius.0": {
+        "id": "DA_ModuleStat_DomeRadius.0",
+        "stat_name": {
+            "Key": "ModuleStat_DomeRadius",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Radius"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "DomeRad"
+    },
+    "DA_ModuleStat_Duration.0": {
+        "id": "DA_ModuleStat_Duration.0",
+        "stat_name": {
+            "Key": "ModuleStat_Duration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "Duration",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_DurationBoost.0": {
+        "id": "DA_ModuleStat_DurationBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_DurationBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "DurBoost"
+    },
+    "DA_ModuleStat_EffectiveDistance.0": {
+        "id": "DA_ModuleStat_EffectiveDistance.0",
+        "stat_name": {
+            "Key": "ModuleStat_EffectiveDistance",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Effective Range"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "EffDist",
+        "max_stat_value_ui": 120000.0,
+        "max_stat_titan_value_ui": 50000.0
+    },
+    "DA_ModuleStat_Efficiency.0": {
+        "id": "DA_ModuleStat_Efficiency.0",
+        "stat_name": {
+            "Key": "ModuleStat_Efficency",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Efficiency"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "Eff"
+    },
+    "DA_ModuleStat_EnergyCapacity.0": {
+        "id": "DA_ModuleStat_EnergyCapacity.0",
+        "stat_name": {
+            "Key": "ModuleStat_EnergyCapacity",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Energy Supply"
+        },
+        "short_key": "EnergyCap"
+    },
+    "DA_ModuleStat_EnergyDrain.0": {
+        "id": "DA_ModuleStat_EnergyDrain.0",
+        "stat_name": {
+            "Key": "ModuleStat_EnergyDrain",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Energy used"
+        },
+        "more_is_better": false,
+        "short_key": "EnergyDrain"
+    },
+    "DA_ModuleStat_FadeSpeed.0": {
+        "id": "DA_ModuleStat_FadeSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_TransitionSpeed",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Transition Speed"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "FadeSpeed",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_Feedback.0": {
+        "id": "DA_ModuleStat_Feedback.0",
+        "stat_name": {
+            "Key": "ModuleStat_Feedback",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Reflected Damage"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "Feedback"
+    },
+    "DA_ModuleStat_FieldHP.0": {
+        "id": "DA_ModuleStat_FieldHP.0",
+        "stat_name": {
+            "Key": "ModuleStat_FieldHP",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Field Durability"
+        },
+        "short_key": "FieldHP"
+    },
+    "DA_ModuleStat_FirePower.0": {
+        "id": "DA_ModuleStat_FirePower.0",
+        "stat_name": {
+            "Key": "ModuleStat_FirePower",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Weapon Power"
+        },
+        "short_key": "FirePow"
+    },
+    "DA_ModuleStat_FireRate.0": {
+        "id": "DA_ModuleStat_FireRate.0",
+        "stat_name": {
+            "Key": "ModuleStat_FireRate",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Rate of Fire"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_RoundsPerMinute",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "r/min"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "FireRate"
+    },
+    "DA_ModuleStat_FireRateBoost.0": {
+        "id": "DA_ModuleStat_FireRateBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_FireRateBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Rate of Fire Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "FireRateBoost"
+    },
+    "DA_ModuleStat_Force.0": {
+        "id": "DA_ModuleStat_Force.0",
+        "stat_name": {
+            "Key": "ModuleStat_Force",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Knockback force"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_M_S",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m/s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.0001,
+        "short_key": "Force",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_FreezeDuration.0": {
+        "id": "DA_ModuleStat_FreezeDuration.0",
+        "stat_name": {
+            "Key": "ModuleStat_FreezeDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Freeze Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "FreezeDur"
+    },
+    "DA_ModuleStat_FuelCapacity.0": {
+        "id": "DA_ModuleStat_FuelCapacity.0",
+        "stat_name": {
+            "Key": "ModuleStat_FuelCapacity",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fuel Capacity"
+        },
+        "short_key": "FuelCap"
+    },
+    "DA_ModuleStat_FuelMax.0": {
+        "id": "DA_ModuleStat_FuelMax.0",
+        "stat_name": {
+            "Key": "ModuleStat_FuelMax",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Overfill"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Fuel",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "fuel units"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "FuelMax",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_FuelRegen.0": {
+        "id": "DA_ModuleStat_FuelRegen.0",
+        "stat_name": {
+            "Key": "ModuleStat_FuelRegen",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fuel Regeneration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Fuel",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "fuel units"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "FuelReg",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_FuelRegenBoost.0": {
+        "id": "DA_ModuleStat_FuelRegenBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_FuelRegenBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fuel Regeneration Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "FuelRegBoost"
+    },
+    "DA_ModuleStat_HealthCap.0": {
+        "id": "DA_ModuleStat_HealthCap.0",
+        "stat_name": {
+            "Key": "ModuleStat_Health",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "HP"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "HP_Cap"
+    },
+    "DA_ModuleStat_HealthCostRatio.0": {
+        "id": "DA_ModuleStat_HealthCostRatio.0",
+        "stat_name": {
+            "Key": "ModuleStat_HealthCostRatio",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Integrity Remaining"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_baseline": 1.0,
+        "unit_scaler": -100.0,
+        "short_key": "HPCostRat"
+    },
+    "DA_ModuleStat_HealthLimit.0": {
+        "id": "DA_ModuleStat_HealthLimit.0",
+        "stat_name": {
+            "Key": "ModuleStat_HealthLimit",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor Limit"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "HPLim"
+    },
+    "DA_ModuleStat_HullDamage.0": {
+        "id": "DA_ModuleStat_HullDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Damage"
+        },
+        "short_key": "HullDmg",
+        "max_stat_value_ui": 30000.0
+    },
+    "DA_ModuleStat_HullShare.0": {
+        "id": "DA_ModuleStat_HullShare.0",
+        "stat_name": {
+            "Key": "ModuleStat_Shield",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield"
+        },
+        "short_key": "HullShare"
+    },
+    "DA_ModuleStat_JamDuration.0": {
+        "id": "DA_ModuleStat_JamDuration.0",
+        "stat_name": {
+            "Key": "ModuleStat_JamDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Jam Duration"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "JamDur"
+    },
+    "DA_ModuleStat_JamReloadSlowdown.0": {
+        "id": "DA_ModuleStat_JamReloadSlowdown.0",
+        "stat_name": {
+            "Key": "ModuleStat_JamReloadSlowdown",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Reload Delay"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "JamRelSlow"
+    },
+    "DA_ModuleStat_LegsArmor.0": {
+        "id": "DA_ModuleStat_LegsArmor.0",
+        "stat_name": {
+            "Key": "ModuleStat_LegsStructure",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Leg Armor"
+        },
+        "unit_scaler": 2.0,
+        "short_key": "LegsArmor"
+    },
+    "DA_ModuleStat_MaxDistance.0": {
+        "id": "DA_ModuleStat_MaxDistance.0",
+        "stat_name": {
+            "Key": "ModuleStat_MaxDistance",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Max Range"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "MaxDist"
+    },
+    "DA_ModuleStat_MaxSpeed.0": {
+        "id": "DA_ModuleStat_MaxSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_MaxSpeed",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Max Speed"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_KM_H",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "km/h"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.036,
+        "short_key": "MaxSpeed",
+        "max_stat_value_ui": 3472.0,
+        "max_stat_titan_value_ui": 3278.0
+    },
+    "DA_ModuleStat_Mob.0": {
+        "id": "DA_ModuleStat_Mob.0",
+        "stat_name": {
+            "Key": "ModuleStat_MOB",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "SPD"
+        },
+        "short_key": "Mob"
+    },
+    "DA_ModuleStat_PelvisArmor.0": {
+        "id": "DA_ModuleStat_PelvisArmor.0",
+        "stat_name": {
+            "Key": "ModuleStat_PelvisStructure",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Pelvic Armor"
+        },
+        "short_key": "PelvisArmor"
+    },
+    "DA_ModuleStat_ProjLength.0": {
+        "id": "DA_ModuleStat_ProjLength.0",
+        "stat_name": {
+            "Key": "ModuleStat_ProjLength",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Projectile Length"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ProjLength"
+    },
+    "DA_ModuleStat_Range.0": {
+        "id": "DA_ModuleStat_Range.0",
+        "stat_name": {
+            "Key": "ModuleStat_Range",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Range"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "Range"
+    },
+    "DA_ModuleStat_RegenFuel.0": {
+        "id": "DA_ModuleStat_RegenFuel.0",
+        "stat_name": {
+            "Key": "ModuleStat_RegenFuel",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Refill Speed"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Fuel",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "fuel units"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "RegenFuel",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_RegenSpeed.0": {
+        "id": "DA_ModuleStat_RegenSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_RegenSpeed",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Rechage Speed"
+        },
+        "short_key": "RegenSpeed",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_ReloadBoost.0": {
+        "id": "DA_ModuleStat_ReloadBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ReloadBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Reload Speed Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ReloadBoost"
+    },
+    "DA_ModuleStat_ReloadSpeedBoost.0": {
+        "id": "DA_ModuleStat_ReloadSpeedBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ReloadSpeedBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Reload Buff"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "RldSpeedBoost"
+    },
+    "DA_ModuleStat_ReloadingTime.0": {
+        "id": "DA_ModuleStat_ReloadingTime.0",
+        "stat_name": {
+            "Key": "ModuleStat_ReloadingTime",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Time to Reload"
+        },
+        "more_is_better": false,
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ReloadTime",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_RocketDamage.0": {
+        "id": "DA_ModuleStat_RocketDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_RocketDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Rocket Damage"
+        },
+        "short_key": "RocketDmg"
+    },
+    "DA_ModuleStat_SecCastDuration.0": {
+        "id": "DA_ModuleStat_SecCastDuration.0",
+        "stat_name": {
+            "Key": "ModuleStat_CastDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cast Duration"
+        },
+        "more_is_better": false,
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "SecCastDur",
+        "decimal_places": 1
+    },
+    "DA_ModuleStat_ShieldAmount.0": {
+        "id": "DA_ModuleStat_ShieldAmount.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldAmount",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield"
+        },
+        "short_key": "ShieldAmt",
+        "max_stat_value_ui": 72800.0,
+        "max_stat_titan_value_ui": 90000.0
+    },
+    "DA_ModuleStat_ShieldBoost.0": {
+        "id": "DA_ModuleStat_ShieldBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ShieldBoost"
+    },
+    "DA_ModuleStat_ShieldDPS.0": {
+        "id": "DA_ModuleStat_ShieldDPS.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldDPS",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield DPS"
+        },
+        "short_key": "ShieldDPS",
+        "max_stat_value_ui": 40795.0,
+        "max_stat_titan_value_ui": 58913.0
+    },
+    "DA_ModuleStat_ShieldDamage.0": {
+        "id": "DA_ModuleStat_ShieldDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Damage"
+        },
+        "short_key": "ShieldDmg"
+    },
+    "DA_ModuleStat_ShieldDelayReduction.0": {
+        "id": "DA_ModuleStat_ShieldDelayReduction.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldDelayReduction",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Cooldown Reduction"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ShieldDelay"
+    },
+    "DA_ModuleStat_ShieldHP.0": {
+        "id": "DA_ModuleStat_ShieldHP.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldHP",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Durability"
+        },
+        "short_key": "ShieldHP"
+    },
+    "DA_ModuleStat_ShieldRegBoost.0": {
+        "id": "DA_ModuleStat_ShieldRegBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldRegBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Regeneration Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "ShieldRegBoost"
+    },
+    "DA_ModuleStat_ShieldRegeneration.0": {
+        "id": "DA_ModuleStat_ShieldRegeneration.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldRegeneration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield Regeneration"
+        },
+        "short_key": "ShieldRegen"
+    },
+    "DA_ModuleStat_SignatureCooldown.0": {
+        "id": "DA_ModuleStat_SignatureCooldown.0",
+        "stat_name": {
+            "Key": "ModuleStat_SignatureCooldown",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Gear Cooldown"
+        },
+        "more_is_better": false,
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "SignCD"
+    },
+    "DA_ModuleStat_SingulationRate.0": {
+        "id": "DA_ModuleStat_SingulationRate.0",
+        "stat_name": {
+            "Key": "ModuleStat_SingulationRate",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shot Absorption Rate"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "SingulationRt",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_SpeedBoost.0": {
+        "id": "DA_ModuleStat_SpeedBoost.0",
+        "stat_name": {
+            "Key": "ModuleStat_SpeedBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Speed Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_KM_H",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "km/h"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.036,
+        "short_key": "SpeedBoost"
+    },
+    "DA_ModuleStat_SpeedBoostTalents.0": {
+        "id": "DA_ModuleStat_SpeedBoostTalents.0",
+        "stat_name": {
+            "Key": "ModuleStat_SpeedBoost",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Speed Boost"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "SpeedBoostTal"
+    },
+    "DA_ModuleStat_StructureDamage.0": {
+        "id": "DA_ModuleStat_StructureDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_StructureDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor Damage"
+        },
+        "short_key": "StructDmg"
+    },
+    "DA_ModuleStat_TeleportSpeed.0": {
+        "id": "DA_ModuleStat_TeleportSpeed.0",
+        "stat_name": {
+            "Key": "ModuleStat_TeleportSpeed",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Teleport Speed"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Seconds",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_exponent": -1.0,
+        "short_key": "TeleportSpeed",
+        "decimal_places": 2
+    },
+    "DA_ModuleStat_TitanCharge.0": {
+        "id": "DA_ModuleStat_TitanCharge.0",
+        "stat_name": {
+            "Key": "ModuleStat_TitanCharge",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Titan Charge"
+        },
+        "short_key": "TitanCharge"
+    },
+    "DA_ModuleStat_UltimateCharge.0": {
+        "id": "DA_ModuleStat_UltimateCharge.0",
+        "stat_name": {
+            "Key": "ModuleStat_UltimateCharge",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Cycle Gear Charge"
+        },
+        "short_key": "UltCharge"
+    },
+    "DA_ModuleStat_VampirismQuotient.0": {
+        "id": "DA_ModuleStat_VampirismQuotient.0",
+        "stat_name": {
+            "Key": "ModuleStat_VampirismQuotient",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Restore Integrity"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Percents",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 100.0,
+        "short_key": "Vamp"
+    },
+    "DA_ModuleStat_WallSize.0": {
+        "id": "DA_ModuleStat_WallSize.0",
+        "stat_name": {
+            "Key": "ModuleStat_WallSize",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Barrier Size"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_Meters",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "unit_scaler": 0.01,
+        "short_key": "WallSize"
+    },
+    "DA_ModuleStat_WeightCapacity.0": {
+        "id": "DA_ModuleStat_WeightCapacity.0",
+        "stat_name": {
+            "Key": "ModuleStat_WeightCapacity",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Weight capacity"
+        },
+        "short_key": "WeightCap"
+    },
+    "DA_ModuleStat_WeightDrain.0": {
+        "id": "DA_ModuleStat_WeightDrain.0",
+        "stat_name": {
+            "Key": "ModuleStat_WeightDrain",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Weight used"
+        },
+        "more_is_better": false,
+        "short_key": "WeightDrain"
+    }
+}
