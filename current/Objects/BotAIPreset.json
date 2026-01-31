@@ -89,14 +89,10 @@
             "DA_Bot_Advanced_Dropteam_2.0",
             "DA_Bot_Advanced_Dropteam_3.0",
             "DA_Bot_Advanced_Dropteam_4.0",
-            "DA_Bot_Advanced_Dropteam_5.0",
-            "DA_Bot_Advanced_Dropteam_6.0"
+            "DA_Bot_Advanced_Dropteam_5.0"
         ],
         "levels": [
             "25"
-        ],
-        "league_ids": [
-            "DA_GoldLeague.0"
         ]
     },
     "DA_BotPreset_Beginner.0": {
@@ -114,9 +110,6 @@
         ],
         "levels": [
             "10"
-        ],
-        "league_ids": [
-            "DA_BronzeLeague.0"
         ]
     },
     "DA_BotPreset_Intermediate.0": {
@@ -135,9 +128,6 @@
         ],
         "levels": [
             "15"
-        ],
-        "league_ids": [
-            "DA_SilverLeague.0"
         ]
     },
     "DA_BotPreset_Professional.0": {
@@ -145,7 +135,7 @@
         "skill_rate": 1.0,
         "level_interval": {
             "min": 26,
-            "max": 80
+            "max": 70
         },
         "drop_teams": [
             "DA_Bot_Professional_Dropteam_1.0",
@@ -154,17 +144,10 @@
             "DA_Bot_Professional_Dropteam_4.0",
             "DA_Bot_Professional_Dropteam_5.0",
             "DA_Bot_Professional_Dropteam_6.0",
-            "DA_Bot_Professional_Dropteam_7.0",
-            "DA_Bot_Professional_Dropteam_8.0"
+            "DA_Bot_Professional_Dropteam_7.0"
         ],
         "levels": [
-            "110"
-        ],
-        "league_ids": [
-            "DA_PlatinumLeague.0",
-            "DA_DiamondLeague.0",
-            "DA_EmeraldLeague.0",
-            "DA_NoachiumLeague.0"
+            "80"
         ]
     }
 }

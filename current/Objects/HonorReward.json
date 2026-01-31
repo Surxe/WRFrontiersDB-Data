@@ -1,1069 +1,285 @@
 {
-    "DA_Honor_Assist_BCN.0": {
-        "id": "DA_Honor_Assist_BCN.0",
-        "description": {
-            "Key": "HUD_Assist",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Kill Assist\", other=\"x{number} Kill Assists\") {values}"
-        },
+    "DA_Honor_Assist_BCN.1": {
+        "id": "DA_Honor_Assist_BCN.1",
+        "honor_points": 12.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TotalAssists"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 12.0
+            "MechAssistPointValue": 1.0,
+            "TitanAssistPointValue": 1.0
+        }
     },
-    "DA_Honor_Assist_ELM.0": {
-        "id": "DA_Honor_Assist_ELM.0",
-        "description": {
-            "Key": "HUD_Assist",
+    "DA_Honor_Assist_Boost_TDM.1": {
+        "id": "DA_Honor_Assist_Boost_TDM.1",
+        "honor_points": 7.0,
+        "name": {
+            "Key": "Talent_Assist_Boost",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Kill Assist\", other=\"x{number} Kill Assists\") {values}"
+            "en": "Pilot's Assist Boost"
         },
+        "condition": {
+            "MechAssistPointValue": 1.0,
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_Assist_Boost_TDM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/TeamDeathMatch/DA_Honor_Assist_Boost_TDM.2"
+                }
+            ]
+        }
+    },
+    "DA_Honor_Assist_ELM.1": {
+        "id": "DA_Honor_Assist_ELM.1",
+        "honor_points": 13.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TotalAssists"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 13.0
+            "MechAssistPointValue": 1.0,
+            "TitanAssistPointValue": 1.0
+        }
     },
-    "DA_Honor_Assist_SPH.0": {
-        "id": "DA_Honor_Assist_SPH.0",
-        "description": {
-            "Key": "HUD_Assist",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Kill Assist\", other=\"x{number} Kill Assists\") {values}"
-        },
+    "DA_Honor_Assist_TDM.1": {
+        "id": "DA_Honor_Assist_TDM.1",
+        "honor_points": 13.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TotalAssists"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 12.0
+            "MechAssistPointValue": 1.0,
+            "TitanAssistPointValue": 1.0
+        }
     },
-    "DA_Honor_Assist_TDM.0": {
-        "id": "DA_Honor_Assist_TDM.0",
-        "description": {
-            "Key": "HUD_Assist",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Kill Assist\", other=\"x{number} Kill Assists\") {values}"
-        },
-        "name": {
-            "Key": "Kill_Assists",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill Assists"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TotalAssists"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 13.0
-    },
-    "DA_Honor_BeaconNeutralize_BCN.0": {
-        "id": "DA_Honor_BeaconNeutralize_BCN.0",
-        "description": {
-            "Key": "HUD_BeaconNeutralize",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Warp Gate\", other=\"x{number} Warp Gates\") Neutralized {values}"
-        },
-        "name": {
-            "Key": "Beacon_Neutralize",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Beacons Neutralized"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "NeutralizedBeacons"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_BountyHunter_BCN.0": {
-        "id": "DA_Honor_BountyHunter_BCN.0",
-        "description": {
-            "Key": "HUD_BountyHunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Team Power Up {values}"
-        },
-        "name": {
-            "Key": "Bounty_Hunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Team Power Up"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "PowerUpTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_BountyHunter_ELM.0": {
-        "id": "DA_Honor_BountyHunter_ELM.0",
-        "description": {
-            "Key": "HUD_BountyHunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Team Power Up {values}"
-        },
-        "name": {
-            "Key": "Bounty_Hunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Team Power Up"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "PowerUpTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_BountyHunter_SPH.0": {
-        "id": "DA_Honor_BountyHunter_SPH.0",
-        "description": {
-            "Key": "HUD_BountyHunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Team Power Up {values}"
-        },
-        "name": {
-            "Key": "Bounty_Hunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Team Power Up"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "PowerUpTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_BountyHunter_TDM.0": {
-        "id": "DA_Honor_BountyHunter_TDM.0",
-        "description": {
-            "Key": "HUD_BountyHunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Team Power Up {values}"
-        },
-        "name": {
-            "Key": "Bounty_Hunter",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Team Power Up"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "PowerUpTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_CaptureBeacon.0": {
-        "id": "DA_Honor_CaptureBeacon.0",
-        "description": {
-            "Key": "HUD_CaptureBeacon",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Warp Gate\", other=\"x{number} Warp Gates\") Captured {values}"
-        },
+    "DA_Honor_CaptureBeacon.1": {
+        "id": "DA_Honor_CaptureBeacon.1",
+        "honor_points": 10.0,
         "name": {
             "Key": "Beacons_Capture",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Warp Gates Captured"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "CapturedBeacons"
+            "PointsForNeutralization": 0.0,
+            "PointsForCapture": 1.0,
+            "HumanTitle": {
+                "CultureInvariantString": null
+            },
+            "HumanDescription": {
+                "CultureInvariantString": null
             }
-        },
-        "processing_time": "Frame",
-        "honor_points": 10.0
+        }
     },
-    "DA_Honor_DamageAbsorb_BCN.0": {
-        "id": "DA_Honor_DamageAbsorb_BCN.0",
-        "description": {
-            "Key": "HUD_DamageAbsorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Taken {values}"
-        },
-        "name": {
-            "Key": "Damage_Absorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage Taken"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_DamageAbsorb_ELM.0": {
-        "id": "DA_Honor_DamageAbsorb_ELM.0",
-        "description": {
-            "Key": "HUD_DamageAbsorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Taken {values}"
-        },
-        "name": {
-            "Key": "Damage_Absorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage Taken"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_DamageAbsorb_SPH.0": {
-        "id": "DA_Honor_DamageAbsorb_SPH.0",
-        "description": {
-            "Key": "HUD_DamageAbsorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Taken {values}"
-        },
-        "name": {
-            "Key": "Damage_Absorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage Taken"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_DamageAbsorb_TDM.0": {
-        "id": "DA_Honor_DamageAbsorb_TDM.0",
-        "description": {
-            "Key": "HUD_DamageAbsorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Taken {values}"
-        },
-        "name": {
-            "Key": "Damage_Absorb",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage Taken"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalIn"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_DamageDealing_BCN.0": {
-        "id": "DA_Honor_DamageDealing_BCN.0",
-        "description": {
-            "Key": "HUD_Damage",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Dealt {values}"
-        },
+    "DA_Honor_Damage_BCN.0": {
+        "id": "DA_Honor_Damage_BCN.0",
+        "per_unit": true,
         "name": {
             "Key": "Damage_Dealt",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Damage Dealt"
         },
         "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "processing_time": "Frame"
+            "DamageType": 3
+        }
     },
-    "DA_Honor_DamageDealing_ELM.0": {
-        "id": "DA_Honor_DamageDealing_ELM.0",
-        "description": {
-            "Key": "HUD_Damage",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Dealt {values}"
-        },
+    "DA_Honor_Damage_ELM.0": {
+        "id": "DA_Honor_Damage_ELM.0",
+        "per_unit": true,
         "name": {
             "Key": "Damage_Dealt",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Damage Dealt"
         },
         "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "processing_time": "Frame"
+            "DamageType": 3
+        }
     },
-    "DA_Honor_DamageDealing_SPH.0": {
-        "id": "DA_Honor_DamageDealing_SPH.0",
-        "description": {
-            "Key": "HUD_Damage",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Dealt {values}"
-        },
+    "DA_Honor_Damage_TDM.0": {
+        "id": "DA_Honor_Damage_TDM.0",
+        "per_unit": true,
         "name": {
             "Key": "Damage_Dealt",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Damage Dealt"
         },
         "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "processing_time": "Frame"
+            "DamageType": 3
+        }
     },
-    "DA_Honor_DamageDealing_TDM.0": {
-        "id": "DA_Honor_DamageDealing_TDM.0",
-        "description": {
-            "Key": "HUD_Damage",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Damage Dealt {values}"
-        },
+    "DA_Honor_Heal_BCN.1": {
+        "id": "DA_Honor_Heal_BCN.1",
+        "per_unit": true,
         "name": {
-            "Key": "Damage_Dealt",
+            "Key": "Heal_Ally",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage Dealt"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "b_incremental": true
+            "en": "Crew Repairs"
+        }
     },
-    "DA_Honor_Healing_BCN.0": {
-        "id": "DA_Honor_Healing_BCN.0",
-        "description": {
-            "Key": "HUD_Healing",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Repairs {values}"
-        },
+    "DA_Honor_Heal_ELM.1": {
+        "id": "DA_Honor_Heal_ELM.1",
+        "per_unit": true,
         "name": {
-            "Key": "Healing_Ally",
+            "Key": "Heal_Ally",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "HealAllyOut"
-            }
-        },
-        "processing_time": "Frame"
+            "en": "Crew Repairs"
+        }
     },
-    "DA_Honor_Healing_ELM.0": {
-        "id": "DA_Honor_Healing_ELM.0",
-        "description": {
-            "Key": "HUD_Healing",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Repairs {values}"
-        },
+    "DA_Honor_Heal_TDM.1": {
+        "id": "DA_Honor_Heal_TDM.1",
+        "per_unit": true,
         "name": {
-            "Key": "Healing_Ally",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "HealAllyOut"
-            }
-        },
-        "processing_time": "Frame"
+            "InvariantString": "Heal"
+        }
     },
-    "DA_Honor_Healing_SPH.0": {
-        "id": "DA_Honor_Healing_SPH.0",
-        "description": {
-            "Key": "HUD_Healing",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Repairs {values}"
-        },
-        "name": {
-            "Key": "Healing_Ally",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "HealAllyOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_Healing_TDM.0": {
-        "id": "DA_Honor_Healing_TDM.0",
-        "description": {
-            "Key": "HUD_Healing",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Repairs {values}"
-        },
-        "name": {
-            "Key": "Healing_Ally",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "HealAllyOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_HoldGround_BCN.0": {
-        "id": "DA_Honor_HoldGround_BCN.0",
-        "description": {
-            "Key": "HUD_HoldGround",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Defending Warp Gate {values}"
-        },
-        "name": {
-            "Key": "HoldGround",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Warp Gates Defended"
-        },
-        "condition": {
-            "RefVal": 7.0,
-            "PlayerStateProperty": {
-                "PropertyName": "TimeInsideContestedBeacon"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_HoldingWarpProbe_SPH.1": {
-        "id": "DA_Honor_HoldingWarpProbe_SPH.1",
-        "description": {
-            "Key": "HUD_HoldingWarpProbe",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Holding Warp Probe {values}"
-        },
-        "name": {
-            "Key": "WarpProbe_Hold",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Holding Warp Probe"
-        },
-        "condition": {
-            "PointsForHold": 1.0
-        },
-        "processing_time": "Frame",
-        "b_incremental": true,
-        "honor_points": 3.0
-    },
-    "DA_Honor_KillMostDamageDeal_BCN.0": {
-        "id": "DA_Honor_KillMostDamageDeal_BCN.0",
-        "description": {
-            "Key": "HUD_KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Kill: Most Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "KillMostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_KillMostDamageDeal_ELM.0": {
-        "id": "DA_Honor_KillMostDamageDeal_ELM.0",
-        "description": {
-            "Key": "HUD_KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Kill: Most Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "KillMostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_KillMostDamageDeal_SPH.0": {
-        "id": "DA_Honor_KillMostDamageDeal_SPH.0",
-        "description": {
-            "Key": "HUD_KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Kill: Most Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "KillMostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_KillMostDamageDeal_TDM.0": {
-        "id": "DA_Honor_KillMostDamageDeal_TDM.0",
-        "description": {
-            "Key": "HUD_KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Kill: Most Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "KillMostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_KillRobot_BCN.0": {
-        "id": "DA_Honor_KillRobot_BCN.0",
-        "description": {
-            "Key": "HUD_KillRobot",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Robot\", other=\"x{number} Robots\") Destroyed {values}"
-        },
+    "DA_Honor_KillRobot_BCN.1": {
+        "id": "DA_Honor_KillRobot_BCN.1",
+        "honor_points": 15.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Robots Destroyed"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MechKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 15.0
+            "MechKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillRobot_ELM.0": {
-        "id": "DA_Honor_KillRobot_ELM.0",
-        "description": {
-            "Key": "HUD_KillRobot",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Robot\", other=\"x{number} Robots\") Destroyed {values}"
-        },
+    "DA_Honor_KillRobot_ELM.1": {
+        "id": "DA_Honor_KillRobot_ELM.1",
+        "honor_points": 20.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Robots Destroyed"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MechKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 20.0
+            "MechKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillRobot_SPH.0": {
-        "id": "DA_Honor_KillRobot_SPH.0",
-        "description": {
-            "Key": "HUD_KillRobot",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Robot\", other=\"x{number} Robots\") Destroyed {values}"
-        },
+    "DA_Honor_KillRobot_TDM.1": {
+        "id": "DA_Honor_KillRobot_TDM.1",
+        "honor_points": 19.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Robots Destroyed"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MechKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 15.0
+            "MechKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillRobot_TDM.0": {
-        "id": "DA_Honor_KillRobot_TDM.0",
-        "description": {
-            "Key": "HUD_KillRobot",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Robot\", other=\"x{number} Robots\") Destroyed {values}"
-        },
-        "name": {
-            "Key": "Robots_Destroyed",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Robots Destroyed"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MechKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 19.0
-    },
-    "DA_Honor_KillTitan_BCN.0": {
-        "id": "DA_Honor_KillTitan_BCN.0",
-        "description": {
-            "Key": "HUD_KillTitan",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Titan\", other=\"x{number} Titans\") Destroyed {values}"
-        },
+    "DA_Honor_KillTitan_BCN.1": {
+        "id": "DA_Honor_KillTitan_BCN.1",
+        "honor_points": 25.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Titan Destroyer"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TitanKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 25.0
+            "TitanKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillTitan_ELM.0": {
-        "id": "DA_Honor_KillTitan_ELM.0",
-        "description": {
-            "Key": "HUD_KillTitan",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Titan\", other=\"x{number} Titans\") Destroyed {values}"
-        },
+    "DA_Honor_KillTitan_ELM.1": {
+        "id": "DA_Honor_KillTitan_ELM.1",
+        "honor_points": 20.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
             "en": "Titan Destroyer"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TitanKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 20.0
+            "TitanKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillTitan_SPH.0": {
-        "id": "DA_Honor_KillTitan_SPH.0",
-        "description": {
-            "Key": "HUD_KillTitan",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Titan\", other=\"x{number} Titans\") Destroyed {values}"
-        },
+    "DA_Honor_KillTitan_TDM.1": {
+        "id": "DA_Honor_KillTitan_TDM.1",
+        "honor_points": 32.0,
         "name": {
-            "Key": "Titans_Destroyed",
+            "Key": "Titan_Kill_Top1",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Titan Destroyer"
+            "en": "Most Titan Kills"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TitanKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 25.0
+            "TitanKillPointValue": 1.0
+        }
     },
-    "DA_Honor_KillTitan_TDM.0": {
-        "id": "DA_Honor_KillTitan_TDM.0",
-        "description": {
-            "Key": "HUD_KillTitan",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\"Titan\", other=\"x{number} Titans\") Destroyed {values}"
-        },
+    "DA_Honor_MechAssist_Boost_BCN.1": {
+        "id": "DA_Honor_MechAssist_Boost_BCN.1",
+        "honor_points": 3.0,
         "name": {
-            "Key": "Titans_Destroyed",
+            "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Titan Destroyer"
+            "en": "Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "TitanKills"
-            }
-        },
-        "processing_time": "Frame",
-        "honor_points": 32.0
+            "MechAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_MechAssist_Boost_BCN:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Beacon/DA_Honor_MechAssist_Boost_BCN.2"
+                }
+            ]
+        }
     },
-    "DA_Honor_LostAllRobots_BCN.0": {
-        "id": "DA_Honor_LostAllRobots_BCN.0",
+    "DA_Honor_MechAssist_Boost_ELM.1": {
+        "id": "DA_Honor_MechAssist_Boost_ELM.1",
+        "honor_points": 6.0,
         "name": {
-            "Key": "LostAllRobots",
+            "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Lost All Robots"
-        },
-        "processing_time": "Frame",
-        "titan_charge": 10000.0
-    },
-    "DA_Honor_LostAllRobots_ELM.0": {
-        "id": "DA_Honor_LostAllRobots_ELM.0",
-        "name": {
-            "Key": "LostAllRobots",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Lost All Robots"
-        },
-        "processing_time": "Frame",
-        "titan_charge": 10000.0
-    },
-    "DA_Honor_LostAllRobots_SPH.0": {
-        "id": "DA_Honor_LostAllRobots_SPH.0",
-        "name": {
-            "Key": "LostAllRobots",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Lost All Robots"
-        },
-        "processing_time": "Frame",
-        "titan_charge": 10000.0
-    },
-    "DA_Honor_LostAllRobots_TDM.0": {
-        "id": "DA_Honor_LostAllRobots_TDM.0",
-        "name": {
-            "Key": "LostAllRobots",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Lost All Robots"
-        },
-        "processing_time": "Frame",
-        "titan_charge": 10000.0
-    },
-    "DA_Honor_MostDamageDeal_BCN.0": {
-        "id": "DA_Honor_MostDamageDeal_BCN.0",
-        "description": {
-            "Key": "HUD_MostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Top Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
+            "en": "Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
+            "MechAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_MechAssist_Boost_ELM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Elimination/DA_Honor_MechAssist_Boost_ELM.2"
+                }
+            ]
+        }
     },
-    "DA_Honor_MostDamageDeal_ELM.0": {
-        "id": "DA_Honor_MostDamageDeal_ELM.0",
-        "description": {
-            "Key": "HUD_MostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Top Damage {values}"
-        },
+    "DA_Honor_TitanAssist_Boost_BCN.1": {
+        "id": "DA_Honor_TitanAssist_Boost_BCN.1",
+        "honor_points": 13.0,
         "name": {
-            "Key": "KillMostDamageDeal",
+            "Key": "Titan_Assist",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
+            "en": "Titan Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_TitanAssist_Boost_BCN:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Beacon/DA_Honor_TitanAssist_Boost_BCN.2"
+                }
+            ]
+        }
     },
-    "DA_Honor_MostDamageDeal_SPH.0": {
-        "id": "DA_Honor_MostDamageDeal_SPH.0",
-        "description": {
-            "Key": "HUD_MostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Top Damage {values}"
-        },
+    "DA_Honor_TitanAssist_Boost_ELM.1": {
+        "id": "DA_Honor_TitanAssist_Boost_ELM.1",
+        "honor_points": 19.0,
         "name": {
-            "Key": "KillMostDamageDeal",
+            "Key": "Titan_Assist",
             "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
+            "en": "Titan Kill Assists"
         },
         "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_MostDamageDeal_TDM.0": {
-        "id": "DA_Honor_MostDamageDeal_TDM.0",
-        "description": {
-            "Key": "HUD_MostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Top Damage {values}"
-        },
-        "name": {
-            "Key": "KillMostDamageDeal",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Kill: Most Damage"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "MostDamageDeal"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_ShieldCrusher_BCN.0": {
-        "id": "DA_Honor_ShieldCrusher_BCN.0",
-        "description": {
-            "Key": "HUD_ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Shield Damage {values}"
-        },
-        "name": {
-            "Key": "ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Shield Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToShieldOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_ShieldCrusher_ELM.0": {
-        "id": "DA_Honor_ShieldCrusher_ELM.0",
-        "description": {
-            "Key": "HUD_ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Shield Damage {values}"
-        },
-        "name": {
-            "Key": "ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Shield Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToShieldOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_ShieldCrusher_SPH.0": {
-        "id": "DA_Honor_ShieldCrusher_SPH.0",
-        "description": {
-            "Key": "HUD_ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Shield Damage {values}"
-        },
-        "name": {
-            "Key": "ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Shield Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToShieldOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_ShieldCrusher_TDM.0": {
-        "id": "DA_Honor_ShieldCrusher_TDM.0",
-        "description": {
-            "Key": "HUD_ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Shield Damage {values}"
-        },
-        "name": {
-            "Key": "ShieldCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Shield Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToShieldOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_Spawn_BCN.0": {
-        "id": "DA_Honor_Spawn_BCN.0",
-        "description": {
-            "Key": "HUD_Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Long Deployment {values}"
-        },
-        "name": {
-            "Key": "Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Long Deployment"
-        },
-        "condition": {
-            "RefVal": 30.0,
-            "PlayerStateProperty": {
-                "PropertyName": "TimeInBattleWithActiveCharacter"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_Spawn_ELM.0": {
-        "id": "DA_Honor_Spawn_ELM.0",
-        "description": {
-            "Key": "HUD_Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Long Deployment {values}"
-        },
-        "name": {
-            "Key": "Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Long Deployment"
-        },
-        "condition": {
-            "RefVal": 30.0,
-            "PlayerStateProperty": {
-                "PropertyName": "TimeInBattleWithActiveCharacter"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_Spawn_SPH.0": {
-        "id": "DA_Honor_Spawn_SPH.0",
-        "description": {
-            "Key": "HUD_Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Long Deployment {values}"
-        },
-        "name": {
-            "Key": "Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Long Deployment"
-        },
-        "condition": {
-            "RefVal": 30.0,
-            "PlayerStateProperty": {
-                "PropertyName": "TimeInBattleWithActiveCharacter"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_Spawn_TDM.0": {
-        "id": "DA_Honor_Spawn_TDM.0",
-        "description": {
-            "Key": "HUD_Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Long Deployment {values}"
-        },
-        "name": {
-            "Key": "Spawn",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Long Deployment"
-        },
-        "condition": {
-            "RefVal": 30.0,
-            "PlayerStateProperty": {
-                "PropertyName": "TimeInBattleWithActiveCharacter"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_SteelCrusher_BCN.0": {
-        "id": "DA_Honor_SteelCrusher_BCN.0",
-        "description": {
-            "Key": "HUD_SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Armor Damage {values}"
-        },
-        "name": {
-            "Key": "SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Armor Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToArmorOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_SteelCrusher_ELM.0": {
-        "id": "DA_Honor_SteelCrusher_ELM.0",
-        "description": {
-            "Key": "HUD_SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Armor Damage {values}"
-        },
-        "name": {
-            "Key": "SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Armor Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToArmorOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_SteelCrusher_SPH.0": {
-        "id": "DA_Honor_SteelCrusher_SPH.0",
-        "description": {
-            "Key": "HUD_SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Armor Damage {values}"
-        },
-        "name": {
-            "Key": "SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Armor Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToArmorOut"
-            }
-        },
-        "processing_time": "Frame"
-    },
-    "DA_Honor_SteelCrusher_TDM.0": {
-        "id": "DA_Honor_SteelCrusher_TDM.0",
-        "description": {
-            "Key": "HUD_SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "{number}|plural(one=\" \", other=\"x{number}\") Armor Damage {values}"
-        },
-        "name": {
-            "Key": "SteelCrusher",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Armor Damage"
-        },
-        "condition": {
-            "RefVal": 100000.0,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageToArmorOut"
-            }
-        },
-        "processing_time": "Frame"
+            "TitanAssistPointValue": 1.0,
+            "Conditions": [
+                {
+                    "ObjectName": "SPilotTalentCondition'DA_Honor_TitanAssist_Boost_ELM:SEnemyKilledTrigger_0.SPilotTalentCondition_0'",
+                    "ObjectPath": "/Game/Sparrow/GameModes/HonorCategories/Elimination/DA_Honor_TitanAssist_Boost_ELM.2"
+                }
+            ]
+        }
     },
     "DA_Honor_Top1Assists_BCN.0": {
         "id": "DA_Honor_Top1Assists_BCN.0",
@@ -1076,8 +292,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1Assists_ELM.0": {
         "id": "DA_Honor_Top1Assists_ELM.0",
@@ -1090,8 +305,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1Assists_TDM.0": {
         "id": "DA_Honor_Top1Assists_TDM.0",
@@ -1104,25 +318,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top1CapturedBeacons.0": {
-        "id": "DA_Honor_Top1CapturedBeacons.0",
-        "name": {
-            "Key": "Capture_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Captures: 1st place"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "CapturedBeacons"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1Damage_BCN.0": {
         "id": "DA_Honor_Top1Damage_BCN.0",
+        "honor_points": 60.0,
         "name": {
             "Key": "Damage_Top1",
             "TableNamespace": "ST_Honor_Categories",
@@ -1132,12 +332,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 60.0
+        }
     },
     "DA_Honor_Top1Damage_ELM.0": {
         "id": "DA_Honor_Top1Damage_ELM.0",
+        "honor_points": 75.0,
         "name": {
             "Key": "Damage_Top1",
             "TableNamespace": "ST_Honor_Categories",
@@ -1147,27 +346,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 75.0
-    },
-    "DA_Honor_Top1Damage_SPH.0": {
-        "id": "DA_Honor_Top1Damage_SPH.0",
-        "name": {
-            "Key": "Damage_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage: 1st place"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 20.0
+        }
     },
     "DA_Honor_Top1Damage_TDM.0": {
         "id": "DA_Honor_Top1Damage_TDM.0",
+        "honor_points": 75.0,
         "name": {
             "Key": "Damage_Top1",
             "TableNamespace": "ST_Honor_Categories",
@@ -1177,9 +360,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 75.0
+        }
     },
     "DA_Honor_Top1Heal_BCN.0": {
         "id": "DA_Honor_Top1Heal_BCN.0",
@@ -1192,8 +373,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1Heal_ELM.0": {
         "id": "DA_Honor_Top1Heal_ELM.0",
@@ -1206,22 +386,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top1Heal_SPH.0": {
-        "id": "DA_Honor_Top1Heal_SPH.0",
-        "name": {
-            "Key": "Heal_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs: 1st place"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1Heal_TDM.0": {
         "id": "DA_Honor_Top1Heal_TDM.0",
@@ -1234,23 +399,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top1HoldWarpProbe_SPH.0": {
-        "id": "DA_Honor_Top1HoldWarpProbe_SPH.0",
-        "name": {
-            "Key": "HoldWarpProbe_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Hold Probes: 1st place"
-        },
-        "condition": {
-            "PlayerStateProperty": {
-                "PropertyName": "BeaconHoldTime"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 40.0
+        }
     },
     "DA_Honor_Top1MechKills_BCN.0": {
         "id": "DA_Honor_Top1MechKills_BCN.0",
@@ -1263,8 +412,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1MechKills_ELM.0": {
         "id": "DA_Honor_Top1MechKills_ELM.0",
@@ -1277,8 +425,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top1MechKills_TDM.0": {
         "id": "DA_Honor_Top1MechKills_TDM.0",
@@ -1291,8 +438,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Assists_BCN.0": {
         "id": "DA_Honor_Top2Assists_BCN.0",
@@ -1306,8 +452,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Assists_ELM.0": {
         "id": "DA_Honor_Top2Assists_ELM.0",
@@ -1321,8 +466,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Assists_TDM.0": {
         "id": "DA_Honor_Top2Assists_TDM.0",
@@ -1336,26 +480,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top2CapturedBeacons.0": {
-        "id": "DA_Honor_Top2CapturedBeacons.0",
-        "name": {
-            "Key": "Capture_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Captures: 1st place"
-        },
-        "condition": {
-            "Place": 1,
-            "PlayerStateProperty": {
-                "PropertyName": "CapturedBeacons"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Damage_BCN.0": {
         "id": "DA_Honor_Top2Damage_BCN.0",
+        "honor_points": 50.0,
         "name": {
             "Key": "Damage_Top2",
             "TableNamespace": "ST_Honor_Categories",
@@ -1366,12 +495,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 50.0
+        }
     },
     "DA_Honor_Top2Damage_ELM.0": {
         "id": "DA_Honor_Top2Damage_ELM.0",
+        "honor_points": 65.0,
         "name": {
             "Key": "Damage_Top2",
             "TableNamespace": "ST_Honor_Categories",
@@ -1382,28 +510,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 65.0
-    },
-    "DA_Honor_Top2Damage_SPH.0": {
-        "id": "DA_Honor_Top2Damage_SPH.0",
-        "name": {
-            "Key": "Damage_Top2",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage: 2nd place"
-        },
-        "condition": {
-            "Place": 1,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 15.0
+        }
     },
     "DA_Honor_Top2Damage_TDM.0": {
         "id": "DA_Honor_Top2Damage_TDM.0",
+        "honor_points": 65.0,
         "name": {
             "Key": "Damage_Top2",
             "TableNamespace": "ST_Honor_Categories",
@@ -1414,9 +525,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 65.0
+        }
     },
     "DA_Honor_Top2Heal_BCN.0": {
         "id": "DA_Honor_Top2Heal_BCN.0",
@@ -1430,8 +539,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Heal_ELM.0": {
         "id": "DA_Honor_Top2Heal_ELM.0",
@@ -1445,23 +553,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top2Heal_SPH.0": {
-        "id": "DA_Honor_Top2Heal_SPH.0",
-        "name": {
-            "Key": "Heal_Top2",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs: 2nd place"
-        },
-        "condition": {
-            "Place": 1,
-            "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2Heal_TDM.0": {
         "id": "DA_Honor_Top2Heal_TDM.0",
@@ -1475,24 +567,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top2HoldWarpProbe_SPH.0": {
-        "id": "DA_Honor_Top2HoldWarpProbe_SPH.0",
-        "name": {
-            "Key": "HoldWarpProbe_Top2",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Hold Probes: 2nd place"
-        },
-        "condition": {
-            "Place": 1,
-            "PlayerStateProperty": {
-                "PropertyName": "BeaconHoldTime"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 35.0
+        }
     },
     "DA_Honor_Top2MechKills_BCN.0": {
         "id": "DA_Honor_Top2MechKills_BCN.0",
@@ -1506,8 +581,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2MechKills_ELM.0": {
         "id": "DA_Honor_Top2MechKills_ELM.0",
@@ -1521,8 +595,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top2MechKills_TDM.0": {
         "id": "DA_Honor_Top2MechKills_TDM.0",
@@ -1536,8 +609,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Assists_BCN.0": {
         "id": "DA_Honor_Top3Assists_BCN.0",
@@ -1551,8 +623,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Assists_ELM.0": {
         "id": "DA_Honor_Top3Assists_ELM.0",
@@ -1566,8 +637,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Assists_TDM.0": {
         "id": "DA_Honor_Top3Assists_TDM.0",
@@ -1581,26 +651,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "TotalAssists"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top3CapturedBeacons.0": {
-        "id": "DA_Honor_Top3CapturedBeacons.0",
-        "name": {
-            "Key": "Capture_Top1",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Captures: 1st place"
-        },
-        "condition": {
-            "Place": 2,
-            "PlayerStateProperty": {
-                "PropertyName": "CapturedBeacons"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Damage_BCN.0": {
         "id": "DA_Honor_Top3Damage_BCN.0",
+        "honor_points": 35.0,
         "name": {
             "Key": "Damage_Top3",
             "TableNamespace": "ST_Honor_Categories",
@@ -1611,12 +666,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 35.0
+        }
     },
     "DA_Honor_Top3Damage_ELM.0": {
         "id": "DA_Honor_Top3Damage_ELM.0",
+        "honor_points": 45.0,
         "name": {
             "Key": "Damage_Top3",
             "TableNamespace": "ST_Honor_Categories",
@@ -1627,28 +681,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 45.0
-    },
-    "DA_Honor_Top3Damage_SPH.0": {
-        "id": "DA_Honor_Top3Damage_SPH.0",
-        "name": {
-            "Key": "Damage_Top3",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Damage: 3rd place"
-        },
-        "condition": {
-            "Place": 2,
-            "PlayerStateProperty": {
-                "PropertyName": "DamageTotalOut"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 10.0
+        }
     },
     "DA_Honor_Top3Damage_TDM.0": {
         "id": "DA_Honor_Top3Damage_TDM.0",
+        "honor_points": 45.0,
         "name": {
             "Key": "Damage_Top3",
             "TableNamespace": "ST_Honor_Categories",
@@ -1659,9 +696,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "DamageTotalOut"
             }
-        },
-        "b_incremental": true,
-        "honor_points": 45.0
+        }
     },
     "DA_Honor_Top3Heal_BCN.0": {
         "id": "DA_Honor_Top3Heal_BCN.0",
@@ -1675,8 +710,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Heal_ELM.0": {
         "id": "DA_Honor_Top3Heal_ELM.0",
@@ -1690,23 +724,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top3Heal_SPH.0": {
-        "id": "DA_Honor_Top3Heal_SPH.0",
-        "name": {
-            "Key": "Heal_Top3",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Repairs: 3rd place"
-        },
-        "condition": {
-            "Place": 2,
-            "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
-            }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3Heal_TDM.0": {
         "id": "DA_Honor_Top3Heal_TDM.0",
@@ -1720,24 +738,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
             }
-        },
-        "b_incremental": true
-    },
-    "DA_Honor_Top3HoldWarpProbe_SPH.0": {
-        "id": "DA_Honor_Top3HoldWarpProbe_SPH.0",
-        "name": {
-            "Key": "HoldWarpProbe_Top3",
-            "TableNamespace": "ST_Honor_Categories",
-            "en": "Hold Probes: 3rd place"
-        },
-        "condition": {
-            "Place": 2,
-            "PlayerStateProperty": {
-                "PropertyName": "BeaconHoldTime"
-            }
-        },
-        "b_incremental": true,
-        "honor_points": 25.0
+        }
     },
     "DA_Honor_Top3MechKills_BCN.0": {
         "id": "DA_Honor_Top3MechKills_BCN.0",
@@ -1751,8 +752,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3MechKills_ELM.0": {
         "id": "DA_Honor_Top3MechKills_ELM.0",
@@ -1766,8 +766,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_Top3MechKills_TDM.0": {
         "id": "DA_Honor_Top3MechKills_TDM.0",
@@ -1781,8 +780,20 @@
             "PlayerStateProperty": {
                 "PropertyName": "MechKills"
             }
+        }
+    },
+    "DA_Honor_TopCapturedBeacons.0": {
+        "id": "DA_Honor_TopCapturedBeacons.0",
+        "name": {
+            "Key": "Capture_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Captures: 1st place"
         },
-        "b_incremental": true
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "CapturedBeacons"
+            }
+        }
     },
     "DA_Honor_TopTitanKills_BCN.0": {
         "id": "DA_Honor_TopTitanKills_BCN.0",
@@ -1795,8 +806,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TitanKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_TopTitanKills_ELM.0": {
         "id": "DA_Honor_TopTitanKills_ELM.0",
@@ -1809,8 +819,7 @@
             "PlayerStateProperty": {
                 "PropertyName": "TitanKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_TopTitanKills_TDM.0": {
         "id": "DA_Honor_TopTitanKills_TDM.0",
@@ -1823,11 +832,11 @@
             "PlayerStateProperty": {
                 "PropertyName": "TitanKills"
             }
-        },
-        "b_incremental": true
+        }
     },
     "DA_Honor_WinCombat.0": {
         "id": "DA_Honor_WinCombat.0",
+        "honor_points": 40.0,
         "name": {
             "Key": "Match_Win",
             "TableNamespace": "ST_Honor_Categories",
@@ -1835,7 +844,6 @@
         },
         "condition": {
             "ExpectedResult": "ESTeamMatchResult::Win"
-        },
-        "honor_points": 40.0
+        }
     }
 }

@@ -10,8 +10,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_BattlePassUnlock.0": {
         "id": "DA_BattlePassUnlock.0",
@@ -39,8 +38,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_BulwarkUnlock.0": {
         "id": "DA_BulwarkUnlock.0",
@@ -53,8 +51,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_GrimUnlock.0": {
         "id": "DA_GrimUnlock.0",
@@ -67,8 +64,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_HarpyUnlock.0": {
         "id": "DA_HarpyUnlock.0",
@@ -81,8 +77,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_InventorySellUnlock.0": {
         "id": "DA_InventorySellUnlock.0",
@@ -96,8 +91,7 @@
             "Key": "Content_InventorySell",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Sell Items"
-        },
-        "visible_in_ui": false
+        }
     },
     "DA_LeagueUnlock.0": {
         "id": "DA_LeagueUnlock.0",
@@ -125,8 +119,7 @@
             "Key": "Content_RobotUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
+        }
     },
     "DA_PremiumUnlock.0": {
         "id": "DA_PremiumUnlock.0",
@@ -141,10 +134,6 @@
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Premium"
         },
-        "visible_in_ui": false
-    },
-    "DA_ProgressDiscoverUnlock.0": {
-        "id": "DA_ProgressDiscoverUnlock.0",
         "visible_in_ui": false
     },
     "DA_RecurrentQuestsUnlock.0": {
@@ -174,8 +163,7 @@
             "Key": "Content_SellPilots_Unlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Fire pilots"
-        },
-        "visible_in_ui": false
+        }
     },
     "DA_ShopUnlock.0": {
         "id": "DA_ShopUnlock.0",
@@ -252,20 +240,6 @@
         },
         "visible_in_ui": false
     },
-    "DA_SpireUnlock.0": {
-        "id": "DA_SpireUnlock.0",
-        "description": {
-            "Key": "Content_RobotUnlock",
-            "TableNamespace": "UI_ProgressionUnlocks",
-            "en": "Robot"
-        },
-        "type_name": {
-            "Key": "Content_RobotUnlock",
-            "TableNamespace": "UI_ProgressionUnlocks",
-            "en": "Robot"
-        },
-        "group_reward_id": "DA_CharactersGroup.0"
-    },
     "DA_SquadUnlock.0": {
         "id": "DA_SquadUnlock.0",
         "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockSquads",
@@ -301,12 +275,12 @@
         "description": {
             "Key": "Content_CustomizationUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
-            "en": "Cosmetics"
+            "en": "Customization"
         },
         "type_name": {
             "Key": "Content_CustomizationUnlock",
             "TableNamespace": "UI_ProgressionUnlocks",
-            "en": "Cosmetics"
+            "en": "Customization"
         },
         "visible_in_ui": false
     },

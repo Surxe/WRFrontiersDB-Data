@@ -104,7 +104,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_AmmoPercentage.0",
-                "value": 0.3
+                "value": 0.2
             }
         ],
         "buffs": [
@@ -119,7 +119,7 @@
         "name": {
             "Key": "TAL_name_Brawler1",
             "TableNamespace": "ST_Talent_Name",
-            "en": "Rocketeer"
+            "en": "Gun Nut"
         },
         "description": {
             "Key": "TAL_desc_Brawler1",
@@ -188,11 +188,11 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Damage.0",
-                "value": 100000.0
+                "value": 200000.0
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldBoost.0",
-                "value": 0.3
+                "value": 0.2
             }
         ]
     },
@@ -392,7 +392,7 @@
         "name": {
             "Key": "TAL_name_Flanker1",
             "TableNamespace": "ST_Talent_Name",
-            "en": "Gun Nut"
+            "en": "Rocketeer"
         },
         "description": {
             "Key": "TAL_desc_Flanker1",
@@ -528,7 +528,7 @@
         "description": {
             "Key": "TAL_desc_FortEvo1",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Whenever you lose shields, the most damaged module regenerates {RegenSpeed} structure per second for {Duration}."
+            "en": "Whenever you lose shields, a random module regenerates {RegenSpeed} armor per second for {Duration}"
         },
         "ui_description": {
             "Key": "PilotHUD_HPRegen",
@@ -544,7 +544,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_RegenSpeed.0",
-                "value": 4000.0
+                "value": 2000.0
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -684,7 +684,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_ShieldHP.0",
-                "value": 800.0
+                "value": 500.0
             }
         ],
         "buffs": [
@@ -725,11 +725,18 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_FireRateBoost.0",
-                "value": 0.04
+                "value": 0.06
             }
         ],
         "buffs": [
             {
+                "Modifiers": [
+                    {
+                        "what": "FireRate",
+                        "operator": "Multiply",
+                        "value": 0.94
+                    }
+                ],
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_RapidShooter"
             }
         ]
@@ -1339,7 +1346,7 @@
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
-                "value": 15.0
+                "value": 5.0
             }
         ]
     },
@@ -1501,7 +1508,7 @@
         "description": {
             "Key": "TAL_desc_Sneaky1",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Hitting an enemy that has not damaged you in the last {SecCastDur} restores {FuelReg} fuel. Cooldown: {CD}"
+            "en": "Hitting an enemy that has not damaged you in the last {SecCastDur} restores {FuelReg} fuel per second for {Duration}."
         },
         "ui_description": {
             "Key": "PilotHUD_FuelRegen",
@@ -1521,13 +1528,25 @@
             },
             {
                 "stat_id": "DA_ModuleStat_FuelRegen.0",
-                "value": 5.0
+                "value": 1.0
+            },
+            {
+                "stat_id": "DA_ModuleStat_Duration.0",
+                "value": 0.5
             },
             {
                 "stat_id": "DA_ModuleStat_Cooldown.0",
                 "value": 10.0
             }
-        ]
+        ],
+        "buffs": [
+            {
+                "FuelPerSecond": 0.02
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 5.0
+        }
     },
     "DA_Talent_Sneaky2.0": {
         "id": "DA_Talent_Sneaky2.0",
@@ -1559,7 +1578,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_DamageResist.0",
-                "value": 0.07
+                "value": 0.04
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -1610,23 +1629,6 @@
             {
                 "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
                 "value": 0.08
-            }
-        ],
-        "buffs": [
-            {
-                "AbilityGearGrowModifier": 0.08,
-                "Stream": {
-                    "InitialSeed": 42,
-                    "Seed": 0
-                },
-                "AbilitySelectors": [
-                    {
-                        "allowed_placement_types": [
-                            "Signature"
-                        ]
-                    }
-                ],
-                "StackMode": "Stack"
             }
         ]
     },
@@ -1775,7 +1777,7 @@
         "description": {
             "Key": "TAL_desc_Tortuga1",
             "TableNamespace": "ST_Talent_Description",
-            "en": "If your Robot has more than 6 modules, deal {DmgBoost} extra weapon damage for every module past the sixth."
+            "en": "If enemy Robot has more than 6 modules, you deal {DmgBoost} extra weapon damage for every module past the sixth."
         },
         "ui_description": {
             "Key": "PilotHUD_DmgBuff",
@@ -1899,7 +1901,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_FireRateBoost.0",
-                "value": 0.2
+                "value": 0.3
             },
             {
                 "stat_id": "DA_ModuleStat_Duration.0",
@@ -1909,41 +1911,6 @@
         "buffs": [
             {
                 "Modifier": 0.1
-            }
-        ]
-    },
-    "DA_Talent_Ult_Cole.0": {
-        "id": "DA_Talent_Ult_Cole.0",
-        "name": {
-            "Key": "TAL_name_Ult_Cole",
-            "TableNamespace": "ST_Talent_Name",
-            "en": "Afterparty"
-        },
-        "description": {
-            "Key": "TAL_desc_Ult_Cole",
-            "TableNamespace": "ST_Talent_Description",
-            "en": "Each kill triggers a brief celebratory fireworks effect."
-        },
-        "ui_description": {
-            "Key": "PilotHUD_AfterParty",
-            "TableNamespace": "UI_Pilots",
-            "en": "Showtime"
-        },
-        "short_ui_description": {
-            "Key": "PilotHUD_AfterParty_Short",
-            "TableNamespace": "UI_Pilots",
-            "en": "Showtime"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateCole",
-        "effect_offset": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-        },
-        "stats": [
-            {
-                "stat_id": "DA_ModuleStat_Duration.0",
-                "value": 1.0
             }
         ]
     },
@@ -1976,7 +1943,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Armor.0",
-                "value": 4000.0
+                "value": 2000.0
             }
         ]
     },
@@ -2010,7 +1977,7 @@
             },
             {
                 "stat_id": "DA_ModuleStat_ArmorBoost.0",
-                "value": 0.08
+                "value": 0.06
             }
         ],
         "buffs": [
@@ -2097,7 +2064,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SecCastDuration.0",
-                "value": 3.0
+                "value": 5.0
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldHP.0",
@@ -2137,7 +2104,7 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SecCastDuration.0",
-                "value": 3.0
+                "value": 5.0
             },
             {
                 "stat_id": "DA_ModuleStat_DamageBoost.0",
@@ -2153,35 +2120,6 @@
                         "value": 1.06
                     }
                 ]
-            }
-        ]
-    },
-    "DA_Talent_Ult_Dredge.0": {
-        "id": "DA_Talent_Ult_Dredge.0",
-        "name": {
-            "Key": "TAL_name_Ult_Dredge",
-            "TableNamespace": "ST_Talent_Name",
-            "en": "Fragments Synergy"
-        },
-        "description": {
-            "Key": "TAL_desc_Ult_Dredge",
-            "TableNamespace": "ST_Talent_Description",
-            "en": "Every assist you make increases primary and secondary parameter of your signature ability by 10% for 15 sec. Effect stacks up to 4 times."
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateDredgeCollins",
-        "default_properties": {
-            "MaxStacks": 4,
-            "Lifetime": 15.0
-        },
-        "stats": [
-            {
-                "stat_id": "DA_ModuleStat_AbilityParamBoost.0",
-                "value": 0.1
-            }
-        ],
-        "buffs": [
-            {
-                "icon_path": "/Engine/MobileResources/HUD/AnalogHat"
             }
         ]
     },
@@ -2215,55 +2153,9 @@
             },
             {
                 "stat_id": "DA_ModuleStat_ShieldBoost.0",
-                "value": 0.2
+                "value": 0.15
             }
         ]
-    },
-    "DA_Talent_Ult_Emma.0": {
-        "id": "DA_Talent_Ult_Emma.0",
-        "name": {
-            "Key": "TAL_name_Ult_Emma",
-            "TableNamespace": "ST_Talent_Name",
-            "en": "Ghost Visor"
-        },
-        "description": {
-            "Key": "TAL_desc_Ult_Emma",
-            "TableNamespace": "ST_Talent_Description",
-            "en": "Enemies that hit Emma’s mech become marked: visible, focusable, and take {DmgBoost} more damage from weapons for {Duration}. Talent has a cooldown {CD}."
-        },
-        "ui_description": {
-            "Key": "PilotHUD_DmgBuff",
-            "TableNamespace": "UI_Pilots",
-            "en": "+{DmgBoost} weapon damage"
-        },
-        "short_ui_description": {
-            "Key": "PilotHUD_DmgBuff_Short",
-            "TableNamespace": "UI_Pilots",
-            "en": "+{DmgBoost} weapon DMG"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateEmma",
-        "target_buffs": [
-            {
-                "bPrivateSpotting": true
-            }
-        ],
-        "stats": [
-            {
-                "stat_id": "DA_ModuleStat_Duration.0",
-                "value": 6.0
-            },
-            {
-                "stat_id": "DA_ModuleStat_DamageBoost.0",
-                "value": 0.04
-            },
-            {
-                "stat_id": "DA_ModuleStat_Cooldown.0",
-                "value": 16.0
-            }
-        ],
-        "default_properties": {
-            "Lifetime": 20.0
-        }
     },
     "DA_Talent_Ult_Ever.0": {
         "id": "DA_Talent_Ult_Ever.0",
@@ -2313,40 +2205,6 @@
             }
         ]
     },
-    "DA_Talent_Ult_Giancarlo.0": {
-        "id": "DA_Talent_Ult_Giancarlo.0",
-        "name": {
-            "Key": "TAL_name_Giancarlo",
-            "TableNamespace": "ST_Talent_Name",
-            "en": "Free acceleration"
-        },
-        "description": {
-            "Key": "TAL_desc_Ult_Giancarlo",
-            "TableNamespace": "ST_Talent_Description",
-            "en": "Giancarlo can activate Dash Thrusters or Pneumatic Vault without consuming fuel. Talent has a cooldown {CD}."
-        },
-        "ui_description": {
-            "Key": "PilotHUD_FreeAcceleration",
-            "TableNamespace": "UI_Pilots",
-            "en": "+ Free Acceleration"
-        },
-        "short_ui_description": {
-            "Key": "PilotHUD_FreeAcceleration_Short",
-            "TableNamespace": "UI_Pilots",
-            "en": "+ Free Accel"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_UltimateGiancarlo",
-        "cooldown": 10.0,
-        "buff_class": {
-            "Lifetime": 2.0
-        },
-        "stats": [
-            {
-                "stat_id": "DA_ModuleStat_Cooldown.0",
-                "value": 15.0
-            }
-        ]
-    },
     "DA_Talent_Ult_Idy.0": {
         "id": "DA_Talent_Ult_Idy.0",
         "name": {
@@ -2370,7 +2228,10 @@
             "en": "+{SpeedBoostTal} speed"
         },
         "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateIdy",
-        "reactivation_policy": "Reactivate",
+        "default_properties": {
+            "MaxStacks": 6,
+            "Lifetime": 10.0
+        },
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_SpeedBoostTalents.0",
@@ -2379,12 +2240,10 @@
         ],
         "buffs": [
             {
-                "Modifier": 1.1
+                "Modifier": 1.1,
+                "StackMode": "Stack"
             }
-        ],
-        "default_properties": {
-            "Lifetime": 10.0
-        }
+        ]
     },
     "DA_Talent_Ult_Kate.0": {
         "id": "DA_Talent_Ult_Kate.0",
@@ -2396,7 +2255,7 @@
         "description": {
             "Key": "TAL_desc_Ult_Kate",
             "TableNamespace": "ST_Talent_Description",
-            "en": "After losing shields, reflects {DmgReturn} of damage taken over the next {Duration} back at the enemy. Cooldown: {CD}."
+            "en": "After losing shields, reflects {DmgReturn} of damage back at the enemy for {Duration}."
         },
         "ui_description": {
             "Key": "PilotHUD_DmgReturn",
@@ -2417,10 +2276,6 @@
             {
                 "stat_id": "DA_ModuleStat_DamageReturn.0",
                 "value": 0.3
-            },
-            {
-                "stat_id": "DA_ModuleStat_Cooldown.0",
-                "value": 10.0
             }
         ],
         "buffs": [
@@ -2461,11 +2316,11 @@
         "stats": [
             {
                 "stat_id": "DA_ModuleStat_Armor.0",
-                "value": 7500.0
+                "value": 10000.0
             },
             {
                 "stat_id": "DA_ModuleStat_Distance.0",
-                "value": 15000.0
+                "value": 20000.0
             }
         ]
     },
@@ -2479,7 +2334,7 @@
         "description": {
             "Key": "TAL_desc_Ult_Sora",
             "TableNamespace": "ST_Talent_Description",
-            "en": "When the pilot deals targeted damage directly to an enemy module, there is a {Chance} chance that the damage will ricochet into all other modules."
+            "en": "Your shots have a {Chance} chance to hit all of the target's modules at once."
         },
         "ui_description": {
             "Key": "PilotHUD_Bounce",

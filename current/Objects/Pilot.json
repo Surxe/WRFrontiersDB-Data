@@ -6,7 +6,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Hammer\" Petrova"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_Pattern_01_Common1_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_Pattern_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Tank_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -23,6 +23,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -32,7 +36,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -43,7 +47,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy1.0"
@@ -54,7 +58,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -65,7 +69,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -80,7 +84,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Echo"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common10_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_Grey_01_IconMini",
         "bio": {
             "Key": "CP_Male_Fortevo_Support_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -97,6 +101,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -106,7 +114,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -117,7 +125,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman1.0"
@@ -128,7 +136,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -139,7 +147,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -154,7 +162,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Madam Jade"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common11_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Brawl_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -171,6 +179,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -180,7 +192,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler3.0"
@@ -191,7 +203,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader2.0"
@@ -202,7 +214,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -213,7 +225,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -228,7 +240,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Will Washington"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common12_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Flanker_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -245,6 +257,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -254,7 +270,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -265,7 +281,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky3.0"
@@ -276,7 +292,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower2.0"
@@ -287,7 +303,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -302,7 +318,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Illumination"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common13_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Tank_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -319,6 +335,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -328,7 +348,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -339,7 +359,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave2.0"
@@ -350,7 +370,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo3.0"
@@ -361,7 +381,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -376,7 +396,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Tempest\" Gupta"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common14_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Support_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -393,6 +413,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -402,7 +426,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -413,7 +437,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman1.0"
@@ -424,7 +448,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon1.0"
@@ -435,7 +459,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -450,7 +474,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Scarlett O'Connor"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common15_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Brawl_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -467,6 +491,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -476,7 +504,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler2.0"
@@ -487,7 +515,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious2.0"
@@ -498,7 +526,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower3.0"
@@ -509,7 +537,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -524,7 +552,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Willow Flynn"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common16_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Flanker_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -541,6 +569,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -550,7 +582,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -561,7 +593,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy3.0"
@@ -572,7 +604,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -583,7 +615,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -598,7 +630,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Allison Clay"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common17_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Tank_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -615,6 +647,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -624,7 +660,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank1.0"
@@ -635,7 +671,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader1.0"
@@ -646,7 +682,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -657,7 +693,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -672,7 +708,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Butch Savage"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common18_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Support_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -689,6 +725,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -698,7 +738,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -709,7 +749,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave3.0"
@@ -720,7 +760,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga2.0"
@@ -731,7 +771,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -746,7 +786,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Fury\" Vega"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common19_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Brawl_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -763,6 +803,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -772,7 +816,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler2.0"
@@ -783,7 +827,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman2.0"
@@ -794,7 +838,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -805,7 +849,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -820,7 +864,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Alex Cage"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common2_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Support_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -837,6 +881,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -846,7 +894,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -857,7 +905,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky2.0"
@@ -868,7 +916,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -879,7 +927,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -894,11 +942,11 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Warden\" Wu"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common20_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_GreyMars_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Flanker_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
-            "en": "\"Before I started piloting War Robots, I used to haul Noachium to Catalyst. They always seem to need tons of the stuff. I've wondered what they use it for? Something tells me I'm better off not knowing.\""
+            "en": "\"Before I started pIloting War Robots, I used to haul Noachium to Catalyst. They always seem to need tons of the stuff. I've wondered what they use it for? Something tells me I'm better off not knowing.\""
         },
         "pilot_type_id": "DA_PilotType_Common.0",
         "pilot_class_id": "DA_Class_Flanker.0",
@@ -911,6 +959,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -920,7 +972,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker3.0"
@@ -931,7 +983,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious3.0"
@@ -942,7 +994,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -953,7 +1005,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -968,7 +1020,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Evolve"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common21_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Tank_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -985,6 +1037,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -994,7 +1050,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank1.0"
@@ -1005,7 +1061,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy1.0"
@@ -1016,7 +1072,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -1027,7 +1083,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -1042,7 +1098,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Veil\" Silva"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common22_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_NavyOrange_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Support_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1059,6 +1115,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -1068,7 +1128,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport2.0"
@@ -1079,7 +1139,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky1.0"
@@ -1090,7 +1150,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -1101,7 +1161,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -1116,7 +1176,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Sarah Ali"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common23_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Brawl_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1133,6 +1193,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -1142,7 +1206,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -1153,7 +1217,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy2.0"
@@ -1164,7 +1228,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower3.0"
@@ -1175,7 +1239,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -1190,7 +1254,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Max Monroe"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common24_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Flanker_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1207,6 +1271,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -1216,7 +1284,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -1227,7 +1295,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky2.0"
@@ -1238,7 +1306,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -1249,7 +1317,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -1264,7 +1332,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Eloise Donovan"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_Pattern_03_Common25_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_Pattern_03_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Tank_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1281,6 +1349,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -1290,7 +1362,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -1301,7 +1373,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious1.0"
@@ -1312,7 +1384,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -1323,7 +1395,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -1338,7 +1410,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Dusty Riley"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common26_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_Red_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Support_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1355,6 +1427,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -1364,7 +1440,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -1375,7 +1451,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader2.0"
@@ -1386,7 +1462,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -1397,7 +1473,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -1412,7 +1488,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Valkyrie\" Vaughn"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common27_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Brawl_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1429,6 +1505,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -1438,7 +1518,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler3.0"
@@ -1449,7 +1529,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave1.0"
@@ -1460,7 +1540,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon1.0"
@@ -1471,7 +1551,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -1486,7 +1566,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Joshua Smith"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common28_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_WhiteBlue_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Flanker_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1503,6 +1583,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -1512,7 +1596,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker3.0"
@@ -1523,7 +1607,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader1.0"
@@ -1534,7 +1618,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower2.0"
@@ -1545,7 +1629,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -1560,7 +1644,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Reaper\" Williams"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common29_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Tank_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1577,6 +1661,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -1586,7 +1674,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -1597,7 +1685,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave2.0"
@@ -1608,7 +1696,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -1619,7 +1707,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -1634,7 +1722,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Vanguard"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common3_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Brawl_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1651,6 +1739,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -1660,7 +1752,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -1671,7 +1763,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader3.0"
@@ -1682,7 +1774,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo3.0"
@@ -1693,7 +1785,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -1708,7 +1800,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Dawn"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common30_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Support_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1725,6 +1817,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -1734,7 +1830,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -1745,7 +1841,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman3.0"
@@ -1756,7 +1852,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -1767,7 +1863,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -1782,7 +1878,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "James Garcia"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common31_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Brawl_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1799,6 +1895,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -1808,7 +1908,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler2.0"
@@ -1819,7 +1919,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky3.0"
@@ -1830,7 +1930,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -1841,7 +1941,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -1856,7 +1956,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Wraith\" Parker"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common32_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Flanker_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1873,6 +1973,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -1882,7 +1986,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -1893,7 +1997,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave1.0"
@@ -1904,7 +2008,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon1.0"
@@ -1915,7 +2019,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -1930,7 +2034,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Pyro\" Braun"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common33_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_WhiteRed_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Tank_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -1947,6 +2051,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -1956,7 +2064,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -1967,7 +2075,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman3.0"
@@ -1978,7 +2086,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -1989,7 +2097,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -2004,7 +2112,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Eva Lambert"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common34_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Support_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2021,6 +2129,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -2030,7 +2142,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport2.0"
@@ -2041,7 +2153,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader3.0"
@@ -2052,7 +2164,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower2.0"
@@ -2063,7 +2175,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -2078,7 +2190,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Marcus Davis"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common35_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Brawl_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2095,6 +2207,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -2104,7 +2220,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -2115,7 +2231,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy3.0"
@@ -2126,7 +2242,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower3.0"
@@ -2137,7 +2253,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -2152,7 +2268,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Cyclone Joan"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common36_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Flanker_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2169,6 +2285,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -2178,7 +2298,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -2189,7 +2309,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman1.0"
@@ -2200,7 +2320,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -2211,7 +2331,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -2226,7 +2346,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Sneaky Sam"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common37_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_WhiteBlue_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Tank_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2243,6 +2363,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -2252,7 +2376,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank1.0"
@@ -2263,7 +2387,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky1.0"
@@ -2274,7 +2398,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -2285,7 +2409,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -2300,7 +2424,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Piper Cruz"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common38_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Support_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2317,6 +2441,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -2326,7 +2454,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -2337,7 +2465,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy2.0"
@@ -2348,7 +2476,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -2359,7 +2487,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -2374,7 +2502,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Odyssey"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common39_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Fortevo_Brawl_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2391,6 +2519,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -2400,7 +2532,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -2411,7 +2543,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious1.0"
@@ -2422,7 +2554,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -2433,7 +2565,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -2448,7 +2580,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Leonardo Ricci"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common4_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Flanker_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2465,6 +2597,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -2474,7 +2610,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -2485,7 +2621,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy2.0"
@@ -2496,7 +2632,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower3.0"
@@ -2507,7 +2643,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -2522,7 +2658,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Cascade"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common40_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Flanker_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2539,6 +2675,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -2548,7 +2688,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -2559,7 +2699,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy1.0"
@@ -2570,7 +2710,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -2581,7 +2721,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -2596,7 +2736,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Prodigy"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common41_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Fortevo_Tank_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2613,6 +2753,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -2622,7 +2766,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -2633,7 +2777,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader1.0"
@@ -2644,7 +2788,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo3.0"
@@ -2655,7 +2799,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -2670,7 +2814,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Chevalier\" Dubois"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common42_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Support_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2687,6 +2831,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -2696,7 +2844,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -2707,7 +2855,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave1.0"
@@ -2718,7 +2866,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -2729,7 +2877,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -2744,7 +2892,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Bullwork\" Liu"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common43_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Brawl_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2761,6 +2909,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -2770,7 +2922,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler3.0"
@@ -2781,7 +2933,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader2.0"
@@ -2792,7 +2944,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -2803,7 +2955,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -2818,7 +2970,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Stalker\" Brown"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common44_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Flanker_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2835,6 +2987,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -2844,7 +3000,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -2855,7 +3011,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky3.0"
@@ -2866,7 +3022,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon1.0"
@@ -2877,7 +3033,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -2892,7 +3048,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Jamal Jackson"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common45_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Tank_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2909,6 +3065,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -2918,7 +3078,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -2929,7 +3089,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy3.0"
@@ -2940,7 +3100,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -2951,7 +3111,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -2966,7 +3126,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Continuum"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common46_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Support_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -2983,6 +3143,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -2992,7 +3156,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport2.0"
@@ -3003,7 +3167,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky2.0"
@@ -3014,7 +3178,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -3025,7 +3189,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -3040,7 +3204,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "﻿\"Wild\" Wilson"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common47_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Brawl_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3057,6 +3221,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -3066,7 +3234,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler2.0"
@@ -3077,7 +3245,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman3.0"
@@ -3088,7 +3256,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -3099,7 +3267,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -3114,7 +3282,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Mirage\" Scott"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common48_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Flanker_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3131,6 +3299,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -3140,7 +3312,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker3.0"
@@ -3151,7 +3323,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious2.0"
@@ -3162,7 +3334,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -3173,7 +3345,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -3188,7 +3360,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Watcher\" Diop"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common49_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Tank_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3205,6 +3377,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3214,7 +3390,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank1.0"
@@ -3225,7 +3401,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious1.0"
@@ -3236,7 +3412,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -3247,7 +3423,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -3262,7 +3438,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Ruin"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_Pattern_02_Common5_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_Pattern_02_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Tank_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3279,6 +3455,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3288,7 +3468,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -3299,7 +3479,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman2.0"
@@ -3310,7 +3490,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -3321,7 +3501,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -3336,7 +3516,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Salvo Sadie"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common50_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Support_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3353,6 +3533,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3362,7 +3546,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -3373,7 +3557,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave3.0"
@@ -3384,7 +3568,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -3395,7 +3579,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -3410,7 +3594,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Scarlett Rose"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common51_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Brawl_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3427,6 +3611,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -3436,7 +3624,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -3447,7 +3635,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky2.0"
@@ -3458,7 +3646,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -3469,7 +3657,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -3484,7 +3672,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Monarch"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common52_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Flanker_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3501,6 +3689,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -3510,7 +3702,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -3521,7 +3713,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader3.0"
@@ -3532,7 +3724,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -3543,7 +3735,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -3558,7 +3750,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "David Rodriguez"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common53_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Tank_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3575,6 +3767,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -3584,7 +3780,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -3595,7 +3791,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman3.0"
@@ -3606,7 +3802,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower3.0"
@@ -3617,7 +3813,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -3632,7 +3828,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Aurora Singh"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common54_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Support_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3649,6 +3845,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3658,7 +3858,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -3669,7 +3869,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious3.0"
@@ -3680,7 +3880,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower2.0"
@@ -3691,7 +3891,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -3706,7 +3906,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Lion\" Wu"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common55_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Brawl_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3723,6 +3923,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3732,7 +3936,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler3.0"
@@ -3743,7 +3947,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave3.0"
@@ -3754,7 +3958,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -3765,7 +3969,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -3780,7 +3984,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Brilliance"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common56_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Flanker_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3797,6 +4001,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -3806,7 +4014,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker3.0"
@@ -3817,7 +4025,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman2.0"
@@ -3828,7 +4036,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -3839,7 +4047,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -3854,7 +4062,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Judge Lancer"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common57_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Tank_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3871,6 +4079,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -3880,7 +4092,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank1.0"
@@ -3891,7 +4103,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave2.0"
@@ -3902,7 +4114,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga3.0"
@@ -3913,7 +4125,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
@@ -3928,7 +4140,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Bella Morales"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common58_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Tortuga_Support_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -3945,6 +4157,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -3954,7 +4170,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -3965,7 +4181,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader3.0"
@@ -3976,7 +4192,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -3987,7 +4203,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -4002,7 +4218,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Rampart\" Greco"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common59_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Brawl_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4019,6 +4235,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -4028,7 +4248,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler3.0"
@@ -4039,7 +4259,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious2.0"
@@ -4050,7 +4270,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon1.0"
@@ -4061,7 +4281,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
@@ -4076,7 +4296,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Ascendancy"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common6_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_GreenPurple_01_IconMini",
         "bio": {
             "Key": "CP_Male_Fortevo_Support_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4093,6 +4313,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -4102,7 +4326,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport2.0"
@@ -4113,7 +4337,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave1.0"
@@ -4124,7 +4348,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -4135,7 +4359,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common1.0"
@@ -4150,7 +4374,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Prime"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common60_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_FortEvo_Flanker_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4167,6 +4391,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -4176,7 +4404,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -4187,7 +4415,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave2.0"
@@ -4198,7 +4426,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo2.0"
@@ -4209,7 +4437,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common5.0"
@@ -4224,7 +4452,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Oracle"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common61_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Fortevo_Tank_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4241,6 +4469,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -4250,7 +4482,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -4261,7 +4493,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious3.0"
@@ -4272,7 +4504,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo3.0"
@@ -4283,7 +4515,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Kate.0"
@@ -4298,7 +4530,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Sarah Nguyen"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common62_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Support_Madman_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4315,6 +4547,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -4324,7 +4560,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport2.0"
@@ -4335,7 +4571,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Madman1.0"
@@ -4346,7 +4582,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower2.0"
@@ -4357,7 +4593,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Marcus.0"
@@ -4372,7 +4608,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Slack\" Wong"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common63_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Freecon_Brawl_Sneaky_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4389,6 +4625,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -4398,7 +4638,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -4409,7 +4649,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Sneaky3.0"
@@ -4420,7 +4660,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -4431,7 +4671,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Ever.0"
@@ -4446,7 +4686,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Ratchet\" Thompson"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common64_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Flanker_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4463,6 +4703,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -4472,7 +4716,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker2.0"
@@ -4483,7 +4727,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy1.0"
@@ -4494,7 +4738,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_FortEvo1.0"
@@ -4505,7 +4749,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Sora.0"
@@ -4520,7 +4764,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Wyatt Kane"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common65_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Tank_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4537,6 +4781,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -4546,7 +4794,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank3.0"
@@ -4557,7 +4805,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy2.0"
@@ -4568,7 +4816,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga2.0"
@@ -4579,7 +4827,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Idy.0"
@@ -4594,7 +4842,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Drillbit\" Ortiz"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common66_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Support_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4611,6 +4859,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -4620,7 +4872,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport1.0"
@@ -4631,7 +4883,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy3.0"
@@ -4642,7 +4894,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon2.0"
@@ -4653,7 +4905,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Carmen.0"
@@ -4668,7 +4920,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Kidd Cobalt"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common67_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Brawl_Handy_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4685,6 +4937,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -4694,7 +4950,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler1.0"
@@ -4705,7 +4961,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Handy1.0"
@@ -4716,7 +4972,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga1.0"
@@ -4727,7 +4983,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Duncan.0"
@@ -4742,7 +4998,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "John Pilot"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common68_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Mayflower_Support_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4759,6 +5015,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -4768,7 +5028,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_RSupport3.0"
@@ -4779,7 +5039,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave1.0"
@@ -4790,7 +5050,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -4801,7 +5061,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -4816,7 +5076,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "\"Sentry\" Cabrera"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common7_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Freecon_Brawl_Cautious_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4833,6 +5093,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General1.0"
                 ]
@@ -4842,7 +5106,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Brawler2.0"
@@ -4853,7 +5117,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Cautious3.0"
@@ -4864,7 +5128,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Freecon3.0"
@@ -4875,84 +5139,10 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common2.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Common70.0": {
-        "id": "DA_Pilot_Common70.0",
-        "first_name": {
-            "Key": "CP_Male_Christmas",
-            "TableNamespace": "CommonPilot_Names",
-            "en": "Rex Cole"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_NewYear_RexCole_Icon",
-        "bio": {
-            "Key": "CP_Male_Christmas_bio_short",
-            "TableNamespace": "Pilot_Bio",
-            "en": "\"You see a battlefield — I see a stage. Some people build walls, I send them flying. Some spread fear, I spread fireworks. Call it chaos if you want. I call it entertainment.\""
-        },
-        "pilot_type_id": "DA_PilotType_Common.0",
-        "pilot_class_id": "DA_Class_Flanker.0",
-        "personality_id": "DA_Personality_Sneaky.0",
-        "faction_id": "DA_Faction_Tortuga.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassFlanker.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_Flanker1.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersSneaky.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Sneaky2.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionTortuga.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Tortuga2.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Cole.0"
                 ]
             }
         ]
@@ -4964,7 +5154,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Rock Raider"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_01_Common8_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotMale_01_IconMini",
         "bio": {
             "Key": "CP_Male_Tortuga_Flanker_Leader_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -4981,6 +5171,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General2.0"
                 ]
@@ -4990,7 +5184,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Flanker1.0"
@@ -5001,7 +5195,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Leader1.0"
@@ -5012,7 +5206,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Tortuga2.0"
@@ -5023,7 +5217,7 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common3.0"
@@ -5038,7 +5232,7 @@
             "TableNamespace": "CommonPilot_Names",
             "en": "Sadie Harrison"
         },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotFemale_01_Common9_Icon",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_CommonPilotFemale_01_IconMini",
         "bio": {
             "Key": "CP_Female_Mayflower_Tank_Brave_bio_short",
             "TableNamespace": "Pilot_Bio",
@@ -5055,6 +5249,10 @@
         "levels": [
             {
                 "talent_type_id": "DA_TalentType_General.0",
+                "upgrade_cost": {
+                    "currency_id": "DA_Meta_Currency_Intel.0",
+                    "amount": 10
+                },
                 "talents": [
                     "DA_Talent_General3.0"
                 ]
@@ -5064,7 +5262,7 @@
                 "reputation_cost": 1000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
+                    "amount": 20
                 },
                 "talents": [
                     "DA_Talent_Tank2.0"
@@ -5075,7 +5273,7 @@
                 "reputation_cost": 2000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
+                    "amount": 30
                 },
                 "talents": [
                     "DA_Talent_Brave2.0"
@@ -5086,7 +5284,7 @@
                 "reputation_cost": 5000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
+                    "amount": 40
                 },
                 "talents": [
                     "DA_Talent_Mayflower1.0"
@@ -5097,261 +5295,10 @@
                 "reputation_cost": 10000,
                 "upgrade_cost": {
                     "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
+                    "amount": 50
                 },
                 "talents": [
                     "DA_Talent_Ult_Common4.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Halloween_Dredge.0": {
-        "id": "DA_Pilot_Halloween_Dredge.0",
-        "first_name": {
-            "Key": "CP_Halloween_Male_Freecon",
-            "TableNamespace": "CommonPilot_Names",
-            "en": "\"Dredge\" Collins"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_Halloween_Dredge_Icon",
-        "bio": {
-            "Key": "Halloween_Pilot_Dredge_Bio",
-            "TableNamespace": "Pilot_Bio",
-            "en": "Dredge was born on Mars to a working-class family; both his parents worked in the mining industry before his father moved up into management, while his mother organized for the Miners Union. He followed in their footsteps working for Freecon's Noachium concerns, then took a posting in the Wild Ten, following the \"gold rush\" of knock miners. This being prior to the Workers Uprising, conditions on Tortuga were rough and overcrowded, and workplace safety at mining complexes such as Fissure on Wild Prime was almost non-existent. The mine he worked in suffered a partial collapse, and he was exposed to a great deal of raw Noachium dust. Not knowing what else to do, the rookie overseer had Dredge and his colleagues warped back to Tortuga: only Dredge actually arrived, and even then parts of him seem to be there but also invisible."
-        },
-        "pilot_type_id": "DA_PilotType_Legendary.0",
-        "pilot_class_id": "DA_Class_RangedSupport.0",
-        "personality_id": "DA_Personality_Cautious.0",
-        "faction_id": "DA_Faction_Freecon.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General1.0",
-                    "DA_Talent_General2.0",
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassRSupport.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_RSupport1.0",
-                    "DA_Talent_RSupport2.0",
-                    "DA_Talent_RSupport3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersCautious.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Cautious1.0",
-                    "DA_Talent_Cautious2.0",
-                    "DA_Talent_Cautious3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionFreecon.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Freecon1.0",
-                    "DA_Talent_Freecon2.0",
-                    "DA_Talent_Freecon3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Dredge.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Halloween_Emma.0": {
-        "id": "DA_Pilot_Halloween_Emma.0",
-        "first_name": {
-            "Key": "CP_Halloween_Female_Mayflower",
-            "TableNamespace": "CommonPilot_Names",
-            "en": "Emma James"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_Halloween_Emma_Icon",
-        "bio": {
-            "Key": "Halloween_Pilot_Emma_Bio",
-            "TableNamespace": "Pilot_Bio",
-            "en": "Emma James is a former Mayflower warp scientist. While on sabbatical, she began researching the “Warp Ghosts” reported on Tortuga and found the phenomenon fascinating. When she heard about the Noachium mining accident and the unusual sole survivor, she decided to relocate to the Wild Ten. She has observed that the apparitions sometimes cause radar echoes, so she uses custom radio equipment to detect them and attempt to interact with them."
-        },
-        "pilot_type_id": "DA_PilotType_Legendary.0",
-        "pilot_class_id": "DA_Class_Brawler.0",
-        "personality_id": "DA_Personality_Sneaky.0",
-        "faction_id": "DA_Faction_Mayflower.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General1.0",
-                    "DA_Talent_General2.0",
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassBrawler.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_Brawler1.0",
-                    "DA_Talent_Brawler2.0",
-                    "DA_Talent_Brawler3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersSneaky.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Sneaky1.0",
-                    "DA_Talent_Sneaky2.0",
-                    "DA_Talent_Sneaky3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionMayflower.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Mayflower1.0",
-                    "DA_Talent_Mayflower2.0",
-                    "DA_Talent_Mayflower3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Emma.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Rare_CarmenRuiz.0": {
-        "id": "DA_Pilot_Rare_CarmenRuiz.0",
-        "first_name": {
-            "Key": "NAME_CarmenRuiz",
-            "TableNamespace": "Pilots_Info",
-            "en": "Carmen"
-        },
-        "second_name": {
-            "Key": "SRNM_CarmenRuiz",
-            "TableNamespace": "Pilots_Info",
-            "en": "Ruiz"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_Rare_CarmenRuiz_Icon",
-        "bio": {
-            "Key": "Hero_Pilot_Carmen_Bio",
-            "TableNamespace": "Pilot_Bio",
-            "en": "She's not particularly well-liked, but her skills are undeniable. There's a unique confidence that comes from being tolerated on the strength of your work. Within the pilot community, she's attempting a soft coup by constantly angling for squad leadership. This has put her on everyone's radar, not necessarily in a good way. The funny thing about needing to prove yourself is that it never ends. Once you rise in the ranks, the burden of proof also rises. Books is certain she'll meet the challenge, but his critics believe the expectations will outpace him. The Morgan Crime Family is watching \"Books\". A woman that ambitious may have use for such an organization."
-        },
-        "pilot_type_id": "DA_PilotType_Legendary.0",
-        "pilot_class_id": "DA_Class_Tank.0",
-        "personality_id": "DA_Personality_Handy.0",
-        "faction_id": "DA_Faction_Freecon.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 1500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General1.0",
-                    "DA_Talent_General2.0",
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassTank.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_Tank1.0",
-                    "DA_Talent_Tank2.0",
-                    "DA_Talent_Tank3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersHandy.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Handy1.0",
-                    "DA_Talent_Handy2.0",
-                    "DA_Talent_Handy3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionFreecon.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Freecon1.0",
-                    "DA_Talent_Freecon2.0",
-                    "DA_Talent_Freecon3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Carmen.0"
                 ]
             }
         ]
@@ -5459,7 +5406,7 @@
         "bio": {
             "Key": "Hero_Pilot_Ever_Bio",
             "TableNamespace": "Pilot_Bio",
-            "en": "Ever was, presumably, a man at one point. Depending on who tells the story, he is an out-colony warlord, an assassin, or a robot prizefighter in the Morgan Crime Family's stable. The most persistent rumor is that he is over 200 years old and fought as a pilot in the Walking Wars on Earth. He got the nickname Ever, short for Forever, a long time ago, and it has stuck ever since. No one knows or remembers his real name. \r\n\r\nThere have been rumors that he was called up for breaking the Rilos Accords, an agreement to not allow machines to pilot machines, because he is so heavily enhanced. But anyone who speaks to him knows that beneath all that metal is a fractured psyche - a damaged man. Some believe he has undergone so much augmentation out of necessity, injuries from the longest career at war anyone has ever had."
+            "en": "\"Who am I? I've asked that for almost two hundred years. I am a vestige of one who rode out during the Walking Wars and suffered in the silence that followed. At least, this is what they tell me. But the truth is I can't remember. Warp has taken hold of my mind. War has ravaged what’s left of my body. With every battle, a part of me is replaced. With each implant, I become more ideal for this job. One who is not burdened with a past. \n\nBut I remember enough that the cycle is the only constant in this life. Wars always follow wars. Who I am? Only one thing. I am Forever.\""
         },
         "pilot_type_id": "DA_PilotType_Legendary.0",
         "pilot_class_id": "DA_Class_RangedSupport.0",
@@ -5526,93 +5473,6 @@
                 },
                 "talents": [
                     "DA_Talent_Ult_Ever.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Rare_Giancarlo.0": {
-        "id": "DA_Pilot_Rare_Giancarlo.0",
-        "first_name": {
-            "Key": "NAME_Giancarlo",
-            "TableNamespace": "Pilots_Info",
-            "en": "Giancarlo"
-        },
-        "second_name": {
-            "Key": "SRNM_Giancarlo",
-            "TableNamespace": "Pilots_Info",
-            "en": " "
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_Rare_Giancarlo_Icon",
-        "bio": {
-            "Key": "Hero_Pilot_Giancarlo_Bio",
-            "TableNamespace": "Pilot_Bio",
-            "en": "Giancarlo began his life as a soldier in one of Mayflower's many direct-action cells, fighting against FortEvo's experiments. During an unsuccessful attempt to kill a top FortEvo scientist, he was hurt, losing both eyes to shrapnel. Blind and without support, he needed augmentation to get back to the kind of life he used to have. But his ties to the Mayflower were strong and unwavering in their doctrine, which forbade any type of augmentation. That was not something Giancarlo was willing to live with. He got in touch with the Morgan Crime Family through middlemen. He got the upgrades he wanted, but they had a price. Now he owes money to a criminal group, and Mayflower has rejected him as a traitor. He’s compromised on all sides, and everybody knows it."
-        },
-        "pilot_type_id": "DA_PilotType_Legendary.0",
-        "pilot_class_id": "DA_Class_Flanker.0",
-        "personality_id": "DA_Personality_Sneaky.0",
-        "faction_id": "DA_Faction_Tortuga.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 1500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General1.0",
-                    "DA_Talent_General2.0",
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassFlanker.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_Flanker1.0",
-                    "DA_Talent_Flanker2.0",
-                    "DA_Talent_Flanker3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersSneaky.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Sneaky1.0",
-                    "DA_Talent_Sneaky2.0",
-                    "DA_Talent_Sneaky3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionMayflower.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Mayflower1.0",
-                    "DA_Talent_Mayflower2.0",
-                    "DA_Talent_Mayflower3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Giancarlo.0"
                 ]
             }
         ]
@@ -5807,7 +5667,7 @@
         "bio": {
             "Key": "Hero_Pilot_Marcus_Bio",
             "TableNamespace": "Pilot_Bio",
-            "en": "Marcus didn't know there was a larger world to explore literally. He grew up in a domed mining colony that made his world seem small. His only outlet was the family band he provided vocals for. Nobody told him his singing was terrible, and he never figured it out himself. For the rest of his siblings, it was a way     to pass time. For Marcus, it was a calling. \n\nHe wasn't exposed to life outside the dome until the SAN LAU METEOR forced an evacuation of the colony. From that point, there was no turning back. He joined a band and was convinced stardom lay around every corner. His band wasn't so sure. They left him at a service station between colonies. Marcus is working his way to the limelight, but he needs to keep food on the table in the meantime."
+            "en": "\"Y'know, I grew up on Mars under a dome, and that's a small world for a wee lad. But I come up happy from blue-collar minin' stock. Mayflower to the last. That's where I found my callin', singing with the family. There was somethin' pure about joinin' our voices together. I said, when I was grown, I'd be a singin' star! but y'know, no one believed me, and they still don't. But I always believed in myself. Even after my band mates ditched me on this ...questionable outpost - I know i'm still destined for greatness! But 'fer now I'm stuck, making a livin'ere as a robot jock. Aye, it keeps me fed with a bed, but i'm gonna be a star ...jus' don't know how is all.\""
         },
         "pilot_type_id": "DA_PilotType_Legendary.0",
         "pilot_class_id": "DA_Class_Tank.0",
@@ -5874,93 +5734,6 @@
                 },
                 "talents": [
                     "DA_Talent_Ult_Marcus.0"
-                ]
-            }
-        ]
-    },
-    "DA_Pilot_Rare_SoraSing.0": {
-        "id": "DA_Pilot_Rare_SoraSing.0",
-        "first_name": {
-            "Key": "NAME_SoraSing",
-            "TableNamespace": "Pilots_Info",
-            "en": "Sora"
-        },
-        "second_name": {
-            "Key": "SRNM_SoraSIng",
-            "TableNamespace": "Pilots_Info",
-            "en": "Sing"
-        },
-        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_SoraSing_IconMini",
-        "bio": {
-            "Key": "Hero_Pilot_Sora_Bio",
-            "TableNamespace": "Pilot_Bio",
-            "en": "An exceptional military cadet expelled for\"conduct unsuited for an officer\" (translation: she cheated), Sora began the steady slide to infamy. Barred from Mayflower's operational brigades, she had to seek employment outside her Dominion. She found a home in the paramilitary unit, the Cohoes Battalion. She quickly rose through the ranks of that semi-legal fighting force known for its brutality. Mayflower tolerates paramilitaries as it often needs them to circumvent its own charter. \r\n\r\nSora played a crucial role in crushing the Founders Rebellion, an extremist uprising that saw fighting in several Mayflower colonies. Sora was the face of Cohoes Battalion and when the unit was accused of extrajudicial murders, she was the one to take the fall. In fact, Sora was one of only a few Battalion members who were not willing to execute POWs. And it was for that reason she was thrown under the bus by her commanding officers. After a show trial, she was stripped of her citizenship and expatriated to the Wild Ten - the only place that would take her."
-        },
-        "pilot_type_id": "DA_PilotType_Legendary.0",
-        "pilot_class_id": "DA_Class_Flanker.0",
-        "personality_id": "DA_Personality_Madman.0",
-        "faction_id": "DA_Faction_Mayflower.0",
-        "sell_price": {
-            "currency_id": "DA_Meta_Currency_Credits.0",
-            "amount": 1500
-        },
-        "levels": [
-            {
-                "talent_type_id": "DA_TalentType_General.0",
-                "talents": [
-                    "DA_Talent_General1.0",
-                    "DA_Talent_General2.0",
-                    "DA_Talent_General3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_ClassFlanker.0",
-                "reputation_cost": 1000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 100
-                },
-                "talents": [
-                    "DA_Talent_Flanker1.0",
-                    "DA_Talent_Flanker2.0",
-                    "DA_Talent_Flanker3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_PersMadman.0",
-                "reputation_cost": 2000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 200
-                },
-                "talents": [
-                    "DA_Talent_Madman1.0",
-                    "DA_Talent_Madman2.0",
-                    "DA_Talent_Madman3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_FactionMayflower.0",
-                "reputation_cost": 5000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 500
-                },
-                "talents": [
-                    "DA_Talent_Mayflower1.0",
-                    "DA_Talent_Mayflower2.0",
-                    "DA_Talent_Mayflower3.0"
-                ]
-            },
-            {
-                "talent_type_id": "DA_TalentType_Ult.0",
-                "reputation_cost": 10000,
-                "upgrade_cost": {
-                    "currency_id": "DA_Meta_Currency_Intel.0",
-                    "amount": 1000
-                },
-                "talents": [
-                    "DA_Talent_Ult_Sora.0"
                 ]
             }
         ]
