@@ -1,0 +1,38 @@
+{
+    "pilot_type_id": "id",
+    "pilot_class_id": "id",
+    "personality_id": "id",
+    "faction_id": "id",
+    "sell_price": {
+        "currency_id": "id"
+    },
+    "levels": [
+        {
+            "talent_type_id": "id"
+        },
+        {
+            "talent_type_id": "id",
+            "upgrade_cost": {
+                "currency_id": "id"
+            }
+        },
+        {
+            "talent_type_id": "id",
+            "upgrade_cost": {
+                "currency_id": "id"
+            }
+        },
+        {
+            "talent_type_id": "id",
+            "upgrade_cost": {
+                "currency_id": "id"
+            }
+        },
+        {
+            "talent_type_id": "id",
+            "upgrade_cost": {
+                "currency_id": "id"
+            }
+        }
+    ]
+}
