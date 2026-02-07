@@ -4631,7 +4631,8 @@
         "BattlePass_XP": "{0}/{1}经验值",
         "BattlePass_ItemsClaimed": "已兑换{0}/{1}",
         "BattlePass_ShelveHours": "{0}小时{1}分钟",
-        "BattlePass_TimeRemaining": "还剩{0}小时{1}分钟"
+        "BattlePass_TimeRemaining": "还剩{0}小时{1}分钟",
+        "BattlePass_AfterSeasonSubtitle": "第{0}幕已结束"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "无效登录",
@@ -5507,7 +5508,6 @@
         "Robodex_CustomBuilds": "自定义机器人",
         "Workshop_Button_Customize": "自定义",
         "Robodex_Customize_Build": "自定义外观",
-        "Workshop_Button_CustomizeRobot": "转变为自定义",
         "Workshop_Button_CustomizeTitan": "自定义",
         "Workshop_CustomizedKey": "自定义",
         "Workshop_CycleGear": "循环型装备：",
@@ -5594,7 +5594,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "出售前请先将其从机器人身上卸下。",
         "Workshop_PopUpSellingItemsPleaseUnequip": "出售前请先将其从机器人身上卸下。",
         "Workshop_Procced": "继续",
-        "Workshop_Progress": "档案等级",
         "Workshop_SortRarity": "稀有度",
         "Workshop_RairitySort": "稀有度（由高到低）",
         "Workshop_RobotEditWarningInfoSupplyGear": "需要能量",
@@ -5754,6 +5753,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "未收到邮件？请查看垃圾邮件文件夹或联系我们。",
         "Subscriptions_EmailConfirmed": "电子邮件已确认。",
         "Subscriptions_EmailPopUp_EnterYourEmail": "输入电子邮件地址",
+        "Subscriptions_EmailText_EnterYourEmail": "输入电子邮件地址",
         "Subscriptions_ContactSupport": "无法连接？请联系我们。",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "我同意通过电子邮件接收来自MY.GAMES及其附属公司的更新、定制化营销和独家优惠的消息。",
         "Subscriptions_EmailMatch": "您的电子邮件地址必须与注册的地址一致。",

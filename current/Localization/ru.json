@@ -4624,7 +4624,8 @@
         "BattlePass_XP": "Опыт: {0}/{1}",
         "BattlePass_ItemsClaimed": "Получено: {0}/{1}",
         "BattlePass_ShelveHours": "{0} ч. {1} мин.",
-        "BattlePass_TimeRemaining": "Осталось {0} ч. {1} мин."
+        "BattlePass_TimeRemaining": "Осталось {0} ч. {1} мин.",
+        "BattlePass_AfterSeasonSubtitle": "Акт {0} закончился"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Недействительное имя пользователя",
@@ -5499,7 +5500,6 @@
         "Robodex_CustomBuilds": "Свои роботы",
         "Workshop_Button_Customize": "Персонализация",
         "Robodex_Customize_Build": "Настроить внешний вид",
-        "Workshop_Button_CustomizeRobot": "Персонализация",
         "Workshop_Button_CustomizeTitan": "Персонализация",
         "Workshop_CustomizedKey": "Персонализированный",
         "Workshop_CycleGear": "Специальное оборудование:",
@@ -5586,7 +5586,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Перед продажей снимите эту деталь с робота.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Перед продажей снимите эту деталь с робота.",
         "Workshop_Procced": "Продолжить",
-        "Workshop_Progress": "Уровень профиля",
         "Workshop_SortRarity": "Редкость",
         "Workshop_RairitySort": "Редкость (большая — малая)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Требуется энергия",
@@ -5746,6 +5745,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "Не получили письмо? Проверьте папку «Спам» или свяжитесь с нами.",
         "Subscriptions_EmailConfirmed": "Электронная почта подтверждена.",
         "Subscriptions_EmailPopUp_EnterYourEmail": "ВВЕДИТЕ АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ",
+        "Subscriptions_EmailText_EnterYourEmail": "ВВЕДИТЕ АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ",
         "Subscriptions_ContactSupport": "Проблемы с подключением? Свяжитесь с нами.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "Я соглашаюсь получать новости, персонализированную рекламу и эксклюзивные предложения от MY.GAMES и аффилированных лиц по электронной почте.",
         "Subscriptions_EmailMatch": "Адрес электронной почты должен совпадать с зарегистрированным.",

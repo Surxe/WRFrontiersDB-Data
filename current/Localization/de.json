@@ -4363,7 +4363,8 @@
         "BattlePass_XP": "{0}/{1} EXP",
         "BattlePass_ItemsClaimed": "{0}/{1} erhalten",
         "BattlePass_ShelveHours": "{0}h {1}m",
-        "BattlePass_TimeRemaining": "{0}h {1}m übrig"
+        "BattlePass_TimeRemaining": "{0}h {1}m übrig",
+        "BattlePass_AfterSeasonSubtitle": "Kapitel {0} ist zu Ende"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Ungültige Anmeldung",
@@ -5197,7 +5198,6 @@
         "Robodex_CustomBuilds": "Benutzerdefinierte Roboter",
         "Workshop_Button_Customize": "Anpassen",
         "Robodex_Customize_Build": "Look anpassen",
-        "Workshop_Button_CustomizeRobot": "In Benutzerdefiniert umwandeln",
         "Workshop_Button_CustomizeTitan": "Anpassen",
         "Workshop_CustomizedKey": "Benutzerdefiniert",
         "Workshop_CycleGear": "Zyklus-Ausrüstung:",
@@ -5282,7 +5282,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Entferne dies vor dem Verkauf erst vom Roboter.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Entferne dies vor dem Verkauf erst vom Roboter.",
         "Workshop_Procced": "Fortfahren",
-        "Workshop_Progress": "Profil-Level",
         "Workshop_SortRarity": "Seltenheit",
         "Workshop_RairitySort": "Seltenheit (von oben nach unten)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Erfordert Energie.",
@@ -5437,6 +5436,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "Du hast die E-Mail nicht erhalten? Bitte überprüfe deinen Spam-Ordner oder kontaktiere uns.",
         "Subscriptions_EmailConfirmed": "E-Mail bestätigt",
         "Subscriptions_EmailPopUp_EnterYourEmail": "GIB DEINE E-MAIL-ADRESSE EIN",
+        "Subscriptions_EmailText_EnterYourEmail": "Gib deine E-Mail-Adresse ein",
         "Subscriptions_ContactSupport": "Hast du Probleme mit der Verbindung? Kontaktiere uns.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "Ich stimme zu, Updates, auf mich zugeschnittenes Marketing und exklusive Angebote von MY.GAMES und seinen Partnern per E-Mail zu erhalten.",
         "Subscriptions_EmailMatch": "Deine E-Mail muss mit der Adresse übereinstimmen, mit der du dich angemeldet hast.",

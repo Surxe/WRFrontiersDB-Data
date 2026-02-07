@@ -606,8 +606,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl1_scrap2"
                         ],
                         "Cooldown": 42.0,
-                        "PrimaryParameter": 52.8658,
-                        "SecondaryParameter": 69447.38
+                        "PrimaryParameter": 52.86,
+                        "SecondaryParameter": 57873.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl2",
@@ -616,8 +616,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl2_scrap2"
                         ],
                         "Cooldown": 42.0,
-                        "PrimaryParameter": 54.2213,
-                        "SecondaryParameter": 69447.38
+                        "PrimaryParameter": 54.22,
+                        "SecondaryParameter": 57873.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl3",
@@ -626,8 +626,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl3_scrap2"
                         ],
                         "Cooldown": 42.0,
-                        "PrimaryParameter": 54.2213,
-                        "SecondaryParameter": 73102.5
+                        "PrimaryParameter": 54.22,
+                        "SecondaryParameter": 60919.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl4",
@@ -636,8 +636,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl4_scrap2"
                         ],
                         "Cooldown": 42.0,
-                        "PrimaryParameter": 55.6116,
-                        "SecondaryParameter": 73102.5
+                        "PrimaryParameter": 55.61,
+                        "SecondaryParameter": 60919.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl5",
@@ -646,8 +646,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl5_scrap2"
                         ],
                         "Cooldown": 35.0,
-                        "PrimaryParameter": 55.6116,
-                        "SecondaryParameter": 73102.5
+                        "PrimaryParameter": 55.61,
+                        "SecondaryParameter": 60919.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl6",
@@ -656,8 +656,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl6_scrap2"
                         ],
                         "Cooldown": 35.0,
-                        "PrimaryParameter": 55.6116,
-                        "SecondaryParameter": 76950.0
+                        "PrimaryParameter": 55.61,
+                        "SecondaryParameter": 64125.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl7",
@@ -666,8 +666,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl7_scrap2"
                         ],
                         "Cooldown": 35.0,
-                        "PrimaryParameter": 57.0375,
-                        "SecondaryParameter": 76950.0
+                        "PrimaryParameter": 57.04,
+                        "SecondaryParameter": 64125.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl8",
@@ -676,8 +676,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl8_scrap2"
                         ],
                         "Cooldown": 35.0,
-                        "PrimaryParameter": 57.0375,
-                        "SecondaryParameter": 81000.0
+                        "PrimaryParameter": 57.04,
+                        "SecondaryParameter": 67500.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl9",
@@ -686,8 +686,8 @@
                             "OBJID_ScrapReward::DA_Module_Ability_BlockingField.1_lvl9_scrap2"
                         ],
                         "Cooldown": 29.0,
-                        "PrimaryParameter": 57.0375,
-                        "SecondaryParameter": 81000.0
+                        "PrimaryParameter": 57.04,
+                        "SecondaryParameter": 67500.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl10",
@@ -697,7 +697,7 @@
                         ],
                         "Cooldown": 29.0,
                         "PrimaryParameter": 58.5,
-                        "SecondaryParameter": 81000.0
+                        "SecondaryParameter": 67500.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl11",
@@ -707,7 +707,7 @@
                         ],
                         "Cooldown": 29.0,
                         "PrimaryParameter": 58.5,
-                        "SecondaryParameter": 90000.0
+                        "SecondaryParameter": 75000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl12",
@@ -717,7 +717,7 @@
                         ],
                         "Cooldown": 29.0,
                         "PrimaryParameter": 60.0,
-                        "SecondaryParameter": 90000.0
+                        "SecondaryParameter": 75000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_BlockingField.1_lvl13",
@@ -727,7 +727,7 @@
                         ],
                         "Cooldown": 24.0,
                         "PrimaryParameter": 60.0,
-                        "SecondaryParameter": 90000.0
+                        "SecondaryParameter": 75000.0
                     }
                 ]
             },
@@ -16410,67 +16410,67 @@
                     "variables": [
                         {
                             "Cooldown": 64.0,
-                            "PrimaryParameter": 72.0,
+                            "PrimaryParameter": 38.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 64.0,
-                            "PrimaryParameter": 72.0,
+                            "PrimaryParameter": 38.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 64.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 64.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 53.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 53.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 28.000000000000004
                         },
                         {
                             "Cooldown": 53.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 53.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 45.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 45.0,
-                            "PrimaryParameter": 80.0,
+                            "PrimaryParameter": 42.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 45.0,
-                            "PrimaryParameter": 85.0,
+                            "PrimaryParameter": 45.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 45.0,
-                            "PrimaryParameter": 85.0,
+                            "PrimaryParameter": 45.0,
                             "SecondaryParameter": 15.000000000000002
                         },
                         {
                             "Cooldown": 40.0,
-                            "PrimaryParameter": 85.0,
+                            "PrimaryParameter": 45.0,
                             "SecondaryParameter": 15.000000000000002
                         }
                     ]
@@ -22584,8 +22584,8 @@
                     "RangeEffective": 12000.0,
                     "RangeMax": 35000.0,
                     "RangeDeath": 100001.0,
-                    "SpreadX": 7.0,
-                    "SpreadY": 7.0,
+                    "SpreadX": 4.5,
+                    "SpreadY": 4.5,
                     "AoeArmor": 0.0,
                     "AoeNoArmor": 0.0,
                     "ProjectileSpeed": 180000.0,
@@ -22792,9 +22792,9 @@
                     "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
                     "RangeMin": 0.0,
                     "RangeExpansion": 1.0,
-                    "RangeEffective": 14000.0,
-                    "RangeMax": 25001.0,
-                    "RangeDeath": 25002.0,
+                    "RangeEffective": 10000.0,
+                    "RangeMax": 18000.0,
+                    "RangeDeath": 18001.0,
                     "SpreadX": 0.8,
                     "SpreadY": 0.8,
                     "DamageNoArmor": 200.0,
@@ -22997,7 +22997,7 @@
                     "RangeDeath": 10002.0,
                     "SpreadX": 0.0,
                     "SpreadY": 0.0,
-                    "DamageNoArmor": 12500.0,
+                    "DamageNoArmor": 9875.0,
                     "AoeArmor": 0.0,
                     "AoeNoArmor": 0.0,
                     "ProjectileSpeed": 400000.0,
@@ -23016,7 +23016,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl1_scrap2"
                         ],
-                        "DamageArmor": 11299.0,
+                        "DamageArmor": 7909.0,
                         "ClipSize": 18,
                         "TimeToReload": 5.62
                     },
@@ -23026,7 +23026,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl2_scrap2"
                         ],
-                        "DamageArmor": 11589.0,
+                        "DamageArmor": 8112.0,
                         "ClipSize": 18,
                         "TimeToReload": 5.62
                     },
@@ -23036,7 +23036,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl3_scrap2"
                         ],
-                        "DamageArmor": 11589.0,
+                        "DamageArmor": 8112.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.62
                     },
@@ -23046,7 +23046,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl4_scrap2"
                         ],
-                        "DamageArmor": 11886.0,
+                        "DamageArmor": 8320.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.62
                     },
@@ -23056,7 +23056,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl5_scrap2"
                         ],
-                        "DamageArmor": 11886.0,
+                        "DamageArmor": 8320.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.36
                     },
@@ -23066,7 +23066,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl6_scrap2"
                         ],
-                        "DamageArmor": 12067.0,
+                        "DamageArmor": 8447.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.36
                     },
@@ -23076,7 +23076,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl7_scrap2"
                         ],
-                        "DamageArmor": 12067.0,
+                        "DamageArmor": 8447.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.36
                     },
@@ -23086,7 +23086,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl8_scrap2"
                         ],
-                        "DamageArmor": 12251.0,
+                        "DamageArmor": 8576.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.36
                     },
@@ -23096,7 +23096,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl9_scrap2"
                         ],
-                        "DamageArmor": 12251.0,
+                        "DamageArmor": 8576.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.15
                     },
@@ -23106,7 +23106,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl10_scrap2"
                         ],
-                        "DamageArmor": 12375.0,
+                        "DamageArmor": 8663.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.15
                     },
@@ -23116,7 +23116,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl11_scrap2"
                         ],
-                        "DamageArmor": 12375.0,
+                        "DamageArmor": 8663.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.15
                     },
@@ -23126,7 +23126,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl12_scrap2"
                         ],
-                        "DamageArmor": 12500.0,
+                        "DamageArmor": 8750.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.15
                     },
@@ -23136,7 +23136,7 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Katzbalger.0_lvl13_scrap2"
                         ],
-                        "DamageArmor": 12500.0,
+                        "DamageArmor": 8750.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.0
                     }
@@ -24735,8 +24735,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl1_scrap2"
                         ],
-                        "DamageArmor": 7684.0,
-                        "DamageNoArmor": 7678.0,
+                        "DamageArmor": 5993.0,
+                        "DamageNoArmor": 3839.0,
                         "TimeToReload": 2.9
                     },
                     {
@@ -24745,8 +24745,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl2_scrap2"
                         ],
-                        "DamageArmor": 7881.0,
-                        "DamageNoArmor": 7678.0,
+                        "DamageArmor": 6147.0,
+                        "DamageNoArmor": 3839.0,
                         "TimeToReload": 2.9
                     },
                     {
@@ -24755,8 +24755,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl3_scrap2"
                         ],
-                        "DamageArmor": 7881.0,
-                        "DamageNoArmor": 7678.0,
+                        "DamageArmor": 6147.0,
+                        "DamageNoArmor": 3839.0,
                         "TimeToReload": 2.63
                     },
                     {
@@ -24765,8 +24765,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl4_scrap2"
                         ],
-                        "DamageArmor": 8083.0,
-                        "DamageNoArmor": 7678.0,
+                        "DamageArmor": 6305.0,
+                        "DamageNoArmor": 3839.0,
                         "TimeToReload": 2.63
                     },
                     {
@@ -24775,8 +24775,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl5_scrap2"
                         ],
-                        "DamageArmor": 8083.0,
-                        "DamageNoArmor": 7998.0,
+                        "DamageArmor": 6305.0,
+                        "DamageNoArmor": 3999.0,
                         "TimeToReload": 2.63
                     },
                     {
@@ -24785,8 +24785,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl6_scrap2"
                         ],
-                        "DamageArmor": 8206.0,
-                        "DamageNoArmor": 7998.0,
+                        "DamageArmor": 6401.0,
+                        "DamageNoArmor": 3999.0,
                         "TimeToReload": 2.63
                     },
                     {
@@ -24795,8 +24795,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl7_scrap2"
                         ],
-                        "DamageArmor": 8206.0,
-                        "DamageNoArmor": 7998.0,
+                        "DamageArmor": 6401.0,
+                        "DamageNoArmor": 3999.0,
                         "TimeToReload": 2.44
                     },
                     {
@@ -24805,8 +24805,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl8_scrap2"
                         ],
-                        "DamageArmor": 8331.0,
-                        "DamageNoArmor": 7998.0,
+                        "DamageArmor": 6498.0,
+                        "DamageNoArmor": 3999.0,
                         "TimeToReload": 2.44
                     },
                     {
@@ -24815,8 +24815,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl9_scrap2"
                         ],
-                        "DamageArmor": 8331.0,
-                        "DamageNoArmor": 8288.0,
+                        "DamageArmor": 6498.0,
+                        "DamageNoArmor": 4144.0,
                         "TimeToReload": 2.44
                     },
                     {
@@ -24825,8 +24825,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl10_scrap2"
                         ],
-                        "DamageArmor": 8415.0,
-                        "DamageNoArmor": 8288.0,
+                        "DamageArmor": 6564.0,
+                        "DamageNoArmor": 4144.0,
                         "TimeToReload": 2.44
                     },
                     {
@@ -24835,8 +24835,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl11_scrap2"
                         ],
-                        "DamageArmor": 8415.0,
-                        "DamageNoArmor": 8288.0,
+                        "DamageArmor": 6564.0,
+                        "DamageNoArmor": 4144.0,
                         "TimeToReload": 2.3
                     },
                     {
@@ -24845,8 +24845,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl12_scrap2"
                         ],
-                        "DamageArmor": 8500.0,
-                        "DamageNoArmor": 8288.0,
+                        "DamageArmor": 6630.0,
+                        "DamageNoArmor": 4144.0,
                         "TimeToReload": 2.3
                     },
                     {
@@ -24855,8 +24855,8 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_Weapon_Scatter.0_lvl13_scrap2"
                         ],
-                        "DamageArmor": 8500.0,
-                        "DamageNoArmor": 8500.0,
+                        "DamageArmor": 6630.0,
+                        "DamageNoArmor": 4250.0,
                         "TimeToReload": 2.3
                     }
                 ]
@@ -25353,8 +25353,8 @@
                     "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
                     "RangeMin": 0.0,
                     "RangeExpansion": 1.0,
-                    "RangeEffective": 10000.0,
-                    "RangeMax": 35000.0,
+                    "RangeEffective": 18000.0,
+                    "RangeMax": 40000.0,
                     "RangeDeath": 50000.0,
                     "SpreadX": 1.2,
                     "SpreadY": 1.2,
@@ -26098,11 +26098,11 @@
                     "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
                     "RangeMin": 0.0,
                     "RangeExpansion": 1.0,
-                    "RangeEffective": 9000.0,
+                    "RangeEffective": 11000.0,
                     "RangeMax": 35000.0,
                     "RangeDeath": 80001.0,
-                    "SpreadX": 3.5,
-                    "SpreadY": 3.5,
+                    "SpreadX": 2.5,
+                    "SpreadY": 2.5,
                     "AoeArmor": 0.0,
                     "AoeNoArmor": 0.0,
                     "ProjectileSpeed": 220000.0,
@@ -26397,9 +26397,9 @@
                     "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
                     "RangeMin": 0.0,
                     "RangeExpansion": 1.0,
-                    "RangeEffective": 8000.0,
-                    "RangeMax": 18000.0,
-                    "RangeDeath": 18001.0,
+                    "RangeEffective": 6500.0,
+                    "RangeMax": 12000.0,
+                    "RangeDeath": 12001.0,
                     "SpreadX": 3.0,
                     "SpreadY": 3.0,
                     "DamageNoArmor": 420.0,
@@ -27320,7 +27320,7 @@
                         ],
                         "DamageArmor": 2821.0,
                         "DamageNoArmor": 1391.0,
-                        "TimeToReload": 6.9
+                        "TimeToReload": 7.24
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Vortex.0_lvl2",
@@ -27330,7 +27330,7 @@
                         ],
                         "DamageArmor": 2893.0,
                         "DamageNoArmor": 1391.0,
-                        "TimeToReload": 6.9
+                        "TimeToReload": 7.24
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Vortex.0_lvl3",
