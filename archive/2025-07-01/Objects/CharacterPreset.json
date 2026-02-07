@@ -1,0 +1,4679 @@
+{
+    "DA_Preset_Bot_AresOrkan.0": {
+        "id": "DA_Preset_Bot_AresOrkan.0",
+        "name": {
+            "Key": "CMP_name_Ares_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ares"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAres.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_AresScatter.0": {
+        "id": "DA_Preset_Bot_AresScatter.0",
+        "name": {
+            "Key": "CMP_name_Ares_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ares"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAres.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_AresVortex.0": {
+        "id": "DA_Preset_Bot_AresVortex.0",
+        "name": {
+            "Key": "CMP_name_Ares_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ares"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisHarpy.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAres.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulgasariGozer.0": {
+        "id": "DA_Preset_Bot_BulgasariGozer.0",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulgasari.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulgasariHalo.0": {
+        "id": "DA_Preset_Bot_BulgasariHalo.0",
+        "name": {
+            "Key": "CMP_name_Bulgasari_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Bulgasari"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulgasari.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulgasariPulsar.0": {
+        "id": "DA_Preset_Bot_BulgasariPulsar.0",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulgasari.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulwarkQuantum.0": {
+        "id": "DA_Preset_Bot_BulwarkQuantum.0",
+        "name": {
+            "Key": "CMP_name_Bulwark_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Bulwark"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulwark.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulwarkScourge.0": {
+        "id": "DA_Preset_Bot_BulwarkScourge.0",
+        "name": {
+            "Key": "CMP_name_Bulwark_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Bulwark"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulwark.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_BulwarkStickyGun.0": {
+        "id": "DA_Preset_Bot_BulwarkStickyGun.0",
+        "name": {
+            "Key": "CMP_name_Bulwark_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Bulwark"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulwark.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_FenrirIncinerator.0": {
+        "id": "DA_Preset_Bot_FenrirIncinerator.0",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisInquisitor.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFenrir.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_FenrirPulsar.0": {
+        "id": "DA_Preset_Bot_FenrirPulsar.0",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFenrir.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFenrir.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_FuryFowler.0": {
+        "id": "DA_Preset_Bot_FuryFowler.0",
+        "name": {
+            "Key": "CMP_name_Fury_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Fury"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFury.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFury.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_FuryLighter.0": {
+        "id": "DA_Preset_Bot_FuryLighter.0",
+        "name": {
+            "Key": "CMP_name_Fury_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Fury"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFury.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_GriffinRailgun.0": {
+        "id": "DA_Preset_Bot_GriffinRailgun.0",
+        "name": {
+            "Key": "CMP_name_Griffin_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Griffin"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisSiren.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGriffin.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_GriffinStickyGun.0": {
+        "id": "DA_Preset_Bot_GriffinStickyGun.0",
+        "name": {
+            "Key": "CMP_name_Griffin_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Griffin"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGriffin.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_GriffinThunder.0": {
+        "id": "DA_Preset_Bot_GriffinThunder.0",
+        "name": {
+            "Key": "CMP_name_Griffin_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Griffin"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulwark.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGriffin.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_HarpyDragoon.0": {
+        "id": "DA_Preset_Bot_HarpyDragoon.0",
+        "name": {
+            "Key": "CMP_name_Harpy_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Harpy"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisHarpy.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoHarpy.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Dragoon.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Dragoon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_HarpyFowler.0": {
+        "id": "DA_Preset_Bot_HarpyFowler.0",
+        "name": {
+            "Key": "CMP_name_Harpy_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Harpy"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoHarpy.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_HarpyRampantRailgun.0": {
+        "id": "DA_Preset_Bot_HarpyRampantRailgun.0",
+        "name": {
+            "Key": "CMP_name_Harpy_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Harpy"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisHarpy.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoHarpy.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_LancelotQuantum.0": {
+        "id": "DA_Preset_Bot_LancelotQuantum.0",
+        "name": {
+            "Key": "CMP_name_Loki_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Loki"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLancelot.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_LancelotThunder.0": {
+        "id": "DA_Preset_Bot_LancelotThunder.0",
+        "name": {
+            "Key": "CMP_name_Lancelot_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Lancelot"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulwark.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLancelot.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_LancelotZeus.0": {
+        "id": "DA_Preset_Bot_LancelotZeus.0",
+        "name": {
+            "Key": "CMP_name_Lancelot_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Lancelot"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLancelot.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_LokiLighter.0": {
+        "id": "DA_Preset_Bot_LokiLighter.0",
+        "name": {
+            "Key": "CMP_name_Loki_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Loki"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLoki.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLoki.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_OrochiScourge.0": {
+        "id": "DA_Preset_Bot_OrochiScourge.0",
+        "name": {
+            "Key": "CMP_name_Orochi_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Orochi"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyr.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoOrochi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_OrochiShocktrain.0": {
+        "id": "DA_Preset_Bot_OrochiShocktrain.0",
+        "name": {
+            "Key": "CMP_name_Orochi_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Orochi"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisOrochi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoOrochi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_OrochiTrident.0": {
+        "id": "DA_Preset_Bot_OrochiTrident.0",
+        "name": {
+            "Key": "CMP_name_Orochi_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Orochi"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisOrochi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoOrochi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PhantomIncinerator.0": {
+        "id": "DA_Preset_Bot_PhantomIncinerator.0",
+        "name": {
+            "Key": "CMP_name_Phantom_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PhantomScatter.0": {
+        "id": "DA_Preset_Bot_PhantomScatter.0",
+        "name": {
+            "Key": "CMP_name_Phantom_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLoki.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PhantomScourge.0": {
+        "id": "DA_Preset_Bot_PhantomScourge.0",
+        "name": {
+            "Key": "CMP_name_Phantom_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield_Tutorial.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_MineField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PhantomStickyGun.0": {
+        "id": "DA_Preset_Bot_PhantomStickyGun.0",
+        "name": {
+            "Key": "CMP_name_Phantom_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGriffin.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PurifierScatter.0": {
+        "id": "DA_Preset_Bot_PurifierScatter.0",
+        "name": {
+            "Key": "CMP_name_Purifier_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Purifier"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyr.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoInquisitor.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PurifierShredder.0": {
+        "id": "DA_Preset_Bot_PurifierShredder.0",
+        "name": {
+            "Key": "CMP_name_Purifier_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Purifier"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoInquisitor.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder_Tutorial.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder_Tutorial.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder_Tutorial.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_PurifierTrebuchet.0": {
+        "id": "DA_Preset_Bot_PurifierTrebuchet.0",
+        "name": {
+            "Key": "CMP_name_Purifier_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Purifier"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoInquisitor.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_MineField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavanaPunisher.0": {
+        "id": "DA_Preset_Bot_RavanaPunisher.0",
+        "name": {
+            "Key": "CMP_name_Ravana_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLancelot.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavanaQuantum.0": {
+        "id": "DA_Preset_Bot_RavanaQuantum.0",
+        "name": {
+            "Key": "CMP_name_Ravana_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFenrir.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavanaRampant.0": {
+        "id": "DA_Preset_Bot_RavanaRampant.0",
+        "name": {
+            "Key": "CMP_name_Ravana_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavanaShredder.0": {
+        "id": "DA_Preset_Bot_RavanaShredder.0",
+        "name": {
+            "Key": "CMP_name_Ravana_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavenFowler.0": {
+        "id": "DA_Preset_Bot_RavenFowler.0",
+        "name": {
+            "Key": "CMP_name_Raven_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Raven"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRaven.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavenScourge.0": {
+        "id": "DA_Preset_Bot_RavenScourge.0",
+        "name": {
+            "Key": "CMP_name_Raven_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Raven"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRaven.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_RavenTrident.0": {
+        "id": "DA_Preset_Bot_RavenTrident.0",
+        "name": {
+            "Key": "CMP_name_Raven_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Raven"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRaven.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_SirenFowlerQuantum.0": {
+        "id": "DA_Preset_Bot_SirenFowlerQuantum.0",
+        "name": {
+            "Key": "CMP_name_Siren_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_SirenPunisher.0": {
+        "id": "DA_Preset_Bot_SirenPunisher.0",
+        "name": {
+            "Key": "CMP_name_Siren_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLancelot.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_SirenVortex2.0": {
+        "id": "DA_Preset_Bot_SirenVortex2.0",
+        "name": {
+            "Key": "CMP_name_Siren_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisSiren.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_SirenZeusRailgun.0": {
+        "id": "DA_Preset_Bot_SirenZeusRailgun.0",
+        "name": {
+            "Key": "CMP_name_Siren_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisSiren.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyphonPunisher.0": {
+        "id": "DA_Preset_Bot_TyphonPunisher.0",
+        "name": {
+            "Key": "CMP_name_Typhon_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyphonScourge.0": {
+        "id": "DA_Preset_Bot_TyphonScourge.0",
+        "name": {
+            "Key": "CMP_name_Typhon_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyphonShocktrain.0": {
+        "id": "DA_Preset_Bot_TyphonShocktrain.0",
+        "name": {
+            "Key": "CMP_name_Typhon_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyphonTrebuchet.0": {
+        "id": "DA_Preset_Bot_TyphonTrebuchet.0",
+        "name": {
+            "Key": "CMP_name_Typhon_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyr.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyrLighter.0": {
+        "id": "DA_Preset_Bot_TyrLighter.0",
+        "name": {
+            "Key": "CMP_name_Tyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Tyr"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisPhantom.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyr.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyrOrkan.0": {
+        "id": "DA_Preset_Bot_TyrOrkan.0",
+        "name": {
+            "Key": "CMP_name_Tyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Tyr"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyr.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyrRailgun.0": {
+        "id": "DA_Preset_Bot_TyrRailgun.0",
+        "name": {
+            "Key": "CMP_name_Tyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Tyr"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyr.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_TyrZeus.0": {
+        "id": "DA_Preset_Bot_TyrZeus.0",
+        "name": {
+            "Key": "CMP_name_Tyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Tyr"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisOrochi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyr.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_VarangianGozer.0": {
+        "id": "DA_Preset_Bot_VarangianGozer.0",
+        "name": {
+            "Key": "CMP_name_Varangian_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Varangian"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoVityaz.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLancelot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLancelot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_VarangianLighter.0": {
+        "id": "DA_Preset_Bot_VarangianLighter.0",
+        "name": {
+            "Key": "CMP_name_Varangian_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Varangian"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisPhantom.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoVityaz.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield_Tutorial.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Bot_VarangianPunisher.0": {
+        "id": "DA_Preset_Bot_VarangianPunisher.0",
+        "name": {
+            "Key": "CMP_name_Varangian_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Varangian"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGriffin.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoVityaz.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo_Tutorial.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotAres.0": {
+        "id": "DA_Preset_DevbotAres.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisAres.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAres.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotBulgasari.0": {
+        "id": "DA_Preset_DevbotBulgasari.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulgasari",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulgasari.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotBulwark.0": {
+        "id": "DA_Preset_DevbotBulwark.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulwark",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulwark.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulwark.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotCyclops.0": {
+        "id": "DA_Preset_DevbotCyclops.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisCyclops.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoCyclops.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Twinflare.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderCyclops.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Twinflare.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderCyclops.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotFenrir.0": {
+        "id": "DA_Preset_DevbotFenrir.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFenrir",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFenrir.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFenrir.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotFury.0": {
+        "id": "DA_Preset_DevbotFury.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFury",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFury.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFury.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotGriffin.0": {
+        "id": "DA_Preset_DevbotGriffin.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotGriffin",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGriffin.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGriffin.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotHarpy.0": {
+        "id": "DA_Preset_DevbotHarpy.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHarpy",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisHarpy.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoHarpy.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderHarpy.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderHarpy.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotLancelot.0": {
+        "id": "DA_Preset_DevbotLancelot.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLancelot",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLancelot.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLancelot.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLancelot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLancelot.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotLoki.0": {
+        "id": "DA_Preset_DevbotLoki.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLoki",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisLoki.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoLoki.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotOrochi.0": {
+        "id": "DA_Preset_DevbotOrochi.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisOrochi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoOrochi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotPhantom.0": {
+        "id": "DA_Preset_DevbotPhantom.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPhantom",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisPhantom.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPhantom.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_MineField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotPurifier.0": {
+        "id": "DA_Preset_DevbotPurifier.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPurifier",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisInquisitor.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoInquisitor.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotPursuer.0": {
+        "id": "DA_Preset_DevbotPursuer.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPursuer",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisPursuer.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoPursuer.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPursuer.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderPursuer.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotRavana.0": {
+        "id": "DA_Preset_DevbotRavana.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRavana",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotRaven.0": {
+        "id": "DA_Preset_DevbotRaven.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRaven",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRaven.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotScorpion.0": {
+        "id": "DA_Preset_DevbotScorpion.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisScorpion.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoScorpion.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderScorpion.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Tusk.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderScorpion.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Repulsor.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Tusk.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotSiren.0": {
+        "id": "DA_Preset_DevbotSiren.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotSiren",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisSiren.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotTyphon.0": {
+        "id": "DA_Preset_DevbotTyphon.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+        "is_factory_preset": false,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotVarangian.0": {
+        "id": "DA_Preset_DevbotVarangian.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisVityaz.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoVityaz.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz01.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotBulgasari.0": {
+        "id": "DA_Preset_Legend_DevbotBulgasari.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulgasari",
+        "name": {
+            "Key": "BLD_name_Bulgasari_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Kate's Bulgasari"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulgasari.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotBulwark.0": {
+        "id": "DA_Preset_Legend_DevbotBulwark.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulwark",
+        "name": {
+            "Key": "BLD_name_Bulwark_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Marcus's Bulwark"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisBulwark.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoBulwark.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotFenrir.0": {
+        "id": "DA_Preset_Legend_DevbotFenrir.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFenrir",
+        "name": {
+            "Key": "BLD_name_Fenrir_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Kate's Fenrir"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFenrir.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFenrir.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotFury.0": {
+        "id": "DA_Preset_Legend_DevbotFury.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFury",
+        "name": {
+            "Key": "BLD_name_Fury_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Kate's Fury"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisFury.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoFury.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotGriffin.0": {
+        "id": "DA_Preset_Legend_DevbotGriffin.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotGriffin",
+        "name": {
+            "Key": "BLD_name_Griffin_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Marcus's Griffin"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGriffin.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGriffin.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SmokeWall.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotHarpy.0": {
+        "id": "DA_Preset_Legend_DevbotHarpy.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHarpy",
+        "name": {
+            "Key": "BLD_name_Harpy_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Harpy"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisHarpy.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoHarpy.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderHarpy.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderHarpy.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotOrochi.0": {
+        "id": "DA_Preset_Legend_DevbotOrochi.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "name": {
+            "Key": "BLD_name_Orochi_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Orochi"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisOrochi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoOrochi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotPurifier.0": {
+        "id": "DA_Preset_Legend_DevbotPurifier.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPurifier",
+        "name": {
+            "Key": "BLD_name_Purifier_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Kate's Purifier"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisInquisitor.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoInquisitor.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_FuelReserve.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotRavana.0": {
+        "id": "DA_Preset_Legend_DevbotRavana.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRavana",
+        "name": {
+            "Key": "BLD_name_Ravana_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Marcus's Ravana"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRavana.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRavana.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_RegenerationFull.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotRaven.0": {
+        "id": "DA_Preset_Legend_DevbotRaven.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRaven",
+        "name": {
+            "Key": "BLD_name_Raven_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Kate's Raven"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRaven.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRaven.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlastWave.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotSiren.0": {
+        "id": "DA_Preset_Legend_DevbotSiren.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotSiren",
+        "name": {
+            "Key": "BLD_name_Siren_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Siren"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisSiren.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoSiren.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotTyphon.0": {
+        "id": "DA_Preset_Legend_DevbotTyphon.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon",
+        "name": {
+            "Key": "BLD_name_Typhon_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Typhon"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyphon.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyphon.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Umbrella.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Legend_DevbotTyr.0": {
+        "id": "DA_Preset_Legend_DevbotTyr.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyr",
+        "name": {
+            "Key": "BLD_name_Tyr_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Tyr"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisTyr.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoTyr.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Homing.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_Titan_Alpha.0": {
+        "id": "DA_Preset_Titan_Alpha.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Alpha",
+        "name": {
+            "Key": "CMP_name_ALPHA",
+            "TableNamespace": "Component_name",
+            "en": "Alpha"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisAlpha.1",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAlpha.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLAlpha.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRAlpha.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            }
+        },
+        "is_factory_preset": false
+    },
+    "DA_Preset_Titan_Grim.0": {
+        "id": "DA_Preset_Titan_Grim.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Grim",
+        "name": {
+            "Key": "CMP_name_GRIM",
+            "TableNamespace": "Component_name",
+            "en": "Grim"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGrim.1",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGrim.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLGrim.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRGrim.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "is_factory_preset": false
+    },
+    "DA_Preset_Titan_Grim_Jigsaw.0": {
+        "id": "DA_Preset_Titan_Grim_Jigsaw.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Grim",
+        "name": {
+            "Key": "CMP_name_GRIM",
+            "TableNamespace": "Component_name",
+            "en": "Grim"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisGrim.1",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoGrim.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLGrim.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRGrim.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "is_factory_preset": false
+    },
+    "DA_Preset_Titan_Matriarch.0": {
+        "id": "DA_Preset_Titan_Matriarch.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Matriarch",
+        "name": {
+            "Key": "CMP_name_MATRIARCH",
+            "TableNamespace": "Component_name",
+            "en": "Matriarch"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisMatriarch.1",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoMatriarch.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLMatriarch.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRMatriarch.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0",
+                "parent_socket_name": "Shoulder_L",
+                "level": 1
+            }
+        },
+        "is_factory_preset": false
+    },
+    "DA_Preset_Titan_ScrubberMatriarch.0": {
+        "id": "DA_Preset_Titan_ScrubberMatriarch.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Matriarch",
+        "name": {
+            "Key": "CMP_name_MATRIARCH",
+            "TableNamespace": "Component_name",
+            "en": "Matriarch"
+        },
+        "character_type": "Titan",
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisMatriarch.1",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoMatriarch.0",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderLMatriarch.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRMatriarch.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "is_factory_preset": false
+    }
+}
