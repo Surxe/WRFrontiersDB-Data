@@ -43,6 +43,7 @@
 * Fury's Warp-Nachladung: Füllt nach einer Verzögerung von {**Primär./**}s {**Sekundär.x**}% Munition wieder auf.
 * Griffin's Scrambler: Verhindert, dass Feinde Verbündete im Umkreis von {**Primär.x**}m anvisieren können und teilt den gesamten eintreffenden Schaden auf die Module auf. Dauert {**Sekundär.x**}s. Kein davon betroffene Roboter kann zerstört werden.
 * Harpy's Napalmbombe: Feuert ein Projektil ab, das beim Aufprall {**Sekundär.x**} Explosionsschaden und anschließend {**Primär.x**} Feuerschaden über Zeit verursacht.
+* Hitcher's Geflügelte Drohne: Spawnt eine Drohne mit flachen Flügeln, die {**Sekundär.x**} lang sind. Diese Drohne fügt allen Feinden in ihrem Weg {**Primär.x**} Schaden zu.
 * Purifier's Eiferer: Verbündete in der Nähe verursachen {**Primär.x**}s lang {**Sekundär.x**}% mehr Schaden. Der Effekt erhöht sich durch Kills oder wenn Schilde zerstört werden.
 * Decker's Kettenüberlastung: Infiziert einen gegnerischen Roboter mit einem Virus, der 6 Sekunden lang {**Primär.x**} Schaden pro Sekunde verursacht. Gelangt ein anderer Gegner während der Wirkungsdauer in den {**Sekundär.x**}m-Bereich, springt der Virus auf ihn über. Der Effekt kann sich bis zu 8-mal verketten.
 * Kumo's WarpPanzerung: Der Roboter teleportiert sich an einen ausgewählten Ort und gewährt sich selbst sowie allen Verbündeten in der Nähe eine Schadensreduktion von {**Primär.x**}%. Der Stärkungseffekt hält {**Sekundär.x**}s an.
@@ -107,6 +108,7 @@
 * Fury's Warp Reload: Refills {**Secondary.x**}% of ammo after a {**Primary./**}s delay.
 * Griffin's Scrambler: Prevents enemies from locking on to allies within {**Primary.x**}m and splits all incoming damage between modules. Lasts {**Secondary.x**}s. Any robot affected cannot be destroyed.
 * Harpy's Napalm Shell: Fires a projectile that deals {**Secondary.x**} blast damage on impact, then {**Primary.x**} fire damage over time.
+* Hitcher's Winged Drone: Spawns a drone with flat {**Secondary.x**} long wings that makes {**Primary.x**} damage to all the enemies on its way.
 * Purifier's Zealot: Nearby allies deal {**Secondary.x**}% more damage for {**Primary.x**}s. Effect increases whenever they score kills or destroy shields.
 * Decker's Chain Overload: Infects an enemy robot with a virus that deals {**Primary.x**} damage per second for 6 seconds. If another enemy comes within {**Secondary.x**}m during the effect, the virus jumps to them. Can chain up to 8 times.
 * Kumo's WarpArmor: The robot teleports to a selected spot and casts a {**Primary.x**}% damage reduction on itself and all allies nearby. The buff lasts for {**Secondary.x**}s
@@ -171,6 +173,7 @@
 * Fury's Recarga de distorsión: Rellena {**Secundario.x**}% de munición tras un retardo de {**Primario./**} s.
 * Griffin's Codificador: Evita que los enemigos apunten a los aliados en un radio de {**Primario.x**} m y divide el daño entrante entre los módulos. Dura {**Secundario.x**} s. Cualquier robot afectado no puede ser destruido.
 * Harpy's Caparazón de napalm: Dispara un proyectil que inflige {**Secundario.x**} de daño de explosión al impactar y {**Primario.x**} de daño de fuego prolongado.
+* Hitcher's Dron alado: Genera un dron con alas planas de {**Secundario.x**} de largo que inflige {**Primario.x**} de daño a todos los enemigos que encuentra a su paso.
 * Purifier's Fanático: Los aliados cercanos infligen {**Secundario.x**}% más de daño durante {**Primario.x**} s. El efecto aumenta cuando se causan bajas o se destruyen escudos.
 * Cubierta's Sobrecarga en Cadena: Infecta a un robot enemigo con un virus que inflige {**Primario.x**} de daño por segundo durante 6 segundos. Si otro enemigo entra en un radio de {**Secundario.x**} m durante el efecto, el virus salta a él. Puede rebotar hasta 8 veces.
 * Kumo's Armadura de teletransporte: El robot se teletransporta a un punto seleccionado y aplica {**Primario.x**}% de reducción de daño a sí mismo y a los aliados cercanos. La mejora dura {**Secundario.x**} s
@@ -235,6 +238,7 @@
 * Fury's Recharge de distorsion: Régénère {**Secondaire.x**} % des munitions après un délai de {**Primaire./**} s.
 * Griffin's Brouilleur: Empêche les ennemis de prendre vos alliés pour cibles dans un rayon de {**Primaire.x**} m et répartit les dégâts subis entre les modules. Dure {**Secondaire.x**} s. Tout robot affecté ne peut être détruit.
 * Harpy's Douille de napalm: Tire un projectile qui inflige {**Secondaire.x**} points de dégâts d'explosion à l'impact, puis {**Primaire.x**} dégâts de feu au fil du temps.
+* Hitcher's Drone ailé: Fait apparaître un drone aux ailes plates et longues de {**Secondaire.x**} qui inflige {**Primaire.x**} points de dégâts à tous les ennemis sur son chemin.
 * Purifier's Zélote: Vos alliés proches infligent {**Secondaire.x**} % points de dégâts en plus pendant {**Primaire.x**} s. L'effet augmente s'ils font des victimes ou détruisent des boucliers.
 * Decker's Surcharge en cascade: Infecte un mécha ennemi avec un virus qui inflige {**Primaire.x**} DPS pendant 6 s. Si un autre ennemi s'approche à moins de {**Secondaire.x**} m durant l'effet, le virus se propage à lui. Peut s'enchaîner jusqu'à 8 fois.
 * Kumo's Armure de distorsion: Le robot se téléporte à l'emplacement sélectionné et s'applique une réduction des dégâts de {**Primaire.x**} % ainsi qu'à tous les alliés proches. L'amélioration dure {**Secondaire.x**} s
@@ -299,6 +303,7 @@
 * Fury's ワープリロード: {**メイン./**}秒後に{**サブ.x**}%の弾薬が補充される。
 * Griffin's スクランブラー: 敵が{**メイン.x**}m以内の味方にロックオンするのを防ぎ、被ダメージをすべてのモジュール間で分割する。{**サブ.x**}秒間持続する。影響を受けたロボットは破壊されない。
 * Harpy's ナパーム弾: 着弾時に{**サブ.x**}のブラストダメージを与え、時間の経過ととも{**メイン.x**}の火災ダメージを与える発射体を発射する。
+* ヒッチャー's ウイングドローン: 平らで{**サブ.x**}の長さの翼を持ったドローンを出現させ、進路上のすべての敵に{**メイン.x**}ダメージを与える。
 * Purifier's ジーロット: 近くの味方が与えるダメージが{**メイン.x**}秒間、{**サブ.x**}%増加する。キルするかシールドを破壊するたびに効果が増大する。
 * デッカー's 連鎖オーバーロード: 敵機をウイルスに感染させ、毎秒{**メイン.x**}ダメージを6秒間与える。効果中に別の敵機が{**サブ.x**}m以内に入るとウイルスが伝染し、最大8回まで連鎖する。
 * クモ's ワープアーマー: ロボットは指定点へテレポートし、自身と周囲の味方全員に{**メイン.x**}%の被ダメージ軽減を付与します。このバフは{**サブ.x**}秒続きます。
@@ -363,6 +368,7 @@
 * 퓨리's 워프 재장전: {**주./**}초 지연 후 탄약의 {**보조.x**}%를 보충합니다.
 * 그리핀's 스크램블러: 적이 {**주.x**}m 내의 아군을 추적하지 못하게 하고, 받는 모든 피해를 모듈 간에 분산시킵니다. {**보조.x**}초 동안 지속됩니다. 영향받는 로봇은 파괴할 수 없습니다.
 * 하피's 네이팜 포탄: 투사체를 발사하여 명중 시 {**보조.x**} 폭발 피해를 입히고, 이후 {**주.x**} 화염 피해를 지속적으로 입힙니다.
+* Hitcher's 날개 드론: 평평한 날개 길이 {**보조.x**}의 드론을 소환하고 경로의 모든 적에게 {**주.x**} 피해를 줍니다.
 * 퓨리파이어's 광신도: 근처 아군이 {**주.x**}초 동안 {**보조.x**}%의 추가 피해를 입힙니다. 아군이 적을 처치하거나 실드를 파괴할 때마다 효과가 증가합니다.
 * 데커's 연쇄 과부하: 적 로봇을 바이러스로 감염시켜 6초 동안 초당 {**주.x**} 피해를 입힙니다. 효과가 지속되는 동안 다른 적이 {**보조.x**}m 범위 내로 들어오면 바이러스가 전이됩니다. 최대 8번까지 연쇄됩니다.
 * 쿠모's 워프아머: 로봇은 선택한 위치로 순간이동하고 자신과 주변 모든 아군에게 {**주.x**}%의 받는 피해 감소 효과를 부여합니다. 이 강화 효과는 {**보조.x**}초 동안 지속됩니다.
@@ -427,6 +433,7 @@
 * Fury's Przeładowanie warp: Uzupełnia {**Drugoplanowy.x**}% amunicji po opóźnieniu wynoszącym {**Podstawowy./**} sek.
 * Griffin's Szyfrator: Zapobiega blokadzie pocisków naprowadzanych wroga na sojusznikach w odległości {**Podstawowy.x**} m oraz rozdziela otrzymywane obrażenia pomiędzy moduły. Czas aktywności: {**Drugoplanowy.x**} sek. Robot pod wpływem nie może zostać zniszczony.
 * Harpy's Pocisk z napalmem: Wystrzeliwuje rakietę, która powoduje {**Drugoplanowy.x**} obrażeń od eksplozji, a następnie (z czasem) również {**Podstawowy.x**} obrażeń od ognia.
+* Hitcher's Skrzydlaty dron: Wystrzeliwuje drona z płaskimi skrzydłami o długości {**Drugoplanowy.x**}, który zadaje {**Podstawowy.x**} obrażeń wszystkim wrogom na swojej drodze.
 * Purifier's Fanatyk: Pobliscy sojusznicy zadają {**Drugoplanowy.x**}% więcej obrażeń przez {**Podstawowy.x**} sek. Efekt zwiększa się po wyeliminowaniu przez sojuszników wroga lub zniszczeniu jego tarczy.
 * Decker's Przeciążenie Kaskadowe: Infekuje wrogiego robota wirusem, który zadaje {**Podstawowy.x**} obrażeń na sekundę przez 6 sekund. Jeśli w tym czasie inny przeciwnik znajdzie się w zasięgu {**Drugoplanowy.x**} m, wirus przeskakuje również na niego. Może przeskoczyć do 8 razy.
 * Kumo's Zbroja warp: Robot teleportuje się do wybranego miejsca i rzuca na siebie oraz wszystkich pobliskich sojuszników {**Podstawowy.x**}% redukcji obrażeń. Wzmocnienie trwa {**Drugoplanowy.x**} sek.
@@ -491,6 +498,7 @@
 * Fury's Recarregar a Dobra: Recupera {**Secundário.x**}% da munição após um atraso de {**Primário./**}s.
 * Griffin's Misturador: Impede que os inimigos travem nos aliados dentro de {**Primário.x**}m e divide todo o dano recebido entre os módulos. Dura {Duration}. Nenhum robô afetado pode ser destruído.
 * Harpy's Bala de Napalm: Atira um projétil que causa {**Secundário.x**} de dano de explosão no impacto e {**Primário.x**} de dano de fogo ao longo do tempo.
+* Carona's Drone Alado: Cria um drone com asas planas de {**Secundário.x**}, que causam {**Primário.x**} de dano aos inimigos em seu caminho.
 * Purifier's Fanático: Aliados próximos causam {**Secundário.x**}% mais dano por {**Primário.x**}s. O efeito aumenta quando seus aliados abaterem robôs ou destruírem escudos.
 * Decker's Sobrecarga em Cadeia: Infecta uma máquina inimiga com um vírus que causa {**Primário.x**} de dano por segundo durante 6 segundos. Se outra máquina inimiga entrar no raio de {**Secundário.x**}m durante o efeito, o vírus se espalha para ela. Pode se encadear até 8 vezes.
 * Kumo's Armadura das Dobras: O robô se teletransporta para um local selecionado e aplica uma redução de dano de {**Primário.x**}% em si mesmo e em todos os aliados ao redor. O Reforço dura por {**Secundário.x**}s.
@@ -555,6 +563,7 @@
 * Fury's Варп-перезарядка: Через {**Основное./**}сек. восполняет {**Второстепенное.x**}% боезапаса.
 * Griffin's Подавитель сигнала: Не позволяет противникам захватывать цели в пределах {**Основное.x**}м и разделяет получаемый урон между модулями. Длительность: {**Второстепенное.x**}сек.. Находящиеся под действием эффекта роботы не могут быть уничтожены.
 * Harpy's Напалмовый снаряд: Выпускает снаряд, наносящий {**Второстепенное.x**} ед. взрывного урона при попадании и {**Основное.x**} ед. периодического урона огнём.
+* Hitcher's Крылатый дрон: Вызывает дрона с плоскими крыльями длиной {**Второстепенное.x**}, наносящего {**Основное.x**} ед. урона всем противникам на пути.
 * Purifier's Фанатизм: В течение {**Основное.x**}сек. урон ближайших союзников увеличивается на {**Второстепенное.x**}%. Эффект усиливается, когда союзники уничтожают противников или их щиты.
 * Decker's Каскадная перегрузка: Заражает вражеского робота вирусом, который наносит {**Основное.x**} урона в секунду в течение 6 сек. Если другой противник окажется в радиусе {**Второстепенное.x**}м во время действия эффекта, вирус перескочит на него. Эффект может распространиться до 8 раз.
 * Kumo's Варп-броня: Робот телепортируется в указанную точку и снижает получаемый урон (свой и всех союзников поблизости) на {**Основное.x**}%. Эффект длится {**Второстепенное.x**}сек..
@@ -619,6 +628,7 @@
 * Fury's Işın Doldurma: {**Birincil./**}sn gecikme ardından {**İkincil.x**}% cephane doldurur.
 * Griffin's Çırpıcı: Düşmanların {**Birincil.x**}m dahilindeki müttefikler üzerinde kilitlenmesini önler ve alınan hasarı tüm modüllere bölüştürür. {**İkincil.x**}sn sürer. Etkilenen robotlar imha edilemez.
 * Harpy's Napalm Fişeği: Anında {**İkincil.x**} patlama hasarı sonra da süreye yayılan {**Birincil.x**} ateş hasarı veren bir mermi atar.
+* Otostopçu's Kanatlı Dron: {**İkincil.x**} uzunluğunda düz kanatlara sahip bir dron oluşturur ve yoluna çıkan tüm düşmanlara {**Birincil.x**} hasar verir.
 * Purifier's Zelot: Yakındaki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha çok hasar verir. Öldürme skoru yaptıklarında ya da kalkan imha ettiklerinde etki artar.
 * Decker's Zincirleme Aşırı Yük: Düşman bir robotu, 6 saniye boyunca saniye başına {**Birincil.x**} hasar veren bir virüsle enfekte eder. Etki süresince {**İkincil.x**}m menziline başka bir düşman girerse virüs ona da sıçrar. Bu etki 8 defaya kadar zincirlenebilir.
 * Kumo's Işın Zırhı: Robot, seçilen bir noktaya ışınlanarak kendisine ve yakındaki tüm müttefiklerine {**Birincil.x**}% hasar azaltma uygular. Bu güçlendirme {**İkincil.x**}sn sürer.
@@ -683,6 +693,7 @@
 * Fury's 曲速装弹: {**副.x**}%延迟后，补充{**主./**}秒的弹药。
 * Griffin's 扰频器: 使敌人无法锁定{**主.x**}米范围内的队友，并将受到的伤害均摊给所有模块。持续{**副.x**}秒。所有受影响的机器人均无法被摧毁。
 * Harpy's 凝固汽油弹: 发射一枚炮弹，命中时造成{**副.x**}点爆炸伤害，随后造成{**主.x**}点持续火焰伤害。
+* Hitcher's 带翼无人机: 生成一架翼展为{**副.x**}的无人机，对沿途所有敌人造成{**主.x**}点伤害。
 * Purifier's 狂徒: 附近队友造成的伤害提高{**副.x**}%，持续{**主.x**}秒。每次队友完成击杀或摧毁护盾，该效果都会得到强化。
 * Decker's 连锁过载: 感染一名敌方机器人，对其施加病毒，在6秒内每秒造成 {**主.x**} 点伤害。效果期间，若有另一名敌人进入 {**副.x**}米 范围，病毒将传染给对方。此效果最多可连锁8次。
 * Kumo's 传送甲: 机甲传送至指定位置为自身及周围友军施加{**主.x**}%减伤效果。此减伤效果持续{**副.x**}秒。
@@ -747,6 +758,7 @@
 * Fury's 蟲洞填裝: 延遲 {**主要./**}秒 之後，補充 {**次要.x**}% 彈藥。
 * Griffin's 脈衝干擾: 防止敵人鎖定 {**主要.x**}公尺 範圍內的友軍，且會將來襲的傷害分攤至各個模組之上。持續 {**次要.x**}秒。受到影響的所有機器人無法被摧毀。
 * Harpy's 火海試煉: 發射投射物，命中後造成 {**次要.x**} 傷害，然後持續造成 {**主要.x**} 燃燒傷害。
+* 搭載器's 翼型無人機: 召喚一架翼展長達 {**次要.x**} 的無人機，對沿途所有敵人造成 {**主要.x**} 傷害。
 * Purifier's 堅盾狂徒: 附近友軍造成的傷害提高 {**次要.x**}%，持續 {**主要.x**}秒。當隊友擊殺或摧毀護盾時，強化規模提高。
 * Decker's 鏈式超載: 使敵方機甲感染病毒，在 6 秒內每秒造成 {**主要.x**} 傷害。效果期間，若有其他敵人進入 {**次要.x**}公尺 範圍，病毒就會轉移至其身上。最多可連鎖 8 次。
 * Kumo's 曲速裝甲: 機甲瞬移至目標位置，並對自身與周圍所有戰友發動{**主要.x**}%的減傷。此增益效果將持續{**次要.x**}秒。
