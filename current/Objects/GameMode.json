@@ -12,20 +12,20 @@
             "en": "There are several Warp Gates on the map. Your task is to take and hold them. The team that holds the most earns points. To win, either reach the points target first or eliminate the opposition."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 1.2,
-            "ReputationPerHonorPoint": 0.75,
+            "CreditsPerHonorPoint": 0.8,
+            "ReputationPerHonorPoint": 0.5,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.8
+                    "Multiplier": 0.55
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.6
+                    "Multiplier": 0.4
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.3
+                    "Multiplier": 0.2
                 }
             ]
         },
@@ -334,20 +334,20 @@
             "en": "The first team to destroy all opposing robots wins the battle. If the time runs out, the team with the most remaining robots wins."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 1.2,
-            "ReputationPerHonorPoint": 0.75,
+            "CreditsPerHonorPoint": 0.8,
+            "ReputationPerHonorPoint": 0.5,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.8
+                    "Multiplier": 0.55
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.6
+                    "Multiplier": 0.4
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.3
+                    "Multiplier": 0.2
                 }
             ]
         },
@@ -932,20 +932,20 @@
             "en": "Destroying an enemy robot scores 1 point for your team. The first team to score {goal} points wins. Your supply of robots is unlimited."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 1.2,
-            "ReputationPerHonorPoint": 0.75,
+            "CreditsPerHonorPoint": 0.8,
+            "ReputationPerHonorPoint": 0.5,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.8
+                    "Multiplier": 0.55
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.6
+                    "Multiplier": 0.4
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.3
+                    "Multiplier": 0.2
                 }
             ]
         },
