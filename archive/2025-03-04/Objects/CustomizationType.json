@@ -1,0 +1,34 @@
+{
+    "DA_CustomizationItemType_Decal.0": {
+        "id": "DA_CustomizationItemType_Decal.0",
+        "name": {
+            "Key": "Customization_EntityType_Decal",
+            "TableNamespace": "Customization",
+            "en": "Sticker"
+        },
+        "group_reward_ref": "OBJID_GroupReward::DA_CustomizationGroup.0"
+    },
+    "DA_CustomizationItemType_Material.0": {
+        "id": "DA_CustomizationItemType_Material.0",
+        "name": {
+            "Key": "Customization_EntityType_Material",
+            "TableNamespace": "Customization",
+            "en": "Paint"
+        },
+        "group_reward_ref": "OBJID_GroupReward::DA_CustomizationGroup.0"
+    },
+    "DA_CustomizationItemType_Weathering.0": {
+        "id": "DA_CustomizationItemType_Weathering.0",
+        "name": {
+            "Key": "Customization_EntityType_Weathering",
+            "TableNamespace": "Customization",
+            "en": "Wear & Tear"
+        },
+        "type_tip": {
+            "Key": "Customization_WeatheringOverview",
+            "TableNamespace": "Customization",
+            "en": "Applies to the entire robot."
+        },
+        "group_reward_ref": "OBJID_GroupReward::DA_CustomizationGroup.0"
+    }
+}
