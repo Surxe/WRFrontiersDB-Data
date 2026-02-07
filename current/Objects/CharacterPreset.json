@@ -6196,8 +6196,63 @@
         "is_factory_preset": true,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotKernel.0": {
+        "id": "DA_Preset_DevbotKernel.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKernel",
+        "name": {
+            "Key": "CMP_name_Kernel_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Decker"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisKernel.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoKernel.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Hefty.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderKernel.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Hefty.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderKernel.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SupplySurge.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotKumo.0": {
         "id": "DA_Preset_DevbotKumo.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKumo",
         "name": {
             "Key": "CMP_name_Kumo_Torso",
             "TableNamespace": "Component_name",

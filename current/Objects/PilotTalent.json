@@ -2121,6 +2121,35 @@
             }
         ]
     },
+    "DA_Talent_Ult_Dredge.0": {
+        "id": "DA_Talent_Ult_Dredge.0",
+        "name": {
+            "Key": "TAL_name_Ult_Dredge",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Fragments Synergy"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Dredge",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Every assist you make increases primary and secondary parameter of your signature ability by 10% for 15 sec. Effect stacks up to 4 times."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateDredgeCollins",
+        "default_properties": {
+            "MaxStacks": 4,
+            "Lifetime": 15.0
+        },
+        "stats": [
+            {
+                "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_AbilityParamBoost.0",
+                "value": 0.1
+            }
+        ],
+        "buffs": [
+            {
+                "icon_path": "/Engine/MobileResources/HUD/AnalogHat"
+            }
+        ]
+    },
     "DA_Talent_Ult_Duncan.0": {
         "id": "DA_Talent_Ult_Duncan.0",
         "name": {
@@ -2154,6 +2183,52 @@
                 "value": 0.2
             }
         ]
+    },
+    "DA_Talent_Ult_Emma.0": {
+        "id": "DA_Talent_Ult_Emma.0",
+        "name": {
+            "Key": "TAL_name_Ult_Emma",
+            "TableNamespace": "ST_Talent_Name",
+            "en": "Ghost Visor"
+        },
+        "description": {
+            "Key": "TAL_desc_Ult_Emma",
+            "TableNamespace": "ST_Talent_Description",
+            "en": "Enemies that hit Emma’s mech become marked: visible, focusable, and take {DmgBoost} more damage from weapons for {Duration}. Talent has a cooldown {CD}."
+        },
+        "ui_description": {
+            "Key": "PilotHUD_DmgBuff",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon damage"
+        },
+        "short_ui_description": {
+            "Key": "PilotHUD_DmgBuff_Short",
+            "TableNamespace": "UI_Pilots",
+            "en": "+{DmgBoost} weapon DMG"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_UltimateEmma",
+        "target_buffs": [
+            {
+                "bPrivateSpotting": true
+            }
+        ],
+        "stats": [
+            {
+                "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Duration.0",
+                "value": 6.0
+            },
+            {
+                "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_DamageBoost.0",
+                "value": 0.04
+            },
+            {
+                "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0",
+                "value": 16.0
+            }
+        ],
+        "default_properties": {
+            "Lifetime": 20.0
+        }
     },
     "DA_Talent_Ult_Ever.0": {
         "id": "DA_Talent_Ult_Ever.0",
