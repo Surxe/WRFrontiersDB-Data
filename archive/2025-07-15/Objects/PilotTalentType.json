@@ -1,0 +1,226 @@
+{
+    "DA_TalentType_ClassBrawler.0": {
+        "id": "DA_TalentType_ClassBrawler.0",
+        "name": {
+            "Key": "Pilot_Class_Brawler",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Assault"
+        },
+        "description": {
+            "Key": "Pilot_Class_desc_Brawler",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "The perfect balance of armor and mobility. Does a lot of damage, using simple and straightforward tactics."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Brawler"
+    },
+    "DA_TalentType_ClassFlanker.0": {
+        "id": "DA_TalentType_ClassFlanker.0",
+        "name": {
+            "Key": "Pilot_Class_Flanker",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Flanker"
+        },
+        "description": {
+            "Key": "Pilot_Class_desc_Flanker",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Relying on burst weapons and mobility, these pilots employ hit-and-run tactics that keep the enemy on edge."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Flanker"
+    },
+    "DA_TalentType_ClassRSupport.0": {
+        "id": "DA_TalentType_ClassRSupport.0",
+        "name": {
+            "Key": "Pilot_Class_RangedSupport",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Tactician"
+        },
+        "description": {
+            "Key": "Pilot_Class_desc_RSupport",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Reliable for repairs and support. These pilots prefer long-range engagements and assisting others."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_RangerSupport"
+    },
+    "DA_TalentType_ClassTank.0": {
+        "id": "DA_TalentType_ClassTank.0",
+        "name": {
+            "Key": "Pilot_Class_Tank",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Defender"
+        },
+        "description": {
+            "Key": "Pilot_Class_desc_Tank",
+            "TableNamespace": "ST_Pilot_Class",
+            "en": "Strong and well-armored. These mercenaries might be a bit slower, but they are the pilots you want fighting at your side."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Tank"
+    },
+    "DA_TalentType_FactionFortevo.0": {
+        "id": "DA_TalentType_FactionFortevo.0",
+        "name": {
+            "Key": "Pilot_Faction_FortEvo",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "FortEvo"
+        },
+        "description": {
+            "Key": "Pilot_Faction_desc_FortEvo",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Believes that human survival depends on adaptation. Relies heavily on mechanical and biological engineering."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_FortEvo"
+    },
+    "DA_TalentType_FactionFreecon.0": {
+        "id": "DA_TalentType_FactionFreecon.0",
+        "name": {
+            "Key": "Pilot_Faction_Freecon",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Freecon"
+        },
+        "description": {
+            "Key": "Pilot_Faction_desc_Freecon",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Expansionists who strike a balance between a human's inherent potential and the advantages of augmentation."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Freecon"
+    },
+    "DA_TalentType_FactionMayflower.0": {
+        "id": "DA_TalentType_FactionMayflower.0",
+        "name": {
+            "Key": "Pilot_Faction_Mayflower",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Mayflower"
+        },
+        "description": {
+            "Key": "Pilot_Faction_desc_Mayflower",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Human traditionalists with extraordinary mastery of their bodies and minds through disciplined training."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Mayflower"
+    },
+    "DA_TalentType_FactionTortuga.0": {
+        "id": "DA_TalentType_FactionTortuga.0",
+        "name": {
+            "Key": "Pilot_Faction_Tortuga",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Tortuga"
+        },
+        "description": {
+            "Key": "Pilot_Faction_desc_Tortuga",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "A community of rebels outside of Dominion control. Home to mercenary pilots who are equal parts allies and enemies."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Tortuga"
+    },
+    "DA_TalentType_General.0": {
+        "id": "DA_TalentType_General.0",
+        "name": {
+            "Key": "Pilot_TalentType_General",
+            "TableNamespace": "Pilots_Info",
+            "en": "General"
+        },
+        "description": {
+            "Key": "Pilot_TalentType_desc_General",
+            "TableNamespace": "Pilots_Info",
+            "en": "Common skills. Some are natural, while others were learned before becoming a pilot."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_General"
+    },
+    "DA_TalentType_PersBrave.0": {
+        "id": "DA_TalentType_PersBrave.0",
+        "name": {
+            "Key": "Pilot_Personality_Brave",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Brave"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Brave",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Fearlessly charges into battle without a second thought. Always ready for a close combat fight."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Brave"
+    },
+    "DA_TalentType_PersCautious.0": {
+        "id": "DA_TalentType_PersCautious.0",
+        "name": {
+            "Key": "Pilot_Personality_Cautious",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Cautious"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Cautious",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "These pilots are cautious and steady, preferring to attack from the safety of their team's territory."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Cautions"
+    },
+    "DA_TalentType_PersHandy.0": {
+        "id": "DA_TalentType_PersHandy.0",
+        "name": {
+            "Key": "Pilot_Personality_Handy",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Smart"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Handy",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "This pilot combines brains and brawn, making calculated decisions to maximize combat efficiency."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Handy"
+    },
+    "DA_TalentType_PersLeader.0": {
+        "id": "DA_TalentType_PersLeader.0",
+        "name": {
+            "Key": "Pilot_Personality_Leader",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Leader"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Leader",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Believes winning is a team sport. Enhances combat through team tactics and individual valor."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Leader"
+    },
+    "DA_TalentType_PersMadman.0": {
+        "id": "DA_TalentType_PersMadman.0",
+        "name": {
+            "Key": "Pilot_Personality_Madman",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Volatile"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Madman",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Loves fire, explosions, and dealing damage. Takes on high risks for high rewards."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Madman"
+    },
+    "DA_TalentType_PersSneaky.0": {
+        "id": "DA_TalentType_PersSneaky.0",
+        "name": {
+            "Key": "Pilot_Personality_Sneaky",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Sneaky"
+        },
+        "description": {
+            "Key": "Pilot_Pers_desc_Sneaky",
+            "TableNamespace": "ST_Pilot_Personality",
+            "en": "Master of stealth. This trait enhances a pilot's aptitude for ambushes, assassinations, and infiltration."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_Sneaky"
+    },
+    "DA_TalentType_Ult.0": {
+        "id": "DA_TalentType_Ult.0",
+        "name": {
+            "Key": "Pilot_TalentType_Ult",
+            "TableNamespace": "Pilots_Info",
+            "en": "Ace"
+        },
+        "description": {
+            "Key": "Pilot_TalentType_desc_Ult",
+            "TableNamespace": "Pilots_Info",
+            "en": "An advanced and stylish pilot skill that can only be acquired through experience and hard training."
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Traits/T_Trait_UltimateAll"
+    }
+}
