@@ -3306,6 +3306,194 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability4.0"
     },
+    "DA_Module_Ability_Repulsor.1": {
+        "id": "DA_Module_Ability_Repulsor.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Repulsor",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Ability_Repulsor.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Movement.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Cooldown": 20.0,
+                "PrimaryParameter": 7000.0,
+                "SecondaryParameter": 10000.0
+            },
+            "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Force.0",
+            "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Damage.0",
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_class_ref_2": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Movement",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                    "MaxCharges": 3,
+                    "ChargeDuration": 0.0,
+                    "ID": "Repulsor",
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 5.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl1_scrap2"
+                        ],
+                        "Cooldown": 35.0,
+                        "PrimaryParameter": 47.781,
+                        "SecondaryParameter": 1823.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl2_scrap2"
+                        ],
+                        "Cooldown": 35.0,
+                        "PrimaryParameter": 50.2958,
+                        "SecondaryParameter": 1823.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl3_scrap2"
+                        ],
+                        "Cooldown": 35.0,
+                        "PrimaryParameter": 50.2958,
+                        "SecondaryParameter": 2025.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl4_scrap2"
+                        ],
+                        "Cooldown": 35.0,
+                        "PrimaryParameter": 52.9429,
+                        "SecondaryParameter": 2025.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl5_scrap2"
+                        ],
+                        "Cooldown": 29.0,
+                        "PrimaryParameter": 52.9429,
+                        "SecondaryParameter": 2025.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl6_scrap2"
+                        ],
+                        "Cooldown": 29.0,
+                        "PrimaryParameter": 55.729400000000005,
+                        "SecondaryParameter": 2025.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl7_scrap2"
+                        ],
+                        "Cooldown": 29.0,
+                        "PrimaryParameter": 55.729400000000005,
+                        "SecondaryParameter": 2250.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl8_scrap2"
+                        ],
+                        "Cooldown": 29.0,
+                        "PrimaryParameter": 58.6625,
+                        "SecondaryParameter": 2250.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl9_scrap2"
+                        ],
+                        "Cooldown": 24.0,
+                        "PrimaryParameter": 58.6625,
+                        "SecondaryParameter": 2250.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl10_scrap2"
+                        ],
+                        "Cooldown": 24.0,
+                        "PrimaryParameter": 61.75,
+                        "SecondaryParameter": 2250.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl11_scrap2"
+                        ],
+                        "Cooldown": 24.0,
+                        "PrimaryParameter": 61.75,
+                        "SecondaryParameter": 2500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl12_scrap2"
+                        ],
+                        "Cooldown": 24.0,
+                        "PrimaryParameter": 65.0,
+                        "SecondaryParameter": 2500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Repulsor.1_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_Repulsor.1_lvl13_scrap2"
+                        ],
+                        "Cooldown": 20.0,
+                        "PrimaryParameter": 65.0,
+                        "SecondaryParameter": 2500.0
+                    }
+                ]
+            },
+            "module_name": "Repulsor"
+        },
+        "name": {
+            "Key": "ABL_name_Repulsor",
+            "TableNamespace": "Ability_name",
+            "en": "Repulsor"
+        },
+        "description": {
+            "Key": "ABL_descr_Repulsor",
+            "TableNamespace": "Ability_descripton",
+            "en": "Deals {Dmg} damage to enemies, and pushes them and you away from each other with {Force} force. Cooldown: {CD}. {Consum} uses."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0",
+            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability3.0"
+    },
     "DA_Module_Ability_SmokeWall.1": {
         "id": "DA_Module_Ability_SmokeWall.1",
         "production_status": "Ready",
@@ -7869,6 +8057,210 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
         ]
     },
+    "DA_Module_ChassisScorpion.2": {
+        "id": "DA_Module_ChassisScorpion.2",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisScorpion",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Scorpion_Chassis.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "LegsArmor": 80000.0,
+                "MaxSpeed": 2500.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "LoadCapacity": 44.0,
+                    "EnergyCapacity": 45.0,
+                    "ID": "BP_Module_Scorpion_Chassis",
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl1_scrap2"
+                        ],
+                        "LegsArmor": 51959.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 13.0,
+                        "Armor": 51959.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl2_scrap2"
+                        ],
+                        "LegsArmor": 54011.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 13.0,
+                        "Armor": 54011.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl3_scrap2"
+                        ],
+                        "LegsArmor": 54011.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 14.0,
+                        "Armor": 54011.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl4_scrap2"
+                        ],
+                        "LegsArmor": 56145.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 14.0,
+                        "Armor": 56145.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl5_scrap2"
+                        ],
+                        "LegsArmor": 56145.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 14.0,
+                        "Armor": 56145.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl6_scrap2"
+                        ],
+                        "LegsArmor": 57408.0,
+                        "MaxSpeed": 3083.3333,
+                        "FuelCapacity": 14.0,
+                        "Armor": 57408.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl7_scrap2"
+                        ],
+                        "LegsArmor": 57408.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 14.0,
+                        "Armor": 57408.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl8_scrap2"
+                        ],
+                        "LegsArmor": 58699.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 14.0,
+                        "Armor": 58699.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl9_scrap2"
+                        ],
+                        "LegsArmor": 58699.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 14.0,
+                        "Armor": 58699.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl10_scrap2"
+                        ],
+                        "LegsArmor": 59593.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 14.0,
+                        "Armor": 59593.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl11_scrap2"
+                        ],
+                        "LegsArmor": 59593.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 15.0,
+                        "Armor": 59593.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl12_scrap2"
+                        ],
+                        "LegsArmor": 60500.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 15.0,
+                        "Armor": 60500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisScorpion.2_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisScorpion.2_lvl13_scrap2"
+                        ],
+                        "LegsArmor": 60500.0,
+                        "MaxSpeed": 3277.7778,
+                        "FuelCapacity": 15.0,
+                        "Armor": 60500.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Scorpion_Chassis"
+        },
+        "abilities_scalars": [
+            {
+                "default_scalars": {
+                    "Cooldown": 1.5
+                }
+            },
+            {
+                "default_scalars": {
+                    "ChargeRegenDuration": 20.0
+                }
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Scorpion_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Scorpion"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Chassis.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
+        ]
+    },
     "DA_Module_ChassisSiren.2": {
         "id": "DA_Module_ChassisSiren.2",
         "production_status": "Ready",
@@ -8094,86 +8486,6 @@
             "en": "Ares"
         },
         "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
-        "module_classes_refs": [
-            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
-        ],
-        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
-        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Chassis.0",
-        "module_socket_type_refs": [
-            "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
-        ]
-    },
-    "DA_Module_ChassisSpiderBig.2": {
-        "id": "DA_Module_ChassisSpiderBig.2",
-        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisSpider",
-        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
-        "character_module_mounts": [
-            {
-                "character_module_ref": "OBJID_CharacterModule::BP_Module_SpiderBig_Chassis.0",
-                "mount": "Standard"
-            }
-        ],
-        "module_scalars": {
-            "default_scalars": {
-                "LegsArmor": 80000.0,
-                "MaxSpeed": 2300.0,
-                "FuelCapacity": 16.0,
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        },
-        "abilities_scalars": [
-            {},
-            {
-                "default_scalars": {
-                    "ChargeRegenDuration": 20.0
-                }
-            }
-        ],
-        "name": {
-            "InvariantString": "Spider"
-        },
-        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
-        "module_classes_refs": [
-            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
-        ],
-        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
-        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Chassis.0",
-        "module_socket_type_refs": [
-            "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
-        ]
-    },
-    "DA_Module_ChassisSpider_V2.2": {
-        "id": "DA_Module_ChassisSpider_V2.2",
-        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisSpider",
-        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
-        "character_module_mounts": [
-            {
-                "character_module_ref": "OBJID_CharacterModule::BP_Module_Spider_Chassis_V2.0",
-                "mount": "Standard"
-            }
-        ],
-        "module_scalars": {
-            "default_scalars": {
-                "LegsArmor": 80000.0,
-                "MaxSpeed": 2600.0,
-                "FuelCapacity": 16.0,
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        },
-        "abilities_scalars": [
-            {},
-            {
-                "default_scalars": {
-                    "ChargeRegenDuration": 20.0
-                }
-            }
-        ],
-        "name": {
-            "InvariantString": "Spider"
-        },
-        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
             "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
         ],
@@ -13853,6 +14165,185 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
+    },
+    "DA_Module_ShoulderScorpion.0": {
+        "id": "DA_Module_ShoulderScorpion.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderScorpion",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Scorpion_ShoulderL.0",
+                "mount": "Left"
+            },
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Scorpion_ShoulderR.0",
+                "mount": "Right"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ShieldDelayReduction": 0.035,
+                    "ID": "BP_Module_Scorpion_ShoulderL",
+                    "WeightDrain": 10.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl1_scrap2"
+                        ],
+                        "ShieldAmount": 23336.0,
+                        "ShieldRegeneration": 3967.0,
+                        "Armor": 43266.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl2_scrap2"
+                        ],
+                        "ShieldAmount": 23803.0,
+                        "ShieldRegeneration": 4047.0,
+                        "Armor": 43266.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl3_scrap2"
+                        ],
+                        "ShieldAmount": 24279.0,
+                        "ShieldRegeneration": 4127.0,
+                        "Armor": 44375.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl4_scrap2"
+                        ],
+                        "ShieldAmount": 24765.0,
+                        "ShieldRegeneration": 4210.0,
+                        "Armor": 44375.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl5_scrap2"
+                        ],
+                        "ShieldAmount": 25260.0,
+                        "ShieldRegeneration": 4294.0,
+                        "Armor": 46224.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl6_scrap2"
+                        ],
+                        "ShieldAmount": 25765.0,
+                        "ShieldRegeneration": 4380.0,
+                        "Armor": 46224.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl7_scrap2"
+                        ],
+                        "ShieldAmount": 26280.0,
+                        "ShieldRegeneration": 4468.0,
+                        "Armor": 46928.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl8_scrap2"
+                        ],
+                        "ShieldAmount": 26806.0,
+                        "ShieldRegeneration": 4557.0,
+                        "Armor": 46928.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl9_scrap2"
+                        ],
+                        "ShieldAmount": 27342.0,
+                        "ShieldRegeneration": 4648.0,
+                        "Armor": 48630.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl10_scrap2"
+                        ],
+                        "ShieldAmount": 27889.0,
+                        "ShieldRegeneration": 4741.0,
+                        "Armor": 48630.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl11_scrap2"
+                        ],
+                        "ShieldAmount": 28447.0,
+                        "ShieldRegeneration": 4836.0,
+                        "Armor": 49121.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl12_scrap2"
+                        ],
+                        "ShieldAmount": 29016.0,
+                        "ShieldRegeneration": 4933.0,
+                        "Armor": 49121.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderScorpion.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderScorpion.0_lvl13_scrap2"
+                        ],
+                        "ShieldAmount": 29596.0,
+                        "ShieldRegeneration": 5031.0,
+                        "Armor": 50380.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Scorpion_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "name": {
+            "Key": "CMP_name_Scorpion_Shoulder_L",
+            "TableNamespace": "Component_name",
+            "en": "Scorpion"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Shoulder.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
+        ]
     },
     "DA_Module_ShoulderSiren.0": {
         "id": "DA_Module_ShoulderSiren.0",
@@ -19586,6 +20077,254 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
         ]
     },
+    "DA_Module_TorsoScorpion.1": {
+        "id": "DA_Module_TorsoScorpion.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_TorsoScorpion",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Scorpion_Torso.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking.0"
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ID": "BP_Module_Scorpion_Torso",
+                    "WeightDrain": 10.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl1_scrap2"
+                        ],
+                        "Armor": 48724.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl2_scrap2"
+                        ],
+                        "Armor": 49973.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl3_scrap2"
+                        ],
+                        "Armor": 49973.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl4_scrap2"
+                        ],
+                        "Armor": 51254.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl5_scrap2"
+                        ],
+                        "Armor": 51254.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl6_scrap2"
+                        ],
+                        "Armor": 52035.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl7_scrap2"
+                        ],
+                        "Armor": 52035.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl8_scrap2"
+                        ],
+                        "Armor": 52827.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl9_scrap2"
+                        ],
+                        "Armor": 52827.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl10_scrap2"
+                        ],
+                        "Armor": 53361.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl11_scrap2"
+                        ],
+                        "Armor": 53361.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl12_scrap2"
+                        ],
+                        "Armor": 53900.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoScorpion.1_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoScorpion.1_lvl13_scrap2"
+                        ],
+                        "Armor": 53900.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Scorpion_Torso",
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_scalars": [
+            {
+                "default_scalars": {
+                    "Cooldown": 25.0,
+                    "PrimaryParameter": 30000.0,
+                    "SecondaryParameter": 1000.0
+                },
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Damage.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_BurningDamage.0",
+                "levels": {
+                    "constants": {
+                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                        "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking",
+                        "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "ID": "Backstab",
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 3008.0,
+                            "SecondaryParameter": 13440.0
+                        },
+                        {
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 3085.0,
+                            "SecondaryParameter": 13440.0
+                        },
+                        {
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 3085.0,
+                            "SecondaryParameter": 13785.0
+                        },
+                        {
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 3164.0,
+                            "SecondaryParameter": 13785.0
+                        },
+                        {
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 3164.0,
+                            "SecondaryParameter": 13785.0
+                        },
+                        {
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 3245.0,
+                            "SecondaryParameter": 13785.0
+                        },
+                        {
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 3245.0,
+                            "SecondaryParameter": 14138.0
+                        },
+                        {
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 3328.0,
+                            "SecondaryParameter": 14138.0
+                        },
+                        {
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 3328.0,
+                            "SecondaryParameter": 14138.0
+                        },
+                        {
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 3413.0,
+                            "SecondaryParameter": 14138.0
+                        },
+                        {
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 3413.0,
+                            "SecondaryParameter": 14500.0
+                        },
+                        {
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 3500.0,
+                            "SecondaryParameter": 14500.0
+                        },
+                        {
+                            "Cooldown": 25.0,
+                            "PrimaryParameter": 3500.0,
+                            "SecondaryParameter": 14500.0
+                        }
+                    ]
+                },
+                "module_name": "Backstab"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Scorpion_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Scorpion"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Torso.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderL.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderR.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability3.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
+        ]
+    },
     "DA_Module_TorsoSiren.1": {
         "id": "DA_Module_TorsoSiren.1",
         "production_status": "Ready",
@@ -21820,248 +22559,6 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
-    },
-    "DA_Module_Weapon_Gimcoil.0": {
-        "id": "DA_Module_Weapon_Gimcoil.0",
-        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Gimcoil",
-        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
-        "character_module_mounts": [
-            {
-                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Gimcoil.0",
-                "mount": "Standard"
-            }
-        ],
-        "module_tags_refs": [
-            "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic.0",
-            "OBJID_ModuleTag::DA_Tag_WeaponTypeSniper.0"
-        ],
-        "module_scalars": {
-            "default_scalars": {
-                "DirectDamage": {
-                    "DamageArmor": 13500.0,
-                    "DamageShield": 10000.0
-                },
-                "AoeDamage": {
-                    "DistToDamage": {
-                        "EditorCurveData": {
-                            "Keys": [
-                                {
-                                    "InterpMode": "RCIM_Linear",
-                                    "TangentMode": "RCTM_Auto",
-                                    "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 0.0,
-                                    "Value": 0.0,
-                                    "ArriveTangent": 0.0,
-                                    "ArriveTangentWeight": 0.0,
-                                    "LeaveTangent": 0.0,
-                                    "LeaveTangentWeight": 0.0
-                                },
-                                {
-                                    "InterpMode": "RCIM_Linear",
-                                    "TangentMode": "RCTM_Auto",
-                                    "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 1.0,
-                                    "Value": 0.0,
-                                    "ArriveTangent": 0.0,
-                                    "ArriveTangentWeight": 0.0,
-                                    "LeaveTangent": 0.0,
-                                    "LeaveTangentWeight": 0.0
-                                }
-                            ]
-                        }
-                    }
-                },
-                "ClipSize": 1,
-                "TimeToReload": 4.0
-            },
-            "levels": {
-                "constants": {
-                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
-                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic",
-                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeSniper",
-                    "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
-                    "RangeMin": 0.0,
-                    "RangeExpansion": 1.0,
-                    "RangeEffective": 80000.0,
-                    "RangeMax": 120000.0,
-                    "RangeDeath": 120001.0,
-                    "SpreadX": 0.0,
-                    "SpreadY": 0.0,
-                    "AoeArmor": 0.0,
-                    "AoeNoArmor": 0.0,
-                    "ProjectileSpeed": 400000.0,
-                    "ClipSize": 1,
-                    "ProjectilesPerShot": 1,
-                    "TimeBetweenShots": 1.0,
-                    "RoundsPerMinute": 60.0,
-                    "ID": "Zeus",
-                    "Armor": 0.0,
-                    "WeightDrain": 5.0,
-                    "EnergyDrain": 14.0
-                },
-                "variables": [
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl1",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl1_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl1_scrap2"
-                        ],
-                        "DamageArmor": 12835.0,
-                        "DamageNoArmor": 14271.0,
-                        "TimeToReload": 4.05
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl2",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl2_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl2_scrap2"
-                        ],
-                        "DamageArmor": 13164.0,
-                        "DamageNoArmor": 14271.0,
-                        "TimeToReload": 4.05
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl3",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl3_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl3_scrap2"
-                        ],
-                        "DamageArmor": 13164.0,
-                        "DamageNoArmor": 14271.0,
-                        "TimeToReload": 3.86
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl4",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl4_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl4_scrap2"
-                        ],
-                        "DamageArmor": 13502.0,
-                        "DamageNoArmor": 14271.0,
-                        "TimeToReload": 3.86
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl5",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl5_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl5_scrap2"
-                        ],
-                        "DamageArmor": 13502.0,
-                        "DamageNoArmor": 14866.0,
-                        "TimeToReload": 3.86
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl6",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl6_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl6_scrap2"
-                        ],
-                        "DamageArmor": 13708.0,
-                        "DamageNoArmor": 14866.0,
-                        "TimeToReload": 3.86
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl7",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl7_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl7_scrap2"
-                        ],
-                        "DamageArmor": 13708.0,
-                        "DamageNoArmor": 14866.0,
-                        "TimeToReload": 3.71
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl8",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl8_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl8_scrap2"
-                        ],
-                        "DamageArmor": 13917.0,
-                        "DamageNoArmor": 14866.0,
-                        "TimeToReload": 3.71
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl9",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl9_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl9_scrap2"
-                        ],
-                        "DamageArmor": 13917.0,
-                        "DamageNoArmor": 15405.0,
-                        "TimeToReload": 3.71
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl10",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl10_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl10_scrap2"
-                        ],
-                        "DamageArmor": 14058.0,
-                        "DamageNoArmor": 15405.0,
-                        "TimeToReload": 3.71
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl11",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl11_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl11_scrap2"
-                        ],
-                        "DamageArmor": 14058.0,
-                        "DamageNoArmor": 15405.0,
-                        "TimeToReload": 3.6
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl12",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl12_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl12_scrap2"
-                        ],
-                        "DamageArmor": 14200.0,
-                        "DamageNoArmor": 15405.0,
-                        "TimeToReload": 3.6
-                    },
-                    {
-                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Gimcoil.0_lvl13",
-                        "scrap_rewards_refs": [
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl13_scrap1",
-                            "OBJID_ScrapReward::DA_Module_Weapon_Gimcoil.0_lvl13_scrap2"
-                        ],
-                        "DamageArmor": 14200.0,
-                        "DamageNoArmor": 15800.0,
-                        "TimeToReload": 3.6
-                    }
-                ]
-            },
-            "module_name": "Zeus"
-        },
-        "name": {
-            "Key": "WPN_name_Zeus",
-            "TableNamespace": "Weapon_name",
-            "en": "Zeus"
-        },
-        "description": {
-            "Key": "WPN_desc_Zeus",
-            "TableNamespace": "Weapon_description",
-            "en": "Mid-range laser cannon. Fires a single charge that shreds shields and armor."
-        },
-        "text_tags": [
-            {
-                "Key": "WPN_Type_Special",
-                "TableNamespace": "Component_Tags",
-                "en": "Special"
-            },
-            {
-                "Key": "WPN_Damage_Electromagnetic",
-                "TableNamespace": "Component_Tags",
-                "en": "Electromagnetic"
-            }
-        ],
-        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
-        "module_classes_refs": [
-            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
-        ],
-        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
-        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
     },
     "DA_Module_Weapon_Gozer.0": {
         "id": "DA_Module_Weapon_Gozer.0",
@@ -26279,42 +26776,6 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
     },
-    "DA_Module_Weapon_TitanAuto.0": {
-        "id": "DA_Module_Weapon_TitanAuto.0",
-        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Vortex",
-        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
-        "character_module_mounts": [
-            {
-                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_TitanAuto.0",
-                "mount": "Standard"
-            }
-        ],
-        "module_scalars": {
-            "default_scalars": {
-                "DirectDamage": {
-                    "DamageArmor": 750.0,
-                    "DamageShield": 750.0
-                },
-                "AoeDamage": {
-                    "DistToDamage": {
-                        "EditorCurveData": {}
-                    }
-                },
-                "ClipSize": 1,
-                "ProjectileSpeed": 5000.0,
-                "TimeToReload": 0.5,
-                "TimeBetweenShots": 1.5
-            }
-        },
-        "name": {
-            "InvariantString": "Homing Missiles"
-        },
-        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
-        "module_classes_refs": [
-            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
-        ],
-        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeapon.0"
-    },
     "DA_Module_Weapon_Toxin.0": {
         "id": "DA_Module_Weapon_Toxin.0",
         "production_status": "Ready",
@@ -27046,6 +27507,257 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
+    },
+    "DA_Module_Weapon_Tusk.0": {
+        "id": "DA_Module_Weapon_Tusk.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Tusk",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Tusk.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeShotgun.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 3.0,
+                    "Y": 5.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1250.0,
+                    "DamageShield": 1000.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 8,
+                "ProjectilesPerShot": 4,
+                "ProjectileSpeed": 25000.0,
+                "TimeToReload": 3.0,
+                "TimeBetweenShots": 0.75
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeShotgun",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 50000.0,
+                    "RangeMax": 80000.0,
+                    "RangeDeath": 130001.0,
+                    "SpreadX": 5.0,
+                    "SpreadY": 8.0,
+                    "DamageNoArmor": 3800.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 38000.0,
+                    "ProjectilesPerShot": 1,
+                    "TimeToReload": 3.0,
+                    "ID": "Tusk",
+                    "Armor": 0.0,
+                    "WeightDrain": 4.0,
+                    "EnergyDrain": 11.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 5515.0,
+                        "ClipSize": 5,
+                        "TimeBetweenShots": 0.91,
+                        "RoundsPerMinute": 66.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 5656.0,
+                        "ClipSize": 5,
+                        "TimeBetweenShots": 0.91,
+                        "RoundsPerMinute": 66.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 5656.0,
+                        "ClipSize": 6,
+                        "TimeBetweenShots": 0.91,
+                        "RoundsPerMinute": 66.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 5801.0,
+                        "ClipSize": 6,
+                        "TimeBetweenShots": 0.91,
+                        "RoundsPerMinute": 66.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 5801.0,
+                        "ClipSize": 6,
+                        "TimeBetweenShots": 0.875,
+                        "RoundsPerMinute": 69.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 5889.0,
+                        "ClipSize": 6,
+                        "TimeBetweenShots": 0.875,
+                        "RoundsPerMinute": 69.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 5889.0,
+                        "ClipSize": 7,
+                        "TimeBetweenShots": 0.875,
+                        "RoundsPerMinute": 69.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 5979.0,
+                        "ClipSize": 7,
+                        "TimeBetweenShots": 0.875,
+                        "RoundsPerMinute": 69.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 5979.0,
+                        "ClipSize": 7,
+                        "TimeBetweenShots": 0.81,
+                        "RoundsPerMinute": 74.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 6039.0,
+                        "ClipSize": 7,
+                        "TimeBetweenShots": 0.81,
+                        "RoundsPerMinute": 74.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 6039.0,
+                        "ClipSize": 8,
+                        "TimeBetweenShots": 0.81,
+                        "RoundsPerMinute": 74.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 6100.0,
+                        "ClipSize": 8,
+                        "TimeBetweenShots": 0.81,
+                        "RoundsPerMinute": 74.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Tusk.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Tusk.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 6100.0,
+                        "ClipSize": 8,
+                        "TimeBetweenShots": 0.75,
+                        "RoundsPerMinute": 80.0
+                    }
+                ]
+            },
+            "module_name": "Tusk"
+        },
+        "name": {
+            "Key": "WPN_name_Tusk",
+            "TableNamespace": "Weapon_name",
+            "en": "Tusk"
+        },
+        "description": {
+            "Key": "WPN_desc_Tusk",
+            "TableNamespace": "Weapon_description",
+            "en": "Light flak cannon. Charge to reduce bullet spread and increase range."
+        },
+        "text_tags": [
+            {
+                "Key": "WPN_Type_Shotgun",
+                "TableNamespace": "Component_Tags",
+                "en": "Shotgun"
+            },
+            {
+                "Key": "WPN_Damage_Kinetic",
+                "TableNamespace": "Component_Tags",
+                "en": "Kinetic"
+            }
+        ],
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
     },
     "DA_Module_Weapon_Twinflare.0": {
         "id": "DA_Module_Weapon_Twinflare.0",
