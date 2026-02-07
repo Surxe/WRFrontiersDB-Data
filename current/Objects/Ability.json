@@ -8513,6 +8513,101 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Harmonizer"
     },
+    "BP_Module_Nipper_Chassis.1": {
+        "id": "BP_Module_Nipper_Chassis.1",
+        "name": {
+            "Key": "ABL_name_Maneuverability",
+            "TableNamespace": "Ability_name",
+            "en": "Pneumatic Vault"
+        },
+        "description": {
+            "Key": "ABL_descr_Maneuverability",
+            "TableNamespace": "Ability_descripton",
+            "en": "Hold to hover over ground for greater speed and maneuverability. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility",
+        "misc": {
+            "LevitationHeight": 200.0,
+            "AccelerationForce": 8800.0,
+            "MaxVelocityHorizontal": 3900.0,
+            "DragCoefficientX": 200.0,
+            "DragCoefficientY": 200.0,
+            "FuelUsagePerSecond": 3.5,
+            "MinFuelRequired": 3.0
+        }
+    },
+    "BP_Module_Nipper_Chassis.2": {
+        "id": "BP_Module_Nipper_Chassis.2",
+        "name": {
+            "Key": "ABL_name_MultiJump",
+            "TableNamespace": "Ability_name",
+            "en": "Glide Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_MultiJump",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump. Activate mid-air to double jump. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ArcJump",
+        "misc": {
+            "InAirJumpFuelCostPenaltyByNum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "AfterJumpFuelRegenerationDelay": 2.0,
+            "DelayBetweenActions": 0.5,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0
+        }
+    },
+    "BP_Module_Nipper_Torso.1": {
+        "id": "BP_Module_Nipper_Torso.1",
+        "misc": {
+            "DirectDamage": {
+                "DamageArmor": 50000.0,
+                "DamageShield": 50000.0
+            },
+            "PullingAction": {
+                "ForceRange": {
+                    "max": 3000000.0
+                }
+            },
+            "bCanBeCanceledWhileActive": true,
+            "CastDuration": 0.8,
+            "EffectType": "Attacking",
+            "InitialDuration": 30.0
+        },
+        "targeting": {
+            "ConfirmationAction": {
+                "ConeRadius": 22000.0,
+                "ConeHalfAngleInDegrees": 15.0,
+                "MaxTargetNum": 1,
+                "bUnmarkTargetsOnExit": true
+            }
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "MaxDistance": 50000.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_Grappling",
+            "TableNamespace": "Ability_name",
+            "en": "Grappling"
+        },
+        "description": {
+            "Key": "ABL_descr_Grappling",
+            "TableNamespace": "Ability_descripton",
+            "en": "Unleashes a swarm of nanobots that latch onto the target over {ActDuration}, dragging the robot toward it and dealing {Dmg}."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Grappling"
+    },
     "BP_Module_Orochi_Chassis.1": {
         "id": "BP_Module_Orochi_Chassis.1",
         "misc": {

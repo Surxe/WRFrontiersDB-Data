@@ -6461,6 +6461,60 @@
         "is_factory_preset": true,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotNipper.0": {
+        "id": "DA_Preset_DevbotNipper.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotNipper",
+        "name": {
+            "Key": "CMP_name_Nipper_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Crix"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisNipper.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoNipper.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderNipper.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Stormpike.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_Weapon_1": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Stormpike.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderNipper.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Grounded.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_MineField.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotOrochi.0": {
         "id": "DA_Preset_DevbotOrochi.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",

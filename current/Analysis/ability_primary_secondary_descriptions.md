@@ -49,6 +49,7 @@
 * Lancelot's Schlachtordnung: Verbündete im Umkreis von {**Primär.x**}m erleiden {**Sekundär.x**}% weniger Schaden. Sobald sie getroffen werden, regenerierst du Panzerung.
 * Loki's Holografischer Köder: Lässt dich unsichtbar werden und projiziert {**Primär.x**}s lang eine Kopie von dir. Der Köder besitzt {**Sekundär.x**}% mehr Panzer- und Schildpunkte. Alle aktiven Effekte, auch die von Ausrüstungsmodulen, werden darauf übertragen.
 * Mesa's Harmonizer: Stellt bei Verbündeten im Umkreis von {**Sekundär.x**}m {**Primär.x**} Schildpunkte pro Sekunde sowie die Hälfte dieses Werts für Mesa selbst wieder her. Reduziert außerdem den Schaden von Gegnern im Umkreis um 30%. Abklingzeit: {CD}.
+* Crix's Enterhaken: Entfesselt einen Schwarm Nanobots, der sich während {**Primär.x**}s am Ziel festsetzt, den Roboter zum Ziel schleppt und dabei {**Sekundär.x**} verursacht.
 * Orochi's Echosalve: Verursacht {**Primär.x**} Schildschaden in einer geraden Linie und enthüllt Gegner {**Sekundär.x**}s lang.
 * Phantom's Translokator: Aktiviere dies, um {**Primär.x**}s lang einen Ort zu markieren. Aktiviere dies erneut, um nach einer Verzögerung von {**Sekundär./**}s zu diesem Ort zu warpen.
 * Pursuer's Optische Tarnung: Nach einer Verzögerung von {**Sekundär./**}s Sekunden wirst du {**Primär.x**}s lang unsichtbar. Während du unsichtbar bist, kannst du Ausrüstungsmodule verwenden, aber das Abfeuern von Waffen enthüllt den Roboter sofort. Abklingzeit: {CD}.
@@ -112,6 +113,7 @@
 * Lancelot's Battle Order: Allies within {**Primary.x**}m take {**Secondary.x**}% less damage. Whenever they get hit, you regenerate armor.
 * Loki's Holographic Decoy: Makes you invisible and projects a copy of your robot for {**Primary.x**}s. The decoy has {**Secondary.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
 * Mesa's Harmonizer: Restores {**Primary.x**} shield per second for allies within {**Secondary.x**}m and half this value for Mesa itself. Also reduces damage output for enemies in range by 30%. Cooldown: {CD}.
+* Crix's Grappling: Unleashes a swarm of nanobots that latch onto the target over {**Primary.x**}s, dragging the robot toward it and dealing {**Secondary.x**}.
 * Orochi's Echo Barrage: Deals {**Primary.x**} shield damage in a straight line, revealing enemies for {**Secondary.x**}s.
 * Phantom's Translocator: Activate to mark a spot for {**Primary.x**}s. Activate again to warp back to that spot after a {**Secondary./**}s delay.
 * Pursuer's Optical Camo: After a {**Secondary./**}s second delay, you become invisible for {**Primary.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
@@ -175,6 +177,7 @@
 * Lancelot's Orden de combate: Los aliados en un radio de {**Primario.x**} m reciben {**Secundario.x**}% menos de daño. Cuando son alcanzados, tú regeneras armadura.
 * Loki's Señuelo holográfico: Te hace invisible y proyecta tu copia durante {**Primario.x**} s. El señuelo tiene {**Secundario.x**}% más armadura y escudos, y todos los efectos activos, incluidos los de los módulos de equipo, se transfieren a él.
 * Mesa's Armonizador: Restaura {**Primario.x**} de escudo por segundo para los aliados en un radio de {**Secundario.x**} m y la mitad del valor para Mesa. También reduce un 30% el daño infligido por los enemigos. Tiempo de recarga: {CD}.
+* Crix's Agarre: Lanza un enjambre de nanobots que se aferran al objetivo durante {**Primario.x**} s, arrastrándolo hacia su origen e infligiéndole {**Secundario.x**}.
 * Orochi's Aluvión de ecos: Inflige {**Primario.x**} de daño de escudo en línea recta revelando enemigos durante {**Secundario.x**} s.
 * Phantom's Translocalizador: Actívalo para marcar un punto durante {**Primario.x**} s. Actívalo de nuevo para volver a teletransportarte hasta él con un retardo de {**Secundario./**} s.
 * Pursuer's Camuflaje óptico: Tras un retardo de {**Secundario./**} s, te hace invisible durante {**Primario.x**} s. Los módulos de los componentes pueden usarse mientras son invisibles, pero disparar armas revela el robot de inmediato. Tiempo de recarga: {CD}.
@@ -238,6 +241,7 @@
 * Lancelot's Ordre de bataille: Les alliés situés dans un rayon de {**Primaire.x**} m subissent {**Secondaire.x**} % points de dégâts en moins. S'ils sont touchés, votre blindage se régénère.
 * Loki's Leurre holographique: Vous rend invisible et projette une copie de votre robot pendant {**Primaire.x**} s. Le blindage et les boucliers de votre leurre sont accrus de {**Secondaire.x**} %, et tous les effets actifs, y compris ceux des modules de mécanisme, lui sont transférés.
 * Mesa's Harmonisateur: Restaure {**Primaire.x**} points de bouclier par seconde pour les alliés dans les {**Secondaire.x**} m, et la moitié de cette valeur pour le Mesa. Réduit aussi les dégâts infligés par les ennemis à portée de 30 %. Temps de recharge: {CD}.
+* Crix's Grappin: Déclenche une nuée de nanobots qui s'agrippent à la cible pendant {**Primaire.x**} s, traînant le méca vers elle et infligeant {**Secondaire.x**}.
 * Orochi's Barrage à écho: Inflige {**Primaire.x**} points de dégâts au bouclier en ligne droite et révèle les ennemis pendant {**Secondaire.x**} s.
 * Phantom's Translocuteur: À activer pour marquer un lieu pendant {**Primaire.x**} s. À activer à nouveau pour vous y téléporter après un délai de {**Secondaire./**} s.
 * Pursuer's Camouflage optique: Après {**Secondaire./**} s secondes, vous devenez invisible pendant {**Primaire.x**} s. Vous pouvez utiliser les modules de mécanisme lorsque vous êtes invisible, le tir de vos armes révélera immédiatement le robot. Temps de recharge : {CD}.
@@ -301,6 +305,7 @@
 * Lancelot's 戦闘命令: {**メイン.x**}m以内の味方が受けるダメージが{**サブ.x**}%減少する。攻撃を受けるたびに装甲を修復する。
 * Loki's ホログラフィックデコイ: {**メイン.x**}秒デコイの装甲とシールドは{**サブ.x**}%高い。デコイの装甲とシールドは{**サブ.x**}%増加し、ギアモジュールを含むすべてのアクティイブな効果がデコイに移行される。
 * Mesa's ハーモナイザー: {**サブ.x**}m以内の味方のシールドを毎秒{**メイン.x**}回復し、Mesa自身はこの半分の値を回復する。範囲内の敵へのダメージ出力も30%減少する。 クールダウン: {CD}.
+* クリクス's グラップリング: ナナイト弾幕を放ち、{**メイン.x**}秒の間ターゲットに付着させてロボットを引き寄せ、{**サブ.x**}のダメージを与える。
 * Orochi's エコー弾幕: 直線上に{**メイン.x**}シールドダメージを与え、敵を{**サブ.x**}秒間発見状態にする。
 * Phantom's トランスロケーター: アクティブにすると{**メイン.x**}秒間その場所をマークする。再度アクティブにすると{**サブ./**}秒後にその場所にワープする。
 * Pursuer's 光学カモフラージュ: {**サブ./**}秒秒後に{**メイン.x**}秒間、透明になる。ギアモジュールは透明な間も使用できるが、武器を発射するとロボットがすぐに見えるようになる。クールダウン：{CD}。
@@ -364,6 +369,7 @@
 * 랜슬롯's 전투 명령: {**주.x**}m 내의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 공격받을 때마다 아머가 재생됩니다.
 * 로키's 홀로그램 미끼: {**주.x**}초 동안 은신 상태가 되며 로봇의 복제체를 생성합니다. 복제체는 아머와 실드가 {**보조.x**}% 더 높고, 기어 모듈을 포함한 모든 활성화된 효과가 복제체로 이전됩니다.
 * 메사's 조율기: {**보조.x**}m 내에 있는 아군의 실드를 초당 {**주.x**} 회복시키고, 메사 자신은 그 절반만큼 회복합니다. 또한 사거리 내의 적이 가하는 피해량이 30% 감소합니다. 쿨다운: {CD}.
+* 크릭스's 그래플링: {**주.x**}초 동안 대상에 달라붙어 로봇을 끌어당기며 {**보조.x**}의 피해를 주는 나노봇 군집을 방출합니다.
 * 오로치's 에코 연발: 일직선상의 적에게 {**주.x**}의 실드 피해를 주고 {**보조.x**}초 동안 적을 드러냅니다.
 * 팬텀's 위치전송기: 활성화하면 {**주.x**}초 동안 위치를 표시합니다. 다시 활성화하면 {**보조./**}초 지연 후 해당 위치로 순간이동합니다.
 * 퍼슈어's 광학 위장: {**보조./**}초 지연 후, {**주.x**}초 동안 은신 상태가 됩니다. 은신 상태에서도 기어 모듈을 사용할 수 있지만, 무기를 발사하면 즉시 로봇이 드러납니다. 쿨다운: {CD}.
@@ -427,6 +433,7 @@
 * Lancelot's Porządek bojowy: Po aktywacji sojusznicy w promieniu {**Podstawowy.x**} m otrzymują {**Drugoplanowy.x**}% mniej obrażeń. Jeśli ktoś zostanie trafiony, powoduje to regenerację twojego pancerza.
 * Loki's Holograficzna przynęta: Twój robot staje się niewidzialny i wyświetla przez {**Podstawowy.x**} sek kopię holograficzną twojej maszyny; taki klon ma pancerz i tarczę większą o {**Drugoplanowy.x**}%, zostają na niego przeniesione wszystkie aktywne efekty włącznie z tymi, które mają źródło w modułach sprzętu.
 * Mesa's Harmonizator: Przywraca {**Podstawowy.x**} tarcz(y) sojuszników w promieniu {**Drugoplanowy.x**} m i połowę tej wartości samej Mesie. Ponadto ogranicza o 30% obrażenia zadawane przez wrogów. Schłodzenie: {CD}.
+* Crix's Kotwiczenie: Wyzwala rój nanobotów, które na {**Podstawowy.x**} sek przyczepiają się do celu, przyciągając go do siebie i zadając {**Drugoplanowy.x**} obrażeń.
 * Orochi's Echo-ostrzał: Powoduje {**Podstawowy.x**} obrażeń tarczy w linii prostej, ujawniając przy tym na {**Drugoplanowy.x**} sek pozycje wrogów.
 * Phantom's Translokator: Aktywuj, żeby oznaczyć miejsce znacznika aktywnego przez {**Podstawowy.x**} sek. Ponowna aktywacja powoduje teleportowanie do wybranego miejsca po opóźnieniu {**Drugoplanowy./**} sek.
 * Pursuer's Kamuflaż optyczny: Po opóźnieniu trwającym {**Drugoplanowy./**} sek twój robot zyskuje na {**Podstawowy.x**} sek tymczasową niewidzialność. W tym czasie można używać modułów sprzętu, ale otwarcie ognia ujawni twoją pozycję. Czas reaktywacji: {CD}.
@@ -490,6 +497,7 @@
 * Lancelot's Ordens de Batalha: Aliados dentro de {**Primário.x**}m sofrem {**Secundário.x**}% de dano a menos. Sempre que eles forem atingidos, sua armadura se regenera.
 * Loki's Isca Holográfica: Você fica invisível e projeta um cópia do seu Robô por {**Primário.x**}s. Essa cópia tem {**Secundário.x**}% a mais de armadura e escudo, e todos os efeitos ativos, incluindo os de módulos de equipamento, são transferidos para ela.
 * Mesa's Harmonizador: Restaura {**Primário.x**} de escudo por segundo dos aliados dentro de {**Secundário.x**}m e metade disso para o próprio Mesa. Reduz o dano causado dos inimigos no alcance em 30%. Reativação: {CD}.
+* Crix's Arpéu: Desencadeia um enxame de nanorrobôs que se prendem ao alvo durante {**Primário.x**}s, arrastando o robô em sua direção e causando {**Secundário.x**}.
 * Orochi's Barragem Eco: Causa {**Primário.x**} de dano a escudos em linha reta, revelando inimigos por {**Secundário.x**}s.
 * Phantom's Translocador: Ative para marcar um local por {**Primário.x**}s. Ative novamente para voltar para o local marcado depois de um atraso de {**Secundário./**}s.
 * Pursuer's Camuflagem Óptica: Após um atraso de {**Secundário./**}s, você fica invisível por {**Primário.x**}s. Módulos de Equipamento podem ser usados enquanto invisível, mas atirar revela o robô imediatamente. Reativação: {CD}.
@@ -553,6 +561,7 @@
 * Lancelot's Боевой порядок: Союзники в области действия ({**Основное.x**}м) получают на {**Второстепенное.x**}% меньше урона. Когда в них попадает противник, ваша броня восстанавливается.
 * Loki's Голографическая приманка: На {**Основное.x**}сек. скрывает вашего робота и создаёт его копию. Щиты и броня приманки прочнее на {**Второстепенное.x**}%, и на неё переносятся все активные эффекты, включая эффекты от модулей оборудования.
 * Mesa's Гармонизатор: Восстанавливает {**Основное.x**} прочности щитов союзников в секунду и половину от этого значения для Mesa, а также уменьшает урон противников на 30%. Область действия: {**Второстепенное.x**}м. Перезарядка: {CD}.
+* Крикс's Взлом: Выпускает рой нанороботов, который цепляется за цель и в течение {**Основное.x**}сек. притягивается к ней, нанося {**Второстепенное.x**}.
 * Orochi's Эхо-залп: Атакой по прямой линии наносит {**Основное.x**} ед. урона щитам и раскрывает противников на {**Второстепенное.x**}сек..
 * Phantom's Транслокатор: При первой активации отмечает точку на {**Основное.x**}сек.. При второй активации телепортирует к ней через {**Второстепенное./**}сек..
 * Pursuer's Оптическая маскировка: Через {**Второстепенное./**}сек. вы на {**Основное.x**}сек. становитесь невидимы. Во время невидимости можно использовать модули снаряжения. Стрельба моментально делает робота видимым. Перезарядка: {CD}.
@@ -616,6 +625,7 @@
 * Lancelot's Muharebe Düzeni: {**Birincil.x**}m dahilindeki müttefikler {**İkincil.x**}% daha az hasar alır. Vurulduklarında zırh yenilersin.
 * Loki's Holografik Yem: Seni görünmez yapar ve {**Birincil.x**}sn boyunca robotunun bir kopyasını yansıtır. Yemin {**İkincil.x**}% daha fazla zırhı ve kalkanı vardır, teçhizat modüllerinden gelenler dahil tüm aktif etkiler de ona aktarılır.
 * Mesa's Harmonizör: {**İkincil.x**}m dahilindeki müttefikler için {**Birincil.x**}, Mesa için de bunu yarısı kadar kalkan yeniler. Ayrıca, menzil dahilindeki düşmanların verdiği hasarı %30 azaltır. Bekleme Süresi: {CD}.
+* Crix's Bordalama: Hedefe {**Birincil.x**}sn boyunca kenetlenerek robotu kendine doğru sürükleyen ve {**İkincil.x**} hasar veren bir nanit sürüsü salar.
 * Orochi's Yankı Salvosu: Düz bir hat boyunca {**Birincil.x**} zırh hasrı verir, düşmanları {**İkincil.x**}sn boyunca ortaya çıkarır.
 * Phantom's Yer Değiştirici: Etkinleştirince bir noktayı {**Birincil.x**}sn boyunca işaretler. Tekrar etkinleştirince {**İkincil./**}sn gecikme ardından o noktaya ışınlanırsın.
 * Pursuer's Optik Kamuflaj: {**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca görünmez olursun. Teçhizat modülleri görünmezken kullanılabilse de ateşli silahlar robotu anında ortaya çıkarır. Bekleme süresi: {CD}.
@@ -679,6 +689,7 @@
 * Lancelot's 战斗指令: {**主.x**}米范围内的所有队友受到的伤害降低{**副.x**}%。队友被命中时，你的装甲会再生。
 * Loki's 全息诱饵: 隐身并投射出自己机器人的一个复制体，持续{**主.x**}秒。该诱饵拥有{**副.x**}%点额外装甲和护盾，且所有生效的效果（包括装备模块上的效果）均转移至其身上。
 * Mesa's 协调大师: Mesa使{**副.x**}米范围内队友每秒恢复{**主.x**}点护盾，自身恢复对半护盾量，并使范围内敌人的伤害输出降低30%。冷却时间: {CD}。
+* Crix's 钩索骇客: 释放纳米虫群，在 {**主.x**}秒 内附着于目标，将其机甲向其拖拽，并造成 {**副.x**} 点伤害。
 * Orochi's 回声炮火: 对一条直线上的目标造成{**主.x**}点护盾伤害，并暴露敌人{**副.x**}秒秒。
 * Phantom's 传送器: 激活后会标记一个地点，持续{**主.x**}秒，再次激活会在{**副./**}秒延迟后传送回该地点。
 * Pursuer's 光学伪装: 在{**副./**}秒秒延迟后进入隐身状态，持续{**主.x**}秒。机器人在隐身期间可使用装备模块，但在使用火力武器后会马上暴露。冷却时间：{CD}
@@ -742,6 +753,7 @@
 * Lancelot's 對戰命令: {**主要.x**}公尺範圍內的盟友承受的傷害減少 {**次要.x**}%。盟友只要遭到擊中，你的裝甲就會恢復。
 * Loki's 投影誘餌: 匿蹤並投射出你的機器人複製體，持續 {**主要.x**}秒。誘餌的裝甲和護盾提高 {**次要.x**}%，且包含裝備模組上的所有啟用效果也將一同複製。
 * Mesa's 協調器: 每秒為 {**次要.x**}公尺範圍內友軍恢復 {**主要.x**} 護盾，Mesa 本身會恢復前述數值的一半。還會減少範圍內敵軍傷害輸出 30%。 冷卻: {CD}.
+* Crix's 擒拿: 釋放奈米機器人蜂群附著於目標機甲持續 {**主要.x**}秒, 將其拉近並造成 {**次要.x**} 傷害。
 * Orochi's 回音火網: 在直線上造成 {**主要.x**} 護盾傷害並暴露敵人，持續 {**次要.x**}秒。
 * Phantom's 定位傳送: 啟動時會標記傳送點，持續 {**主要.x**}秒。再次啟動就能在延遲 {**次要./**}秒 後回傳至該傳送點。
 * Pursuer's 光學迷彩: 在延遲 {**次要./**}秒 秒後隱形，持續 {**主要.x**}秒。隱形時可使用裝備模組，但使用武器開火時機器人會立即顯形。冷卻時間：{CD}。

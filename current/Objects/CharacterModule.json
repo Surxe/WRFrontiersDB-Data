@@ -1257,6 +1257,56 @@
             "OBJID_Ability::BP_Module_Mesa_Torso.1"
         ]
     },
+    "BP_Module_Nipper_Chassis.0": {
+        "id": "BP_Module_Nipper_Chassis.0",
+        "module_scaler": {
+            "default_scalars": {
+                "LegsArmor": 80000.0,
+                "MaxSpeed": 2500.0,
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Nipper_Chassis.1",
+            "OBJID_Ability::BP_Module_Nipper_Chassis.2"
+        ],
+        "misc": {
+            "movement_type_ref": "OBJID_MovementType::DA_MovementType_FourLegs.6"
+        }
+    },
+    "BP_Module_Nipper_ShoulderL.0": {
+        "id": "BP_Module_Nipper_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Typhon_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 32000.0
+            }
+        }
+    },
+    "BP_Module_Nipper_ShoulderR.0": {
+        "id": "BP_Module_Nipper_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Typhon_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 32000.0
+            }
+        }
+    },
+    "BP_Module_Nipper_Torso.0": {
+        "id": "BP_Module_Nipper_Torso.0",
+        "module_scaler": {
+            "default_scalars": {
+                "HullShare": 8750.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Nipper_Torso.1"
+        ]
+    },
     "BP_Module_Orochi_Chassis.0": {
         "id": "BP_Module_Orochi_Chassis.0",
         "module_scaler": {
@@ -9178,6 +9228,162 @@
         },
         "misc": {
             "ReloadChunkSize": 5
+        }
+    },
+    "BP_Weapon_Stormpike.0": {
+        "id": "BP_Weapon_Stormpike.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "CollisionComponent": {
+                    "SphereRadius": 10.0
+                },
+                "MovementComponent": {
+                    "ExpansionTemplate": {
+                        "bWithCenter": true,
+                        "InitialRadius": 100.0,
+                        "FinishRadius": 400.0,
+                        "ExpansionDistance": 20000.0
+                    },
+                    "InitialSpeed": 240000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.6,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 0.65,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "TitanChargePerHit": 0.3,
+                "NumberOfMulticomponent": 6,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 35000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 50000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 80001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                },
+                "ProjectilesPerShot": 6,
+                "TimeBetweenShots": 0.66,
+                "Spread": {
+                    "X": 1.2,
+                    "Y": 1.2
+                },
+                "AbilityChargePointsOnHit": 0.33
+            }
+        },
+        "module_scaler": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 1.0,
+                    "Y": 1.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 3164.0,
+                    "DamageShield": 4453.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                },
+                "ClipSize": 8,
+                "ProjectileSpeed": 35000.0,
+                "TimeToReload": 1.9,
+                "TimeBetweenShots": 0.4,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 35000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 50000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 80001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        },
+        "misc": {
+            "ReloadType": "ReloadWhileFire"
         }
     },
     "BP_Weapon_TeslaCoil.0": {
