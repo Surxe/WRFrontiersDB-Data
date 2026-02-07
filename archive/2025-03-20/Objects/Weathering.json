@@ -1,0 +1,24 @@
+{
+    "DA_WeatheringCom_S0_14_Dirt_02.0": {
+        "id": "DA_WeatheringCom_S0_14_Dirt_02.0",
+        "name": {
+            "Key": "DA_WeatheringCom_S1_Free_Dirt_01",
+            "TableNamespace": "C_Customization",
+            "en": "Dusty"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Customization/Weatherings/T_WeatheringCom_S0_14_Dirt_02",
+        "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Weathering.0",
+        "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Common.0"
+    },
+    "DA_Weathering_0_15_MarsDust_01.0": {
+        "id": "DA_Weathering_0_15_MarsDust_01.0",
+        "name": {
+            "Key": "DA_Weathering_0_15_MarsDust_01",
+            "TableNamespace": "C_Customization",
+            "en": "Martian Dust"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Customization/Weatherings/T_Weathering_0_15_MarsDust_01",
+        "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Weathering.0",
+        "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Uncommon.0"
+    }
+}
