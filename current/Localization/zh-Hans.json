@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "部分处于相位状态的炮塔会攻击距离最近的敌人。在该量子状态下，炮塔不会损坏，不过存在时间有限。",
         "ABL_descr_Blink": "{BlinkSpeed}延迟后，朝面朝方向传送{Dist}距离。",
         "ABL_descr_Rally": "向附近的队友发送秘密代码，解除其安全协议。暂时提升速度。",
-        "ABL_descr_Trick": "隐身并投射出自己的复制体，持续{ActDuration}。该诱饵拥有{ActEfficiency}点额外装甲和护盾。",
         "ABL_descr_ShortCircuit": "释放一道可弹射至附近目标的静电放电，造成{Dmg}点伤害，并使敌人在{ActDuration}内无法使用装备。"
     },
     "Ability_name": {
@@ -6189,10 +6188,6 @@
         "Premium_BuyPremium": "购买高级账号",
         "Premium_FromPremium": "来自高级账号",
         "Premium_UnlockMissions": "激活高级账号即可解锁更多任务",
-        "Booster_MoreXP_Description": "每份战斗合约给予更多报酬",
-        "Booster_MoreCredits_Description": "每份战斗合约给予更多报酬",
-        "Booster_MoreDailyMissions_Description": "获得更多可完成的任务",
-        "Booster_MoreWeeklyMissions_Description": "获得更多可完成的任务",
         "Booster_MoreXP_Title": "更多经验值",
         "Booster_MoreCredits_Title": "更多信用币",
         "Booster_MoreMissionRerolls_Title": "更多任务刷新次数",
@@ -6610,6 +6605,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "添加更多{0}",
+        "Store_EventBanner_Desc": "为Grim装备上这款震撼全场的全新泰坦武器：线锯。该武器现已于每日优惠限时上架，掉率大幅提升！活动截止至7月8日。",
         "Store_MainBanner_Desc_Line2_Desc": "随着等级的提升，你会解锁新的蓝图，从而能够利用<img id=\"Salvage\"></>回收件制作新的模块。",
         "CurrencyOffers_BuyingBonus": "额外奖励",
         "Offers_PurchaseOffer": "购买",
@@ -6642,6 +6638,7 @@
         "Offers_HirePilot": "雇佣",
         "Store_MainBanner_Title": "如何获得机器人",
         "DLC_ItemsAcquired": "获得物品",
+        "Store_EventBanner_Title": "每日优惠：新泰坦武器",
         "CurrencyOffers_EmptyStore": "无可用优惠",
         "DailyDeals_NoDDNotice": "通知",
         "Items_AlreadyOwned": "已拥有：{0}",

@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "Ein phasengesteuerter Geschützturm greift den nächsten Feind an. Kann in diesem Quantenzustand nicht beschädigt werden. Lebensdauer begrenzt.",
         "ABL_descr_Blink": "Teleportiert dich nach einer Verzögerung von {BlinkSpeed} {Dist} weit in Blickrichtung.",
         "ABL_descr_Rally": "Sendet Teamkameraden in der Nähe einen geheimen Code, der ihre Sicherheitsprotokolle außer Kraft setzt. Bringt einen temporären Geschwindigkeitsschub.",
-        "ABL_descr_Trick": "Lässt dich unsichtbar werden und projiziert {ActDuration} lang eine Kopie von dir. Der Köder besitzt {ActEfficiency} mehr Panzer- und Schildpunkte.",
         "ABL_descr_ShortCircuit": "Setzt eine statische Entladung frei, die von Zielen in der Nähe abprallt. Diese verursacht {Dmg} Schaden und hindert Gegner {ActDuration} lang daran, ihre Ausrüstung zu benutzen."
     },
     "Ability_name": {
@@ -5850,10 +5849,6 @@
         "Premium_BuyPremium": "Premium kaufen",
         "Premium_FromPremium": "Von Premium",
         "Premium_UnlockMissions": "Erhalte Premium-Zugang, um mehr Missionen freizuschalten.",
-        "Booster_MoreXP_Description": "Erhalte mehr für jeden Kampfauftrag.",
-        "Booster_MoreCredits_Description": "Erhalte mehr für jeden Kampfauftrag.",
-        "Booster_MoreDailyMissions_Description": "Erhalte mehr Missionen.",
-        "Booster_MoreWeeklyMissions_Description": "Erhalte mehr Missionen.",
         "Booster_MoreXP_Title": "Mehr EXP",
         "Booster_MoreCredits_Title": "Mehr Credits",
         "Booster_MoreMissionRerolls_Title": "Mehr Missions-Aktualisierungen",
@@ -6253,6 +6248,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "Mehr {0} hinzufügen",
+        "Store_EventBanner_Desc": "Statte Grim mit Jigsaw, einer rasanten neuen Titan-Waffe aus, die nur für begrenzte Zeit in den täglichen Deals mit erhöhten Drop-Raten verfügbar ist! Das Event endet am 8. Juli.",
         "Store_MainBanner_Desc_Line2_Desc": "Wenn du aufsteigst, schaltest du neue Baupläne frei mit denen du Module aus <img id=\"Salvage\"></> Altmaterial herstellen kannst.",
         "Offers_PurchaseOffer": "Kaufen",
         "PurchaseNotEnoughCurrencyPopup_Title": "Mehr kaufen",
@@ -6284,6 +6280,7 @@
         "Offers_HirePilot": "Anheuern",
         "Store_MainBanner_Title": "Wie du Roboter bekommst",
         "DLC_ItemsAcquired": "Gekaufte Gegenstände",
+        "Store_EventBanner_Title": "NEUE TITAN-WAFFE IN DEN TÄGLICHEN DEALS",
         "CurrencyOffers_EmptyStore": "Keine Angebote verfügbar",
         "DailyDeals_NoDDNotice": "Hinweis",
         "Items_AlreadyOwned": "In Besitz: {0}",

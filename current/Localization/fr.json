@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "Une tourelle partiellement déphasée attaque l'ennemi le plus proche. Indestructible dans cet état quantique, mais sa durée de vie est limitée.",
         "ABL_descr_Blink": "Après un délai de {BlinkSpeed}, vous téléporte sur {Dist} droit devant vous.",
         "ABL_descr_Rally": "Transmet un code secret aux coéquipiers proches, désactivant leurs protocoles de sécurité. Augmente temporairement la vitesse.",
-        "ABL_descr_Trick": "Vous rend invisible et projette une copie de vous pendant {ActDuration}. Le blindage et les boucliers de votre leurre sont accrus de {ActEfficiency}.",
         "ABL_descr_ShortCircuit": "Libère une décharge d'électricité statique qui rebondit sur les cibles proches. Elle inflige {Dmg} points de dégâts et empêche les ennemis d'utiliser des mécanismes pendant {ActDuration}."
     },
     "Ability_name": {
@@ -5887,10 +5886,6 @@
         "Premium_BuyPremium": "Acheter Premium",
         "Premium_FromPremium": "Du Premium",
         "Premium_UnlockMissions": "Obtenez un compte Premium pour déverrouiller plus de missions",
-        "Booster_MoreXP_Description": "Chaque contrat de contrat de combat vous rapporte plus",
-        "Booster_MoreCredits_Description": "Chaque contrat de contrat de combat vous rapporte plus",
-        "Booster_MoreDailyMissions_Description": "Obtenez plus de missions à terminer",
-        "Booster_MoreWeeklyMissions_Description": "Obtenez plus de missions à terminer",
         "Booster_MoreXP_Title": "Plus d'EXP",
         "Booster_MoreCredits_Title": "Plus de crédits",
         "Booster_MoreMissionRerolls_Title": "Plus de réaffectations de missions",
@@ -6297,6 +6292,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "Ajouter des {0}",
+        "Store_EventBanner_Desc": "Armez le Grim avec une nouvelle arme de Titan : Jigsaw, disponible dans les offres du jour avec un taux d'obtention accru pour une durée limitée ! L'événement se termine le 8 juillet.",
         "Store_MainBanner_Desc_Line2_Desc": "En gagnant des niveaux, vous débloquerez des plans pour fabriquer des modules à partir de <img id=\"Salvage\"></>limaille.",
         "Offers_PurchaseOffer": "Acheter",
         "PurchaseNotEnoughCurrencyPopup_Title": "Acheter plus",
@@ -6328,6 +6324,7 @@
         "Offers_HirePilot": "Engager",
         "Store_MainBanner_Title": "Comment obtenir des robots",
         "DLC_ItemsAcquired": "Objets obtenus",
+        "Store_EventBanner_Title": "OFFRES DU JOUR : NOUVELLE ARME DE TITAN",
         "CurrencyOffers_EmptyStore": "Aucune offre disponible",
         "DailyDeals_NoDDNotice": "Annonce",
         "Items_AlreadyOwned": "En possession : {0}",
