@@ -877,19 +877,37 @@
     },
     "BP_Module_Hitcher_Chassis.0": {
         "id": "BP_Module_Hitcher_Chassis.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Hitcher_Chassis",
+            "default_scalars": {
+                "LegsArmor": 72000.0,
+                "MaxSpeed": 2200.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 9900.0,
+                "PrimaryArmor": 72000.0
+            }
+        },
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Hitcher_Chassis.1",
             "OBJID_Ability::BP_Module_Hitcher_Chassis.2"
         ],
         "misc": {
-            "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Normal.6"
+            "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6"
         }
     },
     "BP_Module_Hitcher_ShoulderL.0": {
-        "id": "BP_Module_Hitcher_ShoulderL.0"
+        "id": "BP_Module_Hitcher_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Hitcher_ShoulderL",
+            "default_scalars": {}
+        }
     },
     "BP_Module_Hitcher_ShoulderR.0": {
-        "id": "BP_Module_Hitcher_ShoulderR.0"
+        "id": "BP_Module_Hitcher_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Hitcher_ShoulderL",
+            "default_scalars": {}
+        }
     },
     "BP_Module_Hitcher_Torso.0": {
         "id": "BP_Module_Hitcher_Torso.0",
