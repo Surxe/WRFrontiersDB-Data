@@ -753,7 +753,7 @@
         "description": {
             "Key": "ABL_descr_ElectricShield",
             "TableNamespace": "Ability_descripton",
-            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second."
+            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -1240,6 +1240,107 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_IronVeil"
+    },
+    "BP_Ability_KineticPulse.2": {
+        "id": "BP_Ability_KineticPulse.2",
+        "projectile_types": [
+            {
+                "ContinuousPushingSettings": {
+                    "Interval": 1.0,
+                    "PushingSettings": {
+                        "ElevationAngle": 40.0,
+                        "ImpulsePower": 220000.0
+                    }
+                },
+                "DelayTime": 15.0,
+                "MovementComponent": {
+                    "InitialSpeed": 80000.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "KeyHandlesToIndices": {}
+                        }
+                    }
+                },
+                "CanBeTransferred": false,
+                "CorpseTime": 0.5,
+                "CorpseVisible": true,
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "GravityChangeFromDistance": {
+                    "EditorCurveData": {
+                        "KeyHandlesToIndices": {}
+                    }
+                },
+                "DefaultDistanceSettings": [
+                    {
+                        "Key": "ESProjectileTravellingState::MinDistanceState",
+                        "Value": {
+                            "Distance": 0.0,
+                            "InterpolationMode": "ERichCurveInterpMode::RCIM_Linear",
+                            "DirectDamageMultiplier": 0.05
+                        }
+                    },
+                    {
+                        "Key": "ESProjectileTravellingState::ExpansionDistanceState",
+                        "Value": {
+                            "Distance": 1.0,
+                            "InterpolationMode": "ERichCurveInterpMode::RCIM_Linear",
+                            "DirectDamageMultiplier": 1.0
+                        }
+                    },
+                    {
+                        "Key": "ESProjectileTravellingState::EffectiveDistanceState",
+                        "Value": {
+                            "Distance": 70000.0,
+                            "InterpolationMode": "ERichCurveInterpMode::RCIM_Linear",
+                            "DirectDamageMultiplier": 1.0
+                        }
+                    },
+                    {
+                        "Key": "ESProjectileTravellingState::MaxDistanceState",
+                        "Value": {
+                            "Distance": 70001.0,
+                            "InterpolationMode": "ERichCurveInterpMode::RCIM_Linear",
+                            "DirectDamageMultiplier": 0.05
+                        }
+                    },
+                    {
+                        "Key": "ESProjectileTravellingState::DeathDistanceState",
+                        "Value": {
+                            "Distance": 70002.0,
+                            "InterpolationMode": "ERichCurveInterpMode::RCIM_Linear",
+                            "DirectDamageMultiplier": 0.05
+                        }
+                    }
+                ],
+                "SpawnSocketName": "None"
+            }
+        ],
+        "ai": {
+            "conditions": [
+                {
+                    "MinDetections": 2
+                }
+            ]
+        },
+        "misc": {
+            "EffectType": "Attacking"
+        },
+        "name": {
+            "Key": "ABL_name_KineticPulse",
+            "TableNamespace": "Ability_name",
+            "en": "Kinetic Pulse"
+        },
+        "description": {
+            "Key": "ABL_descr_KineticPulse",
+            "TableNamespace": "Ability_descripton",
+            "en": "Fires a projectile that sticks to a surface or robot and emits {ActCount} pulses, pushing enemies at a distance of {ActRadius} in different directions. Cooldown {CD}. {Consum} charges."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_KineticPulse"
     },
     "BP_Ability_MineField.3": {
         "id": "BP_Ability_MineField.3",
@@ -2434,7 +2535,7 @@
         "description": {
             "Key": "ABL_descr_StickySensor",
             "TableNamespace": "Ability_descripton",
-            "en": "Fires a device that attaches to solid surfaces. It then reveals enemies within {ActRadius} for {ActDuration} even if they are invisible."
+            "en": "Fires a device that attaches to solid surfaces. It then reveals enemies within {ActRadius} for {ActDuration} even if they are invisible. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 5.0
@@ -2538,7 +2639,7 @@
         "description": {
             "Key": "ABL_descr_StickySensor",
             "TableNamespace": "Ability_descripton",
-            "en": "Fires a device that attaches to solid surfaces. It then reveals enemies within {ActRadius} for {ActDuration} even if they are invisible."
+            "en": "Fires a device that attaches to solid surfaces. It then reveals enemies within {ActRadius} for {ActDuration} even if they are invisible. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 5.0
@@ -2612,7 +2713,7 @@
         "description": {
             "Key": "ABL_descr_DeadLight",
             "TableNamespace": "Ability_descripton",
-            "en": "Marks an area for a devastating orbital strike that deals {Dmg} per tick to enemies within {ActRadius}."
+            "en": "Marks an area for a devastating orbital strike that deals {Dmg} per tick to enemies within {ActRadius}. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 35.0,
@@ -4340,7 +4441,7 @@
         "description": {
             "Key": "ABL_descr_HomingPack",
             "TableNamespace": "Ability_descripton",
-            "en": "Fires a volley of homing missiles, each dealing {ShieldDmg} to shields and {StructDmg} to armor."
+            "en": "Fires a volley of homing missiles, each dealing {ShieldDmg} to shields and {StructDmg} to armor. Cooldown: {CD}."
         },
         "misc": {
             "EffectType": "Attacking",
@@ -5588,7 +5689,7 @@
             "PrimaryParameter": 10.0,
             "SecondaryParameter": 5.0,
             "bDeactivateIfOwnerDie": true,
-            "InitialDuration": 10.0,
+            "InitialDuration": 12.0,
             "ActorCDOShapeComponent": {
                 "SphereRadius": 32.0
             }
@@ -6508,7 +6609,7 @@
         "description": {
             "Key": "ABL_descr_Scythe",
             "TableNamespace": "Ability_descripton",
-            "en": "Charge {Dist} forward, knocking enemies aside and dealing {Dmg} damage to all in your path."
+            "en": "Charge {Dist} forward, knocking enemies aside and dealing {Dmg} damage to all in your path. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 25.0
@@ -6601,7 +6702,7 @@
         "description": {
             "Key": "ABL_descr_Ripper",
             "TableNamespace": "Ability_descripton",
-            "en": "Replaces your weapon with swirling blades for {ActDuration}. They shred nearby enemies for {Dmg} damage per hit and restore your armor."
+            "en": "Replaces your weapon with swirling blades for {ActDuration}. They shred nearby enemies for {Dmg} damage per hit and restore your armor. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 30.0,
@@ -6664,7 +6765,7 @@
         "description": {
             "Key": "ABL_descr_Snare",
             "TableNamespace": "Ability_descripton",
-            "en": "Deploys a magnetic trap that lasts {ActDuration} and immobilizes enemies within {ActRadius} for a short time."
+            "en": "Deploys a magnetic trap that lasts {ActDuration} and immobilizes enemies within {ActRadius} for a short time. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 30.0,
@@ -7197,7 +7298,7 @@
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility",
         "misc": {
             "LevitationHeight": 200.0,
-            "MaxVelocityHorizontal": 3400.0,
+            "MaxVelocityHorizontal": 3800.0,
             "DragCoefficientX": 200.0,
             "DragCoefficientY": 200.0,
             "FuelUsagePerSecond": 3.5,
@@ -7227,43 +7328,52 @@
     },
     "BP_Module_Kernel_Torso.1": {
         "id": "BP_Module_Kernel_Torso.1",
-        "misc": {
-            "spawn_actor_action": {
-                "bDestroyActorOnExit": false,
-                "ActorClass": {
-                    "ActivationDelay": 0.3,
-                    "MovementComponent": {
-                        "bShouldBounce": true,
-                        "Bounciness": 0.2,
-                        "Friction": 0.6,
-                        "PlaneConstraintNormal": {
-                            "X": 1.0,
-                            "Y": 1.0,
-                            "Z": 0.0
-                        }
-                    },
-                    "StartImpulseHorizontal": 250.0,
-                    "StartImpulseVertical": 2500.0
-                }
+        "targeting": {
+            "ConfirmationAction": {
+                "ConeRadius": 22000.0,
+                "ConeHalfAngleInDegrees": 15.0,
+                "MaxTargetNum": 1
             },
-            "bStartWithMaxCharges": false,
-            "InitialDuration": 8.0,
-            "CastDuration": 0.6
+            "HackingCastAction": {
+                "MaxRange": 50000.0
+            }
+        },
+        "misc": {
+            "DistanceRange": {
+                "max": 30000.0
+            },
+            "BuffOnTarget": {
+                "Hacker": {
+                    "HackingTime": 2.0
+                },
+                "AoeDamagePerSecond": {
+                    "Radius": 5000.0
+                },
+                "Lifetime": 6.0
+            },
+            "CastDuration": 3.0,
+            "EffectType": "Attacking",
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 30.0
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "MaxDistance": 50000.0
+                }
+            ]
         },
         "name": {
-            "Key": "ABL_name_CamouflageWeb",
+            "Key": "ABL_name_ChainOverload",
             "TableNamespace": "Ability_name",
-            "en": "Camouflage Web"
+            "en": "Chain Overload"
         },
         "description": {
-            "Key": "ABL_descr_CamouflageWeb",
+            "Key": "ABLdescr_ChainOverload",
             "TableNamespace": "Ability_descripton",
-            "en": "Creates a Camouflage Web with a radius of {DomeRad} for {Duration}, making allies inside it invisible to enemies outside. Cooldown {CD}."
+            "en": "Infects an enemy robot with a virus that deals {Burning} damage per second for 6 seconds. If another enemy comes within {ActRadius} during the effect, the virus jumps to them. Can chain up to 8 times."
         },
-        "cooldown": {
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_CamouflageWeb"
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ChainOverload"
     },
     "BP_Module_Kumo_Chassis.1": {
         "id": "BP_Module_Kumo_Chassis.1",
@@ -7337,7 +7447,7 @@
         "description": {
             "Key": "ABL_descr_WarpArmor",
             "TableNamespace": "Ability_descripton",
-            "en": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies neardy. The buff lasts for {ActDuration}"
+            "en": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies nearby. The buff lasts for {ActDuration}"
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -7535,7 +7645,7 @@
                         {
                             "Target": "Me",
                             "BuffLingerTime": 0.0,
-                            "activeEfficiency": 0.8,
+                            "activeEfficiency": 0.6,
                             "StackMode": "Stack"
                         }
                     ]
@@ -7543,7 +7653,7 @@
             },
             "CastDuration": 0.0,
             "EffectType": "Defensive",
-            "InitialDuration": 8.0,
+            "InitialDuration": 13.0,
             "PrimaryParameter": 7500.0,
             "SecondaryParameter": 0.92
         },
@@ -8001,7 +8111,7 @@
         "description": {
             "Key": "ABL_descr_Singulators",
             "TableNamespace": "Ability_descripton",
-            "en": "Deploys a fleet drones that intercept enemy projectiles within {ActRadius} every {SingulationRt}."
+            "en": "Deploys a fleet drones that intercept enemy projectiles within {ActRadius} every {SingulationRt}. Cooldown: {CD}."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Singulators"
     },
@@ -8059,7 +8169,7 @@
         "description": {
             "Key": "ABL_descr_Swarm",
             "TableNamespace": "Ability_descripton",
-            "en": "Releases drones that deal {Dmg} damage per tick to enemies within {ActRadius}, while also lowering their accuracy and rate of fire."
+            "en": "Releases drones that deal {Dmg} damage per tick to enemies within {ActRadius}, while also lowering their accuracy and rate of fire. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 30.0,
@@ -8129,7 +8239,7 @@
         "description": {
             "Key": "ABL_descr_NaniteField",
             "TableNamespace": "Ability_descripton",
-            "en": "Creates a wide area that speeds up allies for {ActDuration} and restores {RegenSpeed}% of armor per tick."
+            "en": "Creates a wide area that speeds up allies for {ActDuration} and restores {RegenSpeed}% of armor per tick. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -8363,7 +8473,7 @@
         "description": {
             "Key": "ABL_descr_Harmonizer",
             "TableNamespace": "Ability_descripton",
-            "en": "Restores {ShieldRegen} shield per second for allies within {ActRadius} and half this value for Mesa itself. Also reduces damage output for enemies in range by 30%"
+            "en": "Restores {ShieldRegen} shield per second for allies within {ActRadius} and half this value for Mesa itself. Also reduces damage output for enemies in range by 30%. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 5.0,
@@ -10742,7 +10852,7 @@
         "description": {
             "Key": "ABL_descr_ShortCircuit",
             "TableNamespace": "Ability_descripton",
-            "en": "Releases a static discharge that bounces off to nearby targets. It deals {Dmg} damage and prevents enemies from using gear for {ActDuration}."
+            "en": "Releases a static discharge that bounces off to nearby targets. It deals {Dmg} damage and prevents enemies from using gear for {ActDuration}. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -10768,7 +10878,7 @@
         "description": {
             "Key": "ABL_descr_TeslaCoil",
             "TableNamespace": "Ability_descripton",
-            "en": "Activates a built-in electric weapon for {ActDuration}. It automatically picks a target near your crosshair, dealing {Dmg} damage per shot to a random module."
+            "en": "Activates a built-in electric weapon for {ActDuration}. It automatically picks a target near your crosshair, dealing {Dmg} damage per shot to a random module. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -10868,7 +10978,7 @@
         "description": {
             "Key": "ABL_descr_ElectricShield",
             "TableNamespace": "Ability_descripton",
-            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second."
+            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"

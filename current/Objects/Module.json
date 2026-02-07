@@ -45,7 +45,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl1_scrap2"
                         ],
                         "Cooldown": 45.0,
-                        "PrimaryParameter": 40.0,
+                        "PrimaryParameter": 48.0,
                         "SecondaryParameter": 39.65
                     },
                     {
@@ -55,7 +55,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl2_scrap2"
                         ],
                         "Cooldown": 45.0,
-                        "PrimaryParameter": 41.0,
+                        "PrimaryParameter": 49.0,
                         "SecondaryParameter": 39.65
                     },
                     {
@@ -65,7 +65,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl3_scrap2"
                         ],
                         "Cooldown": 45.0,
-                        "PrimaryParameter": 41.0,
+                        "PrimaryParameter": 49.0,
                         "SecondaryParameter": 41.74
                     },
                     {
@@ -75,7 +75,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl4_scrap2"
                         ],
                         "Cooldown": 45.0,
-                        "PrimaryParameter": 42.0,
+                        "PrimaryParameter": 50.0,
                         "SecondaryParameter": 41.74
                     },
                     {
@@ -85,7 +85,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl5_scrap2"
                         ],
                         "Cooldown": 43.0,
-                        "PrimaryParameter": 42.0,
+                        "PrimaryParameter": 50.0,
                         "SecondaryParameter": 41.74
                     },
                     {
@@ -95,7 +95,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl6_scrap2"
                         ],
                         "Cooldown": 43.0,
-                        "PrimaryParameter": 42.0,
+                        "PrimaryParameter": 50.0,
                         "SecondaryParameter": 43.94
                     },
                     {
@@ -105,7 +105,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl7_scrap2"
                         ],
                         "Cooldown": 43.0,
-                        "PrimaryParameter": 44.0,
+                        "PrimaryParameter": 53.0,
                         "SecondaryParameter": 43.94
                     },
                     {
@@ -115,7 +115,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl8_scrap2"
                         ],
                         "Cooldown": 43.0,
-                        "PrimaryParameter": 44.0,
+                        "PrimaryParameter": 53.0,
                         "SecondaryParameter": 46.25
                     },
                     {
@@ -125,7 +125,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl9_scrap2"
                         ],
                         "Cooldown": 39.0,
-                        "PrimaryParameter": 44.0,
+                        "PrimaryParameter": 53.0,
                         "SecondaryParameter": 46.25
                     },
                     {
@@ -135,7 +135,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl10_scrap2"
                         ],
                         "Cooldown": 39.0,
-                        "PrimaryParameter": 46.0,
+                        "PrimaryParameter": 56.00000000000001,
                         "SecondaryParameter": 46.25
                     },
                     {
@@ -145,7 +145,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl11_scrap2"
                         ],
                         "Cooldown": 39.0,
-                        "PrimaryParameter": 46.0,
+                        "PrimaryParameter": 56.00000000000001,
                         "SecondaryParameter": 50.0
                     },
                     {
@@ -155,7 +155,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl12_scrap2"
                         ],
                         "Cooldown": 39.0,
-                        "PrimaryParameter": 50.0,
+                        "PrimaryParameter": 60.0,
                         "SecondaryParameter": 50.0
                     },
                     {
@@ -165,7 +165,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_AmmoGenerator.1_lvl13_scrap2"
                         ],
                         "Cooldown": 35.0,
-                        "PrimaryParameter": 50.0,
+                        "PrimaryParameter": 60.0,
                         "SecondaryParameter": 50.0
                     }
                 ]
@@ -2629,9 +2629,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl1_scrap2"
                         ],
-                        "Cooldown": 43.0,
+                        "Cooldown": 35.0,
                         "PrimaryParameter": 4.2,
-                        "SecondaryParameter": 57.99999999999999
+                        "SecondaryParameter": 72.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl2",
@@ -2639,9 +2639,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl2_scrap2"
                         ],
-                        "Cooldown": 43.0,
+                        "Cooldown": 35.0,
                         "PrimaryParameter": 4.3,
-                        "SecondaryParameter": 57.99999999999999
+                        "SecondaryParameter": 72.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl3",
@@ -2649,9 +2649,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl3_scrap2"
                         ],
-                        "Cooldown": 43.0,
+                        "Cooldown": 35.0,
                         "PrimaryParameter": 4.3,
-                        "SecondaryParameter": 63.0
+                        "SecondaryParameter": 78.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl4",
@@ -2659,9 +2659,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl4_scrap2"
                         ],
-                        "Cooldown": 43.0,
+                        "Cooldown": 35.0,
                         "PrimaryParameter": 4.4,
-                        "SecondaryParameter": 63.0
+                        "SecondaryParameter": 78.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl5",
@@ -2669,9 +2669,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl5_scrap2"
                         ],
-                        "Cooldown": 36.0,
+                        "Cooldown": 29.0,
                         "PrimaryParameter": 4.4,
-                        "SecondaryParameter": 63.0
+                        "SecondaryParameter": 78.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl6",
@@ -2679,9 +2679,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl6_scrap2"
                         ],
-                        "Cooldown": 36.0,
+                        "Cooldown": 29.0,
                         "PrimaryParameter": 4.4,
-                        "SecondaryParameter": 68.0
+                        "SecondaryParameter": 85.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl7",
@@ -2689,9 +2689,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl7_scrap2"
                         ],
-                        "Cooldown": 36.0,
+                        "Cooldown": 29.0,
                         "PrimaryParameter": 4.6,
-                        "SecondaryParameter": 68.0
+                        "SecondaryParameter": 85.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl8",
@@ -2699,9 +2699,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl8_scrap2"
                         ],
-                        "Cooldown": 36.0,
+                        "Cooldown": 29.0,
                         "PrimaryParameter": 4.6,
-                        "SecondaryParameter": 74.0
+                        "SecondaryParameter": 92.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl9",
@@ -2709,9 +2709,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl9_scrap2"
                         ],
-                        "Cooldown": 30.0,
+                        "Cooldown": 24.0,
                         "PrimaryParameter": 4.6,
-                        "SecondaryParameter": 74.0
+                        "SecondaryParameter": 92.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl10",
@@ -2719,9 +2719,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl10_scrap2"
                         ],
-                        "Cooldown": 30.0,
+                        "Cooldown": 24.0,
                         "PrimaryParameter": 4.8,
-                        "SecondaryParameter": 74.0
+                        "SecondaryParameter": 92.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl11",
@@ -2729,9 +2729,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl11_scrap2"
                         ],
-                        "Cooldown": 30.0,
+                        "Cooldown": 24.0,
                         "PrimaryParameter": 4.8,
-                        "SecondaryParameter": 80.0
+                        "SecondaryParameter": 100.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl12",
@@ -2739,9 +2739,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl12_scrap2"
                         ],
-                        "Cooldown": 30.0,
+                        "Cooldown": 24.0,
                         "PrimaryParameter": 5.0,
-                        "SecondaryParameter": 80.0
+                        "SecondaryParameter": 100.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_Grounded.1_lvl13",
@@ -2749,9 +2749,9 @@
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_Grounded.1_lvl13_scrap2"
                         ],
-                        "Cooldown": 25.0,
+                        "Cooldown": 20.0,
                         "PrimaryParameter": 5.0,
-                        "SecondaryParameter": 80.0
+                        "SecondaryParameter": 100.0
                     }
                 ]
             },
@@ -3503,7 +3503,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl1_scrap2"
                         ],
-                        "ChargeDuration": 293.0,
+                        "ChargeDuration": 399.0,
                         "PrimaryParameter": 70.0,
                         "SecondaryParameter": 3.1
                     },
@@ -3513,7 +3513,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl2_scrap2"
                         ],
-                        "ChargeDuration": 293.0,
+                        "ChargeDuration": 399.0,
                         "PrimaryParameter": 74.0,
                         "SecondaryParameter": 3.1
                     },
@@ -3523,7 +3523,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl3_scrap2"
                         ],
-                        "ChargeDuration": 293.0,
+                        "ChargeDuration": 399.0,
                         "PrimaryParameter": 74.0,
                         "SecondaryParameter": 3.2
                     },
@@ -3533,7 +3533,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl4_scrap2"
                         ],
-                        "ChargeDuration": 293.0,
+                        "ChargeDuration": 399.0,
                         "PrimaryParameter": 78.0,
                         "SecondaryParameter": 3.2
                     },
@@ -3543,7 +3543,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl5_scrap2"
                         ],
-                        "ChargeDuration": 266.0,
+                        "ChargeDuration": 363.0,
                         "PrimaryParameter": 78.0,
                         "SecondaryParameter": 3.2
                     },
@@ -3553,7 +3553,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl6_scrap2"
                         ],
-                        "ChargeDuration": 266.0,
+                        "ChargeDuration": 363.0,
                         "PrimaryParameter": 78.0,
                         "SecondaryParameter": 3.3
                     },
@@ -3563,7 +3563,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl7_scrap2"
                         ],
-                        "ChargeDuration": 266.0,
+                        "ChargeDuration": 363.0,
                         "PrimaryParameter": 82.0,
                         "SecondaryParameter": 3.3
                     },
@@ -3573,7 +3573,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl8_scrap2"
                         ],
-                        "ChargeDuration": 266.0,
+                        "ChargeDuration": 363.0,
                         "PrimaryParameter": 82.0,
                         "SecondaryParameter": 3.4
                     },
@@ -3583,7 +3583,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl9_scrap2"
                         ],
-                        "ChargeDuration": 242.0,
+                        "ChargeDuration": 330.0,
                         "PrimaryParameter": 82.0,
                         "SecondaryParameter": 3.4
                     },
@@ -3593,7 +3593,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl10_scrap2"
                         ],
-                        "ChargeDuration": 242.0,
+                        "ChargeDuration": 330.0,
                         "PrimaryParameter": 86.0,
                         "SecondaryParameter": 3.4
                     },
@@ -3603,7 +3603,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl11_scrap2"
                         ],
-                        "ChargeDuration": 242.0,
+                        "ChargeDuration": 330.0,
                         "PrimaryParameter": 86.0,
                         "SecondaryParameter": 3.5
                     },
@@ -3613,7 +3613,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl12_scrap2"
                         ],
-                        "ChargeDuration": 242.0,
+                        "ChargeDuration": 330.0,
                         "PrimaryParameter": 90.0,
                         "SecondaryParameter": 3.5
                     },
@@ -3623,7 +3623,7 @@
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_Ability_IronVeil.1_lvl13_scrap2"
                         ],
-                        "ChargeDuration": 220.0,
+                        "ChargeDuration": 300.0,
                         "PrimaryParameter": 90.0,
                         "SecondaryParameter": 3.5
                     }
@@ -3648,6 +3648,196 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability4.0"
+    },
+    "DA_Module_Ability_KineticPulse.1": {
+        "id": "DA_Module_Ability_KineticPulse.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_KineticPulse",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Ability_KineticPulse.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Support.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Cooldown": 20.0,
+                "PrimaryParameter": 10.0,
+                "SecondaryParameter": 10000.0
+            },
+            "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveCount.0",
+            "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveRadius.0",
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Defender",
+                    "module_class_ref_2": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Support",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Freecon",
+                    "MaxCharges": 4,
+                    "ChargeDuration": 0.0,
+                    "ID": "KineticPulse",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 7.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl1_scrap2"
+                        ],
+                        "Cooldown": 60.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 36.88
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl2_scrap2"
+                        ],
+                        "Cooldown": 60.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 39.660000000000004
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl3_scrap2"
+                        ],
+                        "Cooldown": 60.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 42.65
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl4_scrap2"
+                        ],
+                        "Cooldown": 60.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 45.86
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl5_scrap2"
+                        ],
+                        "Cooldown": 50.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 45.86
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl6_scrap2"
+                        ],
+                        "Cooldown": 50.0,
+                        "PrimaryParameter": 3.0,
+                        "SecondaryParameter": 48.27
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl7_scrap2"
+                        ],
+                        "Cooldown": 50.0,
+                        "PrimaryParameter": 4.0,
+                        "SecondaryParameter": 48.27
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl8_scrap2"
+                        ],
+                        "Cooldown": 50.0,
+                        "PrimaryParameter": 4.0,
+                        "SecondaryParameter": 50.81
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl9_scrap2"
+                        ],
+                        "Cooldown": 42.0,
+                        "PrimaryParameter": 4.0,
+                        "SecondaryParameter": 50.81
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl10_scrap2"
+                        ],
+                        "Cooldown": 42.0,
+                        "PrimaryParameter": 4.0,
+                        "SecondaryParameter": 52.38
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl11_scrap2"
+                        ],
+                        "Cooldown": 42.0,
+                        "PrimaryParameter": 4.0,
+                        "SecondaryParameter": 54.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl12_scrap2"
+                        ],
+                        "Cooldown": 42.0,
+                        "PrimaryParameter": 5.0,
+                        "SecondaryParameter": 54.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_KineticPulse.1_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_KineticPulse.1_lvl13_scrap2"
+                        ],
+                        "Cooldown": 35.0,
+                        "PrimaryParameter": 5.0,
+                        "SecondaryParameter": 54.0
+                    }
+                ]
+            },
+            "module_name": "KineticPulse"
+        },
+        "name": {
+            "Key": "ABL_name_KineticPulse",
+            "TableNamespace": "Ability_name",
+            "en": "Kinetic Pulse"
+        },
+        "description": {
+            "Key": "ABL_descr_KineticPulse",
+            "TableNamespace": "Ability_descripton",
+            "en": "Fires a projectile that sticks to a surface or robot and emits {ActCount} pulses, pushing enemies at a distance of {ActRadius} in different directions. Cooldown {CD}. {Consum} charges."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Defender.0",
+            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability3.0"
     },
     "DA_Module_Ability_MineField.1": {
         "id": "DA_Module_Ability_MineField.1",
@@ -8052,8 +8242,10 @@
             "levels": {
                 "constants": {
                     "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
-                    "module_faction_ref": "OBJID_Faction::DA_Faction_Freecon",
-                    "ID": "BP_Module_Spire_Chassis",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "LoadCapacity": 52.0,
+                    "EnergyCapacity": 25.0,
+                    "ID": "BP_Module_Kernel_Chassis",
                     "ArmorDPS": 0.0,
                     "ShieldDPS": 0.0,
                     "WeightDrain": 0.0,
@@ -8066,10 +8258,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl1_scrap2"
                         ],
-                        "LegsArmor": 90176.0,
-                        "MaxSpeed": 2083.3333,
-                        "FuelCapacity": 10.0,
-                        "Armor": 90176.0
+                        "LegsArmor": 77400.0,
+                        "MaxSpeed": 2111.111,
+                        "FuelCapacity": 11.0,
+                        "Armor": 77400.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl2",
@@ -8077,10 +8269,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl2_scrap2"
                         ],
-                        "LegsArmor": 93738.0,
-                        "MaxSpeed": 2083.3333,
-                        "FuelCapacity": 10.0,
-                        "Armor": 93738.0
+                        "LegsArmor": 83600.0,
+                        "MaxSpeed": 2111.111,
+                        "FuelCapacity": 11.0,
+                        "Armor": 83600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl3",
@@ -8088,10 +8280,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl3_scrap2"
                         ],
-                        "LegsArmor": 93738.0,
-                        "MaxSpeed": 2083.3333,
-                        "FuelCapacity": 11.0,
-                        "Armor": 93738.0
+                        "LegsArmor": 83600.0,
+                        "MaxSpeed": 2111.111,
+                        "FuelCapacity": 12.0,
+                        "Armor": 83600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl4",
@@ -8099,10 +8291,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl4_scrap2"
                         ],
-                        "LegsArmor": 97441.0,
-                        "MaxSpeed": 2083.3333,
-                        "FuelCapacity": 11.0,
-                        "Armor": 97441.0
+                        "LegsArmor": 83600.0,
+                        "MaxSpeed": 2222.2222,
+                        "FuelCapacity": 12.0,
+                        "Armor": 83600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl5",
@@ -8110,10 +8302,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl5_scrap2"
                         ],
-                        "LegsArmor": 97441.0,
-                        "MaxSpeed": 2166.6667,
-                        "FuelCapacity": 11.0,
-                        "Armor": 97441.0
+                        "LegsArmor": 83600.0,
+                        "MaxSpeed": 2222.2222,
+                        "FuelCapacity": 12.0,
+                        "Armor": 83600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl6",
@@ -8121,10 +8313,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl6_scrap2"
                         ],
-                        "LegsArmor": 99633.0,
-                        "MaxSpeed": 2166.6667,
-                        "FuelCapacity": 11.0,
-                        "Armor": 99633.0
+                        "LegsArmor": 88600.0,
+                        "MaxSpeed": 2222.2222,
+                        "FuelCapacity": 12.0,
+                        "Armor": 88600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl7",
@@ -8132,10 +8324,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl7_scrap2"
                         ],
-                        "LegsArmor": 99633.0,
-                        "MaxSpeed": 2166.6667,
-                        "FuelCapacity": 12.0,
-                        "Armor": 99633.0
+                        "LegsArmor": 88600.0,
+                        "MaxSpeed": 2222.2222,
+                        "FuelCapacity": 13.0,
+                        "Armor": 88600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl8",
@@ -8143,10 +8335,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl8_scrap2"
                         ],
-                        "LegsArmor": 101874.0,
-                        "MaxSpeed": 2166.6667,
-                        "FuelCapacity": 12.0,
-                        "Armor": 101874.0
+                        "LegsArmor": 88600.0,
+                        "MaxSpeed": 2305.5557,
+                        "FuelCapacity": 13.0,
+                        "Armor": 88600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl9",
@@ -8154,10 +8346,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl9_scrap2"
                         ],
-                        "LegsArmor": 101874.0,
-                        "MaxSpeed": 2250.0,
-                        "FuelCapacity": 12.0,
-                        "Armor": 101874.0
+                        "LegsArmor": 88600.0,
+                        "MaxSpeed": 2305.5557,
+                        "FuelCapacity": 13.0,
+                        "Armor": 88600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl10",
@@ -8165,10 +8357,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl10_scrap2"
                         ],
-                        "LegsArmor": 103425.0,
-                        "MaxSpeed": 2250.0,
-                        "FuelCapacity": 12.0,
-                        "Armor": 103425.0
+                        "LegsArmor": 93000.0,
+                        "MaxSpeed": 2305.5557,
+                        "FuelCapacity": 13.0,
+                        "Armor": 93000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl11",
@@ -8176,10 +8368,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl11_scrap2"
                         ],
-                        "LegsArmor": 103425.0,
-                        "MaxSpeed": 2250.0,
-                        "FuelCapacity": 13.0,
-                        "Armor": 103425.0
+                        "LegsArmor": 93000.0,
+                        "MaxSpeed": 2305.5557,
+                        "FuelCapacity": 14.0,
+                        "Armor": 93000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl12",
@@ -8187,10 +8379,10 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl12_scrap2"
                         ],
-                        "LegsArmor": 105000.0,
-                        "MaxSpeed": 2250.0,
-                        "FuelCapacity": 13.0,
-                        "Armor": 105000.0
+                        "LegsArmor": 93000.0,
+                        "MaxSpeed": 2361.111,
+                        "FuelCapacity": 14.0,
+                        "Armor": 93000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisKernel.2_lvl13",
@@ -8198,14 +8390,14 @@
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisKernel.2_lvl13_scrap2"
                         ],
-                        "LegsArmor": 105000.0,
-                        "MaxSpeed": 2305.5557,
-                        "FuelCapacity": 13.0,
-                        "Armor": 105000.0
+                        "LegsArmor": 93000.0,
+                        "MaxSpeed": 2361.111,
+                        "FuelCapacity": 15.0,
+                        "Armor": 93000.0
                     }
                 ]
             },
-            "module_name": "BP_Module_Spire_Chassis"
+            "module_name": "BP_Module_Kernel_Chassis"
         },
         "abilities_scalars": [
             {
@@ -8232,11 +8424,11 @@
             }
         ],
         "name": {
-            "Key": "CMP_name_SPIRE",
+            "Key": "CMP_name_Kernel_Chassis",
             "TableNamespace": "Component_name",
-            "en": "Volta"
+            "en": "Decker"
         },
-        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
             "OBJID_ModuleClass::DA_Module_Class_Assault.0"
         ],
@@ -8426,7 +8618,23 @@
             "module_name": "BP_Module_Kumo_Chassis"
         },
         "abilities_scalars": [
-            {},
+            {
+                "levels": {
+                    "constants": {
+                        "Cooldown": 1.0,
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "PrimaryParameter": false,
+                        "SecondaryParameter": false,
+                        "ID": "None",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    }
+                }
+            },
             {
                 "default_scalars": {
                     "ChargeRegenDuration": 20.0
@@ -14556,9 +14764,9 @@
         "module_scalars": {
             "levels": {
                 "constants": {
-                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
-                    "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
-                    "ID": "BP_Module_Anansi_ShoulderL",
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ID": "BP_Module_Kernel_ShoulderL",
                     "ArmorDPS": 0.0,
                     "ShieldDPS": 0.0,
                     "WeightDrain": 12.0,
@@ -14571,10 +14779,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl1_scrap2"
                         ],
-                        "ShieldAmount": 14800.0,
-                        "ShieldRegeneration": 2290.0,
-                        "ShieldDelayReduction": 0.18,
-                        "Armor": 52800.0
+                        "ShieldAmount": 18500.0,
+                        "ShieldRegeneration": 2050.0,
+                        "ShieldDelayReduction": 0.2,
+                        "Armor": 67300.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl2",
@@ -14582,10 +14790,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl2_scrap2"
                         ],
-                        "ShieldAmount": 15100.0,
-                        "ShieldRegeneration": 2340.0,
-                        "ShieldDelayReduction": 0.18,
-                        "Armor": 54900.0
+                        "ShieldAmount": 18900.0,
+                        "ShieldRegeneration": 2090.0,
+                        "ShieldDelayReduction": 0.2,
+                        "Armor": 70000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl3",
@@ -14593,10 +14801,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl3_scrap2"
                         ],
-                        "ShieldAmount": 15400.0,
-                        "ShieldRegeneration": 2390.0,
-                        "ShieldDelayReduction": 0.19,
-                        "Armor": 54900.0
+                        "ShieldAmount": 19300.0,
+                        "ShieldRegeneration": 2130.0,
+                        "ShieldDelayReduction": 0.22,
+                        "Armor": 70000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl4",
@@ -14604,10 +14812,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl4_scrap2"
                         ],
-                        "ShieldAmount": 15700.0,
-                        "ShieldRegeneration": 2440.0,
-                        "ShieldDelayReduction": 0.19,
-                        "Armor": 54900.0
+                        "ShieldAmount": 19700.0,
+                        "ShieldRegeneration": 2170.0,
+                        "ShieldDelayReduction": 0.22,
+                        "Armor": 72800.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl5",
@@ -14615,10 +14823,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl5_scrap2"
                         ],
-                        "ShieldAmount": 16000.0,
-                        "ShieldRegeneration": 2610.0,
-                        "ShieldDelayReduction": 0.2,
-                        "Armor": 54900.0
+                        "ShieldAmount": 20100.0,
+                        "ShieldRegeneration": 2210.0,
+                        "ShieldDelayReduction": 0.24,
+                        "Armor": 72800.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl6",
@@ -14626,10 +14834,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl6_scrap2"
                         ],
-                        "ShieldAmount": 16300.0,
-                        "ShieldRegeneration": 2660.0,
-                        "ShieldDelayReduction": 0.2,
-                        "Armor": 57600.0
+                        "ShieldAmount": 20500.0,
+                        "ShieldRegeneration": 2250.0,
+                        "ShieldDelayReduction": 0.24,
+                        "Armor": 75000.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl7",
@@ -14637,10 +14845,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl7_scrap2"
                         ],
-                        "ShieldAmount": 16600.0,
-                        "ShieldRegeneration": 2710.0,
-                        "ShieldDelayReduction": 0.2,
-                        "Armor": 57600.0
+                        "ShieldAmount": 20900.0,
+                        "ShieldRegeneration": 2300.0,
+                        "ShieldDelayReduction": 0.24,
+                        "Armor": 77300.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl8",
@@ -14648,10 +14856,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl8_scrap2"
                         ],
-                        "ShieldAmount": 16900.0,
-                        "ShieldRegeneration": 2900.0,
-                        "ShieldDelayReduction": 0.2,
-                        "Armor": 59900.0
+                        "ShieldAmount": 21300.0,
+                        "ShieldRegeneration": 2350.0,
+                        "ShieldDelayReduction": 0.24,
+                        "Armor": 79600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl9",
@@ -14659,10 +14867,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl9_scrap2"
                         ],
-                        "ShieldAmount": 17200.0,
-                        "ShieldRegeneration": 2960.0,
-                        "ShieldDelayReduction": 0.21,
-                        "Armor": 59900.0
+                        "ShieldAmount": 21700.0,
+                        "ShieldRegeneration": 2400.0,
+                        "ShieldDelayReduction": 0.26,
+                        "Armor": 79600.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl10",
@@ -14670,10 +14878,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl10_scrap2"
                         ],
-                        "ShieldAmount": 17500.0,
-                        "ShieldRegeneration": 3020.0,
-                        "ShieldDelayReduction": 0.21,
-                        "Armor": 59900.0
+                        "ShieldAmount": 22100.0,
+                        "ShieldRegeneration": 2450.0,
+                        "ShieldDelayReduction": 0.26,
+                        "Armor": 81200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl11",
@@ -14681,10 +14889,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl11_scrap2"
                         ],
-                        "ShieldAmount": 17800.0,
-                        "ShieldRegeneration": 3230.0,
-                        "ShieldDelayReduction": 0.21,
-                        "Armor": 61700.0
+                        "ShieldAmount": 22500.0,
+                        "ShieldRegeneration": 2500.0,
+                        "ShieldDelayReduction": 0.26,
+                        "Armor": 82800.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl12",
@@ -14692,10 +14900,10 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl12_scrap2"
                         ],
-                        "ShieldAmount": 18200.0,
-                        "ShieldRegeneration": 3290.0,
-                        "ShieldDelayReduction": 0.21,
-                        "Armor": 61700.0
+                        "ShieldAmount": 23000.0,
+                        "ShieldRegeneration": 2550.0,
+                        "ShieldDelayReduction": 0.26,
+                        "Armor": 84500.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderKernel.0_lvl13",
@@ -14703,21 +14911,21 @@
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_ShoulderKernel.0_lvl13_scrap2"
                         ],
-                        "ShieldAmount": 18520.0,
-                        "ShieldRegeneration": 3520.0,
-                        "ShieldDelayReduction": 0.22,
-                        "Armor": 61700.0
+                        "ShieldAmount": 23500.0,
+                        "ShieldRegeneration": 2600.0,
+                        "ShieldDelayReduction": 0.28,
+                        "Armor": 84500.0
                     }
                 ]
             },
-            "module_name": "BP_Module_Anansi_ShoulderL"
+            "module_name": "BP_Module_Kernel_ShoulderL"
         },
         "name": {
-            "Key": "CMP_name_Anansi_Shoulder_L",
+            "Key": "CMP_name_Kernel_Shoulder",
             "TableNamespace": "Component_name",
-            "en": "Anansi"
+            "en": "Decker"
         },
-        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
             "OBJID_ModuleClass::DA_Module_Class_Assault.0"
         ],
@@ -15103,7 +15311,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl1_scrap2"
                             ],
                             "Cooldown": 70.0,
-                            "PrimaryParameter": 6.0,
+                            "PrimaryParameter": 12.0,
                             "SecondaryParameter": 164.24
                         },
                         {
@@ -15113,7 +15321,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl2_scrap2"
                             ],
                             "Cooldown": 70.0,
-                            "PrimaryParameter": 7.0,
+                            "PrimaryParameter": 13.0,
                             "SecondaryParameter": 164.24
                         },
                         {
@@ -15123,7 +15331,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl3_scrap2"
                             ],
                             "Cooldown": 70.0,
-                            "PrimaryParameter": 7.0,
+                            "PrimaryParameter": 13.0,
                             "SecondaryParameter": 193.22
                         },
                         {
@@ -15133,7 +15341,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl4_scrap2"
                             ],
                             "Cooldown": 70.0,
-                            "PrimaryParameter": 8.0,
+                            "PrimaryParameter": 14.0,
                             "SecondaryParameter": 193.22
                         },
                         {
@@ -15143,7 +15351,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl5_scrap2"
                             ],
                             "Cooldown": 58.0,
-                            "PrimaryParameter": 8.0,
+                            "PrimaryParameter": 14.0,
                             "SecondaryParameter": 193.22
                         },
                         {
@@ -15153,7 +15361,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl6_scrap2"
                             ],
                             "Cooldown": 58.0,
-                            "PrimaryParameter": 8.0,
+                            "PrimaryParameter": 14.0,
                             "SecondaryParameter": 214.69
                         },
                         {
@@ -15163,7 +15371,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl7_scrap2"
                             ],
                             "Cooldown": 58.0,
-                            "PrimaryParameter": 9.0,
+                            "PrimaryParameter": 15.0,
                             "SecondaryParameter": 214.69
                         },
                         {
@@ -15173,7 +15381,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl8_scrap2"
                             ],
                             "Cooldown": 58.0,
-                            "PrimaryParameter": 9.0,
+                            "PrimaryParameter": 15.0,
                             "SecondaryParameter": 230.85
                         },
                         {
@@ -15183,7 +15391,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl9_scrap2"
                             ],
                             "Cooldown": 48.0,
-                            "PrimaryParameter": 9.0,
+                            "PrimaryParameter": 15.0,
                             "SecondaryParameter": 230.85
                         },
                         {
@@ -15193,7 +15401,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl10_scrap2"
                             ],
                             "Cooldown": 48.0,
-                            "PrimaryParameter": 10.0,
+                            "PrimaryParameter": 16.0,
                             "SecondaryParameter": 230.85
                         },
                         {
@@ -15203,7 +15411,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl11_scrap2"
                             ],
                             "Cooldown": 48.0,
-                            "PrimaryParameter": 10.0,
+                            "PrimaryParameter": 16.0,
                             "SecondaryParameter": 243.0
                         },
                         {
@@ -15213,7 +15421,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl12_scrap2"
                             ],
                             "Cooldown": 48.0,
-                            "PrimaryParameter": 11.0,
+                            "PrimaryParameter": 17.0,
                             "SecondaryParameter": 243.0
                         },
                         {
@@ -15223,7 +15431,7 @@
                                 "OBJID_ScrapReward::DA_Module_ShoulderLAlpha.0_lvl13_scrap2"
                             ],
                             "Cooldown": 40.0,
-                            "PrimaryParameter": 11.0,
+                            "PrimaryParameter": 17.0,
                             "SecondaryParameter": 243.0
                         }
                     ]
@@ -23943,68 +24151,68 @@
                     },
                     "variables": [
                         {
-                            "Cooldown": 51.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 61.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 52.27
                         },
                         {
-                            "Cooldown": 51.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 61.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 52.27
                         },
                         {
-                            "Cooldown": 51.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 61.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 51.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 61.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 55.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 1.3,
+                            "Cooldown": 55.0,
+                            "PrimaryParameter": 1.0,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 55.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 55.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 42.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 50.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 42.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 50.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 58.08
                         },
                         {
-                            "Cooldown": 42.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 50.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 66.0
                         },
                         {
-                            "Cooldown": 42.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 50.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 66.0
                         },
                         {
-                            "Cooldown": 38.0,
-                            "PrimaryParameter": 1.5,
+                            "Cooldown": 45.0,
+                            "PrimaryParameter": 1.1,
                             "SecondaryParameter": 66.0
                         }
                     ]
@@ -25600,18 +25808,18 @@
             }
         ],
         "module_tags_refs": [
-            "OBJID_ModuleTag::DA_Tag_AbilityType_Defensive.0"
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking.0"
         ],
         "module_scalars": {
             "levels": {
                 "constants": {
-                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
-                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Defensive",
-                    "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
-                    "ID": "BP_Module_Anansi_Torso",
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ID": "BP_Module_Kernel_Torso",
                     "ArmorDPS": 0.0,
                     "ShieldDPS": 0.0,
-                    "WeightDrain": 10.0,
+                    "WeightDrain": 13.0,
                     "EnergyDrain": 0.0
                 },
                 "variables": [
@@ -25621,7 +25829,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl1_scrap2"
                         ],
-                        "Armor": 61600.0
+                        "Armor": 93300.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl2",
@@ -25629,7 +25837,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl2_scrap2"
                         ],
-                        "Armor": 63200.0
+                        "Armor": 95700.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl3",
@@ -25637,7 +25845,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl3_scrap2"
                         ],
-                        "Armor": 63200.0
+                        "Armor": 95700.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl4",
@@ -25645,7 +25853,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl4_scrap2"
                         ],
-                        "Armor": 64800.0
+                        "Armor": 98200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl5",
@@ -25653,7 +25861,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl5_scrap2"
                         ],
-                        "Armor": 64800.0
+                        "Armor": 98200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl6",
@@ -25661,7 +25869,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl6_scrap2"
                         ],
-                        "Armor": 65800.0
+                        "Armor": 99700.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl7",
@@ -25669,7 +25877,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl7_scrap2"
                         ],
-                        "Armor": 65800.0
+                        "Armor": 99700.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl8",
@@ -25677,7 +25885,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl8_scrap2"
                         ],
-                        "Armor": 66800.0
+                        "Armor": 101200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl9",
@@ -25685,7 +25893,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl9_scrap2"
                         ],
-                        "Armor": 66800.0
+                        "Armor": 101200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl10",
@@ -25693,7 +25901,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl10_scrap2"
                         ],
-                        "Armor": 67500.0
+                        "Armor": 102200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl11",
@@ -25701,7 +25909,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl11_scrap2"
                         ],
-                        "Armor": 67500.0
+                        "Armor": 102200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl12",
@@ -25709,7 +25917,7 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl12_scrap2"
                         ],
-                        "Armor": 68200.0
+                        "Armor": 103200.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoKernel.1_lvl13",
@@ -25717,11 +25925,11 @@
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_TorsoKernel.1_lvl13_scrap2"
                         ],
-                        "Armor": 68200.0
+                        "Armor": 110000.0
                     }
                 ]
             },
-            "module_name": "BP_Module_Anansi_Torso"
+            "module_name": "BP_Module_Kernel_Torso"
         },
         "abilities_scalars": [
             {
@@ -25730,16 +25938,16 @@
                     "PrimaryParameter": 5000.0,
                     "SecondaryParameter": 10.0
                 },
-                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Duration.0",
-                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_DomeRadius.0",
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_BurningDamage.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveRadius.0",
                 "levels": {
                     "constants": {
-                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
-                        "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Support",
-                        "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                        "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking",
+                        "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
                         "MaxCharges": 0,
                         "ChargeDuration": 0.0,
-                        "ID": "CamouflageWeb",
+                        "ID": "ChainOverload",
                         "ArmorDPS": 0.0,
                         "ShieldDPS": 0.0,
                         "Armor": 0.0,
@@ -25748,87 +25956,88 @@
                     },
                     "variables": [
                         {
-                            "Cooldown": 55.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 37.22
+                            "Cooldown": 72.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 800.0
                         },
                         {
-                            "Cooldown": 55.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 37.22
+                            "Cooldown": 72.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 800.0
                         },
                         {
-                            "Cooldown": 55.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 72.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 55.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 72.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 60.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 15.75,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 60.0,
+                            "PrimaryParameter": 3360.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 60.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 46.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 60.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 39.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 51.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 39.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 40.5
+                            "Cooldown": 51.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 850.0
                         },
                         {
-                            "Cooldown": 39.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 45.0
+                            "Cooldown": 51.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 900.0
                         },
                         {
-                            "Cooldown": 39.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 45.0
+                            "Cooldown": 51.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 900.0
                         },
                         {
-                            "Cooldown": 35.0,
-                            "PrimaryParameter": 18.0,
-                            "SecondaryParameter": 45.0
+                            "Cooldown": 45.0,
+                            "PrimaryParameter": 4200.0,
+                            "SecondaryParameter": 900.0
                         }
                     ]
                 },
-                "module_name": "CamouflageWeb"
+                "module_name": "ChainOverload"
             }
         ],
         "name": {
-            "Key": "CMP_name_Anansi_Torso",
+            "Key": "CMP_name_Kernel_Torso",
             "TableNamespace": "Component_name",
-            "en": "Anansi"
+            "en": "Decker"
         },
-        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
             "OBJID_ModuleClass::DA_Module_Class_Assault.0"
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Torso.0",
         "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_WeaponHeavy.0",
             "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderL.0",
             "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderR.0",
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability3.0",
@@ -26744,9 +26953,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl1_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl1_scrap2"
                             ],
-                            "Cooldown": 52.0,
-                            "PrimaryParameter": 11.3,
-                            "SecondaryParameter": 2.49
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 12.8,
+                            "SecondaryParameter": 1.9
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl2",
@@ -26754,9 +26963,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl2_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl2_scrap2"
                             ],
-                            "Cooldown": 52.0,
-                            "PrimaryParameter": 11.3,
-                            "SecondaryParameter": 2.68
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 12.8,
+                            "SecondaryParameter": 2.04
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl3",
@@ -26764,9 +26973,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl3_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl3_scrap2"
                             ],
-                            "Cooldown": 52.0,
-                            "PrimaryParameter": 11.3,
-                            "SecondaryParameter": 2.85
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 12.8,
+                            "SecondaryParameter": 2.17
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl4",
@@ -26774,9 +26983,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl4_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl4_scrap2"
                             ],
-                            "Cooldown": 52.0,
-                            "PrimaryParameter": 12.2,
-                            "SecondaryParameter": 2.85
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 13.8,
+                            "SecondaryParameter": 2.17
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl5",
@@ -26784,9 +26993,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl5_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl5_scrap2"
                             ],
-                            "Cooldown": 43.0,
-                            "PrimaryParameter": 12.2,
-                            "SecondaryParameter": 2.85
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 13.8,
+                            "SecondaryParameter": 2.17
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl6",
@@ -26794,9 +27003,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl6_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl6_scrap2"
                             ],
-                            "Cooldown": 43.0,
-                            "PrimaryParameter": 12.2,
-                            "SecondaryParameter": 3.0
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 13.8,
+                            "SecondaryParameter": 2.28
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl7",
@@ -26804,9 +27013,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl7_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl7_scrap2"
                             ],
-                            "Cooldown": 43.0,
-                            "PrimaryParameter": 12.2,
-                            "SecondaryParameter": 3.13
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 13.8,
+                            "SecondaryParameter": 2.38
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl8",
@@ -26814,9 +27023,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl8_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl8_scrap2"
                             ],
-                            "Cooldown": 43.0,
-                            "PrimaryParameter": 13.5,
-                            "SecondaryParameter": 3.13
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 15.3,
+                            "SecondaryParameter": 2.38
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl9",
@@ -26824,9 +27033,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl9_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl9_scrap2"
                             ],
-                            "Cooldown": 36.0,
-                            "PrimaryParameter": 13.5,
-                            "SecondaryParameter": 3.13
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 15.3,
+                            "SecondaryParameter": 2.38
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl10",
@@ -26834,9 +27043,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl10_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl10_scrap2"
                             ],
-                            "Cooldown": 36.0,
-                            "PrimaryParameter": 13.5,
-                            "SecondaryParameter": 3.23
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 15.3,
+                            "SecondaryParameter": 2.45
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl11",
@@ -26844,9 +27053,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl11_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl11_scrap2"
                             ],
-                            "Cooldown": 36.0,
-                            "PrimaryParameter": 13.5,
-                            "SecondaryParameter": 3.3
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 15.3,
+                            "SecondaryParameter": 2.5
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl12",
@@ -26854,9 +27063,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl12_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl12_scrap2"
                             ],
-                            "Cooldown": 36.0,
-                            "PrimaryParameter": 15.0,
-                            "SecondaryParameter": 3.3
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 17.0,
+                            "SecondaryParameter": 2.5
                         },
                         {
                             "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoMatriarch.0_lvl13",
@@ -26864,9 +27073,9 @@
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl13_scrap1",
                                 "OBJID_ScrapReward::DA_Module_TorsoMatriarch.0_lvl13_scrap2"
                             ],
-                            "Cooldown": 30.0,
-                            "PrimaryParameter": 15.0,
-                            "SecondaryParameter": 3.3
+                            "Cooldown": 34.0,
+                            "PrimaryParameter": 17.0,
+                            "SecondaryParameter": 2.5
                         }
                     ]
                 },
@@ -31245,7 +31454,7 @@
                     "ClipSize": 3,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.17,
-                    "RoundsPerMinute": 273.0,
+                    "RoundsPerMinute": 353.0,
                     "ID": "Bayonet",
                     "Armor": 0.0,
                     "WeightDrain": 0.0,
@@ -31260,9 +31469,9 @@
                         ],
                         "DamageArmor": 8018.0,
                         "DamageNoArmor": 9288.0,
-                        "TimeToReload": 2.68,
-                        "ArmorDPS": 7551.0,
-                        "ShieldDPS": 8747.0
+                        "TimeToReload": 2.29,
+                        "ArmorDPS": 8581.0,
+                        "ShieldDPS": 9940.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl2",
@@ -31272,9 +31481,9 @@
                         ],
                         "DamageArmor": 8224.0,
                         "DamageNoArmor": 9288.0,
-                        "TimeToReload": 2.68,
-                        "ArmorDPS": 7745.0,
-                        "ShieldDPS": 8747.0
+                        "TimeToReload": 2.29,
+                        "ArmorDPS": 8801.0,
+                        "ShieldDPS": 9940.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl3",
@@ -31284,9 +31493,9 @@
                         ],
                         "DamageArmor": 8224.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.68,
-                        "ArmorDPS": 7745.0,
-                        "ShieldDPS": 8971.0
+                        "TimeToReload": 2.29,
+                        "ArmorDPS": 8801.0,
+                        "ShieldDPS": 10194.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl4",
@@ -31296,9 +31505,9 @@
                         ],
                         "DamageArmor": 8435.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.68,
-                        "ArmorDPS": 7944.0,
-                        "ShieldDPS": 8971.0
+                        "TimeToReload": 2.29,
+                        "ArmorDPS": 9027.0,
+                        "ShieldDPS": 10194.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl5",
@@ -31308,9 +31517,9 @@
                         ],
                         "DamageArmor": 8435.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.48,
-                        "ArmorDPS": 8471.0,
-                        "ShieldDPS": 9566.0
+                        "TimeToReload": 2.12,
+                        "ArmorDPS": 9609.0,
+                        "ShieldDPS": 10852.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl6",
@@ -31320,9 +31529,9 @@
                         ],
                         "DamageArmor": 8563.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.48,
-                        "ArmorDPS": 8599.0,
-                        "ShieldDPS": 9566.0
+                        "TimeToReload": 2.12,
+                        "ArmorDPS": 9755.0,
+                        "ShieldDPS": 10852.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl7",
@@ -31332,9 +31541,9 @@
                         ],
                         "DamageArmor": 8563.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.32,
-                        "ArmorDPS": 9093.0,
-                        "ShieldDPS": 10115.0
+                        "TimeToReload": 1.98,
+                        "ArmorDPS": 10298.0,
+                        "ShieldDPS": 11456.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl8",
@@ -31344,9 +31553,9 @@
                         ],
                         "DamageArmor": 8693.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.32,
-                        "ArmorDPS": 9231.0,
-                        "ShieldDPS": 10115.0
+                        "TimeToReload": 1.98,
+                        "ArmorDPS": 10455.0,
+                        "ShieldDPS": 11456.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl9",
@@ -31356,9 +31565,9 @@
                         ],
                         "DamageArmor": 8693.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.21,
-                        "ArmorDPS": 9606.0,
-                        "ShieldDPS": 10526.0
+                        "TimeToReload": 1.89,
+                        "ArmorDPS": 10866.0,
+                        "ShieldDPS": 11908.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl10",
@@ -31368,9 +31577,9 @@
                         ],
                         "DamageArmor": 8781.0,
                         "DamageNoArmor": 9526.0,
-                        "TimeToReload": 2.21,
-                        "ArmorDPS": 9703.0,
-                        "ShieldDPS": 10526.0
+                        "TimeToReload": 1.89,
+                        "ArmorDPS": 10976.0,
+                        "ShieldDPS": 11908.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl11",
@@ -31380,9 +31589,9 @@
                         ],
                         "DamageArmor": 8781.0,
                         "DamageNoArmor": 9720.0,
-                        "TimeToReload": 2.21,
-                        "ArmorDPS": 9703.0,
-                        "ShieldDPS": 10740.0
+                        "TimeToReload": 1.89,
+                        "ArmorDPS": 10976.0,
+                        "ShieldDPS": 12150.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl12",
@@ -31392,9 +31601,9 @@
                         ],
                         "DamageArmor": 8870.0,
                         "DamageNoArmor": 9720.0,
-                        "TimeToReload": 2.21,
-                        "ArmorDPS": 9801.0,
-                        "ShieldDPS": 10740.0
+                        "TimeToReload": 1.89,
+                        "ArmorDPS": 11088.0,
+                        "ShieldDPS": 12150.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Bayonet.0_lvl13",
@@ -31404,9 +31613,9 @@
                         ],
                         "DamageArmor": 8870.0,
                         "DamageNoArmor": 9720.0,
-                        "TimeToReload": 2.1,
-                        "ArmorDPS": 10195.0,
-                        "ShieldDPS": 11172.0
+                        "TimeToReload": 1.8,
+                        "ArmorDPS": 11519.0,
+                        "ShieldDPS": 12623.0
                     }
                 ]
             },
@@ -33101,7 +33310,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 2.0,
-                    "RoundsPerMinute": 30.0,
                     "ID": "Gimcoil",
                     "Armor": 0.0,
                     "WeightDrain": 3.0,
@@ -33117,6 +33325,7 @@
                         "DamageArmor": 6870.0,
                         "DamageNoArmor": 9485.0,
                         "TimeToReload": 3.37,
+                        "RoundsPerMinute": 18.0,
                         "ArmorDPS": 2036.0,
                         "ShieldDPS": 2811.0
                     },
@@ -33129,6 +33338,7 @@
                         "DamageArmor": 7046.0,
                         "DamageNoArmor": 9485.0,
                         "TimeToReload": 3.37,
+                        "RoundsPerMinute": 18.0,
                         "ArmorDPS": 2088.0,
                         "ShieldDPS": 2811.0
                     },
@@ -33141,6 +33351,7 @@
                         "DamageArmor": 7046.0,
                         "DamageNoArmor": 9485.0,
                         "TimeToReload": 3.21,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2193.0,
                         "ShieldDPS": 2952.0
                     },
@@ -33153,6 +33364,7 @@
                         "DamageArmor": 7227.0,
                         "DamageNoArmor": 9485.0,
                         "TimeToReload": 3.21,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2249.0,
                         "ShieldDPS": 2952.0
                     },
@@ -33165,6 +33377,7 @@
                         "DamageArmor": 7227.0,
                         "DamageNoArmor": 9880.0,
                         "TimeToReload": 3.21,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2249.0,
                         "ShieldDPS": 3074.0
                     },
@@ -33177,6 +33390,7 @@
                         "DamageArmor": 7337.0,
                         "DamageNoArmor": 9880.0,
                         "TimeToReload": 3.21,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2283.0,
                         "ShieldDPS": 3074.0
                     },
@@ -33189,6 +33403,7 @@
                         "DamageArmor": 7337.0,
                         "DamageNoArmor": 9880.0,
                         "TimeToReload": 3.09,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2374.0,
                         "ShieldDPS": 3197.0
                     },
@@ -33201,6 +33416,7 @@
                         "DamageArmor": 7449.0,
                         "DamageNoArmor": 9880.0,
                         "TimeToReload": 3.09,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2411.0,
                         "ShieldDPS": 3197.0
                     },
@@ -33213,6 +33429,7 @@
                         "DamageArmor": 7449.0,
                         "DamageNoArmor": 10238.0,
                         "TimeToReload": 3.09,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2411.0,
                         "ShieldDPS": 3313.0
                     },
@@ -33225,6 +33442,7 @@
                         "DamageArmor": 7524.0,
                         "DamageNoArmor": 10238.0,
                         "TimeToReload": 3.09,
+                        "RoundsPerMinute": 19.0,
                         "ArmorDPS": 2435.0,
                         "ShieldDPS": 3313.0
                     },
@@ -33237,6 +33455,7 @@
                         "DamageArmor": 7524.0,
                         "DamageNoArmor": 10238.0,
                         "TimeToReload": 3.0,
+                        "RoundsPerMinute": 20.0,
                         "ArmorDPS": 2508.0,
                         "ShieldDPS": 3413.0
                     },
@@ -33249,6 +33468,7 @@
                         "DamageArmor": 7600.0,
                         "DamageNoArmor": 10238.0,
                         "TimeToReload": 3.0,
+                        "RoundsPerMinute": 20.0,
                         "ArmorDPS": 2533.0,
                         "ShieldDPS": 3413.0
                     },
@@ -33261,6 +33481,7 @@
                         "DamageArmor": 7600.0,
                         "DamageNoArmor": 10500.0,
                         "TimeToReload": 3.0,
+                        "RoundsPerMinute": 20.0,
                         "ArmorDPS": 2533.0,
                         "ShieldDPS": 3500.0
                     }
@@ -33919,7 +34140,7 @@
                         "DamageArmor": 1266.0,
                         "TimeToReload": 2.52,
                         "TimeBetweenShots": 0.81,
-                        "RoundsPerMinute": 74.0,
+                        "RoundsPerMinute": 24.0,
                         "ArmorDPS": 3105.0,
                         "ShieldDPS": 2221.0
                     },
@@ -33932,7 +34153,7 @@
                         "DamageArmor": 1298.0,
                         "TimeToReload": 2.52,
                         "TimeBetweenShots": 0.81,
-                        "RoundsPerMinute": 74.0,
+                        "RoundsPerMinute": 24.0,
                         "ArmorDPS": 3144.0,
                         "ShieldDPS": 2221.0
                     },
@@ -33945,7 +34166,7 @@
                         "DamageArmor": 1298.0,
                         "TimeToReload": 2.52,
                         "TimeBetweenShots": 0.772,
-                        "RoundsPerMinute": 78.0,
+                        "RoundsPerMinute": 24.0,
                         "ArmorDPS": 3302.0,
                         "ShieldDPS": 2332.0
                     },
@@ -33958,7 +34179,7 @@
                         "DamageArmor": 1331.0,
                         "TimeToReload": 2.52,
                         "TimeBetweenShots": 0.772,
-                        "RoundsPerMinute": 78.0,
+                        "RoundsPerMinute": 24.0,
                         "ArmorDPS": 3344.0,
                         "ShieldDPS": 2332.0
                     },
@@ -33971,7 +34192,7 @@
                         "DamageArmor": 1331.0,
                         "TimeToReload": 2.38,
                         "TimeBetweenShots": 0.772,
-                        "RoundsPerMinute": 78.0,
+                        "RoundsPerMinute": 25.0,
                         "ArmorDPS": 3344.0,
                         "ShieldDPS": 2332.0
                     },
@@ -33984,7 +34205,7 @@
                         "DamageArmor": 1351.0,
                         "TimeToReload": 2.38,
                         "TimeBetweenShots": 0.772,
-                        "RoundsPerMinute": 78.0,
+                        "RoundsPerMinute": 25.0,
                         "ArmorDPS": 3370.0,
                         "ShieldDPS": 2332.0
                     },
@@ -33997,7 +34218,7 @@
                         "DamageArmor": 1351.0,
                         "TimeToReload": 2.38,
                         "TimeBetweenShots": 0.735,
-                        "RoundsPerMinute": 82.0,
+                        "RoundsPerMinute": 25.0,
                         "ArmorDPS": 3539.0,
                         "ShieldDPS": 2449.0
                     },
@@ -34010,7 +34231,7 @@
                         "DamageArmor": 1372.0,
                         "TimeToReload": 2.38,
                         "TimeBetweenShots": 0.735,
-                        "RoundsPerMinute": 82.0,
+                        "RoundsPerMinute": 25.0,
                         "ArmorDPS": 3567.0,
                         "ShieldDPS": 2449.0
                     },
@@ -34023,7 +34244,7 @@
                         "DamageArmor": 1372.0,
                         "TimeToReload": 2.29,
                         "TimeBetweenShots": 0.735,
-                        "RoundsPerMinute": 82.0,
+                        "RoundsPerMinute": 26.0,
                         "ArmorDPS": 3567.0,
                         "ShieldDPS": 2449.0
                     },
@@ -34036,7 +34257,7 @@
                         "DamageArmor": 1386.0,
                         "TimeToReload": 2.29,
                         "TimeBetweenShots": 0.735,
-                        "RoundsPerMinute": 82.0,
+                        "RoundsPerMinute": 26.0,
                         "ArmorDPS": 3586.0,
                         "ShieldDPS": 2449.0
                     },
@@ -34049,7 +34270,7 @@
                         "DamageArmor": 1386.0,
                         "TimeToReload": 2.29,
                         "TimeBetweenShots": 0.7,
-                        "RoundsPerMinute": 86.0,
+                        "RoundsPerMinute": 26.0,
                         "ArmorDPS": 3766.0,
                         "ShieldDPS": 2571.0
                     },
@@ -34062,7 +34283,7 @@
                         "DamageArmor": 1400.0,
                         "TimeToReload": 2.29,
                         "TimeBetweenShots": 0.7,
-                        "RoundsPerMinute": 86.0,
+                        "RoundsPerMinute": 26.0,
                         "ArmorDPS": 3786.0,
                         "ShieldDPS": 2571.0
                     },
@@ -34075,7 +34296,7 @@
                         "DamageArmor": 1400.0,
                         "TimeToReload": 2.2,
                         "TimeBetweenShots": 0.7,
-                        "RoundsPerMinute": 86.0,
+                        "RoundsPerMinute": 27.0,
                         "ArmorDPS": 3786.0,
                         "ShieldDPS": 2571.0
                     }
@@ -34158,7 +34379,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 1.3,
-                    "RoundsPerMinute": 46.0,
                     "ID": "Hive",
                     "Armor": 0.0,
                     "WeightDrain": 0.0,
@@ -34174,6 +34394,7 @@
                         "DamageArmor": 20791.0,
                         "DamageNoArmor": 20774.0,
                         "TimeToReload": 1.39,
+                        "RoundsPerMinute": 43.0,
                         "ArmorDPS": 10498.0,
                         "ShieldDPS": 10489.0
                     },
@@ -34186,6 +34407,7 @@
                         "DamageArmor": 21324.0,
                         "DamageNoArmor": 20774.0,
                         "TimeToReload": 1.39,
+                        "RoundsPerMinute": 43.0,
                         "ArmorDPS": 10767.0,
                         "ShieldDPS": 10489.0
                     },
@@ -34198,6 +34420,7 @@
                         "DamageArmor": 21324.0,
                         "DamageNoArmor": 20774.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 11036.0,
                         "ShieldDPS": 10752.0
                     },
@@ -34210,6 +34433,7 @@
                         "DamageArmor": 21871.0,
                         "DamageNoArmor": 20774.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 11319.0,
                         "ShieldDPS": 10752.0
                     },
@@ -34222,6 +34446,7 @@
                         "DamageArmor": 21871.0,
                         "DamageNoArmor": 21640.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 11319.0,
                         "ShieldDPS": 11200.0
                     },
@@ -34234,6 +34459,7 @@
                         "DamageArmor": 22204.0,
                         "DamageNoArmor": 21640.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 11492.0,
                         "ShieldDPS": 11200.0
                     },
@@ -34246,6 +34472,7 @@
                         "DamageArmor": 22204.0,
                         "DamageNoArmor": 21640.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 11722.0,
                         "ShieldDPS": 11424.0
                     },
@@ -34258,6 +34485,7 @@
                         "DamageArmor": 22542.0,
                         "DamageNoArmor": 21640.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 11900.0,
                         "ShieldDPS": 11424.0
                     },
@@ -34270,6 +34498,7 @@
                         "DamageArmor": 22542.0,
                         "DamageNoArmor": 22425.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 11900.0,
                         "ShieldDPS": 11838.0
                     },
@@ -34282,6 +34511,7 @@
                         "DamageArmor": 22770.0,
                         "DamageNoArmor": 22425.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 12020.0,
                         "ShieldDPS": 11838.0
                     },
@@ -34294,6 +34524,7 @@
                         "DamageArmor": 22770.0,
                         "DamageNoArmor": 22425.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 12261.0,
                         "ShieldDPS": 12075.0
                     },
@@ -34306,6 +34537,7 @@
                         "DamageArmor": 23000.0,
                         "DamageNoArmor": 22425.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 12385.0,
                         "ShieldDPS": 12075.0
                     },
@@ -34318,6 +34550,7 @@
                         "DamageArmor": 23000.0,
                         "DamageNoArmor": 23000.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 12385.0,
                         "ShieldDPS": 12385.0
                     }
@@ -35156,8 +35389,8 @@
                         "DamageArmor": 7909.0,
                         "ClipSize": 18,
                         "TimeToReload": 5.62,
-                        "ArmorDPS": 46830.0,
-                        "ShieldDPS": 58470.0
+                        "ArmorDPS": 23415.0,
+                        "ShieldDPS": 29235.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl2",
@@ -35168,8 +35401,8 @@
                         "DamageArmor": 8112.0,
                         "ClipSize": 18,
                         "TimeToReload": 5.62,
-                        "ArmorDPS": 48032.0,
-                        "ShieldDPS": 58470.0
+                        "ArmorDPS": 24016.0,
+                        "ShieldDPS": 29235.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl3",
@@ -35180,8 +35413,8 @@
                         "DamageArmor": 8112.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.62,
-                        "ArmorDPS": 48165.0,
-                        "ShieldDPS": 58633.0
+                        "ArmorDPS": 24083.0,
+                        "ShieldDPS": 29316.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl4",
@@ -35192,8 +35425,8 @@
                         "DamageArmor": 8320.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.62,
-                        "ArmorDPS": 49400.0,
-                        "ShieldDPS": 58633.0
+                        "ArmorDPS": 24700.0,
+                        "ShieldDPS": 29316.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl5",
@@ -35204,8 +35437,8 @@
                         "DamageArmor": 8320.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.36,
-                        "ArmorDPS": 49400.0,
-                        "ShieldDPS": 58633.0
+                        "ArmorDPS": 24700.0,
+                        "ShieldDPS": 29316.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl6",
@@ -35216,8 +35449,8 @@
                         "DamageArmor": 8447.0,
                         "ClipSize": 19,
                         "TimeToReload": 5.36,
-                        "ArmorDPS": 50154.0,
-                        "ShieldDPS": 58633.0
+                        "ArmorDPS": 25077.0,
+                        "ShieldDPS": 29316.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl7",
@@ -35228,8 +35461,8 @@
                         "DamageArmor": 8447.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.36,
-                        "ArmorDPS": 50280.0,
-                        "ShieldDPS": 58780.0
+                        "ArmorDPS": 25140.0,
+                        "ShieldDPS": 29390.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl8",
@@ -35240,8 +35473,8 @@
                         "DamageArmor": 8576.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.36,
-                        "ArmorDPS": 51048.0,
-                        "ShieldDPS": 58780.0
+                        "ArmorDPS": 25524.0,
+                        "ShieldDPS": 29390.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl9",
@@ -35252,8 +35485,8 @@
                         "DamageArmor": 8576.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.15,
-                        "ArmorDPS": 51048.0,
-                        "ShieldDPS": 58780.0
+                        "ArmorDPS": 25524.0,
+                        "ShieldDPS": 29390.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl10",
@@ -35264,8 +35497,8 @@
                         "DamageArmor": 8663.0,
                         "ClipSize": 20,
                         "TimeToReload": 5.15,
-                        "ArmorDPS": 51565.0,
-                        "ShieldDPS": 58780.0
+                        "ArmorDPS": 25783.0,
+                        "ShieldDPS": 29390.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl11",
@@ -35276,8 +35509,8 @@
                         "DamageArmor": 8663.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.15,
-                        "ArmorDPS": 51683.0,
-                        "ShieldDPS": 58913.0
+                        "ArmorDPS": 25841.0,
+                        "ShieldDPS": 29457.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl12",
@@ -35288,8 +35521,8 @@
                         "DamageArmor": 8750.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.15,
-                        "ArmorDPS": 52202.0,
-                        "ShieldDPS": 58913.0
+                        "ArmorDPS": 26101.0,
+                        "ShieldDPS": 29457.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Katzbalger.0_lvl13",
@@ -35300,8 +35533,8 @@
                         "DamageArmor": 8750.0,
                         "ClipSize": 21,
                         "TimeToReload": 5.0,
-                        "ArmorDPS": 52202.0,
-                        "ShieldDPS": 58913.0
+                        "ArmorDPS": 26101.0,
+                        "ShieldDPS": 29457.0
                     }
                 ]
             },
@@ -35616,7 +35849,7 @@
                     "ClipSize": 5,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.05,
-                    "RoundsPerMinute": 1200.0,
+                    "RoundsPerMinute": 200.0,
                     "ID": "MLx2",
                     "Armor": 0.0,
                     "WeightDrain": 6.0,
@@ -35931,7 +36164,7 @@
                     "ClipSize": 14,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.08,
-                    "RoundsPerMinute": 561.0,
+                    "RoundsPerMinute": 506.0,
                     "ID": "Noricum",
                     "Armor": 0.0,
                     "WeightDrain": 3.0,
@@ -36682,6 +36915,7 @@
                     "ProjectileSpeed": 200000.0,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.1,
+                    "RoundsPerMinute": 400.0,
                     "ID": "Pulsar",
                     "Armor": 0.0,
                     "WeightDrain": 5.0,
@@ -36697,7 +36931,6 @@
                         "DamageArmor": 802.0,
                         "ClipSize": 24,
                         "TimeToReload": 3.03,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 2905.0,
                         "ShieldDPS": 4564.0
                     },
@@ -36710,7 +36943,6 @@
                         "DamageArmor": 823.0,
                         "ClipSize": 24,
                         "TimeToReload": 3.03,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 2981.0,
                         "ShieldDPS": 4564.0
                     },
@@ -36723,7 +36955,6 @@
                         "DamageArmor": 844.0,
                         "ClipSize": 24,
                         "TimeToReload": 3.03,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 3057.0,
                         "ShieldDPS": 4564.0
                     },
@@ -36736,7 +36967,6 @@
                         "DamageArmor": 866.0,
                         "ClipSize": 24,
                         "TimeToReload": 3.03,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 3137.0,
                         "ShieldDPS": 4564.0
                     },
@@ -36749,7 +36979,6 @@
                         "DamageArmor": 866.0,
                         "ClipSize": 24,
                         "TimeToReload": 2.81,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 3272.0,
                         "ShieldDPS": 4761.0
                     },
@@ -36762,7 +36991,6 @@
                         "DamageArmor": 879.0,
                         "ClipSize": 24,
                         "TimeToReload": 2.81,
-                        "RoundsPerMinute": 363.0,
                         "ArmorDPS": 3321.0,
                         "ShieldDPS": 4761.0
                     },
@@ -36775,7 +37003,6 @@
                         "DamageArmor": 879.0,
                         "ClipSize": 28,
                         "TimeToReload": 2.81,
-                        "RoundsPerMinute": 360.0,
                         "ArmorDPS": 3598.0,
                         "ShieldDPS": 5158.0
                     },
@@ -36788,7 +37015,6 @@
                         "DamageArmor": 892.0,
                         "ClipSize": 28,
                         "TimeToReload": 2.81,
-                        "RoundsPerMinute": 360.0,
                         "ArmorDPS": 3651.0,
                         "ShieldDPS": 5158.0
                     },
@@ -36801,7 +37027,6 @@
                         "DamageArmor": 892.0,
                         "ClipSize": 28,
                         "TimeToReload": 2.63,
-                        "RoundsPerMinute": 360.0,
                         "ArmorDPS": 3775.0,
                         "ShieldDPS": 5333.0
                     },
@@ -36814,7 +37039,6 @@
                         "DamageArmor": 901.0,
                         "ClipSize": 28,
                         "TimeToReload": 2.63,
-                        "RoundsPerMinute": 360.0,
                         "ArmorDPS": 3813.0,
                         "ShieldDPS": 5333.0
                     },
@@ -36827,7 +37051,6 @@
                         "DamageArmor": 901.0,
                         "ClipSize": 32,
                         "TimeToReload": 2.63,
-                        "RoundsPerMinute": 358.0,
                         "ArmorDPS": 4059.0,
                         "ShieldDPS": 5676.0
                     },
@@ -36840,7 +37063,6 @@
                         "DamageArmor": 910.0,
                         "ClipSize": 32,
                         "TimeToReload": 2.63,
-                        "RoundsPerMinute": 358.0,
                         "ArmorDPS": 4099.0,
                         "ShieldDPS": 5676.0
                     },
@@ -36853,7 +37075,6 @@
                         "DamageArmor": 910.0,
                         "ClipSize": 32,
                         "TimeToReload": 2.5,
-                        "RoundsPerMinute": 358.0,
                         "ArmorDPS": 4189.0,
                         "ShieldDPS": 5800.0
                     }
@@ -37284,7 +37505,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 2.5,
-                    "RoundsPerMinute": 24.0,
                     "ID": "Railgun",
                     "Armor": 0.0,
                     "WeightDrain": 3.0,
@@ -37300,6 +37520,7 @@
                         "DamageArmor": 4429.0,
                         "DamageNoArmor": 5194.0,
                         "TimeToReload": 4.53,
+                        "RoundsPerMinute": 13.0,
                         "ArmorDPS": 977.0,
                         "ShieldDPS": 1146.0
                     },
@@ -37312,6 +37533,7 @@
                         "DamageArmor": 4543.0,
                         "DamageNoArmor": 5194.0,
                         "TimeToReload": 4.53,
+                        "RoundsPerMinute": 13.0,
                         "ArmorDPS": 1002.0,
                         "ShieldDPS": 1146.0
                     },
@@ -37324,6 +37546,7 @@
                         "DamageArmor": 4543.0,
                         "DamageNoArmor": 5194.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1027.0,
                         "ShieldDPS": 1175.0
                     },
@@ -37336,6 +37559,7 @@
                         "DamageArmor": 4659.0,
                         "DamageNoArmor": 5194.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1054.0,
                         "ShieldDPS": 1175.0
                     },
@@ -37348,6 +37572,7 @@
                         "DamageArmor": 4659.0,
                         "DamageNoArmor": 5410.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1054.0,
                         "ShieldDPS": 1224.0
                     },
@@ -37360,6 +37585,7 @@
                         "DamageArmor": 4730.0,
                         "DamageNoArmor": 5410.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1070.0,
                         "ShieldDPS": 1224.0
                     },
@@ -37372,6 +37598,7 @@
                         "DamageArmor": 4730.0,
                         "DamageNoArmor": 5410.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1091.0,
                         "ShieldDPS": 1248.0
                     },
@@ -37384,6 +37611,7 @@
                         "DamageArmor": 4802.0,
                         "DamageNoArmor": 5410.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1108.0,
                         "ShieldDPS": 1248.0
                     },
@@ -37396,6 +37624,7 @@
                         "DamageArmor": 4802.0,
                         "DamageNoArmor": 5606.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1108.0,
                         "ShieldDPS": 1293.0
                     },
@@ -37408,6 +37637,7 @@
                         "DamageArmor": 4851.0,
                         "DamageNoArmor": 5606.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1119.0,
                         "ShieldDPS": 1293.0
                     },
@@ -37420,6 +37650,7 @@
                         "DamageArmor": 4851.0,
                         "DamageNoArmor": 5606.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1141.0,
                         "ShieldDPS": 1319.0
                     },
@@ -37432,6 +37663,7 @@
                         "DamageArmor": 4900.0,
                         "DamageNoArmor": 5606.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1153.0,
                         "ShieldDPS": 1319.0
                     },
@@ -37444,6 +37676,7 @@
                         "DamageArmor": 4900.0,
                         "DamageNoArmor": 5750.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 1153.0,
                         "ShieldDPS": 1353.0
                     }
@@ -39196,6 +39429,7 @@
                 },
                 "AoeDamage": {
                     "Radius": 1000.0,
+                    "UnconditionalRadius": 100.0,
                     "MergedArmorZones": [
                         {
                             "MasterArmorZone": {
@@ -39238,7 +39472,7 @@
                                     "InterpMode": "RCIM_Linear",
                                     "TangentMode": "RCTM_Auto",
                                     "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 200.0,
+                                    "Time": 0.3,
                                     "Value": 1.0,
                                     "ArriveTangent": 0.0,
                                     "ArriveTangentWeight": 0.0,
@@ -39249,7 +39483,7 @@
                                     "InterpMode": "RCIM_Linear",
                                     "TangentMode": "RCTM_Auto",
                                     "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 220.0,
+                                    "Time": 0.75,
                                     "Value": 0.2,
                                     "ArriveTangent": 0.0,
                                     "ArriveTangentWeight": 0.0,
@@ -39260,7 +39494,7 @@
                                     "InterpMode": "RCIM_Linear",
                                     "TangentMode": "RCTM_Auto",
                                     "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 230.0,
+                                    "Time": 1.0,
                                     "Value": 0.2,
                                     "ArriveTangent": 0.0,
                                     "ArriveTangentWeight": 0.0,
@@ -40140,7 +40374,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 2.5,
-                    "RoundsPerMinute": 24.0,
                     "ID": "Trebuchet",
                     "Armor": 0.0,
                     "WeightDrain": 6.0,
@@ -40156,6 +40389,7 @@
                         "DamageArmor": 8994.0,
                         "DamageNoArmor": 8129.0,
                         "TimeToReload": 4.53,
+                        "RoundsPerMinute": 13.0,
                         "ArmorDPS": 1984.0,
                         "ShieldDPS": 1794.0
                     },
@@ -40168,6 +40402,7 @@
                         "DamageArmor": 9225.0,
                         "DamageNoArmor": 8129.0,
                         "TimeToReload": 4.53,
+                        "RoundsPerMinute": 13.0,
                         "ArmorDPS": 2035.0,
                         "ShieldDPS": 1794.0
                     },
@@ -40180,6 +40415,7 @@
                         "DamageArmor": 9225.0,
                         "DamageNoArmor": 8129.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2086.0,
                         "ShieldDPS": 1838.0
                     },
@@ -40192,6 +40428,7 @@
                         "DamageArmor": 9462.0,
                         "DamageNoArmor": 8129.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2140.0,
                         "ShieldDPS": 1838.0
                     },
@@ -40204,6 +40441,7 @@
                         "DamageArmor": 9462.0,
                         "DamageNoArmor": 8468.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2140.0,
                         "ShieldDPS": 1915.0
                     },
@@ -40216,6 +40454,7 @@
                         "DamageArmor": 9606.0,
                         "DamageNoArmor": 8468.0,
                         "TimeToReload": 4.42,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2172.0,
                         "ShieldDPS": 1915.0
                     },
@@ -40228,6 +40467,7 @@
                         "DamageArmor": 9606.0,
                         "DamageNoArmor": 8468.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2216.0,
                         "ShieldDPS": 1953.0
                     },
@@ -40240,6 +40480,7 @@
                         "DamageArmor": 9752.0,
                         "DamageNoArmor": 8468.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2250.0,
                         "ShieldDPS": 1953.0
                     },
@@ -40252,6 +40493,7 @@
                         "DamageArmor": 9752.0,
                         "DamageNoArmor": 8775.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2250.0,
                         "ShieldDPS": 2024.0
                     },
@@ -40264,6 +40506,7 @@
                         "DamageArmor": 9851.0,
                         "DamageNoArmor": 8775.0,
                         "TimeToReload": 4.34,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2272.0,
                         "ShieldDPS": 2024.0
                     },
@@ -40276,6 +40519,7 @@
                         "DamageArmor": 9851.0,
                         "DamageNoArmor": 8775.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2318.0,
                         "ShieldDPS": 2065.0
                     },
@@ -40288,6 +40532,7 @@
                         "DamageArmor": 9950.0,
                         "DamageNoArmor": 8775.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2341.0,
                         "ShieldDPS": 2065.0
                     },
@@ -40300,6 +40545,7 @@
                         "DamageArmor": 9950.0,
                         "DamageNoArmor": 9000.0,
                         "TimeToReload": 4.25,
+                        "RoundsPerMinute": 14.0,
                         "ArmorDPS": 2341.0,
                         "ShieldDPS": 2118.0
                     }
@@ -40446,7 +40692,7 @@
                     "SpreadY": 0.0,
                     "AoeArmor": 1644.0,
                     "AoeNoArmor": 356.0,
-                    "ProjectileSpeed": 80000.0,
+                    "ProjectileSpeed": 96000.0,
                     "ClipSize": 3,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 1.6,
@@ -41021,7 +41267,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 0.96,
-                    "RoundsPerMinute": 63.0,
                     "ID": "Twinflare",
                     "Armor": 0.0,
                     "WeightDrain": 5.0,
@@ -41037,6 +41282,7 @@
                         "DamageArmor": 5875.0,
                         "DamageNoArmor": 4290.0,
                         "TimeToReload": 1.39,
+                        "RoundsPerMinute": 43.0,
                         "ArmorDPS": 5435.0,
                         "ShieldDPS": 3960.0
                     },
@@ -41049,6 +41295,7 @@
                         "DamageArmor": 6026.0,
                         "DamageNoArmor": 4290.0,
                         "TimeToReload": 1.39,
+                        "RoundsPerMinute": 43.0,
                         "ArmorDPS": 5544.0,
                         "ShieldDPS": 3960.0
                     },
@@ -41061,6 +41308,7 @@
                         "DamageArmor": 6026.0,
                         "DamageNoArmor": 4290.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 5683.0,
                         "ShieldDPS": 4059.0
                     },
@@ -41073,6 +41321,7 @@
                         "DamageArmor": 6181.0,
                         "DamageNoArmor": 4290.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 5797.0,
                         "ShieldDPS": 4059.0
                     },
@@ -41085,6 +41334,7 @@
                         "DamageArmor": 6181.0,
                         "DamageNoArmor": 4469.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 5797.0,
                         "ShieldDPS": 4191.0
                     },
@@ -41097,6 +41347,7 @@
                         "DamageArmor": 6275.0,
                         "DamageNoArmor": 4469.0,
                         "TimeToReload": 1.35,
+                        "RoundsPerMinute": 44.0,
                         "ArmorDPS": 5867.0,
                         "ShieldDPS": 4191.0
                     },
@@ -41109,6 +41360,7 @@
                         "DamageArmor": 6275.0,
                         "DamageNoArmor": 4469.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 5984.0,
                         "ShieldDPS": 4275.0
                     },
@@ -41121,6 +41373,7 @@
                         "DamageArmor": 6371.0,
                         "DamageNoArmor": 4469.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 6057.0,
                         "ShieldDPS": 4275.0
                     },
@@ -41133,6 +41386,7 @@
                         "DamageArmor": 6371.0,
                         "DamageNoArmor": 4631.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 6057.0,
                         "ShieldDPS": 4397.0
                     },
@@ -41145,6 +41399,7 @@
                         "DamageArmor": 6435.0,
                         "DamageNoArmor": 4631.0,
                         "TimeToReload": 1.33,
+                        "RoundsPerMinute": 45.0,
                         "ArmorDPS": 6105.0,
                         "ShieldDPS": 4397.0
                     },
@@ -41157,6 +41412,7 @@
                         "DamageArmor": 6435.0,
                         "DamageNoArmor": 4631.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 6227.0,
                         "ShieldDPS": 4485.0
                     },
@@ -41169,6 +41425,7 @@
                         "DamageArmor": 6500.0,
                         "DamageNoArmor": 4631.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 6277.0,
                         "ShieldDPS": 4485.0
                     },
@@ -41181,6 +41438,7 @@
                         "DamageArmor": 6500.0,
                         "DamageNoArmor": 4750.0,
                         "TimeToReload": 1.3,
+                        "RoundsPerMinute": 46.0,
                         "ArmorDPS": 6277.0,
                         "ShieldDPS": 4577.0
                     }
@@ -41451,6 +41709,280 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
     },
+    "DA_Module_Weapon_Zenit.0": {
+        "id": "DA_Module_Weapon_Zenit.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Zenit",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Zenit.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageBlast.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeRocketLauncher.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 800.0,
+                    "DamageShield": 1000.0
+                },
+                "AoeDamage": {
+                    "Radius": 2200.0,
+                    "UnconditionalRadius": 200.0,
+                    "DamageArmor": 1000.0,
+                    "DamageShield": 400.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1600.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 2000.0,
+                                    "Value": 0.4,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 14,
+                "ProjectileSpeed": 22000.0,
+                "TimeToReload": 7.0,
+                "TimeBetweenShots": 0.22
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageBlast",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeRocketLauncher",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Freecon",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 60000.0,
+                    "RangeMax": 60001.0,
+                    "RangeDeath": 130002.0,
+                    "SpreadX": 0.0,
+                    "SpreadY": 0.0,
+                    "AoeArmor": 820.0,
+                    "AoeNoArmor": 220.0,
+                    "ProjectileSpeed": 35000.0,
+                    "ClipSize": 18,
+                    "ProjectilesPerShot": 1,
+                    "TimeBetweenShots": 0.12,
+                    "RoundsPerMinute": 409.0,
+                    "ID": "Zenit",
+                    "Armor": 0.0,
+                    "WeightDrain": 7.0,
+                    "EnergyDrain": 10.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 1283.0,
+                        "DamageNoArmor": 507.0,
+                        "TimeToReload": 3.51,
+                        "ArmorDPS": 9926.0,
+                        "ShieldDPS": 3432.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 1316.0,
+                        "DamageNoArmor": 507.0,
+                        "TimeToReload": 3.51,
+                        "ArmorDPS": 10082.0,
+                        "ShieldDPS": 3432.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 1316.0,
+                        "DamageNoArmor": 520.0,
+                        "TimeToReload": 3.51,
+                        "ArmorDPS": 10082.0,
+                        "ShieldDPS": 3493.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 1350.0,
+                        "DamageNoArmor": 520.0,
+                        "TimeToReload": 3.51,
+                        "ArmorDPS": 10243.0,
+                        "ShieldDPS": 3493.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 1350.0,
+                        "DamageNoArmor": 520.0,
+                        "TimeToReload": 3.28,
+                        "ArmorDPS": 10698.0,
+                        "ShieldDPS": 3648.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 1371.0,
+                        "DamageNoArmor": 520.0,
+                        "TimeToReload": 3.28,
+                        "ArmorDPS": 10801.0,
+                        "ShieldDPS": 3648.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 1371.0,
+                        "DamageNoArmor": 536.0,
+                        "TimeToReload": 3.28,
+                        "ArmorDPS": 10801.0,
+                        "ShieldDPS": 3727.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 1392.0,
+                        "DamageNoArmor": 536.0,
+                        "TimeToReload": 3.28,
+                        "ArmorDPS": 10905.0,
+                        "ShieldDPS": 3727.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 1392.0,
+                        "DamageNoArmor": 536.0,
+                        "TimeToReload": 3.12,
+                        "ArmorDPS": 11245.0,
+                        "ShieldDPS": 3843.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 1406.0,
+                        "DamageNoArmor": 536.0,
+                        "TimeToReload": 3.12,
+                        "ArmorDPS": 11316.0,
+                        "ShieldDPS": 3843.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 1406.0,
+                        "DamageNoArmor": 550.0,
+                        "TimeToReload": 3.12,
+                        "ArmorDPS": 11316.0,
+                        "ShieldDPS": 3914.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 1420.0,
+                        "DamageNoArmor": 550.0,
+                        "TimeToReload": 3.12,
+                        "ArmorDPS": 11387.0,
+                        "ShieldDPS": 3914.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Zenit.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Zenit.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 1420.0,
+                        "DamageNoArmor": 550.0,
+                        "TimeToReload": 3.0,
+                        "ArmorDPS": 11666.0,
+                        "ShieldDPS": 4010.0
+                    }
+                ]
+            },
+            "module_name": "Zenit"
+        },
+        "name": {
+            "Key": "WPN_name_Zenit",
+            "TableNamespace": "Weapon_name",
+            "en": "Zenit"
+        },
+        "description": {
+            "Key": "WPN_desc_Zenit",
+            "TableNamespace": "Weapon_description",
+            "en": "Heavy rocket launcher firing powerful volleys of rockets along an arched trajectory."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
+    },
     "DA_Module_Weapon_Zeus.0": {
         "id": "DA_Module_Weapon_Zeus.0",
         "production_status": "Ready",
@@ -41524,7 +42056,6 @@
                     "ClipSize": 1,
                     "ProjectilesPerShot": 1,
                     "TimeBetweenShots": 2.0,
-                    "RoundsPerMinute": 30.0,
                     "ID": "Zeus",
                     "Armor": 0.0,
                     "WeightDrain": 5.0,
@@ -41540,6 +42071,7 @@
                         "DamageArmor": 12835.0,
                         "DamageNoArmor": 14271.0,
                         "TimeToReload": 4.05,
+                        "RoundsPerMinute": 15.0,
                         "ArmorDPS": 3170.0,
                         "ShieldDPS": 3524.0
                     },
@@ -41552,6 +42084,7 @@
                         "DamageArmor": 13164.0,
                         "DamageNoArmor": 14271.0,
                         "TimeToReload": 4.05,
+                        "RoundsPerMinute": 15.0,
                         "ArmorDPS": 3251.0,
                         "ShieldDPS": 3524.0
                     },
@@ -41564,6 +42097,7 @@
                         "DamageArmor": 13164.0,
                         "DamageNoArmor": 14271.0,
                         "TimeToReload": 3.86,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3414.0,
                         "ShieldDPS": 3701.0
                     },
@@ -41576,6 +42110,7 @@
                         "DamageArmor": 13502.0,
                         "DamageNoArmor": 14271.0,
                         "TimeToReload": 3.86,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3501.0,
                         "ShieldDPS": 3701.0
                     },
@@ -41588,6 +42123,7 @@
                         "DamageArmor": 13502.0,
                         "DamageNoArmor": 14866.0,
                         "TimeToReload": 3.86,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3501.0,
                         "ShieldDPS": 3855.0
                     },
@@ -41600,6 +42136,7 @@
                         "DamageArmor": 13708.0,
                         "DamageNoArmor": 14866.0,
                         "TimeToReload": 3.86,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3555.0,
                         "ShieldDPS": 3855.0
                     },
@@ -41612,6 +42149,7 @@
                         "DamageArmor": 13708.0,
                         "DamageNoArmor": 14866.0,
                         "TimeToReload": 3.71,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3697.0,
                         "ShieldDPS": 4009.0
                     },
@@ -41624,6 +42162,7 @@
                         "DamageArmor": 13917.0,
                         "DamageNoArmor": 14866.0,
                         "TimeToReload": 3.71,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3753.0,
                         "ShieldDPS": 4009.0
                     },
@@ -41636,6 +42175,7 @@
                         "DamageArmor": 13917.0,
                         "DamageNoArmor": 15405.0,
                         "TimeToReload": 3.71,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3753.0,
                         "ShieldDPS": 4155.0
                     },
@@ -41648,6 +42188,7 @@
                         "DamageArmor": 14058.0,
                         "DamageNoArmor": 15405.0,
                         "TimeToReload": 3.71,
+                        "RoundsPerMinute": 16.0,
                         "ArmorDPS": 3791.0,
                         "ShieldDPS": 4155.0
                     },
@@ -41660,6 +42201,7 @@
                         "DamageArmor": 14058.0,
                         "DamageNoArmor": 15405.0,
                         "TimeToReload": 3.6,
+                        "RoundsPerMinute": 17.0,
                         "ArmorDPS": 3905.0,
                         "ShieldDPS": 4279.0
                     },
@@ -41672,6 +42214,7 @@
                         "DamageArmor": 14200.0,
                         "DamageNoArmor": 15405.0,
                         "TimeToReload": 3.6,
+                        "RoundsPerMinute": 17.0,
                         "ArmorDPS": 3944.0,
                         "ShieldDPS": 4279.0
                     },
@@ -41684,6 +42227,7 @@
                         "DamageArmor": 14200.0,
                         "DamageNoArmor": 15800.0,
                         "TimeToReload": 3.6,
+                        "RoundsPerMinute": 17.0,
                         "ArmorDPS": 3944.0,
                         "ShieldDPS": 4389.0
                     }
