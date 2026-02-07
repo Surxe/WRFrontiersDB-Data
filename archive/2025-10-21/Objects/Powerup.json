@@ -1,0 +1,120 @@
+{
+    "BP_PowerUp_AddAbility": {
+        "id": "BP_PowerUp_AddAbility",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapAddAbility",
+        "icon_hex": "80AAFF",
+        "attached_buff": {
+            "abilities_refs": [
+                "OBJID_Ability::BP_Ability_PowerUp_OrbitalStrike.0"
+            ],
+            "MaxAbilitiesInvocationsCount": 1
+        }
+    },
+    "BP_PowerUp_DoubleDamage": {
+        "id": "BP_PowerUp_DoubleDamage",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapDoubleDamage",
+        "icon_hex": "FCB997",
+        "attached_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 2.0
+                }
+            ],
+            "StackMode": "Reset"
+        },
+        "buff_duration": 30.0
+    },
+    "BP_PowerUp_GameModeScore": {
+        "id": "BP_PowerUp_GameModeScore",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapGameModeScore",
+        "icon_hex": "00FFD6",
+        "score": 2
+    },
+    "BP_PowerUp_RechargeAbilities": {
+        "id": "BP_PowerUp_RechargeAbilities",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapRechargeAbilities",
+        "icon_hex": "8FEFA2"
+    },
+    "BP_PowerUp_TeamDamageResist": {
+        "id": "BP_PowerUp_TeamDamageResist",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamDamageResist",
+        "icon_hex": "FF9B59",
+        "attached_buff": {
+            "Modifiers": [
+                {
+                    "what": "IncomingDamage",
+                    "operator": "Multiply",
+                    "value": 0.8
+                }
+            ]
+        },
+        "buff_duration": 20.0
+    },
+    "BP_PowerUp_TeamRegenArmor": {
+        "id": "BP_PowerUp_TeamRegenArmor",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamRegenArmor",
+        "icon_hex": "8FEFA2",
+        "attached_buff": {
+            "Regen amount": 20000.0
+        },
+        "buff_duration": 1.0
+    },
+    "BP_PowerUp_TeamRegenFuel": {
+        "id": "BP_PowerUp_TeamRegenFuel",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamRegenFuel",
+        "icon_hex": "FF9B59",
+        "attached_buff": {
+            "Modifiers": [
+                {
+                    "what": "FuelRegenPerSecond",
+                    "operator": "Grow",
+                    "value": 0.15
+                }
+            ]
+        },
+        "buff_duration": 20.0
+    },
+    "BP_PowerUp_TeamShield": {
+        "id": "BP_PowerUp_TeamShield",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamShield",
+        "icon_hex": "6C93FF",
+        "attached_buff": {
+            "ArmorRegenPerSecond": 0.0,
+            "ShieldRegenPerSecond": 2000.0,
+            "RegenInterval": 1.0,
+            "bRemoveOnDamage": false
+        },
+        "buff_duration": 20.0
+    },
+    "BP_PowerUp_TeamSpeedBoost": {
+        "id": "BP_PowerUp_TeamSpeedBoost",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamSpeedBoost",
+        "icon_hex": "6C93FF",
+        "attached_buff": {
+            "Modifiers": [
+                {
+                    "what": "MaxSpeed",
+                    "operator": "Grow",
+                    "value": 0.2
+                },
+                {
+                    "what": "MaxAcceleration",
+                    "operator": "Grow",
+                    "value": 0.3
+                }
+            ]
+        },
+        "buff_duration": 20.0
+    },
+    "BP_PowerUp_TeamUltimateCharge": {
+        "id": "BP_PowerUp_TeamUltimateCharge",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamUltimateCharge",
+        "icon_hex": "8FEFA2",
+        "attached_buff": {
+            "UltimateChargeAddition": 150.0
+        },
+        "buff_duration": 1.0
+    }
+}
