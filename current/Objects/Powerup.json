@@ -54,16 +54,16 @@
                 }
             ]
         },
-        "buff_duration": 10.0
+        "buff_duration": 20.0
     },
     "BP_PowerUp_TeamRegenArmor": {
         "id": "BP_PowerUp_TeamRegenArmor",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamRegenArmor",
         "icon_hex": "8FEFA2",
         "attached_buff": {
-            "Regen amount": 10000.0
+            "Regen amount": 20000.0
         },
-        "buff_duration": 10.0
+        "buff_duration": 1.0
     },
     "BP_PowerUp_TeamRegenFuel": {
         "id": "BP_PowerUp_TeamRegenFuel",
@@ -74,11 +74,11 @@
                 {
                     "what": "FuelRegenPerSecond",
                     "operator": "Grow",
-                    "value": 0.2
+                    "value": 0.15
                 }
             ]
         },
-        "buff_duration": 5.0
+        "buff_duration": 20.0
     },
     "BP_PowerUp_TeamShield": {
         "id": "BP_PowerUp_TeamShield",
@@ -90,7 +90,7 @@
             "RegenInterval": 1.0,
             "bRemoveOnDamage": false
         },
-        "buff_duration": 10.0
+        "buff_duration": 20.0
     },
     "BP_PowerUp_TeamSpeedBoost": {
         "id": "BP_PowerUp_TeamSpeedBoost",
@@ -106,19 +106,19 @@
                 {
                     "what": "MaxAcceleration",
                     "operator": "Grow",
-                    "value": 0.2
+                    "value": 0.3
                 }
             ]
         },
-        "buff_duration": 10.0
+        "buff_duration": 20.0
     },
     "BP_PowerUp_TeamUltimateCharge": {
         "id": "BP_PowerUp_TeamUltimateCharge",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamUltimateCharge",
         "icon_hex": "8FEFA2",
         "attached_buff": {
-            "UltimateChargeAddition": 200.0
+            "UltimateChargeAddition": 150.0
         },
-        "buff_duration": 10.0
+        "buff_duration": 1.0
     }
 }

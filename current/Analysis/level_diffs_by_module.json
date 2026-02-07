@@ -6,7 +6,7 @@
             "SecondaryParameter": 0.26103
         },
         "stats_percentile": {
-            "Cooldown": 0.97872
+            "Cooldown": 0.97959
         }
     },
     "OBJID_Module::DA_Module_Ability_ArmorShield.1": {
@@ -16,7 +16,17 @@
             "SecondaryParameter": 0.2959
         },
         "stats_percentile": {
-            "Cooldown": 0.12766
+            "Cooldown": 0.12245
+        }
+    },
+    "OBJID_Module::DA_Module_Ability_Atrophy.1": {
+        "stats_percent_increase": {
+            "Cooldown": -0.22222,
+            "PrimaryParameter": 0.27273,
+            "SecondaryParameter": 0.25984
+        },
+        "stats_percentile": {
+            "Cooldown": 0.95918
         }
     },
     "OBJID_Module::DA_Module_Ability_BlastWave.1": {
@@ -26,7 +36,7 @@
             "SecondaryParameter": 0.10656
         },
         "stats_percentile": {
-            "Cooldown": 0.10638
+            "Cooldown": 0.10204
         }
     },
     "OBJID_Module::DA_Module_Ability_BlockingField.1": {
@@ -36,7 +46,7 @@
             "SecondaryParameter": 0.29594
         },
         "stats_percentile": {
-            "Cooldown": 0.08511
+            "Cooldown": 0.08163
         }
     },
     "OBJID_Module::DA_Module_Ability_CounterAttack.1": {
@@ -56,7 +66,7 @@
             "SecondaryParameter": -0.7925
         },
         "stats_percentile": {
-            "Cooldown": 0.25532
+            "Cooldown": 0.2449
         }
     },
     "OBJID_Module::DA_Module_Ability_Dazzle.1": {
@@ -76,7 +86,7 @@
             "SecondaryParameter": 0.2275
         },
         "stats_percentile": {
-            "Cooldown": 0.51064
+            "Cooldown": 0.4898
         }
     },
     "OBJID_Module::DA_Module_Ability_GhostTurret.1": {
@@ -86,17 +96,17 @@
             "SecondaryParameter": 0.22873
         },
         "stats_percentile": {
-            "Cooldown": 0.23404
+            "Cooldown": 0.22449
         }
     },
     "OBJID_Module::DA_Module_Ability_Grounded.1": {
         "stats_percent_increase": {
             "Cooldown": -0.4186,
-            "PrimaryParameter": 0.13498,
+            "PrimaryParameter": 0.19048,
             "SecondaryParameter": 0.37931
         },
         "stats_percentile": {
-            "Cooldown": 0.3617
+            "Cooldown": 0.34694
         }
     },
     "OBJID_Module::DA_Module_Ability_Homing.1": {
@@ -136,7 +146,7 @@
             "SecondaryParameter": 0.38889
         },
         "stats_percentile": {
-            "Cooldown": 0.46809
+            "Cooldown": 0.44898
         }
     },
     "OBJID_Module::DA_Module_Ability_RegenerationFull.1": {
@@ -156,7 +166,7 @@
             "SecondaryParameter": 0.37137
         },
         "stats_percentile": {
-            "Cooldown": 0.06383
+            "Cooldown": 0.06122
         }
     },
     "OBJID_Module::DA_Module_Ability_SmokeWall.1": {
@@ -166,7 +176,7 @@
             "SecondaryParameter": 0.10658
         },
         "stats_percentile": {
-            "Cooldown": 0.21277
+            "Cooldown": 0.20408
         }
     },
     "OBJID_Module::DA_Module_Ability_SpeedBoost.1": {
@@ -176,7 +186,7 @@
             "SecondaryParameter": 0.22773
         },
         "stats_percentile": {
-            "Cooldown": 0.48936
+            "Cooldown": 0.46939
         }
     },
     "OBJID_Module::DA_Module_Ability_Spotlight.1": {
@@ -211,372 +221,406 @@
     },
     "OBJID_Module::DA_Module_ChassisAlpha.1": {
         "stats_percent_increase": {
-            "Armor": 0.11732,
+            "Armor": 0.20246,
             "FuelCapacity": 0.23077,
-            "LegsArmor": 0.11732,
-            "MaxSpeed": 0.14773
+            "LegsArmor": 0.20207,
+            "MaxSpeed": 0.13483
         },
         "stats_percentile": {
-            "Armor": 0.58333,
-            "FuelCapacity": 0.7037,
-            "LegsArmor": 0.92593,
-            "MaxSpeed": 0.13043
+            "Armor": 0.25287,
+            "FuelCapacity": 0.96429,
+            "LegsArmor": 0.48148,
+            "MaxSpeed": 0.0
+        }
+    },
+    "OBJID_Module::DA_Module_ChassisAnansi.2": {
+        "stats_percent_increase": {
+            "Armor": 0.20188,
+            "FuelCapacity": 0.2381,
+            "LegsArmor": 0.20188,
+            "MaxSpeed": 0.12791
+        },
+        "stats_percentile": {
+            "Armor": 0.35632,
+            "FuelCapacity": 0.75,
+            "LegsArmor": 0.7037,
+            "MaxSpeed": 0.42857
         }
     },
     "OBJID_Module::DA_Module_ChassisAres.2": {
         "stats_percent_increase": {
-            "Armor": 0.1657,
+            "Armor": 0.20424,
             "FuelCapacity": 0.25,
-            "LegsArmor": 0.16449
+            "LegsArmor": 0.20374,
+            "MaxSpeed": 0.12371
         },
         "stats_percentile": {
-            "Armor": 0.30952,
-            "FuelCapacity": 0.51852,
-            "LegsArmor": 0.37037
+            "Armor": 0.14943,
+            "FuelCapacity": 0.71429,
+            "LegsArmor": 0.03704,
+            "MaxSpeed": 0.60714
         }
     },
     "OBJID_Module::DA_Module_ChassisBulgasari.2": {
         "stats_percent_increase": {
-            "Armor": 0.16642,
+            "Armor": 0.20147,
             "FuelCapacity": 0.3,
-            "LegsArmor": 0.16642,
+            "LegsArmor": 0.20147,
             "MaxSpeed": 0.1194
         },
         "stats_percentile": {
-            "Armor": 0.28571,
-            "FuelCapacity": 0.18519,
-            "LegsArmor": 0.0,
-            "MaxSpeed": 0.56522
+            "Armor": 0.4023,
+            "FuelCapacity": 0.10714,
+            "LegsArmor": 0.81481,
+            "MaxSpeed": 0.85714
         }
     },
     "OBJID_Module::DA_Module_ChassisBulwark.2": {
         "stats_percent_increase": {
-            "Armor": 0.1647,
+            "Armor": 0.20252,
             "FuelCapacity": 0.28571,
-            "LegsArmor": 0.16439,
             "MaxSpeed": 0.12245
         },
         "stats_percentile": {
-            "Armor": 0.38095,
-            "FuelCapacity": 0.25926,
-            "LegsArmor": 0.40741,
-            "MaxSpeed": 0.52174
+            "Armor": 0.24138,
+            "FuelCapacity": 0.25,
+            "MaxSpeed": 0.64286
         }
     },
     "OBJID_Module::DA_Module_ChassisCyclops.2": {
         "stats_percent_increase": {
-            "Armor": 0.16359,
+            "Armor": 0.20295,
             "FuelCapacity": 0.27273,
-            "LegsArmor": 0.16359,
-            "MaxSpeed": 0.10667
+            "LegsArmor": 0.20295,
+            "MaxSpeed": 0.12162
         },
         "stats_percentile": {
-            "Armor": 0.4881,
-            "FuelCapacity": 0.37037,
-            "LegsArmor": 0.66667,
-            "MaxSpeed": 0.82609
+            "Armor": 0.2069,
+            "FuelCapacity": 0.42857,
+            "LegsArmor": 0.25926,
+            "MaxSpeed": 0.71429
         }
     },
     "OBJID_Module::DA_Module_ChassisDemeter.2": {
         "stats_percent_increase": {
-            "Armor": 0.11686,
-            "FuelCapacity": 0.35714,
-            "LegsArmor": 0.11619,
-            "MaxSpeed": 0.15625
+            "Armor": 0.2017,
+            "FuelCapacity": 0.28571,
+            "LegsArmor": 0.20207,
+            "MaxSpeed": 0.12121
         },
         "stats_percentile": {
-            "Armor": 0.59524,
-            "FuelCapacity": 0.03704,
-            "LegsArmor": 0.96296,
-            "MaxSpeed": 0.04348
+            "Armor": 0.37931,
+            "FuelCapacity": 0.21429,
+            "LegsArmor": 0.51852,
+            "MaxSpeed": 0.75
         }
     },
     "OBJID_Module::DA_Module_ChassisFenrir.2": {
         "stats_percent_increase": {
-            "Armor": 0.16486,
+            "Armor": 0.20337,
             "FuelCapacity": 0.27273,
-            "LegsArmor": 0.16486,
+            "LegsArmor": 0.20337,
             "MaxSpeed": 0.13333
         },
         "stats_percentile": {
-            "Armor": 0.34524,
-            "FuelCapacity": 0.33333,
-            "LegsArmor": 0.14815,
-            "MaxSpeed": 0.21739
+            "Armor": 0.16092,
+            "FuelCapacity": 0.39286,
+            "LegsArmor": 0.11111,
+            "MaxSpeed": 0.14286
         }
     },
     "OBJID_Module::DA_Module_ChassisFury.2": {
         "stats_percent_increase": {
-            "Armor": 0.16359,
+            "Armor": 0.20295,
             "FuelCapacity": 0.3,
-            "LegsArmor": 0.16359,
-            "MaxSpeed": 0.11268
+            "LegsArmor": 0.20295,
+            "MaxSpeed": 0.12857
         },
         "stats_percentile": {
-            "Armor": 0.47619,
-            "FuelCapacity": 0.14815,
-            "LegsArmor": 0.62963,
-            "MaxSpeed": 0.73913
+            "Armor": 0.1954,
+            "FuelCapacity": 0.07143,
+            "LegsArmor": 0.22222,
+            "MaxSpeed": 0.28571
         }
     },
     "OBJID_Module::DA_Module_ChassisGriffin.2": {
         "stats_percent_increase": {
-            "Armor": 0.16502,
+            "Armor": 0.20242,
             "FuelCapacity": 0.23529,
-            "LegsArmor": 0.16502,
+            "LegsArmor": 0.20242,
             "MaxSpeed": 0.125
         },
         "stats_percentile": {
-            "Armor": 0.33333,
-            "FuelCapacity": 0.55556,
-            "LegsArmor": 0.11111,
-            "MaxSpeed": 0.34783
+            "Armor": 0.26437,
+            "FuelCapacity": 0.78571,
+            "LegsArmor": 0.37037,
+            "MaxSpeed": 0.46429
         }
     },
     "OBJID_Module::DA_Module_ChassisGrim.1": {
         "stats_percent_increase": {
-            "Armor": 0.16414,
+            "Armor": 0.20256,
             "FuelCapacity": 0.25,
-            "LegsArmor": 0.16429,
-            "MaxSpeed": 0.12264
+            "LegsArmor": 0.2031,
+            "MaxSpeed": 0.12381
         },
         "stats_percentile": {
-            "Armor": 0.44048,
-            "FuelCapacity": 0.48148,
-            "LegsArmor": 0.48148,
-            "MaxSpeed": 0.47826
+            "Armor": 0.22989,
+            "FuelCapacity": 0.67857,
+            "LegsArmor": 0.18519,
+            "MaxSpeed": 0.57143
         }
     },
     "OBJID_Module::DA_Module_ChassisHarpy.2": {
         "stats_percent_increase": {
-            "Armor": 0.1639,
-            "FuelCapacity": 0.18182,
-            "LegsArmor": 0.1639
+            "Armor": 0.20332,
+            "FuelCapacity": 0.27273,
+            "LegsArmor": 0.20332,
+            "MaxSpeed": 0.12048
         },
         "stats_percentile": {
-            "Armor": 0.46429,
-            "FuelCapacity": 0.92593,
-            "LegsArmor": 0.59259
+            "Armor": 0.17241,
+            "FuelCapacity": 0.35714,
+            "LegsArmor": 0.14815,
+            "MaxSpeed": 0.78571
         }
     },
     "OBJID_Module::DA_Module_ChassisInquisitor.2": {
         "stats_percent_increase": {
-            "Armor": 0.1643,
+            "Armor": 0.20126,
             "FuelCapacity": 0.3,
-            "LegsArmor": 0.1643,
+            "LegsArmor": 0.20126,
             "MaxSpeed": 0.125
         },
         "stats_percentile": {
-            "Armor": 0.42857,
-            "FuelCapacity": 0.11111,
-            "LegsArmor": 0.44444,
-            "MaxSpeed": 0.43478
+            "Armor": 0.43678,
+            "FuelCapacity": 0.03571,
+            "LegsArmor": 0.92593,
+            "MaxSpeed": 0.53571
         }
     },
     "OBJID_Module::DA_Module_ChassisLancelot.2": {
         "stats_percent_increase": {
-            "Armor": 0.1176,
+            "Armor": 0.20188,
             "FuelCapacity": 0.28571,
-            "LegsArmor": 0.1176,
-            "MaxSpeed": 0.15686
+            "LegsArmor": 0.20188,
+            "MaxSpeed": 0.13462
         },
         "stats_percentile": {
-            "Armor": 0.57143,
-            "FuelCapacity": 0.22222,
-            "LegsArmor": 0.88889,
-            "MaxSpeed": 0.0
+            "Armor": 0.34483,
+            "FuelCapacity": 0.17857,
+            "LegsArmor": 0.66667,
+            "MaxSpeed": 0.03571
         }
     },
     "OBJID_Module::DA_Module_ChassisLoki.2": {
         "stats_percent_increase": {
-            "Armor": 0.16556,
+            "Armor": 0.20165,
             "FuelCapacity": 0.23077,
-            "LegsArmor": 0.16556
+            "LegsArmor": 0.20165,
+            "MaxSpeed": 0.11538
         },
         "stats_percentile": {
-            "Armor": 0.32143,
-            "FuelCapacity": 0.66667,
-            "LegsArmor": 0.07407
+            "Armor": 0.3908,
+            "FuelCapacity": 0.92857,
+            "LegsArmor": 0.77778,
+            "MaxSpeed": 0.92857
         }
     },
     "OBJID_Module::DA_Module_ChassisMatriarch.1": {
         "stats_percent_increase": {
-            "Armor": 0.16452,
+            "Armor": 0.2023,
             "FuelCapacity": 0.23077,
-            "LegsArmor": 0.16452,
+            "LegsArmor": 0.2023,
             "MaxSpeed": 0.13333
         },
         "stats_percentile": {
-            "Armor": 0.40476,
-            "FuelCapacity": 0.62963,
-            "LegsArmor": 0.2963,
-            "MaxSpeed": 0.17391
+            "Armor": 0.27586,
+            "FuelCapacity": 0.89286,
+            "LegsArmor": 0.40741,
+            "MaxSpeed": 0.10714
         }
     },
     "OBJID_Module::DA_Module_ChassisMesa.2": {
         "stats_percent_increase": {
-            "Armor": 0.11861,
-            "FuelCapacity": 0.375,
-            "LegsArmor": 0.11861,
-            "MaxSpeed": 0.15094
+            "Armor": 0.20198,
+            "FuelCapacity": 0.25,
+            "LegsArmor": 0.20198,
+            "MaxSpeed": 0.12963
         },
         "stats_percentile": {
-            "Armor": 0.55952,
-            "FuelCapacity": 0.0,
-            "LegsArmor": 0.85185,
-            "MaxSpeed": 0.08696
+            "Armor": 0.29885,
+            "FuelCapacity": 0.64286,
+            "LegsArmor": 0.55556,
+            "MaxSpeed": 0.25
         }
     },
     "OBJID_Module::DA_Module_ChassisOrochi.2": {
         "stats_percent_increase": {
-            "Armor": 0.16067,
-            "FuelCapacity": 0.19048,
-            "LegsArmor": 0.16067,
-            "MaxSpeed": 0.11927
+            "Armor": 0.20144,
+            "FuelCapacity": 0.28571,
+            "LegsArmor": 0.20144,
+            "MaxSpeed": 0.12844
         },
         "stats_percentile": {
-            "Armor": 0.54762,
-            "FuelCapacity": 0.85185,
-            "LegsArmor": 0.81481,
-            "MaxSpeed": 0.6087
+            "Armor": 0.41379,
+            "FuelCapacity": 0.14286,
+            "LegsArmor": 0.85185,
+            "MaxSpeed": 0.32143
         }
     },
     "OBJID_Module::DA_Module_ChassisPhantom.2": {
         "stats_percent_increase": {
-            "Armor": 0.1626,
+            "Armor": 0.20122,
             "FuelCapacity": 0.23077,
-            "LegsArmor": 0.1626
+            "LegsArmor": 0.20122,
+            "MaxSpeed": 0.13274
         },
         "stats_percentile": {
-            "Armor": 0.52381,
-            "FuelCapacity": 0.59259,
-            "LegsArmor": 0.74074
+            "Armor": 0.44828,
+            "FuelCapacity": 0.85714,
+            "LegsArmor": 0.96296,
+            "MaxSpeed": 0.17857
         }
     },
     "OBJID_Module::DA_Module_ChassisPursuer.2": {
         "stats_percent_increase": {
-            "Armor": 0.16471,
-            "FuelCapacity": 0.2,
-            "LegsArmor": 0.16471,
-            "MaxSpeed": 0.05932
+            "Armor": 0.20196,
+            "FuelCapacity": 0.26667,
+            "LegsArmor": 0.20196,
+            "MaxSpeed": 0.13393
         },
         "stats_percentile": {
-            "Armor": 0.36905,
-            "FuelCapacity": 0.81481,
-            "LegsArmor": 0.18519,
-            "MaxSpeed": 0.95652
+            "Armor": 0.32184,
+            "FuelCapacity": 0.5,
+            "LegsArmor": 0.59259,
+            "MaxSpeed": 0.07143
         }
     },
     "OBJID_Module::DA_Module_ChassisRavana.2": {
         "stats_percent_increase": {
-            "Armor": 0.16402,
+            "Armor": 0.20257,
             "FuelCapacity": 0.26667,
-            "LegsArmor": 0.16402,
+            "LegsArmor": 0.20257,
             "MaxSpeed": 0.125
         },
         "stats_percentile": {
-            "Armor": 0.45238,
-            "FuelCapacity": 0.40741,
-            "LegsArmor": 0.55556,
-            "MaxSpeed": 0.3913
+            "Armor": 0.21839,
+            "FuelCapacity": 0.46429,
+            "LegsArmor": 0.2963,
+            "MaxSpeed": 0.5
         }
     },
     "OBJID_Module::DA_Module_ChassisRaven.2": {
         "stats_percent_increase": {
-            "Armor": 0.16452,
+            "Armor": 0.20143,
             "FuelCapacity": 0.25,
-            "LegsArmor": 0.16452,
-            "MaxSpeed": 0.10526
+            "LegsArmor": 0.20143,
+            "MaxSpeed": 0.12
         },
         "stats_percentile": {
-            "Armor": 0.41667,
-            "FuelCapacity": 0.44444,
-            "LegsArmor": 0.33333,
-            "MaxSpeed": 0.86957
+            "Armor": 0.42529,
+            "FuelCapacity": 0.60714,
+            "LegsArmor": 0.88889,
+            "MaxSpeed": 0.82143
         }
     },
     "OBJID_Module::DA_Module_ChassisScorpion.2": {
         "stats_percent_increase": {
-            "Armor": 0.1657,
-            "FuelCapacity": 0.15385,
-            "LegsArmor": 0.1657,
-            "MaxSpeed": 0.06306
+            "Armor": 0.20424,
+            "FuelCapacity": 0.23077,
+            "LegsArmor": 0.20424,
+            "MaxSpeed": 0.11321
         },
         "stats_percentile": {
-            "Armor": 0.29762,
-            "FuelCapacity": 0.96296,
-            "LegsArmor": 0.03704,
-            "MaxSpeed": 0.91304
+            "Armor": 0.13793,
+            "FuelCapacity": 0.82143,
+            "LegsArmor": 0.0,
+            "MaxSpeed": 0.96429
         }
     },
     "OBJID_Module::DA_Module_ChassisSiren.2": {
         "stats_percent_increase": {
-            "Armor": 0.16471,
-            "FuelCapacity": 0.21739,
-            "LegsArmor": 0.16456,
-            "MaxSpeed": 0.11688
+            "Armor": 0.20196,
+            "FuelCapacity": 0.26087,
+            "LegsArmor": 0.20253,
+            "MaxSpeed": 0.12987
         },
         "stats_percentile": {
-            "Armor": 0.35714,
-            "FuelCapacity": 0.74074,
-            "LegsArmor": 0.22222,
-            "MaxSpeed": 0.69565
+            "Armor": 0.31034,
+            "FuelCapacity": 0.53571,
+            "LegsArmor": 0.33333,
+            "MaxSpeed": 0.21429
         }
     },
     "OBJID_Module::DA_Module_ChassisSpire.2": {
         "stats_percent_increase": {
-            "Armor": 0.16454,
+            "Armor": 0.20195,
             "FuelCapacity": 0.3,
-            "LegsArmor": 0.16454,
-            "MaxSpeed": 0.10667
+            "LegsArmor": 0.20195,
+            "MaxSpeed": 0.12162
         },
         "stats_percentile": {
-            "Armor": 0.39286,
-            "FuelCapacity": 0.07407,
-            "LegsArmor": 0.25926,
-            "MaxSpeed": 0.78261
+            "Armor": 0.33333,
+            "FuelCapacity": 0.0,
+            "LegsArmor": 0.62963,
+            "MaxSpeed": 0.67857
         }
     },
     "OBJID_Module::DA_Module_ChassisTyphon.2": {
         "stats_percent_increase": {
-            "Armor": 0.16111,
-            "FuelCapacity": 0.2,
-            "LegsArmor": 0.16111,
+            "Armor": 0.20185,
+            "FuelCapacity": 0.25,
+            "LegsArmor": 0.20185,
             "MaxSpeed": 0.11842
         },
         "stats_percentile": {
-            "Armor": 0.53571,
-            "FuelCapacity": 0.77778,
-            "LegsArmor": 0.77778,
-            "MaxSpeed": 0.65217
+            "Armor": 0.36782,
+            "FuelCapacity": 0.57143,
+            "LegsArmor": 0.74074,
+            "MaxSpeed": 0.89286
         }
     },
     "OBJID_Module::DA_Module_ChassisTyr.2": {
         "stats_percent_increase": {
-            "Armor": 0.16279,
-            "FuelCapacity": 0.18182,
-            "LegsArmor": 0.16403,
+            "Armor": 0.20296,
+            "FuelCapacity": 0.27273,
+            "LegsArmor": 0.20356,
             "MaxSpeed": 0.12791
         },
         "stats_percentile": {
-            "Armor": 0.5119,
-            "FuelCapacity": 0.88889,
-            "LegsArmor": 0.51852,
-            "MaxSpeed": 0.30435
+            "Armor": 0.18391,
+            "FuelCapacity": 0.32143,
+            "LegsArmor": 0.07407,
+            "MaxSpeed": 0.39286
         }
     },
     "OBJID_Module::DA_Module_ChassisVityaz.2": {
         "stats_percent_increase": {
-            "Armor": 0.1633,
+            "Armor": 0.20218,
             "FuelCapacity": 0.27273,
-            "LegsArmor": 0.1633,
+            "LegsArmor": 0.20218,
             "MaxSpeed": 0.12791
         },
         "stats_percentile": {
-            "Armor": 0.5,
-            "FuelCapacity": 0.2963,
-            "LegsArmor": 0.7037,
-            "MaxSpeed": 0.26087
+            "Armor": 0.28736,
+            "FuelCapacity": 0.28571,
+            "LegsArmor": 0.44444,
+            "MaxSpeed": 0.35714
+        }
+    },
+    "OBJID_Module::DA_Module_ShoulderAnansi.0": {
+        "stats_percent_increase": {
+            "Armor": 0.16856,
+            "ShieldAmount": 0.25135,
+            "ShieldDelayReduction": 0.22222,
+            "ShieldRegeneration": 0.53712
+        },
+        "stats_percentile": {
+            "Armor": 0.58621,
+            "ShieldAmount": 0.90909,
+            "ShieldDelayReduction": 0.85,
+            "ShieldRegeneration": 0.03448
         }
     },
     "OBJID_Module::DA_Module_ShoulderAres.0": {
@@ -586,9 +630,9 @@
             "ShieldRegeneration": 0.26923
         },
         "stats_percentile": {
-            "Armor": 0.16667,
-            "ShieldAmount": 0.15625,
-            "ShieldRegeneration": 0.53571
+            "Armor": 0.48276,
+            "ShieldAmount": 0.15152,
+            "ShieldRegeneration": 0.55172
         }
     },
     "OBJID_Module::DA_Module_ShoulderBulgasari.0": {
@@ -599,10 +643,10 @@
             "ShieldRegeneration": 0.27083
         },
         "stats_percentile": {
-            "Armor": 0.10714,
-            "ShieldAmount": 0.875,
-            "ShieldDelayReduction": 0.57895,
-            "ShieldRegeneration": 0.42857
+            "Armor": 0.10345,
+            "ShieldAmount": 0.84848,
+            "ShieldDelayReduction": 0.55,
+            "ShieldRegeneration": 0.44828
         }
     },
     "OBJID_Module::DA_Module_ShoulderBulwark.0": {
@@ -613,10 +657,10 @@
             "ShieldRegeneration": 0.26496
         },
         "stats_percentile": {
-            "Armor": 0.04762,
-            "ShieldAmount": 0.75,
+            "Armor": 0.04598,
+            "ShieldAmount": 0.72727,
             "ShieldDelayReduction": 0.0,
-            "ShieldRegeneration": 0.85714
+            "ShieldRegeneration": 0.86207
         }
     },
     "OBJID_Module::DA_Module_ShoulderCyclops.0": {
@@ -627,10 +671,10 @@
             "ShieldRegeneration": 0.26506
         },
         "stats_percentile": {
-            "Armor": 0.07143,
-            "ShieldAmount": 0.4375,
-            "ShieldDelayReduction": 0.52632,
-            "ShieldRegeneration": 0.82143
+            "Armor": 0.06897,
+            "ShieldAmount": 0.42424,
+            "ShieldDelayReduction": 0.5,
+            "ShieldRegeneration": 0.82759
         }
     },
     "OBJID_Module::DA_Module_ShoulderDemeter.0": {
@@ -641,10 +685,10 @@
             "ShieldRegeneration": 0.27642
         },
         "stats_percentile": {
-            "Armor": 0.0119,
-            "ShieldAmount": 0.375,
-            "ShieldDelayReduction": 0.15789,
-            "ShieldRegeneration": 0.35714
+            "Armor": 0.01149,
+            "ShieldAmount": 0.36364,
+            "ShieldDelayReduction": 0.15,
+            "ShieldRegeneration": 0.37931
         }
     },
     "OBJID_Module::DA_Module_ShoulderFenrir.0": {
@@ -655,10 +699,10 @@
             "ShieldRegeneration": 0.26816
         },
         "stats_percentile": {
-            "Armor": 0.11905,
-            "ShieldAmount": 0.625,
-            "ShieldDelayReduction": 0.47368,
-            "ShieldRegeneration": 0.64286
+            "Armor": 0.11494,
+            "ShieldAmount": 0.60606,
+            "ShieldDelayReduction": 0.45,
+            "ShieldRegeneration": 0.65517
         }
     },
     "OBJID_Module::DA_Module_ShoulderFury.0": {
@@ -669,10 +713,10 @@
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
-            "Armor": 0.08333,
-            "ShieldAmount": 0.90625,
-            "ShieldDelayReduction": 0.36842,
-            "ShieldRegeneration": 0.96429
+            "Armor": 0.08046,
+            "ShieldAmount": 0.87879,
+            "ShieldDelayReduction": 0.35,
+            "ShieldRegeneration": 0.96552
         }
     },
     "OBJID_Module::DA_Module_ShoulderGriffin.0": {
@@ -684,9 +728,9 @@
         },
         "stats_percentile": {
             "Armor": 0.0,
-            "ShieldAmount": 0.71875,
-            "ShieldDelayReduction": 0.10526,
-            "ShieldRegeneration": 0.78571
+            "ShieldAmount": 0.69697,
+            "ShieldDelayReduction": 0.1,
+            "ShieldRegeneration": 0.7931
         }
     },
     "OBJID_Module::DA_Module_ShoulderHarpy.0": {
@@ -697,10 +741,10 @@
             "ShieldRegeneration": 0.53509
         },
         "stats_percentile": {
-            "Armor": 0.25,
-            "ShieldAmount": 0.65625,
-            "ShieldDelayReduction": 0.68421,
-            "ShieldRegeneration": 0.07143
+            "Armor": 0.56322,
+            "ShieldAmount": 0.63636,
+            "ShieldDelayReduction": 0.65,
+            "ShieldRegeneration": 0.10345
         }
     },
     "OBJID_Module::DA_Module_ShoulderInquisitor.0": {
@@ -711,10 +755,10 @@
             "ShieldRegeneration": 0.26689
         },
         "stats_percentile": {
-            "Armor": 0.13095,
-            "ShieldAmount": 0.8125,
-            "ShieldDelayReduction": 0.42105,
-            "ShieldRegeneration": 0.71429
+            "Armor": 0.12644,
+            "ShieldAmount": 0.78788,
+            "ShieldDelayReduction": 0.4,
+            "ShieldRegeneration": 0.72414
         }
     },
     "OBJID_Module::DA_Module_ShoulderLAlpha.0": {
@@ -727,10 +771,10 @@
             "ShieldRegeneration": 0.38182
         },
         "stats_percentile": {
-            "Armor": 0.94048,
-            "Cooldown": 0.04255,
-            "ShieldAmount": 0.59375,
-            "ShieldRegeneration": 0.21429
+            "Armor": 0.94253,
+            "Cooldown": 0.04082,
+            "ShieldAmount": 0.57576,
+            "ShieldRegeneration": 0.24138
         }
     },
     "OBJID_Module::DA_Module_ShoulderLGrim.0": {
@@ -743,10 +787,10 @@
             "ShieldRegeneration": 0.31406
         },
         "stats_percentile": {
-            "Cooldown": 0.34043,
-            "ShieldAmount": 0.96875,
-            "ShieldDelayReduction": 0.94737,
-            "ShieldRegeneration": 0.28571
+            "Cooldown": 0.32653,
+            "ShieldAmount": 0.9697,
+            "ShieldDelayReduction": 0.95,
+            "ShieldRegeneration": 0.31034
         }
     },
     "OBJID_Module::DA_Module_ShoulderLMatriarch.0": {
@@ -758,9 +802,9 @@
             "ShieldAmount": 0.3768
         },
         "stats_percentile": {
-            "Armor": 0.9881,
-            "Cooldown": 0.44681,
-            "ShieldAmount": 0.3125
+            "Armor": 0.98851,
+            "Cooldown": 0.42857,
+            "ShieldAmount": 0.30303
         }
     },
     "OBJID_Module::DA_Module_ShoulderLSpire.0": {
@@ -772,9 +816,9 @@
             "ShieldAmount": 0.37681
         },
         "stats_percentile": {
-            "Armor": 0.96429,
-            "Cooldown": 0.42553,
-            "ShieldAmount": 0.25
+            "Armor": 0.96552,
+            "Cooldown": 0.40816,
+            "ShieldAmount": 0.24242
         }
     },
     "OBJID_Module::DA_Module_ShoulderLancelot.0": {
@@ -785,10 +829,10 @@
             "ShieldRegeneration": 0.26667
         },
         "stats_percentile": {
-            "Armor": 0.03571,
-            "ShieldAmount": 0.6875,
-            "ShieldDelayReduction": 0.05263,
-            "ShieldRegeneration": 0.75
+            "Armor": 0.03448,
+            "ShieldAmount": 0.66667,
+            "ShieldDelayReduction": 0.05,
+            "ShieldRegeneration": 0.75862
         }
     },
     "OBJID_Module::DA_Module_ShoulderLoki.0": {
@@ -798,9 +842,9 @@
             "ShieldRegeneration": 0.26987
         },
         "stats_percentile": {
-            "Armor": 0.17857,
-            "ShieldAmount": 0.1875,
-            "ShieldRegeneration": 0.46429
+            "Armor": 0.49425,
+            "ShieldAmount": 0.18182,
+            "ShieldRegeneration": 0.48276
         }
     },
     "OBJID_Module::DA_Module_ShoulderMesa.0": {
@@ -811,10 +855,10 @@
             "ShieldRegeneration": 0.27108
         },
         "stats_percentile": {
-            "Armor": 0.05952,
-            "ShieldAmount": 0.40625,
-            "ShieldDelayReduction": 0.26316,
-            "ShieldRegeneration": 0.39286
+            "Armor": 0.05747,
+            "ShieldAmount": 0.39394,
+            "ShieldDelayReduction": 0.25,
+            "ShieldRegeneration": 0.41379
         }
     },
     "OBJID_Module::DA_Module_ShoulderOrochi.0": {
@@ -825,10 +869,10 @@
             "ShieldRegeneration": 0.53257
         },
         "stats_percentile": {
-            "Armor": 0.2381,
-            "ShieldAmount": 0.5,
-            "ShieldDelayReduction": 0.84211,
-            "ShieldRegeneration": 0.14286
+            "Armor": 0.55172,
+            "ShieldAmount": 0.48485,
+            "ShieldDelayReduction": 0.8,
+            "ShieldRegeneration": 0.17241
         }
     },
     "OBJID_Module::DA_Module_ShoulderPhantom.0": {
@@ -838,9 +882,9 @@
             "ShieldRegeneration": 0.26884
         },
         "stats_percentile": {
-            "Armor": 0.15476,
-            "ShieldAmount": 0.0625,
-            "ShieldRegeneration": 0.60714
+            "Armor": 0.47126,
+            "ShieldAmount": 0.06061,
+            "ShieldRegeneration": 0.62069
         }
     },
     "OBJID_Module::DA_Module_ShoulderPursuer.0": {
@@ -850,9 +894,9 @@
             "ShieldRegeneration": 0.26938
         },
         "stats_percentile": {
-            "Armor": 0.14286,
-            "ShieldAmount": 0.09375,
-            "ShieldRegeneration": 0.5
+            "Armor": 0.45977,
+            "ShieldAmount": 0.09091,
+            "ShieldRegeneration": 0.51724
         }
     },
     "OBJID_Module::DA_Module_ShoulderRAlpha.0": {
@@ -865,10 +909,10 @@
             "ShieldRegeneration": 0.38182
         },
         "stats_percentile": {
-            "Armor": 0.92857,
-            "Cooldown": 0.40426,
-            "ShieldAmount": 0.5625,
-            "ShieldRegeneration": 0.17857
+            "Armor": 0.93103,
+            "Cooldown": 0.38776,
+            "ShieldAmount": 0.54545,
+            "ShieldRegeneration": 0.2069
         }
     },
     "OBJID_Module::DA_Module_ShoulderRGrim.0": {
@@ -881,10 +925,10 @@
             "ShieldRegeneration": 0.31406
         },
         "stats_percentile": {
-            "Cooldown": 0.19149,
-            "ShieldAmount": 0.9375,
-            "ShieldDelayReduction": 0.89474,
-            "ShieldRegeneration": 0.25
+            "Cooldown": 0.18367,
+            "ShieldAmount": 0.93939,
+            "ShieldDelayReduction": 0.9,
+            "ShieldRegeneration": 0.27586
         }
     },
     "OBJID_Module::DA_Module_ShoulderRMatriarch.0": {
@@ -896,9 +940,9 @@
             "ShieldAmount": 0.3768
         },
         "stats_percentile": {
-            "Armor": 0.97619,
-            "Cooldown": 0.02128,
-            "ShieldAmount": 0.28125
+            "Armor": 0.97701,
+            "Cooldown": 0.02041,
+            "ShieldAmount": 0.27273
         }
     },
     "OBJID_Module::DA_Module_ShoulderRSpire.0": {
@@ -910,9 +954,9 @@
             "ShieldAmount": 0.37681
         },
         "stats_percentile": {
-            "Armor": 0.95238,
-            "Cooldown": 0.17021,
-            "ShieldAmount": 0.21875
+            "Armor": 0.95402,
+            "Cooldown": 0.16327,
+            "ShieldAmount": 0.21212
         }
     },
     "OBJID_Module::DA_Module_ShoulderRavana.0": {
@@ -923,10 +967,10 @@
             "ShieldRegeneration": 0.27907
         },
         "stats_percentile": {
-            "Armor": 0.02381,
-            "ShieldAmount": 0.34375,
-            "ShieldDelayReduction": 0.21053,
-            "ShieldRegeneration": 0.32143
+            "Armor": 0.02299,
+            "ShieldAmount": 0.33333,
+            "ShieldDelayReduction": 0.2,
+            "ShieldRegeneration": 0.34483
         }
     },
     "OBJID_Module::DA_Module_ShoulderRaven.0": {
@@ -937,10 +981,10 @@
             "ShieldRegeneration": 0.26761
         },
         "stats_percentile": {
-            "Armor": 0.09524,
-            "ShieldAmount": 0.46875,
-            "ShieldDelayReduction": 0.31579,
-            "ShieldRegeneration": 0.67857
+            "Armor": 0.09195,
+            "ShieldAmount": 0.45455,
+            "ShieldDelayReduction": 0.3,
+            "ShieldRegeneration": 0.68966
         }
     },
     "OBJID_Module::DA_Module_ShoulderScorpion.0": {
@@ -950,9 +994,9 @@
             "ShieldRegeneration": 0.26884
         },
         "stats_percentile": {
-            "Armor": 0.19048,
-            "ShieldAmount": 0.125,
-            "ShieldRegeneration": 0.57143
+            "Armor": 0.50575,
+            "ShieldAmount": 0.12121,
+            "ShieldRegeneration": 0.58621
         }
     },
     "OBJID_Module::DA_Module_ShoulderSiren.0": {
@@ -963,10 +1007,10 @@
             "ShieldRegeneration": 0.53498
         },
         "stats_percentile": {
-            "Armor": 0.22619,
-            "ShieldAmount": 0.78125,
-            "ShieldDelayReduction": 0.63158,
-            "ShieldRegeneration": 0.10714
+            "Armor": 0.54023,
+            "ShieldAmount": 0.75758,
+            "ShieldDelayReduction": 0.6,
+            "ShieldRegeneration": 0.13793
         }
     },
     "OBJID_Module::DA_Module_ShoulderTyphon.0": {
@@ -977,10 +1021,10 @@
             "ShieldRegeneration": 0.53595
         },
         "stats_percentile": {
-            "Armor": 0.2619,
-            "ShieldAmount": 0.53125,
-            "ShieldDelayReduction": 0.78947,
-            "ShieldRegeneration": 0.03571
+            "Armor": 0.57471,
+            "ShieldAmount": 0.51515,
+            "ShieldDelayReduction": 0.75,
+            "ShieldRegeneration": 0.06897
         }
     },
     "OBJID_Module::DA_Module_ShoulderTyr.0": {
@@ -991,9 +1035,9 @@
             "ShieldRegeneration": 0.54185
         },
         "stats_percentile": {
-            "Armor": 0.27381,
-            "ShieldAmount": 0.84375,
-            "ShieldDelayReduction": 0.73684,
+            "Armor": 0.5977,
+            "ShieldAmount": 0.81818,
+            "ShieldDelayReduction": 0.7,
             "ShieldRegeneration": 0.0
         }
     },
@@ -1004,9 +1048,9 @@
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
-            "Armor": 0.21429,
-            "ShieldAmount": 0.03125,
-            "ShieldRegeneration": 0.92857
+            "Armor": 0.52874,
+            "ShieldAmount": 0.0303,
+            "ShieldRegeneration": 0.93103
         }
     },
     "OBJID_Module::DA_Module_ShoulderVityaz02.0": {
@@ -1016,9 +1060,9 @@
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
-            "Armor": 0.20238,
+            "Armor": 0.51724,
             "ShieldAmount": 0.0,
-            "ShieldRegeneration": 0.89286
+            "ShieldRegeneration": 0.89655
         }
     },
     "OBJID_Module::DA_Module_TorsoAlpha.0": {
@@ -1029,8 +1073,20 @@
             "SecondaryParameter": 0.09546
         },
         "stats_percentile": {
-            "Armor": 0.77381,
-            "Cooldown": 0.38298
+            "Armor": 0.78161,
+            "Cooldown": 0.36735
+        }
+    },
+    "OBJID_Module::DA_Module_TorsoAnansi.1": {
+        "stats_percent_increase": {
+            "Armor": 0.10714,
+            "Cooldown": -0.36364,
+            "PrimaryParameter": 0.14286,
+            "SecondaryParameter": 0.20903
+        },
+        "stats_percentile": {
+            "Armor": 0.62069,
+            "Cooldown": 0.85714
         }
     },
     "OBJID_Module::DA_Module_TorsoAres.1": {
@@ -1041,8 +1097,8 @@
             "SecondaryParameter": 0.14286
         },
         "stats_percentile": {
-            "Armor": 0.91667,
-            "Cooldown": 0.87234
+            "Armor": 0.91954,
+            "Cooldown": 0.83673
         }
     },
     "OBJID_Module::DA_Module_TorsoBulgasari.1": {
@@ -1053,8 +1109,8 @@
             "SecondaryParameter": 0.11111
         },
         "stats_percentile": {
-            "Armor": 0.70238,
-            "Cooldown": 0.76596
+            "Armor": 0.71264,
+            "Cooldown": 0.73469
         }
     },
     "OBJID_Module::DA_Module_TorsoBulwark.1": {
@@ -1065,8 +1121,8 @@
             "SecondaryParameter": 0.18835
         },
         "stats_percentile": {
-            "Armor": 0.75,
-            "Cooldown": 0.74468
+            "Armor": 0.75862,
+            "Cooldown": 0.71429
         }
     },
     "OBJID_Module::DA_Module_TorsoCyclops.1": {
@@ -1077,8 +1133,8 @@
             "SecondaryParameter": 0.25
         },
         "stats_percentile": {
-            "Armor": 0.7619,
-            "Cooldown": 0.7234
+            "Armor": 0.77011,
+            "Cooldown": 0.69388
         }
     },
     "OBJID_Module::DA_Module_TorsoDemeter.1": {
@@ -1089,8 +1145,8 @@
             "SecondaryParameter": 0.26267
         },
         "stats_percentile": {
-            "Armor": 0.65476,
-            "Cooldown": 0.95745
+            "Armor": 0.66667,
+            "Cooldown": 0.93878
         }
     },
     "OBJID_Module::DA_Module_TorsoFenrir.1": {
@@ -1101,8 +1157,8 @@
             "SecondaryParameter": -0.46429
         },
         "stats_percentile": {
-            "Armor": 0.82143,
-            "Cooldown": 0.70213
+            "Armor": 0.82759,
+            "Cooldown": 0.67347
         }
     },
     "OBJID_Module::DA_Module_TorsoFury.1": {
@@ -1113,8 +1169,8 @@
             "SecondaryParameter": 0.4
         },
         "stats_percentile": {
-            "Armor": 0.69048,
-            "Cooldown": 0.68085
+            "Armor": 0.70115,
+            "Cooldown": 0.65306
         }
     },
     "OBJID_Module::DA_Module_TorsoGriffin.1": {
@@ -1125,8 +1181,8 @@
             "SecondaryParameter": 0.125
         },
         "stats_percentile": {
-            "Armor": 0.89286,
-            "Cooldown": 0.65957
+            "Armor": 0.89655,
+            "Cooldown": 0.63265
         }
     },
     "OBJID_Module::DA_Module_TorsoGrim.0": {
@@ -1137,8 +1193,8 @@
             "SecondaryParameter": 0.1066
         },
         "stats_percentile": {
-            "Armor": 0.80952,
-            "Cooldown": 0.31915
+            "Armor": 0.81609,
+            "Cooldown": 0.30612
         }
     },
     "OBJID_Module::DA_Module_TorsoHarpy.1": {
@@ -1149,8 +1205,8 @@
             "SecondaryParameter": 0.11111
         },
         "stats_percentile": {
-            "Armor": 0.63095,
-            "Cooldown": 0.6383
+            "Armor": 0.64368,
+            "Cooldown": 0.61224
         }
     },
     "OBJID_Module::DA_Module_TorsoInquisitor.1": {
@@ -1161,8 +1217,8 @@
             "SecondaryParameter": 0.2
         },
         "stats_percentile": {
-            "Armor": 0.66667,
-            "Cooldown": 0.78723
+            "Armor": 0.67816,
+            "Cooldown": 0.7551
         }
     },
     "OBJID_Module::DA_Module_TorsoLancelot.1": {
@@ -1173,8 +1229,8 @@
             "SecondaryParameter": 0.25
         },
         "stats_percentile": {
-            "Armor": 0.85714,
-            "Cooldown": 0.85106
+            "Armor": 0.86207,
+            "Cooldown": 0.81633
         }
     },
     "OBJID_Module::DA_Module_TorsoLoki.1": {
@@ -1185,8 +1241,8 @@
             "SecondaryParameter": 1.0
         },
         "stats_percentile": {
-            "Armor": 0.90476,
-            "Cooldown": 0.61702
+            "Armor": 0.90805,
+            "Cooldown": 0.59184
         }
     },
     "OBJID_Module::DA_Module_TorsoMatriarch.0": {
@@ -1197,8 +1253,8 @@
             "SecondaryParameter": 0.31653
         },
         "stats_percentile": {
-            "Armor": 0.79762,
-            "Cooldown": 0.14894
+            "Armor": 0.8046,
+            "Cooldown": 0.14286
         }
     },
     "OBJID_Module::DA_Module_TorsoMesa.1": {
@@ -1209,8 +1265,8 @@
             "SecondaryParameter": 0.20895
         },
         "stats_percentile": {
-            "Armor": 0.64286,
-            "Cooldown": 0.93617
+            "Armor": 0.65517,
+            "Cooldown": 0.91837
         }
     },
     "OBJID_Module::DA_Module_TorsoOrochi.1": {
@@ -1221,8 +1277,8 @@
             "SecondaryParameter": 0.375
         },
         "stats_percentile": {
-            "Armor": 0.84524,
-            "Cooldown": 0.59574
+            "Armor": 0.85057,
+            "Cooldown": 0.57143
         }
     },
     "OBJID_Module::DA_Module_TorsoPhantom.1": {
@@ -1233,8 +1289,8 @@
             "SecondaryParameter": -0.6
         },
         "stats_percentile": {
-            "Armor": 0.88095,
-            "Cooldown": 0.89362
+            "Armor": 0.88506,
+            "Cooldown": 0.87755
         }
     },
     "OBJID_Module::DA_Module_TorsoPursuer.1": {
@@ -1245,8 +1301,8 @@
             "SecondaryParameter": -0.17
         },
         "stats_percentile": {
-            "Armor": 0.61905,
-            "Cooldown": 0.53191
+            "Armor": 0.63218,
+            "Cooldown": 0.5102
         }
     },
     "OBJID_Module::DA_Module_TorsoRavana.1": {
@@ -1257,8 +1313,8 @@
             "SecondaryParameter": 0.34615
         },
         "stats_percentile": {
-            "Armor": 0.83333,
-            "Cooldown": 0.80851
+            "Armor": 0.83908,
+            "Cooldown": 0.77551
         }
     },
     "OBJID_Module::DA_Module_TorsoRaven.1": {
@@ -1269,8 +1325,8 @@
             "SecondaryParameter": 0.11111
         },
         "stats_percentile": {
-            "Armor": 0.78571,
-            "Cooldown": 0.57447
+            "Armor": 0.7931,
+            "Cooldown": 0.55102
         }
     },
     "OBJID_Module::DA_Module_TorsoScorpion.1": {
@@ -1281,8 +1337,8 @@
             "SecondaryParameter": 0.07887
         },
         "stats_percentile": {
-            "Armor": 0.86905,
-            "Cooldown": 0.29787
+            "Armor": 0.87356,
+            "Cooldown": 0.28571
         }
     },
     "OBJID_Module::DA_Module_TorsoSiren.1": {
@@ -1293,8 +1349,8 @@
             "SecondaryParameter": 0.42857
         },
         "stats_percentile": {
-            "Armor": 0.71429,
-            "Cooldown": 0.91489
+            "Armor": 0.72414,
+            "Cooldown": 0.89796
         }
     },
     "OBJID_Module::DA_Module_TorsoSpire.0": {
@@ -1305,8 +1361,8 @@
             "SecondaryParameter": 0.39594
         },
         "stats_percentile": {
-            "Armor": 0.7381,
-            "Cooldown": 0.2766
+            "Armor": 0.74713,
+            "Cooldown": 0.26531
         }
     },
     "OBJID_Module::DA_Module_TorsoTyphon.1": {
@@ -1317,8 +1373,8 @@
             "SecondaryParameter": 0.5
         },
         "stats_percentile": {
-            "Armor": 0.72619,
-            "Cooldown": 0.55319
+            "Armor": 0.73563,
+            "Cooldown": 0.53061
         }
     },
     "OBJID_Module::DA_Module_TorsoTyr.1": {
@@ -1329,8 +1385,8 @@
             "SecondaryParameter": 0.25
         },
         "stats_percentile": {
-            "Armor": 0.67857,
-            "Cooldown": 0.82979
+            "Armor": 0.68966,
+            "Cooldown": 0.79592
         }
     },
     "OBJID_Module::DA_Module_TorsoVityaz.1": {
@@ -1341,7 +1397,7 @@
             "SecondaryParameter": 0.2959
         },
         "stats_percentile": {
-            "Armor": 0.60714,
+            "Armor": 0.6092,
             "Cooldown": 0.0
         }
     },
@@ -1352,8 +1408,8 @@
             "TimeToReload": -0.21642
         },
         "stats_percentile": {
-            "DamageArmor": 0.41935,
-            "DamageNoArmor": 0.94118,
+            "DamageArmor": 0.42424,
+            "DamageNoArmor": 0.94444,
             "TimeToReload": 0.0
         }
     },
@@ -1365,10 +1421,10 @@
             "TimeToReload": -0.11917
         },
         "stats_percentile": {
-            "DamageArmor": 0.54839,
+            "DamageArmor": 0.54545,
             "RoundsPerMinute": 0.2,
             "TimeBetweenShots": 0.66667,
-            "TimeToReload": 0.55172
+            "TimeToReload": 0.51613
         }
     },
     "OBJID_Module::DA_Module_Weapon_Buckshot.0": {
@@ -1379,10 +1435,10 @@
             "TimeToReload": -0.13706
         },
         "stats_percentile": {
-            "DamageArmor": 0.12903,
+            "DamageArmor": 0.15152,
             "RoundsPerMinute": 0.0,
             "TimeBetweenShots": 0.88889,
-            "TimeToReload": 0.34483
+            "TimeToReload": 0.32258
         }
     },
     "OBJID_Module::DA_Module_Weapon_Callisto.0": {
@@ -1392,9 +1448,9 @@
             "TimeToReload": -0.0942
         },
         "stats_percentile": {
-            "ClipSize": 0.22222,
-            "DamageArmor": 0.74194,
-            "TimeToReload": 0.82759
+            "ClipSize": 0.2,
+            "DamageArmor": 0.75758,
+            "TimeToReload": 0.80645
         }
     },
     "OBJID_Module::DA_Module_Weapon_Cascade.0": {
@@ -1405,8 +1461,8 @@
             "TimeBetweenShots": -0.17417
         },
         "stats_percentile": {
-            "DamageArmor": 0.70968,
-            "DamageNoArmor": 0.05882,
+            "DamageArmor": 0.72727,
+            "DamageNoArmor": 0.05556,
             "RoundsPerMinute": 0.3,
             "TimeBetweenShots": 0.55556
         }
@@ -1418,9 +1474,9 @@
             "TimeToReload": -0.1018
         },
         "stats_percentile": {
-            "DamageArmor": 0.58065,
-            "DamageNoArmor": 0.64706,
-            "TimeToReload": 0.75862
+            "DamageArmor": 0.57576,
+            "DamageNoArmor": 0.66667,
+            "TimeToReload": 0.74194
         }
     },
     "OBJID_Module::DA_Module_Weapon_Fowler.0": {
@@ -1430,9 +1486,9 @@
             "TimeToReload": -0.16898
         },
         "stats_percentile": {
-            "DamageArmor": 0.51613,
-            "DamageNoArmor": 0.52941,
-            "TimeToReload": 0.24138
+            "DamageArmor": 0.51515,
+            "DamageNoArmor": 0.55556,
+            "TimeToReload": 0.22581
         }
     },
     "OBJID_Module::DA_Module_Weapon_Glory.0": {
@@ -1443,10 +1499,10 @@
             "TimeToReload": -0.11917
         },
         "stats_percentile": {
-            "DamageArmor": 0.29032,
+            "DamageArmor": 0.30303,
             "RoundsPerMinute": 0.1,
             "TimeBetweenShots": 0.77778,
-            "TimeToReload": 0.51724
+            "TimeToReload": 0.48387
         }
     },
     "OBJID_Module::DA_Module_Weapon_Gozer.0": {
@@ -1456,9 +1512,9 @@
             "DamageNoArmor": 0.10749
         },
         "stats_percentile": {
-            "ClipSize": 0.55556,
-            "DamageArmor": 0.06452,
-            "DamageNoArmor": 0.17647
+            "ClipSize": 0.6,
+            "DamageArmor": 0.06061,
+            "DamageNoArmor": 0.16667
         }
     },
     "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": {
@@ -1469,10 +1525,10 @@
             "TimeToReload": -0.12698
         },
         "stats_percentile": {
-            "DamageArmor": 0.87097,
+            "DamageArmor": 0.87879,
             "RoundsPerMinute": 0.5,
             "TimeBetweenShots": 0.11111,
-            "TimeToReload": 0.48276
+            "TimeToReload": 0.45161
         }
     },
     "OBJID_Module::DA_Module_Weapon_Hive.0": {
@@ -1482,9 +1538,9 @@
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.48387,
-            "DamageNoArmor": 0.29412,
-            "TimeToReload": 0.89655
+            "DamageArmor": 0.48485,
+            "DamageNoArmor": 0.33333,
+            "TimeToReload": 0.90323
         }
     },
     "OBJID_Module::DA_Module_Weapon_Incinerator.0": {
@@ -1495,8 +1551,8 @@
         },
         "stats_percentile": {
             "ClipSize": 0.0,
-            "DamageArmor": 0.96774,
-            "TimeToReload": 0.31034
+            "DamageArmor": 0.9697,
+            "TimeToReload": 0.29032
         }
     },
     "OBJID_Module::DA_Module_Weapon_Jigsaw.0": {
@@ -1507,10 +1563,10 @@
             "TimeToReload": -0.12844
         },
         "stats_percentile": {
-            "DamageArmor": 0.67742,
+            "DamageArmor": 0.69697,
             "RoundsPerMinute": 0.7,
             "TimeBetweenShots": 0.33333,
-            "TimeToReload": 0.37931
+            "TimeToReload": 0.35484
         }
     },
     "OBJID_Module::DA_Module_Weapon_Katzbalger.0": {
@@ -1520,9 +1576,9 @@
             "TimeToReload": -0.11032
         },
         "stats_percentile": {
-            "ClipSize": 0.33333,
-            "DamageArmor": 0.25806,
-            "TimeToReload": 0.68966
+            "ClipSize": 0.3,
+            "DamageArmor": 0.27273,
+            "TimeToReload": 0.64516
         }
     },
     "OBJID_Module::DA_Module_Weapon_Locust.0": {
@@ -1532,9 +1588,21 @@
             "TimeToReload": -0.16084
         },
         "stats_percentile": {
-            "DamageArmor": 0.45161,
-            "DamageNoArmor": 0.58824,
-            "TimeToReload": 0.27586
+            "DamageArmor": 0.45455,
+            "DamageNoArmor": 0.61111,
+            "TimeToReload": 0.25806
+        }
+    },
+    "OBJID_Module::DA_Module_Weapon_MLx2.0": {
+        "stats_percent_increase": {
+            "DamageArmor": 0.10619,
+            "DamageNoArmor": 0.10733,
+            "TimeToReload": -0.10913
+        },
+        "stats_percentile": {
+            "DamageArmor": 0.66667,
+            "DamageNoArmor": 0.22222,
+            "TimeToReload": 0.67742
         }
     },
     "OBJID_Module::DA_Module_Weapon_Noricum.0": {
@@ -1546,7 +1614,7 @@
         "stats_percentile": {
             "AoeArmor": 0.5,
             "AoeNoArmor": 0.0,
-            "TimeToReload": 0.44828
+            "TimeToReload": 0.41935
         }
     },
     "OBJID_Module::DA_Module_Weapon_Orkan.0": {
@@ -1556,9 +1624,9 @@
             "TimeToReload": -0.17431
         },
         "stats_percentile": {
-            "DamageArmor": 0.03226,
-            "DamageNoArmor": 0.88235,
-            "TimeToReload": 0.2069
+            "DamageArmor": 0.0303,
+            "DamageNoArmor": 0.88889,
+            "TimeToReload": 0.19355
         }
     },
     "OBJID_Module::DA_Module_Weapon_Pulsar.0": {
@@ -1569,10 +1637,10 @@
             "TimeToReload": -0.17492
         },
         "stats_percentile": {
-            "ClipSize": 0.11111,
+            "ClipSize": 0.1,
             "DamageArmor": 0.0,
             "RoundsPerMinute": 0.9,
-            "TimeToReload": 0.17241
+            "TimeToReload": 0.16129
         }
     },
     "OBJID_Module::DA_Module_Weapon_Punisher.0": {
@@ -1582,9 +1650,9 @@
             "TimeToReload": -0.0942
         },
         "stats_percentile": {
-            "ClipSize": 0.44444,
-            "DamageArmor": 0.09677,
-            "TimeToReload": 0.7931
+            "ClipSize": 0.5,
+            "DamageArmor": 0.12121,
+            "TimeToReload": 0.77419
         }
     },
     "OBJID_Module::DA_Module_Weapon_Railgun.0": {
@@ -1594,9 +1662,9 @@
             "TimeToReload": -0.06181
         },
         "stats_percentile": {
-            "DamageArmor": 0.22581,
-            "DamageNoArmor": 0.82353,
-            "TimeToReload": 0.96552
+            "DamageArmor": 0.24242,
+            "DamageNoArmor": 0.83333,
+            "TimeToReload": 0.96774
         }
     },
     "OBJID_Module::DA_Module_Weapon_Scatter.0": {
@@ -1606,9 +1674,9 @@
             "TimeToReload": -0.2069
         },
         "stats_percentile": {
-            "DamageArmor": 0.35484,
-            "DamageNoArmor": 0.76471,
-            "TimeToReload": 0.03448
+            "DamageArmor": 0.36364,
+            "DamageNoArmor": 0.77778,
+            "TimeToReload": 0.03226
         }
     },
     "OBJID_Module::DA_Module_Weapon_Scourge.0": {
@@ -1618,9 +1686,21 @@
             "TimeToReload": -0.11055
         },
         "stats_percentile": {
-            "ClipSize": 0.77778,
-            "DamageArmor": 0.64516,
-            "TimeToReload": 0.65517
+            "ClipSize": 0.8,
+            "DamageArmor": 0.63636,
+            "TimeToReload": 0.6129
+        }
+    },
+    "OBJID_Module::DA_Module_Weapon_Scrubber.0": {
+        "stats_percent_increase": {
+            "ClipSize": 0.16505,
+            "DamageArmor": 0.10738,
+            "TimeToReload": -0.09357
+        },
+        "stats_percentile": {
+            "ClipSize": 0.4,
+            "DamageArmor": 0.09091,
+            "TimeToReload": 0.83871
         }
     },
     "OBJID_Module::DA_Module_Weapon_Shocktrain.0": {
@@ -1629,7 +1709,7 @@
             "DamageNoArmor": 0.16441
         },
         "stats_percentile": {
-            "DamageArmor": 0.83871,
+            "DamageArmor": 0.84848,
             "DamageNoArmor": 0.0
         }
     },
@@ -1641,8 +1721,8 @@
             "TimeBetweenShots": -0.09091
         },
         "stats_percentile": {
-            "ClipSize": 0.88889,
-            "DamageArmor": 0.90323,
+            "ClipSize": 0.9,
+            "DamageArmor": 0.90909,
             "RoundsPerMinute": 0.8,
             "TimeBetweenShots": 0.0
         }
@@ -1658,7 +1738,7 @@
             "AoeArmor": 0.0,
             "RoundsPerMinute": 0.6,
             "TimeBetweenShots": 0.22222,
-            "TimeToReload": 0.10345
+            "TimeToReload": 0.09677
         }
     },
     "OBJID_Module::DA_Module_Weapon_Thunder.0": {
@@ -1668,9 +1748,9 @@
             "TimeToReload": -0.17544
         },
         "stats_percentile": {
-            "DamageArmor": 0.77419,
-            "DamageNoArmor": 0.11765,
-            "TimeToReload": 0.13793
+            "DamageArmor": 0.78788,
+            "DamageNoArmor": 0.11111,
+            "TimeToReload": 0.12903
         }
     },
     "OBJID_Module::DA_Module_Weapon_Toxin.0": {
@@ -1680,9 +1760,9 @@
             "TimeToReload": -0.12791
         },
         "stats_percentile": {
-            "ClipSize": 0.66667,
-            "DamageArmor": 0.93548,
-            "TimeToReload": 0.41379
+            "ClipSize": 0.7,
+            "DamageArmor": 0.93939,
+            "TimeToReload": 0.3871
         }
     },
     "OBJID_Module::DA_Module_Weapon_Trebuchet.0": {
@@ -1692,9 +1772,9 @@
             "TimeToReload": -0.06181
         },
         "stats_percentile": {
-            "DamageArmor": 0.32258,
-            "DamageNoArmor": 0.35294,
-            "TimeToReload": 0.93103
+            "DamageArmor": 0.33333,
+            "DamageNoArmor": 0.38889,
+            "TimeToReload": 0.93548
         }
     },
     "OBJID_Module::DA_Module_Weapon_Trident.0": {
@@ -1704,9 +1784,9 @@
             "TimeToReload": -0.19094
         },
         "stats_percentile": {
-            "DamageArmor": 0.3871,
-            "DamageNoArmor": 0.41176,
-            "TimeToReload": 0.06897
+            "DamageArmor": 0.39394,
+            "DamageNoArmor": 0.44444,
+            "TimeToReload": 0.06452
         }
     },
     "OBJID_Module::DA_Module_Weapon_Tusk.0": {
@@ -1717,10 +1797,10 @@
             "TimeToReload": -0.11137
         },
         "stats_percentile": {
-            "DamageArmor": 0.6129,
+            "DamageArmor": 0.60606,
             "RoundsPerMinute": 0.4,
             "TimeBetweenShots": 0.44444,
-            "TimeToReload": 0.58621
+            "TimeToReload": 0.54839
         }
     },
     "OBJID_Module::DA_Module_Weapon_Twinflare.0": {
@@ -1730,9 +1810,9 @@
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.16129,
-            "DamageNoArmor": 0.23529,
-            "TimeToReload": 0.86207
+            "DamageArmor": 0.18182,
+            "DamageNoArmor": 0.27778,
+            "TimeToReload": 0.87097
         }
     },
     "OBJID_Module::DA_Module_Weapon_Vortex.0": {
@@ -1742,9 +1822,9 @@
             "TimeToReload": -0.10221
         },
         "stats_percentile": {
-            "DamageArmor": 0.80645,
-            "DamageNoArmor": 0.70588,
-            "TimeToReload": 0.72414
+            "DamageArmor": 0.81818,
+            "DamageNoArmor": 0.72222,
+            "TimeToReload": 0.70968
         }
     },
     "OBJID_Module::DA_Module_Weapon_Zeus.0": {
@@ -1754,9 +1834,9 @@
             "TimeToReload": -0.11111
         },
         "stats_percentile": {
-            "DamageArmor": 0.19355,
-            "DamageNoArmor": 0.47059,
-            "TimeToReload": 0.62069
+            "DamageArmor": 0.21212,
+            "DamageNoArmor": 0.5,
+            "TimeToReload": 0.58065
         }
     }
 }

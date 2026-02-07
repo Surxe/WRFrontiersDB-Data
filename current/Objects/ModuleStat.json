@@ -132,7 +132,9 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Armor"
         },
-        "short_key": "Armor"
+        "short_key": "Armor",
+        "max_stat_value_ui": 1009600.0,
+        "max_stat_titan_value_ui": 1178100.0
     },
     "DA_ModuleStat_ArmorBoost.0": {
         "id": "DA_ModuleStat_ArmorBoost.0",
@@ -154,6 +156,17 @@
         "unit_scaler": 100.0,
         "short_key": "ArmorBoost"
     },
+    "DA_ModuleStat_ArmorDPS.0": {
+        "id": "DA_ModuleStat_ArmorDPS.0",
+        "stat_name": {
+            "Key": "ModuleStat_ArmorDPS",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Armor DPS"
+        },
+        "short_key": "ArmorDPS",
+        "max_stat_value_ui": 30905.0,
+        "max_stat_titan_value_ui": 52202.0
+    },
     "DA_ModuleStat_ArmorDamage.0": {
         "id": "DA_ModuleStat_ArmorDamage.0",
         "stat_name": {
@@ -161,7 +174,8 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Armor Damage"
         },
-        "short_key": "ArmorDmg"
+        "short_key": "ArmorDmg",
+        "max_stat_value_ui": 30000.0
     },
     "DA_ModuleStat_Atk.0": {
         "id": "DA_ModuleStat_Atk.0",
@@ -536,7 +550,9 @@
             "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
-        "short_key": "EffDist"
+        "short_key": "EffDist",
+        "max_stat_value_ui": 120000.0,
+        "max_stat_titan_value_ui": 50000.0
     },
     "DA_ModuleStat_Efficiency.0": {
         "id": "DA_ModuleStat_Efficiency.0",
@@ -852,7 +868,8 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Shield Damage"
         },
-        "short_key": "HullDmg"
+        "short_key": "HullDmg",
+        "max_stat_value_ui": 30000.0
     },
     "DA_ModuleStat_HullShare.0": {
         "id": "DA_ModuleStat_HullShare.0",
@@ -909,6 +926,7 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Leg Armor"
         },
+        "unit_scaler": 2.0,
         "short_key": "LegsArmor"
     },
     "DA_ModuleStat_MaxDistance.0": {
@@ -949,7 +967,9 @@
             "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.036,
-        "short_key": "MaxSpeed"
+        "short_key": "MaxSpeed",
+        "max_stat_value_ui": 3472.0,
+        "max_stat_titan_value_ui": 3278.0
     },
     "DA_ModuleStat_Mob.0": {
         "id": "DA_ModuleStat_Mob.0",
@@ -1117,7 +1137,9 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Shield"
         },
-        "short_key": "ShieldAmt"
+        "short_key": "ShieldAmt",
+        "max_stat_value_ui": 72800.0,
+        "max_stat_titan_value_ui": 90000.0
     },
     "DA_ModuleStat_ShieldBoost.0": {
         "id": "DA_ModuleStat_ShieldBoost.0",
@@ -1138,6 +1160,17 @@
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldBoost"
+    },
+    "DA_ModuleStat_ShieldDPS.0": {
+        "id": "DA_ModuleStat_ShieldDPS.0",
+        "stat_name": {
+            "Key": "ModuleStat_ShieldDPS",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Shield DPS"
+        },
+        "short_key": "ShieldDPS",
+        "max_stat_value_ui": 40795.0,
+        "max_stat_titan_value_ui": 58913.0
     },
     "DA_ModuleStat_ShieldDamage.0": {
         "id": "DA_ModuleStat_ShieldDamage.0",
@@ -1255,15 +1288,16 @@
             "en": "Speed Boost"
         },
         "unit_name": {
-            "Key": "ModuleStat_Unit_Percents",
+            "Key": "ModuleStat_Unit_KM_H",
             "TableNamespace": "ModuleStatKeys",
-            "en": "%"
+            "en": "km/h"
         },
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
             "en": "{Amount}{Unit}"
         },
+        "unit_scaler": 0.036,
         "short_key": "SpeedBoost"
     },
     "DA_ModuleStat_SpeedBoostTalents.0": {
