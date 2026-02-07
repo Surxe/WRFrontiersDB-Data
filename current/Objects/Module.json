@@ -3107,7 +3107,7 @@
         "description": {
             "Key": "ABL_descr_Regeneration",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs your most damaged module for {RegenSpeed} armor per second. Lasts {Duration}. Cooldown: {CD}. {Consum} uses."
+            "en": "Repairs your most damaged module for {RegenSpeed}% of armor per second. Lasts {Duration}. Cooldown: {CD}. {Consum} uses."
         },
         "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
@@ -3296,7 +3296,7 @@
         "description": {
             "Key": "ABL_descr_FullRegeneration",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs all modules for {RegenSpeed} armor per tick. Lasts {Duration}. Charge required: {ChargeDrain}."
+            "en": "Repairs all modules for {RegenSpeed}% of armor per tick. Lasts {Duration}. Charge required: {ChargeDrain}."
         },
         "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
         "module_classes_refs": [
