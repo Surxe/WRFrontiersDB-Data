@@ -14,8 +14,19 @@
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_AbilitySlot",
         "sort_order": 4,
         "is_visual": false,
-        "ui_stats_refs": [
-            "OBJID_ModuleStat::DA_ModuleStat_AbilityPower.0"
+        "module_type_ui_stats": [
+            {
+                "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0",
+                "module_type_ref": null
+            },
+            {
+                "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Consumables.0",
+                "module_type_ref": null
+            },
+            {
+                "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ChargeDrain.0",
+                "module_type_ref": null
+            }
         ]
     },
     "DA_ModuleCategory_Chassis.0": {
@@ -57,8 +68,7 @@
             "OBJID_ModuleStat::DA_ModuleStat_Armor.0",
             "OBJID_ModuleStat::DA_ModuleStat_ShieldAmount.0",
             "OBJID_ModuleStat::DA_ModuleStat_ShieldRegeneration.0",
-            "OBJID_ModuleStat::DA_ModuleStat_ShieldDelayReduction.0",
-            "OBJID_ModuleStat::DA_ModuleStat_AbilityPower.0"
+            "OBJID_ModuleStat::DA_ModuleStat_ShieldDelayReduction.0"
         ]
     },
     "DA_ModuleCategory_Torso.0": {
@@ -77,7 +87,7 @@
         "sort_order": 1,
         "ui_stats_refs": [
             "OBJID_ModuleStat::DA_ModuleStat_Armor.0",
-            "OBJID_ModuleStat::DA_ModuleStat_AbilityPower.0"
+            "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0"
         ]
     },
     "DA_ModuleCategory_Weapon.0": {

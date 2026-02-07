@@ -95,12 +95,6 @@
             "OBJID_Ability::BP_Ability_RegenerationFull.2"
         ]
     },
-    "BP_Ability_Repulsor.0": {
-        "id": "BP_Ability_Repulsor.0",
-        "abilities_refs": [
-            "OBJID_Ability::BP_Ability_Repulsor.2"
-        ]
-    },
     "BP_Ability_SmokeWall.0": {
         "id": "BP_Ability_SmokeWall.0",
         "abilities_refs": [
@@ -821,59 +815,6 @@
             "OBJID_Ability::BP_Module_Lancelot_Torso.1"
         ]
     },
-    "BP_Module_Loki_Chassis.0": {
-        "id": "BP_Module_Loki_Chassis.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Loki_Chassis",
-            "default_scalars": {
-                "LegsArmor": 48000.0,
-                "MaxSpeed": 3000.0,
-                "FuelCapacity": 16.0,
-                "HullShare": 6600.0,
-                "PrimaryArmor": 48000.0
-            }
-        },
-        "abilities_refs": [
-            "OBJID_Ability::BP_Module_Loki_Chassis.1",
-            "OBJID_Ability::BP_Module_Loki_Chassis.2"
-        ],
-        "misc": {
-            "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6"
-        }
-    },
-    "BP_Module_Loki_ShoulderL.0": {
-        "id": "BP_Module_Loki_ShoulderL.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Loki_ShoulderL",
-            "default_scalars": {
-                "HullShare": 9900.0,
-                "PrimaryArmor": 44000.0
-            }
-        }
-    },
-    "BP_Module_Loki_ShoulderR.0": {
-        "id": "BP_Module_Loki_ShoulderR.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Loki_ShoulderL",
-            "default_scalars": {
-                "HullShare": 9900.0,
-                "PrimaryArmor": 44000.0
-            }
-        }
-    },
-    "BP_Module_Loki_Torso.0": {
-        "id": "BP_Module_Loki_Torso.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Loki_Torso",
-            "default_scalars": {
-                "HullShare": 6600.0,
-                "PrimaryArmor": 57600.0
-            }
-        },
-        "abilities_refs": [
-            "OBJID_Ability::BP_Module_Loki_Torso.1"
-        ]
-    },
     "BP_Module_MaterialIcon.0": {
         "id": "BP_Module_MaterialIcon.0",
         "module_scaler": {
@@ -1240,59 +1181,6 @@
                 "PrimaryArmor": 55680.0
             }
         }
-    },
-    "BP_Module_Scorpion_Chassis.0": {
-        "id": "BP_Module_Scorpion_Chassis.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Scorpion_Chassis",
-            "default_scalars": {
-                "LegsArmor": 80000.0,
-                "MaxSpeed": 2500.0,
-                "FuelCapacity": 16.0,
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        },
-        "abilities_refs": [
-            "OBJID_Ability::BP_Module_Scorpion_Chassis.1",
-            "OBJID_Ability::BP_Module_Scorpion_Chassis.2"
-        ],
-        "misc": {
-            "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6"
-        }
-    },
-    "BP_Module_Scorpion_ShoulderL.0": {
-        "id": "BP_Module_Scorpion_ShoulderL.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Scorpion_ShoulderL",
-            "default_scalars": {
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        }
-    },
-    "BP_Module_Scorpion_ShoulderR.0": {
-        "id": "BP_Module_Scorpion_ShoulderR.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Scorpion_ShoulderL",
-            "default_scalars": {
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        }
-    },
-    "BP_Module_Scorpion_Torso.0": {
-        "id": "BP_Module_Scorpion_Torso.0",
-        "module_scaler": {
-            "module_name": "BP_Module_Scorpion_Torso",
-            "default_scalars": {
-                "HullShare": 8750.0,
-                "PrimaryArmor": 80000.0
-            }
-        },
-        "abilities_refs": [
-            "OBJID_Ability::BP_Module_Scorpion_Torso.1"
-        ]
     },
     "BP_Module_Siren_Chassis.0": {
         "id": "BP_Module_Siren_Chassis.0",
@@ -5245,7 +5133,7 @@
                 "ClipSize": 1,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 4.53,
-                "TimeBetweenShots": 1.0,
+                "TimeBetweenShots": 2.5,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -5309,7 +5197,7 @@
                 "ClipSize": 1,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 0.62,
-                "TimeBetweenShots": 0.16,
+                "TimeBetweenShots": 0.62,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -7107,7 +6995,7 @@
                 "ClipSize": 1,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 4.53,
-                "TimeBetweenShots": 1.0,
+                "TimeBetweenShots": 2.5,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -7328,295 +7216,6 @@
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "VerticalAdjustmentAngle": 0.78
-        }
-    },
-    "BP_Weapon_Tusk.0": {
-        "id": "BP_Weapon_Tusk.0",
-        "fire_modes": {
-            "FiringBehavior": {
-                "MovementComponent": {
-                    "InitialSpeed": 25000.0,
-                    "ProjectileGravityScale": 10.0
-                },
-                "DirectDamage": {
-                    "DamageArmor": 1250.0,
-                    "DamageShield": 1000.0
-                },
-                "AoeDamage": {
-                    "DistToDamage": {
-                        "EditorCurveData": {
-                            "Keys": [
-                                {
-                                    "InterpMode": "RCIM_Linear",
-                                    "TangentMode": "RCTM_Auto",
-                                    "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 0.0,
-                                    "Value": 1.0,
-                                    "ArriveTangent": 0.0,
-                                    "ArriveTangentWeight": 0.0,
-                                    "LeaveTangent": 0.0,
-                                    "LeaveTangentWeight": 0.0
-                                }
-                            ]
-                        }
-                    }
-                },
-                "TitanChargePerHit": 0.8,
-                "bUseTracerOnEachComponent": true,
-                "NumberOfMulticomponent": 4,
-                "DistanceSettings": {
-                    "InterpMode": "RCIM_Linear",
-                    "CurveData": [
-                        {
-                            "Distance": 0.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MinDistanceState"
-                        },
-                        {
-                            "Distance": 1.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "ExpansionDistanceState"
-                        },
-                        {
-                            "Distance": 50000.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "EffectiveDistanceState"
-                        },
-                        {
-                            "Distance": 80000.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MaxDistanceState"
-                        },
-                        {
-                            "Distance": 130001.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "DeathDistanceState"
-                        }
-                    ]
-                },
-                "ProjectilesPerShot": 4,
-                "TimeBetweenShots": 0.75,
-                "Spread": {
-                    "X": 3.0,
-                    "Y": 5.0
-                },
-                "AbilityChargePointsOnHit": 0.75
-            },
-            "ChargingBehavior": {
-                "TimeToCharge": 1.2,
-                "ShootOnFullCharge": false,
-                "ChargeModifiers": [
-                    {
-                        "what": "VerticalSpread",
-                        "CurveData": {
-                            "EditorCurveData": {
-                                "Keys": [
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 0.0,
-                                        "Value": 1.0,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    },
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 1.0,
-                                        "Value": 0.025,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    }
-                                ],
-                                "DefaultValue": 3.4028235e+38,
-                                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-                                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-                            },
-                            "ExternalCurve": null
-                        }
-                    },
-                    {
-                        "what": "HorizontalSpread",
-                        "CurveData": {
-                            "EditorCurveData": {
-                                "Keys": [
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 0.0,
-                                        "Value": 1.0,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    },
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 1.0,
-                                        "Value": 0.05,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    }
-                                ],
-                                "DefaultValue": 3.4028235e+38,
-                                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-                                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-                            },
-                            "ExternalCurve": null
-                        }
-                    },
-                    {
-                        "what": "InitialSpeed",
-                        "CurveData": {
-                            "EditorCurveData": {
-                                "Keys": [
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 0.0,
-                                        "Value": 1.0,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    },
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 1.0,
-                                        "Value": 1.65,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    }
-                                ],
-                                "DefaultValue": 3.4028235e+38,
-                                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-                                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-                            },
-                            "ExternalCurve": null
-                        }
-                    },
-                    {
-                        "what": "ProjectileGravityScale",
-                        "CurveData": {
-                            "EditorCurveData": {
-                                "Keys": [
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 0.0,
-                                        "Value": 1.0,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    },
-                                    {
-                                        "InterpMode": "RCIM_Linear",
-                                        "TangentMode": "RCTM_Auto",
-                                        "TangentWeightMode": "RCTWM_WeightedNone",
-                                        "Time": 1.0,
-                                        "Value": 0.65,
-                                        "ArriveTangent": 0.0,
-                                        "ArriveTangentWeight": 0.0,
-                                        "LeaveTangent": 0.0,
-                                        "LeaveTangentWeight": 0.0
-                                    }
-                                ],
-                                "DefaultValue": 3.4028235e+38,
-                                "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-                                "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-                            },
-                            "ExternalCurve": null
-                        }
-                    }
-                ]
-            }
-        },
-        "module_scaler": {
-            "module_name": "Tusk",
-            "default_scalars": {
-                "Spread": {
-                    "X": 5.0,
-                    "Y": 8.0
-                },
-                "DirectDamage": {
-                    "DamageArmor": 5515.0,
-                    "DamageShield": 3800.0
-                },
-                "AoeDamage": {
-                    "DistToDamage": {
-                        "EditorCurveData": {
-                            "Keys": [
-                                {
-                                    "InterpMode": "RCIM_Linear",
-                                    "TangentMode": "RCTM_Auto",
-                                    "TangentWeightMode": "RCTWM_WeightedNone",
-                                    "Time": 0.0,
-                                    "Value": 1.0,
-                                    "ArriveTangent": 0.0,
-                                    "ArriveTangentWeight": 0.0,
-                                    "LeaveTangent": 0.0,
-                                    "LeaveTangentWeight": 0.0
-                                }
-                            ]
-                        }
-                    }
-                },
-                "ClipSize": 5,
-                "ProjectileSpeed": 38000.0,
-                "TimeToReload": 3.0,
-                "TimeBetweenShots": 0.91,
-                "DistanceSettings": {
-                    "InterpMode": "RCIM_Linear",
-                    "CurveData": [
-                        {
-                            "Distance": 0.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MinDistanceState"
-                        },
-                        {
-                            "Distance": 1.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "ExpansionDistanceState"
-                        },
-                        {
-                            "Distance": 50000.0,
-                            "DirectDamageMultiplier": 1.0,
-                            "DistanceState": "EffectiveDistanceState"
-                        },
-                        {
-                            "Distance": 80000.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "MaxDistanceState"
-                        },
-                        {
-                            "Distance": 130001.0,
-                            "DirectDamageMultiplier": 0.05,
-                            "DistanceState": "DeathDistanceState"
-                        }
-                    ]
-                }
-            }
-        },
-        "misc": {
-            "VerticalAdjustmentAngle": 1.5
         }
     },
     "BP_Weapon_Twinflare.0": {
@@ -7840,7 +7439,7 @@
                     "CruiseHeightMin": 3000.0,
                     "CruiseHeightRange": 2500.0,
                     "CruiseHeightObstacleTestStep": 350.0,
-                    "HomingClimbSpeed": 5000.0,
+                    "HomingClimbSpeed": 15000.0,
                     "HomingCruiseSpeed": 30000.0,
                     "HomingAttackSpeed": 30000.0,
                     "HomingClimbAcceleration": 5000.0,
@@ -8151,7 +7750,7 @@
                 "ClipSize": 1,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 4.05,
-                "TimeBetweenShots": 1.0,
+                "TimeBetweenShots": 2.0,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [

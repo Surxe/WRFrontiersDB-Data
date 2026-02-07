@@ -95,7 +95,7 @@
             "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariPulsar.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_FuryFowler.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_GriffinThunder.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotZeus.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_HarpyRampantRailgun.0"
         ]
     },
@@ -147,7 +147,7 @@
             "OBJID_CharacterPreset::DA_Preset_Bot_RavenFowler.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotQuantum.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_SirenVortex2.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
         ]
@@ -168,7 +168,7 @@
         "character_presets_refs": [
             "OBJID_CharacterPreset::DA_Preset_Bot_SirenFowlerQuantum.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_TyphonScourge.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_FenrirPulsar.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_VarangianLighter.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
@@ -180,7 +180,7 @@
             "OBJID_CharacterPreset::DA_Preset_Bot_FenrirIncinerator.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_PurifierShredder.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_RavanaPunisher.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrOrkan.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_HarpyDragoon.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
         ]
@@ -189,8 +189,8 @@
         "id": "DA_Bot_Beginner_Dropteam_2.0",
         "character_presets_refs": [
             "OBJID_CharacterPreset::DA_Preset_Bot_OrochiShocktrain.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomIncinerator.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_LancelotThunder.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariGozer.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
@@ -246,7 +246,7 @@
             "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_SirenFowlerQuantum.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkScourge.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_SirenZeusRailgun.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
         ]
@@ -255,10 +255,10 @@
         "id": "DA_Bot_Intermediate_Dropteam_4.0",
         "character_presets_refs": [
             "OBJID_CharacterPreset::DA_Preset_DevbotPurifier.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaQuantum.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkStickyGun.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
         ]
     },
@@ -278,9 +278,9 @@
         "character_presets_refs": [
             "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariGozer.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_FuryLighter.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_LokiShocktrain.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierScatter.0",
-            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiShocktrain.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaShredder.0",
             "OBJID_CharacterPreset::DA_Preset_Titan_Alpha_Bayonet.0"
         ]
     },
@@ -342,7 +342,7 @@
     "DA_Bot_Professional_Dropteam_7.0": {
         "id": "DA_Bot_Professional_Dropteam_7.0",
         "character_presets_refs": [
-            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinThunder.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_FuryLighter.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
             "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",

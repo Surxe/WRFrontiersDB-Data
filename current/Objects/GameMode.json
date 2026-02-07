@@ -294,10 +294,10 @@
             "RegenTickDuration": 0.125,
             "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
             "honor_rewards_refs": [
-                "OBJID_HonorReward::DA_Honor_CaptureBeacon.1",
-                "OBJID_HonorReward::DA_Honor_Assist_BCN.1",
-                "OBJID_HonorReward::DA_Honor_KillRobot_BCN.1",
-                "OBJID_HonorReward::DA_Honor_KillTitan_BCN.1",
+                "OBJID_HonorReward::DA_Honor_CaptureBeacon.0",
+                "OBJID_HonorReward::DA_Honor_Assist_BCN.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_BCN.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_BCN.0",
                 "OBJID_HonorReward::DA_Honor_WinCombat.0",
                 "OBJID_HonorReward::DA_Honor_Top1Damage_BCN.0",
                 "OBJID_HonorReward::DA_Honor_Top2Damage_BCN.0",
@@ -314,7 +314,7 @@
                 "OBJID_HonorReward::DA_Honor_Top2Heal_BCN.0",
                 "OBJID_HonorReward::DA_Honor_Top3Heal_BCN.0",
                 "OBJID_HonorReward::DA_Honor_Damage_BCN.0",
-                "OBJID_HonorReward::DA_Honor_Heal_BCN.1",
+                "OBJID_HonorReward::DA_Honor_Heal_BCN.0",
                 "OBJID_HonorReward::DA_Honor_MechAssist_Boost_BCN.1",
                 "OBJID_HonorReward::DA_Honor_TitanAssist_Boost_BCN.1"
             ]
@@ -610,9 +610,9 @@
             "RegenTickDuration": 0.125,
             "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
             "honor_rewards_refs": [
-                "OBJID_HonorReward::DA_Honor_Assist_ELM.1",
-                "OBJID_HonorReward::DA_Honor_KillRobot_ELM.1",
-                "OBJID_HonorReward::DA_Honor_KillTitan_ELM.1",
+                "OBJID_HonorReward::DA_Honor_Assist_ELM.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_ELM.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_ELM.0",
                 "OBJID_HonorReward::DA_Honor_WinCombat.0",
                 "OBJID_HonorReward::DA_Honor_Top1Damage_ELM.0",
                 "OBJID_HonorReward::DA_Honor_Top2Damage_ELM.0",
@@ -628,7 +628,7 @@
                 "OBJID_HonorReward::DA_Honor_Top2Heal_ELM.0",
                 "OBJID_HonorReward::DA_Honor_Top3Heal_ELM.0",
                 "OBJID_HonorReward::DA_Honor_Damage_ELM.0",
-                "OBJID_HonorReward::DA_Honor_Heal_ELM.1",
+                "OBJID_HonorReward::DA_Honor_Heal_ELM.0",
                 "OBJID_HonorReward::DA_Honor_MechAssist_Boost_ELM.1",
                 "OBJID_HonorReward::DA_Honor_TitanAssist_Boost_ELM.1"
             ]
@@ -1220,9 +1220,9 @@
             "RegenTickDuration": 0.125,
             "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
             "honor_rewards_refs": [
-                "OBJID_HonorReward::DA_Honor_Assist_TDM.1",
-                "OBJID_HonorReward::DA_Honor_KillRobot_TDM.1",
-                "OBJID_HonorReward::DA_Honor_KillTitan_TDM.1",
+                "OBJID_HonorReward::DA_Honor_Assist_TDM.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_TDM.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_TDM.0",
                 "OBJID_HonorReward::DA_Honor_WinCombat.0",
                 "OBJID_HonorReward::DA_Honor_Top1Damage_TDM.0",
                 "OBJID_HonorReward::DA_Honor_Top2Damage_TDM.0",
@@ -1238,7 +1238,7 @@
                 "OBJID_HonorReward::DA_Honor_Top2Heal_TDM.0",
                 "OBJID_HonorReward::DA_Honor_Top3Heal_TDM.0",
                 "OBJID_HonorReward::DA_Honor_Damage_TDM.0",
-                "OBJID_HonorReward::DA_Honor_Heal_TDM.1",
+                "OBJID_HonorReward::DA_Honor_Heal_TDM.0",
                 "OBJID_HonorReward::DA_Honor_Assist_Boost_TDM.1"
             ]
         }
