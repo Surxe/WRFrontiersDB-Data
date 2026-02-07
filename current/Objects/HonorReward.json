@@ -369,7 +369,7 @@
         "condition": {
             "RefVal": 100000.0,
             "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
+                "PropertyName": "HealAllyOut"
             }
         },
         "processing_time": "Frame"
@@ -389,7 +389,7 @@
         "condition": {
             "RefVal": 100000.0,
             "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
+                "PropertyName": "HealAllyOut"
             }
         },
         "processing_time": "Frame"
@@ -409,7 +409,7 @@
         "condition": {
             "RefVal": 100000.0,
             "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
+                "PropertyName": "HealAllyOut"
             }
         },
         "processing_time": "Frame"
@@ -429,7 +429,7 @@
         "condition": {
             "RefVal": 100000.0,
             "PlayerStateProperty": {
-                "PropertyName": "HealTotalOut"
+                "PropertyName": "HealAllyOut"
             }
         },
         "processing_time": "Frame"
