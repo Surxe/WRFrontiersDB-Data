@@ -11,7 +11,7 @@
             "TableNamespace": "ST_Module_Description",
             "en": "Select your gear. It will give you tactical advantages in battle at the cost of some energy supplied by your Chassis."
         },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_AbilitySlot",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterAbility",
         "sort_order": 4,
         "is_visual": false,
         "module_type_ui_stats": [
@@ -93,9 +93,9 @@
     "DA_ModuleCategory_Weapon.0": {
         "id": "DA_ModuleCategory_Weapon.0",
         "name": {
-            "Key": "HNG_Weapon",
+            "Key": "INV_Weapons",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Weapons"
         },
         "description": {
             "Key": "MDL_Skel_Weapon_Desc",

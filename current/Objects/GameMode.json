@@ -48,10 +48,10 @@
         "titan_settings": {
             "TitanCharge": 1000.0,
             "MechKill": 50.0,
-            "TitanKill": 200.0,
+            "TitanKill": 110.0,
             "BeaconSteal": 75.0,
             "BeaconCapture": 75.0,
-            "LastMechLost": 200.0,
+            "LastMechLost": 300.0,
             "TitansDiff": {
                 "EditorCurveData": {
                     "Keys": [
@@ -369,8 +369,8 @@
         },
         "titan_settings": {
             "TitanCharge": 1000.0,
-            "MechKill": 180.0,
-            "TitanKill": 400.0,
+            "MechKill": 150.0,
+            "TitanKill": 220.0,
             "BeaconSteal": 50.0,
             "BeaconCapture": 50.0,
             "LastMechLost": 300.0,
@@ -643,20 +643,20 @@
             "en": "Capture and defend Warp Probes to earn points.\r\nWhen a Warp Probe is depleted, a new one will appear on a marked spot. \r\nContinue holding Warp Probes until your team reaches score limit."
         },
         "match_rewards": {
-            "CreditsPerHonorPoint": 0.8,
-            "ReputationPerHonorPoint": 0.5,
+            "CreditsPerHonorPoint": 0.96,
+            "ReputationPerHonorPoint": 0.6,
             "PilotExpMultipliers": [
                 {
                     "HonorPoints": 100,
-                    "Multiplier": 0.55
+                    "Multiplier": 0.66
                 },
                 {
                     "HonorPoints": 200,
-                    "Multiplier": 0.4
+                    "Multiplier": 0.48
                 },
                 {
                     "HonorPoints": 1000000,
-                    "Multiplier": 0.2
+                    "Multiplier": 0.24
                 }
             ]
         },
@@ -680,9 +680,9 @@
             "TitanCharge": 1000.0,
             "MechKill": 50.0,
             "TitanKill": 200.0,
-            "BeaconSteal": 75.0,
-            "BeaconCapture": 75.0,
-            "LastMechLost": 200.0,
+            "BeaconCapture": 10.0,
+            "BeaconHold": 11.0,
+            "LastMechLost": 300.0,
             "TitansDiff": {
                 "EditorCurveData": {
                     "Keys": [
@@ -906,6 +906,11 @@
             },
             "bCanSpawnTitanWhileAlive": false
         },
+        "ability_charge_settings": {
+            "PointsForBeaconNeutralization": 5.0,
+            "PointsForBeaconCapture": 10.0,
+            "PointsForBeaconHold": 10.0
+        },
         "misc": {
             "WarpProbeSelectionMethod": "SequentiallyByOrder",
             "FirstWarpProbeSettings": "Randomly",
@@ -916,7 +921,20 @@
             "RegenPercent": 1.0,
             "RegenDelay": 6.5,
             "RegenTickDuration": 0.125,
-            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0"
+            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
+            "honor_rewards_refs": [
+                "OBJID_HonorReward::DA_Honor_Assist_SPH.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_SPH.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_SPH.0",
+                "OBJID_HonorReward::DA_Honor_Top1Damage_SPH.0",
+                "OBJID_HonorReward::DA_Honor_Top2Damage_SPH.0",
+                "OBJID_HonorReward::DA_Honor_Top3Damage_SPH.0",
+                "OBJID_HonorReward::DA_Honor_HoldingWarpProbe_SPH.1",
+                "OBJID_HonorReward::DA_Honor_Top1HoldWarpProbe_SPH.0",
+                "OBJID_HonorReward::DA_Honor_Top2HoldWarpProbe_SPH.0",
+                "OBJID_HonorReward::DA_Honor_Top3HoldWarpProbe_SPH.0",
+                "OBJID_HonorReward::DA_Honor_WinCombat.0"
+            ]
         }
     },
     "DA_GameMode_TeamDeathMatch.0": {
@@ -967,11 +985,11 @@
         },
         "titan_settings": {
             "TitanCharge": 1000.0,
-            "MechKill": 90.0,
-            "TitanKill": 200.0,
+            "MechKill": 100.0,
+            "TitanKill": 180.0,
             "BeaconSteal": 75.0,
             "BeaconCapture": 75.0,
-            "LastMechLost": 200.0,
+            "LastMechLost": 300.0,
             "TitansDiff": {
                 "EditorCurveData": {
                     "Keys": [

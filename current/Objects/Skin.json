@@ -4,7 +4,12 @@
         "name": {
             "Key": "DA_Skin_S1_League_BlackGreen_01",
             "TableNamespace": "C_Customization",
-            "en": "Acid City"
+            "en": "Uranium Aero"
+        },
+        "description": {
+            "Key": "DA_SkinUnCom_S0_14_BlackGreen_01_desc",
+            "TableNamespace": "C_Customization",
+            "en": "A colorway used in FortEvo's early designs. For some, it represents an era when Dominions were seemingly trying to make the world better."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Customization/Skins/T_SkinUnCom_S0_14_BlackGreen_01",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Uncommon.0"

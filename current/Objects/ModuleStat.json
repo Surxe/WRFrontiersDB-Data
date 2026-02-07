@@ -54,8 +54,7 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "{Amount}{Unit}"
         },
-        "short_key": "ActDuration",
-        "decimal_places": 1
+        "short_key": "ActDuration"
     },
     "DA_ModuleStat_ActiveEfficiency.0": {
         "id": "DA_ModuleStat_ActiveEfficiency.0",
@@ -1255,16 +1254,15 @@
             "en": "Speed Boost"
         },
         "unit_name": {
-            "Key": "ModuleStat_Unit_KM_H",
+            "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
-            "en": "km/h"
+            "en": "%"
         },
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
             "en": "{Amount}{Unit}"
         },
-        "unit_scaler": 0.036,
         "short_key": "SpeedBoost"
     },
     "DA_ModuleStat_SpeedBoostTalents.0": {
@@ -1333,7 +1331,6 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "Cycle Gear Charge"
         },
-        "unit_scaler": 100.0,
         "short_key": "UltCharge"
     },
     "DA_ModuleStat_VampirismQuotient.0": {

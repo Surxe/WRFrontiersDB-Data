@@ -1611,6 +1611,23 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_AbilityParamBoost.0",
                 "value": 0.08
             }
+        ],
+        "buffs": [
+            {
+                "AbilityGearGrowModifier": 0.08,
+                "Stream": {
+                    "InitialSeed": 42,
+                    "Seed": 0
+                },
+                "AbilitySelectors": [
+                    {
+                        "allowed_placement_types": [
+                            "Signature"
+                        ]
+                    }
+                ],
+                "StackMode": "Stack"
+            }
         ]
     },
     "DA_Talent_Tank1.0": {
@@ -2221,8 +2238,7 @@
         ],
         "buffs": [
             {
-                "Modifier": 1.1,
-                "StackMode": "Stack"
+                "Modifier": 1.1
             }
         ]
     },
@@ -2256,11 +2272,11 @@
             },
             {
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_DamageReturn.0",
-                "value": 0.15
+                "value": 0.3
             },
             {
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0",
-                "value": 7.0
+                "value": 10.0
             }
         ],
         "buffs": [
@@ -2335,7 +2351,7 @@
         "stats": [
             {
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Chance.0",
-                "value": 0.1
+                "value": 0.05
             }
         ]
     }
