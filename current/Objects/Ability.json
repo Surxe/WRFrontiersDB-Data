@@ -4833,6 +4833,11 @@
                 "DamageMultiplier": 1.0
             },
             "IsCasting": true,
+            "spawn_actor_action": {
+                "ActorClass": {
+                    "DamageDelayTime": 0.5
+                }
+            },
             "bCanBeCanceledWhileActive": true,
             "CancellationCooldown": 1.0,
             "CastDuration": 1.0,
