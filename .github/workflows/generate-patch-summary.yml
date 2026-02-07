@@ -1,0 +1,67 @@
+name: Generate Patch Summary
+run-name: Generate Patch Summary ${{ inputs.from_version && format('({0} -> {1})', inputs.from_version, inputs.to_version) || '(Auto-detect)' }}
+
+on:
+  repository_dispatch:
+    types: [data_updated]
+  workflow_dispatch:
+    inputs:
+      from_version:
+        description: 'From version (leave empty for auto-detect latest)'
+        required: false
+        type: string
+      to_version:
+        description: 'To version (leave empty for auto-detect latest)'
+        required: false
+        type: string
+
+jobs:
+  generate-summary:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for git operations
+          token: ${{ secrets.WORKFLOW_PAT }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Generate patch summary
+        run: |
+          python src/summarizer.py
+        env:
+          FROM_VERSION: ${{ inputs.from_version || github.event.client_payload.from_version }}
+          TO_VERSION: ${{ inputs.to_version || github.event.client_payload.to_version }}
+      
+      - name: Commit and push summary files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add summaries/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Extract version info from the staged file path
+            # Expected path: summaries/patch/FROM_to_TO/lang.md
+            VERSION_DIR=$(git diff --name-only --cached | grep "summaries/patch/" | head -n 1 | cut -d'/' -f3)
+            
+            if [ -n "$VERSION_DIR" ]; then
+               READABLE_VER=$(echo "$VERSION_DIR" | sed 's/_to_/ -> /')
+               COMMIT_MSG="Auto-generate patch summary ($READABLE_VER)"
+            else
+               COMMIT_MSG="Auto-generate patch summary"
+            fi
+            
+            git commit -m "$COMMIT_MSG"
+            git push
+          fi

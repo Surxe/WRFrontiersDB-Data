@@ -1,0 +1,43 @@
+name: Generate All Patch Summaries
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-all-summaries:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for git operations
+          token: ${{ secrets.WORKFLOW_PAT }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Generate all patch summaries
+        run: |
+          python src/summarizer.py
+        env:
+          GEN_ALL: true
+      
+      - name: Commit and push summary files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add summaries/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-generate all patch summaries"
+            git push
+          fi
