@@ -94,7 +94,8 @@
                         "OBJID_ContentUnlock::DA_HarpyUnlock.0",
                         "OBJID_ContentUnlock::DA_Unlock_Workshop.0",
                         "OBJID_ContentUnlock::DA_InventorySellUnlock.0",
-                        "OBJID_ContentUnlock::DA_SellPilots_Unlock.0"
+                        "OBJID_ContentUnlock::DA_SellPilots_Unlock.0",
+                        "OBJID_ContentUnlock::DA_ProgressDiscoverUnlock.0"
                     ],
                     "decals_refs": [
                         "OBJID_Decal::DA_Decal_Com_Mechanic.0",
@@ -1016,6 +1017,156 @@
                 "rewards": {
                     "blueprints_refs": [
                         "OBJID_Module::DA_Module_TorsoCyclops.1"
+                    ]
+                }
+            },
+            "96": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "97": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "98": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_ShoulderScorpion.0"
+                    ]
+                }
+            },
+            "99": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "100": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "101": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_ChassisScorpion.2"
+                    ]
+                }
+            },
+            "102": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "103": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "104": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_Ability_Repulsor.1"
+                    ]
+                }
+            },
+            "105": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "106": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "107": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_Weapon_Tusk.0"
+                    ]
+                }
+            },
+            "108": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "109": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "110": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_TorsoScorpion.1"
                     ]
                 }
             }

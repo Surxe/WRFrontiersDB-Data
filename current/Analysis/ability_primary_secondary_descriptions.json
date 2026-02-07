@@ -1,6 +1,7 @@
 {
     "de": {
         "Zubehör": {
+            "Munitionsgenerator": "Aktiviert ein Gerät, das die Nachladezeit aller Verbündeter im Umkreis von {**Sekundär.x**}m um {**Primär.x**}% verringert.",
             "Notfallschild": "Stellt {**Sekundär.x**}s lang {**Primär.x**} Schildpunkte pro Sekunde wieder her.",
             "Explosionswelle": "Platziert eine Bombe im Umkreis von {**Sekundär.x**}m. Diese verursacht nach einer kurzen Verzögerung {**Primär.x**} Schaden und schlägt Feinde zurück.",
             "Energiewand": "Aktiviert eine {**Primär.x**}m breite Barriere, die Feinde aufhält und bis zu {**Sekundär.x**} Schaden absorbiert.",
@@ -18,7 +19,7 @@
             "Blendgranate": "Feuert ein Zielsuchprojektil ab, das {**Sekundär.x**} Schaden verursacht und das Ziel {**Primär.x**}s lang blendet.",
             "Zielsuchrakete": "Feuert eine Zielsuchrakete ab, die allen Panzersegmenten im Explosionsbereich {**Primär.x**} Schaden zufügt oder {**Sekundär.x**} Schildschaden verursacht.",
             "Unendliche Munition": "Gewährt nach einer Verzögerung von {**Sekundär./**}s {**Primär.x**}s lang unbegrenzt viel Munition.",
-            "Minenfeld": "Legt ein Minenfeld aus, das {**Sekundär.x**}s lang bestehen bleibt. Jede Mine verlangsamt beim Aufprall Feinde und fügt ihnen {**Primär.x**} Schaden zu.",
+            "Minenfeld": "Legt ein unsichtbares Minenfeld aus, das {**Sekundär.x**}s lang bestehen bleibt. Jede Mine verlangsamt beim Aufprall Feinde und fügt ihnen {**Primär.x**} Schaden zu.",
             "Nanoreparatur": "Repariert alle Module um {**Primär.x**}% Panzerung pro Tick. Hält {**Sekundär.x**}s lang an.",
             "Aufklärungsmodus": "Der Roboter erhält einen Geschwindigkeitsschub und deckt alle Gegner {**Primär.x**}s lang im Umkreis von {**Sekundär.x**}m auf.",
             "Gammastrahl": "Bleibt am Feind {**Sekundär.x**}s lang haften und fügt diesem bis zu {**Primär.x**} Schaden pro Sekunde zu. Der Schaden hängt von der Entfernung ab.",
@@ -37,6 +38,7 @@
             "Purifier's Eiferer": "Verbündete in der Nähe verursachen {**Primär.x**}s lang {**Sekundär.x**}% mehr Schaden. Der Effekt erhöht sich durch Kills oder wenn Schilde zerstört werden.",
             "Lancelot's Schlachtordnung": "Verbündete im Umkreis von {**Primär.x**}m erleiden {**Sekundär.x**}% weniger Schaden. Sobald sie getroffen werden, regenerierst du Panzerung.",
             "Loki's Holografischer Köder": "Lässt dich unsichtbar werden und projiziert {**Primär.x**}s lang eine Kopie von dir. Der Köder besitzt {**Sekundär.x**}% mehr Panzer- und Schildpunkte. Alle aktiven Effekte, auch die von Ausrüstungsmodulen, werden darauf übertragen.",
+            "Mesa's Harmonizer": "Stellt bei Verbündeten im Umkreis von {**Sekundär.x**}m {**Primär.x**} Schildpunkte pro Sekunde sowie die Hälfte dieses Werts für Mesa selbst wieder her. Reduziert außerdem den Schaden von Gegnern im Umkreis um 30%.",
             "Orochi's Echosalve": "Verursacht {**Primär.x**} Schildschaden in einer geraden Linie und enthüllt Gegner {**Sekundär.x**}s lang.",
             "Phantom's Translokator": "Aktiviere dies, um {**Primär.x**}s lang einen Ort zu markieren. Aktiviere dies erneut, um nach einer Verzögerung von {**Sekundär./**}s zu diesem Ort zu warpen.",
             "Pursuer's Optische Tarnung": "Nach einer Verzögerung von {**Sekundär./**}s Sekunden wirst du {**Primär.x**}s lang unsichtbar. Während du unsichtbar bist, kannst du Ausrüstungsmodule verwenden, aber das Abfeuern von Waffen enthüllt den Roboter sofort. Abklingzeit: {CD}.",
@@ -51,6 +53,7 @@
     },
     "en": {
         "Supply Gear": {
+            "Ammo Fabricator": "Deploys a device that reduces the reload time of allies within {**Secondary.x**}m by {**Primary.x**}%.",
             "Emergency Shield": "Restores {**Primary.x**} shield per second for {**Secondary.x**}s.",
             "Blast Wave": "Plants a bomb within {**Secondary.x**}m. After a short delay, explosion inflicts {**Primary.x**} damage and knocks back enemies.",
             "Energy Wall": "Deploys a {**Primary.x**}m wide barrier that stops enemies and absorbs up to {**Secondary.x**} damage.",
@@ -68,7 +71,7 @@
             "Flashbang": "Fires a homing projectile that deals {**Secondary.x**} damage and blinds target for {**Primary.x**}s.",
             "Homing Missile": "Fires a homing missile that deals {**Primary.x**} damage to all armor segments in the blast area or {**Secondary.x**} to shields.",
             "Infinite Ammo": "After a {**Secondary./**}s delay, grants unlimited ammo for {**Primary.x**}s.",
-            "Minefield": "Deploys a minefield lasting {**Secondary.x**}s. Each mine slows enemies on impact and deals {**Primary.x**} damage.",
+            "Minefield": "Deploys an invisible minefield lasting {**Secondary.x**}s. Each mine slows enemies on impact and deals {**Primary.x**} damage.",
             "Nanite Repair": "Repairs all modules for {**Primary.x**}% armor per tick. Lasts {**Secondary.x**}s.",
             "Recon Mode": "Robot gains a speed boost and reveals all enemies in {**Secondary.x**}m range for {**Primary.x**}s.",
             "Gamma Beam": "Locks onto the enemy for {**Secondary.x**}s, dealing up to {**Primary.x**} damage per second. Damage scales with proximity.",
@@ -87,6 +90,7 @@
             "Purifier's Zealot": "Nearby allies deal {**Secondary.x**}% more damage for {**Primary.x**}s. Effect increases whenever they score kills or destroy shields.",
             "Lancelot's Battle Order": "Allies within {**Primary.x**}m take {**Secondary.x**}% less damage. Whenever they get hit, you regenerate armor.",
             "Loki's Holographic Decoy": "Makes you invisible and projects a copy of your robot for {**Primary.x**}s. The decoy has {**Secondary.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.",
+            "Mesa's Harmonizer": "Restores {**Primary.x**} shield per second for allies within {**Secondary.x**}m and half this value for Mesa itself. Also reduces damage output for enemies in range by 30%",
             "Orochi's Echo Barrage": "Deals {**Primary.x**} shield damage in a straight line, revealing enemies for {**Secondary.x**}s.",
             "Phantom's Translocator": "Activate to mark a spot for {**Primary.x**}s. Activate again to warp back to that spot after a {**Secondary./**}s delay.",
             "Pursuer's Optical Camo": "After a {**Secondary./**}s second delay, you become invisible for {**Primary.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.",
@@ -101,6 +105,7 @@
     },
     "es": {
         "Componente de suministro": {
+            "Fabricante de munición": "Despliega un dispositivo que reduce el tiempo de recarga de los aliados en un radio de {**Secundario.x**} m en {**Primario.x**}%.",
             "Escudo de emergencia": "Restaura {**Primario.x**} de escudo por segundo durante {**Secundario.x**} s.",
             "Onda expansiva": "Coloca una bomba en un radio de {**Secundario.x**} m. Después de un breve retardo, la explosión inflige {**Primario.x**} de daño y repele a los enemigos.",
             "Muro energético": "Despliega una barrera de {**Primario.x**} m de ancho que detiene a los enemigos y absorbe hasta {**Secundario.x**} de daño.",
@@ -118,7 +123,7 @@
             "Explosión cegadora": "Dispara un proyectil teledirigido que inflige {**Secundario.x**} de daño y ciega al objetivo durante {**Primario.x**} s.",
             "Misil teledirigido": "Lanza un misil teledirigido que inflige {**Primario.x**} de daño a todos los segmentos de armadura del radio de explosión o a {**Secundario.x**} escudos.",
             "Munición infinita": "Después de un retardo de {**Secundario./**} s, proporciona munición ilimitada durante {**Primario.x**} s.",
-            "Campo de minas": "Despliega un campo de minas que dura {**Secundario.x**} s. Cada mina ralentiza a los enemigos al impactar e inflige {**Primario.x**} de daño.",
+            "Campo de minas": "Despliega un campo de minas invisible que dura {**Secundario.x**} s. Cada mina ralentiza a los enemigos al impactar e inflige {**Primario.x**} de daño.",
             "Reparación de nanobots": "Repara un {**Primario.x**} % de armadura por tic en todos los módulos. Dura {**Secundario.x**} s.",
             "Modo de reconocimiento": "El robot obtiene un potenciador de velocidad y revela a todos los enemigos en un radio de {**Secundario.x**} m durante {**Primario.x**} s.",
             "Rayo gamma": "Sigue al enemigo durante {**Secundario.x**} s e inflige hasta {**Primario.x**} de daño por segundo. El daño aumenta con la proximidad.",
@@ -137,6 +142,7 @@
             "Purifier's Fanático": "Los aliados cercanos infligen {**Secundario.x**}% más de daño durante {**Primario.x**} s. El efecto aumenta cuando se causan bajas o se destruyen escudos.",
             "Lancelot's Orden de combate": "Los aliados en un radio de {**Primario.x**} m reciben {**Secundario.x**}% menos de daño. Cuando son alcanzados, tú regeneras armadura.",
             "Loki's Señuelo holográfico": "Te hace invisible y proyecta tu copia durante {**Primario.x**} s. El señuelo tiene {**Secundario.x**}% más armadura y escudos, y todos los efectos activos, incluidos los de los módulos de equipo, se transfieren a él.",
+            "Mesa's Armonizador": "Restaura {**Primario.x**} de escudo por segundo para los aliados en un radio de {**Secundario.x**} m y la mitad del valor para Mesa. También reduce un 30 % el daño infligido por los enemigos.",
             "Orochi's Aluvión de ecos": "Inflige {**Primario.x**} de daño de escudo en línea recta revelando enemigos durante {**Secundario.x**} s.",
             "Phantom's Translocalizador": "Actívalo para marcar un punto durante {**Primario.x**} s. Actívalo de nuevo para volver a teletransportarte hasta él con un retardo de {**Secundario./**} s.",
             "Pursuer's Camuflaje óptico": "Tras un retardo de {**Secundario./**} s, te hace invisible durante {**Primario.x**} s. Los módulos de los componentes pueden usarse mientras son invisibles, pero disparar armas revela el robot de inmediato. Tiempo de recarga: {CD}.",
@@ -151,6 +157,7 @@
     },
     "fr": {
         "Ravitaillement": {
+            "Fabricant de munitions": "Déploie un appareil qui réduit la vitesse de recharge des alliés dans les {**Secondaire.x**} m m de{**Primaire.x**} %.",
             "Bouclier d'urgence": "Restaure {**Primaire.x**} points de bouclier par seconde pendant {**Secondaire.x**} s.",
             "Onde de choc": "Pose une bombe dans un rayon de {**Secondaire.x**} m. Après un court délai, l'explosion inflige {**Primaire.x**} points de dégâts et repousse les ennemis.",
             "Mur d'énergie": "Déploie une barrière large de {**Primaire.x**} m qui arrête les ennemis et absorbe jusqu'à {**Secondaire.x**} points de dégâts.",
@@ -168,7 +175,7 @@
             "Étourdissement": "Tire un projectile à tête chercheuse qui inflige {**Secondaire.x**} points de dégâts et aveugle la cible pendant {**Primaire.x**} s.",
             "Missile chercheur": "Tire un missile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts à toutes les pièces de blindage dans la zone d'explosion ou {**Secondaire.x**} aux boucliers.",
             "Munitions infinies": "Après un délai de {**Secondaire./**} s, fournit des munitions illimitées pendant {**Primaire.x**} s.",
-            "Champ de mines": "Déploie un champ de mines pendant {**Secondaire.x**} s. Chaque mine ralentit les ennemis à l'impact et inflige {**Primaire.x**} points de dégâts.",
+            "Champ de mines": "Déploie un champ de mines invisible pendant {**Secondaire.x**} s. Chaque mine ralentit les ennemis à l'impact et inflige {**Primaire.x**} points de dégâts.",
             "Réparation de nanites": "Répare tous les modules à hauteur de {**Primaire.x**} points de blindage par cycle. Dure {**Secondaire.x**} s.",
             "Mode reconnaissance": "Votre robot gagne un boost de vitesse et révèle tous les ennemis dans un rayon de {**Secondaire.x**} m pendant {**Primaire.x**} s.",
             "Rayon gamma": "Se verrouille sur l'ennemi pendant {**Secondaire.x**} s, infligeant jusqu'à {**Primaire.x**} points de dégâts par seconde. Les dégâts augmentent avec la proximité.",
@@ -187,6 +194,7 @@
             "Purifier's Zélote": "Vos alliés proches infligent {**Secondaire.x**} % points de dégâts en plus pendant {**Primaire.x**} s. L'effet augmente s'ils font des victimes ou détruisent des boucliers.",
             "Lancelot's Ordre de bataille": "Les alliés situés dans un rayon de {**Primaire.x**} m subissent {**Secondaire.x**} % points de dégâts en moins. S'ils sont touchés, votre blindage se régénère.",
             "Loki's Leurre holographique": "Vous rend invisible et projette une copie de votre robot pendant {**Primaire.x**} s. Le blindage et les boucliers de votre leurre sont accrus de {**Secondaire.x**} %, et tous les effets actifs, y compris ceux des modules de mécanisme, lui sont transférés.",
+            "Mesa's Harmonisateur": "Restaure {**Primaire.x**} points de bouclier par seconde pour les alliés dans les {**Secondaire.x**} m, et la moitié de cette valeur pour le Mesa. Réduit aussi les dégâts infligés par les ennemis à portée de 30 %.",
             "Orochi's Barrage à écho": "Inflige {**Primaire.x**} points de dégâts au bouclier en ligne droite et révèle les ennemis pendant {**Secondaire.x**} s.",
             "Phantom's Translocuteur": "À activer pour marquer un lieu pendant {**Primaire.x**} s. À activer à nouveau pour vous y téléporter après un délai de {**Secondaire./**} s.",
             "Pursuer's Camouflage optique": "Après {**Secondaire./**} s secondes, vous devenez invisible pendant {**Primaire.x**} s. Vous pouvez utiliser les modules de mécanisme lorsque vous êtes invisible, le tir de vos armes révélera immédiatement le robot. Temps de recharge : {CD}.",
@@ -201,6 +209,7 @@
     },
     "ja": {
         "サプライギア": {
+            "弾薬ファブリケーター": "{**サブ.x**}m以内の味方のリロード時間を{**メイン.x**}%短縮するデバイスを展開する。",
             "緊急シールド": "{**メイン.x**}間、1秒あたり{**サブ.x**}秒シールドを回復する。",
             "ブラストウェーブ": "{**サブ.x**}m以内に爆弾を設置する。しばらくすると爆発して{**メイン.x**}ダメージを与え、敵をノックバックさせる。",
             "エネルギーウォール": "敵の動きを止め、最大{**サブ.x**}ダメージを吸収する{**メイン.x**}m幅のバリアを展開する。",
@@ -218,7 +227,7 @@
             "フラッシュバン": "{**サブ.x**}ダメージを与え、ターゲットを{**メイン.x**}秒間盲目にする誘導式発射体を発射する。",
             "誘導ミサイル": "爆発エリア内のすべての装甲セグメントに{**メイン.x**}、またはシールドに{**サブ.x**}ダメージを与える誘導ミサイルを発射する。",
             "無限弾薬": "{**サブ./**}秒後に{**メイン.x**}秒間、弾薬が無限になる。",
-            "地雷原": "{**サブ.x**}秒間持続する地雷原を展開する。それぞれの地雷は命中時に敵を減速させ、{**メイン.x**}ダメージを与える。",
+            "地雷原": "{**サブ.x**}秒間持続する目に見えない地雷原を展開する。それぞれの地雷は命中時に敵を減速させ、{**メイン.x**}ダメージを与える。",
             "ナナイト修復": "すべてのモジュールの装甲を1カウントごとに{**メイン.x**}%修復する。{**サブ.x**}秒間持続する。",
             "リーコンモード": "{**メイン.x**}秒間、ロボットがスピードブーストを獲得し、{**サブ.x**}m以内のすべての敵を発見状態にする。",
             "ガンマビーム": "{**サブ.x**}秒間、敵をロックオンし、1秒あたり最大{**メイン.x**}ダメージを与える。ダメージは距離に応じて変化する。",
@@ -237,6 +246,7 @@
             "Purifier's ジーロット": "近くの味方が与えるダメージが{**メイン.x**}秒間、{**サブ.x**}%増加する。キルするかシールドを破壊するたびに効果が増大する。",
             "Lancelot's 戦闘命令": "{**メイン.x**}m以内の味方が受けるダメージが{**サブ.x**}%減少する。攻撃を受けるたびに装甲を修復する。",
             "Loki's ホログラフィックデコイ": "{**メイン.x**}秒デコイの装甲とシールドは{**サブ.x**}%高い。デコイの装甲とシールドは{**サブ.x**}%増加し、ギアモジュールを含むすべてのアクティイブな効果がデコイに移行される。",
+            "Mesa's ハーモナイザー": "{**サブ.x**}m以内の味方のシールドを毎秒{**メイン.x**}回復し、Mesa自身はこの半分の値を回復する。範囲内の敵へのダメージ出力も30%減少する。",
             "Orochi's エコー弾幕": "直線上に{**メイン.x**}シールドダメージを与え、敵を{**サブ.x**}秒間発見状態にする。",
             "Phantom's トランスロケーター": "アクティブにすると{**メイン.x**}秒間その場所をマークする。再度アクティブにすると{**サブ./**}秒後にその場所にワープする。",
             "Pursuer's 光学カモフラージュ": "{**サブ./**}秒秒後に{**メイン.x**}秒間、透明になる。ギアモジュールは透明な間も使用できるが、武器を発射するとロボットがすぐに見えるようになる。クールダウン：{CD}。",
@@ -251,6 +261,7 @@
     },
     "ko": {
         "보급 기어": {
+            "탄약 제조기": "{**주.x**}% 내 아군의 재장전 시간을 {**주.x**}% 감소시키는 장치를 배치합니다.",
             "긴급 실드": "{**보조.x**}초 동안 초당 실드가 {**주.x**} 재생됩니다.",
             "폭발 파동": "{**보조.x**}m 내에 폭탄을 설치합니다. 짧은 지연 후 폭발하여 {**주.x**} 피해를 입히고 적을 밀쳐냅니다.",
             "에너지 벽": "적을 막고 최대 {**보조.x**} 피해를 흡수하는 {**주.x**}m 너비의 장벽을 배치합니다.",
@@ -268,7 +279,7 @@
             "섬광탄": "유도 투사체를 발사하여 대상에게 {**보조.x**} 피해를 입히고 {**주.x**}초 동안 실명시킵니다.",
             "유도 미사일": "유도 미사일 한 발을 발사하여 폭발 범위의 모든 아머 부위에 {**주.x**} 피해 또는 실드에 {**보조.x**} 피해를 입힙니다.",
             "무한 탄약": "{**보조./**}초 지연 후, {**주.x**}초 동안 무제한 탄약을 제공합니다.",
-            "지뢰밭": "{**보조.x**}초 동안 지속되는 지뢰밭을 배치합니다. 각 지뢰는 접촉 시 적을 둔화시키고 {**주.x**} 피해를 입힙니다.",
+            "지뢰밭": "{**보조.x**}초 동안 지속되는 투명 지뢰밭을 배치합니다. 각 지뢰는 접촉 시 적을 둔화시키고 {**주.x**} 피해를 입힙니다.",
             "나나이트 수리": "모든 모듈의 아머를 틱당 {**주.x**}% 수리합니다. {**보조.x**}초 동안 지속됩니다.",
             "정찰 모드": "로봇의 속도가 증가하고, {**보조.x**}m 범위 내의 모든 적을 {**주.x**}초 동안 드러냅니다.",
             "감마 빔": "{**보조.x**}초 동안 적을 조준하며, 초당 최대 {**주.x**} 피해를 입힙니다. 가까울수록 피해가 증가합니다.",
@@ -287,6 +298,7 @@
             "퓨리파이어's 광신도": "근처 아군이 {**주.x**}초 동안 {**보조.x**}%의 추가 피해를 입힙니다. 아군이 적을 처치하거나 실드를 파괴할 때마다 효과가 증가합니다.",
             "랜슬롯's 전투 명령": "{**주.x**}m 내의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 공격받을 때마다 아머가 재생됩니다.",
             "로키's 홀로그램 미끼": "{**주.x**}초 동안 은신 상태가 되며 로봇의 복제체를 생성합니다. 복제체는 아머와 실드가 {**보조.x**}% 더 높고, 기어 모듈을 포함한 모든 활성화된 효과가 복제체로 이전됩니다.",
+            "메사's 조율기": "{**보조.x**}m 내에 있는 아군의 실드를 초당 {**주.x**} 회복시키고, 메사 자신은 그 절반만큼 회복합니다. 또한 사거리 내의 적이 가하는 피해량이 30% 감소합니다.",
             "오로치's 에코 연발": "일직선상의 적에게 {**주.x**}의 실드 피해를 주고 {**보조.x**}초 동안 적을 드러냅니다.",
             "팬텀's 위치전송기": "활성화하면 {**주.x**}초 동안 위치를 표시합니다. 다시 활성화하면 {**보조./**}초 지연 후 해당 위치로 순간이동합니다.",
             "퍼슈어's 광학 위장": "{**보조./**}초 지연 후, {**주.x**}초 동안 은신 상태가 됩니다. 은신 상태에서도 기어 모듈을 사용할 수 있지만, 무기를 발사하면 즉시 로봇이 드러납니다. 쿨다운: {CD}.",
@@ -301,6 +313,7 @@
     },
     "pl": {
         "Osprzęt zasobów": {
+            "Wytwarzanie amunicji": "Uaktywnia urządzenie, które zwiększa szybkość przeładowania sojuszników w promieniu {**Drugoplanowy.x**} m o {**Podstawowy.x**}%.",
             "Tarcza awaryjna": "Przywraca {**Podstawowy.x**} wytrzymałości tarczy w ciągu {**Drugoplanowy.x**} sek.",
             "Fala uderzeniowa": "Wystrzeliwuje bombę na odległość {**Drugoplanowy.x**} m. Eksplozja po krótkim opóźnieniu powoduje {**Podstawowy.x**} obrażeń i odrzuca roboty w polu rażenia.",
             "Ściana energetyczna": "Uaktywnia barierę osłony o szerokości {**Podstawowy.x**} m, która powstrzymuje wrogów i absorbuje do {**Drugoplanowy.x**} obrażeń.",
@@ -318,7 +331,7 @@
             "Błyskawica": "Wystrzeliwuje samonaprowadzający pocisk, który powoduje {**Drugoplanowy.x**} obrażeń i oślepia cel na {**Podstawowy.x**} sek.",
             "Pocisk samonaprowadzający": "Wystrzeliwuje rakietę samonaprowadzającą, która powoduje {**Podstawowy.x**} obrażeń wszystkim segmentom pancerza w polu rażenia po eksplozji lub {**Drugoplanowy.x**} obrażeń tarcz.",
             "Nieskończona amunicja": "Po opóźnieniu wynoszącym {**Drugoplanowy./**} sek przez {**Podstawowy.x**} sek zapewnia nieograniczoną amunicję.",
-            "Pole minowe": "Rozmieszcza pole minowe aktywne przez {**Drugoplanowy.x**} sek. Każda mina spowalnia wrogów i powoduje {**Podstawowy.x**} obrażeń.",
+            "Pole minowe": "Rozmieszcza niewidoczne dla wroga pole minowe aktywne przez {**Drugoplanowy.x**} sek. Każda mina spowalnia wrogów i powoduje {**Podstawowy.x**} obrażeń.",
             "Naprawcze nanity": "Naprawia wszystkie moduły z szybkością {**Podstawowy.x**}% pancerza na jedn. czasu. Czas aktywności: {**Drugoplanowy.x**} sek.",
             "Tryb zwiadowcy": "Robot zyskuje premię do szybkości i odkrywa pozycje wszystkich wrogów odległości {**Drugoplanowy.x**} m. Czas aktywności: {**Podstawowy.x**} sek.",
             "Promień gamma": "Uaktywnia urządzenie, które koncentruje się na wrogu i przez {**Drugoplanowy.x**} sek zadaje mu do {**Podstawowy.x**} obrażeń na sek. Obrażenia zmieniają się wraz z odległością od celu.",
@@ -337,6 +350,7 @@
             "Purifier's Fanatyk": "Pobliscy sojusznicy zadają {**Drugoplanowy.x**}% więcej obrażeń przez {**Podstawowy.x**} sek. Efekt zwiększa się po wyeliminowaniu przez sojuszników wroga lub zniszczeniu jego tarczy.",
             "Lancelot's Porządek bojowy": "Po aktywacji sojusznicy w promieniu {**Podstawowy.x**} m otrzymują {**Drugoplanowy.x**}% mniej obrażeń. Jeśli ktoś zostanie trafiony, powoduje to regenerację twojego pancerza.",
             "Loki's Holograficzna przynęta": "Twój robot staje się niewidzialny i wyświetla przez {**Podstawowy.x**} sek kopię holograficzną twojej maszyny; taki klon ma pancerz i tarczę większą o {**Drugoplanowy.x**}%, zostają na niego przeniesione wszystkie aktywne efekty włącznie z tymi, które mają źródło w modułach sprzętu.",
+            "Mesa's Harmonizator": "Przywraca {**Podstawowy.x**} tarcz(y) sojuszników w promieniu {**Drugoplanowy.x**} m i połowę tej wartości samej Mesie. Ponadto ogranicza o 30% obrażenia zadawane przez wrogów.",
             "Orochi's Echo-ostrzał": "Powoduje {**Podstawowy.x**} obrażeń tarczy w linii prostej, ujawniając przy tym na {**Drugoplanowy.x**} sek pozycje wrogów.",
             "Phantom's Translokator": "Aktywuj, żeby oznaczyć miejsce znacznika aktywnego przez {**Podstawowy.x**} sek. Ponowna aktywacja powoduje teleportowanie do wybranego miejsca po opóźnieniu {**Drugoplanowy./**} sek.",
             "Pursuer's Kamuflaż optyczny": "Po opóźnieniu trwającym {**Drugoplanowy./**} sek twój robot zyskuje na {**Podstawowy.x**} sek tymczasową niewidzialność. W tym czasie można używać modułów sprzętu, ale otwarcie ognia ujawni twoją pozycję. Czas reaktywacji: {CD}.",
@@ -351,6 +365,7 @@
     },
     "pt-BR": {
         "Fornecimento de equipamento": {
+            "Fábrica de munição": "Posiciona um dispositivo que reduz o tempo de recarga de aliados dentro de {**Secundário.x**}m em {**Primário.x**}%.",
             "Escudo de Emergência": "Restaura {**Primário.x**} de escudo por segundo por {**Secundário.x**}s.",
             "Onda Explosiva": "Planta uma bomba dentro de {**Secundário.x**}m. Após um pequeno atraso, a explosão causa {**Primário.x**} de dano e empurra os inimigos para trás.",
             "Barreira de Plasma": "Lança uma barreira de {**Primário.x**}m que para os inimigos e absorve até {**Secundário.x**} de dano.",
@@ -368,7 +383,7 @@
             "Granada de Luz": "Atira um projétil guiado que causa {**Secundário.x**} de dano e cega o alvo por {**Primário.x**}s.",
             "Míssil Guiado": "Atira um míssil guiado que causa {**Primário.x**} de dano a qualquer parte de armadura na área da explosão ou {**Secundário.x**} a escudos.",
             "Munição Infinita": "Após {**Secundário./**}s da ativação, concede munição ilimitada por {**Primário.x**}s.",
-            "Campo Minado": "Posiciona um campo minado por {**Secundário.x**}s. Cada mina desacelera os inimigos ao explodir e causa {**Primário.x**} de dano.",
+            "Campo Minado": "Posiciona um campo minado invisível por {**Secundário.x**}s. Cada mina desacelera os inimigos ao explodir e causa {**Primário.x**} de dano.",
             "Nano Reparadores": "Repara todos os módulos em {**Primário.x**}% da armadura por ciclo. Dura {**Secundário.x**}s.",
             "Modo de Reconhecimento": "O Robô ganha um impulso de velocidade e revela todos os inimigos dentro de {**Secundário.x**}m por {**Primário.x**}s.",
             "Onda Gamma": "Trava no inimigo por {**Secundário.x**}s, causando até {**Primário.x**} de dano por segundo. O dano aumenta com a proximidade.",
@@ -387,6 +402,7 @@
             "Purifier's Fanático": "Aliados próximos causam {**Secundário.x**}% mais dano por {**Primário.x**}s. O efeito aumenta quando seus aliados abaterem robôs ou destruírem escudos.",
             "Lancelot's Ordens de Batalha": "Aliados dentro de {**Primário.x**}m sofrem {**Secundário.x**}% de dano a menos. Sempre que eles forem atingidos, sua armadura se regenera.",
             "Loki's Isca Holográfica": "Você fica invisível e projeta um cópia do seu Robô por {**Primário.x**}s. Essa cópia tem {**Secundário.x**}% a mais de armadura e escudo, e todos os efeitos ativos, incluindo os de módulos de equipamento, são transferidos para ela.",
+            "Mesa's Harmonizador": "Restaura {**Primário.x**} de escudo por segundo dos aliados dentro de {**Secundário.x**}m e metade disso para o próprio Mesa. Reduz o dano causado dos inimigos no alcance em 30%",
             "Orochi's Barragem Eco": "Causa {**Primário.x**} de dano a escudos em linha reta, revelando inimigos por {**Secundário.x**}s.",
             "Phantom's Translocador": "Ative para marcar um local por {**Primário.x**}s. Ative novamente para voltar para o local marcado depois de um atraso de {**Secundário./**}s.",
             "Pursuer's Camuflagem Óptica": "Após um atraso de {**Secundário./**}s, você fica invisível por {**Primário.x**}s. Módulos de Equipamento podem ser usados enquanto invisível, mas atirar revela o robô imediatamente. Reativação: {CD}.",
@@ -401,6 +417,7 @@
     },
     "ru": {
         "Оборудование поддержки": {
+            "Фабрикатор боеприпасов": "Размещает устройство, повышающее скорость перезарядки союзников в радиусе {**Второстепенное.x**}м на {**Основное.x**}%.",
             "Экстренный щит": "Ежесекундно восстанавливает {**Основное.x**} ед. энергии щита в течение {**Второстепенное.x**}сек..",
             "Ударная волна": "Устанавливает бомбу в пределах {**Второстепенное.x**}м. Вскоре она взрывается, нанося противникам {**Основное.x**} ед. урона и отбрасывая их.",
             "Энергостена": "Устанавливает барьер шириной {**Основное.x**}м. Он останавливает врагов и поглощает до {**Второстепенное.x**} ед. урона.",
@@ -418,7 +435,7 @@
             "Ослепление": "Выпускает самонаводящийся снаряд, наносящий {**Второстепенное.x**} ед. урона и ослепляющий цели на {**Основное.x**}сек..",
             "Умная ракета": "Выпускает самонаводящуюся ракету, наносящую {**Основное.x**} ед. урона броне в зоне взрыва или {**Второстепенное.x**} ед. урона щитам.",
             "Бесконечные снаряды": "Через {**Второстепенное./**}сек. боезапас становится бесконечным на {**Основное.x**}сек..",
-            "Минное поле": "На {**Второстепенное.x**}сек. устанавливает минное поле. Каждая мина при срабатывании замедляет противников и наносит {**Основное.x**} ед. урона.",
+            "Минное поле": "На {**Второстепенное.x**}сек. устанавливает невидимое минное поле. Каждая мина при срабатывании замедляет противников и наносит {**Основное.x**} ед. урона.",
             "Наноремонт": "Чинит все модули, восстанавливая {**Основное.x**}% брони в ед. времени. Длительность: {**Второстепенное.x**}сек..",
             "Режим разведки": "Робот ускоряется и раскрывает всех противников в пределах {**Второстепенное.x**}м. Время действия: {**Основное.x**}сек..",
             "Гамма-луч": "Наводится на противника и в течение {**Второстепенное.x**}сек. наносит до {**Основное.x**} ед. урона в секунду (урон зависит от расстояния).",
@@ -437,6 +454,7 @@
             "Purifier's Фанатизм": "В течение {**Основное.x**}сек. урон ближайших союзников увеличивается на {**Второстепенное.x**}%. Эффект усиливается, когда союзники уничтожают противников или их щиты.",
             "Lancelot's Боевой порядок": "Союзники в области действия ({**Основное.x**}м) получают на {**Второстепенное.x**}% меньше урона. Когда в них попадает противник, ваша броня восстанавливается.",
             "Loki's Голографическая приманка": "На {**Основное.x**}сек. скрывает вашего робота и создаёт его копию. Щиты и броня приманки прочнее на {**Второстепенное.x**}%, и на неё переносятся все активные эффекты, включая эффекты от модулей оборудования.",
+            "Mesa's Гармонизатор": "Восстанавливает {**Основное.x**} прочности щитов союзников в секунду и половину от этого значения для Mesa, а также уменьшает урон противников на 30%. Область действия: {**Второстепенное.x**}м",
             "Orochi's Эхо-залп": "Атакой по прямой линии наносит {**Основное.x**} ед. урона щитам и раскрывает противников на {**Второстепенное.x**}сек..",
             "Phantom's Транслокатор": "При первой активации отмечает точку на {**Основное.x**}сек.. При второй активации телепортирует к ней через {**Второстепенное./**}сек..",
             "Pursuer's Оптическая маскировка": "Через {**Второстепенное./**}сек. вы на {**Основное.x**}сек. становитесь невидимы. Во время невидимости можно использовать модули снаряжения. Стрельба моментально делает робота видимым. Перезарядка: {CD}.",
@@ -451,6 +469,7 @@
     },
     "tr": {
         "İkmal Teçhizatı": {
+            "Cephane Üretici": "{**İkincil.x**}m dahilindeki müttefiklerin silah doldurma süresini {**Birincil.x**}% kısaltan bir cihaz konuşlandırır.",
             "Acil Durum Kalkanı": "{**İkincil.x**}sn boyunca saniyede {**Birincil.x**} kalkan yeniler.",
             "İnfilak Dalgası": "{**İkincil.x**}m Menzilli bir bomba yerleştirir. Kısa bir gecikmeden sonra patlama {**Birincil.x**} hasar verip düşmanları geriye iter.",
             "Enerji Suru": "Düşmanları durduran ve en fazla {**İkincil.x**} hasar soğuran {**Birincil.x**}m genişliğinde bir duvar konuşlandırır.",
@@ -468,7 +487,7 @@
             "Flaş Bombası": "{**İkincil.x**} hasar veren ve hedefi {**Birincil.x**}sn boyunca kör eden bir güdümlü füze atar.",
             "Güdümlü Füze": "Patlama alanındaki tüm zırh parçalarına {**Birincil.x**} veya kalkanlara {**İkincil.x**} hasar veren bir güdümlü füze atar.",
             "Sonsuz Cephane": "{**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca sonsuz cephane verir.",
-            "Mayın Tarlası": "{**İkincil.x**}sn süren bir mayın tarlası konuşlandırır. Her mayın temas ettiği düşmanlara {**Birincil.x**} hasar verir ve onları yavaşlatır.",
+            "Mayın Tarlası": "{**İkincil.x**}sn süren görünmez bir mayın tarlası konuşlandırır. Her mayın temas ettiği düşmanlara {**Birincil.x**} hasar verir ve onları yavaşlatır.",
             "Nanit Onarımı": "Tüm modüller döngü başına %{**Birincil.x**} zırh yeniler. {**İkincil.x**}sn sürer.",
             "Keşif Modu": "Robot bir hız desteği kazanır ve {**İkincil.x**}m dahilindeki tüm düşmanları {**Birincil.x**}sn boyunca ifşa eder.",
             "Gama Işını": "{**İkincil.x**}sn Boyunca düşman üzerine kilitlenerek saniyede en fazla {**Birincil.x**} hasar verir. Hasar uzaklığa göre ölçeklenir.",
@@ -487,6 +506,7 @@
             "Purifier's Zelot": "Yakındaki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha çok hasar verir. Öldürme skoru yaptıklarında ya da kalkan imha ettiklerinde etki artar.",
             "Lancelot's Muharebe Düzeni": "{**Birincil.x**}m dahilindeki müttefikler {**İkincil.x**}% daha az hasar alır. Vurulduklarında zırh yenilersin.",
             "Loki's Holografik Yem": "Seni görünmez yapar ve {**Birincil.x**}sn boyunca robotunun bir kopyasını yansıtır. Yemin {**İkincil.x**}% daha fazla zırhı ve kalkanı vardır, teçhizat modüllerinden gelenler dahil tüm aktif etkiler de ona aktarılır.",
+            "Mesa's Harmonizör": "{**İkincil.x**}m dahilindeki müttefikler için {**Birincil.x**}, Mesa için de bunu yarısı kadar kalkan yeniler. Ayrıca, menzil dahilindeki düşmanların verdiği hasarı %30 azaltır.",
             "Orochi's Yankı Salvosu": "Düz bir hat boyunca {**Birincil.x**} zırh hasrı verir, düşmanları {**İkincil.x**}sn boyunca ortaya çıkarır.",
             "Phantom's Yer Değiştirici": "Etkinleştirince bir noktayı {**Birincil.x**}sn boyunca işaretler. Tekrar etkinleştirince {**İkincil./**}sn gecikme ardından o noktaya ışınlanırsın.",
             "Pursuer's Optik Kamuflaj": "{**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca görünmez olursun. Teçhizat modülleri görünmezken kullanılabilse de ateşli silahlar robotu anında ortaya çıkarır. Bekleme süresi: {CD}.",
@@ -501,6 +521,7 @@
     },
     "zh-Hans": {
         "供给型装备": {
+            "弹药制造器": "部署一个装置，使{**副.x**}米范围内队友的装弹时间缩短{**主.x**}%。",
             "应急护盾": "每秒恢复{**主.x**}点护盾，持续{**副.x**}秒。",
             "冲击波": "在{**副.x**}米范围内埋下一颗炸弹。炸弹会在短暂延迟后爆炸，造成{**主.x**}点伤害并击退敌人。",
             "能量墙": "部署一道{**主.x**}米宽的屏障，该屏障可阻挡敌人，且最多能吸收{**副.x**}点伤害。",
@@ -518,7 +539,7 @@
             "闪光弹": "发射一枚追踪炮弹，造成{**副.x**}点伤害并致盲目标，持续{**主.x**}秒。",
             "追踪飞弹": "发射一枚追踪飞弹，对爆炸区域的所有装甲部位造成{**主.x**}点伤害，或对护盾造成{**副.x**}点伤害。",
             "无限弹药": "在{**副./**}秒延迟后提供无限弹药，持续{**主.x**}秒。",
-            "雷区": "部署一片持续存在{**副.x**}秒的雷区，每颗地雷在引爆时都会使敌人减速，并对其造成{**主.x**}点伤害。",
+            "雷区": "部署一片持续存在{**副.x**}秒的隐形雷区，每颗地雷在引爆时都会使敌人减速，并对其造成{**主.x**}点伤害。",
             "纳米修复": "每跳为所有模块恢复{**主.x**}%的装甲，持续{**副.x**}秒。",
             "侦察模式": "提升机器人的速度，并使{**副.x**}米范围内的所有敌人暴露，持续{**主.x**}秒。",
             "伽马光束": "锁定敌人{**副.x**}秒，每秒造成最多{**主.x**}点伤害。距离越近，造成的伤害越高。",
@@ -537,6 +558,7 @@
             "Purifier's 狂徒": "附近队友造成的伤害提高{**副.x**}%，持续{**主.x**}秒。每次队友完成击杀或摧毁护盾，该效果都会得到强化。",
             "Lancelot's 战斗指令": "{**主.x**}米范围内的所有队友受到的伤害降低{**副.x**}%。队友被命中时，你的装甲会再生。",
             "Loki's 全息诱饵": "隐身并投射出自己机器人的一个复制体，持续{**主.x**}秒。该诱饵拥有{**副.x**}%点额外装甲和护盾，且所有生效的效果（包括装备模块上的效果）均转移至其身上。",
+            "Mesa's 协调大师": "Mesa使{**副.x**}米范围内队友每秒恢复{**主.x**}点护盾，自身恢复对半护盾量，并使范围内敌人的伤害输出降低30%。",
             "Orochi's 回声炮火": "对一条直线上的目标造成{**主.x**}点护盾伤害，并暴露敌人{**副.x**}秒秒。",
             "Phantom's 传送器": "激活后会标记一个地点，持续{**主.x**}秒，再次激活会在{**副./**}秒延迟后传送回该地点。",
             "Pursuer's 光学伪装": "在{**副./**}秒秒延迟后进入隐身状态，持续{**主.x**}秒。机器人在隐身期间可使用装备模块，但在使用火力武器后会马上暴露。冷却时间：{CD}",
@@ -551,6 +573,7 @@
     },
     "zh-Hant": {
         "補給裝備": {
+            "彈藥製造商": "部署裝置，該裝置可以讓 {**次要.x**}公尺 範圍內的盟友填裝速度縮短 {**主要.x**}%。",
             "緊急護盾": "每秒恢復 {**主要.x**} 護盾，持續 {**次要.x**}秒。",
             "衝擊波爆破": "在 {**次要.x**}公尺 範圍内部署一顆炸彈。短暫延遲後，爆炸會造成 {**主要.x**} 傷害並擊退敵人。",
             "能量障壁": "部署寬度為 {**主要.x**}公尺 的屏障，能夠阻撓敵人並吸收最多 {**次要.x**} 傷害。",
@@ -568,7 +591,7 @@
             "震撼彈": "發射追蹤裝置，該裝置會造成 {**次要.x**} 傷害並使目標失去視野，持續 {**主要.x**}秒。",
             "追蹤導彈": "發射追蹤飛彈，該飛彈會對爆炸範圍內的所有裝甲部分造成 {**主要.x**} 傷害，或對護盾造成 {**次要.x**} 傷害。",
             "無限彈藥": "延遲 {**次要./**}秒 之後，獲得無限彈藥，持續 {**主要.x**}秒。",
-            "雷區": "建立一片雷區，持續 {**次要.x**}秒。每顆地雷都會讓踩中的敵人緩速並造成 {**主要.x**} 傷害。",
+            "雷區": "建立一片隱形雷區，持續 {**次要.x**}秒。每顆地雷都會讓踩中的敵人緩速並造成 {**主要.x**} 傷害。",
             "奈米修復": "每秒恢復所有模組 {**主要.x**}% 裝甲。持續 {**次要.x**}秒。",
             "情報員模式": "機器人獲得加速並暴露 {**次要.x**}公尺 範圍內的所有敵人，持續 {**主要.x**}秒。",
             "伽瑪束": "鎖定敵人，持續 {**次要.x**}秒，每秒造成最多 {**主要.x**} 傷害。距離目標越近，傷害越高。",
@@ -587,6 +610,7 @@
             "Purifier's 堅盾狂徒": "附近友軍造成的傷害提高 {**次要.x**}%，持續 {**主要.x**}秒。當隊友擊殺或摧毀護盾時，強化規模提高。",
             "Lancelot's 對戰命令": "{**主要.x**}公尺範圍內的盟友承受的傷害減少 {**次要.x**}%。盟友只要遭到擊中，你的裝甲就會恢復。",
             "Loki's 投影誘餌": "匿蹤並投射出你的機器人複製體，持續 {**主要.x**}秒。誘餌的裝甲和護盾提高 {**次要.x**}%，且包含裝備模組上的所有啟用效果也將一同複製。",
+            "Mesa's 協調器": "每秒為 {**次要.x**}公尺範圍內友軍恢復 {**主要.x**} 護盾，Mesa 本身會恢復前述數值的一半。還會減少範圍內敵軍傷害輸出 30%。",
             "Orochi's 回音火網": "在直線上造成 {**主要.x**} 護盾傷害並暴露敵人，持續 {**次要.x**}秒。",
             "Phantom's 定位傳送": "啟動時會標記傳送點，持續 {**主要.x**}秒。再次啟動就能在延遲 {**次要./**}秒 後回傳至該傳送點。",
             "Pursuer's 光學迷彩": "在延遲 {**次要./**}秒 秒後隱形，持續 {**主要.x**}秒。隱形時可使用裝備模組，但使用武器開火時機器人會立即顯形。冷卻時間：{CD}。",
