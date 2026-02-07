@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "広大な爆発範囲を持つ爆弾を展開する。シンプルで、効果的で、壊滅的。",
         "ABL_descr_InstantReload": "{CastDuration}後に{AmmoPerc}の弾薬が補充される。",
         "ABL_descr_InfiniteAmmo": "{CastDuration}後に{Duration}間、弾薬が無限になる。",
-        "ABL_descr_Stealth": "{FadeSpeed}後に{Duration}間、透明になる。",
         "ABL_descr_FullRegeneration": "すべてのモジュールの装甲を1カウントごとに{RegenSpeed}%修復する。{Duration}間持続する。",
         "ABL_descr_StickySensor": "固体表面に取り付けられる装置を発射する。{ActRadius}以内の敵を、たとえ目に見えなくても{ActDuration}間発見状態にする。",
         "ABL_descr_TensionLink": "{ActDuration}間、敵をロックオンし、1秒あたり最大{Dmg}ダメージを与える。ダメージは距離に応じて変化する。",
@@ -2831,9 +2830,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "任意のエネルギー武器を使用して、{Limit}ダメージを与える",
         "Daily_Freecon_WinBattles_Goal": "{Limit}ダメージを与える"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "シーズン1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "サイクルギアを追加してください",
         "ETXT_Add_Chassis": "シャーシを追加してください",
@@ -5440,8 +5436,6 @@
         "BattlePass_SalePrice": "セール価格：",
         "BattlePass_S2A1_Title": "清掃人の輸送",
         "BattlePass_Season1": "シーズン1",
-        "BattlePass_S1A1_Header": "シーズン1第1幕",
-        "BattlePass_S1A2_Header": "シーズン1第2幕",
         "BattlePass_S2A1_Header": "シーズン2第1幕",
         "BattlePass_S2A2_Header": "シーズン2第2幕",
         "BattlePass_S1A2_Title": "密航者の逃亡",

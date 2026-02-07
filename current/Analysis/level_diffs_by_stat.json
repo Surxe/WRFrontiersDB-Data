@@ -1,6 +1,6 @@
 {
     "AoeArmor": {
-        "OBJID_Module::DA_Module_Weapon_StickyGun.0": 0.27796,
+        "OBJID_Module::DA_Module_Weapon_StickyGun.0": 0.10633,
         "OBJID_Module::DA_Module_Weapon_Noricum.0": 0.10577
     },
     "AoeNoArmor": {
@@ -100,10 +100,10 @@
         "OBJID_Module::DA_Module_Weapon_Tusk.0": 0.6,
         "OBJID_Module::DA_Module_Weapon_Incinerator.0": 0.5,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": 0.33333,
-        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.25926,
         "OBJID_Module::DA_Module_Weapon_Callisto.0": 0.17391,
         "OBJID_Module::DA_Module_Weapon_Katzbalger.0": 0.16667,
         "OBJID_Module::DA_Module_Weapon_Punisher.0": 0.15789,
+        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.13793,
         "OBJID_Module::DA_Module_Weapon_Toxin.0": 0.13208,
         "OBJID_Module::DA_Module_Weapon_Scourge.0": 0.125,
         "OBJID_Module::DA_Module_Weapon_Shredder.0": 0.10714
@@ -154,9 +154,9 @@
         "OBJID_Module::DA_Module_TorsoSiren.1": -0.31818
     },
     "DamageArmor": {
-        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.3535,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": 0.13466,
         "OBJID_Module::DA_Module_Weapon_Orkan.0": 0.10922,
+        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.10787,
         "OBJID_Module::DA_Module_Weapon_Punisher.0": 0.10727,
         "OBJID_Module::DA_Module_Weapon_Buckshot.0": 0.10641,
         "OBJID_Module::DA_Module_Weapon_Twinflare.0": 0.10638,
@@ -183,9 +183,9 @@
         "OBJID_Module::DA_Module_Weapon_Incinerator.0": 0.10063
     },
     "DamageNoArmor": {
-        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.16667,
         "OBJID_Module::DA_Module_Weapon_Shocktrain.0": 0.16441,
         "OBJID_Module::DA_Module_Weapon_Thunder.0": 0.11888,
+        "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.10749,
         "OBJID_Module::DA_Module_Weapon_Twinflare.0": 0.10723,
         "OBJID_Module::DA_Module_Weapon_Hive.0": 0.10715,
         "OBJID_Module::DA_Module_Weapon_Trebuchet.0": 0.10715,
@@ -276,11 +276,11 @@
         "OBJID_Module::DA_Module_ChassisPursuer.2": 0.05932
     },
     "RoundsPerMinute": {
-        "OBJID_Module::DA_Module_Weapon_StickyGun.0": 0.51515,
         "OBJID_Module::DA_Module_Weapon_Buckshot.0": 0.45763,
         "OBJID_Module::DA_Module_Weapon_Glory.0": 0.26582,
         "OBJID_Module::DA_Module_Weapon_Tusk.0": 0.21212,
         "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": 0.16216,
+        "OBJID_Module::DA_Module_Weapon_StickyGun.0": 0.15652,
         "OBJID_Module::DA_Module_Weapon_Shredder.0": 0.1043,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": -0.01377
     },
@@ -351,15 +351,15 @@
     "TimeBetweenShots": {
         "OBJID_Module::DA_Module_Weapon_Shredder.0": -0.09091,
         "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": -0.1358,
+        "OBJID_Module::DA_Module_Weapon_StickyGun.0": -0.13628,
         "OBJID_Module::DA_Module_Weapon_Tusk.0": -0.17582,
         "OBJID_Module::DA_Module_Weapon_Glory.0": -0.20635,
-        "OBJID_Module::DA_Module_Weapon_Buckshot.0": -0.31238,
-        "OBJID_Module::DA_Module_Weapon_StickyGun.0": -0.34211
+        "OBJID_Module::DA_Module_Weapon_Buckshot.0": -0.31238
     },
     "TimeToReload": {
         "OBJID_Module::DA_Module_Weapon_Scatter.0": -0.2069,
-        "OBJID_Module::DA_Module_Weapon_StickyGun.0": -0.20635,
         "OBJID_Module::DA_Module_Weapon_Trident.0": -0.19094,
+        "OBJID_Module::DA_Module_Weapon_StickyGun.0": -0.17582,
         "OBJID_Module::DA_Module_Weapon_Thunder.0": -0.17544,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": -0.17492,
         "OBJID_Module::DA_Module_Weapon_Orkan.0": -0.17431,

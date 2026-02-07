@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Lâche une bombe dotée d'un gigantesque rayon d'explosion. Simple, efficace et redoutable.",
         "ABL_descr_InstantReload": "Régénère {AmmoPerc} des munitions après un délai de {CastDuration}.",
         "ABL_descr_InfiniteAmmo": "Après un délai de {CastDuration}, fournit des munitions illimitées pendant {Duration}.",
-        "ABL_descr_Stealth": "Après un délai de {FadeSpeed}, vous rend invisible pendant {Duration}.",
         "ABL_descr_FullRegeneration": "Répare tous les modules à hauteur de {RegenSpeed} points de blindage par cycle. Dure {Duration}.",
         "ABL_descr_StickySensor": "Lance un appareil qui se fixe aux surfaces solides puis repère les ennemis dans un rayon de {ActRadius} pendant {ActDuration}, même s'ils sont invisibles.",
         "ABL_descr_TensionLink": "Se verrouille sur l'ennemi pendant {ActDuration}, infligeant jusqu'à {Dmg} points de dégâts par seconde. Les dégâts augmentent avec la proximité.",
@@ -2571,9 +2570,6 @@
         "Daily_Freecon_WinBattlesFreeconGuns_Goal": "Infligez {Limit} points de dégâts en utilisant une arme cinétique",
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Infligez {Limit} points de dégâts en utilisant une arme à énergie",
         "Daily_Freecon_WinBattles_Goal": "Infligez {Limit} points de dégâts"
-    },
-    "ST_RatingSeason_Name": {
-        "Season1": "Saison 1"
     },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Ajouter mécanisme de cycle",
@@ -5172,8 +5168,6 @@
         "BattlePass_SalePrice": "Prix de vente :",
         "BattlePass_S2A1_Title": "Butin du pilleur",
         "BattlePass_Season1": "Saison 1",
-        "BattlePass_S1A1_Header": "Saison 1, acte 1",
-        "BattlePass_S1A2_Header": "Saison 1, acte 2",
         "BattlePass_S2A1_Header": "Saison 2, acte 1",
         "BattlePass_S2A2_Header": "Saison 2, acte 2",
         "BattlePass_S1A2_Title": "Parcours du contrebandier",
@@ -5230,6 +5224,7 @@
         "HNG_Abilities": "Mécanisme",
         "LockedSlotWarningAccess": "Accès",
         "HNG_All": "Tout",
+        "HNG_ModuleSocketTypeHeavyWeapon": "N'importe quelle arme",
         "HNG_DeletePresetDialogue": "Voulez-vous vraiment supprimer ceci ?",
         "Character_Dismantle_Description": "Voulez-vous vraiment démonter ce robot ?",
         "Character_Reset_Description": "Voulez-vous vraiment réinitialiser tous les changements ?",

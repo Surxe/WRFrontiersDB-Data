@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "거대한 폭발 범위를 가진 폭탄을 배치합니다. 단순하면서도 효과적이고 파괴적입니다.",
         "ABL_descr_InstantReload": "{CastDuration} 지연 후 탄약의 {AmmoPerc}를 보충합니다.",
         "ABL_descr_InfiniteAmmo": "{CastDuration} 지연 후, {Duration} 동안 무제한 탄약을 제공합니다.",
-        "ABL_descr_Stealth": "{FadeSpeed} 지연 후, {Duration} 동안 은신 상태가 됩니다.",
         "ABL_descr_FullRegeneration": "모든 모듈의 아머를 틱당 {RegenSpeed}% 수리합니다. {Duration} 동안 지속됩니다.",
         "ABL_descr_StickySensor": "단단한 표면에 부착되는 장치를 발사합니다. 이후 {ActDuration} 동안 은신 중인 적을 포함하여 {ActRadius} 내의 적을 드러냅니다.",
         "ABL_descr_TensionLink": "{ActDuration} 동안 적을 조준하며, 초당 최대 {Dmg} 피해를 입힙니다. 가까울수록 피해가 증가합니다.",
@@ -2895,9 +2894,6 @@
         "Tutorial_Level15_RobotBuilds_Fury_Title": "퓨리 훈련",
         "Tutorial_Level5_RobotBuilds_Ares_Title": "아레스의 격노"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "시즌 1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "순환 기어 추가",
         "ETXT_Add_Chassis": "섀시 추가",
@@ -5503,8 +5499,6 @@
         "BattlePass_SalePrice": "할인 가격:",
         "BattlePass_S2A1_Title": "수집가의 운송품",
         "BattlePass_Season1": "시즌 1",
-        "BattlePass_S1A1_Header": "시즌 1. 1장",
-        "BattlePass_S1A2_Header": "시즌 1. 2장",
         "BattlePass_S2A1_Header": "시즌 2. 1장",
         "BattlePass_S2A2_Header": "시즌 2. 2장",
         "BattlePass_S1A2_Title": "밀수꾼의 질주",

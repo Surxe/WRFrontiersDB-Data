@@ -3315,15 +3315,15 @@
             "module_name": "Gozer",
             "default_scalars": {
                 "DirectDamage": {
-                    "DamageArmor": 314.0,
-                    "DamageShield": 300.0
+                    "DamageArmor": 343.0,
+                    "DamageShield": 307.0
                 },
                 "AoeDamage": {
                     "DistToDamage": {
                         "EditorCurveData": {}
                     }
                 },
-                "ClipSize": 54,
+                "ClipSize": 58,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 2.5,
                 "DistanceSettings": {
@@ -6589,7 +6589,29 @@
                 },
                 "AoeDamage": {
                     "Radius": 1000.0,
-                    "DamageArmor": 1565.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
+                    "DamageArmor": 1627.0,
                     "DamageShield": 517.0,
                     "DistToDamage": {
                         "EditorCurveData": {
@@ -6643,9 +6665,9 @@
                     }
                 },
                 "ClipSize": 6,
-                "ProjectileSpeed": 27500.0,
-                "TimeToReload": 3.78,
-                "TimeBetweenShots": 0.608,
+                "ProjectileSpeed": 28000.0,
+                "TimeToReload": 3.64,
+                "TimeBetweenShots": 0.521,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [

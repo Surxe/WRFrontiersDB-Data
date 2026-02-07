@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Suelta una bomba con un gran onda expansiva. Simple, efectivo y devastador.",
         "ABL_descr_InstantReload": "Rellena {AmmoPerc} de munición tras un retardo de {CastDuration}.",
         "ABL_descr_InfiniteAmmo": "Después de un retardo de {CastDuration}, proporciona munición ilimitada durante {Duration}.",
-        "ABL_descr_Stealth": "Tras un retardo de {FadeSpeed}, te hace invisible durante {Duration}.",
         "ABL_descr_FullRegeneration": "Repara un {RegenSpeed} % de armadura por tic en todos los módulos. Dura {Duration}.",
         "ABL_descr_StickySensor": "Dispara un dispositivo que se pega a superficies sólidas. Revela enemigos en un radio de {ActRadius} durante {ActDuration} aunque sean invisibles.",
         "ABL_descr_TensionLink": "Sigue al enemigo durante {ActDuration} e inflige hasta {Dmg} de daño por segundo. El daño aumenta con la proximidad.",
@@ -2647,9 +2646,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Inflige {Limit} de daño con cualquier arma energética",
         "Daily_Freecon_WinBattles_Goal": "Inflige {Limit} de daño"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "Temporada 1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Añadir componente cíclico",
         "ETXT_Add_Chassis": "Añadir chasis",
@@ -5252,8 +5248,6 @@
         "BattlePass_SalePrice": "Precio rebajado:",
         "BattlePass_S2A1_Title": "El botín del chatarrero",
         "BattlePass_Season1": "Temporada 1",
-        "BattlePass_S1A1_Header": "Temporada 1. Acto 1",
-        "BattlePass_S1A2_Header": "Temporada 1. Acto 2",
         "BattlePass_S2A1_Header": "Temporada 2. Acto 1",
         "BattlePass_S2A2_Header": "Temporada 2. Acto 2",
         "BattlePass_S1A2_Title": "La carrera del contrabandista",
@@ -5309,6 +5303,7 @@
         "HNG_Abilities": "Componente",
         "LockedSlotWarningAccess": "Acceso",
         "HNG_All": "Todo",
+        "HNG_ModuleSocketTypeHeavyWeapon": "Cualquier arma",
         "HNG_DeletePresetDialogue": "¿Seguro que quieres eliminar esto?",
         "Character_Dismantle_Description": "¿Seguro que quieres desmontar este robot?",
         "Character_Reset_Description": "¿Seguro que quieres restablecer todos los cambios?",

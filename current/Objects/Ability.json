@@ -1214,11 +1214,6 @@
                     "DamageShield": 1000.0
                 },
                 "AoeDamage": {
-                    "Axis": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 3000.0
-                    },
                     "DistToDamage": {
                         "EditorCurveData": {
                             "Keys": [
@@ -2288,11 +2283,7 @@
             "Damage": {
                 "AoeShape": "ESAoeShapeType::Capsule",
                 "Radius": 7500.0,
-                "Axis": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 100000.0
-                },
+                "HalfHeight": 50000.0,
                 "DamageArmor": 1600.0,
                 "DamageShield": 1600.0,
                 "DistToDamage": {
@@ -4962,16 +4953,12 @@
                 "Radius": 500.0,
                 "bTraceRobots": false,
                 "UnconditionalRadius": 300.0,
-                "Axis": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 30000.0
-                },
                 "Rotation": {
                     "Pitch": 90.0,
                     "Yaw": 0.0,
                     "Roll": 0.0
                 },
+                "HalfHeight": 15000.0,
                 "DamageArmor": 0.0,
                 "DamageShield": 0.0,
                 "DistToDamage": {
@@ -5904,16 +5891,12 @@
                 "Radius": 1.0,
                 "bTraceRobots": false,
                 "UnconditionalRadius": 300.0,
-                "Axis": {
-                    "X": 0.0,
-                    "Y": 0.0,
-                    "Z": 1.0
-                },
                 "Rotation": {
                     "Pitch": 0.0,
                     "Yaw": 0.0,
                     "Roll": 0.0
                 },
+                "HalfHeight": 300.0,
                 "DamageArmor": 15000.0,
                 "DamageShield": 10000.0,
                 "DistToDamage": {
@@ -8002,6 +7985,12 @@
     },
     "BP_Module_Pursuer_Torso.1": {
         "id": "BP_Module_Pursuer_Torso.1",
+        "misc": {
+            "ReactionToShooting": "TemporarilyRemoveStealth",
+            "StealthAfterFireRestoreTimeout": 5.0,
+            "EffectType": "Defensive",
+            "InitialDuration": 25.0
+        },
         "ai": {
             "conditions": [
                 {
@@ -8021,15 +8010,11 @@
         "description": {
             "Key": "ABL_descr_Stealth",
             "TableNamespace": "Ability_descripton",
-            "en": "After a {FadeSpeed} delay, makes you invisible for {Duration}."
+            "en": "After a {FadeSpeed} second delay, you become invisible for {Duration}. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 16.0,
             "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "misc": {
-            "EffectType": "Defensive",
-            "InitialDuration": 25.0
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_StealthIcon"
     },
@@ -9002,6 +8987,7 @@
                         "DamageShield": 3000.0
                     },
                     "AoeDamagePerSecond": {
+                        "Radius": 5000.0,
                         "DistToDamage": {
                             "EditorCurveData": {
                                 "KeyHandlesToIndices": {}

@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Aktywuje zrzut bomby o wielkiej strefie rażenia. Rozwiązanie proste, skuteczne i niezwykle niszczycielskie.",
         "ABL_descr_InstantReload": "Uzupełnia {AmmoPerc} amunicji po opóźnieniu wynoszącym {CastDuration}.",
         "ABL_descr_InfiniteAmmo": "Po opóźnieniu wynoszącym {CastDuration} przez {Duration} zapewnia nieograniczoną amunicję.",
-        "ABL_descr_Stealth": "Po opóźnieniu trwającym {FadeSpeed} twój robot zyskuje na {Duration} tymczasową niewidzialność.",
         "ABL_descr_FullRegeneration": "Naprawia wszystkie moduły z szybkością {RegenSpeed}% pancerza na jedn. czasu. Czas aktywności: {Duration}.",
         "ABL_descr_StickySensor": "Wystrzeliwuje urządzenie, które przytwierdza się do twardych powierzchni. Podświetla wrogów w promieniu {ActRadius} przez {ActDuration} (nawet tych niewidzialnych tj. z aktywnym maskowaniem).",
         "ABL_descr_TensionLink": "Uaktywnia urządzenie, które koncentruje się na wrogu i przez {ActDuration} zadaje mu do {Dmg} obrażeń na sek. Obrażenia zmieniają się wraz z odległością od celu.",
@@ -2569,9 +2568,6 @@
         "Daily_Freecon_WinBattlesFreeconGuns_Goal": "Zadaj {Limit} obrażeń, używając dowolnej broni kinetycznej",
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Zadaj {Limit} obrażeń, używając dowolnej broni energetycznej",
         "Daily_Freecon_WinBattles_Goal": "Zadaj {Limit} obrażeń"
-    },
-    "ST_RatingSeason_Name": {
-        "Season1": "Sezon 1"
     },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Dodaj osprzęt ładowany",
@@ -5169,8 +5165,6 @@
         "BattlePass_SalePrice": "Cena w ofercie specjalnej:",
         "BattlePass_S2A1_Title": "Łup złomiarza",
         "BattlePass_Season1": "Sezon 1",
-        "BattlePass_S1A1_Header": "Sezon 1. akt 1.",
-        "BattlePass_S1A2_Header": "Sezon 1. akt 2.",
         "BattlePass_S2A1_Header": "Sezon 2. akt 1.",
         "BattlePass_S2A2_Header": "Sezon 2. akt 2.",
         "BattlePass_S1A2_Title": "Ścieżki przemytnika",
