@@ -964,6 +964,59 @@
             "OBJID_Ability::BP_Module_Kernel_Torso.1"
         ]
     },
+    "BP_Module_Kumo_Chassis.0": {
+        "id": "BP_Module_Kumo_Chassis.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Kumo_Chassis",
+            "default_scalars": {
+                "LegsArmor": 64000.0,
+                "MaxSpeed": 1700.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 8000.0,
+                "PrimaryArmor": 64000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Kumo_Chassis.1",
+            "OBJID_Ability::BP_Module_Kumo_Chassis.2"
+        ],
+        "misc": {
+            "movement_type_ref": "OBJID_MovementType::DA_MovementType_FourLegs.6"
+        }
+    },
+    "BP_Module_Kumo_ShoulderL.0": {
+        "id": "BP_Module_Kumo_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Kumo_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8000.0,
+                "PrimaryArmor": 36000.0
+            }
+        }
+    },
+    "BP_Module_Kumo_ShoulderR.0": {
+        "id": "BP_Module_Kumo_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Kumo_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8000.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Kumo_Torso.0": {
+        "id": "BP_Module_Kumo_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Kumo_Torso",
+            "default_scalars": {
+                "HullShare": 11000.0,
+                "PrimaryArmor": 80000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Kumo_Torso.1"
+        ]
+    },
     "BP_Module_Lancelot_Chassis.0": {
         "id": "BP_Module_Lancelot_Chassis.0",
         "module_scaler": {
@@ -3683,6 +3736,7 @@
         "fire_modes": {
             "FiringBehavior": {
                 "LaserDuration": 1.2,
+                "DamageApplicationTime": 0.09,
                 "ConsumeAllClipOnShot": true,
                 "AbilityChargePointsOnHit": 0.2,
                 "TitanChargePerHit": 1.5,
@@ -4798,6 +4852,88 @@
                         },
                         {
                             "Distance": 100001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "BP_Weapon_Horde.0": {
+        "id": "BP_Weapon_Horde.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "SpreadAngle": 2.8,
+                "bSingleShot": true
+            }
+        },
+        "module_scaler": {
+            "module_name": "Horde",
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 18983.0,
+                    "DamageShield": 25000.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 0.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 0.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 2,
+                "ProjectileSpeed": 100000.0,
+                "TimeToReload": 3.7,
+                "TimeBetweenShots": 1.164,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 13000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 22000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 22001.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "DeathDistanceState"
                         }

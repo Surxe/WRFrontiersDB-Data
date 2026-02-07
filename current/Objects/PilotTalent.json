@@ -528,7 +528,7 @@
         "description": {
             "Key": "TAL_desc_FortEvo1",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Whenever you lose shields, a random module regenerates {RegenSpeed} armor per second for {Duration}"
+            "en": "Whenever you lose shields, the most damaged module regenerates {RegenSpeed} structure per second for {Duration}."
         },
         "ui_description": {
             "Key": "PilotHUD_HPRegen",
