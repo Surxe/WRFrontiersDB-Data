@@ -9863,6 +9863,215 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
         ]
     },
+    "DA_Module_ChassisNorna.2": {
+        "id": "DA_Module_ChassisNorna.2",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisNorna",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Norna_Chassis.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ID": "BP_Module_Norna_Chassis",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl1_scrap2"
+                        ],
+                        "LegsArmor": 118500.0,
+                        "MaxSpeed": 2444.4443,
+                        "FuelCapacity": 8.0,
+                        "Armor": 118500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl2_scrap2"
+                        ],
+                        "LegsArmor": 128000.0,
+                        "MaxSpeed": 2444.4443,
+                        "FuelCapacity": 8.0,
+                        "Armor": 128000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl3_scrap2"
+                        ],
+                        "LegsArmor": 128000.0,
+                        "MaxSpeed": 2444.4443,
+                        "FuelCapacity": 9.0,
+                        "Armor": 128000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl4_scrap2"
+                        ],
+                        "LegsArmor": 128000.0,
+                        "MaxSpeed": 2583.3333,
+                        "FuelCapacity": 9.0,
+                        "Armor": 128000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl5_scrap2"
+                        ],
+                        "LegsArmor": 128000.0,
+                        "MaxSpeed": 2583.3333,
+                        "FuelCapacity": 9.0,
+                        "Armor": 128000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl6_scrap2"
+                        ],
+                        "LegsArmor": 135700.0,
+                        "MaxSpeed": 2583.3333,
+                        "FuelCapacity": 9.0,
+                        "Armor": 135700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl7_scrap2"
+                        ],
+                        "LegsArmor": 135700.0,
+                        "MaxSpeed": 2583.3333,
+                        "FuelCapacity": 10.0,
+                        "Armor": 135700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl8_scrap2"
+                        ],
+                        "LegsArmor": 135700.0,
+                        "MaxSpeed": 2694.4443,
+                        "FuelCapacity": 10.0,
+                        "Armor": 135700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl9_scrap2"
+                        ],
+                        "LegsArmor": 135700.0,
+                        "MaxSpeed": 2694.4443,
+                        "FuelCapacity": 10.0,
+                        "Armor": 135700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl10_scrap2"
+                        ],
+                        "LegsArmor": 142500.0,
+                        "MaxSpeed": 2694.4443,
+                        "FuelCapacity": 10.0,
+                        "Armor": 142500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl11_scrap2"
+                        ],
+                        "LegsArmor": 142500.0,
+                        "MaxSpeed": 2694.4443,
+                        "FuelCapacity": 11.0,
+                        "Armor": 142500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl12_scrap2"
+                        ],
+                        "LegsArmor": 142500.0,
+                        "MaxSpeed": 2777.7778,
+                        "FuelCapacity": 11.0,
+                        "Armor": 142500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisNorna.2_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisNorna.2_lvl13_scrap2"
+                        ],
+                        "LegsArmor": 142500.0,
+                        "MaxSpeed": 2777.7778,
+                        "FuelCapacity": 11.0,
+                        "Armor": 142500.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Norna_Chassis"
+        },
+        "abilities_scalars": [
+            {
+                "levels": {
+                    "constants": {
+                        "Cooldown": 1.0,
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "PrimaryParameter": false,
+                        "SecondaryParameter": false,
+                        "ID": "None",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    }
+                }
+            },
+            {
+                "default_scalars": {
+                    "ChargeRegenDuration": 20.0
+                }
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Norna_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaChassis.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaTorso.0"
+        ]
+    },
     "DA_Module_ChassisOrochi.2": {
         "id": "DA_Module_ChassisOrochi.2",
         "production_status": "Ready",
@@ -16819,6 +17028,320 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponTank.0"
         ]
     },
+    "DA_Module_ShoulderLNorna.0": {
+        "id": "DA_Module_ShoulderLNorna.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderLNorna",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Norna_ShoulderL.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ShieldRegeneration": 9500.0,
+                    "ShieldDelayReduction": 0.29,
+                    "ID": "BP_Module_Norna_ShoulderL",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl1_scrap2"
+                        ],
+                        "ShieldAmount": 28327.0,
+                        "Armor": 148500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl2_scrap2"
+                        ],
+                        "ShieldAmount": 30790.0,
+                        "Armor": 148500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl3_scrap2"
+                        ],
+                        "ShieldAmount": 30790.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl4_scrap2"
+                        ],
+                        "ShieldAmount": 33467.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl5_scrap2"
+                        ],
+                        "ShieldAmount": 33467.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl6_scrap2"
+                        ],
+                        "ShieldAmount": 35044.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl7_scrap2"
+                        ],
+                        "ShieldAmount": 35044.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl8_scrap2"
+                        ],
+                        "ShieldAmount": 36695.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl9_scrap2"
+                        ],
+                        "ShieldAmount": 36695.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl10_scrap2"
+                        ],
+                        "ShieldAmount": 37830.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl11_scrap2"
+                        ],
+                        "ShieldAmount": 37830.0,
+                        "Armor": 156200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl12_scrap2"
+                        ],
+                        "ShieldAmount": 39000.0,
+                        "Armor": 156200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl13_scrap2"
+                        ],
+                        "ShieldAmount": 39000.0,
+                        "Armor": 156200.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Norna_ShoulderL"
+        },
+        "abilities_scalars": [
+            {
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Damage.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Duration.0",
+                "levels": {
+                    "constants": {
+                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                        "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "ID": "IonDisruptor",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl1",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl1_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl1_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 4488.0,
+                            "SecondaryParameter": 10.19
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl2",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl2_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl2_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 4724.0,
+                            "SecondaryParameter": 10.19
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl3",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl3_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl3_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 4724.0,
+                            "SecondaryParameter": 10.73
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl4",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl4_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl4_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 4973.0,
+                            "SecondaryParameter": 10.73
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl5",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl5_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl5_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 4973.0,
+                            "SecondaryParameter": 10.73
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl6",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl6_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl6_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 4973.0,
+                            "SecondaryParameter": 11.29
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl7",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl7_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl7_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 5234.5,
+                            "SecondaryParameter": 11.29
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl8",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl8_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl8_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 5234.5,
+                            "SecondaryParameter": 11.88
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl9",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl9_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl9_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 5234.5,
+                            "SecondaryParameter": 11.88
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl10",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl10_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl10_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 5510.0,
+                            "SecondaryParameter": 11.88
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl11",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl11_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl11_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 5510.0,
+                            "SecondaryParameter": 12.5
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl12",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl12_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl12_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 5800.0,
+                            "SecondaryParameter": 12.5
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderLNorna.0_lvl13",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl13_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderLNorna.0_lvl13_scrap2"
+                            ],
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 5800.0,
+                            "SecondaryParameter": 12.5
+                        }
+                    ]
+                },
+                "module_name": "IonDisruptor"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Norna_Shoulder",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderL.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponNorna.0"
+        ]
+    },
     "DA_Module_ShoulderLSpire.0": {
         "id": "DA_Module_ShoulderLSpire.0",
         "production_status": "Ready",
@@ -20330,6 +20853,320 @@
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderR.0",
         "module_socket_type_refs": [
             "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponTank.0"
+        ]
+    },
+    "DA_Module_ShoulderRNorna.0": {
+        "id": "DA_Module_ShoulderRNorna.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderLNorna",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Norna_ShoulderR.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ShieldRegeneration": 9500.0,
+                    "ShieldDelayReduction": 0.29,
+                    "ID": "BP_Module_Norna_ShoulderR",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl1_scrap2"
+                        ],
+                        "ShieldAmount": 28327.0,
+                        "Armor": 148500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl2_scrap2"
+                        ],
+                        "ShieldAmount": 30790.0,
+                        "Armor": 148500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl3_scrap2"
+                        ],
+                        "ShieldAmount": 30790.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl4_scrap2"
+                        ],
+                        "ShieldAmount": 33467.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl5_scrap2"
+                        ],
+                        "ShieldAmount": 33467.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl6_scrap2"
+                        ],
+                        "ShieldAmount": 35044.0,
+                        "Armor": 152300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl7_scrap2"
+                        ],
+                        "ShieldAmount": 35044.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl8_scrap2"
+                        ],
+                        "ShieldAmount": 36695.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl9_scrap2"
+                        ],
+                        "ShieldAmount": 36695.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl10_scrap2"
+                        ],
+                        "ShieldAmount": 37830.0,
+                        "Armor": 154600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl11_scrap2"
+                        ],
+                        "ShieldAmount": 37830.0,
+                        "Armor": 156200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl12_scrap2"
+                        ],
+                        "ShieldAmount": 39000.0,
+                        "Armor": 156200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl13_scrap2"
+                        ],
+                        "ShieldAmount": 39000.0,
+                        "Armor": 156200.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Norna_ShoulderR"
+        },
+        "abilities_scalars": [
+            {
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Damage.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveDuration.0",
+                "levels": {
+                    "constants": {
+                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                        "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "ID": "IonVolley",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl1",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl1_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl1_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 6577.0,
+                            "SecondaryParameter": 6.19
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl2",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl2_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl2_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 6923.0,
+                            "SecondaryParameter": 6.19
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl3",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl3_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl3_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 6923.0,
+                            "SecondaryParameter": 6.52
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl4",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl4_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl4_scrap2"
+                            ],
+                            "Cooldown": 52.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 6.52
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl5",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl5_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl5_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 6.52
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl6",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl6_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl6_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 6.86
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl7",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl7_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl7_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 6.86
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl8",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl8_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl8_scrap2"
+                            ],
+                            "Cooldown": 43.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 7.22
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl9",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl9_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl9_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 7.22
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl10",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl10_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl10_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 8075.0,
+                            "SecondaryParameter": 7.22
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl11",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl11_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl11_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 8075.0,
+                            "SecondaryParameter": 7.6
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl12",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl12_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl12_scrap2"
+                            ],
+                            "Cooldown": 36.0,
+                            "PrimaryParameter": 8500.0,
+                            "SecondaryParameter": 7.6
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderRNorna.0_lvl13",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl13_scrap1",
+                                "OBJID_ScrapReward::DA_Module_ShoulderRNorna.0_lvl13_scrap2"
+                            ],
+                            "Cooldown": 30.0,
+                            "PrimaryParameter": 8500.0,
+                            "SecondaryParameter": 7.6
+                        }
+                    ]
+                },
+                "module_name": "IonVolley"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Norna_Shoulder",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderR.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponNorna.0"
         ]
     },
     "DA_Module_ShoulderRSpire.0": {
@@ -28189,6 +29026,306 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0"
         ]
     },
+    "DA_Module_TorsoNorna.0": {
+        "id": "DA_Module_TorsoNorna.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_TorsoNorna",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Norna_Torso.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "ID": "BP_Module_Norna_Torso",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl1_scrap2"
+                        ],
+                        "Armor": 180800.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl2_scrap2"
+                        ],
+                        "Armor": 185400.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl3_scrap2"
+                        ],
+                        "Armor": 185400.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl4_scrap2"
+                        ],
+                        "Armor": 190200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl5_scrap2"
+                        ],
+                        "Armor": 190200.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl6_scrap2"
+                        ],
+                        "Armor": 193100.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl7_scrap2"
+                        ],
+                        "Armor": 193100.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl8_scrap2"
+                        ],
+                        "Armor": 196000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl9_scrap2"
+                        ],
+                        "Armor": 196000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl10_scrap2"
+                        ],
+                        "Armor": 198000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl11_scrap2"
+                        ],
+                        "Armor": 198000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl12_scrap2"
+                        ],
+                        "Armor": 200000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl13_scrap2"
+                        ],
+                        "Armor": 200000.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Norna_Torso"
+        },
+        "abilities_scalars": [
+            {
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_FieldHP.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveDuration.0",
+                "levels": {
+                    "constants": {
+                        "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                        "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                        "MaxCharges": 2,
+                        "ChargeDuration": 0.0,
+                        "ID": "IonShield",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl1",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl1_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl1_scrap2"
+                            ],
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 176220.0,
+                            "SecondaryParameter": 9.26
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl2",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl2_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl2_scrap2"
+                            ],
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 180738.0,
+                            "SecondaryParameter": 9.26
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl3",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl3_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl3_scrap2"
+                            ],
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 180738.0,
+                            "SecondaryParameter": 9.75
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl4",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl4_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl4_scrap2"
+                            ],
+                            "Cooldown": 59.0,
+                            "PrimaryParameter": 185372.0,
+                            "SecondaryParameter": 9.75
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl5",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl5_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl5_scrap2"
+                            ],
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 185372.0,
+                            "SecondaryParameter": 9.75
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl6",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl6_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl6_scrap2"
+                            ],
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 185372.0,
+                            "SecondaryParameter": 10.26
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl7",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl7_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl7_scrap2"
+                            ],
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 190125.0,
+                            "SecondaryParameter": 10.26
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl8",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl8_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl8_scrap2"
+                            ],
+                            "Cooldown": 49.0,
+                            "PrimaryParameter": 190125.0,
+                            "SecondaryParameter": 10.8
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl9",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl9_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl9_scrap2"
+                            ],
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 190125.0,
+                            "SecondaryParameter": 10.8
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl10",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl10_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl10_scrap2"
+                            ],
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 195000.0,
+                            "SecondaryParameter": 10.8
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl11",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl11_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl11_scrap2"
+                            ],
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 195000.0,
+                            "SecondaryParameter": 12.0
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl12",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl12_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl12_scrap2"
+                            ],
+                            "Cooldown": 41.0,
+                            "PrimaryParameter": 200000.0,
+                            "SecondaryParameter": 12.0
+                        },
+                        {
+                            "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoNorna.0_lvl13",
+                            "scrap_rewards_refs": [
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl13_scrap1",
+                                "OBJID_ScrapReward::DA_Module_TorsoNorna.0_lvl13_scrap2"
+                            ],
+                            "Cooldown": 34.0,
+                            "PrimaryParameter": 200000.0,
+                            "SecondaryParameter": 12.0
+                        }
+                    ]
+                },
+                "module_name": "IonShield"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Norna_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaTorso.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaShoulderL.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaShoulderR.0"
+        ]
+    },
     "DA_Module_TorsoOrochi.1": {
         "id": "DA_Module_TorsoOrochi.1",
         "production_status": "Ready",
@@ -33542,6 +34679,314 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
+    },
+    "DA_Module_Weapon_Coriolis.0": {
+        "id": "DA_Module_Weapon_Coriolis.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Coriolis",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Coriolis.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageBlast.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeRocketLauncher.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "AoeDamage": {
+                    "Radius": 500.0,
+                    "MergedArmorZones": [
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_LeftLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_LeftLeg.0"
+                            }
+                        },
+                        {
+                            "MasterArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_Pelvis'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_Pelvis.0"
+                            },
+                            "SlaveArmorZone": {
+                                "ObjectName": "SArmorZone'DA_ArmorZone_RightLeg'",
+                                "ObjectPath": "/Game/Sparrow/ArmorZones/DA_ArmorZone_RightLeg.0"
+                            }
+                        }
+                    ],
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.2,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.39704275,
+                                    "Value": 0.8376813,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.8,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageBlast",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeRocketLauncher",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 40000.0,
+                    "RangeMax": 70000.0,
+                    "RangeDeath": 70001.0,
+                    "SpreadX": 0.6,
+                    "SpreadY": 0.6,
+                    "AoeArmor": 1932.0,
+                    "AoeNoArmor": 660.0,
+                    "ProjectileSpeed": 60000.0,
+                    "ClipSize": 6,
+                    "ProjectilesPerShot": 1,
+                    "TimeToReload": 2.0,
+                    "ID": "Coriolis",
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 4157.0,
+                        "DamageNoArmor": 2113.0,
+                        "TimeBetweenShots": 0.545,
+                        "RoundsPerMinute": 110.0,
+                        "ArmorDPS": 6936.0,
+                        "ShieldDPS": 3159.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 4264.0,
+                        "DamageNoArmor": 2113.0,
+                        "TimeBetweenShots": 0.545,
+                        "RoundsPerMinute": 110.0,
+                        "ArmorDPS": 7058.0,
+                        "ShieldDPS": 3159.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 4264.0,
+                        "DamageNoArmor": 2113.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7480.0,
+                        "ShieldDPS": 3348.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 4373.0,
+                        "DamageNoArmor": 2113.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7612.0,
+                        "ShieldDPS": 3348.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 4373.0,
+                        "DamageNoArmor": 2213.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7612.0,
+                        "ShieldDPS": 3468.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 4440.0,
+                        "DamageNoArmor": 2213.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7693.0,
+                        "ShieldDPS": 3468.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 4440.0,
+                        "DamageNoArmor": 2305.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7693.0,
+                        "ShieldDPS": 3579.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 4508.0,
+                        "DamageNoArmor": 2305.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7775.0,
+                        "ShieldDPS": 3579.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 4508.0,
+                        "DamageNoArmor": 2389.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7775.0,
+                        "ShieldDPS": 3681.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 4554.0,
+                        "DamageNoArmor": 2389.0,
+                        "TimeBetweenShots": 0.495,
+                        "RoundsPerMinute": 121.0,
+                        "ArmorDPS": 7830.0,
+                        "ShieldDPS": 3681.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 4554.0,
+                        "DamageNoArmor": 2389.0,
+                        "TimeBetweenShots": 0.45,
+                        "RoundsPerMinute": 133.0,
+                        "ArmorDPS": 8280.0,
+                        "ShieldDPS": 3892.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 4600.0,
+                        "DamageNoArmor": 2389.0,
+                        "TimeBetweenShots": 0.45,
+                        "RoundsPerMinute": 133.0,
+                        "ArmorDPS": 8339.0,
+                        "ShieldDPS": 3892.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Coriolis.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Coriolis.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 4600.0,
+                        "DamageNoArmor": 2450.0,
+                        "TimeBetweenShots": 0.45,
+                        "RoundsPerMinute": 133.0,
+                        "ArmorDPS": 8339.0,
+                        "ShieldDPS": 3970.0
+                    }
+                ]
+            },
+            "module_name": "Coriolis"
+        },
+        "name": {
+            "Key": "WPN_name_Coriolis",
+            "TableNamespace": "Weapon_name",
+            "en": "Coriolis"
+        },
+        "description": {
+            "Key": "WPN_desc_Coriolis",
+            "TableNamespace": "Weapon_description",
+            "en": "Heavy rocket launcher. Each rocket deals high damage and also damages nearby armor zones on hit."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponNorna.0"
     },
     "DA_Module_Weapon_Dragoon.0": {
         "id": "DA_Module_Weapon_Dragoon.0",
