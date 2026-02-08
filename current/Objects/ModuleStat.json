@@ -240,6 +240,16 @@
         "short_key": "BlinkSpeed",
         "decimal_places": 2
     },
+    "DA_ModuleStat_BurningAOEDamage.0": {
+        "id": "DA_ModuleStat_BurningAOEDamage.0",
+        "stat_name": {
+            "Key": "ModuleStat_BurningDamage",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Fire Damage"
+        },
+        "unit_scaler": 6.0,
+        "short_key": "BurningAoE"
+    },
     "DA_ModuleStat_BurningDamage.0": {
         "id": "DA_ModuleStat_BurningDamage.0",
         "stat_name": {

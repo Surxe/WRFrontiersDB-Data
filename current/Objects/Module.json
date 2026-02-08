@@ -5169,6 +5169,195 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability4.0"
     },
+    "DA_Module_Ability_SupplySurge.1": {
+        "id": "DA_Module_Ability_SupplySurge.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_SupplySurge",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Ability_SupplySurge.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Support.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "MaxCharges": 1,
+                "SecondaryParameter": 1.0
+            },
+            "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_CastDuration.0",
+            "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveEfficiency.0",
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_class_ref_2": "OBJID_ModuleClass::DA_Module_Class_Tactician",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_AbilityType_Support",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "Cooldown": 0.0,
+                    "MaxCharges": 1,
+                    "ID": "SupplySurge",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 4.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl1_scrap2"
+                        ],
+                        "ChargeDuration": 399.0,
+                        "PrimaryParameter": 1.2195121951219512,
+                        "SecondaryParameter": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl2_scrap2"
+                        ],
+                        "ChargeDuration": 399.0,
+                        "PrimaryParameter": 0.970873786407767,
+                        "SecondaryParameter": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl3_scrap2"
+                        ],
+                        "ChargeDuration": 399.0,
+                        "PrimaryParameter": 0.970873786407767,
+                        "SecondaryParameter": 70.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl4_scrap2"
+                        ],
+                        "ChargeDuration": 399.0,
+                        "PrimaryParameter": 0.7299270072992701,
+                        "SecondaryParameter": 70.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl5_scrap2"
+                        ],
+                        "ChargeDuration": 363.0,
+                        "PrimaryParameter": 0.7299270072992701,
+                        "SecondaryParameter": 70.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl6_scrap2"
+                        ],
+                        "ChargeDuration": 363.0,
+                        "PrimaryParameter": 0.7299270072992701,
+                        "SecondaryParameter": 80.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl7_scrap2"
+                        ],
+                        "ChargeDuration": 363.0,
+                        "PrimaryParameter": 0.5128205128205129,
+                        "SecondaryParameter": 80.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl8_scrap2"
+                        ],
+                        "ChargeDuration": 363.0,
+                        "PrimaryParameter": 0.5128205128205129,
+                        "SecondaryParameter": 90.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl9_scrap2"
+                        ],
+                        "ChargeDuration": 330.0,
+                        "PrimaryParameter": 0.5128205128205129,
+                        "SecondaryParameter": 90.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl10_scrap2"
+                        ],
+                        "ChargeDuration": 330.0,
+                        "PrimaryParameter": 0.3333333333333333,
+                        "SecondaryParameter": 90.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl11_scrap2"
+                        ],
+                        "ChargeDuration": 330.0,
+                        "PrimaryParameter": 0.3333333333333333,
+                        "SecondaryParameter": 100.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl12_scrap2"
+                        ],
+                        "ChargeDuration": 330.0,
+                        "PrimaryParameter": 0.2,
+                        "SecondaryParameter": 100.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Ability_SupplySurge.1_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Ability_SupplySurge.1_lvl13_scrap2"
+                        ],
+                        "ChargeDuration": 300.0,
+                        "PrimaryParameter": 0.2,
+                        "SecondaryParameter": 100.0
+                    }
+                ]
+            },
+            "module_name": "SupplySurge"
+        },
+        "name": {
+            "Key": "ABL_name_SupplySurge",
+            "TableNamespace": "Ability_name",
+            "en": "Supply Surge"
+        },
+        "description": {
+            "Key": "ABL_descr_SupplySurge",
+            "TableNamespace": "Ability_descripton",
+            "en": "After a {CastDuration} preparation, restores 1 charge and reduces the cooldown of Supply Gear by {ActEfficiency}. Charge needed: {ChargeDrain}."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0",
+            "OBJID_ModuleClass::DA_Module_Class_Tactician.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability4.0"
+    },
     "DA_Module_Ability_TensionLink.1": {
         "id": "DA_Module_Ability_TensionLink.1",
         "production_status": "Ready",
@@ -8230,8 +8419,9 @@
     },
     "DA_Module_ChassisKernel.2": {
         "id": "DA_Module_ChassisKernel.2",
+        "production_status": "Ready",
         "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisKernel",
-        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
         "character_module_mounts": [
             {
                 "character_module_ref": "OBJID_CharacterModule::BP_Module_Kernel_Chassis.0",
@@ -14749,6 +14939,7 @@
     },
     "DA_Module_ShoulderKernel.0": {
         "id": "DA_Module_ShoulderKernel.0",
+        "production_status": "Ready",
         "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderKernel",
         "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
         "character_module_mounts": [
@@ -25799,6 +25990,7 @@
     },
     "DA_Module_TorsoKernel.1": {
         "id": "DA_Module_TorsoKernel.1",
+        "production_status": "Ready",
         "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_TorsoKernel",
         "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
         "character_module_mounts": [
@@ -25938,7 +26130,7 @@
                     "PrimaryParameter": 5000.0,
                     "SecondaryParameter": 10.0
                 },
-                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_BurningDamage.0",
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_BurningAOEDamage.0",
                 "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveRadius.0",
                 "levels": {
                     "constants": {
@@ -25957,68 +26149,68 @@
                     "variables": [
                         {
                             "Cooldown": 72.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 800.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 66.0
                         },
                         {
                             "Cooldown": 72.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 800.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 66.0
                         },
                         {
                             "Cooldown": 72.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 72.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 60.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 60.0,
-                            "PrimaryParameter": 3360.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 18240.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 60.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 60.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 51.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 51.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 850.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 71.0
                         },
                         {
                             "Cooldown": 51.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 900.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 75.0
                         },
                         {
                             "Cooldown": 51.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 900.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 75.0
                         },
                         {
                             "Cooldown": 45.0,
-                            "PrimaryParameter": 4200.0,
-                            "SecondaryParameter": 900.0
+                            "PrimaryParameter": 22800.0,
+                            "SecondaryParameter": 75.0
                         }
                     ]
                 },
@@ -34332,6 +34524,243 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
+    },
+    "DA_Module_Weapon_Hefty.0": {
+        "id": "DA_Module_Weapon_Hefty.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Hefty",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Hefty.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 0.8,
+                    "Y": 0.8
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                },
+                "ClipSize": 40,
+                "ProjectileSpeed": 60000.0,
+                "TimeToReload": 3.5,
+                "TimeBetweenShots": -1.82
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Mayflower",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 27500.0,
+                    "RangeMax": 60000.0,
+                    "RangeDeath": 60001.0,
+                    "SpreadX": 0.6,
+                    "SpreadY": 0.6,
+                    "DamageNoArmor": 950.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 150000.0,
+                    "ProjectilesPerShot": 1,
+                    "TimeBetweenShots": 0.18,
+                    "RoundsPerMinute": 333.0,
+                    "ID": "Hefty",
+                    "Armor": 0.0,
+                    "WeightDrain": 5.0,
+                    "EnergyDrain": 3.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 1152.0,
+                        "ClipSize": 34,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 4154.0,
+                        "ShieldDPS": 3425.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 1182.0,
+                        "ClipSize": 34,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 4262.0,
+                        "ShieldDPS": 3425.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 1182.0,
+                        "ClipSize": 36,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 4347.0,
+                        "ShieldDPS": 3493.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 1212.0,
+                        "ClipSize": 36,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 4457.0,
+                        "ShieldDPS": 3493.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 1212.0,
+                        "ClipSize": 36,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 4516.0,
+                        "ShieldDPS": 3539.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 1230.0,
+                        "ClipSize": 36,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 4583.0,
+                        "ShieldDPS": 3539.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 1230.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 4663.0,
+                        "ShieldDPS": 3602.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 1249.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 4735.0,
+                        "ShieldDPS": 3602.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 1249.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 4787.0,
+                        "ShieldDPS": 3641.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 1262.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 4837.0,
+                        "ShieldDPS": 3641.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 1262.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 4913.0,
+                        "ShieldDPS": 3698.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 1275.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 4964.0,
+                        "ShieldDPS": 3698.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Hefty.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Hefty.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 1275.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 3.0,
+                        "ArmorDPS": 5000.0,
+                        "ShieldDPS": 3725.0
+                    }
+                ]
+            },
+            "module_name": "Hefty"
+        },
+        "name": {
+            "Key": "WPN_name_Hefty",
+            "TableNamespace": "Weapon_name",
+            "en": "Hefty"
+        },
+        "description": {
+            "Key": "WPN_desc_Hefty",
+            "TableNamespace": "Weapon_description",
+            "en": "Dual-barrel heavy autocannon for sustained medium-range fire."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
     },
     "DA_Module_Weapon_Hive.0": {
         "id": "DA_Module_Weapon_Hive.0",

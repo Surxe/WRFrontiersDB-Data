@@ -2158,6 +2158,37 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Spotlight"
     },
+    "BP_Ability_SupplySurge.3": {
+        "id": "BP_Ability_SupplySurge.3",
+        "ai": {
+            "condition_operator": "Or"
+        },
+        "name": {
+            "Key": "ABL_name_SupplySurge",
+            "TableNamespace": "Ability_name",
+            "en": "Supply Surge"
+        },
+        "description": {
+            "Key": "ABL_descr_SupplySurge",
+            "TableNamespace": "Ability_descripton",
+            "en": "After a {CastDuration} preparation, restores 1 charge and reduces the cooldown of Supply Gear by {ActEfficiency}. Charge needed: {ChargeDrain}."
+        },
+        "misc": {
+            "bStartWithMaxCharges": false,
+            "ChargeTrigger": {
+                "MechKillPoints": 70.0,
+                "PointsPerSecondInBattle": 2.0,
+                "PointsForBeaconCapture": 45.0,
+                "bNoAbilityActivation": true
+            },
+            "ActivationChargePoints": 300.0
+        },
+        "cooldown": {
+            "Cooldown": 22.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_SupplySurge"
+    },
     "BP_Ability_TensionLink.3": {
         "id": "BP_Ability_TensionLink.3",
         "misc": {
@@ -5712,7 +5743,7 @@
         "description": {
             "Key": "ABL_descr_Mundus",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs {RegenSpeed}% of armor per second. If any allies are within {ActRadius}, it repairs them as well and doubles the repair rate. Lasts 10 seconds."
+            "en": "Repairs {RegenSpeed}% of armor per second. If any allies are within {ActRadius}, it repairs them as well and doubles the repair rate. Lasts 12 seconds."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -7344,11 +7375,12 @@
             },
             "BuffOnTarget": {
                 "Hacker": {
-                    "HackingTime": 2.0
+                    "HackingTime": 3.0
                 },
                 "AoeDamagePerSecond": {
                     "Radius": 5000.0
                 },
+                "TickInterval": 500.0,
                 "Lifetime": 6.0
             },
             "CastDuration": 3.0,
@@ -7371,7 +7403,7 @@
         "description": {
             "Key": "ABLdescr_ChainOverload",
             "TableNamespace": "Ability_descripton",
-            "en": "Infects an enemy robot with a virus that deals {Burning} damage per second for 6 seconds. If another enemy comes within {ActRadius} during the effect, the virus jumps to them. Can chain up to 8 times."
+            "en": "Infects an enemy robot with a virus that deals {BurningAoE} damage per second for 6 seconds. If another enemy comes within {ActRadius} during the effect, the virus jumps to them. Can chain up to 8 times."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ChainOverload"
     },
