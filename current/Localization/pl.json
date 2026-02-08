@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "Quasi-fazowa wieżyczka ostrzeliwuje najbliższego wroga. W tym stanie kwantowym nie może zostać uszkodzona, ale ma ograniczoną żywotność.",
         "ABL_descr_Blink": "Po opóźnieniu wynoszącym {BlinkSpeed}, teleportuje cię na odległość {Dist} w kierunku, w którym zwrócony jest robot.",
         "ABL_descr_Rally": "Przesyła do pobliskich członków zespołu tajny kod, dezaktywując ich protokoły bezpieczeństwa. Tymczasowo zapewnia zwiększenie prędkości.",
-        "ABL_descr_Trick": "Twój robot staje się niewidzialny i wyświetla przez {ActDuration} kopię holograficzną twojej maszyny; taki klon ma pancerz i tarczę większą o {ActEfficiency}.",
         "ABL_descr_ShortCircuit": "Doprowadza do wyładowania elektrostatycznego, które odbija się od pobliskich celów. Powoduje {Dmg} obrażeń i przez {ActDuration} uniemożliwia wrogom korzystanie z ich sprzętu."
     },
     "Ability_name": {
@@ -5890,10 +5889,6 @@
         "Premium_BuyPremium": "Zdobądź premium",
         "Premium_FromPremium": "Z premium",
         "Premium_UnlockMissions": "Uzyskaj konto premium, aby odblokować dodatkowe zlecenia",
-        "Booster_MoreXP_Description": "Więcej korzyści z każdego kontraktu bojowego",
-        "Booster_MoreCredits_Description": "Zyskuj więcej kredytów za każdy kontrak bojowy",
-        "Booster_MoreDailyMissions_Description": "Zyskaj więcej zleceń do wykonania",
-        "Booster_MoreWeeklyMissions_Description": "Zyskaj więcej zleceń do wykonania",
         "Booster_MoreXP_Title": "Więcej PD",
         "Booster_MoreCredits_Title": "Więcej kredytów",
         "Booster_MoreMissionRerolls_Title": "Więcej zmian zleceń",
@@ -6302,6 +6297,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "Dodaj {0}",
+        "Store_EventBanner_Desc": "Umieść nową, potężną broń na Tytanie klasy Grim: Jigsaw; broń dostępna w ramach codziennych okazji z większą szansą dropów. Tylko przez ograniczony czas! Wydarzenie kończy się 8 lipca.",
         "Store_MainBanner_Desc_Line2_Desc": "W miarę awansowania na wyższe poziomy, odblokujesz nowe projekty konstrukcji, z których powstaną moduły ze <img id=\"Salvage\"></> złomu.",
         "Offers_PurchaseOffer": "Kup",
         "PurchaseNotEnoughCurrencyPopup_Title": "Kup więcej",
@@ -6331,6 +6327,7 @@
         "Offers_HirePilot": "Zatrudnij",
         "Store_MainBanner_Title": "Jak zdobywać roboty",
         "DLC_ItemsAcquired": "Pozyskano",
+        "Store_EventBanner_Title": "NOWA BROŃ TYTANA W CODZIENNYCH OKAZJACH",
         "CurrencyOffers_EmptyStore": "Brak dostępnych ofert",
         "DailyDeals_NoDDNotice": "Zawiadomienie",
         "Items_AlreadyOwned": "Posiadasz: {0}",

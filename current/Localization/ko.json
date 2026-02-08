@@ -58,7 +58,6 @@
         "ABL_descr_EvilEye": "짧은 지연 후 {ActDuration} 동안 초당 {Dmg}의 피해를 주는 에너지 빔을 발사합니다. 이 능력이 활성화된 동안에는 로봇이 걸을 수 없습니다.",
         "ABL_descr_ElectricShield": "투사체를 막는 장벽을 생성하며 {ActDuration}초 동안 느리게 전방으로 이동합니다. 장벽을 통과하는 모든 적은 초당 {Dmg}의 피해를 입습니다.",
         "ABL_descr_Blink": "{BlinkSpeed} 지연 후, 바라보는 방향으로 {Dist} 순간이동합니다.",
-        "ABL_descr_Trick": "{ActDuration} 동안 은신 상태가 되며 복제체를 생성합니다. 복제체는 아머와 실드가 {ActEfficiency} 더 높습니다.",
         "ABL_descr_ShortCircuit": "주변 대상에게 튕겨나가는 정전기를 방출합니다. {Dmg}의 피해를 입히며, {ActDuration} 동안 적이 기어를 사용할 수 없게 만듭니다."
     },
     "Ability_name": {
@@ -6241,10 +6240,6 @@
         "Premium_BuyPremium": "프리미엄 구매",
         "Premium_FromPremium": "프리미엄에서 제공",
         "Premium_UnlockMissions": "프리미엄 계정으로 더 많은 임무를 잠금 해제하세요",
-        "Booster_MoreXP_Description": "전투 계약마다 더 많은 보너스를 획득합니다",
-        "Booster_MoreCredits_Description": "전투 계약마다 더 많은 보너스를 획득합니다",
-        "Booster_MoreDailyMissions_Description": "더 많은 임무를 완료할 수 있습니다",
-        "Booster_MoreWeeklyMissions_Description": "더 많은 임무를 완료할 수 있습니다",
         "Booster_MoreXP_Title": "더 많은 경험치",
         "Booster_MoreCredits_Title": "더 많은 크레딧",
         "Booster_MoreMissionRerolls_Title": "더 많은 임무 재선택",
@@ -6666,6 +6661,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "{0} 추가",
+        "Store_EventBanner_Desc": "Grim을 거친 신규 타이탄 무기: 직소로 무장하세요. 한정된 기간 동안 일일 특가에서 더 높은 드롭률로 제공됩니다! 이벤트는 7월 8일에 종료됩니다.",
         "Store_MainBanner_Desc_Line2_Desc": "레벨 상승에 따라 <img id=\"Salvage\"></> 자재로 모듈을 제작하기 위한 새로운 설계도가 잠금 해제됩니다.",
         "CurrencyOffers_BuyingBonus": "보너스",
         "Offers_PurchaseOffer": "구매",
@@ -6698,6 +6694,7 @@
         "Offers_HirePilot": "고용",
         "Store_MainBanner_Title": "로봇 획득 방법",
         "DLC_ItemsAcquired": "아이템 획득",
+        "Store_EventBanner_Title": "일일 특가에 새 타이탄 무기 등장",
         "CurrencyOffers_EmptyStore": "이용 가능한 제안 없음",
         "DailyDeals_NoDDNotice": "알림",
         "Items_AlreadyOwned": "보유 중: {0}",

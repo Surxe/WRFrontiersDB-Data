@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "En yakındaki düşmana saldıran kısmen flu bir taret. Bu kuantum halindeyken hasar alamaz ama ömrü sınırlıdır.",
         "ABL_descr_Blink": "{BlinkSpeed} gecikme ardından önüne doğru {Dist} öteye teleport olursun.",
         "ABL_descr_Rally": "Gizli bir kod ileterek yakındaki takımdaşlarının güvenlik protokollerini devre dışı bırakır. Geçici olarak hız desteği sağlar.",
-        "ABL_descr_Trick": "Seni görünmez kılar ve kopyanı {ActDuration} boyunca yansıtır. Yemin {ActEfficiency} daha çok zırhı ve kalkanı olur.",
         "ABL_descr_ShortCircuit": "Yakındaki hedeflere çarpan bir elektrostatik yük boşaltır. {Dmg} hasar verir ve {ActDuration} boyunca düşmanları önler."
     },
     "Ability_name": {
@@ -5911,10 +5910,6 @@
         "Premium_BuyPremium": "Premium Satın Al",
         "Premium_FromPremium": "Premiumdan",
         "Premium_UnlockMissions": "Premium Hesap alarak daha fazla göreve erişebilirsin",
-        "Booster_MoreXP_Description": "Muharebe Sözleşmeleri daha çok kazandırır",
-        "Booster_MoreCredits_Description": "Muharebe Sözleşmeleri daha çok kazandırır",
-        "Booster_MoreDailyMissions_Description": "Tamamlayacak daha çok görev al",
-        "Booster_MoreWeeklyMissions_Description": "Tamamlayacak daha çok görev al",
         "Booster_MoreXP_Title": "Daha fazla XP",
         "Booster_MoreCredits_Title": "Daha fazla kredi",
         "Booster_MoreMissionRerolls_Title": "Daha fazla görev yenileme",
@@ -6320,6 +6315,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "Daha fazla {0} ekle",
+        "Store_EventBanner_Desc": "Grim‘i ses getiren yeni titan silahı Jigsaw‘la donat. Günlük fırsatlardaki düşme ihtimali sınırlı bir süre için yükseltildi! Etkinlik 8 Temmuz’da sona erecek.",
         "Store_MainBanner_Desc_Line2_Desc": "Seviye atladıkça <img id=\"Salvage\"></> Hurdayla modül üretmek için yeni Şablonlara erişirsin.",
         "Offers_PurchaseOffer": "Satın al",
         "PurchaseNotEnoughCurrencyPopup_Title": "Daha fazla satın al",
@@ -6351,6 +6347,7 @@
         "Offers_HirePilot": "Kadrona Kat",
         "Store_MainBanner_Title": "Nasıl robot edinilir?",
         "DLC_ItemsAcquired": "Alınan Öğeler",
+        "Store_EventBanner_Title": "GÜNLÜK FIRSATLARDA YENİ TİTAN SİLAHI",
         "CurrencyOffers_EmptyStore": "Mevcut teklif yok",
         "DailyDeals_NoDDNotice": "Duyuru",
         "Items_AlreadyOwned": "Elinde: {0}",

@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "操控半相位炮塔攻擊最近的敵人。該砲塔在此量子狀態下不會受損，但存續時間有限。",
         "ABL_descr_Blink": "延遲 {BlinkSpeed} 之後，朝你面對的方向傳送 {Dist}。",
         "ABL_descr_Rally": "向附近隊友傳送秘密代碼以停用其安全協定。短暫提供加速效果。",
-        "ABL_descr_Trick": "匿蹤並投射出你的複製體，持續 {ActDuration}。誘餌的裝甲和護盾提高 {ActEfficiency}。",
         "ABL_descr_ShortCircuit": "釋放靜電放電並反彈至附近的目標。造成{Dmg}傷害並阻止敵人使用裝備持續 {ActDuration}。"
     },
     "Ability_name": {
@@ -6186,10 +6185,6 @@
         "Premium_BuyPremium": "購買加值",
         "Premium_FromPremium": "來自加值",
         "Premium_UnlockMissions": "取得加值帳號以解鎖更多任務",
-        "Booster_MoreXP_Description": "在每次的戰鬥合約中獲得更多信用點",
-        "Booster_MoreCredits_Description": "在每次的戰鬥合約中獲得更多信用點",
-        "Booster_MoreDailyMissions_Description": "獲得更多可完成的任務",
-        "Booster_MoreWeeklyMissions_Description": "獲得更多可完成的任務",
         "Booster_MoreXP_Title": "更多經驗值",
         "Booster_MoreCredits_Title": "更多信用點",
         "Booster_MoreMissionRerolls_Title": "更多任務重骰",
@@ -6605,6 +6600,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "增加 {0}",
+        "Store_EventBanner_Desc": "為 Grim 裝配上全新的泰坦武器:電鋸。現已上架至每日特賣中，限時高機率掉落!活動直至 7 月 8 日。",
         "Store_MainBanner_Desc_Line2_Desc": "你在升級之後就可以解鎖新的模組藍圖，可以用<img id=\"Salvage\"></>廢鐵進行製作。",
         "CurrencyOffers_BuyingBonus": "加成",
         "Offers_PurchaseOffer": "購買",
@@ -6637,6 +6633,7 @@
         "Offers_HirePilot": "聘用",
         "Store_MainBanner_Title": "如何獲取機器人",
         "DLC_ItemsAcquired": "已獲得的物品",
+        "Store_EventBanner_Title": "全新泰坦武器上架每日特賣",
         "CurrencyOffers_EmptyStore": "無可用優惠",
         "DailyDeals_NoDDNotice": "通知",
         "Items_AlreadyOwned": "已擁有：{0}",

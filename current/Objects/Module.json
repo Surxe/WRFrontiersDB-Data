@@ -23506,7 +23506,6 @@
     },
     "DA_Module_Weapon_Alpha.0": {
         "id": "DA_Module_Weapon_Alpha.0",
-        "production_status": "Ready",
         "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Callisto",
         "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
         "character_module_mounts": [
@@ -24106,14 +24105,12 @@
                     "RangeDeath": 40001.0,
                     "SpreadX": 0.0,
                     "SpreadY": 0.0,
-                    "DamageNoArmor": 2900.0,
                     "AoeArmor": 1200.0,
                     "AoeNoArmor": 900.0,
                     "ProjectileSpeed": 45000.0,
                     "ClipSize": 6,
                     "ProjectilesPerShot": 1,
-                    "TimeBetweenShots": 0.55,
-                    "RoundsPerMinute": 109.0,
+                    "TimeToReload": 1.8,
                     "ID": "Cascade",
                     "Armor": 0.0,
                     "WeightDrain": 0.0,
@@ -24127,7 +24124,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl1_scrap2"
                         ],
                         "DamageArmor": 3164.0,
-                        "TimeToReload": 1.99
+                        "DamageNoArmor": 2502.0,
+                        "TimeBetweenShots": 0.666,
+                        "RoundsPerMinute": 90.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl2",
@@ -24136,7 +24135,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl2_scrap2"
                         ],
                         "DamageArmor": 3245.0,
-                        "TimeToReload": 1.99
+                        "DamageNoArmor": 2502.0,
+                        "TimeBetweenShots": 0.666,
+                        "RoundsPerMinute": 90.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl3",
@@ -24145,7 +24146,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl3_scrap2"
                         ],
                         "DamageArmor": 3245.0,
-                        "TimeToReload": 1.99
+                        "DamageNoArmor": 2502.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl4",
@@ -24154,7 +24157,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl4_scrap2"
                         ],
                         "DamageArmor": 3328.0,
-                        "TimeToReload": 1.99
+                        "DamageNoArmor": 2502.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl5",
@@ -24163,7 +24168,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl5_scrap2"
                         ],
                         "DamageArmor": 3328.0,
-                        "TimeToReload": 1.91
+                        "DamageNoArmor": 2620.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl6",
@@ -24172,7 +24179,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl6_scrap2"
                         ],
                         "DamageArmor": 3379.0,
-                        "TimeToReload": 1.91
+                        "DamageNoArmor": 2620.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl7",
@@ -24181,7 +24190,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl7_scrap2"
                         ],
                         "DamageArmor": 3379.0,
-                        "TimeToReload": 1.91
+                        "DamageNoArmor": 2729.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl8",
@@ -24190,7 +24201,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl8_scrap2"
                         ],
                         "DamageArmor": 3430.0,
-                        "TimeToReload": 1.91
+                        "DamageNoArmor": 2729.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl9",
@@ -24199,7 +24212,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl9_scrap2"
                         ],
                         "DamageArmor": 3430.0,
-                        "TimeToReload": 1.85
+                        "DamageNoArmor": 2828.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl10",
@@ -24208,7 +24223,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl10_scrap2"
                         ],
                         "DamageArmor": 3465.0,
-                        "TimeToReload": 1.85
+                        "DamageNoArmor": 2828.0,
+                        "TimeBetweenShots": 0.605,
+                        "RoundsPerMinute": 99.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl11",
@@ -24217,7 +24234,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl11_scrap2"
                         ],
                         "DamageArmor": 3465.0,
-                        "TimeToReload": 1.85
+                        "DamageNoArmor": 2828.0,
+                        "TimeBetweenShots": 0.55,
+                        "RoundsPerMinute": 109.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl12",
@@ -24226,7 +24245,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl12_scrap2"
                         ],
                         "DamageArmor": 3500.0,
-                        "TimeToReload": 1.85
+                        "DamageNoArmor": 2828.0,
+                        "TimeBetweenShots": 0.55,
+                        "RoundsPerMinute": 109.0
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Cascade.0_lvl13",
@@ -24235,7 +24256,9 @@
                             "OBJID_ScrapReward::DA_Module_Weapon_Cascade.0_lvl13_scrap2"
                         ],
                         "DamageArmor": 3500.0,
-                        "TimeToReload": 1.8
+                        "DamageNoArmor": 2900.0,
+                        "TimeBetweenShots": 0.55,
+                        "RoundsPerMinute": 109.0
                     }
                 ]
             },
@@ -25890,6 +25913,230 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
+    },
+    "DA_Module_Weapon_Jigsaw.0": {
+        "id": "DA_Module_Weapon_Jigsaw.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Jigsaw",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Jigsaw.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeSpecial.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                }
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Flanker",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageKinetic",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeSpecial",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_FortEvo",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 25000.0,
+                    "RangeMax": 25001.0,
+                    "RangeDeath": 25002.0,
+                    "SpreadX": 0.0,
+                    "SpreadY": 0.0,
+                    "DamageNoArmor": 28000.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 25000.0,
+                    "ClipSize": 3,
+                    "ProjectilesPerShot": 1,
+                    "ID": "Jigsaw",
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 22600.0,
+                        "TimeToReload": 4.36,
+                        "TimeBetweenShots": 1.042,
+                        "RoundsPerMinute": 58.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 23179.0,
+                        "TimeToReload": 4.36,
+                        "TimeBetweenShots": 1.042,
+                        "RoundsPerMinute": 58.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 23179.0,
+                        "TimeToReload": 4.36,
+                        "TimeBetweenShots": 0.992,
+                        "RoundsPerMinute": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 23773.0,
+                        "TimeToReload": 4.36,
+                        "TimeBetweenShots": 0.992,
+                        "RoundsPerMinute": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 23773.0,
+                        "TimeToReload": 4.11,
+                        "TimeBetweenShots": 0.992,
+                        "RoundsPerMinute": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 24135.0,
+                        "TimeToReload": 4.11,
+                        "TimeBetweenShots": 0.992,
+                        "RoundsPerMinute": 60.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 24135.0,
+                        "TimeToReload": 4.11,
+                        "TimeBetweenShots": 0.945,
+                        "RoundsPerMinute": 63.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 24503.0,
+                        "TimeToReload": 4.11,
+                        "TimeBetweenShots": 0.945,
+                        "RoundsPerMinute": 63.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 24503.0,
+                        "TimeToReload": 3.95,
+                        "TimeBetweenShots": 0.945,
+                        "RoundsPerMinute": 63.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 24750.0,
+                        "TimeToReload": 3.95,
+                        "TimeBetweenShots": 0.945,
+                        "RoundsPerMinute": 63.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 24750.0,
+                        "TimeToReload": 3.95,
+                        "TimeBetweenShots": 0.9,
+                        "RoundsPerMinute": 67.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 25000.0,
+                        "TimeToReload": 3.95,
+                        "TimeBetweenShots": 0.9,
+                        "RoundsPerMinute": 67.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Jigsaw.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Jigsaw.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 25000.0,
+                        "TimeToReload": 3.8,
+                        "TimeBetweenShots": 0.9,
+                        "RoundsPerMinute": 67.0
+                    }
+                ]
+            },
+            "module_name": "Jigsaw"
+        },
+        "name": {
+            "Key": "WPN_name_Jigsaw",
+            "TableNamespace": "Weapon_name",
+            "en": "Jigsaw"
+        },
+        "description": {
+            "Key": "WPN_desc_Jigsaw",
+            "TableNamespace": "Weapon_description",
+            "en": "Hurls circular blades that bounce off walls causing massive damage."
+        },
+        "text_tags": [
+            {
+                "Key": "WPN_Type_Special",
+                "TableNamespace": "Component_Tags",
+                "en": "Special"
+            },
+            {
+                "Key": "WPN_Damage_Electromagnetic",
+                "TableNamespace": "Component_Tags",
+                "en": "Electromagnetic"
+            }
+        ],
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponFlanker.0"
     },
     "DA_Module_Weapon_Katzbalger.0": {
         "id": "DA_Module_Weapon_Katzbalger.0",

@@ -64,7 +64,6 @@
         "ABL_descr_SpawnTurret": "Torreta parcialmente progresiva que ataca a los enemigos más cercanos. No puede dañarse en este estado cuántico, pero tiene una vida útil limitada.",
         "ABL_descr_Blink": "Después de un retardo de {BlinkSpeed}, te teletransporta {Dist} de frente.",
         "ABL_descr_Rally": "Transmite un código secreto a los compañeros cercanos que desactiva sus protocolos de seguridad. Proporciona un potenciador de velocidad temporal.",
-        "ABL_descr_Trick": "Te hace invisible y proyecta tu copia durante {ActDuration}. El señuelo tiene {ActEfficiency} más armadura y escudos.",
         "ABL_descr_ShortCircuit": "Libera una descarga estática que rebota en los objetivos cercanos. Inflige {Dmg} de daño e impide que los enemigos usen componentes durante {ActDuration}."
     },
     "Ability_name": {
@@ -5975,10 +5974,6 @@
         "Premium_BuyPremium": "Comprar premium",
         "Premium_FromPremium": "Desde Premium",
         "Premium_UnlockMissions": "Consigue una cuenta premium para desbloquear más trabajos.",
-        "Booster_MoreXP_Description": "Gana más en cada contrato de combate",
-        "Booster_MoreCredits_Description": "Gana más en cada contrato de combate",
-        "Booster_MoreDailyMissions_Description": "Consigue más trabajos para completar",
-        "Booster_MoreWeeklyMissions_Description": "Consigue más trabajos para completar",
         "Booster_MoreXP_Title": "Más EXP",
         "Booster_MoreCredits_Title": "Más créditos",
         "Booster_MoreMissionRerolls_Title": "Más repeticiones de misiones",
@@ -6391,6 +6386,7 @@
     },
     "UI_Store": {
         "CurrencyOffers_Title": "Añadir más {0}",
+        "Store_EventBanner_Desc": "Equipa el Grim con una estruendosa arma de Titán nueva: Jigsaw, disponible en las Ofertas diarias con mayores tasas de aparición solo por tiempo limitado. El evento acaba el 8 de julio.",
         "Store_MainBanner_Desc_Line2_Desc": "Al subir de nivel, desbloquearás nuevos planos para fabricar módulos a partir de <img id=\"Salvage\"></> piezas recicladas.",
         "CurrencyOffers_BuyingBonus": "Bonificación",
         "Offers_PurchaseOffer": "Comprar",
@@ -6423,6 +6419,7 @@
         "Offers_HirePilot": "Contratar",
         "Store_MainBanner_Title": "Cómo conseguir robots",
         "DLC_ItemsAcquired": "Objetos adquiridos",
+        "Store_EventBanner_Title": "NUEVA ARMA DE TITÁN EN LAS OFERTAS DIARIAS",
         "CurrencyOffers_EmptyStore": "No hay ofertas disponibles",
         "DailyDeals_NoDDNotice": "Aviso",
         "Items_AlreadyOwned": "En propiedad: {0}",
