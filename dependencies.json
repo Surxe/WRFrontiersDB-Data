@@ -1,0 +1,115 @@
+{
+    "Ability": [
+        "CharacterModule"
+    ],
+    "BotAIPreset": [
+        "DropTeam",
+        "League"
+    ],
+    "CharacterModule": [
+        "Ability",
+        "MovementType"
+    ],
+    "CharacterPreset": [
+        "Module",
+        "Pilot"
+    ],
+    "ContentUnlock": [
+        "GroupReward"
+    ],
+    "CustomizationRarity": [
+        "Rarity"
+    ],
+    "CustomizationType": [
+        "GroupReward"
+    ],
+    "Decal": [
+        "CustomizationRarity",
+        "CustomizationType"
+    ],
+    "DropTeam": [
+        "CharacterPreset"
+    ],
+    "GameMode": [
+        "BotNames",
+        "HonorReward"
+    ],
+    "Material": [
+        "CustomizationRarity",
+        "CustomizationType"
+    ],
+    "Module": [
+        "CharacterModule",
+        "Faction",
+        "ModuleClass",
+        "ModuleRarity",
+        "ModuleSocketType",
+        "ModuleStat",
+        "ModuleStatsTable",
+        "ModuleTag",
+        "ModuleType",
+        "ScrapReward",
+        "UpgradeCost"
+    ],
+    "ModuleCategory": [
+        "ModuleStat"
+    ],
+    "ModuleClass": [
+        "CharacterClass"
+    ],
+    "ModuleRarity": [
+        "Rarity"
+    ],
+    "ModuleSocketType": [
+        "ModuleType"
+    ],
+    "ModuleStatsTable": [
+        "ModuleStat"
+    ],
+    "ModuleType": [
+        "ModuleCategory"
+    ],
+    "Pilot": [
+        "Currency",
+        "Faction",
+        "PilotClass",
+        "PilotPersonality",
+        "PilotTalent",
+        "PilotTalentType",
+        "PilotType"
+    ],
+    "PilotTalent": [
+        "ModuleStat",
+        "ModuleTag"
+    ],
+    "PilotType": [
+        "GroupReward",
+        "Rarity"
+    ],
+    "Powerup": [
+        "Ability"
+    ],
+    "ProgressionTable": [
+        "ContentUnlock",
+        "Currency",
+        "Decal",
+        "Material",
+        "Module",
+        "Pilot",
+        "Skin",
+        "Weathering"
+    ],
+    "ScrapReward": [
+        "Currency"
+    ],
+    "Skin": [
+        "CustomizationRarity"
+    ],
+    "UpgradeCost": [
+        "Currency"
+    ],
+    "Weathering": [
+        "CustomizationRarity",
+        "CustomizationType"
+    ]
+}
