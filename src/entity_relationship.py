@@ -235,7 +235,7 @@ def get_dependencies(ref_structs: dict[str, dict]):
         logger.info(f"Dependencies for {class_name}: {class_dependencies}")
 
     # Output to file
-    with open('dependencies.json', 'w', encoding='utf-8') as f:
+    with open('entity_dependencies.json', 'w', encoding='utf-8') as f:
         json.dump(dependencies, f, indent=4)
 
     return dependencies
