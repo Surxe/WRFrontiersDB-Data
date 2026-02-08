@@ -1,0 +1,353 @@
+{
+    "DA_Bot_1Robot_Dropteam_1.0": {
+        "id": "DA_Bot_1Robot_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulgasari.0"
+        ]
+    },
+    "DA_Bot_1Robot_Dropteam_2.0": {
+        "id": "DA_Bot_1Robot_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0"
+        ]
+    },
+    "DA_Bot_1Robot_Dropteam_3.0": {
+        "id": "DA_Bot_1Robot_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0"
+        ]
+    },
+    "DA_Bot_2Robots_Dropteam_1.0": {
+        "id": "DA_Bot_2Robots_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotRaven.0"
+        ]
+    },
+    "DA_Bot_2Robots_Dropteam_2.0": {
+        "id": "DA_Bot_2Robots_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotHarpy.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulgasari.0"
+        ]
+    },
+    "DA_Bot_2Robots_Dropteam_3.0": {
+        "id": "DA_Bot_2Robots_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotFury.0"
+        ]
+    },
+    "DA_Bot_3robots_Dropteam_1.0": {
+        "id": "DA_Bot_3robots_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotGriffin.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulgasari.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotAres.0"
+        ]
+    },
+    "DA_Bot_3robots_Dropteam_2.0": {
+        "id": "DA_Bot_3robots_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRavana.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotFenrir.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotAres.0"
+        ]
+    },
+    "DA_Bot_3robots_Dropteam_3.0": {
+        "id": "DA_Bot_3robots_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotFury.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotHarpy.0"
+        ]
+    },
+    "DA_Bot_4Robots_Dropteam_1.0": {
+        "id": "DA_Bot_4Robots_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotTyphon.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotPurifier.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotLancelot.0"
+        ]
+    },
+    "DA_Bot_4Robots_Dropteam_2.0": {
+        "id": "DA_Bot_4Robots_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulgasari.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotVarangian.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotRavana.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotOrochi.0"
+        ]
+    },
+    "DA_Bot_4Robots_Dropteam_3.0": {
+        "id": "DA_Bot_4Robots_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRaven.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotAres.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotSiren.0"
+        ]
+    },
+    "DA_Bot_5Robots_Dropteam_1.0": {
+        "id": "DA_Bot_5Robots_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariPulsar.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FuryFowler.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotZeus.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_HarpyRampantRailgun.0"
+        ]
+    },
+    "DA_Bot_5Robots_Dropteam_2.0": {
+        "id": "DA_Bot_5Robots_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyphonShocktrain.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierShredder.0"
+        ]
+    },
+    "DA_Bot_5Robots_Dropteam_3.0": {
+        "id": "DA_Bot_5Robots_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotTyphon.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotVarangian.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotSiren.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotFenrir.0"
+        ]
+    },
+    "DA_Bot_Advanced_Dropteam_1.0": {
+        "id": "DA_Bot_Advanced_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiShocktrain.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Advanced_Dropteam_2.0": {
+        "id": "DA_Bot_Advanced_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierTrebuchet.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaShredder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FuryLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim.0"
+        ]
+    },
+    "DA_Bot_Advanced_Dropteam_3.0": {
+        "id": "DA_Bot_Advanced_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenFowler.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenVortex2.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Advanced_Dropteam_4.0": {
+        "id": "DA_Bot_Advanced_Dropteam_4.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaShredder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiShocktrain.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim.0"
+        ]
+    },
+    "DA_Bot_Advanced_Dropteam_5.0": {
+        "id": "DA_Bot_Advanced_Dropteam_5.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenFowlerQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyphonScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FenrirPulsar.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Beginner_Dropteam_1.0": {
+        "id": "DA_Bot_Beginner_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FenrirIncinerator.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FuryFowler.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_HarpyDragoon.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyphonTrebuchet.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Beginner_Dropteam_2.0": {
+        "id": "DA_Bot_Beginner_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiShocktrain.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Beginner_Dropteam_3.0": {
+        "id": "DA_Bot_Beginner_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariPulsar.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiTrident.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Beginner_Dropteam_4.0": {
+        "id": "DA_Bot_Beginner_Dropteam_4.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenZeusRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FenrirPulsar.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Intermediate_Dropteam_1.0": {
+        "id": "DA_Bot_Intermediate_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Intermediate_Dropteam_2.0": {
+        "id": "DA_Bot_Intermediate_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRaven.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotThunder.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Intermediate_Dropteam_3.0": {
+        "id": "DA_Bot_Intermediate_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenFowlerQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LokiLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenZeusRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Intermediate_Dropteam_4.0": {
+        "id": "DA_Bot_Intermediate_Dropteam_4.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPurifier.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Intermediate_Dropteam_5.0": {
+        "id": "DA_Bot_Intermediate_Dropteam_5.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FenrirIncinerator.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_HarpyDragoon.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_1.0": {
+        "id": "DA_Bot_Professional_Dropteam_1.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresScatter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariPulsar.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierShredder.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_2.0": {
+        "id": "DA_Bot_Professional_Dropteam_2.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulwarkQuantum.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_BulgasariHalo.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenZeusRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_ScrubberMatriarch.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_3.0": {
+        "id": "DA_Bot_Professional_Dropteam_3.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyphonPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaShredder.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomIncinerator.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_PurifierTrebuchet.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim_Jigsaw.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_4.0": {
+        "id": "DA_Bot_Professional_Dropteam_4.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_HarpyDragoon.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianGozer.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyphonPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrOrkan.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavanaRampant.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_5.0": {
+        "id": "DA_Bot_Professional_Dropteam_5.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_FenrirIncinerator.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_SirenPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinRailgun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_HarpyFowler.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_6.0": {
+        "id": "DA_Bot_Professional_Dropteam_6.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_GriffinStickyGun.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_TyrZeus.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_VarangianPunisher.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_AresVortex.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ]
+    },
+    "DA_Bot_Professional_Dropteam_7.0": {
+        "id": "DA_Bot_Professional_Dropteam_7.0",
+        "character_presets_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Bot_PhantomScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_FuryLighter.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_OrochiScourge.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_RavenTrident.0",
+            "OBJID_CharacterPreset::DA_Preset_Bot_LancelotZeus.0",
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim_Jigsaw.0"
+        ]
+    }
+}
