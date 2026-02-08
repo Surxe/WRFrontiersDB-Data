@@ -4,7 +4,12 @@
         "name": {
             "Key": "T_Stickers_1001",
             "TableNamespace": "C_Customization",
-            "en": "Meritus movement"
+            "en": "First Strike"
+        },
+        "description": {
+            "Key": "DA_Decal_Com_FasterThanLighting_desc",
+            "TableNamespace": "C_Customization",
+            "en": "A campaign badge issued to Freecon Peacekeepers after a first combat deployment."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_0",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -17,6 +22,11 @@
             "TableNamespace": "C_Customization",
             "en": "Mechanic"
         },
+        "description": {
+            "Key": "DA_Decal_Com_Mechanic_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Pilots are necessary, but the mechanics are vital."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_10",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Common.0"
@@ -26,7 +36,12 @@
         "name": {
             "Key": "T_Stickers_1022",
             "TableNamespace": "C_Customization",
-            "en": "Botanist"
+            "en": "Green Thumb"
+        },
+        "description": {
+            "Key": "DA_Decal_Rare_Horticulturist_desc",
+            "TableNamespace": "C_Customization",
+            "en": "If the Dominions aren't fighting over mineral resources, then fighting over farmland is next on the list."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_21",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -37,7 +52,12 @@
         "name": {
             "Key": "T_Stickers_1006",
             "TableNamespace": "C_Customization",
-            "en": "Patchwork Bot"
+            "en": "Patchwork"
+        },
+        "description": {
+            "Key": "DA_Decal_Rare_ItsAPrototype_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Prototypes are rarely deployed more than once."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_12",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -48,7 +68,12 @@
         "name": {
             "Key": "T_Stickers_1010",
             "TableNamespace": "C_Customization",
-            "en": "Spacefarer"
+            "en": "Escape Velocity"
+        },
+        "description": {
+            "Key": "DA_Decal_Rare_OldSchoolSpacefarer_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Back in the day, space travel was done the hard way."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_4",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -61,6 +86,11 @@
             "TableNamespace": "C_Customization",
             "en": "Frontier Veteran"
         },
+        "description": {
+            "Key": "DA_Decal_Uncom_GrizzledVet_desc",
+            "TableNamespace": "C_Customization",
+            "en": "A badge worn by long-standing Pilots Union members."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_18",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Uncommon.0"
@@ -70,7 +100,12 @@
         "name": {
             "Key": "T_Stickers_1003",
             "TableNamespace": "C_Customization",
-            "en": "Wild Ten Colonizer"
+            "en": "Wild Ten Settler"
+        },
+        "description": {
+            "Key": "DA_Decal_Uncom_WildTenColonizer_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Not just a new solar system, but a place of second chances."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_2",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -81,7 +116,12 @@
         "name": {
             "Key": "T_Stickers_1017",
             "TableNamespace": "C_Customization",
-            "en": "Attention"
+            "en": "Attention Please"
+        },
+        "description": {
+            "Key": "DA_Decal_Uni_AttentionNow_desc",
+            "TableNamespace": "C_Customization",
+            "en": "In battle, there is no place for sleepyheads."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_15",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -94,6 +134,11 @@
             "TableNamespace": "C_Customization",
             "en": "Bullseye"
         },
+        "description": {
+            "Key": "DA_Sticker_Com_Bullseye_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Always on target."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_42",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Common.0"
@@ -103,7 +148,12 @@
         "name": {
             "Key": "DA_Sticker_Com_Mechanics",
             "TableNamespace": "C_Customization",
-            "en": "Mechanics"
+            "en": "Inner Workings"
+        },
+        "description": {
+            "Key": "DA_Sticker_Com_Mechanics_desc",
+            "TableNamespace": "C_Customization",
+            "en": "There's no magic behind these robots, they are wonders of engineering."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_40",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -116,6 +166,11 @@
             "TableNamespace": "C_Customization",
             "en": "Warp Gate"
         },
+        "description": {
+            "Key": "DA_Sticker_Rare_WarpGate_desc",
+            "TableNamespace": "C_Customization",
+            "en": "The way of the world, the key to the future."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_43",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Rare.0"
@@ -126,6 +181,11 @@
             "Key": "DA_Sticker_UnCom_DSC",
             "TableNamespace": "C_Customization",
             "en": "DSC"
+        },
+        "description": {
+            "Key": "DA_Sticker_UnCom_DSC_desc",
+            "TableNamespace": "C_Customization",
+            "en": "The biggest arms manufacturer of the Big Five eventually folded into Freecon to fuel its expansion."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_32",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -138,6 +198,11 @@
             "TableNamespace": "C_Customization",
             "en": "EvoLife"
         },
+        "description": {
+            "Key": "DA_Sticker_UnCom_EvoLife_desc",
+            "TableNamespace": "C_Customization",
+            "en": "What Mayflower formed to fight against. Innovators of genetic manipulation and a seed of what now became FortEvo."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_34",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Uncommon.0"
@@ -147,7 +212,12 @@
         "name": {
             "Key": "DA_Sticker_UnCom_Icarus",
             "TableNamespace": "C_Customization",
-            "en": "Icarus"
+            "en": "Icarus Technologies"
+        },
+        "description": {
+            "Key": "DA_Sticker_UnCom_Icarus_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Masters of AI, mechanical augmentations, and literary allusions. Merged into FortEvo decades ago."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_33",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
@@ -160,6 +230,11 @@
             "TableNamespace": "C_Customization",
             "en": "SpaceTech"
         },
+        "description": {
+            "Key": "DA_Sticker_UnCom_SpaceTech_desc",
+            "TableNamespace": "C_Customization",
+            "en": "First megacorp to ever reach Mars. Its successors now pioneer long-range warp travel within Freecon."
+        },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_30",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",
         "customization_rarity_ref": "OBJID_CustomizationRarity::DA_CustomizationItemRarity_Uncommon.0"
@@ -169,7 +244,12 @@
         "name": {
             "Key": "DA_Sticker_UnCom_YanDi",
             "TableNamespace": "C_Customization",
-            "en": "Yan-Di"
+            "en": "Yan-di Ventures"
+        },
+        "description": {
+            "Key": "DA_Sticker_UnCom_YanDi_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Specialists in finance and energy production. Good at counting money and throwing lavish parties."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/Art/TechnicalMaterials/RobotCustomization/DecalsIcons/T_Stickers_Icon_31",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Decal.0",

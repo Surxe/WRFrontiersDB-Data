@@ -4,7 +4,12 @@
         "name": {
             "Key": "DA_WeatheringCom_S1_Free_Dirt_01",
             "TableNamespace": "C_Customization",
-            "en": "Dusty"
+            "en": "Dust"
+        },
+        "description": {
+            "Key": "DA_WeatheringCom_S0_14_Dirt_02_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Just enough dirt to convey pilot's effortless elegance."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Customization/Weatherings/T_WeatheringCom_S0_14_Dirt_02",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Weathering.0",
@@ -16,6 +21,11 @@
             "Key": "DA_Weathering_0_15_MarsDust_01",
             "TableNamespace": "C_Customization",
             "en": "Martian Dust"
+        },
+        "description": {
+            "Key": "DA_Weathering_0_15_MarsDust_01_desc",
+            "TableNamespace": "C_Customization",
+            "en": "Wherever your robot goes, a little bit of home goes with it. Wear this with pride."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Customization/Weatherings/T_Weathering_0_15_MarsDust_01",
         "customization_type_ref": "OBJID_CustomizationType::DA_CustomizationItemType_Weathering.0",

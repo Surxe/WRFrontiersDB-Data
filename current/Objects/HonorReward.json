@@ -49,6 +49,21 @@
         },
         "processing_time": "Frame"
     },
+    "DA_Honor_Assist_SPH.0": {
+        "id": "DA_Honor_Assist_SPH.0",
+        "honor_points": 12.0,
+        "name": {
+            "Key": "Kill_Assists",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Kill Assists"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TotalAssists"
+            }
+        },
+        "processing_time": "Frame"
+    },
     "DA_Honor_Assist_TDM.0": {
         "id": "DA_Honor_Assist_TDM.0",
         "honor_points": 13.0,
@@ -161,6 +176,20 @@
         },
         "processing_time": "Frame"
     },
+    "DA_Honor_HoldingWarpProbe_SPH.1": {
+        "id": "DA_Honor_HoldingWarpProbe_SPH.1",
+        "honor_points": 3.0,
+        "name": {
+            "Key": "WarpProbe_Hold",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Holding Warp Probe"
+        },
+        "condition": {
+            "PointsForHold": 1.0
+        },
+        "processing_time": "Frame",
+        "b_incremental": true
+    },
     "DA_Honor_KillRobot_BCN.0": {
         "id": "DA_Honor_KillRobot_BCN.0",
         "honor_points": 15.0,
@@ -179,6 +208,21 @@
     "DA_Honor_KillRobot_ELM.0": {
         "id": "DA_Honor_KillRobot_ELM.0",
         "honor_points": 20.0,
+        "name": {
+            "Key": "Robots_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Robots Destroyed"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "MechKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillRobot_SPH.0": {
+        "id": "DA_Honor_KillRobot_SPH.0",
+        "honor_points": 15.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -224,6 +268,21 @@
     "DA_Honor_KillTitan_ELM.0": {
         "id": "DA_Honor_KillTitan_ELM.0",
         "honor_points": 20.0,
+        "name": {
+            "Key": "Titans_Destroyed",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Titan Destroyer"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "TitanKills"
+            }
+        },
+        "processing_time": "Frame"
+    },
+    "DA_Honor_KillTitan_SPH.0": {
+        "id": "DA_Honor_KillTitan_SPH.0",
+        "honor_points": 25.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -399,6 +458,21 @@
         },
         "b_incremental": true
     },
+    "DA_Honor_Top1Damage_SPH.0": {
+        "id": "DA_Honor_Top1Damage_SPH.0",
+        "honor_points": 20.0,
+        "name": {
+            "Key": "Damage_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 1st place"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
     "DA_Honor_Top1Damage_TDM.0": {
         "id": "DA_Honor_Top1Damage_TDM.0",
         "honor_points": 75.0,
@@ -452,6 +526,21 @@
         "condition": {
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top1HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top1HoldWarpProbe_SPH.0",
+        "honor_points": 40.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top1",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top1"
+        },
+        "condition": {
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
             }
         },
         "b_incremental": true
@@ -575,6 +664,22 @@
         },
         "b_incremental": true
     },
+    "DA_Honor_Top2Damage_SPH.0": {
+        "id": "DA_Honor_Top2Damage_SPH.0",
+        "honor_points": 15.0,
+        "name": {
+            "Key": "Damage_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 2nd place"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
     "DA_Honor_Top2Damage_TDM.0": {
         "id": "DA_Honor_Top2Damage_TDM.0",
         "honor_points": 65.0,
@@ -632,6 +737,22 @@
             "Place": 1,
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top2HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top2HoldWarpProbe_SPH.0",
+        "honor_points": 35.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top2",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top2"
+        },
+        "condition": {
+            "Place": 1,
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
             }
         },
         "b_incremental": true
@@ -758,6 +879,22 @@
         },
         "b_incremental": true
     },
+    "DA_Honor_Top3Damage_SPH.0": {
+        "id": "DA_Honor_Top3Damage_SPH.0",
+        "honor_points": 10.0,
+        "name": {
+            "Key": "Damage_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Damage: 3rd place"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "DamageTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
     "DA_Honor_Top3Damage_TDM.0": {
         "id": "DA_Honor_Top3Damage_TDM.0",
         "honor_points": 45.0,
@@ -815,6 +952,22 @@
             "Place": 2,
             "PlayerStateProperty": {
                 "PropertyName": "HealTotalOut"
+            }
+        },
+        "b_incremental": true
+    },
+    "DA_Honor_Top3HoldWarpProbe_SPH.0": {
+        "id": "DA_Honor_Top3HoldWarpProbe_SPH.0",
+        "honor_points": 25.0,
+        "name": {
+            "Key": "HoldWarpProbe_Top3",
+            "TableNamespace": "ST_Honor_Categories",
+            "en": "Hold Warp Probes: Top3"
+        },
+        "condition": {
+            "Place": 2,
+            "PlayerStateProperty": {
+                "PropertyName": "BeaconHoldTime"
             }
         },
         "b_incremental": true

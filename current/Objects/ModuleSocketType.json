@@ -260,17 +260,97 @@
         ],
         "required": true
     },
+    "DA_ModuleSocketType_TitanSpireShoulderL.0": {
+        "id": "DA_ModuleSocketType_TitanSpireShoulderL.0",
+        "name": {
+            "Key": "HNG_ShoulderL",
+            "TableNamespace": "Component_Tags",
+            "en": "Left Shoulder"
+        },
+        "short_name": {
+            "Key": "HNG_ShoulderL",
+            "TableNamespace": "Component_Tags",
+            "en": "Left Shoulder"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
+        "tag_color": "99BDEDFE",
+        "b_can_be_changed_by_user": false,
+        "compatible_module_types_refs": [
+            "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderL.0"
+        ],
+        "required": true
+    },
+    "DA_ModuleSocketType_TitanSpireShoulderR.0": {
+        "id": "DA_ModuleSocketType_TitanSpireShoulderR.0",
+        "name": {
+            "Key": "HNG_ShoulderR",
+            "TableNamespace": "Component_Tags",
+            "en": "Right Shoulder"
+        },
+        "short_name": {
+            "Key": "HNG_ShoulderR",
+            "TableNamespace": "Component_Tags",
+            "en": "Right Shoulder"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
+        "tag_color": "99BDEDFE",
+        "b_can_be_changed_by_user": false,
+        "compatible_module_types_refs": [
+            "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderR.0"
+        ],
+        "required": true
+    },
+    "DA_ModuleSocketType_TitanSpireTorso.0": {
+        "id": "DA_ModuleSocketType_TitanSpireTorso.0",
+        "name": {
+            "Key": "HNG_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Torso"
+        },
+        "short_name": {
+            "Key": "HNG_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Torso"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
+        "tag_color": "99BDEDFE",
+        "tag_background_color": "204A30",
+        "b_can_be_changed_by_user": false,
+        "compatible_module_types_refs": [
+            "OBJID_ModuleType::DA_ModuleType_TitanSpireTorso.0"
+        ],
+        "required": true
+    },
+    "DA_ModuleSocketType_TitanWeaponAssault.0": {
+        "id": "DA_ModuleSocketType_TitanWeaponAssault.0",
+        "name": {
+            "Key": "HNG_Weapon",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Light Weapon"
+        },
+        "short_name": {
+            "Key": "HNG_Weapon",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Light Weapon"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
+        "tag_color": "99BDEDFE",
+        "tag_background_color": "204A30",
+        "compatible_module_types_refs": [
+            "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
+        ]
+    },
     "DA_ModuleSocketType_TitanWeaponFlanker.0": {
         "id": "DA_ModuleSocketType_TitanWeaponFlanker.0",
         "name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "short_name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
         "tag_color": "99BDEDFE",
@@ -284,12 +364,12 @@
         "name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "short_name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
         "tag_color": "99BDEDFE",
@@ -303,12 +383,12 @@
         "name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "short_name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
         "tag_color": "99BDEDFE",
@@ -342,12 +422,12 @@
         "name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "short_name": {
             "Key": "HNG_Weapon",
             "TableNamespace": "UI_ConstructorInventory",
-            "en": "Weapon"
+            "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_LightHardpoint",
         "tag_color": "99BDEDFE",
