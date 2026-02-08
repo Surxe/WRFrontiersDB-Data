@@ -10,11 +10,6 @@
             "MaxAbilitiesInvocationsCount": 1
         }
     },
-    "BP_PowerUp_AttachBuffs": {
-        "id": "BP_PowerUp_AttachBuffs",
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Weapons/T_MiniWeaponProgress",
-        "icon_hex": "FF00FF"
-    },
     "BP_PowerUp_DoubleDamage": {
         "id": "BP_PowerUp_DoubleDamage",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapDoubleDamage",
@@ -31,15 +26,16 @@
         },
         "buff_duration": 30.0
     },
+    "BP_PowerUp_GameModeScore": {
+        "id": "BP_PowerUp_GameModeScore",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapDoubleDamage",
+        "icon_hex": "FCB997",
+        "score": 1
+    },
     "BP_PowerUp_RechargeAbilities": {
         "id": "BP_PowerUp_RechargeAbilities",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapRechargeAbilities",
         "icon_hex": "8FEFA2"
-    },
-    "BP_PowerUp_TeamBuffs": {
-        "id": "BP_PowerUp_TeamBuffs",
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Weapons/T_MiniWeaponProgress",
-        "icon_hex": "FF00FF"
     },
     "BP_PowerUp_TeamDamageResist": {
         "id": "BP_PowerUp_TeamDamageResist",
