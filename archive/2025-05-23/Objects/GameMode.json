@@ -1,0 +1,1237 @@
+{
+    "DA_GameMode_BeaconRush.0": {
+        "id": "DA_GameMode_BeaconRush.0",
+        "display_name": {
+            "Key": "HUD_TitleBeaconRush",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Warp Rush"
+        },
+        "description": {
+            "Key": "HUD_DescBeaconRush",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "There are several Warp Gates on the map. Your task is to take and hold them. The team that holds the most earns points. To win, either reach the points target first or eliminate the opposition."
+        },
+        "match_rewards": {
+            "CreditsPerHonorPoint": 0.96,
+            "ReputationPerHonorPoint": 0.6,
+            "PilotExpMultipliers": [
+                {
+                    "HonorPoints": 100,
+                    "Multiplier": 0.66
+                },
+                {
+                    "HonorPoints": 200,
+                    "Multiplier": 0.48
+                },
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.24
+                }
+            ]
+        },
+        "base_protection_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 1.0
+                },
+                {
+                    "what": "IncomingDamage",
+                    "operator": "Multiply",
+                    "value": 0.1
+                }
+            ],
+            "Lifetime": 10.0,
+            "StackMode": "Reset"
+        },
+        "titan_settings": {
+            "TitanCharge": 1000.0,
+            "MechKill": 50.0,
+            "TitanKill": 200.0,
+            "BeaconSteal": 75.0,
+            "BeaconCapture": 75.0,
+            "LastMechLost": 200.0,
+            "TitansDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -5.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -4.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -3.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -2.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1.0,
+                            "Value": 0.7,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 2.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3.0,
+                            "Value": 0.3,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 4.0,
+                            "Value": 0.1,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "ScoreDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1500.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1000.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -500.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -250.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 250.0,
+                            "Value": 0.85,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 500.0,
+                            "Value": 0.75,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1000.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1500.0,
+                            "Value": 0.2,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            }
+        },
+        "misc": {
+            "PointsPerBeaconsDiff": {
+                "0": 2,
+                "1": 4,
+                "2": 5,
+                "3": 5,
+                "4": 6,
+                "5": 6,
+                "6": 6,
+                "7": 6,
+                "8": 6
+            },
+            "TeamControlsMoreBeaconsThreshold": 0.55,
+            "MatchTimeLimitMinutes": 15,
+            "KillCamLifetime": 5.0,
+            "DropTimeLimitSeconds": 15.0,
+            "RegenPercent": 1.0,
+            "RegenDelay": 6.5,
+            "RegenTickDuration": 0.125,
+            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
+            "honor_rewards_refs": [
+                "OBJID_HonorReward::DA_Honor_CaptureBeacon.0",
+                "OBJID_HonorReward::DA_Honor_Assist_BCN.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_BCN.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_BCN.0",
+                "OBJID_HonorReward::DA_Honor_WinCombat.0",
+                "OBJID_HonorReward::DA_Honor_Top1Damage_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top2Damage_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top3Damage_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top1MechKills_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top2MechKills_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top3MechKills_BCN.0",
+                "OBJID_HonorReward::DA_Honor_TopCapturedBeacons.0",
+                "OBJID_HonorReward::DA_Honor_TopTitanKills_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top1Assists_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top2Assists_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top3Assists_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top1Heal_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top2Heal_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Top3Heal_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Damage_BCN.0",
+                "OBJID_HonorReward::DA_Honor_Heal_BCN.0",
+                "OBJID_HonorReward::DA_Honor_MechAssist_Boost_BCN.1",
+                "OBJID_HonorReward::DA_Honor_TitanAssist_Boost_BCN.1"
+            ]
+        }
+    },
+    "DA_GameMode_Elimination.0": {
+        "id": "DA_GameMode_Elimination.0",
+        "display_name": {
+            "Key": "HUD_TitleElimination",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Last Robot Standing"
+        },
+        "description": {
+            "Key": "HUD_DescElimination",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "The first team to destroy all opposing robots wins the battle. If the time runs out, the team with the most remaining robots wins."
+        },
+        "match_rewards": {
+            "CreditsPerHonorPoint": 0.96,
+            "ReputationPerHonorPoint": 0.6,
+            "PilotExpMultipliers": [
+                {
+                    "HonorPoints": 100,
+                    "Multiplier": 0.66
+                },
+                {
+                    "HonorPoints": 200,
+                    "Multiplier": 0.48
+                },
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.24
+                }
+            ]
+        },
+        "base_protection_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 1.0
+                },
+                {
+                    "what": "IncomingDamage",
+                    "operator": "Multiply",
+                    "value": 0.1
+                }
+            ],
+            "Lifetime": 10.0,
+            "StackMode": "Reset"
+        },
+        "titan_settings": {
+            "TitanCharge": 1000.0,
+            "MechKill": 180.0,
+            "TitanKill": 400.0,
+            "BeaconSteal": 50.0,
+            "BeaconCapture": 50.0,
+            "LastMechLost": 300.0,
+            "TitansDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -5.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -4.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -3.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -2.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1.0,
+                            "Value": 0.7,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 2.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3.0,
+                            "Value": 0.3,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 4.0,
+                            "Value": 0.1,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "ScoreDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1500.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1000.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -500.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -250.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 250.0,
+                            "Value": 0.85,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 500.0,
+                            "Value": 0.75,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1000.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1500.0,
+                            "Value": 0.2,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "bCanSpawnTitanWhileAlive": false
+        },
+        "misc": {
+            "MatchTimeLimitMinutes": 15,
+            "KillCamLifetime": 5.0,
+            "DropTimeLimitSeconds": 15.0,
+            "RegenPercent": 1.0,
+            "RegenDelay": 6.5,
+            "RegenTickDuration": 0.125,
+            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
+            "honor_rewards_refs": [
+                "OBJID_HonorReward::DA_Honor_Assist_ELM.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_ELM.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_ELM.0",
+                "OBJID_HonorReward::DA_Honor_WinCombat.0",
+                "OBJID_HonorReward::DA_Honor_Top1Damage_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Damage_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Damage_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top1MechKills_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top2MechKills_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top3MechKills_ELM.0",
+                "OBJID_HonorReward::DA_Honor_TopTitanKills_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top1Assists_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Assists_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Assists_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top1Heal_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Heal_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Heal_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Damage_ELM.0",
+                "OBJID_HonorReward::DA_Honor_Heal_ELM.0",
+                "OBJID_HonorReward::DA_Honor_MechAssist_Boost_ELM.1",
+                "OBJID_HonorReward::DA_Honor_TitanAssist_Boost_ELM.1"
+            ]
+        }
+    },
+    "DA_GameMode_Spearhead.0": {
+        "id": "DA_GameMode_Spearhead.0",
+        "display_name": {
+            "Key": "HUD_TitleSpearhead",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Spearhead"
+        },
+        "description": {
+            "Key": "HUD_DescSpearhead",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Capture and defend Warp Probes to earn points.\r\nWhen a Warp Probe is depleted, a new one will appear on a marked spot. \r\nContinue holding Warp Probes until your team reaches score limit."
+        },
+        "match_rewards": {
+            "CreditsPerHonorPoint": 0.8,
+            "ReputationPerHonorPoint": 0.5,
+            "PilotExpMultipliers": [
+                {
+                    "HonorPoints": 100,
+                    "Multiplier": 0.55
+                },
+                {
+                    "HonorPoints": 200,
+                    "Multiplier": 0.4
+                },
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.2
+                }
+            ]
+        },
+        "base_protection_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 1.0
+                },
+                {
+                    "what": "IncomingDamage",
+                    "operator": "Multiply",
+                    "value": 0.1
+                }
+            ],
+            "Lifetime": 10.0,
+            "StackMode": "Reset"
+        },
+        "titan_settings": {
+            "TitanCharge": 1000.0,
+            "MechKill": 50.0,
+            "TitanKill": 200.0,
+            "BeaconSteal": 75.0,
+            "BeaconCapture": 75.0,
+            "LastMechLost": 200.0,
+            "TitansDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -5.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -4.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -3.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -2.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1.0,
+                            "Value": 0.7,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 2.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3.0,
+                            "Value": 0.3,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 4.0,
+                            "Value": 0.1,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "ScoreDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1500.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1000.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -500.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -250.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 250.0,
+                            "Value": 0.85,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 500.0,
+                            "Value": 0.75,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1000.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1500.0,
+                            "Value": 0.2,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "bCanSpawnTitanWhileAlive": false
+        },
+        "misc": {
+            "WarpProbeSelectionMethod": "SequentiallyByOrder",
+            "FirstWarpProbeSettings": "Randomly",
+            "WinScore": 1200,
+            "MatchTimeLimitMinutes": 15,
+            "KillCamLifetime": 5.0,
+            "DropTimeLimitSeconds": 15.0,
+            "RegenPercent": 1.0,
+            "RegenDelay": 6.5,
+            "RegenTickDuration": 0.125,
+            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0"
+        }
+    },
+    "DA_GameMode_TeamDeathMatch.0": {
+        "id": "DA_GameMode_TeamDeathMatch.0",
+        "display_name": {
+            "Key": "HUD_TitleTeamDeathMatch",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Team Deathmatch"
+        },
+        "description": {
+            "Key": "HUD_DescTeamDeathMatch",
+            "TableNamespace": "ST_CombatHUD",
+            "en": "Destroying an enemy robot scores 1 point for your team. The first team to score {goal} points wins. Your supply of robots is unlimited."
+        },
+        "match_rewards": {
+            "CreditsPerHonorPoint": 0.96,
+            "ReputationPerHonorPoint": 0.6,
+            "PilotExpMultipliers": [
+                {
+                    "HonorPoints": 100,
+                    "Multiplier": 0.66
+                },
+                {
+                    "HonorPoints": 200,
+                    "Multiplier": 0.48
+                },
+                {
+                    "HonorPoints": 1000000,
+                    "Multiplier": 0.24
+                }
+            ]
+        },
+        "base_protection_buff": {
+            "Modifiers": [
+                {
+                    "what": "OutgoingDamage",
+                    "operator": "Multiply",
+                    "value": 1.0
+                },
+                {
+                    "what": "IncomingDamage",
+                    "operator": "Multiply",
+                    "value": 0.1
+                }
+            ],
+            "Lifetime": 10.0,
+            "StackMode": "Reset"
+        },
+        "titan_settings": {
+            "TitanCharge": 1000.0,
+            "MechKill": 90.0,
+            "TitanKill": 200.0,
+            "BeaconSteal": 75.0,
+            "BeaconCapture": 75.0,
+            "LastMechLost": 200.0,
+            "TitansDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -5.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -4.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -3.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -2.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1.0,
+                            "Value": 0.7,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 2.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3.0,
+                            "Value": 0.3,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 4.0,
+                            "Value": 0.1,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "ScoreDiff": {
+                "EditorCurveData": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1500.0,
+                            "Value": 3.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -1000.0,
+                            "Value": 2.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -500.0,
+                            "Value": 1.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": -250.0,
+                            "Value": 1.25,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 1.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 250.0,
+                            "Value": 0.85,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 500.0,
+                            "Value": 0.75,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1000.0,
+                            "Value": 0.5,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Constant",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1500.0,
+                            "Value": 0.2,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "bCanSpawnTitanWhileAlive": false
+        },
+        "misc": {
+            "ScorePerTitanKill": 2,
+            "InitialRobotBlockTimeSeconds": 150.0,
+            "RobotBlockTimeReductionOnMechKillSeconds": 0.0,
+            "RobotBlockTimeReductionOnTitanKillSeconds": 0.0,
+            "RobotBlockTimeReductionOnArmorDestructionSeconds": 0.0,
+            "TitanSpawnScoreThreshold": 0,
+            "WinScore": 30,
+            "MatchTimeLimitMinutes": 15,
+            "KillCamLifetime": 5.0,
+            "DropTimeLimitSeconds": 15.0,
+            "RegenPercent": 1.0,
+            "RegenDelay": 6.5,
+            "RegenTickDuration": 0.125,
+            "bot_names_ref": "OBJID_BotNames::DA_BotNames.0",
+            "honor_rewards_refs": [
+                "OBJID_HonorReward::DA_Honor_Assist_TDM.0",
+                "OBJID_HonorReward::DA_Honor_KillRobot_TDM.0",
+                "OBJID_HonorReward::DA_Honor_KillTitan_TDM.0",
+                "OBJID_HonorReward::DA_Honor_WinCombat.0",
+                "OBJID_HonorReward::DA_Honor_Top1Damage_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Damage_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Damage_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top1MechKills_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top2MechKills_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top3MechKills_TDM.0",
+                "OBJID_HonorReward::DA_Honor_TopTitanKills_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top1Assists_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Assists_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Assists_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top1Heal_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top2Heal_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Top3Heal_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Damage_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Heal_TDM.0",
+                "OBJID_HonorReward::DA_Honor_Assist_Boost_TDM.1"
+            ]
+        }
+    }
+}
