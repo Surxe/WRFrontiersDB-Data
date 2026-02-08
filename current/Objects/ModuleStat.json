@@ -11,6 +11,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "AbilParamBoost"
     },
@@ -44,6 +49,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "ActDuration",
         "decimal_places": 1
     },
@@ -59,6 +69,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "ActEfficiency"
     },
@@ -73,6 +88,11 @@
             "Key": "ModuleStat_Unit_Meters",
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 0.01,
         "short_key": "ActRadius"
@@ -98,6 +118,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "AmmoPerc"
     },
@@ -121,6 +146,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "ArmorBoost"
@@ -155,6 +185,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "BeaconTime"
     },
     "DA_ModuleStat_BlinkSpeed.0": {
@@ -168,6 +203,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_exponent": -1.0,
         "short_key": "BlinkSpeed",
@@ -194,6 +234,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_exponent": -1.0,
         "short_key": "CastDuration",
         "decimal_places": 1
@@ -210,6 +255,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_exponent": -1.0,
         "short_key": "CastDuration",
         "decimal_places": 2
@@ -225,6 +275,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "Chance"
@@ -270,6 +325,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "CD"
     },
     "DA_ModuleStat_CooldownReduction.0": {
@@ -283,6 +343,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "CDReduct"
@@ -308,6 +373,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "DmgBoost"
     },
@@ -323,6 +393,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "DmgResist"
     },
@@ -337,6 +412,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "DmgReturn"
@@ -362,6 +442,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.01,
         "short_key": "Dist"
     },
@@ -386,6 +471,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.01,
         "short_key": "DomeRad"
     },
@@ -400,6 +490,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "short_key": "Duration",
         "decimal_places": 1
@@ -416,6 +511,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "DurBoost"
     },
@@ -431,6 +531,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.01,
         "short_key": "EffDist"
     },
@@ -445,6 +550,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "Eff"
@@ -480,6 +590,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_exponent": -1.0,
         "short_key": "FadeSpeed",
         "decimal_places": 2
@@ -495,6 +610,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "Feedback"
@@ -529,6 +649,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "r/min"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "FireRate"
     },
     "DA_ModuleStat_FireRateBoost.0": {
@@ -542,6 +667,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "FireRateBoost"
@@ -558,6 +688,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m/s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.0001,
         "short_key": "Force",
         "decimal_places": 1
@@ -573,6 +708,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "short_key": "FreezeDur"
     },
@@ -597,6 +737,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "fuel units"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "FuelMax",
         "decimal_places": 1
     },
@@ -608,11 +753,15 @@
             "en": "Fuel Regeneration"
         },
         "unit_name": {
-            "Key": "ModuleStat_Unit_Fuel_Sec",
+            "Key": "ModuleStat_Unit_Fuel",
             "TableNamespace": "ModuleStatKeys",
-            "en": "fuel units/s"
+            "en": "fuel units"
         },
-        "unit_scaler": 10.0,
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "FuelReg",
         "decimal_places": 1
     },
@@ -627,6 +776,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "FuelRegBoost"
@@ -643,6 +797,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "HP_Cap"
     },
@@ -657,6 +816,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_baseline": 1.0,
         "unit_scaler": -100.0,
@@ -673,6 +837,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "HPLim"
@@ -707,6 +876,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "JamDur"
     },
     "DA_ModuleStat_JamReloadSlowdown.0": {
@@ -720,6 +894,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "JamRelSlow"
@@ -745,6 +924,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.01,
         "short_key": "MaxDist"
     },
@@ -759,6 +943,11 @@
             "Key": "ModuleStat_Unit_KM_H",
             "TableNamespace": "ModuleStatKeys",
             "en": "km/h"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 0.036,
         "short_key": "MaxSpeed"
@@ -793,6 +982,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.01,
         "short_key": "Range"
     },
@@ -807,6 +1001,11 @@
             "Key": "ModuleStat_Unit_Fuel",
             "TableNamespace": "ModuleStatKeys",
             "en": "fuel units"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "short_key": "RegenFuel",
         "decimal_places": 1
@@ -832,6 +1031,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "ReloadBoost"
     },
@@ -846,6 +1050,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "RldSpeedBoost"
@@ -862,6 +1071,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "short_key": "ReloadTime",
         "decimal_places": 2
@@ -888,6 +1102,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "SecCastDur",
         "decimal_places": 1
     },
@@ -911,6 +1130,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldBoost"
@@ -936,6 +1160,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "ShieldDelay"
     },
@@ -959,6 +1188,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldRegBoost"
@@ -985,6 +1219,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "short_key": "SignCD"
     },
     "DA_ModuleStat_SingulationRate.0": {
@@ -998,6 +1237,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_exponent": -1.0,
         "short_key": "SingulationRt",
@@ -1015,6 +1259,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "km/h"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 0.036,
         "short_key": "SpeedBoost"
     },
@@ -1029,6 +1278,11 @@
             "Key": "ModuleStat_Unit_Percents",
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 100.0,
         "short_key": "SpeedBoostTal"
@@ -1053,6 +1307,11 @@
             "Key": "ModuleStat_Unit_Seconds",
             "TableNamespace": "ModuleStatKeys",
             "en": "s"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_exponent": -1.0,
         "short_key": "TeleportSpeed",
@@ -1089,6 +1348,11 @@
             "TableNamespace": "ModuleStatKeys",
             "en": "%"
         },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
+        },
         "unit_scaler": 100.0,
         "short_key": "Vamp"
     },
@@ -1103,6 +1367,11 @@
             "Key": "ModuleStat_Unit_Meters",
             "TableNamespace": "ModuleStatKeys",
             "en": "m"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "ModuleStatPattern_Default"
         },
         "unit_scaler": 0.01,
         "short_key": "WallSize"
