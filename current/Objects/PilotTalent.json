@@ -2335,7 +2335,7 @@
         "description": {
             "Key": "TAL_desc_Ult_Sora",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Your shots have a {Chance} chance to hit all of the target's modules at once."
+            "en": "When Sora deals targeted damage directly to an enemy module, there is a {Chance} chance that the damage will ricochet into all other modules."
         },
         "ui_description": {
             "Key": "PilotHUD_Bounce",
@@ -2351,7 +2351,7 @@
         "stats": [
             {
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Chance.0",
-                "value": 0.05
+                "value": 0.15
             }
         ]
     }
