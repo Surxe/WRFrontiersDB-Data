@@ -5247,7 +5247,7 @@
         "description": {
             "Key": "ABL_descr_Mundus",
             "TableNamespace": "Ability_descripton",
-            "en": "Restores {RegenSpeed}% armor per second to itself for 8 seconds and creates a healing area within {ActRadius} of itself. If there is at least one allied robot in the area, both Ceres and all allies will receive twice the amount of repairs.  Cooldown {CD}."
+            "en": "Repairs {RegenSpeed}% of armor per second. If any allies are within {ActRadius}, repairs them as well and doubles the repair rate. Lasts 8 seconds."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
