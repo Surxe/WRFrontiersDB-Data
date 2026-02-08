@@ -273,6 +273,67 @@
         },
         "character_type": "Titan"
     },
+    "DA_ModuleType_TitanNornaChassis.0": {
+        "id": "DA_ModuleType_TitanNornaChassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "is_root_module": true,
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanNornaShoulderL.0": {
+        "id": "DA_ModuleType_TitanNornaShoulderL.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Left_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanNornaShoulderR.0": {
+        "id": "DA_ModuleType_TitanNornaShoulderR.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Right_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanNornaTorso.0": {
+        "id": "DA_ModuleType_TitanNornaTorso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
     "DA_ModuleType_TitanSpireChassis.0": {
         "id": "DA_ModuleType_TitanSpireChassis.0",
         "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
@@ -366,6 +427,21 @@
     },
     "DA_ModuleType_TitanWeaponFlanker.0": {
         "id": "DA_ModuleType_TitanWeaponFlanker.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeaponNorna.0": {
+        "id": "DA_ModuleType_TitanWeaponNorna.0",
         "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
         "name": {
             "Key": "CMP_Type_Titan_Weapon",

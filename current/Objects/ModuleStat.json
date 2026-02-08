@@ -1013,6 +1013,20 @@
         },
         "short_key": "PelvisArmor"
     },
+    "DA_ModuleStat_ProjLength.0": {
+        "id": "DA_ModuleStat_ProjLength.0",
+        "stat_name": {
+            "Key": "ModuleStat_ProjLength",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Projectile Length"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ProjLength"
+    },
     "DA_ModuleStat_Range.0": {
         "id": "DA_ModuleStat_Range.0",
         "stat_name": {
