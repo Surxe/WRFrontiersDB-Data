@@ -37,6 +37,20 @@
         },
         "short_key": "Accel"
     },
+    "DA_ModuleStat_ActiveCount.0": {
+        "id": "DA_ModuleStat_ActiveCount.0",
+        "stat_name": {
+            "Key": "ModuleStat_ActiveDuration",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Duration"
+        },
+        "unit_pattern": {
+            "Key": "ModuleStatPattern_Default",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "{Amount}{Unit}"
+        },
+        "short_key": "ActCount"
+    },
     "DA_ModuleStat_ActiveDuration.0": {
         "id": "DA_ModuleStat_ActiveDuration.0",
         "stat_name": {
