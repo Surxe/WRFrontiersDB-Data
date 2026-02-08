@@ -3120,7 +3120,7 @@
         },
         "misc": {
             "ReloadType": "ReloadWhileFire",
-            "VerticalAdjustmentAngle": 18.0
+            "bAllowAssistanceTrajectoryPrediction": false
         }
     },
     "BP_Weapon_Hive_L.0": {
@@ -4070,7 +4070,7 @@
             }
         },
         "misc": {
-            "VerticalAdjustmentAngle": 4.0
+            "bAllowAssistanceTrajectoryPrediction": false
         }
     },
     "BP_Weapon_Orkan.0": {

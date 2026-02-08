@@ -91,7 +91,8 @@
             "Key": "Content_InventorySell",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Sell Items"
-        }
+        },
+        "visible_in_ui": false
     },
     "DA_LeagueUnlock.0": {
         "id": "DA_LeagueUnlock.0",
@@ -163,7 +164,8 @@
             "Key": "Content_SellPilots_Unlock",
             "TableNamespace": "UI_ProgressionUnlocks",
             "en": "Dismiss pilot"
-        }
+        },
+        "visible_in_ui": false
     },
     "DA_ShopUnlock.0": {
         "id": "DA_ShopUnlock.0",
