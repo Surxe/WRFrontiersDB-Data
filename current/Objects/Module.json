@@ -22358,9 +22358,9 @@
                     "RangeDeath": 130002.0,
                     "SpreadX": 0.0,
                     "SpreadY": 0.0,
-                    "DamageNoArmor": 1600.0,
+                    "DamageNoArmor": 1000.0,
                     "AoeArmor": 1250.0,
-                    "AoeNoArmor": 1200.0,
+                    "AoeNoArmor": 800.0,
                     "ProjectileSpeed": 35000.0,
                     "ClipSize": 6,
                     "ProjectilesPerShot": 1,
@@ -23265,7 +23265,7 @@
                         ],
                         "AoeArmor": 832.0,
                         "AoeNoArmor": 428.0,
-                        "TimeToReload": 4.59
+                        "TimeToReload": 5.73
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl2",
@@ -23275,7 +23275,7 @@
                         ],
                         "AoeArmor": 853.0,
                         "AoeNoArmor": 428.0,
-                        "TimeToReload": 4.59
+                        "TimeToReload": 5.73
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl3",
@@ -23285,7 +23285,7 @@
                         ],
                         "AoeArmor": 853.0,
                         "AoeNoArmor": 451.0,
-                        "TimeToReload": 4.59
+                        "TimeToReload": 5.73
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl4",
@@ -23295,7 +23295,7 @@
                         ],
                         "AoeArmor": 875.0,
                         "AoeNoArmor": 451.0,
-                        "TimeToReload": 4.59
+                        "TimeToReload": 5.73
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl5",
@@ -23305,7 +23305,7 @@
                         ],
                         "AoeArmor": 875.0,
                         "AoeNoArmor": 451.0,
-                        "TimeToReload": 4.33
+                        "TimeToReload": 5.41
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl6",
@@ -23315,7 +23315,7 @@
                         ],
                         "AoeArmor": 888.0,
                         "AoeNoArmor": 451.0,
-                        "TimeToReload": 4.33
+                        "TimeToReload": 5.41
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl7",
@@ -23325,7 +23325,7 @@
                         ],
                         "AoeArmor": 888.0,
                         "AoeNoArmor": 470.0,
-                        "TimeToReload": 4.33
+                        "TimeToReload": 5.41
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl8",
@@ -23335,7 +23335,7 @@
                         ],
                         "AoeArmor": 902.0,
                         "AoeNoArmor": 470.0,
-                        "TimeToReload": 4.33
+                        "TimeToReload": 5.41
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl9",
@@ -23345,7 +23345,7 @@
                         ],
                         "AoeArmor": 902.0,
                         "AoeNoArmor": 470.0,
-                        "TimeToReload": 4.16
+                        "TimeToReload": 5.2
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl10",
@@ -23355,7 +23355,7 @@
                         ],
                         "AoeArmor": 911.0,
                         "AoeNoArmor": 470.0,
-                        "TimeToReload": 4.16
+                        "TimeToReload": 5.2
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl11",
@@ -23365,7 +23365,7 @@
                         ],
                         "AoeArmor": 911.0,
                         "AoeNoArmor": 490.0,
-                        "TimeToReload": 4.16
+                        "TimeToReload": 5.2
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl12",
@@ -23375,7 +23375,7 @@
                         ],
                         "AoeArmor": 920.0,
                         "AoeNoArmor": 490.0,
-                        "TimeToReload": 4.16
+                        "TimeToReload": 5.2
                     },
                     {
                         "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Noricum.0_lvl13",
@@ -23385,7 +23385,7 @@
                         ],
                         "AoeArmor": 920.0,
                         "AoeNoArmor": 490.0,
-                        "TimeToReload": 4.0
+                        "TimeToReload": 5.0
                     }
                 ]
             },
