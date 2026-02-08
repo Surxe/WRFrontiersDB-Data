@@ -5201,6 +5201,11 @@
     },
     "DA_Preset_Bot_BulgasariPulsar.0": {
         "id": "DA_Preset_Bot_BulgasariPulsar.0",
+        "name": {
+            "Key": "CMP_name_Bulgasari_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Bulgasari"
+        },
         "modules": {
             "None": {
                 "module_ref": "OBJID_Module::DA_Module_ChassisBulgasari.2",
@@ -5661,6 +5666,55 @@
         "is_factory_preset": false,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotAnansi.0": {
+        "id": "DA_Preset_DevbotAnansi.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi",
+        "name": {
+            "Key": "CMP_name_Anansi_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Anansi"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisAnansi.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAnansi.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAnansi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_MLx2.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAnansi.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Atrophy.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Dazzle.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotAres.0": {
         "id": "DA_Preset_DevbotAres.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres",
@@ -5815,6 +5869,60 @@
             }
         },
         "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotCeres.0": {
+        "id": "DA_Preset_DevbotCeres.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "name": {
+            "Key": "CMP_name_Demeter_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ceres"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisDemeter.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoDemeter.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderDemeter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderDemeter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
         "is_factory_preset": true,
         "character_type": "Mech"
     },
@@ -6193,6 +6301,60 @@
             }
         },
         "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
+    "DA_Preset_DevbotMesa.0": {
+        "id": "DA_Preset_DevbotMesa.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotMesa",
+        "name": {
+            "Key": "CMP_name_Mesa_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Mesa"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisMesa.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoMesa.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderMesa.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderMesa.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_AmmoGenerator.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
         "is_factory_preset": true,
         "character_type": "Mech"
     },
@@ -7872,7 +8034,7 @@
                 "level": 13
             },
             "Shoulder_Weapon_0": {
-                "module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0",
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Bayonet.0",
                 "parent_socket_name": "Shoulder_R",
                 "level": 13
             }
