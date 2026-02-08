@@ -32,16 +32,16 @@
 * Bulgasari's Eisenregen: Bombardiert ein Gebiet und fügt in einem Radius von {**Sekundär.x**}m allen Modulen {**Primär.x**} Schaden pro Rakete zu.
 * Bulwark's Absorptionssphäre: Mildert {**Primär.x**}s lang {**Sekundär.x**}% des eintreffenden Schadens. Projektile, die in der Sphäre aufgefangen werden, füllen deine Munition wieder auf.
 * Cyclops's Todesstrahl: Nach einer kurzen Verzögerung wird ein Energiestrahl entfesselt, der {**Sekundär.x**}s lang {**Primär.x**} Schaden verursacht. Dein Roboter kann sich nicht bewegen, solange dies aktiv ist.
-* Fenrir's Ragnarok: Burns off {**Sekundär.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Primär.x**}% of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Verbrennt {**Sekundär.Cx**}% deiner aktuellen Panzerung, um den Waffenschaden 10 Sekunden lang zu steigern. Wandelt während der Aktivität {**Primär.x**}% des zugefügten Schadens in Schild- und Panzerpunkte.
 * Fury's Warp-Nachladung: Füllt nach einer Verzögerung von {**Primär./**}s {**Sekundär.x**}% Munition wieder auf.
-* Griffin's Scrambler: Prevents enemies from locking on to allies within {**Primär.x**}m and splits all incoming damage between modules. Lasts {**Sekundär.x**}s. Any robot affected cannot be destroyed.
+* Griffin's Scrambler: Verhindert, dass Feinde Verbündete im Umkreis von {**Primär.x**}m anvisieren können und teilt den gesamten eintreffenden Schaden auf die Module auf. Dauert {**Sekundär.x**}s. Kein davon betroffene Roboter kann zerstört werden.
 * Harpy's Napalmbombe: Feuert ein Projektil ab, das beim Aufprall {**Sekundär.x**} Explosionsschaden und anschließend {**Primär.x**} Feuerschaden über Zeit verursacht.
 * Purifier's Eiferer: Verbündete in der Nähe verursachen {**Primär.x**}s lang {**Sekundär.x**}% mehr Schaden. Der Effekt erhöht sich durch Kills oder wenn Schilde zerstört werden.
 * Lancelot's Schlachtordnung: Verbündete im Umkreis von {**Primär.x**}m erleiden {**Sekundär.x**}% weniger Schaden. Sobald sie getroffen werden, regenerierst du Panzerung.
-* Loki's Holografischer Köder: Makes you invisible and projects a copy of your robot for {**Primär.x**}s. The decoy has {**Sekundär.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Holografischer Köder: Lässt dich unsichtbar werden und projiziert {**Primär.x**}s lang eine Kopie von dir. Der Köder besitzt {**Sekundär.x**}% mehr Panzer- und Schildpunkte. Alle aktiven Effekte, auch die von Ausrüstungsmodulen, werden darauf übertragen.
 * Orochi's Echosalve: Verursacht {**Primär.x**} Schildschaden in einer geraden Linie und enthüllt Gegner {**Sekundär.x**}s lang.
 * Phantom's Translokator: Aktiviere dies, um {**Primär.x**}s lang einen Ort zu markieren. Aktiviere dies erneut, um nach einer Verzögerung von {**Sekundär./**}s zu diesem Ort zu warpen.
-* Pursuer's Optische Tarnung: After a {**Sekundär./**}s second delay, you become invisible for {**Primär.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Optische Tarnung: Nach einer Verzögerung von {**Sekundär./**}s Sekunden wirst du {**Primär.x**}s lang unsichtbar. Während du unsichtbar bist, kannst du Ausrüstungsmodule verwenden, aber das Abfeuern von Waffen enthüllt den Roboter sofort. Abklingzeit: {CD}.
 * Ravana's Wächtermatrix: Verbündete vor dir erleiden {**Primär.x**}s lang {**Sekundär.x**}% weniger Schaden. Du kannst nicht getötet werden, solange ein Verbündeter davon betroffen ist.
 * Raven's Stahlfedern: Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}m.
 * Scorpion's Peitschenschlag: Ein Zielsuchprojektil verursacht beim Aufprall {**Primär.x**} Schaden und fügt anschließend allen Modulen {**Sekundär.x**} pro Sekunde zu. Wird aufgeladen, wenn das Ziel während der Aktivität zerstört wird.
@@ -138,16 +138,16 @@
 * Bulgasari's Lluvia de hierro: Bombardea un área infligiendo {**Primario.x**} de daño por cohete a todos los módulos en un radio de explosión de {**Secundario.x**} m.
 * Bulwark's Esfera absorbente: Mitiga {**Secundario.x**}% del daño entrante durante {**Primario.x**} s. Los proyectiles atrapados en la esfera recargan tu munición.
 * Cyclops's Rayo de la muerte: Después de un breve retardo, lanza un rayo energético que inflige {**Primario.x**} de daño por segundo durante {**Secundario.x**} s. Tu robot no puede andar mientras está activo.
-* Fenrir's Ragnarok: Burns off {**Secundario.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Primario.x**}% of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Quema {**Secundario.Cx**}% de armadura para potenciar el daño de arma durante 10 segundos. Mientras está activo, convierte {**Primario.x**}% del daño infligido en escudo y armadura.
 * Fury's Recarga de distorsión: Rellena {**Secundario.x**}% de munición tras un retardo de {**Primario./**} s.
-* Griffin's Codificador: Prevents enemies from locking on to allies within {**Primario.x**} m and splits all incoming damage between modules. Lasts {**Secundario.x**} s. Any robot affected cannot be destroyed.
+* Griffin's Codificador: Evita que los enemigos apunten a los aliados en un radio de {**Primario.x**} m y divide el daño entrante entre los módulos. Dura {**Secundario.x**} s. Cualquier robot afectado no puede ser destruido.
 * Harpy's Caparazón de napalm: Dispara un proyectil que inflige {**Secundario.x**} de daño de explosión al impactar y {**Primario.x**} de daño de fuego prolongado.
 * Purifier's Fanático: Los aliados cercanos infligen {**Secundario.x**}% más de daño durante {**Primario.x**} s. El efecto aumenta cuando se causan bajas o se destruyen escudos.
 * Lancelot's Orden de combate: Los aliados en un radio de {**Primario.x**} m reciben {**Secundario.x**}% menos de daño. Cuando son alcanzados, tú regeneras armadura.
-* Loki's Señuelo holográfico: Makes you invisible and projects a copy of your robot for {**Primario.x**} s. The decoy has {**Secundario.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Señuelo holográfico: Te hace invisible y proyecta tu copia durante {**Primario.x**} s. El señuelo tiene {**Secundario.x**}% más armadura y escudos, y todos los efectos activos, incluidos los de los módulos de equipo, se transfieren a él.
 * Orochi's Aluvión de ecos: Inflige {**Primario.x**} de daño de escudo en línea recta revelando enemigos durante {**Secundario.x**} s.
 * Phantom's Translocalizador: Actívalo para marcar un punto durante {**Primario.x**} s. Actívalo de nuevo para volver a teletransportarte hasta él con un retardo de {**Secundario./**} s.
-* Pursuer's Camuflaje óptico: After a {**Secundario./**} s second delay, you become invisible for {**Primario.x**} s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Camuflaje óptico: Tras un retardo de {**Secundario./**} s, te hace invisible durante {**Primario.x**} s. Los módulos de los componentes pueden usarse mientras son invisibles, pero disparar armas revela el robot de inmediato. Tiempo de recarga: {CD}.
 * Ravana's Matriz de guardianes: Los aliados frente a ti reciben {**Secundario.x**}% menos de daño durante {**Primario.x**} s. No te podrán matar mientras haya aliados con este efecto activo.
 * Raven's Plumas de acero: Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**} m.
 * Scorpion's Latigazo: Un proyectil teledirigido inflige {**Primario.x**} de daño al impactar y {**Secundario.x**} por segundo a todos los módulos. Se recarga si el objetivo es destruido mientras está activo.
@@ -191,16 +191,16 @@
 * Bulgasari's Pluie de fer: Bombarde une zone, infligeant {**Primaire.x**} points de dégâts par roquette à tous les modules dans un rayon d'explosion de {**Secondaire.x**} m.
 * Bulwark's Sphère absorbante: Atténue {**Secondaire.x**} % des dégâts reçus pendant {**Primaire.x**} s. Les projectiles pris dans la sphère rechargent vos munitions.
 * Cyclops's Rayon mortel: Après un court délai, libère un faisceau d'énergie qui inflige {**Primaire.x**} points de dégâts par seconde pendant {**Secondaire.x**} s. Votre robot ne peut pas se déplacer pendant que l'effet est actif.
-* Fenrir's Ragnarok: Burns off {**Secondaire.Cx**} % of your current armor to boost weapon damage for 10 sec. While active, converts {**Primaire.x**} % of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Consomme {**Secondaire.Cx**} % de votre blindage actuel pour booster les dégâts de vos armes durant 10 secondes. Tant que ceci est actif, {**Primaire.x**} % des dégâts infligés sont convertis en bouclier et en blindage.
 * Fury's Recharge de distorsion: Régénère {**Secondaire.x**} % des munitions après un délai de {**Primaire./**} s.
-* Griffin's Brouilleur: Prevents enemies from locking on to allies within {**Primaire.x**} m and splits all incoming damage between modules. Lasts {**Secondaire.x**} s. Any robot affected cannot be destroyed.
+* Griffin's Brouilleur: Empêche les ennemis de prendre vos alliés pour cibles dans un rayon de {**Primaire.x**} m et répartit les dégâts subis entre les modules. Dure {**Secondaire.x**} s. Tout robot affecté ne peut être détruit.
 * Harpy's Douille de napalm: Tire un projectile qui inflige {**Secondaire.x**} points de dégâts d'explosion à l'impact, puis {**Primaire.x**} dégâts de feu au fil du temps.
 * Purifier's Zélote: Vos alliés proches infligent {**Secondaire.x**} % points de dégâts en plus pendant {**Primaire.x**} s. L'effet augmente s'ils font des victimes ou détruisent des boucliers.
 * Lancelot's Ordre de bataille: Les alliés situés dans un rayon de {**Primaire.x**} m subissent {**Secondaire.x**} % points de dégâts en moins. S'ils sont touchés, votre blindage se régénère.
-* Loki's Leurre holographique: Makes you invisible and projects a copy of your robot for {**Primaire.x**} s. The decoy has {**Secondaire.x**} % more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Leurre holographique: Vous rend invisible et projette une copie de votre robot pendant {**Primaire.x**} s. Le blindage et les boucliers de votre leurre sont accrus de {**Secondaire.x**} %, et tous les effets actifs, y compris ceux des modules de mécanisme, lui sont transférés.
 * Orochi's Barrage à écho: Inflige {**Primaire.x**} points de dégâts au bouclier en ligne droite et révèle les ennemis pendant {**Secondaire.x**} s.
 * Phantom's Translocuteur: À activer pour marquer un lieu pendant {**Primaire.x**} s. À activer à nouveau pour vous y téléporter après un délai de {**Secondaire./**} s.
-* Pursuer's Camouflage optique: After a {**Secondaire./**} s second delay, you become invisible for {**Primaire.x**} s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Camouflage optique: Après {**Secondaire./**} s secondes, vous devenez invisible pendant {**Primaire.x**} s. Vous pouvez utiliser les modules de mécanisme lorsque vous êtes invisible, le tir de vos armes révélera immédiatement le robot. Temps de recharge : {CD}.
 * Ravana's Matrice gardienne: Les alliés devant vous subissent {**Secondaire.x**} % points de dégâts en moins pendant {**Primaire.x**} s. Vous êtes invincible tant qu'un allié est touché par cet effet.
 * Raven's Plumes d'acier: Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**} m.
 * Scorpion's Trauma: Un projectile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts, puis {**Secondaire.x**} par seconde à chaque module. Recharge immédiate si la cible est détruite pendant son activation.
@@ -244,16 +244,16 @@
 * Bulgasari's 鉄の雨: エリアを砲撃し、爆発半径{**サブ.x**}m以内のすべてのモジュールにロケット1発につき{**メイン.x**}ダメージを与える。
 * Bulwark's アブソーバースフィア: 受けるダメージを{**メイン.x**}秒間、{**サブ.x**}%軽減する。球体に捕らえられた発射体がプレイヤーの弾薬を補充する。
 * Cyclops's デス・レイ: しばらくするとエネルギービームを発射し、{**サブ.x**}秒間、1秒あたり{**メイン.x**}ダメージを与える。アクティブな間、プレイヤーのロボットは歩けない。
-* Fenrir's ラグナロク: Burns off {**サブ.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**メイン.x**}% of damage inflicted into shield and armor.
+* Fenrir's ラグナロク: 現在の装甲を{**サブ.Cx**}%燃やして、10秒間武器ダメージをブーストさせる。アクティブな間、与えたダメージの{**メイン.x**}%をシールドと装甲に変換する。
 * Fury's ワープリロード: {**メイン./**}秒後に{**サブ.x**}%の弾薬が補充される。
-* Griffin's スクランブラー: Prevents enemies from locking on to allies within {**メイン.x**}m and splits all incoming damage between modules. Lasts {**サブ.x**}秒. Any robot affected cannot be destroyed.
+* Griffin's スクランブラー: 敵が{**メイン.x**}m以内の味方にロックオンするのを防ぎ、被ダメージをすべてのモジュール間で分割する。{**サブ.x**}秒間持続する。影響を受けたロボットは破壊されない。
 * Harpy's ナパーム弾: 着弾時に{**サブ.x**}のブラストダメージを与え、時間の経過ととも{**メイン.x**}の火災ダメージを与える発射体を発射する。
 * Purifier's ジーロット: 近くの味方が与えるダメージが{**メイン.x**}秒間、{**サブ.x**}%増加する。キルするかシールドを破壊するたびに効果が増大する。
 * Lancelot's 戦闘命令: {**メイン.x**}m以内の味方が受けるダメージが{**サブ.x**}%減少する。攻撃を受けるたびに装甲を修復する。
-* Loki's ホログラフィックデコイ: Makes you invisible and projects a copy of your robot for {**メイン.x**}秒. The decoy has {**サブ.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's ホログラフィックデコイ: {**メイン.x**}秒デコイの装甲とシールドは{**サブ.x**}%高い。デコイの装甲とシールドは{**サブ.x**}%増加し、ギアモジュールを含むすべてのアクティイブな効果がデコイに移行される。
 * Orochi's エコー弾幕: 直線上に{**メイン.x**}シールドダメージを与え、敵を{**サブ.x**}秒間発見状態にする。
 * Phantom's トランスロケーター: アクティブにすると{**メイン.x**}秒間その場所をマークする。再度アクティブにすると{**サブ./**}秒後にその場所にワープする。
-* Pursuer's 光学カモフラージュ: After a {**サブ./**}秒 second delay, you become invisible for {**メイン.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's 光学カモフラージュ: {**サブ./**}秒秒後に{**メイン.x**}秒間、透明になる。ギアモジュールは透明な間も使用できるが、武器を発射するとロボットがすぐに見えるようになる。クールダウン：{CD}。
 * Ravana's ガーディアンマトリクス: 目の前の味方が受けるダメージが{**メイン.x**}秒間、{**サブ.x**}%減少する。味方がこれによって影響を受けている間は破壊されない。
 * Raven's 鋼鉄の羽根: 前方にミサイルの弾幕を発射する。それぞれのミサイルは{**サブ.x**}mの爆発半径で{**メイン.x**}ダメージを与える。
 * Scorpion's むち打ち: 誘導式発射体は着弾時に{**メイン.x**}ダメージを与え、すべてのモジュールに1秒あたり{**サブ.x**}ダメージを与える。アクティブな間、ターゲットが破壊された場合はリチャージされる。
@@ -297,16 +297,16 @@
 * 불가사리's 강철비: 해당 지역을 폭격하여 {**보조.x**}m 폭발 반경 내의 모든 모듈에 로켓 한 발당 {**주.x**} 피해를 입힙니다.
 * 불워크's 흡수 구체: {**주.x**}초 동안 받는 피해를 {**보조.x**}% 완화합니다. 구체에 맞은 투사체는 탄약을 보충합니다.
 * 사이클롭스's 죽음의 광선: 짧은 지연 후 {**보조.x**}초 동안 초당 {**주.x**}의 피해를 주는 에너지 빔을 발사합니다. 이 능력이 활성화된 동안에는 로봇이 걸을 수 없습니다.
-* 펜리르's 라그나로크: Burns off {**보조.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**주.x**}% of damage inflicted into shield and armor.
+* 펜리르's 라그나로크: 현재 아머의 {**보조.Cx**}%를 연소하여 10초 동안 무기 피해를 증가시킵니다. 활성화된 동안 입힌 피해의 {**주.x**}%를 실드와 아머로 전환합니다.
 * 퓨리's 워프 재장전: {**주./**}초 지연 후 탄약의 {**보조.x**}%를 보충합니다.
-* 그리핀's 스크램블러: Prevents enemies from locking on to allies within {**주.x**}m and splits all incoming damage between modules. Lasts {**보조.x**}초. Any robot affected cannot be destroyed.
+* 그리핀's 스크램블러: 적이 {**주.x**}m 내의 아군을 추적하지 못하게 하고, 받는 모든 피해를 모듈 간에 분산시킵니다. {**보조.x**}초 동안 지속됩니다. 영향받는 로봇은 파괴할 수 없습니다.
 * 하피's 네이팜 포탄: 투사체를 발사하여 명중 시 {**보조.x**} 폭발 피해를 입히고, 이후 {**주.x**} 화염 피해를 지속적으로 입힙니다.
 * 퓨리파이어's 광신도: 근처 아군이 {**주.x**}초 동안 {**보조.x**}%의 추가 피해를 입힙니다. 아군이 적을 처치하거나 실드를 파괴할 때마다 효과가 증가합니다.
 * 랜슬롯's 전투 명령: {**주.x**}m 내의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 공격받을 때마다 아머가 재생됩니다.
-* 로키's 홀로그램 미끼: Makes you invisible and projects a copy of your robot for {**주.x**}초. The decoy has {**보조.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* 로키's 홀로그램 미끼: {**주.x**}초 동안 은신 상태가 되며 로봇의 복제체를 생성합니다. 복제체는 아머와 실드가 {**보조.x**}% 더 높고, 기어 모듈을 포함한 모든 활성화된 효과가 복제체로 이전됩니다.
 * 오로치's 에코 연발: 일직선상의 적에게 {**주.x**}의 실드 피해를 주고 {**보조.x**}초 동안 적을 드러냅니다.
 * 팬텀's 위치전송기: 활성화하면 {**주.x**}초 동안 위치를 표시합니다. 다시 활성화하면 {**보조./**}초 지연 후 해당 위치로 순간이동합니다.
-* 퍼슈어's 광학 위장: After a {**보조./**}초 second delay, you become invisible for {**주.x**}초. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* 퍼슈어's 광학 위장: {**보조./**}초 지연 후, {**주.x**}초 동안 은신 상태가 됩니다. 은신 상태에서도 기어 모듈을 사용할 수 있지만, 무기를 발사하면 즉시 로봇이 드러납니다. 쿨다운: {CD}.
 * 라바나's 수호 매트릭스: {**주.x**}초 동안 전방의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 이 효과를 받는 아군이 있는 동안에는 파괴되지 않습니다.
 * 레이븐's 강철 깃털: 전방에 미사일을 연발로 발사하여, 각각 {**보조.x**}m 폭발 반경으로 {**주.x**} 피해를 입힙니다.
 * 스콜피언's 채찍: 유도 투사체 명중 시 {**주.x**}의 피해를 주고 모든 모듈에 초당 {**보조.x**}의 피해를 입힙니다. 대상이 활성화된 상태에서 파괴되면 재충전됩니다.
@@ -350,16 +350,16 @@
 * Bulgasari's Żelazny deszcz: Rozpoczyna ostrzał obszarowy, podczas którego każda rakieta zadaje {**Podstawowy.x**} obrażeń wszystkich modułów w polu rażenia {**Drugoplanowy.x**} m.
 * Bulwark's Sfera łapacza: Blokuje {**Drugoplanowy.x**}% otrzymywanych obrażeń w ciągu {**Podstawowy.x**} sek. Pociski przejęte w tym czasie uzupełniają zapasy twojej amunicji.
 * Cyclops's Promień śmierci: Po krótkim opóźnieniu wystrzeliwuje promień energii, który powoduje {**Podstawowy.x**} obrażeń na sek. Czas działania: {**Drugoplanowy.x**} sek. W tym czasie twój robot nie może się poruszać.
-* Fenrir's Ragnarok: Burns off {**Drugoplanowy.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Podstawowy.x**}% of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Tracisz {**Drugoplanowy.Cx**}% bieżącej wartości pancerza na potrzeby źródła energii, które zapewnia 10 sek. premię do obrażeń powodowanych przez twoją broń. W czasie aktywności efektu dochodzi do konwersji {**Podstawowy.x**}% otrzymanych obrażeń na tarczę i zbroję.
 * Fury's Przeładowanie warp: Uzupełnia {**Drugoplanowy.x**}% amunicji po opóźnieniu wynoszącym {**Podstawowy./**} sek.
-* Griffin's Szyfrator: Prevents enemies from locking on to allies within {**Podstawowy.x**} m and splits all incoming damage between modules. Lasts {**Drugoplanowy.x**} sek. Any robot affected cannot be destroyed.
+* Griffin's Szyfrator: Zapobiega blokadzie pocisków naprowadzanych wroga na sojusznikach w odległości {**Podstawowy.x**} m oraz rozdziela otrzymywane obrażenia pomiędzy moduły. Czas aktywności: {**Drugoplanowy.x**} sek. Robot pod wpływem nie może zostać zniszczony.
 * Harpy's Pocisk z napalmem: Wystrzeliwuje rakietę, która powoduje {**Drugoplanowy.x**} obrażeń od eksplozji, a następnie (z czasem) również {**Podstawowy.x**} obrażeń od ognia.
 * Purifier's Fanatyk: Pobliscy sojusznicy zadają {**Drugoplanowy.x**}% więcej obrażeń przez {**Podstawowy.x**} sek. Efekt zwiększa się po wyeliminowaniu przez sojuszników wroga lub zniszczeniu jego tarczy.
 * Lancelot's Porządek bojowy: Po aktywacji sojusznicy w promieniu {**Podstawowy.x**} m otrzymują {**Drugoplanowy.x**}% mniej obrażeń. Jeśli ktoś zostanie trafiony, powoduje to regenerację twojego pancerza.
-* Loki's Holograficzna przynęta: Makes you invisible and projects a copy of your robot for {**Podstawowy.x**} sek. The decoy has {**Drugoplanowy.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Holograficzna przynęta: Twój robot staje się niewidzialny i wyświetla przez {**Podstawowy.x**} sek kopię holograficzną twojej maszyny; taki klon ma pancerz i tarczę większą o {**Drugoplanowy.x**}%, zostają na niego przeniesione wszystkie aktywne efekty włącznie z tymi, które mają źródło w modułach sprzętu.
 * Orochi's Echo-ostrzał: Powoduje {**Podstawowy.x**} obrażeń tarczy w linii prostej, ujawniając przy tym na {**Drugoplanowy.x**} sek pozycje wrogów.
 * Phantom's Translokator: Aktywuj, żeby oznaczyć miejsce znacznika aktywnego przez {**Podstawowy.x**} sek. Ponowna aktywacja powoduje teleportowanie do wybranego miejsca po opóźnieniu {**Drugoplanowy./**} sek.
-* Pursuer's Kamuflaż optyczny: After a {**Drugoplanowy./**} sek second delay, you become invisible for {**Podstawowy.x**} sek. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Kamuflaż optyczny: Po opóźnieniu trwającym {**Drugoplanowy./**} sek twój robot zyskuje na {**Podstawowy.x**} sek tymczasową niewidzialność. W tym czasie można używać modułów sprzętu, ale otwarcie ognia ujawni twoją pozycję. Czas reaktywacji: {CD}.
 * Ravana's Strażnik: Sojusznicy znajdujący się przed tobą otrzymują {**Drugoplanowy.x**}% mniej obrażeń przez {**Podstawowy.x**} sek. W czasie aktywności tej funkcji twój robot nie może zostać zniszczony.
 * Raven's Stalowe pióra: Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**} m.
 * Scorpion's Bicz: Pocisk samonaprowadzający powoduje po trafieniu {**Podstawowy.x**} obrażeń, a następnie dodatkowo {**Drugoplanowy.x**} obrażeń na sek. od ognia wszystkich modułów. Zniszczenie wroga w czasie aktywności powoduje od razu przeładowanie.
@@ -403,16 +403,16 @@
 * Bulgasari's Chuva de Balas: Bombardeia uma área, causando {**Primário.x**} de dano por foguete a todos os módulos dentro de um raio de explosão de {**Secundário.x**}m.
 * Bulwark's Esfera de Absorção: Mitiga {**Secundário.x**}% do dano recebido por {**Primário.x**}s. Projéteis pegos na esfera recarregam sua munição.
 * Cyclops's Raio da Morte: Após um certo atraso, libera um raio de energia que causa {**Primário.x**} por segundo durante {**Secundário.x**}s. Seu robô não pode andar enquanto estiver ativo.
-* Fenrir's Ragnarok: Burns off {**Secundário.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Primário.x**}% of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Consome {**Secundário.Cx**}% da sua armadura para aumentar o dano da arma por 10 s. Enquanto ativo, converte {**Primário.x**}% do dano causado em escudo e armadura.
 * Fury's Recarregar a Dobra: Recupera {**Secundário.x**}% da munição após um atraso de {**Primário./**}s.
-* Griffin's Misturador: Prevents enemies from locking on to allies within {**Primário.x**}m and splits all incoming damage between modules. Lasts {**Secundário.x**}s. Any robot affected cannot be destroyed.
+* Griffin's Misturador: Impede que os inimigos travem nos aliados dentro de {**Primário.x**}m e divide todo o dano recebido entre os módulos. Dura {Duration}. Nenhum robô afetado pode ser destruído.
 * Harpy's Bala de Napalm: Atira um projétil que causa {**Secundário.x**} de dano de explosão no impacto e {**Primário.x**} de dano de fogo ao longo do tempo.
 * Purifier's Fanático: Aliados próximos causam {**Secundário.x**}% mais dano por {**Primário.x**}s. O efeito aumenta quando seus aliados abaterem robôs ou destruírem escudos.
 * Lancelot's Ordens de Batalha: Aliados dentro de {**Primário.x**}m sofrem {**Secundário.x**}% de dano a menos. Sempre que eles forem atingidos, sua armadura se regenera.
-* Loki's Isca Holográfica: Makes you invisible and projects a copy of your robot for {**Primário.x**}s. The decoy has {**Secundário.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Isca Holográfica: Você fica invisível e projeta um cópia do seu Robô por {**Primário.x**}s. Essa cópia tem {**Secundário.x**}% a mais de armadura e escudo, e todos os efeitos ativos, incluindo os de módulos de equipamento, são transferidos para ela.
 * Orochi's Barragem Eco: Causa {**Primário.x**} de dano a escudos em linha reta, revelando inimigos por {**Secundário.x**}s.
 * Phantom's Translocador: Ative para marcar um local por {**Primário.x**}s. Ative novamente para voltar para o local marcado depois de um atraso de {**Secundário./**}s.
-* Pursuer's Camuflagem Óptica: After a {**Secundário./**}s second delay, you become invisible for {**Primário.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Camuflagem Óptica: Após um atraso de {**Secundário./**}s, você fica invisível por {**Primário.x**}s. Módulos de Equipamento podem ser usados enquanto invisível, mas atirar revela o robô imediatamente. Reativação: {CD}.
 * Ravana's Matriz Guardiã: Aliados na sua frente sofrem {**Secundário.x**}% de dano a menos por {**Primário.x**}s. Você não pode morrer enquanto um aliado é afetado por isso.
 * Raven's Penas de Aço: Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}m.
 * Scorpion's Chicotada: Um projétil guiado que causa {**Primário.x**} de dano ao acertar e mais {**Secundário.x**} por segundo a todos os módulos. Recarrega se o alvo for destruído enquanto estiver ativo.
@@ -456,16 +456,16 @@
 * Bulgasari's Железный дождь: Выпускает залп по области {**Второстепенное.x**}м. Каждая ракета наносит {**Основное.x**} ед. урона всем модулям.
 * Bulwark's Поглощающая сфера: Блокирует {**Второстепенное.x**}% урона в течение {**Основное.x**}сек.. Оказавшиеся в сфере снаряды пополняют ваш боезапас.
 * Cyclops's Луч смерти: После небольшой задержки выпускает энергетический луч, наносящий {**Основное.x**} ед. урона в секунду в течение {**Второстепенное.x**}сек.. Во время действия луча ваш робот не может передвигаться.
-* Fenrir's Рагнарёк: Burns off {**Второстепенное.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Основное.x**}% of damage inflicted into shield and armor.
+* Fenrir's Рагнарёк: Отнимает {**Второстепенное.Cx**}% актуальной брони и увеличивает урон вашего оружия в течение 10 сек. Во время действия возвращает вам {**Основное.x**}% нанесённого урона в виде брони и щитов.
 * Fury's Варп-перезарядка: Через {**Основное./**}сек. восполняет {**Второстепенное.x**}% боезапаса.
-* Griffin's Подавитель сигнала: Prevents enemies from locking on to allies within {**Основное.x**}м and splits all incoming damage between modules. Lasts {**Второстепенное.x**}сек.. Any robot affected cannot be destroyed.
+* Griffin's Подавитель сигнала: Не позволяет противникам захватывать цели в пределах {**Основное.x**}м и разделяет получаемый урон между модулями. Длительность: {**Второстепенное.x**}сек.. Находящиеся под действием эффекта роботы не могут быть уничтожены.
 * Harpy's Напалмовый снаряд: Выпускает снаряд, наносящий {**Второстепенное.x**} ед. взрывного урона при попадании и {**Основное.x**} ед. периодического урона огнём.
 * Purifier's Фанатизм: В течение {**Основное.x**}сек. урон ближайших союзников увеличивается на {**Второстепенное.x**}%. Эффект усиливается, когда союзники уничтожают противников или их щиты.
 * Lancelot's Боевой порядок: Союзники в области действия ({**Основное.x**}м) получают на {**Второстепенное.x**}% меньше урона. Когда в них попадает противник, ваша броня восстанавливается.
-* Loki's Голографическая приманка: Makes you invisible and projects a copy of your robot for {**Основное.x**}сек.. The decoy has {**Второстепенное.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Голографическая приманка: На {**Основное.x**}сек. скрывает вашего робота и создаёт его копию. Щиты и броня приманки прочнее на {**Второстепенное.x**}%, и на неё переносятся все активные эффекты, включая эффекты от модулей оборудования.
 * Orochi's Эхо-залп: Атакой по прямой линии наносит {**Основное.x**} ед. урона щитам и раскрывает противников на {**Второстепенное.x**}сек..
 * Phantom's Транслокатор: При первой активации отмечает точку на {**Основное.x**}сек.. При второй активации телепортирует к ней через {**Второстепенное./**}сек..
-* Pursuer's Оптическая маскировка: After a {**Второстепенное./**}сек. second delay, you become invisible for {**Основное.x**}сек.. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Оптическая маскировка: Через {**Второстепенное./**}сек. вы на {**Основное.x**}сек. становитесь невидимы. Во время невидимости можно использовать модули снаряжения. Стрельба моментально делает робота видимым. Перезарядка: {CD}.
 * Ravana's Защитная матрица: Союзники перед вами получают на {**Второстепенное.x**}% меньше урона в течение {**Основное.x**}сек.. Пока этот эффект действует хотя бы на одного союзника, вы неуничтожимы.
 * Raven's Стальные перья: Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}м.
 * Scorpion's Плеть: Выпускает самонаводящийся снаряд, наносящий {**Основное.x**} ед. урона при попадании и {**Второстепенное.x**} ед. урона в секунду всем модулям. Если цель уничтожается во время действия эффекта, перезарядка сбрасывается.
@@ -509,16 +509,16 @@
 * Bulgasari's Demir Yağmur: Bir alanı bombalar, {**İkincil.x**}m yarıçaplı bir patlama alanı içindekilere roket başına tüm modüllere {**Birincil.x**} hasar verir.
 * Bulwark's Soğurma Küresi: {**Birincil.x**}sn boyunca alınan hasarı {**İkincil.x**}% oranında engeller. Küreye yakalanan mermiler cephaneni doldurur.
 * Cyclops's Ölüm Işını: Kısa bir gecikmeden sonra, {**İkincil.x**}sn boyunca saniyede {**Birincil.x**} veren bir enerji hüzmesi salar. Etkinken robot yürüyemez.
-* Fenrir's Ragnarok: Burns off {**İkincil.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**Birincil.x**}% of damage inflicted into shield and armor.
+* Fenrir's Ragnarok: Mevcut zırhını {**İkincil.Cx**}% oranında tüketerek silah hasarını 10 saniyeliğine artırır. Aktifken zırha ve kalkana gelen {**Birincil.x**}% hasarı dönüştürür.
 * Fury's Işın Doldurma: {**Birincil./**}sn gecikme ardından {**İkincil.x**}% cephane doldurur.
-* Griffin's Çırpıcı: Prevents enemies from locking on to allies within {**Birincil.x**}m and splits all incoming damage between modules. Lasts {**İkincil.x**}sn. Any robot affected cannot be destroyed.
+* Griffin's Çırpıcı: Düşmanların {**Birincil.x**}m dahilindeki müttefikler üzerinde kilitlenmesini önler ve alınan hasarı tüm modüllere bölüştürür. {**İkincil.x**}sn sürer. Etkilenen robotlar imha edilemez.
 * Harpy's Napalm Fişeği: Anında {**İkincil.x**} patlama hasarı sonra da süreye yayılan {**Birincil.x**} ateş hasarı veren bir mermi atar.
 * Purifier's Zelot: Yakındaki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha çok hasar verir. Öldürme skoru yaptıklarında ya da kalkan imha ettiklerinde etki artar.
 * Lancelot's Muharebe Düzeni: {**Birincil.x**}m dahilindeki müttefikler {**İkincil.x**}% daha az hasar alır. Vurulduklarında zırh yenilersin.
-* Loki's Holografik Yem: Makes you invisible and projects a copy of your robot for {**Birincil.x**}sn. The decoy has {**İkincil.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's Holografik Yem: Seni görünmez yapar ve {**Birincil.x**}sn boyunca robotunun bir kopyasını yansıtır. Yemin {**İkincil.x**}% daha fazla zırhı ve kalkanı vardır, teçhizat modüllerinden gelenler dahil tüm aktif etkiler de ona aktarılır.
 * Orochi's Yankı Salvosu: Düz bir hat boyunca {**Birincil.x**} zırh hasrı verir, düşmanları {**İkincil.x**}sn boyunca ortaya çıkarır.
 * Phantom's Yer Değiştirici: Etkinleştirince bir noktayı {**Birincil.x**}sn boyunca işaretler. Tekrar etkinleştirince {**İkincil./**}sn gecikme ardından o noktaya ışınlanırsın.
-* Pursuer's Optik Kamuflaj: After a {**İkincil./**}sn second delay, you become invisible for {**Birincil.x**}sn. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's Optik Kamuflaj: {**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca görünmez olursun. Teçhizat modülleri görünmezken kullanılabilse de ateşli silahlar robotu anında ortaya çıkarır. Bekleme süresi: {CD}.
 * Ravana's Muhafız Matriksi: Önündeki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha az hasar alır. Bir müttefik bu etkinin altındaysa öldürülemezsin.
 * Raven's Çelik Tüyler: Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**}m patlama yarıçaplı {**Birincil.x**} hasar verir.
 * Scorpion's Kamçı Vuruşu: Anında {**Birincil.x**} hasar, sonra da tüm modüllere saniyede {**İkincil.x**} hasar veren bir güdümlü mermi. Etkinken hedef imha olursa yeniden şarj olur.
@@ -562,16 +562,16 @@
 * Bulgasari's 铁雨: 轰炸一片区域，每枚火箭弹可对{**副.x**}米爆炸半径范围内的所有模块造成{**主.x**}点伤害。
 * Bulwark's 缴械领域: 受到的伤害降低{**副.x**}%，持续{**主.x**}秒。球形范围内捕获到的炮弹会补充你的弹药。
 * Cyclops's 死亡射线: 短暂延迟后，释放一道能量激光，每秒造成{**主.x**}点伤害，持续{**副.x**}秒秒。技能生效期间，你的机器人无法移动。
-* Fenrir's 诸神黄昏: Burns off {**副.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**主.x**}% of damage inflicted into shield and armor.
+* Fenrir's 诸神黄昏: 燃烧掉当前装甲的{**副.Cx**}%来提升武器伤害，持续10秒。技能生效期间，将造成伤害的{**主.x**}%转化为护盾和装甲。
 * Fury's 曲速装弹: {**副.x**}%延迟后，补充{**主./**}秒的弹药。
-* Griffin's 扰频器: Prevents enemies from locking on to allies within {**主.x**}米 and splits all incoming damage between modules. Lasts {**副.x**}秒. Any robot affected cannot be destroyed.
+* Griffin's 扰频器: 使敌人无法锁定{**主.x**}米范围内的队友，并将受到的伤害均摊给所有模块。持续{**副.x**}秒。所有受影响的机器人均无法被摧毁。
 * Harpy's 凝固汽油弹: 发射一枚炮弹，命中时造成{**副.x**}点爆炸伤害，随后造成{**主.x**}点持续火焰伤害。
 * Purifier's 狂徒: 附近队友造成的伤害提高{**副.x**}%，持续{**主.x**}秒。每次队友完成击杀或摧毁护盾，该效果都会得到强化。
 * Lancelot's 战斗指令: {**主.x**}米范围内的所有队友受到的伤害降低{**副.x**}%。队友被命中时，你的装甲会再生。
-* Loki's 全息诱饵: Makes you invisible and projects a copy of your robot for {**主.x**}秒. The decoy has {**副.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's 全息诱饵: 隐身并投射出自己机器人的一个复制体，持续{**主.x**}秒。该诱饵拥有{**副.x**}%点额外装甲和护盾，且所有生效的效果（包括装备模块上的效果）均转移至其身上。
 * Orochi's 回声炮火: 对一条直线上的目标造成{**主.x**}点护盾伤害，并暴露敌人{**副.x**}秒秒。
 * Phantom's 传送器: 激活后会标记一个地点，持续{**主.x**}秒，再次激活会在{**副./**}秒延迟后传送回该地点。
-* Pursuer's 光学伪装: After a {**副./**}秒 second delay, you become invisible for {**主.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's 光学伪装: 在{**副./**}秒秒延迟后进入隐身状态，持续{**主.x**}秒。机器人在隐身期间可使用装备模块，但在使用火力武器后会马上暴露。冷却时间：{CD}
 * Ravana's 守护者母体: 位于你前方的队友受到的伤害降低{**副.x**}%，持续{**主.x**}秒。当有任何队友受此效果影响时，你无法被摧毁。
 * Raven's 钢之羽: 向正前方发射一波飞弹，每枚飞弹可对{**副.x**}米爆炸半径范围内的目标造成{**主.x**}点伤害。
 * Scorpion's 尾后针: 发射一枚追踪炮弹，命中时造成{**主.x**}点伤害，随后对目标所有模块造成每秒{**副.x**}点的持续伤害。如果目标在技能生效期间被摧毁，则该技能立即结束冷却。
@@ -615,16 +615,16 @@
 * Bulgasari's 鋼鐵火雨: 轟炸特定範圍，在 {**次要.x**}公尺 爆破半徑內每一枚火箭對所有模組造成 {**主要.x**} 傷害。
 * Bulwark's 球體吸收: 阻擋來襲傷害的 {**次要.x**}%，持續 {**主要.x**}秒。進入球形範圍內的投射物會填裝你的彈藥。
 * Cyclops's 死亡射線: 短暫延遲後，射出能量波，每秒造成 {**主要.x**} 傷害，持續 {**次要.x**}秒。此武器激活時，你的機器人無法移動。
-* Fenrir's 諸神殞落: Burns off {**次要.Cx**}% of your current armor to boost weapon damage for 10 sec. While active, converts {**主要.x**}% of damage inflicted into shield and armor.
+* Fenrir's 諸神殞落: 可透過消耗 {**次要.Cx**}% 裝甲來提升速度與武器攻擊力，持續 10 秒。啟用之後，將{**主要.x**}%造成的傷害轉化為護盾和裝甲。
 * Fury's 蟲洞填裝: 延遲 {**主要./**}秒 之後，補充 {**次要.x**}% 彈藥。
-* Griffin's 脈衝干擾: Prevents enemies from locking on to allies within {**主要.x**}公尺 and splits all incoming damage between modules. Lasts {**次要.x**}秒. Any robot affected cannot be destroyed.
+* Griffin's 脈衝干擾: 防止敵人鎖定 {**主要.x**}公尺 範圍內的友軍，且會將來襲的傷害分攤至各個模組之上。持續 {**次要.x**}秒。受到影響的所有機器人無法被摧毀。
 * Harpy's 火海試煉: 發射投射物，命中後造成 {**次要.x**} 傷害，然後持續造成 {**主要.x**} 燃燒傷害。
 * Purifier's 堅盾狂徒: 附近友軍造成的傷害提高 {**次要.x**}%，持續 {**主要.x**}秒。當隊友擊殺或摧毀護盾時，強化規模提高。
 * Lancelot's 對戰命令: {**主要.x**}公尺範圍內的盟友承受的傷害減少 {**次要.x**}%。盟友只要遭到擊中，你的裝甲就會恢復。
-* Loki's 投影誘餌: Makes you invisible and projects a copy of your robot for {**主要.x**}秒. The decoy has {**次要.x**}% more armor and shields, and all active effects including from gear modules are transferred to it.
+* Loki's 投影誘餌: 匿蹤並投射出你的機器人複製體，持續 {**主要.x**}秒。誘餌的裝甲和護盾提高 {**次要.x**}%，且包含裝備模組上的所有啟用效果也將一同複製。
 * Orochi's 回音火網: 在直線上造成 {**主要.x**} 護盾傷害並暴露敵人，持續 {**次要.x**}秒。
 * Phantom's 定位傳送: 啟動時會標記傳送點，持續 {**主要.x**}秒。再次啟動就能在延遲 {**次要./**}秒 後回傳至該傳送點。
-* Pursuer's 光學迷彩: After a {**次要./**}秒 second delay, you become invisible for {**主要.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
+* Pursuer's 光學迷彩: 在延遲 {**次要./**}秒 秒後隱形，持續 {**主要.x**}秒。隱形時可使用裝備模組，但使用武器開火時機器人會立即顯形。冷卻時間：{CD}。
 * Ravana's 守護矩陣: 你前方的友軍承受的傷害減少 {**次要.x**}%，持續 {**主要.x**}秒。在任一友軍受此影響的期間你無法被摧毀。
 * Raven's 鐵翼彈雨: 朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}公尺。
 * Scorpion's 鞭撻: 命中時造成 {**主要.x**} 點傷害的追蹤投射物，接著每秒對所有模組造成 {**次要.x**} 點傷害。若目標在此技能生效時死亡，此技能會立即再次充能。

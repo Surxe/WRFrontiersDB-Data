@@ -1,7 +1,7 @@
 {
     "DA_Honor_Assist_BCN.0": {
         "id": "DA_Honor_Assist_BCN.0",
-        "honor_points": 12.0,
+        "honor_points": 24.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
@@ -36,7 +36,7 @@
     },
     "DA_Honor_Assist_ELM.0": {
         "id": "DA_Honor_Assist_ELM.0",
-        "honor_points": 13.0,
+        "honor_points": 26.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
@@ -51,7 +51,7 @@
     },
     "DA_Honor_Assist_SPH.0": {
         "id": "DA_Honor_Assist_SPH.0",
-        "honor_points": 12.0,
+        "honor_points": 24.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
@@ -66,7 +66,7 @@
     },
     "DA_Honor_Assist_TDM.0": {
         "id": "DA_Honor_Assist_TDM.0",
-        "honor_points": 13.0,
+        "honor_points": 26.0,
         "name": {
             "Key": "Kill_Assists",
             "TableNamespace": "ST_Honor_Categories",
@@ -192,7 +192,7 @@
     },
     "DA_Honor_KillRobot_BCN.0": {
         "id": "DA_Honor_KillRobot_BCN.0",
-        "honor_points": 15.0,
+        "honor_points": 30.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -207,7 +207,7 @@
     },
     "DA_Honor_KillRobot_ELM.0": {
         "id": "DA_Honor_KillRobot_ELM.0",
-        "honor_points": 20.0,
+        "honor_points": 40.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -222,7 +222,7 @@
     },
     "DA_Honor_KillRobot_SPH.0": {
         "id": "DA_Honor_KillRobot_SPH.0",
-        "honor_points": 15.0,
+        "honor_points": 30.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -237,7 +237,7 @@
     },
     "DA_Honor_KillRobot_TDM.0": {
         "id": "DA_Honor_KillRobot_TDM.0",
-        "honor_points": 19.0,
+        "honor_points": 38.0,
         "name": {
             "Key": "Robots_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -252,7 +252,7 @@
     },
     "DA_Honor_KillTitan_BCN.0": {
         "id": "DA_Honor_KillTitan_BCN.0",
-        "honor_points": 25.0,
+        "honor_points": 50.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -267,7 +267,7 @@
     },
     "DA_Honor_KillTitan_ELM.0": {
         "id": "DA_Honor_KillTitan_ELM.0",
-        "honor_points": 20.0,
+        "honor_points": 40.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -282,7 +282,7 @@
     },
     "DA_Honor_KillTitan_SPH.0": {
         "id": "DA_Honor_KillTitan_SPH.0",
-        "honor_points": 25.0,
+        "honor_points": 50.0,
         "name": {
             "Key": "Titans_Destroyed",
             "TableNamespace": "ST_Honor_Categories",
@@ -297,7 +297,7 @@
     },
     "DA_Honor_KillTitan_TDM.0": {
         "id": "DA_Honor_KillTitan_TDM.0",
-        "honor_points": 32.0,
+        "honor_points": 64.0,
         "name": {
             "Key": "Titan_Kill_Top1",
             "TableNamespace": "ST_Honor_Categories",
@@ -1075,7 +1075,7 @@
     },
     "DA_Honor_WinCombat.0": {
         "id": "DA_Honor_WinCombat.0",
-        "honor_points": 40.0,
+        "honor_points": 80.0,
         "name": {
             "Key": "Match_Win",
             "TableNamespace": "ST_Honor_Categories",

@@ -1775,7 +1775,7 @@
         "description": {
             "Key": "TAL_desc_Tortuga1",
             "TableNamespace": "ST_Talent_Description",
-            "en": "If enemy Robot has more than 6 modules, you deal {DmgBoost} extra weapon damage for every module past the sixth."
+            "en": "If your Robot has more than 6 modules, deal {DmgBoost} extra weapon damage for every module past the sixth."
         },
         "ui_description": {
             "Key": "PilotHUD_DmgBuff",
