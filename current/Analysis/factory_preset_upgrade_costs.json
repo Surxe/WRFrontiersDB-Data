@@ -269,6 +269,24 @@
             "OBJID_Currency::DA_Meta_Currency_Intel": 800
         }
     },
+    "OBJID_CharacterPreset::DA_Preset_DevbotNipper.0": {
+        "frame": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 1113600,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 2400
+        },
+        "total": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 2124800,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 4600
+        },
+        "weapons": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 556800,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 1200
+        },
+        "gears": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 454400,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 1000
+        }
+    },
     "OBJID_CharacterPreset::DA_Preset_DevbotOrochi.0": {
         "frame": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": 704000,

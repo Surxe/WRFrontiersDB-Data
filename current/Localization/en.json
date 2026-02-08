@@ -80,7 +80,7 @@
         "ABL_descr_WarpArmor": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies nearby. The buff lasts for {ActDuration}",
         "ABL_descr_Atrophy": "Deploys a sticky emitter, which reduces enemies' damage in area by {ActEfficiency} for {Duration}.",
         "ABL_descr_ShortCircuit": "Releases a static discharge that bounces off to nearby targets. It deals {Dmg} damage and prevents enemies from using gear for {ActDuration}. Cooldown: {CD}.",
-        "ABL_descr_Grappling": "Unleashes a swarm of nanobots that latch onto the target over {ActDuration}, dragging the robot toward it and dealing {Dmg} . Cooldown: {CD}."
+        "ABL_descr_Grappling": "Unleashes a swarm of nanobots that latch onto the target over {ActDuration}, dragging the robot toward it and dealing {Dmg}."
     },
     "Ability_name": {
         "ABL_name_AmmoGenerator": "Ammo Fabricator",
@@ -6980,6 +6980,7 @@
         "CopyrightText": "© {currentYear} MY.GAMES B.V. All rights reserved. All trademarks are the property of their respective owners"
     },
     "UI_Pilots": {
+        "PilotHUD_FreeAcceleration_Short": "+ Free Accel",
         "PilotHUD_FreeAcceleration": "+ Free Acceleration",
         "PilotHUD_AbilityPower_Short": "+ {AbilParamBoost} gear PWR",
         "PilotHUD_AbilityPower": "+ {AbilParamBoost} gear power",
