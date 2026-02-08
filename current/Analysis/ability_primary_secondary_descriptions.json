@@ -54,7 +54,7 @@
             "Fuel Reserve": "Refills up to {**Secondary.x**} fuel at {**Primary.x**} units per tick. Cooldown: {CD}. {Consum} uses.",
             "Ghost Turret": "Deploys a turret that attacks the closest enemy for {**Primary.x**} damage per shot over {**Secondary.x**}. Cooldown: {CD}. {Consum} uses.",
             "Fuel Burn": "Hits an enemy within {**Primary.x**} and burns off {**Secondary.x**} of its fuel. Cooldown: {CD}. {Consum} uses.",
-            "Quick Repair": "Repairs your most damaged module for {**Primary.x**} armor per second. Lasts {**Secondary.x**}. Cooldown: {CD}. {Consum} uses.",
+            "Quick Repair": "Repairs your most damaged module for {**Primary.x**}% of armor per second. Lasts {**Secondary.x**}. Cooldown: {CD}. {Consum} uses.",
             "Holofield": "Deploys a {**Secondary.x**} wide wall that blocks line of sight for {**Primary.x**}. Cooldown: {CD}. {Consum} uses.",
             "Sprint Reactor": "Speeds you up by {**Secondary.x**} for {**Primary.x**}. Cooldown: {CD}. {Consum} uses."
         },
@@ -64,7 +64,7 @@
             "Homing Missile": "Fires a homing missile that deals {**Primary.x**} damage to shields or {**Secondary.x**} to armor. Charge required: {ChargeDrain}.",
             "Infinite Ammo": "After a {**Secondary./**} delay, grants unlimited ammo for {**Primary.x**}. Charge required: {ChargeDrain}",
             "Minefield": "Deploys a minefield lasting {**Secondary.x**}. Each mine slows enemies on impact and deals {**Primary.x**} damage. Charge required: {ChargeDrain}",
-            "Nanite Repair": "Repairs all modules for {**Primary.x**} armor per tick. Lasts {**Secondary.x**}. Charge required: {ChargeDrain}.",
+            "Nanite Repair": "Repairs all modules for {**Primary.x**}% of armor per tick. Lasts {**Secondary.x**}. Charge required: {ChargeDrain}.",
             "Recon Mode": "Robot gains a speed boost and reveals all enemies in {**Secondary.x**} range for {**Primary.x**}. Charge needed: {ChargeDrain}.",
             "Gamma Beam": "Locks onto the enemy for {**Secondary.x**}, dealing up to {**Primary.x**} damage per second. Damage scales with proximity. Charge required: {ChargeDrain}",
             "Umbrella": "Deploys a barrier with a {**Secondary.x**} radius that protects against attacks from above. Last for {**Primary.x**}. Charge required: {ChargeDrain}"
