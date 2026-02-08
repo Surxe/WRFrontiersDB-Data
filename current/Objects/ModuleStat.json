@@ -14,7 +14,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "AbilParamBoost"
@@ -52,7 +52,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "ActDuration",
         "decimal_places": 1
@@ -72,7 +72,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ActEfficiency"
@@ -92,7 +92,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "ActRadius"
@@ -121,7 +121,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "AmmoPerc"
@@ -150,7 +150,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ArmorBoost"
@@ -188,7 +188,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "BeaconTime"
     },
@@ -207,7 +207,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "BlinkSpeed",
@@ -237,7 +237,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "CastDuration",
@@ -258,7 +258,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "CastDuration",
@@ -279,7 +279,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "Chance"
@@ -328,7 +328,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "CD"
     },
@@ -347,7 +347,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "CDReduct"
@@ -376,7 +376,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "DmgBoost"
@@ -396,7 +396,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "DmgResist"
@@ -416,7 +416,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "DmgReturn"
@@ -445,7 +445,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "Dist"
@@ -474,7 +474,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "DomeRad"
@@ -494,7 +494,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "Duration",
         "decimal_places": 1
@@ -514,7 +514,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "DurBoost"
@@ -534,7 +534,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "EffDist"
@@ -554,7 +554,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "Eff"
@@ -593,7 +593,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "FadeSpeed",
@@ -614,7 +614,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "Feedback"
@@ -652,7 +652,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "FireRate"
     },
@@ -671,7 +671,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "FireRateBoost"
@@ -691,7 +691,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.0001,
         "short_key": "Force",
@@ -712,7 +712,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "FreezeDur"
     },
@@ -740,7 +740,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "FuelMax",
         "decimal_places": 1
@@ -760,7 +760,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "FuelReg",
         "decimal_places": 1
@@ -780,7 +780,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "FuelRegBoost"
@@ -800,7 +800,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "HP_Cap"
@@ -820,7 +820,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_baseline": 1.0,
         "unit_scaler": -100.0,
@@ -841,7 +841,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "HPLim"
@@ -879,7 +879,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "JamDur"
     },
@@ -898,7 +898,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "JamRelSlow"
@@ -927,7 +927,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "MaxDist"
@@ -947,7 +947,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.036,
         "short_key": "MaxSpeed"
@@ -985,7 +985,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "Range"
@@ -1005,7 +1005,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "RegenFuel",
         "decimal_places": 1
@@ -1034,7 +1034,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ReloadBoost"
@@ -1054,7 +1054,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "RldSpeedBoost"
@@ -1075,7 +1075,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "ReloadTime",
         "decimal_places": 2
@@ -1105,7 +1105,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "SecCastDur",
         "decimal_places": 1
@@ -1134,7 +1134,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldBoost"
@@ -1163,7 +1163,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldDelay"
@@ -1192,7 +1192,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "ShieldRegBoost"
@@ -1222,7 +1222,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "short_key": "SignCD"
     },
@@ -1241,7 +1241,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "SingulationRt",
@@ -1262,7 +1262,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.036,
         "short_key": "SpeedBoost"
@@ -1282,7 +1282,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "SpeedBoostTal"
@@ -1311,7 +1311,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_exponent": -1.0,
         "short_key": "TeleportSpeed",
@@ -1351,7 +1351,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 100.0,
         "short_key": "Vamp"
@@ -1371,7 +1371,7 @@
         "unit_pattern": {
             "Key": "ModuleStatPattern_Default",
             "TableNamespace": "ModuleStatKeys",
-            "en": "ModuleStatPattern_Default"
+            "en": "{Amount}{Unit}"
         },
         "unit_scaler": 0.01,
         "short_key": "WallSize"
