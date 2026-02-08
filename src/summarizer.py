@@ -23,6 +23,30 @@ class VersionConfig(TypedDict):
     patch_notes_url: str
     is_season_release: bool
 
+def get_archive_content(archive_dir: str, version: str, file_path: str) -> dict:
+    """Load JSON content from an archived version.
+    
+    Args:
+        version: Version string (e.g., "2025-06-03")
+        file_path: Relative path to file within version archive (e.g., "Objects/Module.json")
+        
+    Returns:
+        Parsed JSON content as dictionary
+    """
+    version_archive_dir = get_version_archive_dir(archive_dir, version)
+    file = os.path.join(version_archive_dir, file_path)
+    if not os.path.isfile(file):
+        logger.debug(f"File {file} not found for version {version}")
+        return {}
+    with open(file, encoding='utf-8') as f:
+        content = json.load(f)
+    logger.debug(f"Loaded archived content from {file} for version {version}, {len(content)} entries found.")
+    return content
+
+def get_version_archive_dir(archive_dir: str,version: str) -> str:
+    """Get the directory path for a specific version in the archive."""
+    return os.path.join(archive_dir, version)
+
 class PatchSummarizer:
     """Generates patch summaries by comparing game data between versions."""
     
@@ -41,6 +65,9 @@ class PatchSummarizer:
         self.changed_objects_file = os.path.join(repo_root, 'summaries', 'changed_objects.json')
         self.changed_objects = self.read_changed_objects()
 
+    def _get_archive_content(self, version: str, file_path: str) -> dict:
+        return get_archive_content(self.archive_dir, version, file_path)
+
     def get_files_to_retrieve(self, archive_version: str) -> dict[str, str]:
         """Get all parse object files to retrieve, keyed by the file name without extension, representing the ParseObject class."""
         #{ParseObjectClass: path to file relative to its archive directory}
@@ -52,30 +79,6 @@ class PatchSummarizer:
                 po_class = file[:-len('.json')]
                 files_to_retrieve[po_class] = f"Objects/{po_class}.json"
         return files_to_retrieve
-
-    
-    def get_version_archive_dir(self, version: str) -> str:
-        """Get the directory path for a specific version in the archive."""
-        return os.path.join(self.archive_dir, version)
-    
-    def get_archive_content(self, version: str, file_path: str) -> dict:
-        """Load JSON content from an archived version.
-        
-        Args:
-            version: Version string (e.g., "2025-06-03")
-            file_path: Relative path to file within version archive (e.g., "Objects/Module.json")
-            
-        Returns:
-            Parsed JSON content as dictionary
-        """
-        version_archive_dir = self.get_version_archive_dir(version)
-        file = os.path.join(version_archive_dir, file_path)
-        if not os.path.isfile(file):
-            raise FileNotFoundError(f"Archive file not found: {file}")
-        with open(file, encoding='utf-8') as f:
-            content = json.load(f)
-        logger.debug(f"Loaded archived content from {file} for version {version}, {len(content)} entries found.")
-        return content
     
     def get_latest_two_versions(self) -> tuple[str, str]:
         """Auto-detect the latest two versions from archive directory.
@@ -208,8 +211,8 @@ class PatchSummarizer:
         for parse_object_class, file_path in self.get_files_to_retrieve(to_version).items():
             logger.info(f"Retrieving changes for {parse_object_class} ({file_path})")
             
-            before_content = self.get_archive_content(from_version, file_path)
-            after_content = self.get_archive_content(to_version, file_path)
+            before_content = self._get_archive_content(from_version, file_path)
+            after_content = self._get_archive_content(to_version, file_path)
 
             changed_objects = self.get_changed_parse_objects(parse_object_class, before_content, after_content)
             changed_objects_per_object_type[parse_object_class] = changed_objects
