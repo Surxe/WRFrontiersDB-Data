@@ -10,6 +10,7 @@
 * Ghost-Geschütz: Aktiviert ein Geschütz, das dem nächsten Feind angreift und ihm im Verlauf von {**Sekundär.x**} {**Primär.x**} Schaden pro Schuss zufügt. Abklingzeit: {CD}. {Consum} Verwendungen.
 * Kraftstoff- verbrauch: Trifft einen Gegner im Umkreis von {**Primär.x**} und verbrennt {**Sekundär.x**} seines Kraftstoffs. Abklingzeit: {CD}. {Consum} Verwendungen.
 * Schnellreparatur: Repariert dein am meisten beschädigte Modul um {**Primär.x**} Panzerung pro Sekunde. Dauert {**Sekundär.x**}. Abklingzeit: {CD}. {Consum} Verwendungen.
+* Repulsor: Fügt Feinden {**Sekundär.x**} Schaden zu und schiebt sie und dich mit einer Kraft von {**Primär.x**} voneinander weg. Abklingzeit: {CD}. {Consum} Verwendungen.
 * Holofeld: Aktiviert eine {**Sekundär.x**} breite Wand, die die Sichtlinie {**Primär.x**} lang blockiert. Abklingzeit: {CD}. {Consum} Verwendungen.
 * Sprintreaktor: Beschleunigt dich {**Primär.x**} lang um {**Sekundär.x**}. Abklingzeit: {CD}. {Consum} Verwendungen.
 
@@ -42,8 +43,9 @@
 * Pursuer's Optische Tarnung: Macht dich nach einer Verzögerung von {**Sekundär./**} {**Primär.x**} lang unsichtbar. Abklingzeit: {CD}.
 * Ravana's Wächtermatrix: Verbündete vor dir erleiden {**Primär.x**} lang {**Sekundär.x**} weniger Schaden. Du kannst nicht getötet werden, solange ein Verbündeter davon betroffen ist. Abklingzeit: {CD}.
 * Raven's Stahlfedern: Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}. Abklingzeit: {CD}.
+* Scorpion's Peitschenschlag: Ein Zielsuchprojektil verursacht beim Aufprall {**Primär.x**} Schaden und fügt anschließend allen Modulen {**Sekundär.x**} pro Sekunde zu. Wird aufgeladen, wenn das Ziel während der Aktivität zerstört wird. Andernfalls beträgt die Abklingzeit: {CD}.
 * Siren's Kälteeinbruch: Feuert ein Gefrierprojektil ab, das Feinden im Wirkradius {**Primär.x**} Schaden zufügt und sie {**Sekundär.x**} lang bewegungsunfähig macht. Abklingzeit: {CD}.
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Blackout: Feuert Zielsuchraketen ab, die bis zu 3 Feinde dazu zwingt, nachzuladen. Gleichzeitig verlangsamt sie ihre Nachladezeiten {**Sekundär.x**} lang um {**Primär.x**}. Abklingzeit: {CD}.
 * Tyr's Drohnenreparatur: Aktiviert eine Drohne, die Verbündete im Umkreis von {**Primär.x**} {**Sekundär.x**} lang repariert. Abklingzeit: {CD}.
 * Varangian's Energiekuppel: Aktiviert eine Barriere mit einem Umkreis von {**Sekundär.x**}, die bis zu {**Primär.x**} Schaden durch feindliche Angriffe absorbiert. Abklingzeit: {CD}.
 
@@ -60,6 +62,7 @@
 * Ghost Turret: Deploys a turret that attacks the closest enemy for {**Primary.x**} damage per shot over {**Secondary.x**}. Cooldown: {CD}. {Consum} uses.
 * Fuel Burn: Hits an enemy within {**Primary.x**} and burns off {**Secondary.x**} of its fuel. Cooldown: {CD}. {Consum} uses.
 * Quick Repair: Repairs your most damaged module for {**Primary.x**}% of armor per second. Lasts {**Secondary.x**}. Cooldown: {CD}. {Consum} uses.
+* Repulsor: Deals {**Secondary.x**} damage to enemies, and pushes them and you away from each other with {**Primary.x**} force. Cooldown: {CD}. {Consum} uses.
 * Holofield: Deploys a {**Secondary.x**} wide wall that blocks line of sight for {**Primary.x**}. Cooldown: {CD}. {Consum} uses.
 * Sprint Reactor: Speeds you up by {**Secondary.x**} for {**Primary.x**}. Cooldown: {CD}. {Consum} uses.
 
@@ -92,8 +95,9 @@
 * Pursuer's Optical Camo: After a {**Secondary./**} delay, makes you invisible for {**Primary.x**}. Cooldown: {CD}
 * Ravana's Guardian Matrix: Allies in front of you take {**Secondary.x**} less damage for {**Primary.x**}. You cannot be destroyed while any ally is affected by this. Cooldown: {CD}
 * Raven's Steel Feathers: Fires a barrage of missiles dead ahead, each dealing {**Primary.x**} damage with a {**Secondary.x**} blast radius. Cooldown: {CD}
+* Scorpion's Whiplash: A homing projectile deals {**Primary.x**} damage on hit and then {**Secondary.x**} per second to all modules. Recharges if target is destroyed while active, otherwise Cooldown: {CD}
 * Siren's Cold Snap: Fires a freezing projectile that deals {**Primary.x**} damage to enemies within a blast radius and immobilizes them for {**Secondary.x**}. Cooldown: {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Blackout: Fires homing missiles that force up to 3 enemies to reload, while also slowing their reloads by {**Primary.x**} for {**Secondary.x**}. Cooldown: {CD}
 * Tyr's Repair Drone: Deploys a drone that repairs allies within {**Primary.x**} for {**Secondary.x**}. Cooldown: {CD}
 * Varangian's Energy Dome: Deploys a barrier with {**Secondary.x**} radius that absorbs up to {**Primary.x**} damage from enemy attacks. Cooldown: {CD}
 
@@ -110,6 +114,7 @@
 * Torreta fantasma: Despliega una torreta que ataca al enemigo más cercano infligiendo {**Primario.x**} de daño por tiro durante {**Secundario.x**}. Tiempo de recarga: {CD}. {Consum} usos.
 * Quema de combustible: Alcanza a un enemigo en un radio de {**Primario.x**} y consume {**Secundario.x**} de su combustible. Tiempo de recarga: {CD}. {Consum} usos.
 * Reparación rápida: Repara tu módulo más dañado con {**Primario.x**} de armadura por segundo. Dura {**Secundario.x**}. Tiempo de recarga: {CD}. {Consum} usos.
+* Repulsor: Inflige {**Secundario.x**} de daño a los enemigos y os aparta a todos con {**Primario.x**} de fuerza. Tiempo de recarga: {CD}. {Consum} usos.
 * Holocampo: Despliega un holocampo de {**Secundario.x**} de ancho que bloquea la línea de visión. Límite de suministro: {**Primario.x**}. Tiempo de recarga: {CD}. {Consum} usos.
 * Reactor de velocidad: Te acelera {**Secundario.x**} durante {**Primario.x**}. Tiempo de recarga: {CD}. {Consum} usos.
 
@@ -142,8 +147,9 @@
 * Pursuer's Camuflaje óptico: Tras un retardo de {**Secundario./**}, te hace invisible durante {**Primario.x**}. Tiempo de recarga: {CD}
 * Ravana's Matriz de guardianes: Los aliados frente a ti reciben {**Secundario.x**} menos de daño durante {**Primario.x**}. No te podrán matar mientras haya aliados con este efecto activo. Tiempo de recarga: {CD}
 * Raven's Plumas de acero: Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**}. Tiempo de recarga: {CD}
+* Scorpion's Latigazo: Un proyectil teledirigido inflige {**Primario.x**} de daño al impactar y {**Secundario.x**} por segundo a todos los módulos. Se recarga si el objetivo es destruido mientras está activo. Si no, el tiempo de recarga es: {CD}.
 * Siren's Ola de frío: Dispara un proyectil congelador que inflige {**Primario.x**} de daño a los enemigos en un radio de explosión y los inmoviliza durante {**Secundario.x**}. Tiempo de recarga: {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Apagón: Dispara misiles teledirigidos que obligan hasta a 3 enemigos a recargar mientras se ralentizan sus recargas {**Primario.x**} durante {**Secundario.x**}. Tiempo de recarga: {CD}
 * Tyr's Dron de reparación: Despliega un dron que repara a los aliados en un radio de {**Primario.x**} durante {**Secundario.x**}. Tiempo de recarga: {CD}
 * Varangian's Cúpula energética: Despliega una barrera con un radio de {**Secundario.x**} que absorbe hasta {**Primario.x**} de daño de los ataques enemigos. Tiempo de recarga: {CD}.
 
@@ -160,6 +166,7 @@
 * Tourelle fantôme: Déploie une tourelle qui inflige à l'ennemi le plus proche {**Primaire.x**} points de dégâts par tir pendant {**Secondaire.x**}. Temps de recharge : {CD}. {Consum} utilisations.
 * Combustion: Touche un ennemi dans un rayon de {**Primaire.x**} et brûle {**Secondaire.x**} de son carburant. Temps de recharge : {CD}. {Consum} utilisations.
 * Réparation rapide: Répare votre module le plus endommagé à raison de {**Primaire.x**} points de blindage par seconde. Dure {**Secondaire.x**}. Temps de recharge : {CD}. {Consum} utilisations.
+* Répulseur: Iinflige {**Secondaire.x**} points de dégâts aux ennemis et les repousse loin de vous avec une force de {**Primaire.x**}. Temps de recharge : {CD}. {Consum} utilisations.
 * Champ holographique: Déploie un mur large de {**Secondaire.x**} qui bloque la vue pendant {**Primaire.x**}. Temps de recharge : {CD}. {Consum} utilisations.
 * Réacteur de sprint: Booste votre vitesse de {**Secondaire.x**} pendant {**Primaire.x**}. Temps de recharge : {CD}. {Consum} utilisations.
 
@@ -192,8 +199,9 @@
 * Pursuer's Camouflage optique: Après un délai de {**Secondaire./**}, vous rend invisible pendant {**Primaire.x**}. Temps de recharge : {CD}
 * Ravana's Matrice gardienne: Les alliés devant vous subissent {**Secondaire.x**} points de dégâts en moins pendant {**Primaire.x**}. Vous êtes invincible tant qu'un allié est touché par cet effet. Temps de recharge : {CD}
 * Raven's Plumes d'acier: Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**}. Temps de recharge : {CD}
+* Scorpion's Trauma: Un projectile à tête chercheuse inflige {**Primaire.x**} points de dégâts, puis {**Secondaire.x**} par seconde à chaque module. Recharge immédiate si la cible est détruite pendant son activation, sinon : {CD}
 * Siren's Coup de froid: Tire un projectile glaçant qui inflige {**Primaire.x**} points de dégâts aux ennemis dans son rayon d'explosion et les immobilise pendant {**Secondaire.x**}. Temps de recharge : {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Trou noir: Tire des missiles à tête chercheuse qui forcent jusqu'à 3 ennemis à recharger et diminuent leur vitesse de recharge de {**Primaire.x**} pendant {**Secondaire.x**}. Temps de recharge : {CD}
 * Tyr's Drone réparateur: Déploie un drone qui répare vos alliés dans un rayon de {**Primaire.x**} pendant {**Secondaire.x**}. Temps de recharge : {CD}
 * Varangian's Dôme d'énergie: Déploie une barrière d'un rayon de {**Secondaire.x**}. Elle empêche les ennemis d'y entrer ou d'en sortir et absorbe jusqu'à {**Primaire.x**} points de dégâts. Temps de recharge : {CD}
 
@@ -210,6 +218,7 @@
 * ゴーストタレット: 最も近い敵を攻撃する砲塔を展開し、1発あたり{**メイン.x**}ダメージを{**サブ.x**}にわたって与える。クールダウン：{CD}。使用回数：{Consum}。
 * 燃料燃焼: {**メイン.x**}以内の敵を攻撃し、その燃料を{**サブ.x**}消費する。クールダウン：{CD}。使用回数：{Consum}。
 * クイック修復: 最も損傷したモジュールの装甲を1秒あたり{**メイン.x**}修復する。{**サブ.x**}間持続する。クールダウン：{CD}。使用回数：{Consum}。
+* リパルサー: 敵に{**サブ.x**}ダメージを与え、{**メイン.x**}の力で敵とプレイヤーをお互いに押し出す。クールダウン：{CD}。使用回数：{Consum}。
 * ホロフィールド: {**メイン.x**}間、視線を遮る{**サブ.x**}幅の壁を展開する。クールダウン：{CD}。使用回数：{Consum}。
 * スプリントリアクター: {**メイン.x**}間、速度を{**サブ.x**}増加される。クールダウン：{CD}。使用回数：{Consum}。
 
@@ -242,8 +251,9 @@
 * Pursuer's 光学カモフラージュ: {**サブ./**}後に{**メイン.x**}間、透明になる。クールダウン：{CD}
 * Ravana's ガーディアンマトリクス: 目の前の味方が受けるダメージが{**メイン.x**}間、{**サブ.x**}減少する。味方がこれによって影響を受けている間はキルされない。クールダウン：{CD}
 * Raven's 鋼鉄の羽根: 前方にミサイルの弾幕を形成する。それぞれのミサイルは{**サブ.x**}の爆発半径で{**メイン.x**}ダメージを与える。クールダウン：{CD}
+* Scorpion's むち打ち: 誘導式発射体は着弾時に{**メイン.x**}ダメージを与え、すべてのモジュールに1秒あたり{**サブ.x**}ダメージを与える。アクティブな間、ターゲットが破壊された場合はリチャージされる。それ以外の場合のクールダウン：{CD}
 * Siren's コールドスナップ: 凍結弾を発射し、爆発半径内の敵に{**メイン.x**}ダメージを与え、{**サブ.x**}間動けなくする。クールダウン：{CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's ブラックアウト: 最大3体の敵にリロードを強制する誘導ミサイルを発射し、同時に{**サブ.x**}間、リロード速度を{**メイン.x**}遅くする。クールダウン：{CD}
 * Tyr's 修復ドローン: {**メイン.x**}以内の味方を{**サブ.x**}間、修復するドローンを展開する。クールダウン：{CD}
 * Varangian's エネルギードーム: 半径{**サブ.x**} のバリアを展開し、敵の攻撃から最大{**メイン.x**}ダメージを吸収する。クールダウン：{CD}
 
@@ -260,6 +270,7 @@
 * Fantomowa wieżyczka: Uaktywnia specjalną wieżyczkę, która ostrzeliwuje najbliższego wroga, powodując {**Podstawowy.x**} obrażeń na strzał. Czas aktywności: {**Drugoplanowy.x**}. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
 * Spalanie paliwa: Trafia wroga w promieniu {**Podstawowy.x**} i powoduje utratę przez niego {**Drugoplanowy.x**} paliwa. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
 * Szybka naprawa: Naprawia twój najmocniej uszkodzony moduł z szybkością {**Podstawowy.x**} na sek. Czas aktywności: {**Drugoplanowy.x**}. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
+* Odpychacz: Zadaje wrogom {**Drugoplanowy.x**} obrażeń, a przy tym odrzuca ciebie i twoich przeciwników od siebie z siłą {**Podstawowy.x**}. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
 * Holopole: Uaktywnia mur osłonowy o szerokości {**Drugoplanowy.x**}, który zasłania robota przez {**Podstawowy.x**}. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
 * Reaktor dopalacza: Zapewnia ci przyspieszenie o {**Drugoplanowy.x**} przez {**Podstawowy.x**}. Czas reaktywacji: {CD}. Limit zastosowań: {Consum}.
 
@@ -292,8 +303,9 @@
 * Pursuer's Kamuflaż optyczny: Po opóźnieniu trwającym {**Drugoplanowy./**} twój robot zyskuje na {**Podstawowy.x**} tymczasową niewidzialność. Czas reaktywacji: {CD}.
 * Ravana's Strażnik: Sojusznicy znajdujący się przed tobą otrzymują {**Drugoplanowy.x**} mniej obrażeń przez {**Podstawowy.x**}. W czasie aktywności tej funkcji twój robot nie może zostać zniszczony. Czas reaktywacji: {CD}.
 * Raven's Stalowe pióra: Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.
+* Scorpion's Bicz: Pocisk samonaprowadzający powoduje po trafieniu {**Podstawowy.x**} obrażeń, a następnie dodatkowo {**Drugoplanowy.x**} obrażeń na sek. od ognia wszystkich modułów. Zniszczenie wroga w czasie aktywności powoduje od razu przeładowanie, w innym wypadku czas reaktywacji wynosi: {CD}.
 * Siren's Uderzenie mrozu: Wystrzeliwuje pocisk zamrażający, który powoduje {**Podstawowy.x**} obrażeń w polu rażenia i unieruchamia wrogów na {**Drugoplanowy.x**}. Czas reaktywacji: {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Zaciemnienie: Wystrzeliwuje rakiety samonaprowadzające, które zmuszają maks. 3 wrogów do przeładowania broni, przy czym przeładowanie jest spowalniane o {**Podstawowy.x**} przez {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.
 * Tyr's Dron naprawczy: Uaktywnia drona, który naprawia roboty sojuszników w promieniu {**Podstawowy.x**}. Czas trwania: {**Drugoplanowy.x**}. Czas reaktywacji: {CD}.
 * Varangian's Kopuła energetyczna: Uaktywnia barierę osłony o promieniu {**Drugoplanowy.x**}, która pochłania do {**Podstawowy.x**} obrażeń zadawanych przez atakujących wrogów. Czas reaktywacji: {CD}.
 
@@ -310,6 +322,7 @@
 * Torreta Fantasma: Gera uma torreta que ataca o inimigo mais próximo e causa {**Primário.x**} de dano por tiro durante {**Secundário.x**}. Reativação: {CD}. {Consum} usos.
 * Queima de combustível: Acerta um inimigo dentro de {**Primário.x**} e queima {**Secundário.x**} do combustível dele. Reativação: {CD}. {Consum} usos.
 * Reparos rápidos: Repara {**Primário.x**} por segundo da armadura do seu módulo mais danificado. Dura {**Secundário.x**}. Reativação: {CD}. {Consum} usos.
+* Repulsora: Causa {**Secundário.x**} de dano a inimigos, e empurra para longe qualquer um com uma força de {**Primário.x**}. Reativação: {CD}. {Consum} usos.
 * Bloqueio holográfico: Lança uma parede de {**Secundário.x**} de largura, que bloqueia a linha de visão por {**Primário.x**}. Reativação: {CD}. {Consum} usos.
 * Reator Veloz: Você acelera {**Secundário.x**} por {**Primário.x**}. Reativação: {CD}. {Consum} usos.
 
@@ -342,8 +355,9 @@
 * Pursuer's Camuflagem Óptica: Após um atraso de {**Secundário./**}, você fica invisível por {**Primário.x**}. Reativação: {CD}.
 * Ravana's Matriz Guardiã: Aliados na sua frente sofrem {**Secundário.x**} menos dano por {**Primário.x**}. Você não morre enquanto algum aliado estiver sob este efeito. Reativação: {CD}
 * Raven's Penas de Aço: Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}. Reativação: {CD}
+* Scorpion's Chicotada: Um projétil guiado que causa {**Primário.x**} de dano ao acertar e mais {**Secundário.x**} por segundo a todos os módulos. Recarrega se o alvo for destruído enquanto está ativa, do contrário sua reativação é de {CD}.
 * Siren's Tiro Congelante: Atira um projétil que causa {**Primário.x**} de dano a inimigos no raio da explosão e os imobiliza por {**Secundário.x**}. Reativação: {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Blecaute: Atira mísseis guiados que forçam até 3 inimigos a recarregar, além de desacelerar suas recargas em {**Primário.x**} por {**Secundário.x**}. Reativação: {CD}
 * Tyr's Drone de Reparo: Lança um drone que conserta seus aliados dentro de {**Primário.x**} por {**Secundário.x**}. Reativação: {CD}.
 * Varangian's Domo de Energia: Posiciona uma barreira com um raio de {**Secundário.x**} que absorve até {**Primário.x**} de dano dos ataques inimigos. Reativação: {CD}.
 
@@ -360,6 +374,7 @@
 * Призрачная турель: На {**Второстепенное.x**} устанавливает турель, наносящую ближайшему противнику {**Основное.x**} ед. урона за выстрел. Перезарядка: {CD}. Кол-во использований: {Consum}.
 * Сжигание топлива: Поражает противника в пределах {**Основное.x**} и сжигает у него {**Второстепенное.x**} топлива. Перезарядка: {CD}. Кол-во использований: {Consum}.
 * Быстрый ремонт: Восстанавливает наиболее повреждённому модулю {**Основное.x**} ед. брони в секунду. Длительность {**Второстепенное.x**}. Перезарядка: {CD}. Кол-во использований: {Consum}.
+* Репульсор: Наносит {**Второстепенное.x**} ед. урона противникам и отбрасывает их и вас друг от друга с силой {**Основное.x**}. Перезарядка: {CD}. Кол-во использований: {Consum}.
 * Голографическая завеса: Устанавливает завесу шириной {**Второстепенное.x**}, на {**Основное.x**} закрывающую обзор. Перезарядка: {CD}. Кол-во использований: {Consum}.
 * Ускоряющий реактор: На {**Основное.x**} повышает скорость передвижения на {**Второстепенное.x**}. Перезарядка: {CD}. Кол-во использований: {Consum}.
 
@@ -392,8 +407,9 @@
 * Pursuer's Оптическая маскировка: Через {**Второстепенное./**} вы на {**Основное.x**} становитесь невидимы. Перезарядка: {CD}.
 * Ravana's Защитная матрица: Союзники перед вами получают на {**Второстепенное.x**} меньше урона в течение {**Основное.x**}. Пока этот эффект действует хотя бы на одного союзника, вы неуничтожимы. Перезарядка: {CD}.
 * Raven's Стальные перья: Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}. Перезарядка: {CD}
+* Scorpion's Плеть: Выпускает самонаводящийся снаряд, наносящий {**Основное.x**} ед. урона при попадании и {**Второстепенное.x**} ед. урона в секунду всем модулям. Если цель уничтожается во время действия эффекта, перезарядка сбрасывается. Перезарядка: {CD}.
 * Siren's Заморозок: Выпускает замораживающий снаряд. Он наносит противникам {**Основное.x**} ед. урона и обездвиживает их на {**Второстепенное.x**}. Перезарядка: {CD}.
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Перебой: Выпускает самонаводящиеся ракеты, которые поражают до 3 противников и вынуждают их перезарядиться. Их скорость перезарядки снижается на {**Основное.x**} на {**Второстепенное.x**}. Перезарядка: {CD}.
 * Tyr's Ремонтный дрон: Выпускает дрона, ремонтирующего союзников в области действия ({**Основное.x**}) в течение {**Второстепенное.x**}. Перезарядка: {CD}.
 * Varangian's Энергокупол: Создаёт барьер радиусом {**Второстепенное.x**}, не дающий врагам войти в его область действия или выйти из неё. Поглощает до {**Основное.x**} ед. урона. Перезарядка: {CD}.
 
@@ -410,6 +426,7 @@
 * Hayalet Taret: En yakın düşmana {**İkincil.x**} saniye boyunca atış başına {**Birincil.x**} hasar vererek saldıran bir taret konuşlandırır. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
 * Yakıt Yakımı: {**Birincil.x**} dahilindeki bir düşmanı vurur ve yakıtını {**İkincil.x**} oranında harcar. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
 * Hızlı Onarım: En hasarlı modülünü saniyede {**Birincil.x**} zırh onarır. {**İkincil.x**} sürer. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
+* Püskürtücü: Düşmanlara {**İkincil.x**} hasar verir, seni ve onları {**Birincil.x**} kuvvetle birbirinizden öteye iter. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
 * Holo Saha: {**Birincil.x**} boyunca görüş hattını bloke eden {**İkincil.x**} genişliğinde bir duvar konuşlandırır. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
 * Koşu Reaktörü: {**Birincil.x**} boyunca {**İkincil.x**} hızlanırsın. Bekleme süresi: {CD}. {Consum} kere kullanılabilir.
 
@@ -442,8 +459,9 @@
 * Pursuer's Optik Kamuflaj: {**İkincil./**} sonra seni {**Birincil.x**} boyunca görünmez yapar. Bekleme süresi: {CD}
 * Ravana's Muhafız Matriksi: Önündeki müttefikler {**Birincil.x**} boyunca {**İkincil.x**} daha az hasar alır. Bir müttefik bu etkinin altındaysa öldürülemezsin. Bekleme süresi: {CD}
 * Raven's Çelik Tüyler: Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**} patlama yarıçaplı {**Birincil.x**} hasar verir. Bekleme süresi: {CD}
+* Scorpion's Kamçı Vuruşu: Anında {**Birincil.x**} hasar, sonra da tüm modüllere saniyede {**İkincil.x**} hasar veren bir güdümlü mermi. Etkinken hedef imha olursa yeniden şarj olur, aksi taktirde bekleme süresi: {CD}.
 * Siren's Soğuk Kapış: Patlama alanında kalan düşmanlara {**Birincil.x**} hasar veren ve onları {**İkincil.x**} boyunca hareketsiz kılan bir dondurucu mermi atar. Bekleme süresi: {CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's Karartma: 3’e kadar düşmanı silah doldurmaya zorlayan, bir yandan da silah doldurma hızlarını {**İkincil.x**} boyunca {**Birincil.x**} yavaşlatan güdümlü füzeler atar. Bekleme süresi: {CD}
 * Tyr's Onarım Dronu: {**İkincil.x**} boyunca {**Birincil.x**} dahilindeki müttefikleri onaran bir dron konuşlandırır. Bekleme süresi: {CD}
 * Varangian's Enerji Kubbesi: En fazla {**Birincil.x**} hasar soğuran {**İkincil.x**} yarıçapı olan bir bariyer konuşlandırır. Bekleme süresi: {CD}
 
@@ -460,6 +478,7 @@
 * 幽灵炮塔: 部署一个炮塔，攻击距离最近的敌人，每次命中造成{**主.x**}点伤害，持续存在{**副.x**}。冷却时间：{CD}。可使用{Consum}次。
 * 燃料烧尽: 命中{**主.x**}范围内的一名敌人，烧掉其{**副.x**}的燃料。冷却时间：{CD}。可使用{Consum}次。
 * 快速修复: 你的机器人受损最严重的模块会以每秒恢复{**主.x**}点装甲值的速度修复，持续{**副.x**}。冷却时间：{CD}。可使用{Consum}次。
+* 反冲器: 对敌人造成{**副.x**}点伤害，并以{**主.x**}的速度将你和敌人相互推开。冷却时间：{CD}。可使用{Consum}次。
 * 全息场: 部署一道{**副.x**}宽的墙阻挡视线，持续存在{**主.x**}。冷却时间：{CD}。可使用{Consum}次。
 * 冲刺反应器: 使你的速度提升{**副.x**}，持续{**主.x**}。冷却时间：{CD}。可使用{Consum}次。
 
@@ -492,8 +511,9 @@
 * Pursuer's 光学伪装: 在{**副./**}延迟后让你进入隐身状态，持续{**主.x**}。冷却时间：{CD}
 * Ravana's 守护者母体: 位于你前方的队友受到的伤害降低{**副.x**}，持续{**主.x**}。当有任何队友受此效果影响时，你无法被杀死。冷却时间：{CD}。
 * Raven's 钢之羽: 向正前方发射一波飞弹，每枚飞弹可对{**副.x**}爆炸半径范围内目标造成{**主.x**}点伤害。冷却时间：{CD}。
+* Scorpion's 尾后针: 一枚追踪炮弹，命中时造成{**主.x**}点伤害，随后对目标机器人的所有模块施加每秒{**副.x**}点的持续伤害。如果目标在伤害持续期间被击毁，则该技能立即结束冷却，否则其冷却时间为：{CD}。
 * Siren's 寒流: 发射一枚冷凝弹，对爆炸半径内的敌人造成{**主.x**}点伤害，并将其短暂禁锢在原地，持续{**副.x**}。冷却时间：{CD}。
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's 弹药管制: 发射一波追踪飞弹，强制最多3名敌人重新装填武器，同时使其装填速度降低{**主.x**}，持续{**副.x**}。冷却时间：{CD}
 * Tyr's 维修无人机: 部署一架无人机修复{**主.x**}范围内的队友，持续存在{**副.x**}。冷却时间：{CD}
 * Varangian's 能量穹顶: 部署一道半径{**副.x**}的屏障，该屏障最多可吸收{**主.x**}点敌方攻击伤害。冷却时间：{CD}。
 
@@ -510,6 +530,7 @@
 * 鬼影炮塔: 部署砲塔，砲塔會攻擊最近的敵人，每發造成 {**主要.x**} 傷害，持續 {**次要.x**}。冷卻時間：{CD}。使用次數：{Consum}。
 * 燃料燒灼: 擊中 {**主要.x**} 半徑內的單個敵人，並燒掉對方 {**次要.x**} 燃料。冷卻時間：{CD}。使用次數：{Consum}。
 * 快速修復: 修復受損最嚴重的模組，每秒恢復 {**主要.x**} 裝甲。持續 {**次要.x**}。冷卻時間：{CD}。使用次數：{Consum}。
+* 斥力衝擊: 對敵人造成 {**次要.x**} 傷害，會以 {**主要.x**} 力量將你和敵人推開。冷卻時間：{CD}。使用次數：{Consum}。
 * 全息場: 部署寬度為 {**次要.x**} 的墻面，阻撓視線，持續 {**主要.x**}。冷卻時間：{CD}。使用次數：{Consum}。
 * 衝刺反應爐: 速度加快 {**次要.x**}，持續 {**主要.x**}。冷卻時間：{CD}。使用次數：{Consum}。
 
@@ -542,7 +563,8 @@
 * Pursuer's 光學迷彩: 在延遲 {**次要./**} 後隱形，持續 {**主要.x**}。冷卻時間：{CD}
 * Ravana's 守護矩陣: 你前方的友軍承受的傷害減少 {**次要.x**}，持續 {**主要.x**}。在任一友軍受此影響的期間你無法遭到擊殺。冷卻時間：{CD}
 * Raven's 鐵翼彈雨: 朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}。冷卻時間：{CD}
+* Scorpion's 鞭撻: 命中時造成{**主要.x**} 點傷害的追蹤投射物，接著每秒對所有模組造成{**次要.x**} 點傷害。若目標在此技能生效時死亡，此技能會立即再次充能。冷卻時間：{CD}
 * Siren's 至寒重擊: 發射急凍投射物，在爆破半徑內對敵人造成 {**主要.x**} 傷害並將其凍結，持續 {**次要.x**}。冷卻時間：{CD}
-* Typhon's Unnamed Ability OBJID_Ability::BP_Module_Typhon_Torso.1: No Description for Ability OBJID_Ability::BP_Module_Typhon_Torso.1
+* Typhon's 強制填裝: 發射追蹤飛彈，這些飛彈會迫使最多 3 名敵人填裝，同時減緩其填裝速度 {**主要.x**}，持續 {**次要.x**}。冷卻時間：{CD}
 * Tyr's 維修子機: 派出無人機，能夠修復 {**主要.x**} 範圍內的友軍，持續 {**次要.x**}。冷卻時間：{CD}
 * Varangian's 能量穹頂: 部署範圍 {**次要.x**} 的屏障。該屏障可以防止敵人進出，且能吸收最多 {**主要.x**} 傷害。冷卻時間：{CD}

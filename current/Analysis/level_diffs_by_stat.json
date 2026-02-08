@@ -26,6 +26,7 @@
         "OBJID_Module::DA_Module_ShoulderOrochi.0": 0.16443,
         "OBJID_Module::DA_Module_ShoulderTyphon.0": 0.16443,
         "OBJID_Module::DA_Module_ShoulderFenrir.0": 0.16443,
+        "OBJID_Module::DA_Module_ShoulderScorpion.0": 0.16442,
         "OBJID_Module::DA_Module_ShoulderHarpy.0": 0.16442,
         "OBJID_Module::DA_Module_ChassisTyr.2": 0.16442,
         "OBJID_Module::DA_Module_ChassisSiren.2": 0.16441,
@@ -43,6 +44,7 @@
         "OBJID_Module::DA_Module_ChassisBulwark.2": 0.16439,
         "OBJID_Module::DA_Module_ChassisOrochi.2": 0.16439,
         "OBJID_Module::DA_Module_ChassisGriffin.2": 0.16438,
+        "OBJID_Module::DA_Module_ChassisScorpion.2": 0.16438,
         "OBJID_Module::DA_Module_ChassisAres.2": 0.16438,
         "OBJID_Module::DA_Module_ChassisPhantom.2": 0.16438,
         "OBJID_Module::DA_Module_ChassisTyphon.2": 0.16437,
@@ -65,6 +67,7 @@
         "OBJID_Module::DA_Module_TorsoCyclops.1": 0.10623,
         "OBJID_Module::DA_Module_TorsoBulgasari.1": 0.10623,
         "OBJID_Module::DA_Module_TorsoGrim.0": 0.10623,
+        "OBJID_Module::DA_Module_TorsoScorpion.1": 0.10623,
         "OBJID_Module::DA_Module_TorsoAlpha.0": 0.10623,
         "OBJID_Module::DA_Module_TorsoInquisitor.1": 0.10623,
         "OBJID_Module::DA_Module_TorsoFury.1": 0.10623,
@@ -87,6 +90,7 @@
         "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1": -0.24812
     },
     "ClipSize": {
+        "OBJID_Module::DA_Module_Weapon_Tusk.0": 0.6,
         "OBJID_Module::DA_Module_Weapon_Incinerator.0": 0.5,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": 0.4,
         "OBJID_Module::DA_Module_Weapon_Gozer.0": 0.25926,
@@ -100,6 +104,7 @@
     "Cooldown": {
         "OBJID_Module::DA_Module_ShoulderRMatriarch.0": -0.42857,
         "OBJID_Module::DA_Module_ShoulderLAlpha.0": -0.42857,
+        "OBJID_Module::DA_Module_Ability_Repulsor.1": -0.42857,
         "OBJID_Module::DA_Module_Ability_BlockingField.1": -0.42857,
         "OBJID_Module::DA_Module_Ability_BlastWave.1": -0.42857,
         "OBJID_Module::DA_Module_Ability_ArmorShield.1": -0.42373,
@@ -108,6 +113,7 @@
         "OBJID_Module::DA_Module_Ability_SmokeWall.1": -0.42308,
         "OBJID_Module::DA_Module_Ability_GhostTurret.1": -0.42308,
         "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1": -0.42308,
+        "OBJID_Module::DA_Module_TorsoScorpion.1": -0.4186,
         "OBJID_Module::DA_Module_TorsoGrim.0": -0.4186,
         "OBJID_Module::DA_Module_ShoulderLGrim.0": -0.4186,
         "OBJID_Module::DA_Module_Ability_Grounded.1": -0.4186,
@@ -155,6 +161,7 @@
         "OBJID_Module::DA_Module_Weapon_Scourge.0": 0.10619,
         "OBJID_Module::DA_Module_Weapon_Callisto.0": 0.10619,
         "OBJID_Module::DA_Module_Weapon_Thunder.0": 0.10616,
+        "OBJID_Module::DA_Module_Weapon_Tusk.0": 0.10607,
         "OBJID_Module::DA_Module_Weapon_Vortex.0": 0.10599,
         "OBJID_Module::DA_Module_Weapon_Shocktrain.0": 0.10598,
         "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": 0.10585,
@@ -200,7 +207,8 @@
         "OBJID_Module::DA_Module_ChassisPursuer.2": 0.2,
         "OBJID_Module::DA_Module_ChassisOrochi.2": 0.19048,
         "OBJID_Module::DA_Module_ChassisTyr.2": 0.18182,
-        "OBJID_Module::DA_Module_ChassisHarpy.2": 0.18182
+        "OBJID_Module::DA_Module_ChassisHarpy.2": 0.18182,
+        "OBJID_Module::DA_Module_ChassisScorpion.2": 0.15385
     },
     "LegsArmor": {
         "OBJID_Module::DA_Module_ChassisTyr.2": 0.16442,
@@ -219,6 +227,7 @@
         "OBJID_Module::DA_Module_ChassisBulwark.2": 0.16439,
         "OBJID_Module::DA_Module_ChassisOrochi.2": 0.16439,
         "OBJID_Module::DA_Module_ChassisGriffin.2": 0.16438,
+        "OBJID_Module::DA_Module_ChassisScorpion.2": 0.16438,
         "OBJID_Module::DA_Module_ChassisPhantom.2": 0.16438,
         "OBJID_Module::DA_Module_ChassisAres.2": 0.16437,
         "OBJID_Module::DA_Module_ChassisTyphon.2": 0.16437,
@@ -245,11 +254,13 @@
         "OBJID_Module::DA_Module_ChassisFury.2": 0.11268,
         "OBJID_Module::DA_Module_ChassisCyclops.2": 0.10667,
         "OBJID_Module::DA_Module_ChassisRaven.2": 0.10526,
+        "OBJID_Module::DA_Module_ChassisScorpion.2": 0.06306,
         "OBJID_Module::DA_Module_ChassisPursuer.2": 0.05932
     },
     "RoundsPerMinute": {
         "OBJID_Module::DA_Module_Weapon_StickyGun.0": 0.51515,
         "OBJID_Module::DA_Module_Weapon_Buckshot.0": 0.45763,
+        "OBJID_Module::DA_Module_Weapon_Tusk.0": 0.21212,
         "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": 0.16216,
         "OBJID_Module::DA_Module_Weapon_Shredder.0": 0.1043,
         "OBJID_Module::DA_Module_Weapon_Pulsar.0": -0.02174
@@ -268,6 +279,7 @@
         "OBJID_Module::DA_Module_ShoulderLAlpha.0": 0.26827,
         "OBJID_Module::DA_Module_ShoulderVityaz02.0": 0.26826,
         "OBJID_Module::DA_Module_ShoulderVityaz01.0": 0.26826,
+        "OBJID_Module::DA_Module_ShoulderScorpion.0": 0.26826,
         "OBJID_Module::DA_Module_ShoulderPursuer.0": 0.26825,
         "OBJID_Module::DA_Module_ShoulderInquisitor.0": 0.26824,
         "OBJID_Module::DA_Module_ShoulderHarpy.0": 0.26824,
@@ -303,6 +315,7 @@
         "OBJID_Module::DA_Module_ShoulderRaven.0": 0.26824,
         "OBJID_Module::DA_Module_ShoulderVityaz02.0": 0.26823,
         "OBJID_Module::DA_Module_ShoulderVityaz01.0": 0.26823,
+        "OBJID_Module::DA_Module_ShoulderScorpion.0": 0.26821,
         "OBJID_Module::DA_Module_ShoulderCyclops.0": 0.26819,
         "OBJID_Module::DA_Module_ShoulderPhantom.0": 0.26818,
         "OBJID_Module::DA_Module_ShoulderAres.0": 0.26816,
@@ -315,6 +328,7 @@
     "TimeBetweenShots": {
         "OBJID_Module::DA_Module_Weapon_Shredder.0": -0.09091,
         "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0": -0.1358,
+        "OBJID_Module::DA_Module_Weapon_Tusk.0": -0.17582,
         "OBJID_Module::DA_Module_Weapon_Buckshot.0": -0.31238,
         "OBJID_Module::DA_Module_Weapon_StickyGun.0": -0.34211
     },

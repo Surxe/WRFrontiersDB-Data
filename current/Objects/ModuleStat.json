@@ -546,6 +546,22 @@
         "unit_scaler": 100.0,
         "short_key": "FireRateBoost"
     },
+    "DA_ModuleStat_Force.0": {
+        "id": "DA_ModuleStat_Force.0",
+        "stat_name": {
+            "Key": "ModuleStat_Force",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "Knockback force"
+        },
+        "unit_name": {
+            "Key": "ModuleStat_Unit_M_S",
+            "TableNamespace": "ModuleStatKeys",
+            "en": "m/s"
+        },
+        "unit_scaler": 0.0001,
+        "short_key": "Force",
+        "decimal_places": 1
+    },
     "DA_ModuleStat_FreezeDuration.0": {
         "id": "DA_ModuleStat_FreezeDuration.0",
         "stat_name": {

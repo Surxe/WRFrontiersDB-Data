@@ -1036,6 +1036,126 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_FullArmorRepairing"
     },
+    "BP_Ability_Repulsor.2": {
+        "id": "BP_Ability_Repulsor.2",
+        "misc": {
+            "ImpulsePower": 500000.0,
+            "VerticalImpulsePowerRatio": 0.4,
+            "MinVerticalImpulsePower": 70000.0,
+            "PrimaryParameter": 7000.0,
+            "SecondaryParameter": 10000.0
+        },
+        "projectile_types": [
+            {
+                "MovementComponent": {
+                    "bSimplifiedMovementCalculation": false,
+                    "InitialSpeed": 80000.0,
+                    "MaxSpeed": 80000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 1000.0,
+                    "DamageShield": 1000.0
+                },
+                "AoeDamage": {
+                    "Axis": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 3000.0
+                    },
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 5000.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 5500.0,
+                                    "Value": 0.1,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ],
+                            "KeyHandlesToIndices": {}
+                        }
+                    }
+                },
+                "CorpseTime": 0.2,
+                "CorpseVisible": true,
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 20000.0,
+                "MaxDistanceSettings": 20000.0,
+                "DeathDistanceSettings": 20010.0,
+                "GravityChangeFromDistance": {
+                    "EditorCurveData": {
+                        "KeyHandlesToIndices": {}
+                    }
+                },
+                "PushingSettings": {
+                    "VerticalImpulsePowerRatio": 0.4,
+                    "MinVerticalImpulsePower": 70000.0,
+                    "ImpulsePower": 500000.0
+                },
+                "InitialLifeSpan": 0.0,
+                "SpawnSocketName": "Ability"
+            }
+        ],
+        "ai": {
+            "conditions": [
+                {
+                    "bCheckSelf": true
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_Repulsor",
+            "TableNamespace": "Ability_name",
+            "en": "Repulsor"
+        },
+        "description": {
+            "Key": "ABL_descr_Repulsor",
+            "TableNamespace": "Ability_descripton",
+            "en": "Deals {Dmg} damage to enemies, and pushes them and you away from each other with {Force} force. Cooldown: {CD}. {Consum} uses."
+        },
+        "cooldown": {
+            "Cooldown": 20.0
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Repulsor"
+    },
     "BP_Ability_SmokeWall.2": {
         "id": "BP_Ability_SmokeWall.2",
         "misc": {
@@ -8272,6 +8392,293 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_SharpFeathers"
     },
+    "BP_Module_Scorpion_Chassis.1": {
+        "id": "BP_Module_Scorpion_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 4500.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 5000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 5500.0,
+                    "MinSpeedToStartAction": 2100.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 8000.0,
+                    "VelocityThreshold": 2200.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 8000.0,
+                    "VelocityThreshold": 2200.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 5000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 5500.0,
+                    "MinSpeedToStartAction": 2100.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Scorpion_Chassis.2": {
+        "id": "BP_Module_Scorpion_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 1.1,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": {
+                "FloatCurve": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 140000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.1,
+                            "Value": 70000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1200.0,
+                            "Value": 15000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Scorpion_Torso.1": {
+        "id": "BP_Module_Scorpion_Torso.1",
+        "targeting": {
+            "ConfirmationAction": {
+                "ConeRadius": 17000.0,
+                "ConeHalfAngleInDegrees": 15.0,
+                "MaxTargetNum": 1
+            }
+        },
+        "projectile_types": [
+            {
+                "MovementComponent": {
+                    "InitialSpeed": 10000.0,
+                    "MaxSpeed": 50000.0,
+                    "bIsHomingProjectile": true,
+                    "ProjectileGravityScale": 0.0
+                },
+                "BuffsOnHit": {
+                    "DirectDamagePerSecond": {
+                        "DamageArmor": 5000.0,
+                        "DamageShield": 3000.0
+                    },
+                    "AoeDamagePerSecond": {
+                        "DistToDamage": {
+                            "EditorCurveData": {
+                                "KeyHandlesToIndices": {}
+                            }
+                        }
+                    },
+                    "TickInterval": 500.0,
+                    "Lifetime": 5.0,
+                    "StackMode": "StackPerModule"
+                },
+                "DirectDamage": {
+                    "DamageArmor": 30000.0,
+                    "DamageShield": 0.0
+                },
+                "AoeDamage": {
+                    "Radius": 0.0,
+                    "DamageArmor": 0.0,
+                    "DamageShield": 0.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 70000.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 70001.0,
+                                    "Value": 0.1,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ],
+                            "KeyHandlesToIndices": {}
+                        }
+                    }
+                },
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 100002.0,
+                "GravityChangeFromDistance": {
+                    "EditorCurveData": {
+                        "KeyHandlesToIndices": {}
+                    }
+                },
+                "InitialLifeSpan": 10.0,
+                "SpawnSocketName": "Torso_Tail05_Center"
+            }
+        ],
+        "name": {
+            "Key": "ABL_name_Whiplash",
+            "TableNamespace": "Ability_name",
+            "en": "Whiplash"
+        },
+        "description": {
+            "Key": "ABL_descr_Whiplash",
+            "TableNamespace": "Ability_descripton",
+            "en": "A homing projectile deals {Dmg} damage on hit and then {Burning} per second to all modules. Recharges if target is destroyed while active, otherwise Cooldown: {CD}"
+        },
+        "misc": {
+            "PrimaryParameter": 30000.0,
+            "SecondaryParameter": 1000.0,
+            "EffectType": "Attacking",
+            "bDeactivateIfOwnerDie": true
+        },
+        "cooldown": {
+            "Cooldown": 25.0
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Backstab"
+    },
     "BP_Module_Siren_Chassis.1": {
         "id": "BP_Module_Siren_Chassis.1",
         "misc": {
@@ -8532,312 +8939,6 @@
             "EffectType": "Attacking"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Glacial"
-    },
-    "BP_Module_SpiderBig_Chassis.1": {
-        "id": "BP_Module_SpiderBig_Chassis.1",
-        "misc": {
-            "Actions": [
-                {
-                    "CanStartMidair": false,
-                    "Duration": 0.6,
-                    "MaxSpeedModifier": {
-                        "Value": 2500.0,
-                        "Type": "Add"
-                    }
-                },
-                {
-                    "StartDelay": 0.2,
-                    "StartImpulse": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 1200.0
-                    }
-                },
-                {
-                    "StartDelay": 0.25,
-                    "VerticalAcceleration": -6200.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "Duration": 0.25,
-                    "RequestedDirectionAcceleration": 30000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5000.0,
-                    "MinSpeedToStartAction": 2400.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 5500.0,
-                    "VelocityThreshold": 1500.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "RequestedDirectionAcceleration": 30000.0
-                },
-                {
-                    "Duration": 0.5,
-                    "RequestedDirectionAcceleration": 4500.0,
-                    "VelocityThreshold": 4500.0,
-                    "MinSpeedToStartAction": 1400.0
-                },
-                {
-                    "CanStartOnGround": true,
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 0.6,
-                    "bBlocksAirControl": true
-                },
-                {
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 1.0,
-                    "VerticalAcceleration": 950.0,
-                    "MinSpeedToStartAction": -9999.0
-                }
-            ],
-            "InitialDuration": 0.6,
-            "bAllowStatsReporting": false,
-            "UsageFuelCost": 4.0,
-            "MinimumDuration": 0.6
-        },
-        "name": {
-            "Key": "ABL_name_Dash",
-            "TableNamespace": "Ability_name",
-            "en": "Dash Thrusters"
-        },
-        "description": {
-            "Key": "ABL_descr_Dash",
-            "TableNamespace": "Ability_descripton",
-            "en": "Dash in a direction you're facing. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 1.5
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
-    },
-    "BP_Module_SpiderBig_Chassis.2": {
-        "id": "BP_Module_SpiderBig_Chassis.2",
-        "misc": {
-            "JumpFuelCost": 2.0,
-            "FuelCostToStartAirborne": 2.0,
-            "JumpTime": 0.55,
-            "JetpackMaxVerticalSpeed": 3000000.0,
-            "bOverrideAirControl": true,
-            "AirControl": 0.5,
-            "JetpackStartVerticalImpulse": 0.0,
-            "JetpackJumpAccelerationForce": 500000.0,
-            "bAllowStatsReporting": false,
-            "FuelUsagePerSecond": 10.0,
-            "VerticalAccelerationForceCurve": {
-                "FloatCurve": {
-                    "Keys": [
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 0.0,
-                            "Value": 180000.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        },
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 1000.0,
-                            "Value": 100000.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        },
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 4000.0,
-                            "Value": 0.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        }
-                    ]
-                }
-            },
-            "AirControlBoostMultiplier": 0.75,
-            "AirControlBoostVelocityThreshold": 1000.0,
-            "JumpMovementMode": "MOVE_Falling"
-        },
-        "name": {
-            "Key": "ABL_name_Jetpack",
-            "TableNamespace": "Ability_name",
-            "en": "Jump Jet"
-        },
-        "description": {
-            "Key": "ABL_descr_Jetpack",
-            "TableNamespace": "Ability_descripton",
-            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 15.0,
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
-    },
-    "BP_Module_Spider_Chassis_V2.1": {
-        "id": "BP_Module_Spider_Chassis_V2.1",
-        "misc": {
-            "Actions": [
-                {
-                    "CanStartMidair": false,
-                    "Duration": 0.6,
-                    "MaxSpeedModifier": {
-                        "Value": 2500.0,
-                        "Type": "Add"
-                    }
-                },
-                {
-                    "StartDelay": 0.2,
-                    "StartImpulse": {
-                        "X": 0.0,
-                        "Y": 0.0,
-                        "Z": 1200.0
-                    }
-                },
-                {
-                    "StartDelay": 0.25,
-                    "VerticalAcceleration": -6200.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "Duration": 0.25,
-                    "RequestedDirectionAcceleration": 30000.0,
-                    "bHasVelocityThreshold": true,
-                    "VelocityThreshold": 5000.0,
-                    "MinSpeedToStartAction": 2400.0
-                },
-                {
-                    "RequestedDirectionAcceleration": 5500.0,
-                    "VelocityThreshold": 1500.0
-                },
-                {
-                    "StartDelay": 0.2,
-                    "RequestedDirectionAcceleration": 30000.0
-                },
-                {
-                    "Duration": 0.5,
-                    "RequestedDirectionAcceleration": 4500.0,
-                    "VelocityThreshold": 4500.0,
-                    "MinSpeedToStartAction": 1400.0
-                },
-                {
-                    "CanStartOnGround": true,
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 0.6,
-                    "bBlocksAirControl": true
-                },
-                {
-                    "CanStartMidair": true,
-                    "bHasDuration": true,
-                    "Duration": 1.0,
-                    "VerticalAcceleration": 950.0,
-                    "MinSpeedToStartAction": -9999.0
-                }
-            ],
-            "InitialDuration": 0.6,
-            "bAllowStatsReporting": false,
-            "UsageFuelCost": 4.0,
-            "MinimumDuration": 0.6
-        },
-        "name": {
-            "Key": "ABL_name_Dash",
-            "TableNamespace": "Ability_name",
-            "en": "Dash Thrusters"
-        },
-        "description": {
-            "Key": "ABL_descr_Dash",
-            "TableNamespace": "Ability_descripton",
-            "en": "Dash in a direction you're facing. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 1.5
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
-    },
-    "BP_Module_Spider_Chassis_V2.2": {
-        "id": "BP_Module_Spider_Chassis_V2.2",
-        "misc": {
-            "JumpFuelCost": 2.0,
-            "FuelCostToStartAirborne": 2.0,
-            "JumpTime": 0.55,
-            "JetpackMaxVerticalSpeed": 3000000.0,
-            "bOverrideAirControl": true,
-            "AirControl": 0.5,
-            "JetpackStartVerticalImpulse": 0.0,
-            "JetpackJumpAccelerationForce": 500000.0,
-            "bAllowStatsReporting": false,
-            "FuelUsagePerSecond": 10.0,
-            "VerticalAccelerationForceCurve": {
-                "FloatCurve": {
-                    "Keys": [
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 0.0,
-                            "Value": 180000.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        },
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 1000.0,
-                            "Value": 100000.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        },
-                        {
-                            "InterpMode": "RCIM_Linear",
-                            "TangentMode": "RCTM_Auto",
-                            "TangentWeightMode": "RCTWM_WeightedNone",
-                            "Time": 4000.0,
-                            "Value": 0.0,
-                            "ArriveTangent": 0.0,
-                            "ArriveTangentWeight": 0.0,
-                            "LeaveTangent": 0.0,
-                            "LeaveTangentWeight": 0.0
-                        }
-                    ]
-                }
-            },
-            "AirControlBoostMultiplier": 0.75,
-            "AirControlBoostVelocityThreshold": 1000.0,
-            "JumpMovementMode": "MOVE_Falling"
-        },
-        "name": {
-            "Key": "ABL_name_Jetpack",
-            "TableNamespace": "Ability_name",
-            "en": "Jump Jet"
-        },
-        "description": {
-            "Key": "ABL_descr_Jetpack",
-            "TableNamespace": "Ability_descripton",
-            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
-        },
-        "cooldown": {
-            "Cooldown": 15.0,
-            "CooldownPolicy": "StartCooldownAfterEnd"
-        },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
     },
     "BP_Module_Typhon_Chassis.1": {
         "id": "BP_Module_Typhon_Chassis.1",
@@ -9280,7 +9381,17 @@
             "CastDuration": 1.3,
             "EffectType": "Attacking"
         },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BlackoutIcon"
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BlackoutIcon",
+        "name": {
+            "Key": "ABL_name_Blackout",
+            "TableNamespace": "Ability_name",
+            "en": "Blackout"
+        },
+        "description": {
+            "Key": "ABL_descr_Blackout",
+            "TableNamespace": "Ability_descripton",
+            "en": "Fires homing missiles that force up to 3 enemies to reload, while also slowing their reloads by {JamRelSlow} for {JamDur}. Cooldown: {CD}"
+        }
     },
     "BP_Module_Tyr_Chassis.1": {
         "id": "BP_Module_Tyr_Chassis.1",
