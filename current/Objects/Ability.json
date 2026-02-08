@@ -5611,7 +5611,7 @@
         "description": {
             "Key": "ABL_descr_Mundus",
             "TableNamespace": "Ability_descripton",
-            "en": "Repairs {RegenSpeed}% of armor per second. If any allies are within {ActRadius}, repairs them as well and doubles the repair rate. Lasts 10 seconds."
+            "en": "Repairs {RegenSpeed}% of armor per second. If any allies are within {ActRadius}, it repairs them as well and doubles the repair rate. Lasts 10 seconds."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -7264,6 +7264,85 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_CamouflageWeb"
+    },
+    "BP_Module_Kumo_Chassis.1": {
+        "id": "BP_Module_Kumo_Chassis.1",
+        "name": {
+            "Key": "ABL_name_Maneuverability",
+            "TableNamespace": "Ability_name",
+            "en": "Pneumatic Vault"
+        },
+        "description": {
+            "Key": "ABL_descr_Maneuverability",
+            "TableNamespace": "Ability_descripton",
+            "en": "Hold to hover over ground for greater speed and maneuverability. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility",
+        "misc": {
+            "LevitationHeight": 200.0,
+            "AccelerationForce": 7500.0,
+            "CompensationPower": 0.35,
+            "MaxVelocityHorizontal": 3500.0,
+            "DragCoefficientX": 100.0,
+            "DragCoefficientY": 100.0,
+            "FuelUsagePerSecond": 3.5,
+            "MinFuelRequired": 3.0
+        }
+    },
+    "BP_Module_Kumo_Chassis.2": {
+        "id": "BP_Module_Kumo_Chassis.2",
+        "name": {
+            "Key": "ABL_name_MultiJump",
+            "TableNamespace": "Ability_name",
+            "en": "Glide Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_MultiJump",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump. Activate mid-air to double jump. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ArcJump",
+        "misc": {
+            "InAirJumpFuelCostPenaltyByNum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "AfterJumpFuelRegenerationDelay": 2.0,
+            "DelayBetweenActions": 0.5,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0
+        }
+    },
+    "BP_Module_Kumo_Torso.1": {
+        "id": "BP_Module_Kumo_Torso.1",
+        "misc": {
+            "BuffAreaDistance": 3000.0,
+            "CastDuration": 0.7
+        },
+        "targeting": {
+            "ConfirmationAction": {
+                "MaxTargetingDistance": 14000.0,
+                "bIgnoreTypeOfTeamAttitude": true
+            }
+        },
+        "name": {
+            "Key": "ABL_name_WarpArmor",
+            "TableNamespace": "Ability_name",
+            "en": "WarpArmor"
+        },
+        "description": {
+            "Key": "ABL_descr_WarpArmor",
+            "TableNamespace": "Ability_descripton",
+            "en": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies neardy. The buff lasts for {ActDuration}"
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_WarpArmor"
     },
     "BP_Module_Lancelot_Chassis.1": {
         "id": "BP_Module_Lancelot_Chassis.1",
