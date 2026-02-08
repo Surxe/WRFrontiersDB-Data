@@ -60,10 +60,22 @@ class PatchSummarizer:
             repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.repo_root = repo_root
         self.archive_dir = os.path.join(repo_root, 'archive')
-        self.summaries_dir = os.path.join(repo_root, 'summaries', 'patch')
+        self.summaries_dir = os.path.join(repo_root, 'summaries')
         self.version_config_file = os.path.join(repo_root, 'versions.json')
-        self.changed_objects_file = os.path.join(repo_root, 'summaries', 'changed_objects.json')
-        self.changed_objects = self.read_changed_objects()
+        self.entity_relationships = self._read_entity_relationships()
+        self.changed_objects = {}
+
+    def _read_entity_relationships(self):
+        entity_relationships_dir = os.path.join(self.repo_root, 'entity_relationships')
+        rels = {} #keyed by class name, extracted by class name.json
+        for file in os.listdir(entity_relationships_dir):
+            if file.endswith('.json'):
+                with open(os.path.join(entity_relationships_dir, file), 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    class_name = file[:-len('.json')]
+                    rels[class_name] = data
+                    logger.debug(f"Loaded entity relationship for {class_name} with {len(data)} entries.")
+        return rels
 
     def _get_archive_content(self, version: str, file_path: str) -> dict:
         return get_archive_content(self.archive_dir, version, file_path)
@@ -123,7 +135,7 @@ class PatchSummarizer:
                                 before: dict, after: dict
                                 ) -> dict[str, bool]:
         """
-        Get list of added parse objects between two versions.
+        Get list of changed parse objects between two versions.
         
         Args:
             parse_object_class: Type of objects being compared
@@ -168,13 +180,6 @@ class PatchSummarizer:
         
         return changed_objects
 
-    def read_changed_objects(self):
-        """Reads the changed objects file and returns it as a dictionary."""
-        if not os.path.exists(self.changed_objects_file):
-            return {}
-        with open(self.changed_objects_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-
     def save_changed_objects(self):
         """Saves the changed objects as separate files for each parseObjectClass."""
         # deep order the changed objects
@@ -186,9 +191,8 @@ class PatchSummarizer:
             self.changed_objects[parse_object_class] = dict(sorted(self.changed_objects[parse_object_class].items()))
         
         # Create separate files for each parseObjectClass
-        summaries_dir = os.path.dirname(self.changed_objects_file)
         for parse_object_class, objects_data in self.changed_objects.items():
-            output_file = os.path.join(summaries_dir, f"{parse_object_class}.json")
+            output_file = os.path.join(self.summaries_dir, f"{parse_object_class}.json")
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(objects_data, f, indent=4)
             logger.info(f"Saved {len(objects_data)} {parse_object_class} objects to {output_file}")
