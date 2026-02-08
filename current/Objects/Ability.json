@@ -87,6 +87,158 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_AddShieldIcon"
     },
+    "BP_Ability_Atrophy.2": {
+        "id": "BP_Ability_Atrophy.2",
+        "misc": {
+            "Radius": 8500.0,
+            "Height": 6000.0,
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "bOverrideScheduleSettings": true,
+                    "BuffAreaComponent": {
+                        "buffs": [
+                            {
+                                "Target": "8",
+                                "BuffLingerTime": 2.0,
+                                "Modifiers": [
+                                    {
+                                        "what": "OutgoingDamage",
+                                        "operator": "Multiply",
+                                        "value": 0.2
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FallingSettings": {
+                        "FallingSpeed": 4000.0
+                    },
+                    "bReplicateMovement": true
+                }
+            },
+            "EffectType": "Attacking"
+        },
+        "projectile_types": [
+            {
+                "MovementComponent": {
+                    "bSimplifiedMovementCalculation": false,
+                    "InitialSpeed": 30000.0,
+                    "MaxSpeed": 40000.0,
+                    "ProjectileGravityScale": 4.3
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.6,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 0.65,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ],
+                            "KeyHandlesToIndices": {}
+                        }
+                    }
+                },
+                "bPassThroughShields": true,
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 70000.0,
+                "MaxDistanceSettings": 70001.0,
+                "DeathDistanceSettings": 70002.0,
+                "bUseGravityChangeFromDistanceCurve": true,
+                "GravityChangeFromDistance": {
+                    "EditorCurveData": {
+                        "Keys": [
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.2,
+                                "Value": 7.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.21,
+                                "Value": 40.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            }
+                        ],
+                        "KeyHandlesToIndices": {}
+                    }
+                },
+                "bCanBeDamaged": false,
+                "InitialLifeSpan": 20.0,
+                "SpawnSocketName": "None"
+            }
+        ],
+        "ai": {
+            "conditions": [
+                {
+                    "MinLastDamagedByTime": 2.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_Atrophy",
+            "TableNamespace": "Ability_name",
+            "en": "Suppressor"
+        },
+        "description": {
+            "Key": "ABL_descr_Atrophy",
+            "TableNamespace": "Ability_descripton",
+            "en": "Throw the sticky emitter, which reduces enemies' damage in area by {ActEfficiency} for {ActDuration}."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Atrophy"
+    },
     "BP_Ability_BlastWave.2": {
         "id": "BP_Ability_BlastWave.2",
         "targeting": {
@@ -245,6 +397,45 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BlockingField"
+    },
+    "BP_Ability_CamouflageWeb.2": {
+        "id": "BP_Ability_CamouflageWeb.2",
+        "misc": {
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "ActivationDelay": 0.3,
+                    "MovementComponent": {
+                        "bShouldBounce": true,
+                        "Bounciness": 0.2,
+                        "Friction": 0.6,
+                        "PlaneConstraintNormal": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 0.0
+                        }
+                    },
+                    "StartImpulseHorizontal": 250.0,
+                    "StartImpulseVertical": 2500.0
+                }
+            },
+            "bStartWithMaxCharges": false,
+            "InitialDuration": 8.0
+        },
+        "name": {
+            "Key": "ABL_name_CamouflageWeb",
+            "TableNamespace": "Ability_name",
+            "en": "Camouflage Web"
+        },
+        "description": {
+            "Key": "ABL_descr_CamouflageWeb",
+            "TableNamespace": "Ability_descripton",
+            "en": "Creates a Camouflage Web with a radius of {DomeRad} for {Duration}, making allies inside it invisible to enemies outside. Cooldown {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_CamouflageWeb"
     },
     "BP_Ability_CounterAttack.3": {
         "id": "BP_Ability_CounterAttack.3",
@@ -758,14 +949,14 @@
                 "Lifetime": 1.0,
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Grounded"
             },
-            "PrimaryParameter": 30000.0,
+            "PrimaryParameter": 4.0,
             "SecondaryParameter": 0.8,
             "CastDuration": 0.8,
             "EffectType": "Attacking"
         },
         "targeting": {
             "ConfirmationAction": {
-                "ConeRadius": 10000.0,
+                "ConeRadius": 39500.0,
                 "ConeHalfAngleInDegrees": 15.0,
                 "MaxTargetNum": 1
             }
@@ -778,7 +969,7 @@
         "description": {
             "Key": "ABL_descr_Grounded",
             "TableNamespace": "Ability_descripton",
-            "en": "Hits an enemy within {ActRadius} and burns off {Eff} of its fuel."
+            "en": "Burns {Eff} fuel from the target and blocks its regeneration for {Duration} duration. Cooldown {CD}, {Consum} charges."
         },
         "cooldown": {
             "Cooldown": 20.0
@@ -973,6 +1164,37 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_InfiniteAmmoIcon"
+    },
+    "BP_Ability_InstantReload.2": {
+        "id": "BP_Ability_InstantReload.2",
+        "ai": {
+            "conditions": [
+                {
+                    "MinAmmoRatio": 0.1
+                },
+                {
+                    "MaxDistance": 20000.0,
+                    "MinLastDamagedByTime": 2.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_InstantReload",
+            "TableNamespace": "Ability_name",
+            "en": "Warp Reload"
+        },
+        "description": {
+            "Key": "ABL_descr_InstantReload",
+            "TableNamespace": "Ability_descripton",
+            "en": "Refills {AmmoPerc} of ammo after a {CastDuration} delay."
+        },
+        "cooldown": {
+            "Cooldown": 25.0
+        },
+        "misc": {
+            "EffectType": "Attacking"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_InstantReloadingIcon"
     },
     "BP_Ability_MineField.3": {
         "id": "BP_Ability_MineField.3",
@@ -4082,6 +4304,97 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_HomingPack"
     },
+    "BP_Module_Anansi_Chassis.1": {
+        "id": "BP_Module_Anansi_Chassis.1",
+        "name": {
+            "Key": "ABL_name_Maneuverability",
+            "TableNamespace": "Ability_name",
+            "en": "Pneumatic Vault"
+        },
+        "description": {
+            "Key": "ABL_descr_Maneuverability",
+            "TableNamespace": "Ability_descripton",
+            "en": "Hold to hover over ground for greater speed and maneuverability. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility",
+        "misc": {
+            "LevitationHeight": 200.0,
+            "AccelerationForce": 10000.0,
+            "MaxVelocityHorizontal": 4000.0,
+            "DragCoefficientX": 200.0,
+            "DragCoefficientY": 200.0,
+            "FuelUsagePerSecond": 3.5,
+            "MinFuelRequired": 3.0
+        }
+    },
+    "BP_Module_Anansi_Chassis.2": {
+        "id": "BP_Module_Anansi_Chassis.2",
+        "name": {
+            "Key": "ABL_name_MultiJump",
+            "TableNamespace": "Ability_name",
+            "en": "Glide Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_MultiJump",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump. Activate mid-air to double jump. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ArcJump",
+        "misc": {
+            "InAirJumpFuelCostPenaltyByNum": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "AfterJumpFuelRegenerationDelay": 2.0,
+            "DelayBetweenActions": 0.5,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0
+        }
+    },
+    "BP_Module_Anansi_Torso.1": {
+        "id": "BP_Module_Anansi_Torso.1",
+        "misc": {
+            "spawn_actor_action": {
+                "bDestroyActorOnExit": false,
+                "ActorClass": {
+                    "ActivationDelay": 0.3,
+                    "MovementComponent": {
+                        "bShouldBounce": true,
+                        "Bounciness": 0.2,
+                        "Friction": 0.6,
+                        "PlaneConstraintNormal": {
+                            "X": 1.0,
+                            "Y": 1.0,
+                            "Z": 0.0
+                        }
+                    },
+                    "StartImpulseHorizontal": 250.0,
+                    "StartImpulseVertical": 2500.0
+                }
+            },
+            "bStartWithMaxCharges": false,
+            "InitialDuration": 8.0,
+            "CastDuration": 0.6
+        },
+        "name": {
+            "Key": "ABL_name_CamouflageWeb",
+            "TableNamespace": "Ability_name",
+            "en": "Camouflage Web"
+        },
+        "description": {
+            "Key": "ABL_descr_CamouflageWeb",
+            "TableNamespace": "Ability_descripton",
+            "en": "Creates a Camouflage Web with a radius of {DomeRad} for {Duration}, making allies inside it invisible to enemies outside. Cooldown {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_CamouflageWeb"
+    },
     "BP_Module_Ares_Chassis.1": {
         "id": "BP_Module_Ares_Chassis.1",
         "misc": {
@@ -5143,12 +5456,12 @@
         "misc": {
             "JumpFuelCost": 2.0,
             "FuelCostToStartAirborne": 2.0,
-            "JumpTime": 0.4,
+            "JumpTime": 1.1,
             "JetpackMaxVerticalSpeed": 3000000.0,
             "bOverrideAirControl": true,
             "AirControl": 0.5,
-            "JetpackStartVerticalImpulse": 6000.0,
-            "JetpackJumpAccelerationForce": 460000.0,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
             "bAllowStatsReporting": false,
             "FuelUsagePerSecond": 6.0,
             "VerticalAccelerationForceCurve": {

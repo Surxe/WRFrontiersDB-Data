@@ -194,6 +194,71 @@
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 110
     },
+    "DA_Module_Ability_Atrophy.1_lvl1": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 38400
+    },
+    "DA_Module_Ability_Atrophy.1_lvl10": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 36000
+    },
+    "DA_Module_Ability_Atrophy.1_lvl11": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 39600
+    },
+    "DA_Module_Ability_Atrophy.1_lvl12": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 45600
+    },
+    "DA_Module_Ability_Atrophy.1_lvl13": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 345
+    },
+    "DA_Module_Ability_Atrophy.1_lvl2": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 9600
+    },
+    "DA_Module_Ability_Atrophy.1_lvl3": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 30
+    },
+    "DA_Module_Ability_Atrophy.1_lvl4": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 20640
+    },
+    "DA_Module_Ability_Atrophy.1_lvl5": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 60
+    },
+    "DA_Module_Ability_Atrophy.1_lvl6": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 26880
+    },
+    "DA_Module_Ability_Atrophy.1_lvl7": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 30000
+    },
+    "DA_Module_Ability_Atrophy.1_lvl8": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 31680
+    },
+    "DA_Module_Ability_Atrophy.1_lvl9": {
+        "id": "DA_Module_Ability_Atrophy.1_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 165
+    },
     "DA_Module_Ability_BlastWave.1_lvl1": {
         "id": "DA_Module_Ability_BlastWave.1_lvl1",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
@@ -282,7 +347,7 @@
     "DA_Module_Ability_BlockingField.1_lvl13": {
         "id": "DA_Module_Ability_BlockingField.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_Ability_BlockingField.1_lvl2": {
         "id": "DA_Module_Ability_BlockingField.1_lvl2",
@@ -292,7 +357,7 @@
     "DA_Module_Ability_BlockingField.1_lvl3": {
         "id": "DA_Module_Ability_BlockingField.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_Ability_BlockingField.1_lvl4": {
         "id": "DA_Module_Ability_BlockingField.1_lvl4",
@@ -302,7 +367,7 @@
     "DA_Module_Ability_BlockingField.1_lvl5": {
         "id": "DA_Module_Ability_BlockingField.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Ability_BlockingField.1_lvl6": {
         "id": "DA_Module_Ability_BlockingField.1_lvl6",
@@ -322,7 +387,7 @@
     "DA_Module_Ability_BlockingField.1_lvl9": {
         "id": "DA_Module_Ability_BlockingField.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_Ability_CounterAttack.1_lvl1": {
         "id": "DA_Module_Ability_CounterAttack.1_lvl1",
@@ -677,7 +742,7 @@
     "DA_Module_Ability_GhostTurret.1_lvl13": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 460
+        "amount": 200
     },
     "DA_Module_Ability_GhostTurret.1_lvl2": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl2",
@@ -687,7 +752,7 @@
     "DA_Module_Ability_GhostTurret.1_lvl3": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_Ability_GhostTurret.1_lvl4": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl4",
@@ -697,7 +762,7 @@
     "DA_Module_Ability_GhostTurret.1_lvl5": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 80
+        "amount": 24
     },
     "DA_Module_Ability_GhostTurret.1_lvl6": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl6",
@@ -717,7 +782,7 @@
     "DA_Module_Ability_GhostTurret.1_lvl9": {
         "id": "DA_Module_Ability_GhostTurret.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 220
+        "amount": 66
     },
     "DA_Module_Ability_Grounded.1_lvl1": {
         "id": "DA_Module_Ability_Grounded.1_lvl1",
@@ -1197,7 +1262,7 @@
     "DA_Module_Ability_Repulsor.1_lvl13": {
         "id": "DA_Module_Ability_Repulsor.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_Ability_Repulsor.1_lvl2": {
         "id": "DA_Module_Ability_Repulsor.1_lvl2",
@@ -1207,7 +1272,7 @@
     "DA_Module_Ability_Repulsor.1_lvl3": {
         "id": "DA_Module_Ability_Repulsor.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_Ability_Repulsor.1_lvl4": {
         "id": "DA_Module_Ability_Repulsor.1_lvl4",
@@ -1217,7 +1282,7 @@
     "DA_Module_Ability_Repulsor.1_lvl5": {
         "id": "DA_Module_Ability_Repulsor.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_Ability_Repulsor.1_lvl6": {
         "id": "DA_Module_Ability_Repulsor.1_lvl6",
@@ -1237,7 +1302,7 @@
     "DA_Module_Ability_Repulsor.1_lvl9": {
         "id": "DA_Module_Ability_Repulsor.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_Ability_SmokeWall.1_lvl1": {
         "id": "DA_Module_Ability_SmokeWall.1_lvl1",
@@ -1392,7 +1457,7 @@
     "DA_Module_Ability_Spotlight.1_lvl13": {
         "id": "DA_Module_Ability_Spotlight.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 150
+        "amount": 345
     },
     "DA_Module_Ability_Spotlight.1_lvl2": {
         "id": "DA_Module_Ability_Spotlight.1_lvl2",
@@ -1402,7 +1467,7 @@
     "DA_Module_Ability_Spotlight.1_lvl3": {
         "id": "DA_Module_Ability_Spotlight.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 9
+        "amount": 30
     },
     "DA_Module_Ability_Spotlight.1_lvl4": {
         "id": "DA_Module_Ability_Spotlight.1_lvl4",
@@ -1412,7 +1477,7 @@
     "DA_Module_Ability_Spotlight.1_lvl5": {
         "id": "DA_Module_Ability_Spotlight.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 18
+        "amount": 60
     },
     "DA_Module_Ability_Spotlight.1_lvl6": {
         "id": "DA_Module_Ability_Spotlight.1_lvl6",
@@ -1432,7 +1497,7 @@
     "DA_Module_Ability_Spotlight.1_lvl9": {
         "id": "DA_Module_Ability_Spotlight.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 50
+        "amount": 165
     },
     "DA_Module_Ability_TensionLink.1_lvl1": {
         "id": "DA_Module_Ability_TensionLink.1_lvl1",
@@ -1522,7 +1587,7 @@
     "DA_Module_Ability_Umbrella.1_lvl13": {
         "id": "DA_Module_Ability_Umbrella.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_Ability_Umbrella.1_lvl2": {
         "id": "DA_Module_Ability_Umbrella.1_lvl2",
@@ -1532,7 +1597,7 @@
     "DA_Module_Ability_Umbrella.1_lvl3": {
         "id": "DA_Module_Ability_Umbrella.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_Ability_Umbrella.1_lvl4": {
         "id": "DA_Module_Ability_Umbrella.1_lvl4",
@@ -1542,7 +1607,7 @@
     "DA_Module_Ability_Umbrella.1_lvl5": {
         "id": "DA_Module_Ability_Umbrella.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Ability_Umbrella.1_lvl6": {
         "id": "DA_Module_Ability_Umbrella.1_lvl6",
@@ -1562,7 +1627,7 @@
     "DA_Module_Ability_Umbrella.1_lvl9": {
         "id": "DA_Module_Ability_Umbrella.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_ChassisAlpha.1_lvl1": {
         "id": "DA_Module_ChassisAlpha.1_lvl1",
@@ -1626,6 +1691,71 @@
     },
     "DA_Module_ChassisAlpha.1_lvl9": {
         "id": "DA_Module_ChassisAlpha.1_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 165
+    },
+    "DA_Module_ChassisAnansi.2_lvl1": {
+        "id": "DA_Module_ChassisAnansi.2_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 38400
+    },
+    "DA_Module_ChassisAnansi.2_lvl10": {
+        "id": "DA_Module_ChassisAnansi.2_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 36000
+    },
+    "DA_Module_ChassisAnansi.2_lvl11": {
+        "id": "DA_Module_ChassisAnansi.2_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 39600
+    },
+    "DA_Module_ChassisAnansi.2_lvl12": {
+        "id": "DA_Module_ChassisAnansi.2_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 45600
+    },
+    "DA_Module_ChassisAnansi.2_lvl13": {
+        "id": "DA_Module_ChassisAnansi.2_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 345
+    },
+    "DA_Module_ChassisAnansi.2_lvl2": {
+        "id": "DA_Module_ChassisAnansi.2_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 9600
+    },
+    "DA_Module_ChassisAnansi.2_lvl3": {
+        "id": "DA_Module_ChassisAnansi.2_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 30
+    },
+    "DA_Module_ChassisAnansi.2_lvl4": {
+        "id": "DA_Module_ChassisAnansi.2_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 20640
+    },
+    "DA_Module_ChassisAnansi.2_lvl5": {
+        "id": "DA_Module_ChassisAnansi.2_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 60
+    },
+    "DA_Module_ChassisAnansi.2_lvl6": {
+        "id": "DA_Module_ChassisAnansi.2_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 26880
+    },
+    "DA_Module_ChassisAnansi.2_lvl7": {
+        "id": "DA_Module_ChassisAnansi.2_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 30000
+    },
+    "DA_Module_ChassisAnansi.2_lvl8": {
+        "id": "DA_Module_ChassisAnansi.2_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 31680
+    },
+    "DA_Module_ChassisAnansi.2_lvl9": {
+        "id": "DA_Module_ChassisAnansi.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 165
     },
@@ -1847,7 +1977,7 @@
     "DA_Module_ChassisCyclops.2_lvl13": {
         "id": "DA_Module_ChassisCyclops.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 150
+        "amount": 345
     },
     "DA_Module_ChassisCyclops.2_lvl2": {
         "id": "DA_Module_ChassisCyclops.2_lvl2",
@@ -1857,7 +1987,7 @@
     "DA_Module_ChassisCyclops.2_lvl3": {
         "id": "DA_Module_ChassisCyclops.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 9
+        "amount": 30
     },
     "DA_Module_ChassisCyclops.2_lvl4": {
         "id": "DA_Module_ChassisCyclops.2_lvl4",
@@ -1867,7 +1997,7 @@
     "DA_Module_ChassisCyclops.2_lvl5": {
         "id": "DA_Module_ChassisCyclops.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 18
+        "amount": 60
     },
     "DA_Module_ChassisCyclops.2_lvl6": {
         "id": "DA_Module_ChassisCyclops.2_lvl6",
@@ -1887,7 +2017,7 @@
     "DA_Module_ChassisCyclops.2_lvl9": {
         "id": "DA_Module_ChassisCyclops.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 50
+        "amount": 165
     },
     "DA_Module_ChassisDemeter.2_lvl1": {
         "id": "DA_Module_ChassisDemeter.2_lvl1",
@@ -2042,7 +2172,7 @@
     "DA_Module_ChassisFury.2_lvl13": {
         "id": "DA_Module_ChassisFury.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_ChassisFury.2_lvl2": {
         "id": "DA_Module_ChassisFury.2_lvl2",
@@ -2052,7 +2182,7 @@
     "DA_Module_ChassisFury.2_lvl3": {
         "id": "DA_Module_ChassisFury.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_ChassisFury.2_lvl4": {
         "id": "DA_Module_ChassisFury.2_lvl4",
@@ -2062,7 +2192,7 @@
     "DA_Module_ChassisFury.2_lvl5": {
         "id": "DA_Module_ChassisFury.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_ChassisFury.2_lvl6": {
         "id": "DA_Module_ChassisFury.2_lvl6",
@@ -2082,7 +2212,7 @@
     "DA_Module_ChassisFury.2_lvl9": {
         "id": "DA_Module_ChassisFury.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_ChassisGriffin.2_lvl1": {
         "id": "DA_Module_ChassisGriffin.2_lvl1",
@@ -2172,7 +2302,7 @@
     "DA_Module_ChassisGrim.1_lvl13": {
         "id": "DA_Module_ChassisGrim.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_ChassisGrim.1_lvl2": {
         "id": "DA_Module_ChassisGrim.1_lvl2",
@@ -2182,7 +2312,7 @@
     "DA_Module_ChassisGrim.1_lvl3": {
         "id": "DA_Module_ChassisGrim.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_ChassisGrim.1_lvl4": {
         "id": "DA_Module_ChassisGrim.1_lvl4",
@@ -2192,7 +2322,7 @@
     "DA_Module_ChassisGrim.1_lvl5": {
         "id": "DA_Module_ChassisGrim.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_ChassisGrim.1_lvl6": {
         "id": "DA_Module_ChassisGrim.1_lvl6",
@@ -2212,7 +2342,7 @@
     "DA_Module_ChassisGrim.1_lvl9": {
         "id": "DA_Module_ChassisGrim.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_ChassisHarpy.2_lvl1": {
         "id": "DA_Module_ChassisHarpy.2_lvl1",
@@ -2822,7 +2952,7 @@
     "DA_Module_ChassisPursuer.2_lvl13": {
         "id": "DA_Module_ChassisPursuer.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_ChassisPursuer.2_lvl2": {
         "id": "DA_Module_ChassisPursuer.2_lvl2",
@@ -2832,7 +2962,7 @@
     "DA_Module_ChassisPursuer.2_lvl3": {
         "id": "DA_Module_ChassisPursuer.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_ChassisPursuer.2_lvl4": {
         "id": "DA_Module_ChassisPursuer.2_lvl4",
@@ -2842,7 +2972,7 @@
     "DA_Module_ChassisPursuer.2_lvl5": {
         "id": "DA_Module_ChassisPursuer.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_ChassisPursuer.2_lvl6": {
         "id": "DA_Module_ChassisPursuer.2_lvl6",
@@ -2862,7 +2992,7 @@
     "DA_Module_ChassisPursuer.2_lvl9": {
         "id": "DA_Module_ChassisPursuer.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_ChassisRavana.2_lvl1": {
         "id": "DA_Module_ChassisRavana.2_lvl1",
@@ -3017,7 +3147,7 @@
     "DA_Module_ChassisScorpion.2_lvl13": {
         "id": "DA_Module_ChassisScorpion.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 460
+        "amount": 200
     },
     "DA_Module_ChassisScorpion.2_lvl2": {
         "id": "DA_Module_ChassisScorpion.2_lvl2",
@@ -3027,7 +3157,7 @@
     "DA_Module_ChassisScorpion.2_lvl3": {
         "id": "DA_Module_ChassisScorpion.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_ChassisScorpion.2_lvl4": {
         "id": "DA_Module_ChassisScorpion.2_lvl4",
@@ -3037,7 +3167,7 @@
     "DA_Module_ChassisScorpion.2_lvl5": {
         "id": "DA_Module_ChassisScorpion.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 80
+        "amount": 24
     },
     "DA_Module_ChassisScorpion.2_lvl6": {
         "id": "DA_Module_ChassisScorpion.2_lvl6",
@@ -3057,7 +3187,7 @@
     "DA_Module_ChassisScorpion.2_lvl9": {
         "id": "DA_Module_ChassisScorpion.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 220
+        "amount": 66
     },
     "DA_Module_ChassisSiren.2_lvl1": {
         "id": "DA_Module_ChassisSiren.2_lvl1",
@@ -3082,7 +3212,7 @@
     "DA_Module_ChassisSiren.2_lvl13": {
         "id": "DA_Module_ChassisSiren.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 200
+        "amount": 460
     },
     "DA_Module_ChassisSiren.2_lvl2": {
         "id": "DA_Module_ChassisSiren.2_lvl2",
@@ -3092,7 +3222,7 @@
     "DA_Module_ChassisSiren.2_lvl3": {
         "id": "DA_Module_ChassisSiren.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_ChassisSiren.2_lvl4": {
         "id": "DA_Module_ChassisSiren.2_lvl4",
@@ -3102,7 +3232,7 @@
     "DA_Module_ChassisSiren.2_lvl5": {
         "id": "DA_Module_ChassisSiren.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 24
+        "amount": 80
     },
     "DA_Module_ChassisSiren.2_lvl6": {
         "id": "DA_Module_ChassisSiren.2_lvl6",
@@ -3122,7 +3252,7 @@
     "DA_Module_ChassisSiren.2_lvl9": {
         "id": "DA_Module_ChassisSiren.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 66
+        "amount": 220
     },
     "DA_Module_ChassisSpire.2_lvl1": {
         "id": "DA_Module_ChassisSpire.2_lvl1",
@@ -3277,7 +3407,7 @@
     "DA_Module_ChassisTyr.2_lvl13": {
         "id": "DA_Module_ChassisTyr.2_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 230
+        "amount": 100
     },
     "DA_Module_ChassisTyr.2_lvl2": {
         "id": "DA_Module_ChassisTyr.2_lvl2",
@@ -3287,7 +3417,7 @@
     "DA_Module_ChassisTyr.2_lvl3": {
         "id": "DA_Module_ChassisTyr.2_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 20
+        "amount": 6
     },
     "DA_Module_ChassisTyr.2_lvl4": {
         "id": "DA_Module_ChassisTyr.2_lvl4",
@@ -3297,7 +3427,7 @@
     "DA_Module_ChassisTyr.2_lvl5": {
         "id": "DA_Module_ChassisTyr.2_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_ChassisTyr.2_lvl6": {
         "id": "DA_Module_ChassisTyr.2_lvl6",
@@ -3317,7 +3447,7 @@
     "DA_Module_ChassisTyr.2_lvl9": {
         "id": "DA_Module_ChassisTyr.2_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 110
+        "amount": 33
     },
     "DA_Module_ChassisVityaz.2_lvl1": {
         "id": "DA_Module_ChassisVityaz.2_lvl1",
@@ -3381,6 +3511,71 @@
     },
     "DA_Module_ChassisVityaz.2_lvl9": {
         "id": "DA_Module_ChassisVityaz.2_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 165
+    },
+    "DA_Module_ShoulderAnansi.0_lvl1": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 38400
+    },
+    "DA_Module_ShoulderAnansi.0_lvl10": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 36000
+    },
+    "DA_Module_ShoulderAnansi.0_lvl11": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 39600
+    },
+    "DA_Module_ShoulderAnansi.0_lvl12": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 45600
+    },
+    "DA_Module_ShoulderAnansi.0_lvl13": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 345
+    },
+    "DA_Module_ShoulderAnansi.0_lvl2": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 9600
+    },
+    "DA_Module_ShoulderAnansi.0_lvl3": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 30
+    },
+    "DA_Module_ShoulderAnansi.0_lvl4": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 20640
+    },
+    "DA_Module_ShoulderAnansi.0_lvl5": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 60
+    },
+    "DA_Module_ShoulderAnansi.0_lvl6": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 26880
+    },
+    "DA_Module_ShoulderAnansi.0_lvl7": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 30000
+    },
+    "DA_Module_ShoulderAnansi.0_lvl8": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 31680
+    },
+    "DA_Module_ShoulderAnansi.0_lvl9": {
+        "id": "DA_Module_ShoulderAnansi.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 165
     },
@@ -3612,7 +3807,7 @@
     "DA_Module_ShoulderCyclops.0_lvl13": {
         "id": "DA_Module_ShoulderCyclops.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 150
+        "amount": 345
     },
     "DA_Module_ShoulderCyclops.0_lvl2": {
         "id": "DA_Module_ShoulderCyclops.0_lvl2",
@@ -3622,7 +3817,7 @@
     "DA_Module_ShoulderCyclops.0_lvl3": {
         "id": "DA_Module_ShoulderCyclops.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 9
+        "amount": 30
     },
     "DA_Module_ShoulderCyclops.0_lvl4": {
         "id": "DA_Module_ShoulderCyclops.0_lvl4",
@@ -3632,7 +3827,7 @@
     "DA_Module_ShoulderCyclops.0_lvl5": {
         "id": "DA_Module_ShoulderCyclops.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 18
+        "amount": 60
     },
     "DA_Module_ShoulderCyclops.0_lvl6": {
         "id": "DA_Module_ShoulderCyclops.0_lvl6",
@@ -3652,7 +3847,7 @@
     "DA_Module_ShoulderCyclops.0_lvl9": {
         "id": "DA_Module_ShoulderCyclops.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 50
+        "amount": 165
     },
     "DA_Module_ShoulderDemeter.0_lvl1": {
         "id": "DA_Module_ShoulderDemeter.0_lvl1",
@@ -3807,7 +4002,7 @@
     "DA_Module_ShoulderFury.0_lvl13": {
         "id": "DA_Module_ShoulderFury.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_ShoulderFury.0_lvl2": {
         "id": "DA_Module_ShoulderFury.0_lvl2",
@@ -3817,7 +4012,7 @@
     "DA_Module_ShoulderFury.0_lvl3": {
         "id": "DA_Module_ShoulderFury.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_ShoulderFury.0_lvl4": {
         "id": "DA_Module_ShoulderFury.0_lvl4",
@@ -3827,7 +4022,7 @@
     "DA_Module_ShoulderFury.0_lvl5": {
         "id": "DA_Module_ShoulderFury.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_ShoulderFury.0_lvl6": {
         "id": "DA_Module_ShoulderFury.0_lvl6",
@@ -3847,7 +4042,7 @@
     "DA_Module_ShoulderFury.0_lvl9": {
         "id": "DA_Module_ShoulderFury.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_ShoulderGriffin.0_lvl1": {
         "id": "DA_Module_ShoulderGriffin.0_lvl1",
@@ -4197,7 +4392,7 @@
     "DA_Module_ShoulderLGrim.0_lvl13": {
         "id": "DA_Module_ShoulderLGrim.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_ShoulderLGrim.0_lvl2": {
         "id": "DA_Module_ShoulderLGrim.0_lvl2",
@@ -4207,7 +4402,7 @@
     "DA_Module_ShoulderLGrim.0_lvl3": {
         "id": "DA_Module_ShoulderLGrim.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_ShoulderLGrim.0_lvl4": {
         "id": "DA_Module_ShoulderLGrim.0_lvl4",
@@ -4217,7 +4412,7 @@
     "DA_Module_ShoulderLGrim.0_lvl5": {
         "id": "DA_Module_ShoulderLGrim.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_ShoulderLGrim.0_lvl6": {
         "id": "DA_Module_ShoulderLGrim.0_lvl6",
@@ -4237,7 +4432,7 @@
     "DA_Module_ShoulderLGrim.0_lvl9": {
         "id": "DA_Module_ShoulderLGrim.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_ShoulderLMatriarch.0_lvl1": {
         "id": "DA_Module_ShoulderLMatriarch.0_lvl1",
@@ -4717,7 +4912,7 @@
     "DA_Module_ShoulderPursuer.0_lvl13": {
         "id": "DA_Module_ShoulderPursuer.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_ShoulderPursuer.0_lvl2": {
         "id": "DA_Module_ShoulderPursuer.0_lvl2",
@@ -4727,7 +4922,7 @@
     "DA_Module_ShoulderPursuer.0_lvl3": {
         "id": "DA_Module_ShoulderPursuer.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_ShoulderPursuer.0_lvl4": {
         "id": "DA_Module_ShoulderPursuer.0_lvl4",
@@ -4737,7 +4932,7 @@
     "DA_Module_ShoulderPursuer.0_lvl5": {
         "id": "DA_Module_ShoulderPursuer.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_ShoulderPursuer.0_lvl6": {
         "id": "DA_Module_ShoulderPursuer.0_lvl6",
@@ -4757,7 +4952,7 @@
     "DA_Module_ShoulderPursuer.0_lvl9": {
         "id": "DA_Module_ShoulderPursuer.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_ShoulderRAlpha.0_lvl1": {
         "id": "DA_Module_ShoulderRAlpha.0_lvl1",
@@ -4847,7 +5042,7 @@
     "DA_Module_ShoulderRGrim.0_lvl13": {
         "id": "DA_Module_ShoulderRGrim.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_ShoulderRGrim.0_lvl2": {
         "id": "DA_Module_ShoulderRGrim.0_lvl2",
@@ -4857,7 +5052,7 @@
     "DA_Module_ShoulderRGrim.0_lvl3": {
         "id": "DA_Module_ShoulderRGrim.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_ShoulderRGrim.0_lvl4": {
         "id": "DA_Module_ShoulderRGrim.0_lvl4",
@@ -4867,7 +5062,7 @@
     "DA_Module_ShoulderRGrim.0_lvl5": {
         "id": "DA_Module_ShoulderRGrim.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_ShoulderRGrim.0_lvl6": {
         "id": "DA_Module_ShoulderRGrim.0_lvl6",
@@ -4887,7 +5082,7 @@
     "DA_Module_ShoulderRGrim.0_lvl9": {
         "id": "DA_Module_ShoulderRGrim.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_ShoulderRMatriarch.0_lvl1": {
         "id": "DA_Module_ShoulderRMatriarch.0_lvl1",
@@ -5172,7 +5367,7 @@
     "DA_Module_ShoulderScorpion.0_lvl13": {
         "id": "DA_Module_ShoulderScorpion.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 460
+        "amount": 200
     },
     "DA_Module_ShoulderScorpion.0_lvl2": {
         "id": "DA_Module_ShoulderScorpion.0_lvl2",
@@ -5182,7 +5377,7 @@
     "DA_Module_ShoulderScorpion.0_lvl3": {
         "id": "DA_Module_ShoulderScorpion.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_ShoulderScorpion.0_lvl4": {
         "id": "DA_Module_ShoulderScorpion.0_lvl4",
@@ -5192,7 +5387,7 @@
     "DA_Module_ShoulderScorpion.0_lvl5": {
         "id": "DA_Module_ShoulderScorpion.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 80
+        "amount": 24
     },
     "DA_Module_ShoulderScorpion.0_lvl6": {
         "id": "DA_Module_ShoulderScorpion.0_lvl6",
@@ -5212,7 +5407,7 @@
     "DA_Module_ShoulderScorpion.0_lvl9": {
         "id": "DA_Module_ShoulderScorpion.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 220
+        "amount": 66
     },
     "DA_Module_ShoulderSiren.0_lvl1": {
         "id": "DA_Module_ShoulderSiren.0_lvl1",
@@ -5237,7 +5432,7 @@
     "DA_Module_ShoulderSiren.0_lvl13": {
         "id": "DA_Module_ShoulderSiren.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 200
+        "amount": 460
     },
     "DA_Module_ShoulderSiren.0_lvl2": {
         "id": "DA_Module_ShoulderSiren.0_lvl2",
@@ -5247,7 +5442,7 @@
     "DA_Module_ShoulderSiren.0_lvl3": {
         "id": "DA_Module_ShoulderSiren.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_ShoulderSiren.0_lvl4": {
         "id": "DA_Module_ShoulderSiren.0_lvl4",
@@ -5257,7 +5452,7 @@
     "DA_Module_ShoulderSiren.0_lvl5": {
         "id": "DA_Module_ShoulderSiren.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 24
+        "amount": 80
     },
     "DA_Module_ShoulderSiren.0_lvl6": {
         "id": "DA_Module_ShoulderSiren.0_lvl6",
@@ -5277,7 +5472,7 @@
     "DA_Module_ShoulderSiren.0_lvl9": {
         "id": "DA_Module_ShoulderSiren.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 66
+        "amount": 220
     },
     "DA_Module_ShoulderTyphon.0_lvl1": {
         "id": "DA_Module_ShoulderTyphon.0_lvl1",
@@ -5367,7 +5562,7 @@
     "DA_Module_ShoulderTyr.0_lvl13": {
         "id": "DA_Module_ShoulderTyr.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 230
+        "amount": 100
     },
     "DA_Module_ShoulderTyr.0_lvl2": {
         "id": "DA_Module_ShoulderTyr.0_lvl2",
@@ -5377,7 +5572,7 @@
     "DA_Module_ShoulderTyr.0_lvl3": {
         "id": "DA_Module_ShoulderTyr.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 20
+        "amount": 6
     },
     "DA_Module_ShoulderTyr.0_lvl4": {
         "id": "DA_Module_ShoulderTyr.0_lvl4",
@@ -5387,7 +5582,7 @@
     "DA_Module_ShoulderTyr.0_lvl5": {
         "id": "DA_Module_ShoulderTyr.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_ShoulderTyr.0_lvl6": {
         "id": "DA_Module_ShoulderTyr.0_lvl6",
@@ -5407,7 +5602,7 @@
     "DA_Module_ShoulderTyr.0_lvl9": {
         "id": "DA_Module_ShoulderTyr.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 110
+        "amount": 33
     },
     "DA_Module_ShoulderVityaz01.0_lvl1": {
         "id": "DA_Module_ShoulderVityaz01.0_lvl1",
@@ -5601,6 +5796,71 @@
     },
     "DA_Module_TorsoAlpha.0_lvl9": {
         "id": "DA_Module_TorsoAlpha.0_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 165
+    },
+    "DA_Module_TorsoAnansi.1_lvl1": {
+        "id": "DA_Module_TorsoAnansi.1_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 38400
+    },
+    "DA_Module_TorsoAnansi.1_lvl10": {
+        "id": "DA_Module_TorsoAnansi.1_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 36000
+    },
+    "DA_Module_TorsoAnansi.1_lvl11": {
+        "id": "DA_Module_TorsoAnansi.1_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 39600
+    },
+    "DA_Module_TorsoAnansi.1_lvl12": {
+        "id": "DA_Module_TorsoAnansi.1_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 45600
+    },
+    "DA_Module_TorsoAnansi.1_lvl13": {
+        "id": "DA_Module_TorsoAnansi.1_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 345
+    },
+    "DA_Module_TorsoAnansi.1_lvl2": {
+        "id": "DA_Module_TorsoAnansi.1_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 9600
+    },
+    "DA_Module_TorsoAnansi.1_lvl3": {
+        "id": "DA_Module_TorsoAnansi.1_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 30
+    },
+    "DA_Module_TorsoAnansi.1_lvl4": {
+        "id": "DA_Module_TorsoAnansi.1_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 20640
+    },
+    "DA_Module_TorsoAnansi.1_lvl5": {
+        "id": "DA_Module_TorsoAnansi.1_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 60
+    },
+    "DA_Module_TorsoAnansi.1_lvl6": {
+        "id": "DA_Module_TorsoAnansi.1_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 26880
+    },
+    "DA_Module_TorsoAnansi.1_lvl7": {
+        "id": "DA_Module_TorsoAnansi.1_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 30000
+    },
+    "DA_Module_TorsoAnansi.1_lvl8": {
+        "id": "DA_Module_TorsoAnansi.1_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 31680
+    },
+    "DA_Module_TorsoAnansi.1_lvl9": {
+        "id": "DA_Module_TorsoAnansi.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 165
     },
@@ -5827,7 +6087,7 @@
     "DA_Module_TorsoCyclops.1_lvl13": {
         "id": "DA_Module_TorsoCyclops.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 150
+        "amount": 345
     },
     "DA_Module_TorsoCyclops.1_lvl2": {
         "id": "DA_Module_TorsoCyclops.1_lvl2",
@@ -5837,7 +6097,7 @@
     "DA_Module_TorsoCyclops.1_lvl3": {
         "id": "DA_Module_TorsoCyclops.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 9
+        "amount": 30
     },
     "DA_Module_TorsoCyclops.1_lvl4": {
         "id": "DA_Module_TorsoCyclops.1_lvl4",
@@ -5847,7 +6107,7 @@
     "DA_Module_TorsoCyclops.1_lvl5": {
         "id": "DA_Module_TorsoCyclops.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 18
+        "amount": 60
     },
     "DA_Module_TorsoCyclops.1_lvl6": {
         "id": "DA_Module_TorsoCyclops.1_lvl6",
@@ -5867,7 +6127,7 @@
     "DA_Module_TorsoCyclops.1_lvl9": {
         "id": "DA_Module_TorsoCyclops.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 50
+        "amount": 165
     },
     "DA_Module_TorsoDemeter.1_lvl1": {
         "id": "DA_Module_TorsoDemeter.1_lvl1",
@@ -6022,7 +6282,7 @@
     "DA_Module_TorsoFury.1_lvl13": {
         "id": "DA_Module_TorsoFury.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_TorsoFury.1_lvl2": {
         "id": "DA_Module_TorsoFury.1_lvl2",
@@ -6032,7 +6292,7 @@
     "DA_Module_TorsoFury.1_lvl3": {
         "id": "DA_Module_TorsoFury.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_TorsoFury.1_lvl4": {
         "id": "DA_Module_TorsoFury.1_lvl4",
@@ -6042,7 +6302,7 @@
     "DA_Module_TorsoFury.1_lvl5": {
         "id": "DA_Module_TorsoFury.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_TorsoFury.1_lvl6": {
         "id": "DA_Module_TorsoFury.1_lvl6",
@@ -6062,7 +6322,7 @@
     "DA_Module_TorsoFury.1_lvl9": {
         "id": "DA_Module_TorsoFury.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_TorsoGriffin.1_lvl1": {
         "id": "DA_Module_TorsoGriffin.1_lvl1",
@@ -6152,7 +6412,7 @@
     "DA_Module_TorsoGrim.0_lvl13": {
         "id": "DA_Module_TorsoGrim.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_TorsoGrim.0_lvl2": {
         "id": "DA_Module_TorsoGrim.0_lvl2",
@@ -6162,7 +6422,7 @@
     "DA_Module_TorsoGrim.0_lvl3": {
         "id": "DA_Module_TorsoGrim.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_TorsoGrim.0_lvl4": {
         "id": "DA_Module_TorsoGrim.0_lvl4",
@@ -6172,7 +6432,7 @@
     "DA_Module_TorsoGrim.0_lvl5": {
         "id": "DA_Module_TorsoGrim.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_TorsoGrim.0_lvl6": {
         "id": "DA_Module_TorsoGrim.0_lvl6",
@@ -6192,7 +6452,7 @@
     "DA_Module_TorsoGrim.0_lvl9": {
         "id": "DA_Module_TorsoGrim.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_TorsoHarpy.1_lvl1": {
         "id": "DA_Module_TorsoHarpy.1_lvl1",
@@ -6737,7 +6997,7 @@
     "DA_Module_TorsoPursuer.1_lvl13": {
         "id": "DA_Module_TorsoPursuer.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_TorsoPursuer.1_lvl2": {
         "id": "DA_Module_TorsoPursuer.1_lvl2",
@@ -6747,7 +7007,7 @@
     "DA_Module_TorsoPursuer.1_lvl3": {
         "id": "DA_Module_TorsoPursuer.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_TorsoPursuer.1_lvl4": {
         "id": "DA_Module_TorsoPursuer.1_lvl4",
@@ -6757,7 +7017,7 @@
     "DA_Module_TorsoPursuer.1_lvl5": {
         "id": "DA_Module_TorsoPursuer.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_TorsoPursuer.1_lvl6": {
         "id": "DA_Module_TorsoPursuer.1_lvl6",
@@ -6777,7 +7037,7 @@
     "DA_Module_TorsoPursuer.1_lvl9": {
         "id": "DA_Module_TorsoPursuer.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_TorsoRavana.1_lvl1": {
         "id": "DA_Module_TorsoRavana.1_lvl1",
@@ -6932,7 +7192,7 @@
     "DA_Module_TorsoScorpion.1_lvl13": {
         "id": "DA_Module_TorsoScorpion.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 460
+        "amount": 200
     },
     "DA_Module_TorsoScorpion.1_lvl2": {
         "id": "DA_Module_TorsoScorpion.1_lvl2",
@@ -6942,7 +7202,7 @@
     "DA_Module_TorsoScorpion.1_lvl3": {
         "id": "DA_Module_TorsoScorpion.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_TorsoScorpion.1_lvl4": {
         "id": "DA_Module_TorsoScorpion.1_lvl4",
@@ -6952,7 +7212,7 @@
     "DA_Module_TorsoScorpion.1_lvl5": {
         "id": "DA_Module_TorsoScorpion.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 80
+        "amount": 24
     },
     "DA_Module_TorsoScorpion.1_lvl6": {
         "id": "DA_Module_TorsoScorpion.1_lvl6",
@@ -6972,7 +7232,7 @@
     "DA_Module_TorsoScorpion.1_lvl9": {
         "id": "DA_Module_TorsoScorpion.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 220
+        "amount": 66
     },
     "DA_Module_TorsoSiren.1_lvl1": {
         "id": "DA_Module_TorsoSiren.1_lvl1",
@@ -6997,7 +7257,7 @@
     "DA_Module_TorsoSiren.1_lvl13": {
         "id": "DA_Module_TorsoSiren.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 200
+        "amount": 460
     },
     "DA_Module_TorsoSiren.1_lvl2": {
         "id": "DA_Module_TorsoSiren.1_lvl2",
@@ -7007,7 +7267,7 @@
     "DA_Module_TorsoSiren.1_lvl3": {
         "id": "DA_Module_TorsoSiren.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_TorsoSiren.1_lvl4": {
         "id": "DA_Module_TorsoSiren.1_lvl4",
@@ -7017,7 +7277,7 @@
     "DA_Module_TorsoSiren.1_lvl5": {
         "id": "DA_Module_TorsoSiren.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 24
+        "amount": 80
     },
     "DA_Module_TorsoSiren.1_lvl6": {
         "id": "DA_Module_TorsoSiren.1_lvl6",
@@ -7037,7 +7297,7 @@
     "DA_Module_TorsoSiren.1_lvl9": {
         "id": "DA_Module_TorsoSiren.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 66
+        "amount": 220
     },
     "DA_Module_TorsoSpire.0_lvl1": {
         "id": "DA_Module_TorsoSpire.0_lvl1",
@@ -7192,7 +7452,7 @@
     "DA_Module_TorsoTyr.1_lvl13": {
         "id": "DA_Module_TorsoTyr.1_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 230
+        "amount": 100
     },
     "DA_Module_TorsoTyr.1_lvl2": {
         "id": "DA_Module_TorsoTyr.1_lvl2",
@@ -7202,7 +7462,7 @@
     "DA_Module_TorsoTyr.1_lvl3": {
         "id": "DA_Module_TorsoTyr.1_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 20
+        "amount": 6
     },
     "DA_Module_TorsoTyr.1_lvl4": {
         "id": "DA_Module_TorsoTyr.1_lvl4",
@@ -7212,7 +7472,7 @@
     "DA_Module_TorsoTyr.1_lvl5": {
         "id": "DA_Module_TorsoTyr.1_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_TorsoTyr.1_lvl6": {
         "id": "DA_Module_TorsoTyr.1_lvl6",
@@ -7232,7 +7492,7 @@
     "DA_Module_TorsoTyr.1_lvl9": {
         "id": "DA_Module_TorsoTyr.1_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 110
+        "amount": 33
     },
     "DA_Module_TorsoVityaz.1_lvl1": {
         "id": "DA_Module_TorsoVityaz.1_lvl1",
@@ -8102,7 +8362,7 @@
     "DA_Module_Weapon_Jigsaw.0_lvl13": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_Weapon_Jigsaw.0_lvl2": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl2",
@@ -8112,7 +8372,7 @@
     "DA_Module_Weapon_Jigsaw.0_lvl3": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_Weapon_Jigsaw.0_lvl4": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl4",
@@ -8122,7 +8382,7 @@
     "DA_Module_Weapon_Jigsaw.0_lvl5": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_Weapon_Jigsaw.0_lvl6": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl6",
@@ -8142,7 +8402,7 @@
     "DA_Module_Weapon_Jigsaw.0_lvl9": {
         "id": "DA_Module_Weapon_Jigsaw.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_Weapon_Katzbalger.0_lvl1": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl1",
@@ -8167,7 +8427,7 @@
     "DA_Module_Weapon_Katzbalger.0_lvl13": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_Weapon_Katzbalger.0_lvl2": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl2",
@@ -8177,7 +8437,7 @@
     "DA_Module_Weapon_Katzbalger.0_lvl3": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_Weapon_Katzbalger.0_lvl4": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl4",
@@ -8187,7 +8447,7 @@
     "DA_Module_Weapon_Katzbalger.0_lvl5": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_Weapon_Katzbalger.0_lvl6": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl6",
@@ -8207,7 +8467,7 @@
     "DA_Module_Weapon_Katzbalger.0_lvl9": {
         "id": "DA_Module_Weapon_Katzbalger.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_Weapon_Locust.0_lvl1": {
         "id": "DA_Module_Weapon_Locust.0_lvl1",
@@ -8273,6 +8533,71 @@
         "id": "DA_Module_Weapon_Locust.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 165
+    },
+    "DA_Module_Weapon_MLx2.0_lvl1": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 51200
+    },
+    "DA_Module_Weapon_MLx2.0_lvl10": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 48000
+    },
+    "DA_Module_Weapon_MLx2.0_lvl11": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 52800
+    },
+    "DA_Module_Weapon_MLx2.0_lvl12": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 60800
+    },
+    "DA_Module_Weapon_MLx2.0_lvl13": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 460
+    },
+    "DA_Module_Weapon_MLx2.0_lvl2": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 12800
+    },
+    "DA_Module_Weapon_MLx2.0_lvl3": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 40
+    },
+    "DA_Module_Weapon_MLx2.0_lvl4": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 27520
+    },
+    "DA_Module_Weapon_MLx2.0_lvl5": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 80
+    },
+    "DA_Module_Weapon_MLx2.0_lvl6": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 35840
+    },
+    "DA_Module_Weapon_MLx2.0_lvl7": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 40000
+    },
+    "DA_Module_Weapon_MLx2.0_lvl8": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 42240
+    },
+    "DA_Module_Weapon_MLx2.0_lvl9": {
+        "id": "DA_Module_Weapon_MLx2.0_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 220
     },
     "DA_Module_Weapon_Noricum.0_lvl1": {
         "id": "DA_Module_Weapon_Noricum.0_lvl1",
@@ -8427,7 +8752,7 @@
     "DA_Module_Weapon_Pulsar.0_lvl13": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 230
+        "amount": 100
     },
     "DA_Module_Weapon_Pulsar.0_lvl2": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl2",
@@ -8437,7 +8762,7 @@
     "DA_Module_Weapon_Pulsar.0_lvl3": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 20
+        "amount": 6
     },
     "DA_Module_Weapon_Pulsar.0_lvl4": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl4",
@@ -8447,7 +8772,7 @@
     "DA_Module_Weapon_Pulsar.0_lvl5": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_Weapon_Pulsar.0_lvl6": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl6",
@@ -8467,7 +8792,7 @@
     "DA_Module_Weapon_Pulsar.0_lvl9": {
         "id": "DA_Module_Weapon_Pulsar.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 110
+        "amount": 33
     },
     "DA_Module_Weapon_Punisher.0_lvl1": {
         "id": "DA_Module_Weapon_Punisher.0_lvl1",
@@ -8557,7 +8882,7 @@
     "DA_Module_Weapon_Railgun.0_lvl13": {
         "id": "DA_Module_Weapon_Railgun.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_Weapon_Railgun.0_lvl2": {
         "id": "DA_Module_Weapon_Railgun.0_lvl2",
@@ -8567,7 +8892,7 @@
     "DA_Module_Weapon_Railgun.0_lvl3": {
         "id": "DA_Module_Weapon_Railgun.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_Weapon_Railgun.0_lvl4": {
         "id": "DA_Module_Weapon_Railgun.0_lvl4",
@@ -8577,7 +8902,7 @@
     "DA_Module_Weapon_Railgun.0_lvl5": {
         "id": "DA_Module_Weapon_Railgun.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Weapon_Railgun.0_lvl6": {
         "id": "DA_Module_Weapon_Railgun.0_lvl6",
@@ -8597,7 +8922,7 @@
     "DA_Module_Weapon_Railgun.0_lvl9": {
         "id": "DA_Module_Weapon_Railgun.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_Weapon_RetributionAutoAim.0_lvl1": {
         "id": "DA_Module_Weapon_RetributionAutoAim.0_lvl1",
@@ -8687,7 +9012,7 @@
     "DA_Module_Weapon_Scatter.0_lvl13": {
         "id": "DA_Module_Weapon_Scatter.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 200
+        "amount": 460
     },
     "DA_Module_Weapon_Scatter.0_lvl2": {
         "id": "DA_Module_Weapon_Scatter.0_lvl2",
@@ -8697,7 +9022,7 @@
     "DA_Module_Weapon_Scatter.0_lvl3": {
         "id": "DA_Module_Weapon_Scatter.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Weapon_Scatter.0_lvl4": {
         "id": "DA_Module_Weapon_Scatter.0_lvl4",
@@ -8707,7 +9032,7 @@
     "DA_Module_Weapon_Scatter.0_lvl5": {
         "id": "DA_Module_Weapon_Scatter.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 24
+        "amount": 80
     },
     "DA_Module_Weapon_Scatter.0_lvl6": {
         "id": "DA_Module_Weapon_Scatter.0_lvl6",
@@ -8727,7 +9052,7 @@
     "DA_Module_Weapon_Scatter.0_lvl9": {
         "id": "DA_Module_Weapon_Scatter.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 66
+        "amount": 220
     },
     "DA_Module_Weapon_Scourge.0_lvl1": {
         "id": "DA_Module_Weapon_Scourge.0_lvl1",
@@ -8793,6 +9118,71 @@
         "id": "DA_Module_Weapon_Scourge.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
         "amount": 110
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl1": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl1",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 38400
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl10": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl10",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 36000
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl11": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl11",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 39600
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl12": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl12",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 45600
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl13": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl13",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 345
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl2": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl2",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 9600
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl3": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl3",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 30
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl4": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl4",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 20640
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl5": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl5",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 60
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl6": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl6",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 26880
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl7": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl7",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 30000
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl8": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl8",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Alloys",
+        "amount": 31680
+    },
+    "DA_Module_Weapon_Scrubber.0_lvl9": {
+        "id": "DA_Module_Weapon_Scrubber.0_lvl9",
+        "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
+        "amount": 165
     },
     "DA_Module_Weapon_Shocktrain.0_lvl1": {
         "id": "DA_Module_Weapon_Shocktrain.0_lvl1",
@@ -9272,7 +9662,7 @@
     "DA_Module_Weapon_Trident.0_lvl13": {
         "id": "DA_Module_Weapon_Trident.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 100
+        "amount": 230
     },
     "DA_Module_Weapon_Trident.0_lvl2": {
         "id": "DA_Module_Weapon_Trident.0_lvl2",
@@ -9282,7 +9672,7 @@
     "DA_Module_Weapon_Trident.0_lvl3": {
         "id": "DA_Module_Weapon_Trident.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 6
+        "amount": 20
     },
     "DA_Module_Weapon_Trident.0_lvl4": {
         "id": "DA_Module_Weapon_Trident.0_lvl4",
@@ -9292,7 +9682,7 @@
     "DA_Module_Weapon_Trident.0_lvl5": {
         "id": "DA_Module_Weapon_Trident.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Weapon_Trident.0_lvl6": {
         "id": "DA_Module_Weapon_Trident.0_lvl6",
@@ -9312,7 +9702,7 @@
     "DA_Module_Weapon_Trident.0_lvl9": {
         "id": "DA_Module_Weapon_Trident.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 33
+        "amount": 110
     },
     "DA_Module_Weapon_Tusk.0_lvl1": {
         "id": "DA_Module_Weapon_Tusk.0_lvl1",
@@ -9337,7 +9727,7 @@
     "DA_Module_Weapon_Tusk.0_lvl13": {
         "id": "DA_Module_Weapon_Tusk.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 345
+        "amount": 150
     },
     "DA_Module_Weapon_Tusk.0_lvl2": {
         "id": "DA_Module_Weapon_Tusk.0_lvl2",
@@ -9347,7 +9737,7 @@
     "DA_Module_Weapon_Tusk.0_lvl3": {
         "id": "DA_Module_Weapon_Tusk.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 30
+        "amount": 9
     },
     "DA_Module_Weapon_Tusk.0_lvl4": {
         "id": "DA_Module_Weapon_Tusk.0_lvl4",
@@ -9357,7 +9747,7 @@
     "DA_Module_Weapon_Tusk.0_lvl5": {
         "id": "DA_Module_Weapon_Tusk.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 60
+        "amount": 18
     },
     "DA_Module_Weapon_Tusk.0_lvl6": {
         "id": "DA_Module_Weapon_Tusk.0_lvl6",
@@ -9377,7 +9767,7 @@
     "DA_Module_Weapon_Tusk.0_lvl9": {
         "id": "DA_Module_Weapon_Tusk.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 165
+        "amount": 50
     },
     "DA_Module_Weapon_Twinflare.0_lvl1": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl1",
@@ -9402,7 +9792,7 @@
     "DA_Module_Weapon_Twinflare.0_lvl13": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 200
+        "amount": 460
     },
     "DA_Module_Weapon_Twinflare.0_lvl2": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl2",
@@ -9412,7 +9802,7 @@
     "DA_Module_Weapon_Twinflare.0_lvl3": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 12
+        "amount": 40
     },
     "DA_Module_Weapon_Twinflare.0_lvl4": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl4",
@@ -9422,7 +9812,7 @@
     "DA_Module_Weapon_Twinflare.0_lvl5": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 24
+        "amount": 80
     },
     "DA_Module_Weapon_Twinflare.0_lvl6": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl6",
@@ -9442,7 +9832,7 @@
     "DA_Module_Weapon_Twinflare.0_lvl9": {
         "id": "DA_Module_Weapon_Twinflare.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 66
+        "amount": 220
     },
     "DA_Module_Weapon_Vortex.0_lvl1": {
         "id": "DA_Module_Weapon_Vortex.0_lvl1",
@@ -9467,7 +9857,7 @@
     "DA_Module_Weapon_Vortex.0_lvl13": {
         "id": "DA_Module_Weapon_Vortex.0_lvl13",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 460
+        "amount": 200
     },
     "DA_Module_Weapon_Vortex.0_lvl2": {
         "id": "DA_Module_Weapon_Vortex.0_lvl2",
@@ -9477,7 +9867,7 @@
     "DA_Module_Weapon_Vortex.0_lvl3": {
         "id": "DA_Module_Weapon_Vortex.0_lvl3",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 40
+        "amount": 12
     },
     "DA_Module_Weapon_Vortex.0_lvl4": {
         "id": "DA_Module_Weapon_Vortex.0_lvl4",
@@ -9487,7 +9877,7 @@
     "DA_Module_Weapon_Vortex.0_lvl5": {
         "id": "DA_Module_Weapon_Vortex.0_lvl5",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 80
+        "amount": 24
     },
     "DA_Module_Weapon_Vortex.0_lvl6": {
         "id": "DA_Module_Weapon_Vortex.0_lvl6",
@@ -9507,7 +9897,7 @@
     "DA_Module_Weapon_Vortex.0_lvl9": {
         "id": "DA_Module_Weapon_Vortex.0_lvl9",
         "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel",
-        "amount": 220
+        "amount": 66
     },
     "DA_Module_Weapon_Zeus.0_lvl1": {
         "id": "DA_Module_Weapon_Zeus.0_lvl1",

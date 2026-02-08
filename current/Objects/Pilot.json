@@ -5031,6 +5031,93 @@
             }
         ]
     },
+    "DA_Pilot_Rare_CarmenRuiz.0": {
+        "id": "DA_Pilot_Rare_CarmenRuiz.0",
+        "first_name": {
+            "Key": "NAME_CarmenRuiz",
+            "TableNamespace": "Pilots_Info",
+            "en": "Carmen"
+        },
+        "second_name": {
+            "Key": "SRNM_CarmenRuiz",
+            "TableNamespace": "Pilots_Info",
+            "en": "Ruiz"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_Pilot_Rare_CarmenRuiz_Icon",
+        "bio": {
+            "Key": "Hero_Pilot_Carmen_Bio",
+            "TableNamespace": "Pilot_Bio",
+            "en": "When your dad is the CEO of Freecon you're held to certain expectations, and lets say having a sickly kid wasn't part of the old man's precious vision. I tried, I did my best in the family business, but I was never good enough for my father. I had book smarts, not the killer-capitalist mindset the future corporate crown princess I was supposed to be, so I walked out and I'm making my own life here in the Wild Ten, but I know the old man hates the idea. He should be proud: I'm a great pilot, and all his lectures on leadership and strategy sank in enough to make me a natural squad leader. I'm thriving here, this is my place and I'm not going back, period."
+        },
+        "pilot_type_ref": "OBJID_PilotType::DA_PilotType_Legendary.0",
+        "pilot_class_ref": "OBJID_PilotClass::DA_Class_Tank.0",
+        "personality_ref": "OBJID_PilotPersonality::DA_Personality_Handy.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "sell_price": {
+            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Credits.0",
+            "amount": 1500
+        },
+        "levels": [
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_General1.0",
+                    "OBJID_PilotTalent::DA_Talent_General2.0",
+                    "OBJID_PilotTalent::DA_Talent_General3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassTank.0",
+                "reputation_cost": 1000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 100
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Tank1.0",
+                    "OBJID_PilotTalent::DA_Talent_Tank2.0",
+                    "OBJID_PilotTalent::DA_Talent_Tank3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersHandy.0",
+                "reputation_cost": 2000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 200
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Handy1.0",
+                    "OBJID_PilotTalent::DA_Talent_Handy2.0",
+                    "OBJID_PilotTalent::DA_Talent_Handy3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFreecon.0",
+                "reputation_cost": 5000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 500
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Freecon1.0",
+                    "OBJID_PilotTalent::DA_Talent_Freecon2.0",
+                    "OBJID_PilotTalent::DA_Talent_Freecon3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+                "reputation_cost": 10000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 1000
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Ult_Carmen.0"
+                ]
+            }
+        ]
+    },
     "DA_Pilot_Rare_DuncanPrasad.0": {
         "id": "DA_Pilot_Rare_DuncanPrasad.0",
         "first_name": {

@@ -4,16 +4,17 @@
 
 * Munitionsgenerator: Aktiviert ein Gerät, das die Nachladezeit aller Verbündeter im Umkreis von {**Sekundär.x**}m um {**Primär.x**}% verringert.
 * Notfallschild: Stellt {**Sekundär.x**}s lang {**Primär.x**} Schildpunkte pro Sekunde wieder her.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primär.x**}% for {**Sekundär.x**}s.
 * Explosionswelle: Platziert eine Bombe im Umkreis von {**Sekundär.x**}m. Diese verursacht nach einer kurzen Verzögerung {**Primär.x**} Schaden und schlägt Feinde zurück.
 * Energiewand: Aktiviert eine {**Primär.x**}m breite Barriere, die Feinde aufhält und bis zu {**Sekundär.x**} Schaden absorbiert.
 * Blinzeln: Teleportiert dich nach einer Verzögerung von {**Sekundär./**}s {**Primär.x**}m weit in Blickrichtung.
 * Kraftstoffreserve: Füllt bis zu {**Sekundär.x**} Kraftstoffeinheiten auf. Regeneriert {**Primär.x**} Kraftstoffeinheiten pro Tick.
 * Ghost-Geschütz: Aktiviert ein Geschütz, das den nächsten Feind angreift und ihm im Verlauf von {**Sekundär.x**}s {**Primär.x**} Schaden pro Schuss zufügt.
-* Kraftstoff- verbrauch: Trifft einen Gegner im Umkreis von {**Primär.x**}m und verbrennt {**Sekundär.x**}% seines Kraftstoffs.
+* Kraftstoff- verbrauch: Burns {**Sekundär.x**}% fuel from the target and blocks its regeneration for {**Primär.x**}s duration. Cooldown {CD}, {Consum} charges.
 * Schnellreparatur: Repariert dein am meisten beschädigtes Modul um {**Primär.x**} Panzerung pro Sekunde. Dauert {**Sekundär.x**}s.
 * Repulsor: Fügt Feinden {**Sekundär.x**} Schaden zu und schiebt sie und dich mit einer Kraft von {**Primär.x**}m/s voneinander weg.
 * Holofeld: Aktiviert eine {**Sekundär.x**}m breite Wand, die die Sichtlinie {**Primär.x**}s lang blockiert.
-* Sprintreaktor: Steigert deine maximale Geschwindigkeit {**Primär.x**}s lang um {**Sekundär.x**}%.
+* Sprintreaktor: Steigert deine maximale Geschwindigkeit {**Primär.x**}s lang um {**Sekundär.x**}km/h.
 
 ## Zyklus-Ausrüstung
 
@@ -29,6 +30,7 @@
 
 ## Torso
 
+* Anansi's Tarnnetz: Erzeugt {**Primär.x**}s lang ein Tarnnetz mit einem Radius von {**Sekundär.x**}m, das Verbündete innerhalb des Netzes für Feinde außerhalb unsichtbar macht. Abklingzeit: {CD}.
 * Ares's Zorn: Aktiviert eine integrierte Barriere und zusätzliche Waffen, die {**Sekundär.x**}s lang {**Primär.x**} Schaden pro Schuss verursachen.
 * Bulgasari's Eisenregen: Bombardiert ein Gebiet und fügt in einem Radius von {**Sekundär.x**}m allen Modulen {**Primär.x**} Schaden pro Rakete zu.
 * Bulwark's Absorptionssphäre: Mildert {**Primär.x**}s lang {**Sekundär.x**}% des eintreffenden Schadens. Projektile, die in der Sphäre aufgefangen werden, füllen deine Munition wieder auf.
@@ -60,16 +62,17 @@
 
 * Ammo Fabricator: Deploys a device that reduces the reload time of allies within {**Secondary.x**}m by {**Primary.x**}%.
 * Emergency Shield: Restores {**Primary.x**} shield per second for {**Secondary.x**}s.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primary.x**}% for {**Secondary.x**}s.
 * Blast Wave: Plants a bomb within {**Secondary.x**}m. After a short delay, explosion inflicts {**Primary.x**} damage and knocks back enemies.
 * Energy Wall: Deploys a {**Primary.x**}m wide barrier that stops enemies and absorbs up to {**Secondary.x**} damage.
 * Blink: After a {**Secondary./**}s delay, teleport over {**Primary.x**}m in a direction you're facing.
 * Fuel Reserve: Refills up to {**Secondary.x**}fuel units fuel at {**Primary.x**}fuel units units per tick.
 * Ghost Turret: Deploys a turret that attacks the closest enemy for {**Primary.x**} damage per shot over {**Secondary.x**}s.
-* Fuel Burn: Hits an enemy within {**Primary.x**}m and burns off {**Secondary.x**}% of its fuel.
+* Fuel Burn: Burns {**Secondary.x**}% fuel from the target and blocks its regeneration for {**Primary.x**}s duration. Cooldown {CD}, {Consum} charges.
 * Quick Repair: Repairs your most damaged module for {**Primary.x**}% of armor per second. Lasts {**Secondary.x**}s.
 * Repulsor: Deals {**Secondary.x**} damage to enemies, and pushes them and you away from each other with {**Primary.x**}m/s force.
 * Holofield: Deploys a {**Secondary.x**}m wide wall that blocks line of sight for {**Primary.x**}s.
-* Sprint Reactor: Boosts you maximum speed by {**Secondary.x**}% for {**Primary.x**}s.
+* Sprint Reactor: Boosts you maximum speed by {**Secondary.x**}km/h for {**Primary.x**}s.
 
 ## Cycle Gear
 
@@ -85,6 +88,7 @@
 
 ## Torso
 
+* Anansi's Camouflage Web: Creates a Camouflage Web with a radius of {**Secondary.x**}m for {**Primary.x**}s, making allies inside it invisible to enemies outside. Cooldown {CD}.
 * Ares's Wrath: Activates a built-in barrier and extra weapons that deal {**Primary.x**} damage per shot for {**Secondary.x**}s.
 * Bulgasari's Iron Rain: Bombards an area, dealing {**Primary.x**} damage per rocket to all modules within a {**Secondary.x**}m blast radius.
 * Bulwark's Absorber Sphere: Mitigates {**Secondary.x**}% of incoming damage for {**Primary.x**}s. Projectiles caught in the sphere refill your ammo.
@@ -116,16 +120,17 @@
 
 * Fabricante de munición: Despliega un dispositivo que reduce el tiempo de recarga de los aliados en un radio de {**Secundario.x**} m en {**Primario.x**}%.
 * Escudo de emergencia: Restaura {**Primario.x**} de escudo por segundo durante {**Secundario.x**} s.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primario.x**}% for {**Secundario.x**} s.
 * Onda expansiva: Coloca una bomba en un radio de {**Secundario.x**} m. Después de un breve retardo, la explosión inflige {**Primario.x**} de daño y repele a los enemigos.
 * Muro energético: Despliega una barrera de {**Primario.x**} m de ancho que detiene a los enemigos y absorbe hasta {**Secundario.x**} de daño.
 * Parpadeo: Después de un retardo de {**Secundario./**} s, te teletransporta {**Primario.x**} m de frente.
 * Reserva de combustible: Rellena hasta {**Secundario.x**} unidades de combustible de combustible a {**Primario.x**} unidades de combustible unidades por tic.
 * Torreta fantasma: Despliega una torreta que ataca al enemigo más cercano infligiendo {**Primario.x**} de daño por tiro durante {**Secundario.x**} s.
-* Quema de combustible: Alcanza a un enemigo en un radio de {**Primario.x**} m y consume {**Secundario.x**}% de su combustible.
+* Quema de combustible: Burns {**Secundario.x**}% fuel from the target and blocks its regeneration for {**Primario.x**} s duration. Cooldown {CD}, {Consum} charges.
 * Reparación rápida: Repara tu módulo más dañado con un {**Primario.x**} % de armadura por segundo. Dura {**Secundario.x**} s.
 * Repulsor: Inflige {**Secundario.x**} de daño a los enemigos y os aparta a todos con {**Primario.x**}m/s de fuerza.
 * Holocampo: Despliega un holocampo de {**Secundario.x**} m de ancho que bloquea la línea de visión durante {**Primario.x**} s.
-* Reactor de velocidad: Aumenta tu velocidad máxima en {**Secundario.x**}% durante {**Primario.x**} s.
+* Reactor de velocidad: Aumenta tu velocidad máxima en {**Secundario.x**} km/h durante {**Primario.x**} s.
 
 ## Componente cíclico
 
@@ -141,6 +146,7 @@
 
 ## Torso
 
+* Anansi's Red de camuflaje: Crea una Red de camuflaje con un radio de {**Secundario.x**} m durante {**Primario.x**} s, que hace a los aliados que están dentro invisibles a los enemigos de fuera. Tiempo de recarga: {CD}.
 * Ares's Furia: Activa una barrera integrada y armas extra que infligen {**Primario.x**} de daño por disparo durante {**Secundario.x**} s.
 * Bulgasari's Lluvia de hierro: Bombardea un área infligiendo {**Primario.x**} de daño por cohete a todos los módulos en un radio de explosión de {**Secundario.x**} m.
 * Bulwark's Esfera absorbente: Mitiga {**Secundario.x**}% del daño entrante durante {**Primario.x**} s. Los proyectiles atrapados en la esfera recargan tu munición.
@@ -172,16 +178,17 @@
 
 * Fabricant de munitions: Déploie un appareil qui réduit la vitesse de recharge des alliés dans les {**Secondaire.x**} m m de{**Primaire.x**} %.
 * Bouclier d'urgence: Restaure {**Primaire.x**} points de bouclier par seconde pendant {**Secondaire.x**} s.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primaire.x**} % for {**Secondaire.x**} s.
 * Onde de choc: Pose une bombe dans un rayon de {**Secondaire.x**} m. Après un court délai, l'explosion inflige {**Primaire.x**} points de dégâts et repousse les ennemis.
 * Mur d'énergie: Déploie une barrière large de {**Primaire.x**} m qui arrête les ennemis et absorbe jusqu'à {**Secondaire.x**} points de dégâts.
 * Clignement: Après un délai de {**Secondaire./**} s, vous téléporte sur {**Primaire.x**} m droit devant vous.
 * Réserve de carburant: Vous redonne jusqu'à {**Secondaire.x**} unités de carburant à raison de {**Primaire.x**} unités de carburant par cycle.
 * Tourelle fantôme: Déploie une tourelle qui inflige à l'ennemi le plus proche {**Primaire.x**} points de dégâts par tir pendant {**Secondaire.x**} s.
-* Combustion: Touche un ennemi dans un rayon de {**Primaire.x**} m et brûle {**Secondaire.x**} % de son carburant.
+* Combustion: Burns {**Secondaire.x**} % fuel from the target and blocks its regeneration for {**Primaire.x**} s duration. Cooldown {CD}, {Consum} charges.
 * Réparation rapide: Répare votre module le plus endommagé à raison de {**Primaire.x**} points de blindage par seconde. Dure {**Secondaire.x**} s.
 * Répulseur: Inflige {**Secondaire.x**} points de dégâts aux ennemis et les repousse loin de vous avec une force de {**Primaire.x**}m/s.
 * Champ holographique: Déploie un mur large de {**Secondaire.x**} m qui bloque la vue pendant {**Primaire.x**} s.
-* Réacteur de sprint: Booste votre vitesse maximum de {**Secondaire.x**} % pendant {**Primaire.x**} s.
+* Réacteur de sprint: Booste votre vitesse maximum de {**Secondaire.x**} km/h pendant {**Primaire.x**} s.
 
 ## Mécanisme de cycle
 
@@ -197,6 +204,7 @@
 
 ## Torse
 
+* Anansi's Toile de camouflage: Crée une toile de camouflage avec un rayon de {**Secondaire.x**} m pendant {**Primaire.x**} s qui rend les alliés qui s'y trouvent invisibles pour les ennemis à l'extérieur. Temps de recharge : {CD}.
 * Ares's Colère: Active une barrière intégrée et des armes supplémentaires qui infligent {**Primaire.x**} points de dégâts par tir pendant {**Secondaire.x**} s.
 * Bulgasari's Pluie de fer: Bombarde une zone, infligeant {**Primaire.x**} points de dégâts par roquette à tous les modules dans un rayon d'explosion de {**Secondaire.x**} m.
 * Bulwark's Sphère absorbante: Atténue {**Secondaire.x**} % des dégâts reçus pendant {**Primaire.x**} s. Les projectiles pris dans la sphère rechargent vos munitions.
@@ -228,16 +236,17 @@
 
 * 弾薬ファブリケーター: {**サブ.x**}m以内の味方のリロード時間を{**メイン.x**}%短縮するデバイスを展開する。
 * 緊急シールド: {**メイン.x**}間、1秒あたり{**サブ.x**}秒シールドを回復する。
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**メイン.x**}% for {**サブ.x**}秒.
 * ブラストウェーブ: {**サブ.x**}m以内に爆弾を設置する。しばらくすると爆発して{**メイン.x**}ダメージを与え、敵をノックバックさせる。
 * エネルギーウォール: 敵の動きを止め、最大{**サブ.x**}ダメージを吸収する{**メイン.x**}m幅のバリアを展開する。
 * ブリンク: {**サブ./**}秒後、向いている方向に{**メイン.x**}mテレポートする。
 * 燃料予備: 燃料が1カウントあたり{**メイン.x**}燃料ユニット、最大{**サブ.x**}燃料ユニットまで補充される。
 * ゴーストタレット: 最も近い敵を攻撃する砲塔を展開し、1発あたり{**メイン.x**}ダメージを{**サブ.x**}秒にわたって与える。
-* 燃料燃焼: {**メイン.x**}m以内の敵を攻撃し、その燃料を{**サブ.x**}%消費する。
+* 燃料燃焼: Burns {**サブ.x**}% fuel from the target and blocks its regeneration for {**メイン.x**}秒 duration. Cooldown {CD}, {Consum} charges.
 * クイック修復: 最も損傷したモジュールの装甲を1秒あたり{**メイン.x**}%修復する。{**サブ.x**}秒間持続する。
 * リパルサー: 敵に{**サブ.x**}ダメージを与え、{**メイン.x**}m/sの力で敵とプレイヤーをお互いに押し出す。
 * ホロフィールド: {**メイン.x**}秒間、視線を遮る{**サブ.x**}m幅の壁を展開する。
-* スプリントリアクター: {**メイン.x**}秒間、最大速度が{**サブ.x**}%ブーストされる。
+* スプリントリアクター: {**メイン.x**}秒間、最大速度が{**サブ.x**}km/hブーストされる。
 
 ## サイクルギア
 
@@ -253,6 +262,7 @@
 
 ## 胴体
 
+* アナンシ's カモフラージュウェブ: 半径{**サブ.x**}mのカモフラージュウェブを{**メイン.x**}秒間生み出し、ウェブ内の味方を外部の敵から見えなくする。クールダウン：{CD}。
 * Ares's 激怒: 内蔵バリアと追加の武器をアクティブにし、1発あたり{**メイン.x**}ダメージを{**サブ.x**}秒間与える。
 * Bulgasari's 鉄の雨: エリアを砲撃し、爆発半径{**サブ.x**}m以内のすべてのモジュールにロケット1発につき{**メイン.x**}ダメージを与える。
 * Bulwark's アブソーバースフィア: 受けるダメージを{**メイン.x**}秒間、{**サブ.x**}%軽減する。球体に捕らえられた発射体がプレイヤーの弾薬を補充する。
@@ -284,16 +294,17 @@
 
 * 탄약 제조기: {**주.x**}% 내 아군의 재장전 시간을 {**주.x**}% 감소시키는 장치를 배치합니다.
 * 긴급 실드: {**보조.x**}초 동안 초당 실드가 {**주.x**} 재생됩니다.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**주.x**}% for {**보조.x**}초.
 * 폭발 파동: {**보조.x**}m 내에 폭탄을 설치합니다. 짧은 지연 후 폭발하여 {**주.x**} 피해를 입히고 적을 밀쳐냅니다.
 * 에너지 벽: 적을 막고 최대 {**보조.x**} 피해를 흡수하는 {**주.x**}m 너비의 장벽을 배치합니다.
 * 점멸: {**보조./**}초 지연 후, 바라보는 방향으로 {**주.x**}m 순간이동합니다.
 * 연료 비축: 틱당 {**주.x**}연료씩 최대 {**보조.x**}연료까지 연료를 보충합니다.
 * 유령 포탑: 가장 가까운 적을 공격하는 포탑을 배치하여 {**보조.x**}초 동안 한 발당 {**주.x**} 피해를 입힙니다.
-* 연료 연소: {**주.x**}m 내의 적 하나에게 적중하여 연료의 {**보조.x**}%를 연소시킵니다.
+* 연료 연소: Burns {**보조.x**}% fuel from the target and blocks its regeneration for {**주.x**}초 duration. Cooldown {CD}, {Consum} charges.
 * 급속 수리: 가장 손상된 모듈의 아머를 초당 {**주.x**}% 수리합니다. {**보조.x**}초 동안 지속됩니다.
 * 반발기: 적에게 {**보조.x**}의 피해를 주고 {**주.x**}m/s의 힘으로 플레이어와 적이 서로를 밀어냅니다.
 * 홀로필드: {**주.x**}초 동안 시야를 차단하는 {**보조.x**}m 너비의 벽을 배치합니다.
-* 질주 반응로: {**주.x**}초 동안 최대 속도를 {**보조.x**}% 증가시킵니다.
+* 질주 반응로: {**주.x**}초 동안 최대 속도를 {**보조.x**}km/h 증가시킵니다.
 
 ## 순환 기어
 
@@ -309,6 +320,7 @@
 
 ## 몸통
 
+* 아난시's 위장 거미줄: {**주.x**}초 동안 {**보조.x**}m 반경에 위장 거미줄을 만들어 그 안의 아군이 바깥의 적에게 보이지 않게 합니다. 쿨다운 {CD}.
 * 아레스's 격노: 내장형 방벽 및 추가 무기를 활성화하여 {**보조.x**}초 동안 한 발당 {**주.x**} 피해를 입힙니다.
 * 불가사리's 강철비: 해당 지역을 폭격하여 {**보조.x**}m 폭발 반경 내의 모든 모듈에 로켓 한 발당 {**주.x**} 피해를 입힙니다.
 * 불워크's 흡수 구체: {**주.x**}초 동안 받는 피해를 {**보조.x**}% 완화합니다. 구체에 맞은 투사체는 탄약을 보충합니다.
@@ -340,16 +352,17 @@
 
 * Wytwarzanie amunicji: Uaktywnia urządzenie, które zwiększa szybkość przeładowania sojuszników w promieniu {**Drugoplanowy.x**} m o {**Podstawowy.x**}%.
 * Tarcza awaryjna: Przywraca {**Podstawowy.x**} wytrzymałości tarczy w ciągu {**Drugoplanowy.x**} sek.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Podstawowy.x**}% for {**Drugoplanowy.x**} sek.
 * Fala uderzeniowa: Wystrzeliwuje bombę na odległość {**Drugoplanowy.x**} m. Eksplozja po krótkim opóźnieniu powoduje {**Podstawowy.x**} obrażeń i odrzuca roboty w polu rażenia.
 * Ściana energetyczna: Uaktywnia barierę osłony o szerokości {**Podstawowy.x**} m, która powstrzymuje wrogów i absorbuje do {**Drugoplanowy.x**} obrażeń.
 * Błysk: Po opóźnieniu wynoszącym {**Drugoplanowy./**} sek, teleportuje cię na odległość {**Podstawowy.x**} m w kierunku, w którym zwrócony jest robot.
 * Rezerwa paliwa: Uzupełnia paliwo do maks. {**Drugoplanowy.x**} jedn. paliwa z szybkością {**Podstawowy.x**} jedn. paliwa na jedn. czasu.
 * Fantomowa wieżyczka: Uaktywnia wieżyczkę, która ostrzeliwuje najbliższego wroga, powodując {**Podstawowy.x**} obrażeń na strzał. Czas aktywności: {**Drugoplanowy.x**} sek.
-* Spalanie paliwa: Trafia wroga w promieniu {**Podstawowy.x**} m i powoduje utratę przez niego {**Drugoplanowy.x**}% paliwa.
+* Spalanie paliwa: Burns {**Drugoplanowy.x**}% fuel from the target and blocks its regeneration for {**Podstawowy.x**} sek duration. Cooldown {CD}, {Consum} charges.
 * Szybka naprawa: Naprawia twój najmocniej uszkodzony moduł z szybkością {**Podstawowy.x**}% na sek. Czas aktywności: {**Drugoplanowy.x**} sek.
 * Odpychacz: Zadaje wrogom {**Drugoplanowy.x**} obrażeń, a przy tym odrzuca ciebie i twoich przeciwników od siebie z siłą {**Podstawowy.x**}m/s.
 * Holopole: Uaktywnia mur osłonowy o szerokości {**Drugoplanowy.x**} m, który ogranicza widok przez {**Podstawowy.x**} sek.
-* Reaktor dopalacza: Zwiększa twoją maksymalną szybkość o {**Drugoplanowy.x**}% przez {**Podstawowy.x**} sek.
+* Reaktor dopalacza: Zwiększa twoją maksymalną szybkość o {**Drugoplanowy.x**} km/h przez {**Podstawowy.x**} sek.
 
 ## Osprzęt ładowany
 
@@ -365,6 +378,7 @@
 
 ## Korpus
 
+* Anansi's Siatka kamuflażu: Tworzy Siatkę kamuflażu o promieniu {**Drugoplanowy.x**} m, która jest aktywna przez {**Podstawowy.x**} sek. Ukryci za nią sojusznicy są niewidoczni dla wrogów na zewnątrz. Czas reaktywacji {CD}.
 * Ares's Gniew: Aktywuje wbudowaną barierę i dodatkową broń, która powoduje {**Podstawowy.x**} obrażeń na strzał przez {**Drugoplanowy.x**} sek.
 * Bulgasari's Żelazny deszcz: Rozpoczyna ostrzał obszarowy, podczas którego każda rakieta zadaje {**Podstawowy.x**} obrażeń wszystkich modułów w polu rażenia {**Drugoplanowy.x**} m.
 * Bulwark's Sfera łapacza: Blokuje {**Drugoplanowy.x**}% otrzymywanych obrażeń w ciągu {**Podstawowy.x**} sek. Pociski przejęte w tym czasie uzupełniają zapasy twojej amunicji.
@@ -396,16 +410,17 @@
 
 * Fábrica de munição: Posiciona um dispositivo que reduz o tempo de recarga de aliados dentro de {**Secundário.x**}m em {**Primário.x**}%.
 * Escudo de Emergência: Restaura {**Primário.x**} de escudo por segundo por {**Secundário.x**}s.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Primário.x**}% for {**Secundário.x**}s.
 * Onda Explosiva: Planta uma bomba dentro de {**Secundário.x**}m. Após um pequeno atraso, a explosão causa {**Primário.x**} de dano e empurra os inimigos para trás.
 * Barreira de Plasma: Lança uma barreira de {**Primário.x**}m que para os inimigos e absorve até {**Secundário.x**} de dano.
 * Piscadela: Após um atraso de {**Primário.x**}m, teletransporta {**Primário.x**}m na direção onde você apontar.
 * Reserva de Combustível: Recarrega até {**Secundário.x**} unidades de combustível de combustível, {**Primário.x**} unidades de combustível unidades por ciclo.
 * Torreta Fantasma: Gera uma torreta que ataca o inimigo mais próximo e causa {**Primário.x**} por tiro durante {**Secundário.x**}s.
-* Queima de combustível: Acerta um inimigo dentro de {**Primário.x**}m e queima {**Secundário.x**}% do combustível dele.
+* Queima de combustível: Burns {**Secundário.x**}% fuel from the target and blocks its regeneration for {**Primário.x**}s duration. Cooldown {CD}, {Consum} charges.
 * Reparos rápidos: Repara seu módulo mais danificado em {**Primário.x**}% da armadura por segundo. Dura {**Secundário.x**}s.
 * Repulsora: Causa {**Secundário.x**} de dano a inimigos, e empurra para longe qualquer um com uma força de {**Primário.x**}m/s.
 * Bloqueio holográfico: Lança uma parede de {**Secundário.x**}m de largura, que bloqueia a linha de visão por {**Primário.x**}s.
-* Reator Veloz: Turbina sua velocidade máxima em {**Secundário.x**}% por {**Primário.x**}s.
+* Reator Veloz: Turbina sua velocidade máxima em {**Secundário.x**}km/h por {**Primário.x**}s.
 
 ## Equipamento de turno
 
@@ -421,6 +436,7 @@
 
 ## Torso
 
+* Anansi's Rede de Camuflagem: Cria uma rede de camuflagem com um raio de {**Secundário.x**}m por {**Primário.x**}s que torna os aliados invisiveis para os inimigos do lado de fora. Reativação: {CD}.
 * Ares's Fúria: Ativa uma barreira embutida e armas extras que causam {**Primário.x**} de dano por tiro durante {**Secundário.x**}s.
 * Bulgasari's Chuva de Balas: Bombardeia uma área, causando {**Primário.x**} de dano por foguete a todos os módulos dentro de um raio de explosão de {**Secundário.x**}m.
 * Bulwark's Esfera de Absorção: Mitiga {**Secundário.x**}% do dano recebido por {**Primário.x**}s. Projéteis pegos na esfera recarregam sua munição.
@@ -452,16 +468,17 @@
 
 * Фабрикатор боеприпасов: Размещает устройство, повышающее скорость перезарядки союзников в радиусе {**Второстепенное.x**}м на {**Основное.x**}%.
 * Экстренный щит: Ежесекундно восстанавливает {**Основное.x**} ед. энергии щита в течение {**Второстепенное.x**}сек..
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Основное.x**}% for {**Второстепенное.x**}сек..
 * Ударная волна: Устанавливает бомбу в пределах {**Второстепенное.x**}м. Вскоре она взрывается, нанося противникам {**Основное.x**} ед. урона и отбрасывая их.
 * Энергостена: Устанавливает барьер шириной {**Основное.x**}м. Он останавливает врагов и поглощает до {**Второстепенное.x**} ед. урона.
 * Скачок: Через {**Второстепенное./**}сек. телепортирует вас на расстояние {**Основное.x**}м в том направлении, куда вы смотрите.
 * Запас топлива: Восстанавливает до {**Второстепенное.x**}ед. топлива ({**Основное.x**}ед. топлива в ед. времени).
 * Призрачная турель: На {**Второстепенное.x**}сек. устанавливает турель, наносящую ближайшему противнику {**Основное.x**} ед. урона за выстрел.
-* Сжигание топлива: Поражает противника в пределах {**Основное.x**}м и сжигает у него {**Второстепенное.x**}% топлива.
+* Сжигание топлива: Burns {**Второстепенное.x**}% fuel from the target and blocks its regeneration for {**Основное.x**}сек. duration. Cooldown {CD}, {Consum} charges.
 * Быстрый ремонт: Восстанавливает наиболее повреждённому модулю {**Основное.x**}% ед. брони в секунду. Длительность {**Второстепенное.x**}сек..
 * Репульсор: Наносит {**Второстепенное.x**} ед. урона противникам и отбрасывает их и вас друг от друга с силой {**Основное.x**}м/с.
 * Голографическая завеса: Устанавливает завесу шириной {**Второстепенное.x**}м, на {**Основное.x**}сек. закрывающую обзор.
-* Ускоряющий реактор: На {**Основное.x**}сек. повышает скорость передвижения на {**Второстепенное.x**}%.
+* Ускоряющий реактор: На {**Основное.x**}сек. повышает скорость передвижения на {**Второстепенное.x**}км/ч.
 
 ## Специальное оборудование
 
@@ -477,6 +494,7 @@
 
 ## Корпус
 
+* Anansi's Маскировочная сеть: На {**Основное.x**}сек. создаёт маскировочную сеть радиусом {**Второстепенное.x**}м. Все союзники в зоне действия становятся невидимыми для противников. Перезарядка: {CD}.
 * Ares's Гнев: Активирует встроенный барьер и дополнительное оружие, наносящее {**Основное.x**} ед. урона за выстрел в течение {**Второстепенное.x**}сек..
 * Bulgasari's Железный дождь: Выпускает залп по области {**Второстепенное.x**}м. Каждая ракета наносит {**Основное.x**} ед. урона всем модулям.
 * Bulwark's Поглощающая сфера: Блокирует {**Второстепенное.x**}% урона в течение {**Основное.x**}сек.. Оказавшиеся в сфере снаряды пополняют ваш боезапас.
@@ -508,16 +526,17 @@
 
 * Cephane Üretici: {**İkincil.x**}m dahilindeki müttefiklerin silah doldurma süresini {**Birincil.x**}% kısaltan bir cihaz konuşlandırır.
 * Acil Durum Kalkanı: {**İkincil.x**}sn boyunca saniyede {**Birincil.x**} kalkan yeniler.
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**Birincil.x**}% for {**İkincil.x**}sn.
 * İnfilak Dalgası: {**İkincil.x**}m Menzilli bir bomba yerleştirir. Kısa bir gecikmeden sonra patlama {**Birincil.x**} hasar verip düşmanları geriye iter.
 * Enerji Suru: Düşmanları durduran ve en fazla {**İkincil.x**} hasar soğuran {**Birincil.x**}m genişliğinde bir duvar konuşlandırır.
 * Parıltı: {**İkincil./**}sn gecikme ardından önüne doğru {**Birincil.x**}m öteye teleport olursun.
 * Yakıt Rezervi: Toplamda en fazla {**İkincil.x**}yakıt birimi olmak üzere döngü başına {**Birincil.x**}yakıt birimi birim yakıt doldurur.
 * Hayalet Taret: En yakın düşmana {**İkincil.x**}sn saniye boyunca atış başına {**Birincil.x**} hasar vererek saldıran bir taret konuşlandırır.
-* Yakıt Yakımı: {**Birincil.x**}m dahilindeki bir düşmanı vurur ve yakıtını {**İkincil.x**}% oranında harcar.
+* Yakıt Yakımı: Burns {**İkincil.x**}% fuel from the target and blocks its regeneration for {**Birincil.x**}sn duration. Cooldown {CD}, {Consum} charges.
 * Hızlı Onarım: En hasarlı modülünü saniyede %{**Birincil.x**} zırh onarır. {**İkincil.x**}sn sürer.
 * Püskürtücü: Düşmanlara {**İkincil.x**} hasar verir, seni ve onları {**Birincil.x**}m/s kuvvetle birbirinizden öteye iter.
 * Holo Saha: {**Birincil.x**}sn boyunca görüş hattını bloke eden {**İkincil.x**}m genişliğinde bir duvar konuşlandırır.
-* Koşu Reaktörü: Maksimum hızını {**Birincil.x**}sn boyunca {**İkincil.x**}% artırır.
+* Koşu Reaktörü: Maksimum hızını {**Birincil.x**}sn boyunca {**İkincil.x**}km/sa. artırır.
 
 ## Devir Teçhizatı
 
@@ -533,6 +552,7 @@
 
 ## Gövde
 
+* Anansi's Kamuflaj Ağı: {**Birincil.x**}sn boyunca {**İkincil.x**}m yarıçaplı bir Kamuflaj Ağı oluşturur, içindeki müttefikleri dışarıdaki düşmanlara görünmez kılar. Bekleme süresi: {CD}.
 * Ares's Gazap: {**İkincil.x**}sn boyunca dahili bir bariyer ve atış başına {**Birincil.x**} hasar veren ek silahlar etkinleştirir.
 * Bulgasari's Demir Yağmur: Bir alanı bombalar, {**İkincil.x**}m yarıçaplı bir patlama alanı içindekilere roket başına tüm modüllere {**Birincil.x**} hasar verir.
 * Bulwark's Soğurma Küresi: {**Birincil.x**}sn boyunca alınan hasarı {**İkincil.x**}% oranında engeller. Küreye yakalanan mermiler cephaneni doldurur.
@@ -564,16 +584,17 @@
 
 * 弹药制造器: 部署一个装置，使{**副.x**}米范围内队友的装弹时间缩短{**主.x**}%。
 * 应急护盾: 每秒恢复{**主.x**}点护盾，持续{**副.x**}秒。
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**主.x**}% for {**副.x**}秒.
 * 冲击波: 在{**副.x**}米范围内埋下一颗炸弹。炸弹会在短暂延迟后爆炸，造成{**主.x**}点伤害并击退敌人。
 * 能量墙: 部署一道{**主.x**}米宽的屏障，该屏障可阻挡敌人，且最多能吸收{**副.x**}点伤害。
 * 闪现: {**副./**}秒延迟后，朝面朝方向传送{**主.x**}米距离。
 * 燃料储备: 以每跳{**主.x**}燃料单位点的速度补充最多{**副.x**}燃料单位点燃料。
 * 幽灵炮塔: 部署一个炮塔，攻击距离最近的敌人，每次命中造成{**主.x**}点伤害，持续存在{**副.x**}秒。
-* 燃料烧尽: 命中{**主.x**}米范围内的一名敌人，烧掉其{**副.x**}%的燃料。
+* 燃料烧尽: Burns {**副.x**}% fuel from the target and blocks its regeneration for {**主.x**}秒 duration. Cooldown {CD}, {Consum} charges.
 * 快速修复: 受损最严重的模块每秒恢复{**主.x**}%的装甲，持续{**副.x**}秒。
 * 反冲器: 对敌人造成{**副.x**}点伤害，并以{**主.x**}m/s的击退力将你和敌人相互推离。
 * 全息场: 部署一道{**副.x**}米宽的墙阻挡视线，持续存在{**主.x**}秒。
-* 冲刺反应器: 使你的最大速度提高{**副.x**}%，持续{**主.x**}秒。
+* 冲刺反应器: 使你的最大速度提高{**副.x**}千米/小时，持续{**主.x**}秒。
 
 ## 循环型装备
 
@@ -589,6 +610,7 @@
 
 ## 躯干
 
+* Anansi's 迷彩网: 制造一张半径{**副.x**}米的迷彩网，持续存在{**主.x**}秒，网外的敌人将无法看到网内的队友。冷却时间：{CD}。
 * Ares's 盛怒: 激活一道内置屏障以及额外的武器，武器每次命中造成{**主.x**}点伤害，持续{**副.x**}秒。
 * Bulgasari's 铁雨: 轰炸一片区域，每枚火箭弹可对{**副.x**}米爆炸半径范围内的所有模块造成{**主.x**}点伤害。
 * Bulwark's 缴械领域: 受到的伤害降低{**副.x**}%，持续{**主.x**}秒。球形范围内捕获到的炮弹会补充你的弹药。
@@ -620,16 +642,17 @@
 
 * 彈藥製造商: 部署裝置，該裝置可以讓 {**次要.x**}公尺 範圍內的盟友填裝速度縮短 {**主要.x**}%。
 * 緊急護盾: 每秒恢復 {**主要.x**} 護盾，持續 {**次要.x**}秒。
+* Suppressor: Throw the sticky emitter, which reduces enemies' damage in area by {**主要.x**}% for {**次要.x**}秒.
 * 衝擊波爆破: 在 {**次要.x**}公尺 範圍内部署一顆炸彈。短暫延遲後，爆炸會造成 {**主要.x**} 傷害並擊退敵人。
 * 能量障壁: 部署寬度為 {**主要.x**}公尺 的屏障，能夠阻撓敵人並吸收最多 {**次要.x**} 傷害。
 * 閃現: 延遲 {**次要./**}秒 之後，朝你面對的方向傳送 {**主要.x**}公尺。
 * 保存燃料: 每秒補充最多 {**次要.x**}燃料單位 燃料（單位：{**主要.x**}燃料單位）。
 * 鬼影炮塔: 部署砲塔，砲塔會攻擊距離最近的敵人，每發造成 {**主要.x**} 傷害，持續 {**次要.x**}秒。
-* 燃料燒灼: 擊中 {**主要.x**}公尺 半徑內的單個敵人，並燒掉對方 {**次要.x**}% 燃料。
+* 燃料燒灼: Burns {**次要.x**}% fuel from the target and blocks its regeneration for {**主要.x**}秒 duration. Cooldown {CD}, {Consum} charges.
 * 快速修復: 修復受損最嚴重的模組，每秒恢復 {**主要.x**}% 裝甲。持續 {**次要.x**}秒。
 * 斥力衝擊: 對敵人造成 {**次要.x**} 傷害，並以 {**主要.x**}m/s 力量將你和敵人推開。
 * 全息場: 部署寬度為 {**次要.x**}公尺 的墻面，阻擋視線，持續 {**主要.x**}秒。
-* 衝刺反應爐: 最快速度提升 {**次要.x**}%，持續 {**主要.x**}秒。
+* 衝刺反應爐: 最快速度提升 {**次要.x**}公里/小時，持續 {**主要.x**}秒。
 
 ## 循環裝備
 
@@ -645,6 +668,7 @@
 
 ## 機體
 
+* Anansi's 偽裝網: 部署範圍 {**次要.x**}公尺 的偽裝網，持續 {**主要.x**}秒，使網中的友軍隱形，無法被偽裝網範圍外的敵人看見。冷卻時間 {CD}。
 * Ares's 怒不可遏: 啟用內建屏障和額外武器，每一發造成 {**主要.x**} 傷害，持續 {**次要.x**}秒。
 * Bulgasari's 鋼鐵火雨: 轟炸特定範圍，在 {**次要.x**}公尺 爆破半徑內每一枚火箭對所有模組造成 {**主要.x**} 傷害。
 * Bulwark's 球體吸收: 阻擋來襲傷害的 {**次要.x**}%，持續 {**主要.x**}秒。進入球形範圍內的投射物會填裝你的彈藥。
