@@ -1,0 +1,53 @@
+{
+    "DA_Meta_Currency_Alloys.0": {
+        "id": "DA_Meta_Currency_Alloys.0",
+        "name": {
+            "Key": "HNG_Alloy",
+            "TableNamespace": "C_Currencies",
+            "en": "Salvage"
+        },
+        "description": {
+            "Key": "HNG_Alloy_Desc",
+            "TableNamespace": "C_Currencies",
+            "en": "Cogs, nuts, bolts, and everything in between. Collect Salvage by scrapping modules. Use Salvage to build and upgrade your gear."
+        },
+        "wallet_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_AlloysLarge",
+        "large_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Alloys_Render",
+        "background_color": "364242",
+        "background_image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Offers/Backgrounds/T_Rarity_Common_SV",
+        "shop_display_priority": 1
+    },
+    "DA_Meta_Currency_Credits.0": {
+        "id": "DA_Meta_Currency_Credits.0",
+        "name": {
+            "Key": "HNG_Credits",
+            "TableNamespace": "C_Currencies",
+            "en": "Credits"
+        },
+        "description": {
+            "Key": "HNG_Credits_Desc",
+            "TableNamespace": "C_Currencies",
+            "en": "In the Wild Ten, credits are the money of choice. They can be used to hire pilots and buy hardware in the store."
+        },
+        "wallet_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_CreditsLarge",
+        "large_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Credits_Render",
+        "background_color": "554A26",
+        "background_image_path": "/WRFrontiers/Content/Sparrow/UI/Screens/Offers/CurrencyCardsBg/T_CreditsCardBg",
+        "shop_display_priority": 3
+    },
+    "DA_Meta_Currency_Intel.0": {
+        "id": "DA_Meta_Currency_Intel.0",
+        "name": {
+            "Key": "HNG_Intel",
+            "TableNamespace": "C_Currencies",
+            "en": "Intel"
+        },
+        "description": {
+            "Key": "HNG_Intel_Desc",
+            "TableNamespace": "C_Currencies",
+            "en": "Trade secrets and knowledge learned on the job. Intel allows you to upgrade your equipment and improve your piloting skills faster."
+        },
+        "wallet_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_IntelLarge",
+        "large_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_IntelLarge"
+    }
+}
