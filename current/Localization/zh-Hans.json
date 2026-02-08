@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "投放一枚炸弹，引发巨大范围的爆炸。简单，高效，破坏力十足。",
         "ABL_descr_InstantReload": "{AmmoPerc}延迟后，补充{CastDuration}的弹药。",
         "ABL_descr_InfiniteAmmo": "在{CastDuration}延迟后提供无限弹药，持续{Duration}。",
-        "ABL_descr_Stealth": "在{FadeSpeed}延迟后进入隐身状态，持续{Duration}。",
         "ABL_descr_FullRegeneration": "每跳为所有模块恢复{RegenSpeed}%的装甲，持续{Duration}。",
         "ABL_descr_StickySensor": "发射一个可吸附于固体表面的装置。该装置可使{ActRadius}范围内的敌人（包括隐身状态下的敌人）暴露{ActDuration}。",
         "ABL_descr_TensionLink": "锁定敌人{ActDuration}，每秒造成最多{Dmg}点伤害。距离越近，造成的伤害越高。",
@@ -2839,9 +2838,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "使用任意能量武器造成{Limit}点伤害",
         "Daily_Freecon_WinBattles_Goal": "造成{Limit}点伤害"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "赛季1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "添加循环型装备",
         "ETXT_Add_Chassis": "添加底盘",
@@ -5449,8 +5445,6 @@
         "BattlePass_SalePrice": "优惠价格：",
         "BattlePass_S2A1_Title": "拾荒者的战利品",
         "BattlePass_Season1": "赛季1",
-        "BattlePass_S1A1_Header": "赛季1 第1幕",
-        "BattlePass_S1A2_Header": "赛季1 第2幕",
         "BattlePass_S2A1_Header": "赛季2，第1幕",
         "BattlePass_S2A2_Header": "赛季2，第2幕",
         "BattlePass_S1A2_Title": "走私者天涯",
@@ -5507,6 +5501,7 @@
         "HNG_Abilities": "装备",
         "LockedSlotWarningAccess": "访问",
         "HNG_All": "全部",
+        "HNG_ModuleSocketTypeHeavyWeapon": "任意武器",
         "HNG_DeletePresetDialogue": "是否确定删除？",
         "Character_Dismantle_Description": "是否确定拆卸此机器人？",
         "Character_Reset_Description": "是否确定重置所有变更？",

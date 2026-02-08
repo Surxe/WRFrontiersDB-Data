@@ -41,7 +41,7 @@
 * Loki's Holografischer Köder: Lässt dich unsichtbar werden und projiziert {**Primär.x**}s lang eine Kopie von dir. Der Köder besitzt {**Sekundär.x**}% mehr Panzer- und Schildpunkte.
 * Orochi's Echosalve: Verursacht {**Primär.x**} Schildschaden in einer geraden Linie und enthüllt Gegner {**Sekundär.x**}s lang.
 * Phantom's Translokator: Aktiviere dies, um {**Primär.x**}s lang einen Ort zu markieren. Aktiviere dies erneut, um nach einer Verzögerung von {**Sekundär./**}s zu diesem Ort zu warpen.
-* Pursuer's Optische Tarnung: Macht dich nach einer Verzögerung von {**Sekundär./**}s {**Primär.x**}s lang unsichtbar.
+* Pursuer's Optische Tarnung: After a {**Sekundär./**}s second delay, you become invisible for {**Primär.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Wächtermatrix: Verbündete vor dir erleiden {**Primär.x**}s lang {**Sekundär.x**}% weniger Schaden. Du kannst nicht getötet werden, solange ein Verbündeter davon betroffen ist.
 * Raven's Stahlfedern: Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}m.
 * Scorpion's Peitschenschlag: Ein Zielsuchprojektil verursacht beim Aufprall {**Primär.x**} Schaden und fügt anschließend allen Modulen {**Sekundär.x**} pro Sekunde zu. Wird aufgeladen, wenn das Ziel während der Aktivität zerstört wird.
@@ -94,7 +94,7 @@
 * Loki's Holographic Decoy: Makes you invisible and projects your copy for {**Primary.x**}s. The decoy has {**Secondary.x**}% more armor and shields.
 * Orochi's Echo Barrage: Deals {**Primary.x**} shield damage in a straight line, revealing enemies for {**Secondary.x**}s.
 * Phantom's Translocator: Activate to mark a spot for {**Primary.x**}s. Activate again to warp back to that spot after a {**Secondary./**}s delay.
-* Pursuer's Optical Camo: After a {**Secondary./**}s delay, makes you invisible for {**Primary.x**}s.
+* Pursuer's Optical Camo: After a {**Secondary./**}s second delay, you become invisible for {**Primary.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Guardian Matrix: Allies in front of you take {**Secondary.x**}% less damage for {**Primary.x**}s. You cannot be destroyed while any ally is affected by this.
 * Raven's Steel Feathers: Fires a barrage of missiles dead ahead, each dealing {**Primary.x**} damage with a {**Secondary.x**}m blast radius.
 * Scorpion's Whiplash: A homing projectile deals {**Primary.x**} damage on hit and then {**Secondary.x**} per second to all modules. Recharges if target is destroyed while active.
@@ -147,7 +147,7 @@
 * Loki's Señuelo holográfico: Te hace invisible y proyecta tu copia durante {**Primario.x**} s. El señuelo tiene {**Secundario.x**}% más armadura y escudos.
 * Orochi's Aluvión de ecos: Inflige {**Primario.x**} de daño de escudo en línea recta revelando enemigos durante {**Secundario.x**} s.
 * Phantom's Translocalizador: Actívalo para marcar un punto durante {**Primario.x**} s. Actívalo de nuevo para volver a teletransportarte hasta él con un retardo de {**Secundario./**} s.
-* Pursuer's Camuflaje óptico: Tras un retardo de {**Secundario./**} s, te hace invisible durante {**Primario.x**} s.
+* Pursuer's Camuflaje óptico: After a {**Secundario./**} s second delay, you become invisible for {**Primario.x**} s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Matriz de guardianes: Los aliados frente a ti reciben {**Secundario.x**}% menos de daño durante {**Primario.x**} s. No te podrán matar mientras haya aliados con este efecto activo.
 * Raven's Plumas de acero: Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**} m.
 * Scorpion's Latigazo: Un proyectil teledirigido inflige {**Primario.x**} de daño al impactar y {**Secundario.x**} por segundo a todos los módulos. Se recarga si el objetivo es destruido mientras está activo.
@@ -200,7 +200,7 @@
 * Loki's Leurre holographique: Vous rend invisible et projette une copie de vous pendant {**Primaire.x**} s. Le blindage et les boucliers de votre leurre sont accrus de {**Secondaire.x**} %.
 * Orochi's Barrage à écho: Inflige {**Primaire.x**} points de dégâts au bouclier en ligne droite et révèle les ennemis pendant {**Secondaire.x**} s.
 * Phantom's Translocuteur: À activer pour marquer un lieu pendant {**Primaire.x**} s. À activer à nouveau pour vous y téléporter après un délai de {**Secondaire./**} s.
-* Pursuer's Camouflage optique: Après un délai de {**Secondaire./**} s, vous rend invisible pendant {**Primaire.x**} s.
+* Pursuer's Camouflage optique: After a {**Secondaire./**} s second delay, you become invisible for {**Primaire.x**} s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Matrice gardienne: Les alliés devant vous subissent {**Secondaire.x**} % points de dégâts en moins pendant {**Primaire.x**} s. Vous êtes invincible tant qu'un allié est touché par cet effet.
 * Raven's Plumes d'acier: Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**} m.
 * Scorpion's Trauma: Un projectile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts, puis {**Secondaire.x**} par seconde à chaque module. Recharge immédiate si la cible est détruite pendant son activation.
@@ -253,7 +253,7 @@
 * Loki's ホログラフィックデコイ: {**メイン.x**}秒間、目に見えなくなり、自機のコピーを投影する。デコイの装甲とシールドは{**サブ.x**}%高い。
 * Orochi's エコー弾幕: 直線上に{**メイン.x**}シールドダメージを与え、敵を{**サブ.x**}秒間発見状態にする。
 * Phantom's トランスロケーター: アクティブにすると{**メイン.x**}秒間その場所をマークする。再度アクティブにすると{**サブ./**}秒後にその場所にワープする。
-* Pursuer's 光学カモフラージュ: {**サブ./**}秒後に{**メイン.x**}秒間、透明になる。
+* Pursuer's 光学カモフラージュ: After a {**サブ./**}秒 second delay, you become invisible for {**メイン.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's ガーディアンマトリクス: 目の前の味方が受けるダメージが{**メイン.x**}秒間、{**サブ.x**}%減少する。味方がこれによって影響を受けている間は破壊されない。
 * Raven's 鋼鉄の羽根: 前方にミサイルの弾幕を発射する。それぞれのミサイルは{**サブ.x**}mの爆発半径で{**メイン.x**}ダメージを与える。
 * Scorpion's むち打ち: 誘導式発射体は着弾時に{**メイン.x**}ダメージを与え、すべてのモジュールに1秒あたり{**サブ.x**}ダメージを与える。アクティブな間、ターゲットが破壊された場合はリチャージされる。
@@ -306,7 +306,7 @@
 * 로키's 홀로그램 미끼: {**주.x**}초 동안 은신 상태가 되며 복제체를 생성합니다. 복제체는 아머와 실드가 {**보조.x**}% 더 높습니다.
 * 오로치's 에코 연발: 일직선상의 적에게 {**주.x**}의 실드 피해를 주고 {**보조.x**}초 동안 적을 드러냅니다.
 * 팬텀's 위치전송기: 활성화하면 {**주.x**}초 동안 위치를 표시합니다. 다시 활성화하면 {**보조./**}초 지연 후 해당 위치로 순간이동합니다.
-* 퍼슈어's 광학 위장: {**보조./**}초 지연 후, {**주.x**}초 동안 은신 상태가 됩니다.
+* 퍼슈어's 광학 위장: After a {**보조./**}초 second delay, you become invisible for {**주.x**}초. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * 라바나's 수호 매트릭스: {**주.x**}초 동안 전방의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 이 효과를 받는 아군이 있는 동안에는 파괴되지 않습니다.
 * 레이븐's 강철 깃털: 전방에 미사일을 연발로 발사하여, 각각 {**보조.x**}m 폭발 반경으로 {**주.x**} 피해를 입힙니다.
 * 스콜피언's 채찍: 유도 투사체 명중 시 {**주.x**}의 피해를 주고 모든 모듈에 초당 {**보조.x**}의 피해를 입힙니다. 대상이 활성화된 상태에서 파괴되면 재충전됩니다.
@@ -359,7 +359,7 @@
 * Loki's Holograficzna przynęta: Twój robot staje się niewidzialny i wyświetla przez {**Podstawowy.x**} sek kopię holograficzną twojej maszyny; taki klon ma pancerz i tarczę większą o {**Drugoplanowy.x**}%.
 * Orochi's Echo-ostrzał: Powoduje {**Podstawowy.x**} obrażeń tarczy w linii prostej, ujawniając przy tym na {**Drugoplanowy.x**} sek pozycje wrogów.
 * Phantom's Translokator: Aktywuj, żeby oznaczyć miejsce znacznika aktywnego przez {**Podstawowy.x**} sek. Ponowna aktywacja powoduje teleportowanie do wybranego miejsca po opóźnieniu {**Drugoplanowy./**} sek.
-* Pursuer's Kamuflaż optyczny: Po opóźnieniu trwającym {**Drugoplanowy./**} sek twój robot zyskuje na {**Podstawowy.x**} sek tymczasową niewidzialność.
+* Pursuer's Kamuflaż optyczny: After a {**Drugoplanowy./**} sek second delay, you become invisible for {**Podstawowy.x**} sek. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Strażnik: Sojusznicy znajdujący się przed tobą otrzymują {**Drugoplanowy.x**}% mniej obrażeń przez {**Podstawowy.x**} sek. W czasie aktywności tej funkcji twój robot nie może zostać zniszczony.
 * Raven's Stalowe pióra: Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**} m.
 * Scorpion's Bicz: Pocisk samonaprowadzający powoduje po trafieniu {**Podstawowy.x**} obrażeń, a następnie dodatkowo {**Drugoplanowy.x**} obrażeń na sek. od ognia wszystkich modułów. Zniszczenie wroga w czasie aktywności powoduje od razu przeładowanie.
@@ -412,7 +412,7 @@
 * Loki's Isca Holográfica: Você fica invisível e projeta sua cópia por {**Primário.x**}s. A isca tem {**Secundário.x**}% mais armadura e escudo.
 * Orochi's Barragem Eco: Causa {**Primário.x**} de dano a escudos em linha reta, revelando inimigos por {**Secundário.x**}s.
 * Phantom's Translocador: Ative para marcar um local por {**Primário.x**}s. Ative novamente para voltar para o local marcado depois de um atraso de {**Secundário./**}s.
-* Pursuer's Camuflagem Óptica: Após um atraso de {**Secundário./**}s, você fica invisível por {**Primário.x**}s.
+* Pursuer's Camuflagem Óptica: After a {**Secundário./**}s second delay, you become invisible for {**Primário.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Matriz Guardiã: Aliados na sua frente sofrem {**Secundário.x**}% de dano a menos por {**Primário.x**}s. Você não pode morrer enquanto um aliado é afetado por isso.
 * Raven's Penas de Aço: Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}m.
 * Scorpion's Chicotada: Um projétil guiado que causa {**Primário.x**} de dano ao acertar e mais {**Secundário.x**} por segundo a todos os módulos. Recarrega se o alvo for destruído enquanto estiver ativo.
@@ -465,7 +465,7 @@
 * Loki's Голографическая приманка: На {**Основное.x**}сек. скрывает вашего робота и создаёт его копию. Щиты и броня приманки прочнее на {**Второстепенное.x**}%.
 * Orochi's Эхо-залп: Атакой по прямой линии наносит {**Основное.x**} ед. урона щитам и раскрывает противников на {**Второстепенное.x**}сек..
 * Phantom's Транслокатор: При первой активации отмечает точку на {**Основное.x**}сек.. При второй активации телепортирует к ней через {**Второстепенное./**}сек..
-* Pursuer's Оптическая маскировка: Через {**Второстепенное./**}сек. вы на {**Основное.x**}сек. становитесь невидимы.
+* Pursuer's Оптическая маскировка: After a {**Второстепенное./**}сек. second delay, you become invisible for {**Основное.x**}сек.. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Защитная матрица: Союзники перед вами получают на {**Второстепенное.x**}% меньше урона в течение {**Основное.x**}сек.. Пока этот эффект действует хотя бы на одного союзника, вы неуничтожимы.
 * Raven's Стальные перья: Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}м.
 * Scorpion's Плеть: Выпускает самонаводящийся снаряд, наносящий {**Основное.x**} ед. урона при попадании и {**Второстепенное.x**} ед. урона в секунду всем модулям. Если цель уничтожается во время действия эффекта, перезарядка сбрасывается.
@@ -518,7 +518,7 @@
 * Loki's Holografik Yem: Seni görünmez kılar ve kopyanı {**Birincil.x**}sn boyunca yansıtır. Yemin {**İkincil.x**}% daha çok zırhı ve kalkanı olur.
 * Orochi's Yankı Salvosu: Düz bir hat boyunca {**Birincil.x**} zırh hasrı verir, düşmanları {**İkincil.x**}sn boyunca ortaya çıkarır.
 * Phantom's Yer Değiştirici: Etkinleştirince bir noktayı {**Birincil.x**}sn boyunca işaretler. Tekrar etkinleştirince {**İkincil./**}sn gecikme ardından o noktaya ışınlanırsın.
-* Pursuer's Optik Kamuflaj: {**İkincil./**}sn sonra seni {**Birincil.x**}sn boyunca görünmez yapar.
+* Pursuer's Optik Kamuflaj: After a {**İkincil./**}sn second delay, you become invisible for {**Birincil.x**}sn. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's Muhafız Matriksi: Önündeki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha az hasar alır. Bir müttefik bu etkinin altındaysa öldürülemezsin.
 * Raven's Çelik Tüyler: Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**}m patlama yarıçaplı {**Birincil.x**} hasar verir.
 * Scorpion's Kamçı Vuruşu: Anında {**Birincil.x**} hasar, sonra da tüm modüllere saniyede {**İkincil.x**} hasar veren bir güdümlü mermi. Etkinken hedef imha olursa yeniden şarj olur.
@@ -571,7 +571,7 @@
 * Loki's 全息诱饵: 隐身并投射出自己的复制体，持续{**主.x**}秒。该诱饵拥有{**副.x**}%点额外装甲和护盾。
 * Orochi's 回声炮火: 对一条直线上的目标造成{**主.x**}点护盾伤害，并暴露敌人{**副.x**}秒秒。
 * Phantom's 传送器: 激活后会标记一个地点，持续{**主.x**}秒，再次激活会在{**副./**}秒延迟后传送回该地点。
-* Pursuer's 光学伪装: 在{**副./**}秒延迟后进入隐身状态，持续{**主.x**}秒。
+* Pursuer's 光学伪装: After a {**副./**}秒 second delay, you become invisible for {**主.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's 守护者母体: 位于你前方的队友受到的伤害降低{**副.x**}%，持续{**主.x**}秒。当有任何队友受此效果影响时，你无法被摧毁。
 * Raven's 钢之羽: 向正前方发射一波飞弹，每枚飞弹可对{**副.x**}米爆炸半径范围内的目标造成{**主.x**}点伤害。
 * Scorpion's 尾后针: 发射一枚追踪炮弹，命中时造成{**主.x**}点伤害，随后对目标所有模块造成每秒{**副.x**}点的持续伤害。如果目标在技能生效期间被摧毁，则该技能立即结束冷却。
@@ -624,7 +624,7 @@
 * Loki's 投影誘餌: 匿蹤並投射出你的複製體，持續 {**主要.x**}秒。誘餌的裝甲和護盾提高 {**次要.x**}%。
 * Orochi's 回音火網: 在直線上造成 {**主要.x**} 護盾傷害並暴露敵人，持續 {**次要.x**}秒。
 * Phantom's 定位傳送: 啟動時會標記傳送點，持續 {**主要.x**}秒。再次啟動就能在延遲 {**次要./**}秒 後回傳至該傳送點。
-* Pursuer's 光學迷彩: 在延遲 {**次要./**}秒 後隱形，持續 {**主要.x**}秒。
+* Pursuer's 光學迷彩: After a {**次要./**}秒 second delay, you become invisible for {**主要.x**}秒. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.
 * Ravana's 守護矩陣: 你前方的友軍承受的傷害減少 {**次要.x**}%，持續 {**主要.x**}秒。在任一友軍受此影響的期間你無法被摧毀。
 * Raven's 鐵翼彈雨: 朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}公尺。
 * Scorpion's 鞭撻: 命中時造成 {**主要.x**} 點傷害的追蹤投射物，接著每秒對所有模組造成 {**次要.x**} 點傷害。若目標在此技能生效時死亡，此技能會立即再次充能。

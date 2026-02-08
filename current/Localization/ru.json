@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "Бомба с большим радиусом поражения. Незамысловато, но эффективно.",
         "ABL_descr_InstantReload": "Через {CastDuration} восполняет {AmmoPerc} боезапаса.",
         "ABL_descr_InfiniteAmmo": "Через {CastDuration} боезапас становится бесконечным на {Duration}.",
-        "ABL_descr_Stealth": "Через {FadeSpeed} вы на {Duration} становитесь невидимы.",
         "ABL_descr_FullRegeneration": "Чинит все модули, восстанавливая {RegenSpeed}% брони в ед. времени. Длительность: {Duration}.",
         "ABL_descr_StickySensor": "Выстреливает устройством, прилипающим к твёрдым поверхностям. На {ActDuration} помечает противников (в том числе замаскированных) в области {ActRadius}.",
         "ABL_descr_TensionLink": "Наводится на противника и в течение {ActDuration} наносит до {Dmg} ед. урона в секунду (урон зависит от расстояния).",
@@ -2843,9 +2842,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "Нанесите урон, используя энергетическое оружие: {Limit}",
         "Daily_Freecon_WinBattles_Goal": "Нанесите урон: {Limit}"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "Сезон 1"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "Добавить специальное оборудование",
         "ETXT_Add_Chassis": "Добавить шасси",
@@ -5454,8 +5450,6 @@
         "BattlePass_SalePrice": "Цена со скидкой:",
         "BattlePass_S2A1_Title": "Добыча мусорщика",
         "BattlePass_Season1": "Сезон 1",
-        "BattlePass_S1A1_Header": "Сезон 1, акт 1",
-        "BattlePass_S1A2_Header": "Сезон 1, акт 2",
         "BattlePass_S2A1_Header": "Сезон 2, акт 1",
         "BattlePass_S2A2_Header": "Сезон 2, акт 2",
         "BattlePass_S1A2_Title": "Путь контрабандиста",
@@ -5512,6 +5506,7 @@
         "HNG_Abilities": "Оборудование",
         "LockedSlotWarningAccess": "Доступ",
         "HNG_All": "Все",
+        "HNG_ModuleSocketTypeHeavyWeapon": "Любое оружие",
         "HNG_DeletePresetDialogue": "Действительно удалить?",
         "Character_Dismantle_Description": "Вы уверены, что хотите разобрать этого робота?",
         "Character_Reset_Description": "Вы уверены, что хотите отменить все изменения?",

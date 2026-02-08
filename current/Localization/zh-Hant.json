@@ -8,7 +8,6 @@
         "ABL_descr_OrbitalStrike": "投擲一顆大範圍炸彈。簡單、有效且致命。",
         "ABL_descr_InstantReload": "延遲 {CastDuration} 之後，補充 {AmmoPerc} 彈藥。",
         "ABL_descr_InfiniteAmmo": "延遲 {CastDuration} 之後，獲得無限彈藥，持續 {Duration}。",
-        "ABL_descr_Stealth": "在延遲 {FadeSpeed} 後隱形，持續 {Duration}。",
         "ABL_descr_FullRegeneration": "每秒恢復所有模組 {RegenSpeed}% 裝甲。持續 {Duration}。",
         "ABL_descr_StickySensor": "射出一個可以固定在固體表面的裝置。該裝置會暴露 {ActRadius} 的敵人，即使敵人在匿蹤狀態下也無法隱藏，持續 {ActDuration}。",
         "ABL_descr_TensionLink": "鎖定敵人，持續 {ActDuration}，每秒造成最多 {Dmg} 傷害。距離目標越近，傷害越高。",
@@ -2839,9 +2838,6 @@
         "Daily_Freecon_WinBattlesFreeconRobots_Goal": "使用任意能量武器造成 {Limit} 傷害",
         "Daily_Freecon_WinBattles_Goal": "造成 {Limit} 傷害"
     },
-    "ST_RatingSeason_Name": {
-        "Season1": "第 1 賽季"
-    },
     "ST_Ring_Errot_Text": {
         "ETXT_Add_Chargeable_Ability": "新增循環裝備",
         "ETXT_Add_Chassis": "新增底架",
@@ -5448,8 +5444,6 @@
         "BattlePass_SalePrice": "出售價格：",
         "BattlePass_S2A1_Title": "拾荒者掠奪",
         "BattlePass_Season1": "第 1 賽季",
-        "BattlePass_S1A1_Header": "第 1 賽季第 1 幕",
-        "BattlePass_S1A2_Header": "第 1 賽季第 2 幕",
         "BattlePass_S2A1_Header": "第 2 賽季第 1 幕",
         "BattlePass_S2A2_Header": "第 2 賽季第 2 幕",
         "BattlePass_S1A2_Title": "走私者的逃亡",
@@ -5506,6 +5500,7 @@
         "HNG_Abilities": "裝備",
         "LockedSlotWarningAccess": "權限",
         "HNG_All": "全部",
+        "HNG_ModuleSocketTypeHeavyWeapon": "任何武器",
         "HNG_DeletePresetDialogue": "是否確定刪除？",
         "Character_Dismantle_Description": "是否確定拆卸此機器人？",
         "Character_Reset_Description": "是否確定重置所有變更？",
