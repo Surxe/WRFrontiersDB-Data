@@ -36,7 +36,7 @@
             "SecondaryParameter": 0.5625
         },
         "stats_percentile": {
-            "ChargeDuration": 0.0
+            "ChargeDuration": 0.11111
         }
     },
     "OBJID_Module::DA_Module_Ability_DashBlinkedVisible.1": {
@@ -56,7 +56,7 @@
             "SecondaryParameter": 0.10668
         },
         "stats_percentile": {
-            "ChargeDuration": 0.44444
+            "ChargeDuration": 0.55556
         }
     },
     "OBJID_Module::DA_Module_Ability_FuelReserve.1": {
@@ -96,7 +96,7 @@
             "SecondaryParameter": 0.10668
         },
         "stats_percentile": {
-            "ChargeDuration": 0.55556
+            "ChargeDuration": 0.66667
         }
     },
     "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1": {
@@ -111,12 +111,12 @@
     },
     "OBJID_Module::DA_Module_Ability_MineField.1": {
         "stats_percent_increase": {
-            "ChargeDuration": -0.24812,
+            "ChargeDuration": -0.24933,
             "PrimaryParameter": 0.29236,
-            "SecondaryParameter": 0.25
+            "SecondaryParameter": 0.26667
         },
         "stats_percentile": {
-            "ChargeDuration": 0.77778
+            "ChargeDuration": 0.0
         }
     },
     "OBJID_Module::DA_Module_Ability_Regeneration.1": {
@@ -136,7 +136,7 @@
             "SecondaryParameter": 0.21951
         },
         "stats_percentile": {
-            "ChargeDuration": 0.66667
+            "ChargeDuration": 0.77778
         }
     },
     "OBJID_Module::DA_Module_Ability_Repulsor.1": {
@@ -176,7 +176,7 @@
             "SecondaryParameter": 0.25409
         },
         "stats_percentile": {
-            "ChargeDuration": 0.33333
+            "ChargeDuration": 0.44444
         }
     },
     "OBJID_Module::DA_Module_Ability_TensionLink.1": {
@@ -186,7 +186,7 @@
             "SecondaryParameter": 0.57143
         },
         "stats_percentile": {
-            "ChargeDuration": 0.22222
+            "ChargeDuration": 0.33333
         }
     },
     "OBJID_Module::DA_Module_Ability_Umbrella.1": {
@@ -196,7 +196,7 @@
             "SecondaryParameter": 0.25414
         },
         "stats_percentile": {
-            "ChargeDuration": 0.11111
+            "ChargeDuration": 0.22222
         }
     },
     "OBJID_Module::DA_Module_ChassisAlpha.1": {
