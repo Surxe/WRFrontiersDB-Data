@@ -2966,6 +2966,60 @@
         "is_factory_preset": false,
         "character_type": "Mech"
     },
+    "DA_Preset_DevbotCeres.0": {
+        "id": "DA_Preset_DevbotCeres.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi",
+        "name": {
+            "Key": "CMP_name_Demeter_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ceres"
+        },
+        "modules": {
+            "None": {
+                "module_ref": "OBJID_Module::DA_Module_ChassisDemeter.2",
+                "parent_socket_name": null,
+                "level": 1
+            },
+            "Root": {
+                "module_ref": "OBJID_Module::DA_Module_TorsoDemeter.1",
+                "parent_socket_name": "None",
+                "level": 1
+            },
+            "Shoulder_L": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderDemeter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Shoulder_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0",
+                "parent_socket_name": "Shoulder_R",
+                "level": 1
+            },
+            "Shoulder_R": {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderDemeter.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Ability": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_GhostTurret.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "UltAbility": {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "parent_socket_name": "Root",
+                "level": 1
+            },
+            "Torso_Weapon_0": {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0",
+                "parent_socket_name": "Root",
+                "level": 1
+            }
+        },
+        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+        "is_factory_preset": true,
+        "character_type": "Mech"
+    },
     "DA_Preset_DevbotCyclops.0": {
         "id": "DA_Preset_DevbotCyclops.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian",
