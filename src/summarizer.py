@@ -129,6 +129,37 @@ class PatchSummarizer:
         else:
             # Pilots and talents only added when ready
             return True
+
+    def has_obj_changed(self, obj_id: str, before: dict, after: dict, parse_object_class: Literal['Module', 'Pilot', 'PilotTalent']) -> bool:
+        """Check if a specific object has changed between versions."""
+        is_changed = False
+        before_is_prod_ready = self.is_prod_ready(parse_object_class, obj_id, before)
+        after_is_prod_ready = self.is_prod_ready(parse_object_class, obj_id, after)
+
+        if obj_id not in before:
+            logger.debug(f"New {parse_object_class} detected: {obj_id}")
+            if not after_is_prod_ready:
+                logger.debug(f"{parse_object_class} {obj_id} is not production ready, skipping.")
+                return False
+            is_changed = True
+        else:
+            # existing object
+            before_value = before[obj_id]
+            # If prev is not prod ready, and now is, consider it added
+            if (not before_is_prod_ready) and after_is_prod_ready:
+                logger.debug(f"{parse_object_class} {obj_id} became production ready, considering it Added.")
+                is_changed = True
+            # If it was ready and now is not, consider it removed
+            elif before_is_prod_ready and (not after_is_prod_ready):
+                logger.debug(f"{parse_object_class} {obj_id} became not production ready, considering it Removed.")
+                is_changed = True
+            # If it was ready and still is, check if the object itself changed
+            elif before_is_prod_ready and after_is_prod_ready:
+                if before_value != after[obj_id]:
+                    logger.debug(f"{parse_object_class} {obj_id} changed.")
+                    is_changed = True
+        
+        return is_changed
     
     def get_changed_parse_objects(self, 
                                 parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'],
@@ -147,36 +178,9 @@ class PatchSummarizer:
         """
         changed_objects = {}
 
-        for key, after_value in after.items():
-            is_changed = False
-            before_is_prod_ready = self.is_prod_ready(parse_object_class, key, before)
-            after_is_prod_ready = self.is_prod_ready(parse_object_class, key, after)
-
-            if key not in before:
-                logger.debug(f"New {parse_object_class} detected: {key}")
-                if not after_is_prod_ready:
-                    logger.debug(f"{parse_object_class} {key} is not production ready, skipping.")
-                    continue
-                is_changed = True
-            else:
-                # existing object
-                before_value = before[key]
-                # If prev is not prod ready, and now is, consider it added
-                if (not before_is_prod_ready) and after_is_prod_ready:
-                    logger.debug(f"{parse_object_class} {key} became production ready, considering it Added.")
-                    is_changed = True
-                # If it was ready and now is not, consider it removed
-                elif before_is_prod_ready and (not after_is_prod_ready):
-                    logger.debug(f"{parse_object_class} {key} became not production ready, considering it Removed.")
-                    is_changed = True
-                # If it was ready and still is, check if the object itself changed
-                elif before_is_prod_ready and after_is_prod_ready:
-                    if before_value != after_value:
-                        logger.debug(f"{parse_object_class} {key} changed.")
-                        is_changed = True
-            
-            if is_changed:
-                changed_objects[key] = True
+        for obj_id in after.keys():
+            if self.has_obj_changed(obj_id, before, after, parse_object_class):
+                changed_objects[obj_id] = True
         
         return changed_objects
 
