@@ -4620,7 +4620,8 @@
         "BattlePass_XP": "{0}/{1}経験値",
         "BattlePass_ItemsClaimed": "{0}/{1}受け取り済み",
         "BattlePass_ShelveHours": "{0}時間{1}分",
-        "BattlePass_TimeRemaining": "残り{0}時間{1}分"
+        "BattlePass_TimeRemaining": "残り{0}時間{1}分",
+        "BattlePass_AfterSeasonSubtitle": "幕{0}は終了しました"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "無効なログイン",
@@ -5495,7 +5496,6 @@
         "Robodex_CustomBuilds": "カスタムロボット",
         "Workshop_Button_Customize": "カスタマイズ",
         "Robodex_Customize_Build": "見た目をカスタマイズ",
-        "Workshop_Button_CustomizeRobot": "カスタムに変換",
         "Workshop_Button_CustomizeTitan": "カスタマイズ",
         "Workshop_CustomizedKey": "カスタム",
         "Workshop_CycleGear": "サイクルギア：",
@@ -5582,7 +5582,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "売却する前に先にロボットから取り外してください。",
         "Workshop_PopUpSellingItemsPleaseUnequip": "売却する前に先にロボットから取り外してください。",
         "Workshop_Procced": "続行",
-        "Workshop_Progress": "プロフィールレベル",
         "Workshop_SortRarity": "レア度",
         "Workshop_RairitySort": "レア度（高～低）",
         "Workshop_RobotEditWarningInfoSupplyGear": "エネルギーが必要です",
@@ -5742,6 +5741,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "メールを受け取れませんでしたか？スパムフォルダーをご確認いただくか、弊社にお問い合わせください。",
         "Subscriptions_EmailConfirmed": "メールを確認しました。",
         "Subscriptions_EmailPopUp_EnterYourEmail": "メールアドレスを入力してください",
+        "Subscriptions_EmailText_EnterYourEmail": "メールアドレスを入力してください",
         "Subscriptions_ContactSupport": "接続がうまくいきませんか？我々にご連絡を。",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "MY.GAMESや関連会社からの更新情報、カスタマイズされたマーケティング情報、および限定オファーをメールで受け取ることに同意します。",
         "Subscriptions_EmailMatch": "サインアップ時のメールアドレスと一致していなければなりません。",

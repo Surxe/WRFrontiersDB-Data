@@ -4406,7 +4406,8 @@
         "BattlePass_ShelveDays": "{0} gün",
         "BattlePass_ItemsClaimed": "{0}/{1} alındı",
         "BattlePass_ShelveHours": "{0} sa. {1} dak.",
-        "BattlePass_TimeRemaining": "{0} sa. {1} dak. kaldı"
+        "BattlePass_TimeRemaining": "{0} sa. {1} dak. kaldı",
+        "BattlePass_AfterSeasonSubtitle": "{0}. Bölüm sona erdi"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Geçersiz Giriş",
@@ -5267,7 +5268,6 @@
         "Robodex_CustomBuilds": "Özel Robotlar",
         "Workshop_Button_Customize": "Özelleştir",
         "Robodex_Customize_Build": "Görünümü Özelleştir",
-        "Workshop_Button_CustomizeRobot": "Özele çevir",
         "Workshop_Button_CustomizeTitan": "Özelleştir",
         "Workshop_CustomizedKey": "Özel",
         "Workshop_CycleGear": "Devir Teçhizatı:",
@@ -5352,7 +5352,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Satmadan önce robottan kaldır.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Satmadan önce robottan kaldır.",
         "Workshop_Procced": "Devam et",
-        "Workshop_Progress": "Profil Seviyesi",
         "Workshop_SortRarity": "Nadirlik",
         "Workshop_RairitySort": "Nadirlik (Yüksekten Düşüğe)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Enerji gerektirir",
@@ -5509,6 +5508,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "E-posta almadın mı? Lütfen Spam klasörüne bak ya da bize ulaş.",
         "Subscriptions_EmailConfirmed": "E-posta onaylandı.",
         "Subscriptions_EmailPopUp_EnterYourEmail": "E-POSTA ADRESİNİ GİR",
+        "Subscriptions_EmailText_EnterYourEmail": "E-posta adresini gir",
         "Subscriptions_ContactSupport": "Bağlantı sorunu mu yaşıyorsun? Bizimle temasa geç.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "MY.GAMES ve ortaklarından tarafıma haberler, uyarlanmış reklamlar ve özel teklifler gönderilmesini kabul ediyorum.",
         "Subscriptions_EmailMatch": "E-postan kaydolduğun adresle uyuşmalı.",

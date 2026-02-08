@@ -22,8 +22,8 @@
     "OBJID_Module::DA_Module_Ability_BlockingField.1": {
         "stats_percent_increase": {
             "Cooldown": -0.42857,
-            "PrimaryParameter": 0.13495,
-            "SecondaryParameter": 0.29595
+            "PrimaryParameter": 0.13507,
+            "SecondaryParameter": 0.29594
         },
         "stats_percentile": {
             "Cooldown": 0.05405
@@ -887,7 +887,7 @@
         "stats_percent_increase": {
             "Armor": 0.10623,
             "Cooldown": -0.375,
-            "PrimaryParameter": 0.18056,
+            "PrimaryParameter": 0.18421,
             "SecondaryParameter": -0.46429
         },
         "stats_percentile": {
@@ -1102,7 +1102,7 @@
         "stats_percentile": {
             "ClipSize": 0.33333,
             "DamageArmor": 0.66667,
-            "TimeToReload": 0.73913
+            "TimeToReload": 0.78261
         }
     },
     "OBJID_Module::DA_Module_Weapon_Dragoon.0": {
@@ -1114,7 +1114,7 @@
         "stats_percentile": {
             "DamageArmor": 0.16667,
             "DamageNoArmor": 0.64286,
-            "TimeToReload": 0.65217
+            "TimeToReload": 0.69565
         }
     },
     "OBJID_Module::DA_Module_Weapon_Fowler.0": {
@@ -1124,7 +1124,7 @@
             "TimeToReload": -0.16898
         },
         "stats_percentile": {
-            "DamageArmor": 0.5,
+            "DamageArmor": 0.54167,
             "DamageNoArmor": 0.57143,
             "TimeToReload": 0.26087
         }
@@ -1162,9 +1162,9 @@
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.45833,
+            "DamageArmor": 0.5,
             "DamageNoArmor": 0.28571,
-            "TimeToReload": 0.82609
+            "TimeToReload": 0.86957
         }
     },
     "OBJID_Module::DA_Module_Weapon_Incinerator.0": {
@@ -1182,12 +1182,12 @@
     "OBJID_Module::DA_Module_Weapon_Katzbalger.0": {
         "stats_percent_increase": {
             "ClipSize": 0.16667,
-            "DamageArmor": 0.10629,
+            "DamageArmor": 0.10633,
             "TimeToReload": -0.11032
         },
         "stats_percentile": {
             "ClipSize": 0.44444,
-            "DamageArmor": 0.375,
+            "DamageArmor": 0.33333,
             "TimeToReload": 0.6087
         }
     },
@@ -1238,7 +1238,7 @@
         "stats_percentile": {
             "ClipSize": 0.55556,
             "DamageArmor": 0.125,
-            "TimeToReload": 0.69565
+            "TimeToReload": 0.73913
         }
     },
     "OBJID_Module::DA_Module_Weapon_Railgun.0": {
@@ -1250,17 +1250,17 @@
         "stats_percentile": {
             "DamageArmor": 0.29167,
             "DamageNoArmor": 0.85714,
-            "TimeToReload": 0.91304
+            "TimeToReload": 0.95652
         }
     },
     "OBJID_Module::DA_Module_Weapon_Scatter.0": {
         "stats_percent_increase": {
-            "DamageArmor": 0.10619,
+            "DamageArmor": 0.10629,
             "DamageNoArmor": 0.10706,
             "TimeToReload": -0.2069
         },
         "stats_percentile": {
-            "DamageArmor": 0.625,
+            "DamageArmor": 0.41667,
             "DamageNoArmor": 0.78571,
             "TimeToReload": 0.0
         }
@@ -1273,7 +1273,7 @@
         },
         "stats_percentile": {
             "ClipSize": 0.77778,
-            "DamageArmor": 0.58333,
+            "DamageArmor": 0.625,
             "TimeToReload": 0.56522
         }
     },
@@ -1346,9 +1346,9 @@
             "TimeToReload": -0.06181
         },
         "stats_percentile": {
-            "DamageArmor": 0.33333,
+            "DamageArmor": 0.375,
             "DamageNoArmor": 0.35714,
-            "TimeToReload": 0.86957
+            "TimeToReload": 0.91304
         }
     },
     "OBJID_Module::DA_Module_Weapon_Trident.0": {
@@ -1358,7 +1358,7 @@
             "TimeToReload": -0.19094
         },
         "stats_percentile": {
-            "DamageArmor": 0.41667,
+            "DamageArmor": 0.45833,
             "DamageNoArmor": 0.42857,
             "TimeToReload": 0.08696
         }
@@ -1370,21 +1370,21 @@
             "TimeToReload": -0.06475
         },
         "stats_percentile": {
-            "DamageArmor": 0.54167,
+            "DamageArmor": 0.58333,
             "DamageNoArmor": 0.21429,
-            "TimeToReload": 0.78261
+            "TimeToReload": 0.82609
         }
     },
     "OBJID_Module::DA_Module_Weapon_Vortex.0": {
         "stats_percent_increase": {
             "DamageArmor": 0.10599,
             "DamageNoArmor": 0.10712,
-            "TimeToReload": -0.05797
+            "TimeToReload": -0.10221
         },
         "stats_percentile": {
             "DamageArmor": 0.75,
             "DamageNoArmor": 0.71429,
-            "TimeToReload": 0.95652
+            "TimeToReload": 0.65217
         }
     },
     "OBJID_Module::DA_Module_Weapon_Zeus.0": {

@@ -4388,7 +4388,8 @@
         "BattlePass_XP": "{0}/{1} PD",
         "BattlePass_ItemsClaimed": "{0}/{1} odebrane",
         "BattlePass_ShelveHours": "{0} godz. {1} min.",
-        "BattlePass_TimeRemaining": "Pozostało: {0} godz. {1} min."
+        "BattlePass_TimeRemaining": "Pozostało: {0} godz. {1} min.",
+        "BattlePass_AfterSeasonSubtitle": "Akt {0} dobiegł końca"
     },
     "UI_ConnectionErrors": {
         "InvalidAuth": "Błędny login",
@@ -5240,7 +5241,6 @@
         "Robodex_CustomBuilds": "Projekty nietypowe",
         "Workshop_Button_Customize": "Modyfikacja",
         "Robodex_Customize_Build": "Indywidualne zmiany wyglądu",
-        "Workshop_Button_CustomizeRobot": "Konwertuj na projekt zmodyfikowany",
         "Workshop_Button_CustomizeTitan": "Modyfikacja",
         "Workshop_CustomizedKey": "Roboty zmodyfikowane",
         "Workshop_CycleGear": "Osprzęt ładowany:",
@@ -5324,7 +5324,6 @@
         "Workshop_PopUpSellModuleInUsePleaseUnequip": "Usuń z robota przed sprzedażą.",
         "Workshop_PopUpSellingItemsPleaseUnequip": "Usuń z robota przed sprzedażą.",
         "Workshop_Procced": "Kontynuuj",
-        "Workshop_Progress": "Poziom profilu",
         "Workshop_SortRarity": "Rzadkość",
         "Workshop_RairitySort": "Poziom rzadkości (od najwyższej do najniższej)",
         "Workshop_RobotEditWarningInfoSupplyGear": "Wymaga energii",
@@ -5482,6 +5481,7 @@
         "Subscriptions_WaitingForConfirmationSpam_CheckSpamFolder": "E-mail nie dotarł? Prosimy o sprawdzenie folderu ze spamem lub kontakt.",
         "Subscriptions_EmailConfirmed": "E-mail potwierdzony.",
         "Subscriptions_EmailPopUp_EnterYourEmail": "WPROWADŹ SWÓJ ADRES E-MAIL",
+        "Subscriptions_EmailText_EnterYourEmail": "Wprowadź swój adres e-mail",
         "Subscriptions_ContactSupport": "Masz jakiś problem z połączeniem? Skontaktuj się z zespołem wsparcia.",
         "Subscriptions_PolicyCheckbox_AgreeToPolicy": "Zgadzam się na otrzymywanie za pośrednictwem e-mail informacji o aktualizacjach, spersonalizowanego marketingu, ofert specjalnych MY.GAMES oraz partnerów tej firmy.",
         "Subscriptions_EmailMatch": "Musisz użyć tego samego adresu e-mail, jak ten podany podczas rejestracji.",
