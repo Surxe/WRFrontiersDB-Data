@@ -1,0 +1,460 @@
+{
+    "DA_ModuleType_Ability2.0": {
+        "id": "DA_ModuleType_Ability2.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Ability.0",
+        "name": {
+            "Key": "HNG_Ability",
+            "TableNamespace": "Component_Tags",
+            "en": "Supply Gear"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_Ability3.0": {
+        "id": "DA_ModuleType_Ability3.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Ability.0",
+        "name": {
+            "Key": "HNG_Ability",
+            "TableNamespace": "Component_Tags",
+            "en": "Supply Gear"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "description": {
+            "Key": "ItemType_SupplyGearDesc",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "<Orange>Supply Gear</> modules are tactical consumables. You can use them only a few times per battle"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_Ability4.0": {
+        "id": "DA_ModuleType_Ability4.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Ability.0",
+        "name": {
+            "Key": "HNG_AbilityUlt",
+            "TableNamespace": "Component_Tags",
+            "en": "Cycle Gear"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "description": {
+            "Key": "ItemType_CycleGearDesc",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "You can freely switch some robot <Orange>Gear</> modules.\r\n<Orange>Cycle Gear</> needs to charge up before you can use it. Prime it by capturing objectives destroying enemies or saving teammates."
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_Chassis.0": {
+        "id": "DA_ModuleType_Chassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "HNG_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30",
+        "is_root_module": true
+    },
+    "DA_ModuleType_Shoulder.0": {
+        "id": "DA_ModuleType_Shoulder.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "HNG_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_TitanAlphaChassis.0": {
+        "id": "DA_ModuleType_TitanAlphaChassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "is_root_module": true,
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanAlphaShoulderL.0": {
+        "id": "DA_ModuleType_TitanAlphaShoulderL.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Left_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanAlphaShoulderR.0": {
+        "id": "DA_ModuleType_TitanAlphaShoulderR.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Right_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanAlphaTorso.0": {
+        "id": "DA_ModuleType_TitanAlphaTorso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanGrimChassis.0": {
+        "id": "DA_ModuleType_TitanGrimChassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "is_root_module": true,
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanGrimShoulderL.0": {
+        "id": "DA_ModuleType_TitanGrimShoulderL.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Left_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanGrimShoulderR.0": {
+        "id": "DA_ModuleType_TitanGrimShoulderR.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Right_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanGrimTorso.0": {
+        "id": "DA_ModuleType_TitanGrimTorso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanMatriarchChassis.0": {
+        "id": "DA_ModuleType_TitanMatriarchChassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "is_root_module": true,
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanMatriarchShoulderL.0": {
+        "id": "DA_ModuleType_TitanMatriarchShoulderL.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Left_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanMatriarchShoulderR.0": {
+        "id": "DA_ModuleType_TitanMatriarchShoulderR.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Right_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanMatriarchTorso.0": {
+        "id": "DA_ModuleType_TitanMatriarchTorso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanSpireChassis.0": {
+        "id": "DA_ModuleType_TitanSpireChassis.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Chassis.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "is_root_module": true,
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanSpireShoulderL.0": {
+        "id": "DA_ModuleType_TitanSpireShoulderL.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Left_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanSpireShoulderR.0": {
+        "id": "DA_ModuleType_TitanSpireShoulderR.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Shoulder.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Right_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanSpireTorso.0": {
+        "id": "DA_ModuleType_TitanSpireTorso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeapon.0": {
+        "id": "DA_ModuleType_TitanWeapon.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeaponAssault.0": {
+        "id": "DA_ModuleType_TitanWeaponAssault.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeaponFlanker.0": {
+        "id": "DA_ModuleType_TitanWeaponFlanker.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeaponTactician.0": {
+        "id": "DA_ModuleType_TitanWeaponTactician.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_TitanWeaponTank.0": {
+        "id": "DA_ModuleType_TitanWeaponTank.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "character_type": "Titan"
+    },
+    "DA_ModuleType_Torso.0": {
+        "id": "DA_ModuleType_Torso.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Torso.0",
+        "name": {
+            "Key": "HNG_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Torso"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_Weapon.0": {
+        "id": "DA_ModuleType_Weapon.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "HNG_LightWeapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Light Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    },
+    "DA_ModuleType_WeaponHeavy.0": {
+        "id": "DA_ModuleType_WeaponHeavy.0",
+        "module_category_ref": "OBJID_ModuleCategory::DA_ModuleCategory_Weapon.0",
+        "name": {
+            "Key": "HNG_HeavyWeapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Heavy Weapon"
+        },
+        "blueprint_name": {
+            "Key": "ItemType_Blueprint",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "Blueprint"
+        },
+        "tag_color": "9CEBBB",
+        "tag_background_color": "33204A30"
+    }
+}
