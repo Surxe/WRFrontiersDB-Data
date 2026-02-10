@@ -7296,7 +7296,7 @@
         "description": {
             "Key": "ABL_descr_WingedDone",
             "TableNamespace": "Ability_descripton",
-            "en": "Spawns a drone with flat {ProjLength} long wings that makes {Dmg} damage to all the enemies on its way."
+            "en": "Spawns a drone with flat {ProjLength}-long wings that deals {Dmg} damage to all enemies in its path."
         },
         "cooldown": {
             "Cooldown": 5.0,

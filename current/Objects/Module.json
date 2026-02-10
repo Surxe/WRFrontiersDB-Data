@@ -35318,6 +35318,242 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
     },
+    "DA_Module_Weapon_Conflux.0": {
+        "id": "DA_Module_Weapon_Conflux.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Conflux",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Conflux.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 0.8,
+                    "Y": 0.8
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                },
+                "ClipSize": 40,
+                "ProjectileSpeed": 60000.0,
+                "TimeToReload": 3.5
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Freecon",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 60000.0,
+                    "RangeMax": 100000.0,
+                    "RangeDeath": 200001.0,
+                    "SpreadX": 0.2,
+                    "SpreadY": 0.2,
+                    "DamageNoArmor": 1500.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 125000.0,
+                    "ProjectilesPerShot": 1,
+                    "TimeBetweenShots": 0.22,
+                    "RoundsPerMinute": 273.0,
+                    "ID": "Conflux",
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 2079.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 4.96,
+                        "ArmorDPS": 5632.0,
+                        "ShieldDPS": 4064.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 2132.0,
+                        "ClipSize": 38,
+                        "TimeToReload": 4.96,
+                        "ArmorDPS": 5776.0,
+                        "ShieldDPS": 4064.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 2132.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 4.96,
+                        "ArmorDPS": 5886.0,
+                        "ShieldDPS": 4141.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 2187.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 4.96,
+                        "ArmorDPS": 6038.0,
+                        "ShieldDPS": 4141.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 2187.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 4.77,
+                        "ArmorDPS": 6122.0,
+                        "ShieldDPS": 4199.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 2220.0,
+                        "ClipSize": 40,
+                        "TimeToReload": 4.77,
+                        "ArmorDPS": 6215.0,
+                        "ShieldDPS": 4199.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 2220.0,
+                        "ClipSize": 42,
+                        "TimeToReload": 4.77,
+                        "ArmorDPS": 6321.0,
+                        "ShieldDPS": 4271.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 2254.0,
+                        "ClipSize": 42,
+                        "TimeToReload": 4.77,
+                        "ArmorDPS": 6418.0,
+                        "ShieldDPS": 4271.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 2254.0,
+                        "ClipSize": 42,
+                        "TimeToReload": 4.61,
+                        "ArmorDPS": 6492.0,
+                        "ShieldDPS": 4321.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 2277.0,
+                        "ClipSize": 42,
+                        "TimeToReload": 4.61,
+                        "ArmorDPS": 6559.0,
+                        "ShieldDPS": 4321.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 2277.0,
+                        "ClipSize": 44,
+                        "TimeToReload": 4.61,
+                        "ArmorDPS": 6659.0,
+                        "ShieldDPS": 4387.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 2300.0,
+                        "ClipSize": 44,
+                        "TimeToReload": 4.61,
+                        "ArmorDPS": 6727.0,
+                        "ShieldDPS": 4387.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Conflux.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Conflux.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 2300.0,
+                        "ClipSize": 44,
+                        "TimeToReload": 4.5,
+                        "ArmorDPS": 7137.0,
+                        "ShieldDPS": 4654.0
+                    }
+                ]
+            },
+            "module_name": "Conflux"
+        },
+        "name": {
+            "Key": "WPN_name_Conflux",
+            "TableNamespace": "Weapon_name",
+            "en": "Conflux"
+        },
+        "description": {
+            "Key": "WPN_desc_Conflux",
+            "TableNamespace": "Weapon_description",
+            "en": "Heavy energy autocannon. Fires twin energy projectiles with high range."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
+    },
     "DA_Module_Weapon_Coriolis.0": {
         "id": "DA_Module_Weapon_Coriolis.0",
         "production_status": "Ready",
@@ -42572,6 +42808,242 @@
         ],
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
+    },
+    "DA_Module_Weapon_Skuld.0": {
+        "id": "DA_Module_Weapon_Skuld.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Skuld",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Skuld.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "Spread": {
+                    "X": 0.8,
+                    "Y": 0.8
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                },
+                "ClipSize": 40,
+                "ProjectileSpeed": 60000.0,
+                "TimeToReload": 3.5
+            },
+            "levels": {
+                "constants": {
+                    "module_class_ref_1": "OBJID_ModuleClass::DA_Module_Class_Assault",
+                    "module_tag_ref_1": "OBJID_ModuleTag::DA_Tag_WeaponDamageElectromagnetic",
+                    "module_tag_ref_2": "OBJID_ModuleTag::DA_Tag_WeaponTypeAutocannon",
+                    "module_faction_ref": "OBJID_Faction::DA_Faction_Freecon",
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 27500.0,
+                    "RangeMax": 60000.0,
+                    "RangeDeath": 60001.0,
+                    "SpreadX": 0.6,
+                    "SpreadY": 0.6,
+                    "DamageNoArmor": 950.0,
+                    "AoeArmor": 0.0,
+                    "AoeNoArmor": 0.0,
+                    "ProjectileSpeed": 150000.0,
+                    "ProjectilesPerShot": 1,
+                    "TimeBetweenShots": 0.09,
+                    "RoundsPerMinute": 667.0,
+                    "ID": "Skuld",
+                    "Armor": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 1152.0,
+                        "ClipSize": 56,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 7726.0,
+                        "ShieldDPS": 6371.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 1182.0,
+                        "ClipSize": 56,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 7927.0,
+                        "ShieldDPS": 6371.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 1182.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 8090.0,
+                        "ShieldDPS": 6502.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 1212.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 3.31,
+                        "ArmorDPS": 8296.0,
+                        "ShieldDPS": 6502.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 1212.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 8420.0,
+                        "ShieldDPS": 6600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 1230.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 8545.0,
+                        "ShieldDPS": 6600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 1230.0,
+                        "ClipSize": 62,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 8703.0,
+                        "ShieldDPS": 6722.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 1249.0,
+                        "ClipSize": 62,
+                        "TimeToReload": 3.18,
+                        "ArmorDPS": 8837.0,
+                        "ShieldDPS": 6722.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 1249.0,
+                        "ClipSize": 62,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 8947.0,
+                        "ShieldDPS": 6805.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 1262.0,
+                        "ClipSize": 62,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 9040.0,
+                        "ShieldDPS": 6805.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 1262.0,
+                        "ClipSize": 65,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 9191.0,
+                        "ShieldDPS": 6919.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 1275.0,
+                        "ClipSize": 65,
+                        "TimeToReload": 3.08,
+                        "ArmorDPS": 9286.0,
+                        "ShieldDPS": 6919.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Skuld.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Skuld.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 1275.0,
+                        "ClipSize": 65,
+                        "TimeToReload": 3.0,
+                        "ArmorDPS": 9364.0,
+                        "ShieldDPS": 6977.0
+                    }
+                ]
+            },
+            "module_name": "Skuld"
+        },
+        "name": {
+            "Key": "WPN_name_Skuld",
+            "TableNamespace": "Weapon_name",
+            "en": "Skuld"
+        },
+        "description": {
+            "Key": "WPN_desc_Skuld",
+            "TableNamespace": "Weapon_description",
+            "en": "Assault plasma autocannon. Deadly at close to medium range but barely scratches armor at longer distances."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Assault.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponNorna.0"
     },
     "DA_Module_Weapon_Slugger.0": {
         "id": "DA_Module_Weapon_Slugger.0",
