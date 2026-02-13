@@ -27,7 +27,7 @@ def get_versions_data(archive_dir: str, latest_n_versions: int = 1):
     
     Args:
         archive_dir: Path to the archive directory
-        which_versions: Which versions to get - 'all' or 'latest'
+        latest_n_versions: Number of latest versions to get. -1 for all.
     
     Returns:
         {
@@ -42,7 +42,10 @@ def get_versions_data(archive_dir: str, latest_n_versions: int = 1):
     version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
     logger.debug(f"Version names: {version_names}")
 
-    filtered_versions = version_names[-latest_n_versions:]
+    if latest_n_versions == -1:
+        filtered_versions = version_names
+    else:
+        filtered_versions = version_names[-latest_n_versions:]
         
     # Get all versions
     for version_name in filtered_versions:
@@ -237,13 +240,14 @@ class ObjsDiffer:
         logger.debug("\n" + "="*50)
         logger.debug("RECURSIVE DEPENDENCY SEARCH DEMO")
         logger.debug("="*50)
-        search_dependent_objects(
+        has_changed = search_dependent_objects(
             self.entity_relationships, 
             before_data,
             after_data,
             "Module", 
-            "DA_Module_Ability_AmmoGenerator.1"
+            "DA_Module_Weapon_Conflux.0"
         )
+        logger.debug(f"Has changed: {has_changed}")
 
     def has_obj_changed(self, 
                         parse_object_class: str, 
