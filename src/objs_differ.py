@@ -103,12 +103,12 @@ def extract_object_references(my_entity_relationships: dict, parse_objects_data:
             # Look for the corresponding reference in parse data
             if parse_data and isinstance(parse_data, str) and parse_data.startswith("OBJID_"):
                 obj_id = ref_to_id(parse_data)
-                print(f"{path}: {entity_data} -> {obj_id}")
+                logger.debug(f"{path}: {entity_data} -> {obj_id}")
     
     # Process each entity class
     for entity_class, relationships in my_entity_relationships.items():
         if entity_class in parse_objects_data:
-            print(f"\nProcessing entity class: {entity_class}")
+            logger.debug(f"\nProcessing entity class: {entity_class}")
             traverse_and_extract(relationships, parse_objects_data[entity_class])
 
 def search_dependent_objects(entity_relationships: dict, version_data_before: dict, version_data_after: dict,
@@ -140,17 +140,17 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
     visited.add(current_key)
     
     indent = "  " * depth
-    print(f"{indent}Checking dependencies for {entity_class}:{obj_id}")
+    logger.debug(f"{indent}Checking dependencies for {entity_class}:{obj_id}")
     
     if entity_class not in version_data_after:
-        print(f"{indent}Class {entity_class} not found in after version")
+        logger.debug(f"{indent}Class {entity_class} not found in after version")
         return False
     
     class_data_after = version_data_after[entity_class]
     class_data_before = version_data_before.get(entity_class, {})
     
     if obj_id not in class_data_after:
-        print(f"{indent}Object {obj_id} not found in {entity_class}")
+        logger.debug(f"{indent}Object {obj_id} not found in {entity_class}")
         return False
     
     obj_data_after = class_data_after[obj_id]
@@ -158,12 +158,12 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
     
     # Check if the object itself has changed
     if obj_data_before != obj_data_after:
-        print(f"{indent}Object {entity_class}:{obj_id} has changed directly")
+        logger.debug(f"{indent}Object {entity_class}:{obj_id} has changed directly")
         return True
     
     # Get entity relationships for this class
     if entity_class not in entity_relationships:
-        print(f"{indent}No relationships found for class {entity_class}")
+        logger.debug(f"{indent}No relationships found for class {entity_class}")
         return False
     
     relationships = entity_relationships[entity_class]
@@ -212,7 +212,7 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
             # Found a dependent object class
             if obj_data_after and isinstance(obj_data_after, str) and obj_data_after.startswith("OBJID_"):
                 dep_obj_id = ref_to_id(obj_data_after)
-                print(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
+                logger.debug(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
                 
                 # Check if this dependent object exists in both versions and has changed
                 return search_dependent_objects(entity_relationships, version_data_before, version_data_after, rel_data, dep_obj_id, visited, depth + 1)
@@ -234,9 +234,9 @@ class ObjsDiffer:
         logger.debug(f"Available versions: {list(self.all_versions_data.keys())}")
         after_data = self.all_versions_data["2026-02-10"]
         before_data = self.all_versions_data["2026-01-27"]
-        print("\n" + "="*50)
-        print("RECURSIVE DEPENDENCY SEARCH DEMO")
-        print("="*50)
+        logger.debug("\n" + "="*50)
+        logger.debug("RECURSIVE DEPENDENCY SEARCH DEMO")
+        logger.debug("="*50)
         search_dependent_objects(
             self.entity_relationships, 
             before_data,
@@ -305,10 +305,10 @@ class ObjsDiffer:
                     )
                     
                     if dependencies_changed:
-                        print(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
+                        logger.debug(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
                         return True
                     
-                    print(f"No dependent objects changed for {parse_object_class}:{obj_id}")
+                    logger.debug(f"No dependent objects changed for {parse_object_class}:{obj_id}")
                     return False
 
 
@@ -318,4 +318,4 @@ class ObjsDiffer:
 if __name__ == "__main__":
     differ = ObjsDiffer("archive")
     
-    print("ObjsDiffer initialized")
+    logger.debug("ObjsDiffer initialized")
