@@ -89,7 +89,7 @@ def is_prod_ready(parse_object_class: str,
         # Pilots and talents only added when ready
         return True
 
-def do_shit(my_entity_relationships: dict, parse_objects_data: dict):
+def extract_object_references(my_entity_relationships: dict, parse_objects_data: dict):
     """
 
     Searches the entity's relationships for string fields. String fields will be a parse object class. 
@@ -142,6 +142,71 @@ def do_shit(my_entity_relationships: dict, parse_objects_data: dict):
             print(f"\nProcessing entity class: {entity_class}")
             traverse_and_extract(relationships, parse_objects_data[entity_class])
 
+def search_dependent_objects(entity_relationships: dict, all_versions_data: dict, 
+                          entity_class: str, obj_id: str, visited: set = None, depth: int = 0):
+    """
+    Recursively search for dependent objects of a given entity.
+    
+    Args:
+        entity_relationships: Entity relationships dictionary
+        all_versions_data: All version data from archive
+        entity_class: The class of object to search dependencies for
+        obj_id: The ID of object to search dependencies for
+        visited: Set of visited objects to prevent infinite recursion
+        depth: Current recursion depth for indentation
+    """
+    if visited is None:
+        visited = set()
+    
+    # Prevent infinite recursion
+    current_key = f"{entity_class}:{obj_id}"
+    if current_key in visited:
+        return
+    visited.add(current_key)
+    
+    indent = "  " * depth
+    print(f"{indent}Searching dependencies for {entity_class}:{obj_id}")
+    
+    # Get object data from the latest version
+    latest_version = list(all_versions_data.keys())[-1]
+    if entity_class not in all_versions_data[latest_version]:
+        print(f"{indent}Class {entity_class} not found in latest version")
+        return
+    
+    class_data = all_versions_data[latest_version][entity_class]
+    if obj_id not in class_data:
+        print(f"{indent}Object {obj_id} not found in {entity_class}")
+        return
+    
+    obj_data = class_data[obj_id]
+    
+    # Get the entity relationships for this class
+    if entity_class not in entity_relationships:
+        print(f"{indent}No relationships found for class {entity_class}")
+        return
+    
+    relationships = entity_relationships[entity_class]
+    
+    # Extract dependent objects using the same logic as do_shit
+    def extract_dependencies(rel_data: dict|list|str, obj_data: dict|list|str, path: str = ""):
+        if isinstance(rel_data, dict):
+            for key, value in rel_data.items():
+                current_path = f"{path}.{key}" if path else key
+                extract_dependencies(value, obj_data.get(key, {}), current_path)
+        elif isinstance(rel_data, list):
+            for i, item in enumerate(rel_data):
+                current_path = f"{path}[{i}]" if path else f"[{i}]"
+                extract_dependencies(item, obj_data[i] if i < len(obj_data) else {}, current_path)
+        elif isinstance(rel_data, str):
+            # Found a dependent object class
+            if obj_data and isinstance(obj_data, str) and obj_data.startswith("OBJID_"):
+                dep_obj_id = ref_to_id(obj_data)
+                print(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
+                
+                # Recursively search this dependent object
+                search_dependent_objects(entity_relationships, all_versions_data, rel_data, dep_obj_id, visited, depth + 1)
+    
+    extract_dependencies(relationships, obj_data)
 
 
 class ObjsDiffer:
@@ -150,7 +215,18 @@ class ObjsDiffer:
         self.entity_dependencies = read_entity_dependencies()
         self.all_versions_data = get_versions_data(archive_dir, "latest")
 
-        do_shit(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
+        extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
+        
+        # Demonstrate recursive dependency search
+        print("\n" + "="*50)
+        print("RECURSIVE DEPENDENCY SEARCH DEMO")
+        print("="*50)
+        search_dependent_objects(
+            self.entity_relationships, 
+            self.all_versions_data, 
+            "Module", 
+            "DA_Module_Ability_AmmoGenerator.1"
+        )
 
     def has_obj_changed(self, 
                         parse_object_class: str, 
