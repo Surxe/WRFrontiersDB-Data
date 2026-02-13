@@ -142,14 +142,15 @@ def extract_object_references(my_entity_relationships: dict, parse_objects_data:
             print(f"\nProcessing entity class: {entity_class}")
             traverse_and_extract(relationships, parse_objects_data[entity_class])
 
-def search_dependent_objects(entity_relationships: dict, all_versions_data: dict, 
-                          entity_class: str, obj_id: str, visited: set = None, depth: int = 0):
+def search_dependent_objects(entity_relationships: dict, version_data: dict, 
+                          entity_class: str, obj_id: str, 
+                          visited: set = None, depth: int = 0):
     """
     Recursively search for dependent objects of a given entity.
     
     Args:
         entity_relationships: Entity relationships dictionary
-        all_versions_data: All version data from archive
+        version_data: Version data from archive
         entity_class: The class of object to search dependencies for
         obj_id: The ID of object to search dependencies for
         visited: Set of visited objects to prevent infinite recursion
@@ -167,13 +168,11 @@ def search_dependent_objects(entity_relationships: dict, all_versions_data: dict
     indent = "  " * depth
     print(f"{indent}Searching dependencies for {entity_class}:{obj_id}")
     
-    # Get object data from the latest version
-    latest_version = list(all_versions_data.keys())[-1]
-    if entity_class not in all_versions_data[latest_version]:
-        print(f"{indent}Class {entity_class} not found in latest version")
+    if entity_class not in version_data:
+        print(f"{indent}Class {entity_class} not found in version")
         return
     
-    class_data = all_versions_data[latest_version][entity_class]
+    class_data = version_data[entity_class]
     if obj_id not in class_data:
         print(f"{indent}Object {obj_id} not found in {entity_class}")
         return
@@ -204,7 +203,7 @@ def search_dependent_objects(entity_relationships: dict, all_versions_data: dict
                 print(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
                 
                 # Recursively search this dependent object
-                search_dependent_objects(entity_relationships, all_versions_data, rel_data, dep_obj_id, visited, depth + 1)
+                search_dependent_objects(entity_relationships, version_data, rel_data, dep_obj_id, visited, depth + 1)
     
     extract_dependencies(relationships, obj_data)
 
@@ -215,7 +214,7 @@ class ObjsDiffer:
         self.entity_dependencies = read_entity_dependencies()
         self.all_versions_data = get_versions_data(archive_dir, "latest")
 
-        extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
+        #extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
         
         # Demonstrate recursive dependency search
         print("\n" + "="*50)
@@ -223,7 +222,7 @@ class ObjsDiffer:
         print("="*50)
         search_dependent_objects(
             self.entity_relationships, 
-            self.all_versions_data, 
+            self.all_versions_data["2026-02-10"], 
             "Module", 
             "DA_Module_Ability_AmmoGenerator.1"
         )
