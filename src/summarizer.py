@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 def setup_logger():
     logger.remove()
-    logger.add(lambda msg: print(msg, end=''), level="DEBUG")
+    logger.add(lambda msg: print(msg, end=''), level="TRACE")
     logger.debug("Logger initialized.")
 
 
@@ -47,6 +47,17 @@ def get_version_archive_dir(archive_dir: str,version: str) -> str:
     """Get the directory path for a specific version in the archive."""
     return os.path.join(archive_dir, version)
 
+def read_entity_relationships(entity_relationships_dir: str):
+    rels = {} #keyed by class name, extracted by class name.json
+    for file in os.listdir(entity_relationships_dir):
+        if file.endswith('.json'):
+            with open(os.path.join(entity_relationships_dir, file), 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                class_name = file[:-len('.json')]
+                rels[class_name] = data
+                logger.debug(f"Loaded entity relationship for {class_name} with {len(data)} entries.")
+    return rels
+
 class PatchSummarizer:
     """Generates patch summaries by comparing game data between versions."""
     
@@ -62,20 +73,8 @@ class PatchSummarizer:
         self.archive_dir = os.path.join(repo_root, 'archive')
         self.summaries_dir = os.path.join(repo_root, 'summaries')
         self.version_config_file = os.path.join(repo_root, 'versions.json')
-        self.entity_relationships = self._read_entity_relationships()
+        self.entity_relationships = self.read_entity_relationships(os.path.join(repo_root, 'entity_relationships'))
         self.changed_objects = {}
-
-    def _read_entity_relationships(self):
-        entity_relationships_dir = os.path.join(self.repo_root, 'entity_relationships')
-        rels = {} #keyed by class name, extracted by class name.json
-        for file in os.listdir(entity_relationships_dir):
-            if file.endswith('.json'):
-                with open(os.path.join(entity_relationships_dir, file), 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    class_name = file[:-len('.json')]
-                    rels[class_name] = data
-                    logger.debug(f"Loaded entity relationship for {class_name} with {len(data)} entries.")
-        return rels
 
     def _get_archive_content(self, version: str, file_path: str) -> dict:
         return get_archive_content(self.archive_dir, version, file_path)
@@ -107,28 +106,6 @@ class PatchSummarizer:
         new_version = versions[-1]
         logger.info(f"Latest two versions detected: {previous_version} -> {new_version}")
         return previous_version, new_version
-    
-    @staticmethod
-    def is_prod_ready(parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'], 
-                      obj_id: str,
-                      objs: dict) -> bool:
-        """Check if an object is production ready.
-        
-        Args:
-            parse_object_class: Type of game object
-            obj_dict: The object data dictionary
-            
-        Returns:
-            True if production ready, False otherwise
-        """
-        obj = objs.get(obj_id)
-        if obj is None: # If the object doesnt even exist, its not prod ready
-            return False
-        if parse_object_class == 'Module':
-            return obj.get("production_status", "NotReady") == "Ready"
-        else:
-            # Pilots and talents only added when ready
-            return True
 
     def has_content_changed(self, parse_object_class, before: dict, after: dict) -> bool:
         """
