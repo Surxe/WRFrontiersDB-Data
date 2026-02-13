@@ -18,46 +18,40 @@ class TestSearchDependentObjects:
         return read_entity_relationships("entity_relationships")
     
     @pytest.fixture
-    def version_data_before(self):
-        """Get the 2026-01-27 version data."""
-        all_versions = get_versions_data("archive", 2)
-        return all_versions["2026-01-27"]
+    def all_versions_data(self):
+        """Load all available version data from archive."""
+        return get_versions_data("archive", 3)
     
     @pytest.fixture
-    def version_data_after(self):
-        """Get the 2026-02-10 version data."""
-        all_versions = get_versions_data("archive", 2)
-        return all_versions["2026-02-10"]
+    def version_data_before_conflux(self, all_versions_data):
+        """Get the 2026-01-27 version data."""
+        return all_versions_data["2026-01-27"]
     
-    def test_search_dependent_objects_basic_setup(self, entity_relationships, 
-                                                   version_data_before, 
-                                                   version_data_after):
-        """Basic test to verify setup works - does not test actual functionality yet."""
-        # This test just ensures the function can be called without errors
-        # Actual functionality tests will be added later
-        
-        # Use the same module as in the demo
-        result = search_dependent_objects(
-            entity_relationships=entity_relationships,
-            version_data_before=version_data_before,
-            version_data_after=version_data_after,
-            entity_class="Module",
-            obj_id="DA_Module_Weapon_Conflux.0"
-        )
-        
-        # For now, just verify it returns a boolean
-        assert isinstance(result, bool)
+    @pytest.fixture
+    def version_data_after_conflux(self, all_versions_data):
+        """Get the 2026-02-10 version data."""
+        return all_versions_data["2026-02-10"]
+    
+    @pytest.fixture
+    def version_data_before_hitcher(self, all_versions_data):
+        """Get the 2026-01-20 version data."""
+        return all_versions_data["2026-01-20"]
+    
+    @pytest.fixture
+    def version_data_after_hitcher(self, all_versions_data):
+        """Get the 2026-01-27 version data."""
+        return all_versions_data["2026-01-27"]
     
     def test_da_module_weapon_conflux_changed(self, entity_relationships, 
-                                          version_data_before, 
-                                          version_data_after):
+                                          version_data_before_conflux, 
+                                          version_data_after_conflux):
         """Specific test for DA_Module_Weapon_Conflux.0 from 2026-01-27 to 2026-02-10."""
         # This specific test verifies that DA_Module_Weapon_Conflux.0 
         # changed between 2026-01-27 and 2026-02-10
         result = search_dependent_objects(
             entity_relationships=entity_relationships,
-            version_data_before=version_data_before,
-            version_data_after=version_data_after,
+            version_data_before=version_data_before_conflux,
+            version_data_after=version_data_after_conflux,
             entity_class="Module",
             obj_id="DA_Module_Weapon_Conflux.0"
         )
@@ -65,32 +59,22 @@ class TestSearchDependentObjects:
         # This should return True based on the demo output
         assert result is True
     
-    def test_search_dependent_objects_with_real_data(self, entity_relationships, 
-                                                     version_data_before, 
-                                                     version_data_after):
-        """Test with actual data from archive."""
-        # Test with a module that exists in real data
-        # Find a module that exists in both versions
-        modules_before = version_data_before.get("Module", {})
-        modules_after = version_data_after.get("Module", {})
+    def test_bp_module_hitcher_chassis_changed(self, entity_relationships, 
+                                           version_data_before_hitcher, 
+                                           version_data_after_hitcher):
+        """Specific test for BP_Module_Hitcher_Chassis.0 from 2026-01-20 to 2026-01-27."""
+        # This specific test verifies that BP_Module_Hitcher_Chassis.0 
+        # changed between 2026-01-20 and 2026-01-27
+        result = search_dependent_objects(
+            entity_relationships=entity_relationships,
+            version_data_before=version_data_before_hitcher,
+            version_data_after=version_data_after_hitcher,
+            entity_class="Module",
+            obj_id="BP_Module_Hitcher_Chassis.0"
+        )
         
-        # Find a common module ID
-        common_modules = set(modules_before.keys()) & set(modules_after.keys())
-        if common_modules:
-            test_module_id = list(common_modules)[0]
-            
-            result = search_dependent_objects(
-                entity_relationships=entity_relationships,
-                version_data_before=version_data_before,
-                version_data_after=version_data_after,
-                entity_class="Module",
-                obj_id=test_module_id
-            )
-            
-            # Verify it returns a boolean
-            assert isinstance(result, bool)
-        else:
-            pytest.skip("No common modules found between versions")
+        # This should return True
+        assert result is True
     
     # TODO: Add more test cases as functionality is implemented
     # - Test object added/removed scenarios
