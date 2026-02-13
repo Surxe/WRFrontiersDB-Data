@@ -169,7 +169,7 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
     relationships = entity_relationships[entity_class]
     
     # Extract dependent objects and check if any have changed
-    def extract_and_check_dependencies(rel_data: dict|list|str, obj_data: dict|list|str, path: str = "") -> bool:
+    def extract_and_check_dependencies(rel_data: dict|list|str, obj_data_before: dict|list|str, obj_data_after: dict|list|str, path: str = "") -> bool:
         """
         Searches the entity's relationships for string fields. String fields will be a parse object class. 
         That same location in the parse_objects_data will have a object reference which can be converted to an object id.
@@ -184,16 +184,8 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
                     ]
                 }
             }
-            obj_data: {
-                "Module": {
-                    "character_module_mounts": [
-                        {
-                            "character_ref": "OBJID_CharacterModule::char_123",
-                            "mount": "Side"
-                        }
-                    ]
-                }
-            }
+            obj_data_before: Object data from before version
+            obj_data_after: Object data from after version
 
             Returns:
                 bool: True if any dependent object has changed, False otherwise
@@ -201,17 +193,25 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
         if isinstance(rel_data, dict):
             for key, value in rel_data.items():
                 current_path = f"{path}.{key}" if path else key
-                if extract_and_check_dependencies(value, obj_data.get(key, {}), current_path):
+                # Check if key exists in both versions
+                key_before = obj_data_before.get(key, {}) if isinstance(obj_data_before, dict) else obj_data_before
+                key_after = obj_data_after.get(key, {}) if isinstance(obj_data_after, dict) else obj_data_after
+                
+                if extract_and_check_dependencies(value, key_before, key_after, current_path):
                     return True
         elif isinstance(rel_data, list):
             for i, item in enumerate(rel_data):
                 current_path = f"{path}[{i}]" if path else f"[{i}]"
-                if extract_and_check_dependencies(item, obj_data[i] if i < len(obj_data) else {}, current_path):
+                # Check if index exists in both versions
+                item_before = obj_data_before[i] if isinstance(obj_data_before, list) and i < len(obj_data_before) else {}
+                item_after = obj_data_after[i] if isinstance(obj_data_after, list) and i < len(obj_data_after) else {}
+                
+                if extract_and_check_dependencies(item, item_before, item_after, current_path):
                     return True
         elif isinstance(rel_data, str):
             # Found a dependent object class
-            if obj_data and isinstance(obj_data, str) and obj_data.startswith("OBJID_"):
-                dep_obj_id = ref_to_id(obj_data)
+            if obj_data_after and isinstance(obj_data_after, str) and obj_data_after.startswith("OBJID_"):
+                dep_obj_id = ref_to_id(obj_data_after)
                 print(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
                 
                 # Check if this dependent object exists in both versions and has changed
@@ -219,7 +219,7 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
         
         return False
     
-    return extract_and_check_dependencies(relationships, obj_data_after)
+    return extract_and_check_dependencies(relationships, obj_data_before, obj_data_after)
 
 
 class ObjsDiffer:
