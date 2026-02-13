@@ -21,7 +21,7 @@ def ref_to_id(ref: str):
     """OBJID_CharacterModule::char_123 -> char_123"""
     return ref.split("::")[-1]
 
-def get_versions_data(archive_dir: str, which_versions: Literal['all', 'latest']='latest'):
+def get_versions_data(archive_dir: str, latest_n_versions: int = 1):
     """
     Get data from all versions in the archive directory.
     
@@ -42,17 +42,10 @@ def get_versions_data(archive_dir: str, which_versions: Literal['all', 'latest']
     version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
     logger.debug(f"Version names: {version_names}")
 
-    if which_versions == 'latest':
-        # Get the latest version
-        version_names.sort()
-        version_names = [version_names[-1]]
-    elif which_versions == 'all':
-        pass
-    else:
-        raise ValueError(f"Invalid versions value: {which_versions}")
+    filtered_versions = version_names[-latest_n_versions:]
         
     # Get all versions
-    for version_name in version_names:
+    for version_name in filtered_versions:
         version_dir = os.path.join(archive_dir, version_name)
         objects_dir = os.path.join(version_dir, "Objects")
         all_versions_data[version_name] = {}
@@ -92,30 +85,6 @@ def is_prod_ready(parse_object_class: str,
 def extract_object_references(my_entity_relationships: dict, parse_objects_data: dict):
     """
 
-    Searches the entity's relationships for string fields. String fields will be a parse object class. 
-    That same location in the parse_objects_data will have a object reference which can be converted to an object id.
-    The object id's will be printed.
-    Args:
-        my_entity_relationships: {
-            "Module": {
-                "character_module_mounts": [
-                    {
-                        "character_ref": "CharacterModule",
-                    }
-                ]
-            }
-        }
-        parse_objects_data: {
-            "Module": {
-                "character_module_mounts": [
-                    {
-                        "character_ref": "OBJID_CharacterModule::char_123",
-                        "mount": "Side"
-                    }
-                ]
-            }
-        }
-
     Prints "char_123" for each character_ref
     """
     
@@ -142,19 +111,24 @@ def extract_object_references(my_entity_relationships: dict, parse_objects_data:
             print(f"\nProcessing entity class: {entity_class}")
             traverse_and_extract(relationships, parse_objects_data[entity_class])
 
-def search_dependent_objects(entity_relationships: dict, version_data: dict, 
+def search_dependent_objects(entity_relationships: dict, version_data_before: dict, version_data_after: dict,
                           entity_class: str, obj_id: str, 
-                          visited: set = None, depth: int = 0):
+                          visited: set = None, depth: int = 0) -> bool:
     """
-    Recursively search for dependent objects of a given entity.
+    Recursively search for dependent objects of a given entity and detect if any have changed.
     
     Args:
         entity_relationships: Entity relationships dictionary
+        version_data_before: Version data from archive before
+        version_data_after: Version data from archive after
         version_data: Version data from archive
         entity_class: The class of object to search dependencies for
         obj_id: The ID of object to search dependencies for
         visited: Set of visited objects to prevent infinite recursion
         depth: Current recursion depth for indentation
+        
+    Returns:
+        bool: True if any dependent object has changed, False otherwise
     """
     if visited is None:
         visited = set()
@@ -162,67 +136,111 @@ def search_dependent_objects(entity_relationships: dict, version_data: dict,
     # Prevent infinite recursion
     current_key = f"{entity_class}:{obj_id}"
     if current_key in visited:
-        return
+        return False
     visited.add(current_key)
     
     indent = "  " * depth
-    print(f"{indent}Searching dependencies for {entity_class}:{obj_id}")
+    print(f"{indent}Checking dependencies for {entity_class}:{obj_id}")
     
-    if entity_class not in version_data:
-        print(f"{indent}Class {entity_class} not found in version")
-        return
+    if entity_class not in version_data_after:
+        print(f"{indent}Class {entity_class} not found in after version")
+        return False
     
-    class_data = version_data[entity_class]
-    if obj_id not in class_data:
+    class_data_after = version_data_after[entity_class]
+    class_data_before = version_data_before.get(entity_class, {})
+    
+    if obj_id not in class_data_after:
         print(f"{indent}Object {obj_id} not found in {entity_class}")
-        return
+        return False
     
-    obj_data = class_data[obj_id]
+    obj_data_after = class_data_after[obj_id]
+    obj_data_before = class_data_before.get(obj_id)
     
-    # Get the entity relationships for this class
+    # Check if the object itself has changed
+    if obj_data_before != obj_data_after:
+        print(f"{indent}Object {entity_class}:{obj_id} has changed directly")
+        return True
+    
+    # Get entity relationships for this class
     if entity_class not in entity_relationships:
         print(f"{indent}No relationships found for class {entity_class}")
-        return
+        return False
     
     relationships = entity_relationships[entity_class]
     
-    # Extract dependent objects using the same logic as do_shit
-    def extract_dependencies(rel_data: dict|list|str, obj_data: dict|list|str, path: str = ""):
+    # Extract dependent objects and check if any have changed
+    def extract_and_check_dependencies(rel_data: dict|list|str, obj_data: dict|list|str, path: str = "") -> bool:
+        """
+        Searches the entity's relationships for string fields. String fields will be a parse object class. 
+        That same location in the parse_objects_data will have a object reference which can be converted to an object id.
+        The object id's will be printed.
+        Args:
+            rel_data: {
+                "Module": {
+                    "character_module_mounts": [
+                        {
+                            "character_ref": "CharacterModule",
+                        }
+                    ]
+                }
+            }
+            obj_data: {
+                "Module": {
+                    "character_module_mounts": [
+                        {
+                            "character_ref": "OBJID_CharacterModule::char_123",
+                            "mount": "Side"
+                        }
+                    ]
+                }
+            }
+
+            Returns:
+                bool: True if any dependent object has changed, False otherwise
+        """
         if isinstance(rel_data, dict):
             for key, value in rel_data.items():
                 current_path = f"{path}.{key}" if path else key
-                extract_dependencies(value, obj_data.get(key, {}), current_path)
+                if extract_and_check_dependencies(value, obj_data.get(key, {}), current_path):
+                    return True
         elif isinstance(rel_data, list):
             for i, item in enumerate(rel_data):
                 current_path = f"{path}[{i}]" if path else f"[{i}]"
-                extract_dependencies(item, obj_data[i] if i < len(obj_data) else {}, current_path)
+                if extract_and_check_dependencies(item, obj_data[i] if i < len(obj_data) else {}, current_path):
+                    return True
         elif isinstance(rel_data, str):
             # Found a dependent object class
             if obj_data and isinstance(obj_data, str) and obj_data.startswith("OBJID_"):
                 dep_obj_id = ref_to_id(obj_data)
                 print(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
                 
-                # Recursively search this dependent object
-                search_dependent_objects(entity_relationships, version_data, rel_data, dep_obj_id, visited, depth + 1)
+                # Check if this dependent object exists in both versions and has changed
+                return search_dependent_objects(entity_relationships, version_data_before, version_data_after, rel_data, dep_obj_id, visited, depth + 1)
+        
+        return False
     
-    extract_dependencies(relationships, obj_data)
+    return extract_and_check_dependencies(relationships, obj_data_after)
 
 
 class ObjsDiffer:
     def __init__(self, archive_dir: str):
         self.entity_relationships = read_entity_relationships("entity_relationships")
         self.entity_dependencies = read_entity_dependencies()
-        self.all_versions_data = get_versions_data(archive_dir, "latest")
+        self.all_versions_data = get_versions_data(archive_dir, 2)
 
         #extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
         
         # Demonstrate recursive dependency search
+        logger.debug(f"Available versions: {list(self.all_versions_data.keys())}")
+        after_data = self.all_versions_data["2026-02-10"]
+        before_data = self.all_versions_data["2026-01-27"]
         print("\n" + "="*50)
         print("RECURSIVE DEPENDENCY SEARCH DEMO")
         print("="*50)
         search_dependent_objects(
             self.entity_relationships, 
-            self.all_versions_data["2026-02-10"], 
+            before_data,
+            after_data,
             "Module", 
             "DA_Module_Ability_AmmoGenerator.1"
         )
@@ -276,7 +294,22 @@ class ObjsDiffer:
                     # Iterate class relationship key value pairs recursively till arriving at a string
                     # That string will be another object class to check
                     
-                    pass
+                    # Check if any dependent object has changed
+                    # For now, we'll use a simplified approach - check if any dependency exists in both versions and is different
+                    dependencies_changed = search_dependent_objects(
+                        self.entity_relationships, 
+                        version_datas_before,
+                        version_datas_after,
+                        parse_object_class, 
+                        obj_id
+                    )
+                    
+                    if dependencies_changed:
+                        print(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
+                        return True
+                    
+                    print(f"No dependent objects changed for {parse_object_class}:{obj_id}")
+                    return False
 
 
         else:
