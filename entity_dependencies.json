@@ -1,115 +1,115 @@
 {
-    "Ability": [
-        "CharacterModule"
-    ],
-    "BotAIPreset": [
-        "DropTeam",
-        "League"
-    ],
-    "CharacterModule": [
-        "Ability",
-        "MovementType"
-    ],
-    "CharacterPreset": [
-        "Module",
-        "Pilot"
-    ],
-    "ContentUnlock": [
-        "GroupReward"
-    ],
-    "CustomizationRarity": [
-        "Rarity"
-    ],
-    "CustomizationType": [
-        "GroupReward"
-    ],
-    "Decal": [
-        "CustomizationRarity",
-        "CustomizationType"
-    ],
-    "DropTeam": [
-        "CharacterPreset"
-    ],
-    "GameMode": [
-        "BotNames",
-        "HonorReward"
-    ],
-    "Material": [
-        "CustomizationRarity",
-        "CustomizationType"
-    ],
-    "Module": [
-        "CharacterModule",
-        "Faction",
-        "ModuleClass",
-        "ModuleRarity",
-        "ModuleSocketType",
-        "ModuleStat",
-        "ModuleStatsTable",
-        "ModuleTag",
-        "ModuleType",
-        "ScrapReward",
-        "UpgradeCost"
-    ],
-    "ModuleCategory": [
-        "ModuleStat"
-    ],
-    "ModuleClass": [
-        "CharacterClass"
-    ],
-    "ModuleRarity": [
-        "Rarity"
-    ],
-    "ModuleSocketType": [
-        "ModuleType"
-    ],
-    "ModuleStatsTable": [
-        "ModuleStat"
-    ],
-    "ModuleType": [
-        "ModuleCategory"
-    ],
-    "Pilot": [
-        "Currency",
-        "Faction",
-        "PilotClass",
-        "PilotPersonality",
-        "PilotTalent",
-        "PilotTalentType",
-        "PilotType"
-    ],
-    "PilotTalent": [
-        "ModuleStat",
-        "ModuleTag"
-    ],
-    "PilotType": [
-        "GroupReward",
-        "Rarity"
-    ],
-    "Powerup": [
-        "Ability"
-    ],
-    "ProgressionTable": [
-        "ContentUnlock",
-        "Currency",
-        "Decal",
-        "Material",
-        "Module",
-        "Pilot",
-        "Skin",
-        "Weathering"
-    ],
-    "ScrapReward": [
-        "Currency"
-    ],
-    "Skin": [
-        "CustomizationRarity"
-    ],
-    "UpgradeCost": [
-        "Currency"
-    ],
-    "Weathering": [
-        "CustomizationRarity",
-        "CustomizationType"
-    ]
+    "Ability": {
+        "CharacterModule": true
+    },
+    "BotAIPreset": {
+        "DropTeam": true,
+        "League": true
+    },
+    "CharacterModule": {
+        "Ability": true,
+        "MovementType": true
+    },
+    "CharacterPreset": {
+        "Module": true,
+        "Pilot": true
+    },
+    "ContentUnlock": {
+        "GroupReward": true
+    },
+    "CustomizationRarity": {
+        "Rarity": true
+    },
+    "CustomizationType": {
+        "GroupReward": true
+    },
+    "Decal": {
+        "CustomizationRarity": true,
+        "CustomizationType": true
+    },
+    "DropTeam": {
+        "CharacterPreset": true
+    },
+    "GameMode": {
+        "BotNames": true,
+        "HonorReward": true
+    },
+    "Material": {
+        "CustomizationRarity": true,
+        "CustomizationType": true
+    },
+    "Module": {
+        "CharacterModule": true,
+        "Faction": true,
+        "ModuleClass": true,
+        "ModuleRarity": true,
+        "ModuleSocketType": true,
+        "ModuleStat": true,
+        "ModuleStatsTable": true,
+        "ModuleTag": true,
+        "ModuleType": true,
+        "ScrapReward": true,
+        "UpgradeCost": true
+    },
+    "ModuleCategory": {
+        "ModuleStat": true
+    },
+    "ModuleClass": {
+        "CharacterClass": true
+    },
+    "ModuleRarity": {
+        "Rarity": true
+    },
+    "ModuleSocketType": {
+        "ModuleType": true
+    },
+    "ModuleStatsTable": {
+        "ModuleStat": true
+    },
+    "ModuleType": {
+        "ModuleCategory": true
+    },
+    "Pilot": {
+        "Currency": true,
+        "Faction": true,
+        "PilotClass": true,
+        "PilotPersonality": true,
+        "PilotTalent": true,
+        "PilotTalentType": true,
+        "PilotType": true
+    },
+    "PilotTalent": {
+        "ModuleStat": true,
+        "ModuleTag": true
+    },
+    "PilotType": {
+        "GroupReward": true,
+        "Rarity": true
+    },
+    "Powerup": {
+        "Ability": true
+    },
+    "ProgressionTable": {
+        "ContentUnlock": true,
+        "Currency": true,
+        "Decal": true,
+        "Material": true,
+        "Module": true,
+        "Pilot": true,
+        "Skin": true,
+        "Weathering": true
+    },
+    "ScrapReward": {
+        "Currency": true
+    },
+    "Skin": {
+        "CustomizationRarity": true
+    },
+    "UpgradeCost": {
+        "Currency": true
+    },
+    "Weathering": {
+        "CustomizationRarity": true,
+        "CustomizationType": true
+    }
 }

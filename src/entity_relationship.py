@@ -204,9 +204,9 @@ def get_unique_string_values(nested_dict: dict):
         ]
     }
 
-    Returns: [
-        "ModuleStat"
-    ]
+    Returns: {
+        "ModuleStat": True
+    }
 
     """
 
@@ -225,7 +225,7 @@ def get_unique_string_values(nested_dict: dict):
         # Ignore other types
     
     extract_strings(nested_dict)
-    return sorted(list(unique_strings))
+    return {string: True for string in sorted(list(unique_strings))}
 
 def get_dependencies(ref_structs: dict[str, dict]):
     dependencies = {}
