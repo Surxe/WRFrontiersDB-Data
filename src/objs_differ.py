@@ -7,8 +7,7 @@ import os
 from loguru import logger
 from typing import Literal
 
-from summarizer import read_entity_relationships
-from summarizer import setup_logger
+from utils import read_entity_relationships, setup_logger
 
 setup_logger()
 
