@@ -12,6 +12,10 @@ from summarizer import setup_logger
 
 setup_logger()
 
+SHOULD_IGNORE_DEPENDENCY_CHANGES_BY_CLASS = {
+    "ProgressionTable": True, #e.g. "Hitcher dmg was changed from x to y shouldnt make ProgressionTable count as changed"
+}
+
 def load_json(object_file: str):
     # Json load
     with open(object_file, "r", encoding="utf-8") as f:
@@ -62,9 +66,7 @@ def read_entity_dependencies():
     path = "entity_dependencies.json"
     return load_json(path)
 
-def is_prod_ready(parse_object_class: str, 
-                    obj_id: str,
-                    objs: dict) -> bool:
+def is_prod_ready(parse_object_class: str, obj: dict|None) -> bool:
     """Check if an object is production ready.
     
     Args:
@@ -74,7 +76,6 @@ def is_prod_ready(parse_object_class: str,
     Returns:
         True if production ready, False otherwise
     """
-    obj = objs.get(obj_id)
     if obj is None: # If the object doesnt even exist, its not prod ready
         return False
     if parse_object_class == 'Module':
@@ -224,45 +225,49 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
 
 
 class ObjsDiffer:
-    def __init__(self, archive_dir: str):
+    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]):
         self.entity_relationships = read_entity_relationships("entity_relationships")
         self.entity_dependencies = read_entity_dependencies()
-        self.all_versions_data = get_versions_data(archive_dir, ["2026-02-10", "2026-01-27"])
+        self.all_versions_data = get_versions_data(archive_dir, version_names)
 
-        #extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
-        
-        # Demonstrate recursive dependency search
-        logger.debug(f"Available versions: {list(self.all_versions_data.keys())}")
-        after_data = self.all_versions_data["2026-02-10"]
-        before_data = self.all_versions_data["2026-01-27"]
-        logger.debug("\n" + "="*50)
-        logger.debug("RECURSIVE DEPENDENCY SEARCH DEMO")
-        logger.debug("="*50)
-        has_changed = search_dependent_objects(
-            self.entity_relationships, 
-            before_data,
-            after_data,
-            "Module", 
-            "DA_Module_Weapon_Conflux.0"
-        )
-        logger.debug(f"Has changed: {has_changed}")
+    def diff_version(self, version_name_before, version_name_after):
+        version_data_before = self.all_versions_data[version_name_before]
+        version_data_after = self.all_versions_data[version_name_after]
+
+        for entity_class in version_data_before:
+            for obj_id in version_data_before[entity_class]:
+                has_changed = self.has_obj_changed(
+                    entity_class,
+                    version_data_before,
+                    version_data_after,
+                    obj_id,
+                    is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+                    is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
+                )
+                if has_changed:
+                    logger.debug(f"{entity_class}:{obj_id} has changed")
 
     def has_obj_changed(self, 
                         parse_object_class: str, 
                         version_datas_before: dict, 
                         version_datas_after: dict, 
-                        obj_before: dict, 
+                        obj_id: str,
                         before_is_prod_ready: bool, 
-                        obj_after: dict, 
                         after_is_prod_ready: bool
     ):
         """
         Check if this object has changed between versions, accounting for its dependent objects.
+
+        Production ready status is only checked on root object and not dependent objects, 
+            because Module is the only class that distinguishes prod readiness, and is also only ever a root object.
         
         Returns:
             bool: True if the object is production ready andhas changed, False otherwise
         """
         # Could merge some of these conditions, but this is more explicit imo
+
+        obj_before = version_datas_before.get(parse_object_class, {}).get(obj_id)
+        obj_after = version_datas_after.get(parse_object_class, {}).get(obj_id)
 
         if not obj_before and not obj_after:
             raise ValueError("Both obj_before and obj_after are None")
@@ -289,15 +294,10 @@ class ObjsDiffer:
                 if obj_before != obj_after: #if the direct content has changed, we already know its changed
                     return True
                 else:
-                    # Check if any dependent objects have changed
-                    class_dependencies = self.entity_dependencies[parse_object_class]
-                    class_relationships = self.entity_relationships[parse_object_class]
-
-                    # Iterate class relationship key value pairs recursively till arriving at a string
-                    # That string will be another object class to check
+                    if SHOULD_IGNORE_DEPENDENCY_CHANGES_BY_CLASS.get(parse_object_class, False):
+                        return False #only check if dependency is changed if we should.
                     
-                    # Check if any dependent object has changed
-                    # For now, we'll use a simplified approach - check if any dependency exists in both versions and is different
+                    # Check if any dependent objects have changed
                     dependencies_changed = search_dependent_objects(
                         self.entity_relationships, 
                         version_datas_before,
@@ -307,7 +307,7 @@ class ObjsDiffer:
                     )
                     
                     if dependencies_changed:
-                        logger.debug(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
+                        logger.info(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
                         return True
                     
                     logger.debug(f"No dependent objects changed for {parse_object_class}:{obj_id}")
@@ -318,6 +318,9 @@ class ObjsDiffer:
             raise ValueError("Unexpected state")
 
 if __name__ == "__main__":
-    differ = ObjsDiffer("archive")
+    version_name_before = "2026-01-27"
+    version_name_after = "2026-02-10"
+    differ = ObjsDiffer("archive", [version_name_before, version_name_after])
+    differ.diff_version(version_name_before, version_name_after)
     
     logger.debug("ObjsDiffer initialized")

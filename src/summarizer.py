@@ -11,8 +11,9 @@ import os
 from dotenv import load_dotenv
 
 def setup_logger():
+    format_with_color = "<level>{level}</level> | <cyan>{module}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>"
     logger.remove()
-    logger.add(lambda msg: print(msg, end=''), level="TRACE")
+    logger.add(lambda msg: print(msg, end=''), level="INFO", format=format_with_color)
     logger.debug("Logger initialized.")
 
 
