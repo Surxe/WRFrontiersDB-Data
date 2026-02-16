@@ -222,46 +222,14 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
     
     return extract_and_check_dependencies(relationships, obj_data_before, obj_data_after)
 
-
-class ObjsDiffer:
-    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]|None = None):
-        """If version_names is None, all versions will be loaded."""
-        self.entity_relationships = read_entity_relationships("entity_relationships")
-        self.entity_dependencies = read_entity_dependencies()
-        self.all_versions_data = get_versions_data(archive_dir, version_names)
-
-    def diff_version_class(self, entity_class, version_name_before, version_name_after):
-        """
-        {
-            "Module_A": True",
-        }
-        """
-        version_data_before = self.all_versions_data[version_name_before]
-        version_data_after = self.all_versions_data[version_name_after]
-
-        changed_object_ids = {}
-        for obj_id in version_data_before[entity_class]:
-            has_changed = self.has_obj_changed(
-                entity_class,
-                version_data_before,
-                version_data_after,
-                obj_id,
-                is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
-                is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
-            )
-            if has_changed:
-                logger.debug(f"{entity_class}:{obj_id} has changed")
-                changed_object_ids[obj_id] = True
-
-        return changed_object_ids
-
-    def has_obj_changed(self, 
-                        parse_object_class: str, 
-                        version_datas_before: dict, 
-                        version_datas_after: dict, 
-                        obj_id: str,
-                        before_is_prod_ready: bool, 
-                        after_is_prod_ready: bool
+def has_obj_changed(
+    entity_relationships: dict,
+    parse_object_class: str, 
+    version_datas_before: dict, 
+    version_datas_after: dict, 
+    obj_id: str,
+    before_is_prod_ready: bool, 
+    after_is_prod_ready: bool
     ):
         """
         Check if this object has changed between versions, accounting for its dependent objects.
@@ -307,7 +275,7 @@ class ObjsDiffer:
                     
                     # Check if any dependent objects have changed
                     dependencies_changed = search_dependent_objects(
-                        self.entity_relationships, 
+                        entity_relationships, 
                         version_datas_before,
                         version_datas_after,
                         parse_object_class, 
@@ -324,6 +292,40 @@ class ObjsDiffer:
 
         else:
             raise ValueError("Unexpected state")
+
+class ObjsDiffer:
+    # fine, i guess this doesn't really need to be a class
+    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]|None = None):
+        """If version_names is None, all versions will be loaded."""
+        self.entity_relationships = read_entity_relationships("entity_relationships")
+        self.entity_dependencies = read_entity_dependencies()
+        self.all_versions_data = get_versions_data(archive_dir, version_names)
+
+    def diff_version_class(self, entity_class, version_name_before, version_name_after):
+        """
+        {
+            "Module_A": True",
+        }
+        """
+        version_data_before = self.all_versions_data[version_name_before]
+        version_data_after = self.all_versions_data[version_name_after]
+
+        changed_object_ids = {}
+        for obj_id in version_data_before[entity_class]:
+            has_changed = has_obj_changed(
+                self.entity_relationships,
+                entity_class,
+                version_data_before,
+                version_data_after,
+                obj_id,
+                is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+                is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
+            )
+            if has_changed:
+                logger.debug(f"{entity_class}:{obj_id} has changed")
+                changed_object_ids[obj_id] = True
+
+        return changed_object_ids
 
 if __name__ == "__main__":
     version_name_before = "2026-01-27"

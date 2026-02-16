@@ -1,16 +1,15 @@
 import pytest
 import sys
 import os
-from unittest.mock import Mock, patch
 
 # Add src directory to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 
-from objs_differ import search_dependent_objects, read_entity_relationships, get_versions_data
+from objs_differ import has_obj_changed, read_entity_relationships, get_versions_data, is_prod_ready
 
 
-class TestSearchDependentObjects:
-    """Test cases for search_dependent_objects function."""
+class TestObjDiffer:
+    """Test cases for ObjsDiffer class."""
 
     @pytest.fixture
     def all_versions_data(self):
@@ -25,12 +24,14 @@ class TestSearchDependentObjects:
     def do_generic_test(self, all_versions_data, entity_relationships, entity_class, obj_id, before_version, after_version):
         version_data_before = all_versions_data[before_version]
         version_data_after = all_versions_data[after_version]
-        result = search_dependent_objects(
-            entity_relationships=entity_relationships,
-            version_data_before=version_data_before,
-            version_data_after=version_data_after,
-            entity_class=entity_class,
-            obj_id=obj_id
+        result = has_obj_changed(
+            entity_relationships,
+            entity_class,
+            version_data_before,
+            version_data_after,
+            obj_id,
+            is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+            is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
         )
         return result
     
@@ -46,10 +47,11 @@ class TestSearchDependentObjects:
         # decker existed but wasnt prod ready, then was released as prod ready
         assert self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_ChassisKernel.2", "2025-10-21", "2025-10-28") is True
 
-    # TODO: Add more test cases as functionality is implemented
-    # - Test object added/removed scenarios
-    # - Test direct content changes
-    # - Test dependency changes
-    # - Test structural differences (missing keys)
-    # - Test circular dependency handling
-    # - Test edge cases (empty data, missing classes, etc.)
+    def test_nonexistent_object(self, all_versions_data, entity_relationships):
+        # object doesn't exist at all
+        with pytest.raises(ValueError):
+            self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_ChassisKernel.20", "2025-10-21", "2025-10-28")
+
+    def test_unchanged_object(self, all_versions_data, entity_relationships):
+        # module was not changed, but its ability localization was changed
+        assert self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_ChassisHitcher.2", "2026-01-27", "2026-02-10") is False
