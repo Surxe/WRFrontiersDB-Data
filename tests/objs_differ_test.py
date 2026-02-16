@@ -3,7 +3,7 @@ import sys
 import os
 
 # Add src directory to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 from objs_differ import has_obj_changed, read_entity_relationships, get_versions_data, is_prod_ready
 
@@ -14,7 +14,7 @@ class TestObjDiffer:
     @pytest.fixture
     def all_versions_data(self):
         """Load all available version data from archive."""
-        return get_versions_data("archive", ["2025-10-21", "2025-10-28", "2025-12-23", "2026-01-20", "2026-01-27", "2026-02-10", "2026-02-13"])
+        return get_versions_data("archive", ["2025-08-12", "2025-08-19", "2025-10-21", "2025-10-28", "2025-12-23", "2026-01-20", "2026-01-27", "2026-02-10", "2026-02-13"])
     
     @pytest.fixture
     def entity_relationships(self):
@@ -55,3 +55,11 @@ class TestObjDiffer:
     def test_unchanged_object(self, all_versions_data, entity_relationships):
         # module was not changed, but its ability localization was changed
         assert self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_ChassisHitcher.2", "2026-01-27", "2026-02-10") is False
+
+    def test_progression_table_changed(self, all_versions_data, entity_relationships):
+        # modules were added to progression table directly
+        assert self.do_generic_test(all_versions_data, entity_relationships, "ProgressionTable", "DA_ProgressionTable.0", "2026-01-27", "2026-02-10") is True
+
+    def test_progression_table_unchanged(self, all_versions_data, entity_relationships):
+        # progression table was not changed, but module in it was changed. this is dependency-check exception, so it shouldnt be changed
+        assert self.do_generic_test(all_versions_data, entity_relationships, "ProgressionTable", "DA_ProgressionTable.0", "2025-08-12", "2025-08-19") is False
