@@ -11,6 +11,7 @@ import os
 from dotenv import load_dotenv
 
 from utils import read_entity_relationships, setup_logger
+from objs_differ import ObjsDiffer
 
 
 class VersionConfig(TypedDict):
@@ -47,19 +48,17 @@ def get_version_archive_dir(archive_dir: str,version: str) -> str:
 class PatchSummarizer:
     """Generates patch summaries by comparing game data between versions."""
     
-    def __init__(self, repo_root: Optional[str] = None):
+    def __init__(self, archive_dir, summaries_dir, version_config_file, entity_relationships_dir):
         """Initialize the summarizer.
         
         Args:
             repo_root: Path to repository root. If None, auto-detects from script location.
         """
-        if repo_root is None:
-            repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        self.repo_root = repo_root
-        self.archive_dir = os.path.join(repo_root, 'archive')
-        self.summaries_dir = os.path.join(repo_root, 'summaries')
-        self.version_config_file = os.path.join(repo_root, 'versions.json')
-        self.entity_relationships = self.read_entity_relationships(os.path.join(repo_root, 'entity_relationships'))
+        self.archive_dir = archive_dir
+        self.summaries_dir = summaries_dir
+        self.version_config_file = version_config_file
+        self.entity_relationships = read_entity_relationships(entity_relationships_dir)
+        self.objs_differ = ObjsDiffer(self.archive_dir)
         self.changed_objects = {}
 
     def _get_archive_content(self, version: str, file_path: str) -> dict:
@@ -92,73 +91,6 @@ class PatchSummarizer:
         new_version = versions[-1]
         logger.info(f"Latest two versions detected: {previous_version} -> {new_version}")
         return previous_version, new_version
-
-    def has_content_changed(self, parse_object_class, before: dict, after: dict) -> bool:
-        """
-        Check if the content of two object dictionaries has changed.
-        Must check the object's ref structure to find the dependent objects. 
-        If any dependent object has changed, the object is considered changed.
-        """
-        return before != after
-
-    def has_obj_changed(self, parse_object_class, before_is_prod_ready: bool, after_is_prod_ready: bool, obj_before: dict, obj_after: dict) -> bool:
-        """Check if a specific object has changed between versions."""
-        # Could probably merge some of these conditions, but this is more explicit imo
-
-        if not obj_before and not obj_after:
-            raise ValueError("Both obj_before and obj_after are None")
-        elif obj_before and not obj_after: #object was removed
-            return True
-        elif not obj_before and obj_after: #object was added
-            # Only consider it changed if its now prod ready
-            if not after_is_prod_ready:
-                return False
-            else:
-                return True
-        elif obj_before and obj_after: #object still exists
-            # If it wasnt prod ready, but now is, consider it changed
-            if not before_is_prod_ready and after_is_prod_ready:
-                return True
-            # If it was prod ready, but now is not, consider it removed (changed)
-            elif before_is_prod_ready and not after_is_prod_ready:
-                return True
-            # If it wasnt prod ready, and still isnt, dont consider it changed
-            elif not before_is_prod_ready and not after_is_prod_ready:
-                return False
-            # If it was prod ready, and still is, check if the object itself changed
-            elif before_is_prod_ready and after_is_prod_ready:
-                return self.has_content_changed(parse_object_class, obj_before, obj_after)
-        
-        return False
-    
-    def get_changed_parse_objects(self, 
-                                parse_object_class,
-                                before: dict, after: dict
-                                ) -> dict[str, bool]:
-        """
-        Get list of changed parse objects between two versions.
-        
-        Args:
-            parse_object_class: Type of objects being compared
-            before: Content before the patch
-            after: Content after the patch
-
-        Returns:
-            {changed_object_id: True}
-        """
-        changed_objects = {}
-
-        for obj_id in after.keys():
-            # Precompute production readiness and object values
-            before_is_prod_ready = self.is_prod_ready(parse_object_class, obj_id, before)
-            after_is_prod_ready = self.is_prod_ready(parse_object_class, obj_id, after)
-            obj_before = before.get(obj_id)
-            obj_after = after.get(obj_id)
-            
-            if self.has_obj_changed(parse_object_class, before_is_prod_ready, after_is_prod_ready, obj_before, obj_after):
-                changed_objects[obj_id] = True
-        
-        return changed_objects
 
     def save_changed_objects(self):
         """Saves the changed objects as separate files for each parseObjectClass."""
@@ -194,11 +126,8 @@ class PatchSummarizer:
         changed_objects_per_object_type = {}
         for parse_object_class, file_path in self.get_files_to_retrieve(to_version).items():
             logger.info(f"Retrieving changes for {parse_object_class} ({file_path})")
-            
-            before_content = self._get_archive_content(from_version, file_path)
-            after_content = self._get_archive_content(to_version, file_path)
 
-            changed_objects = self.get_changed_parse_objects(parse_object_class, before_content, after_content)
+            changed_objects = self.objs_differ.diff_version_class(parse_object_class, from_version, to_version)
             changed_objects_per_object_type[parse_object_class] = changed_objects
 
         # Add this patch to each changed object in the changed objects file
@@ -241,7 +170,12 @@ def main(from_version: Optional[str] = None, to_version: Optional[str] = None, g
     """Main entry point for generating patch summaries."""
     setup_logger()
     logger.info(f"Inputs: from_version={from_version}, to_version={to_version}, gen_all={gen_all}")
-    summarizer = PatchSummarizer()
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    archive_dir = os.path.join(repo_root, 'archive')
+    summaries_dir = os.path.join(repo_root, 'summaries')
+    version_config_file = os.path.join(repo_root, 'versions.json')
+    entity_relationships_dir = os.path.join(repo_root, 'entity_relationships')
+    summarizer = PatchSummarizer(archive_dir, summaries_dir, version_config_file, entity_relationships_dir)
     if gen_all:
         summarizer.generate_all()
     else:

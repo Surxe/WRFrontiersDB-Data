@@ -24,7 +24,7 @@ def ref_to_id(ref: str):
     """OBJID_CharacterModule::char_123 -> char_123"""
     return ref.split("::")[-1]
 
-def get_versions_data(archive_dir: str, version_names: list[str|Literal["latest"]]):
+def get_versions_data(archive_dir: str, version_names: list[str|Literal["latest"]]|None=None):
     """
     Get data from all versions in the archive directory.
     
@@ -44,7 +44,7 @@ def get_versions_data(archive_dir: str, version_names: list[str|Literal["latest"
     all_versions_data = {}
     unfiltered_version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
     latest_version_name = max(unfiltered_version_names)
-    filtered_version_names = [v for v in unfiltered_version_names if v in version_names or ("latest" in version_names and v == latest_version_name)]
+    filtered_version_names = [v for v in unfiltered_version_names if version_names is None or v in version_names or ("latest" in version_names and v == latest_version_name)]
     # Add latest version
     logger.debug(f"Version names: {version_names}")
         
@@ -224,27 +224,36 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
 
 
 class ObjsDiffer:
-    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]):
+    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]|None = None):
+        """If version_names is None, all versions will be loaded."""
         self.entity_relationships = read_entity_relationships("entity_relationships")
         self.entity_dependencies = read_entity_dependencies()
         self.all_versions_data = get_versions_data(archive_dir, version_names)
 
-    def diff_version(self, version_name_before, version_name_after):
+    def diff_version_class(self, entity_class, version_name_before, version_name_after):
+        """
+        {
+            "Module_A": True",
+        }
+        """
         version_data_before = self.all_versions_data[version_name_before]
         version_data_after = self.all_versions_data[version_name_after]
 
-        for entity_class in version_data_before:
-            for obj_id in version_data_before[entity_class]:
-                has_changed = self.has_obj_changed(
-                    entity_class,
-                    version_data_before,
-                    version_data_after,
-                    obj_id,
-                    is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
-                    is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
-                )
-                if has_changed:
-                    logger.debug(f"{entity_class}:{obj_id} has changed")
+        changed_object_ids = {}
+        for obj_id in version_data_before[entity_class]:
+            has_changed = self.has_obj_changed(
+                entity_class,
+                version_data_before,
+                version_data_after,
+                obj_id,
+                is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+                is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
+            )
+            if has_changed:
+                logger.debug(f"{entity_class}:{obj_id} has changed")
+                changed_object_ids[obj_id] = True
+
+        return changed_object_ids
 
     def has_obj_changed(self, 
                         parse_object_class: str, 
@@ -320,6 +329,6 @@ if __name__ == "__main__":
     version_name_before = "2026-01-27"
     version_name_after = "2026-02-10"
     differ = ObjsDiffer("archive", [version_name_before, version_name_after])
-    differ.diff_version(version_name_before, version_name_after)
+    differ.diff_version_class("Module", version_name_before, version_name_after)
     
     logger.debug("ObjsDiffer initialized")
