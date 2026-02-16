@@ -15,7 +15,7 @@ class TestSearchDependentObjects:
     @pytest.fixture
     def all_versions_data(self):
         """Load all available version data from archive."""
-        return get_versions_data("archive", ["2025-12-23", "2026-01-20", "2026-01-27", "2026-02-10"])
+        return get_versions_data("archive", ["2025-10-21", "2025-10-28", "2025-12-23", "2026-01-20", "2026-01-27", "2026-02-10", "2026-02-13"])
     
     @pytest.fixture
     def entity_relationships(self):
@@ -34,9 +34,18 @@ class TestSearchDependentObjects:
         )
         return result
     
-    def test_hitcher(self, all_versions_data, entity_relationships):
-        assert self.do_generic_test(all_versions_data, entity_relationships, "CharacterModule", "BP_Module_Hitcher_Chassis.0", "2025-12-23", "2026-01-20")
+    def test_hitcher_added(self, all_versions_data, entity_relationships):
+        # hitcher previously didnt exist, then was added immediately as prod ready
+        assert self.do_generic_test(all_versions_data, entity_relationships, "CharacterModule", "BP_Module_Hitcher_Chassis.0", "2025-12-23", "2026-01-20") is True
     
+    def test_hitcher_ability_localization_changed(self, all_versions_data, entity_relationships):
+        # module was not changed, but its ability localization was changed
+        assert self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_TorsoHitcher.1", "2026-01-27", "2026-02-10") is True
+
+    def test_decker_released(self, all_versions_data, entity_relationships):
+        # decker existed but wasnt prod ready, then was released as prod ready
+        assert self.do_generic_test(all_versions_data, entity_relationships, "Module", "DA_Module_ChassisKernel.2", "2025-10-21", "2025-10-28") is True
+
     # TODO: Add more test cases as functionality is implemented
     # - Test object added/removed scenarios
     # - Test direct content changes
