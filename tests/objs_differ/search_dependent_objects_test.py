@@ -21,13 +21,8 @@ class TestSearchDependentObjects:
     def entity_relationships(self):
         """Load actual entity relationships from project."""
         return read_entity_relationships("entity_relationships")
-    
-    def test_hitcher(self, all_versions_data, entity_relationships):
-        # Hitcher was added with production ready status
-        entity_class="CharacterModule"
-        obj_id="BP_Module_Hitcher_Chassis.0"
-        before_version="2025-12-23"
-        after_version="2026-01-20"
+
+    def do_generic_test(self, all_versions_data, entity_relationships, entity_class, obj_id, before_version, after_version):
         version_data_before = all_versions_data[before_version]
         version_data_after = all_versions_data[after_version]
         result = search_dependent_objects(
@@ -37,8 +32,10 @@ class TestSearchDependentObjects:
             entity_class=entity_class,
             obj_id=obj_id
         )
-        
-        assert result is True
+        return result
+    
+    def test_hitcher(self, all_versions_data, entity_relationships):
+        assert self.do_generic_test(all_versions_data, entity_relationships, "CharacterModule", "BP_Module_Hitcher_Chassis.0", "2025-12-23", "2026-01-20")
     
     # TODO: Add more test cases as functionality is implemented
     # - Test object added/removed scenarios
