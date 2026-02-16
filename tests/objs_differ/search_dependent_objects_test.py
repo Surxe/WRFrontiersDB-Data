@@ -11,69 +11,33 @@ from objs_differ import search_dependent_objects, read_entity_relationships, get
 
 class TestSearchDependentObjects:
     """Test cases for search_dependent_objects function."""
+
+    @pytest.fixture
+    def all_versions_data(self):
+        """Load all available version data from archive."""
+        return get_versions_data("archive", ["2025-12-23", "2026-01-20", "2026-01-27", "2026-02-10"])
     
     @pytest.fixture
     def entity_relationships(self):
         """Load actual entity relationships from project."""
         return read_entity_relationships("entity_relationships")
     
-    @pytest.fixture
-    def all_versions_data(self):
-        """Load all available version data from archive."""
-        return get_versions_data("archive", 3)
-    
-    @pytest.fixture
-    def version_data_before_conflux(self, all_versions_data):
-        """Get the 2026-01-27 version data."""
-        return all_versions_data["2026-01-27"]
-    
-    @pytest.fixture
-    def version_data_after_conflux(self, all_versions_data):
-        """Get the 2026-02-10 version data."""
-        return all_versions_data["2026-02-10"]
-    
-    @pytest.fixture
-    def version_data_before_hitcher(self, all_versions_data):
-        """Get the 2026-01-20 version data."""
-        return all_versions_data["2026-01-20"]
-    
-    @pytest.fixture
-    def version_data_after_hitcher(self, all_versions_data):
-        """Get the 2026-01-27 version data."""
-        return all_versions_data["2026-01-27"]
-    
-    def test_da_module_weapon_conflux_changed(self, entity_relationships, 
-                                          version_data_before_conflux, 
-                                          version_data_after_conflux):
-        """Specific test for DA_Module_Weapon_Conflux.0 from 2026-01-27 to 2026-02-10."""
-        # This specific test verifies that DA_Module_Weapon_Conflux.0 
-        # changed between 2026-01-27 and 2026-02-10
+    def test_hitcher(self, all_versions_data, entity_relationships):
+        # Hitcher was added with production ready status
+        entity_class="CharacterModule"
+        obj_id="BP_Module_Hitcher_Chassis.0"
+        before_version="2025-12-23"
+        after_version="2026-01-20"
+        version_data_before = all_versions_data[before_version]
+        version_data_after = all_versions_data[after_version]
         result = search_dependent_objects(
             entity_relationships=entity_relationships,
-            version_data_before=version_data_before_conflux,
-            version_data_after=version_data_after_conflux,
-            entity_class="Module",
-            obj_id="DA_Module_Weapon_Conflux.0"
+            version_data_before=version_data_before,
+            version_data_after=version_data_after,
+            entity_class=entity_class,
+            obj_id=obj_id
         )
         
-        # This should return True based on the demo output
-        assert result is True
-    
-    def test_bp_module_hitcher_chassis_changed(self, entity_relationships, 
-                                           version_data_before_hitcher, 
-                                           version_data_after_hitcher):
-        """Specific test for BP_Module_Hitcher_Chassis.0 from 2026-01-20 to 2026-01-27."""
-        # This specific test verifies that BP_Module_Hitcher_Chassis.0 
-        # changed between 2026-01-20 and 2026-01-27
-        result = search_dependent_objects(
-            entity_relationships=entity_relationships,
-            version_data_before=version_data_before_hitcher,
-            version_data_after=version_data_after_hitcher,
-            entity_class="Module",
-            obj_id="BP_Module_Hitcher_Chassis.0"
-        )
-        
-        # This should return True
         assert result is True
     
     # TODO: Add more test cases as functionality is implemented

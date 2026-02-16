@@ -21,7 +21,7 @@ def ref_to_id(ref: str):
     """OBJID_CharacterModule::char_123 -> char_123"""
     return ref.split("::")[-1]
 
-def get_versions_data(archive_dir: str, latest_n_versions: int = 1):
+def get_versions_data(archive_dir: str, version_names: list[str|Literal["latest"]]):
     """
     Get data from all versions in the archive directory.
     
@@ -39,16 +39,14 @@ def get_versions_data(archive_dir: str, latest_n_versions: int = 1):
         }
     """
     all_versions_data = {}
-    version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
+    unfiltered_version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
+    latest_version_name = max(unfiltered_version_names)
+    filtered_version_names = [v for v in unfiltered_version_names if v in version_names or ("latest" in version_names and v == latest_version_name)]
+    # Add latest version
     logger.debug(f"Version names: {version_names}")
-
-    if latest_n_versions == -1:
-        filtered_versions = version_names
-    else:
-        filtered_versions = version_names[-latest_n_versions:]
         
     # Get all versions
-    for version_name in filtered_versions:
+    for version_name in filtered_version_names:
         version_dir = os.path.join(archive_dir, version_name)
         objects_dir = os.path.join(version_dir, "Objects")
         all_versions_data[version_name] = {}
@@ -229,7 +227,7 @@ class ObjsDiffer:
     def __init__(self, archive_dir: str):
         self.entity_relationships = read_entity_relationships("entity_relationships")
         self.entity_dependencies = read_entity_dependencies()
-        self.all_versions_data = get_versions_data(archive_dir, 2)
+        self.all_versions_data = get_versions_data(archive_dir, ["2026-02-10", "2026-01-27"])
 
         #extract_object_references(self.entity_relationships["Module"], self.all_versions_data["2026-02-10"]["Module"]["DA_Module_Ability_AmmoGenerator.1"])
         
