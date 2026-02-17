@@ -10,10 +10,8 @@ from typing import Literal, Optional, TypedDict
 import os
 from dotenv import load_dotenv
 
-def setup_logger():
-    logger.remove()
-    logger.add(lambda msg: print(msg, end=''), level="DEBUG")
-    logger.debug("Logger initialized.")
+from utils import read_entity_relationships, setup_logger
+from objs_differ import ObjsDiffer
 
 
 class VersionConfig(TypedDict):
@@ -23,23 +21,48 @@ class VersionConfig(TypedDict):
     patch_notes_url: str
     is_season_release: bool
 
+def get_archive_content(archive_dir: str, version: str, file_path: str) -> dict:
+    """Load JSON content from an archived version.
+    
+    Args:
+        version: Version string (e.g., "2025-06-03")
+        file_path: Relative path to file within version archive (e.g., "Objects/Module.json")
+        
+    Returns:
+        Parsed JSON content as dictionary
+    """
+    version_archive_dir = get_version_archive_dir(archive_dir, version)
+    file = os.path.join(version_archive_dir, file_path)
+    if not os.path.isfile(file):
+        logger.debug(f"File {file} not found for version {version}")
+        return {}
+    with open(file, encoding='utf-8') as f:
+        content = json.load(f)
+    logger.debug(f"Loaded archived content from {file} for version {version}, {len(content)} entries found.")
+    return content
+
+def get_version_archive_dir(archive_dir: str,version: str) -> str:
+    """Get the directory path for a specific version in the archive."""
+    return os.path.join(archive_dir, version)
+
 class PatchSummarizer:
     """Generates patch summaries by comparing game data between versions."""
     
-    def __init__(self, repo_root: Optional[str] = None):
+    def __init__(self, archive_dir, summaries_dir, version_config_file, entity_relationships_dir):
         """Initialize the summarizer.
         
         Args:
             repo_root: Path to repository root. If None, auto-detects from script location.
         """
-        if repo_root is None:
-            repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        self.repo_root = repo_root
-        self.archive_dir = os.path.join(repo_root, 'archive')
-        self.summaries_dir = os.path.join(repo_root, 'summaries', 'patch')
-        self.version_config_file = os.path.join(repo_root, 'versions.json')
-        self.changed_objects_file = os.path.join(repo_root, 'summaries', 'changed_objects.json')
-        self.changed_objects = self.read_changed_objects()
+        self.archive_dir = archive_dir
+        self.summaries_dir = summaries_dir
+        self.version_config_file = version_config_file
+        self.entity_relationships = read_entity_relationships(entity_relationships_dir)
+        self.objs_differ = ObjsDiffer(self.archive_dir)
+        self.changed_objects = {}
+
+    def _get_archive_content(self, version: str, file_path: str) -> dict:
+        return get_archive_content(self.archive_dir, version, file_path)
 
     def get_files_to_retrieve(self, archive_version: str) -> dict[str, str]:
         """Get all parse object files to retrieve, keyed by the file name without extension, representing the ParseObject class."""
@@ -52,30 +75,6 @@ class PatchSummarizer:
                 po_class = file[:-len('.json')]
                 files_to_retrieve[po_class] = f"Objects/{po_class}.json"
         return files_to_retrieve
-
-    
-    def get_version_archive_dir(self, version: str) -> str:
-        """Get the directory path for a specific version in the archive."""
-        return os.path.join(self.archive_dir, version)
-    
-    def get_archive_content(self, version: str, file_path: str) -> dict:
-        """Load JSON content from an archived version.
-        
-        Args:
-            version: Version string (e.g., "2025-06-03")
-            file_path: Relative path to file within version archive (e.g., "Objects/Module.json")
-            
-        Returns:
-            Parsed JSON content as dictionary
-        """
-        version_archive_dir = self.get_version_archive_dir(version)
-        file = os.path.join(version_archive_dir, file_path)
-        if not os.path.isfile(file):
-            raise FileNotFoundError(f"Archive file not found: {file}")
-        with open(file, encoding='utf-8') as f:
-            content = json.load(f)
-        logger.debug(f"Loaded archived content from {file} for version {version}, {len(content)} entries found.")
-        return content
     
     def get_latest_two_versions(self) -> tuple[str, str]:
         """Auto-detect the latest two versions from archive directory.
@@ -92,85 +91,6 @@ class PatchSummarizer:
         new_version = versions[-1]
         logger.info(f"Latest two versions detected: {previous_version} -> {new_version}")
         return previous_version, new_version
-    
-    @staticmethod
-    def is_prod_ready(parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'], 
-                      obj_id: str,
-                      objs: dict) -> bool:
-        """Check if an object is production ready.
-        
-        Args:
-            parse_object_class: Type of game object
-            obj_dict: The object data dictionary
-            
-        Returns:
-            True if production ready, False otherwise
-        """
-        obj = objs.get(obj_id)
-        if obj is None: # If the object doesnt even exist, its not prod ready
-            return False
-        if parse_object_class == 'Module':
-            return obj.get("production_status", "NotReady") == "Ready"
-        else:
-            # Pilots and talents only added when ready
-            return True
-    
-    def get_changed_parse_objects(self, 
-                                parse_object_class: Literal['Module', 'Pilot', 'PilotTalent'],
-                                before: dict, after: dict
-                                ) -> dict[str, bool]:
-        """
-        Get list of added parse objects between two versions.
-        
-        Args:
-            parse_object_class: Type of objects being compared
-            before: Content before the patch
-            after: Content after the patch
-
-        Returns:
-            {changed_object_id: True}
-        """
-        changed_objects = {}
-
-        for key, after_value in after.items():
-            is_changed = False
-            before_is_prod_ready = self.is_prod_ready(parse_object_class, key, before)
-            after_is_prod_ready = self.is_prod_ready(parse_object_class, key, after)
-
-            if key not in before:
-                logger.debug(f"New {parse_object_class} detected: {key}")
-                if not after_is_prod_ready:
-                    logger.debug(f"{parse_object_class} {key} is not production ready, skipping.")
-                    continue
-                is_changed = True
-            else:
-                # existing object
-                before_value = before[key]
-                # If prev is not prod ready, and now is, consider it added
-                if (not before_is_prod_ready) and after_is_prod_ready:
-                    logger.debug(f"{parse_object_class} {key} became production ready, considering it Added.")
-                    is_changed = True
-                # If it was ready and now is not, consider it removed
-                elif before_is_prod_ready and (not after_is_prod_ready):
-                    logger.debug(f"{parse_object_class} {key} became not production ready, considering it Removed.")
-                    is_changed = True
-                # If it was ready and still is, check if the object itself changed
-                elif before_is_prod_ready and after_is_prod_ready:
-                    if before_value != after_value:
-                        logger.debug(f"{parse_object_class} {key} changed.")
-                        is_changed = True
-            
-            if is_changed:
-                changed_objects[key] = True
-        
-        return changed_objects
-
-    def read_changed_objects(self):
-        """Reads the changed objects file and returns it as a dictionary."""
-        if not os.path.exists(self.changed_objects_file):
-            return {}
-        with open(self.changed_objects_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
 
     def save_changed_objects(self):
         """Saves the changed objects as separate files for each parseObjectClass."""
@@ -183,9 +103,8 @@ class PatchSummarizer:
             self.changed_objects[parse_object_class] = dict(sorted(self.changed_objects[parse_object_class].items()))
         
         # Create separate files for each parseObjectClass
-        summaries_dir = os.path.dirname(self.changed_objects_file)
         for parse_object_class, objects_data in self.changed_objects.items():
-            output_file = os.path.join(summaries_dir, f"{parse_object_class}.json")
+            output_file = os.path.join(self.summaries_dir, f"{parse_object_class}.json")
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(objects_data, f, indent=4)
             logger.info(f"Saved {len(objects_data)} {parse_object_class} objects to {output_file}")
@@ -207,11 +126,8 @@ class PatchSummarizer:
         changed_objects_per_object_type = {}
         for parse_object_class, file_path in self.get_files_to_retrieve(to_version).items():
             logger.info(f"Retrieving changes for {parse_object_class} ({file_path})")
-            
-            before_content = self.get_archive_content(from_version, file_path)
-            after_content = self.get_archive_content(to_version, file_path)
 
-            changed_objects = self.get_changed_parse_objects(parse_object_class, before_content, after_content)
+            changed_objects = self.objs_differ.diff_version_class(parse_object_class, from_version, to_version)
             changed_objects_per_object_type[parse_object_class] = changed_objects
 
         # Add this patch to each changed object in the changed objects file
@@ -254,7 +170,12 @@ def main(from_version: Optional[str] = None, to_version: Optional[str] = None, g
     """Main entry point for generating patch summaries."""
     setup_logger()
     logger.info(f"Inputs: from_version={from_version}, to_version={to_version}, gen_all={gen_all}")
-    summarizer = PatchSummarizer()
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    archive_dir = os.path.join(repo_root, 'archive')
+    summaries_dir = os.path.join(repo_root, 'summaries')
+    version_config_file = os.path.join(repo_root, 'versions.json')
+    entity_relationships_dir = os.path.join(repo_root, 'entity_relationships')
+    summarizer = PatchSummarizer(archive_dir, summaries_dir, version_config_file, entity_relationships_dir)
     if gen_all:
         summarizer.generate_all()
     else:

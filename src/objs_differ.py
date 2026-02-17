@@ -1,0 +1,336 @@
+# Determines if an object has changed between two versions
+# Accounts for production readiness status on both versions
+# Accounts for dependent objects of each version
+
+import json
+import os
+from loguru import logger
+from typing import Literal
+
+from utils import read_entity_relationships, setup_logger
+
+setup_logger()
+
+SHOULD_IGNORE_DEPENDENCY_CHANGES_BY_CLASS = {
+    "ProgressionTable": True, #e.g. "Hitcher dmg was changed from x to y shouldnt make ProgressionTable count as changed"
+}
+
+def load_json(object_file: str):
+    # Json load
+    with open(object_file, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def ref_to_id(ref: str):
+    """OBJID_CharacterModule::char_123 -> char_123"""
+    return ref.split("::")[-1]
+
+def get_versions_data(archive_dir: str, version_names: list[str|Literal["latest"]]|None=None):
+    """
+    Get data from all versions in the archive directory.
+    
+    Args:
+        archive_dir: Path to the archive directory
+        latest_n_versions: Number of latest versions to get. -1 for all.
+    
+    Returns:
+        {
+            "2026-02-10": {
+                "Ability": {...},
+                "BotAIPreset": {...},
+                ...
+            }
+        }
+    """
+    all_versions_data = {}
+    unfiltered_version_names = [d for d in os.listdir(archive_dir) if os.path.isdir(os.path.join(archive_dir, d))]
+    latest_version_name = max(unfiltered_version_names)
+    filtered_version_names = [v for v in unfiltered_version_names if version_names is None or v in version_names or ("latest" in version_names and v == latest_version_name)]
+    # Add latest version
+    logger.debug(f"Version names: {version_names}")
+        
+    # Get all versions
+    for version_name in filtered_version_names:
+        version_dir = os.path.join(archive_dir, version_name)
+        objects_dir = os.path.join(version_dir, "Objects")
+        all_versions_data[version_name] = {}
+        for object_file in os.listdir(objects_dir):
+            object_name = object_file.split(".")[0]
+            object_data = load_json(os.path.join(objects_dir, object_file))
+            all_versions_data[version_name][object_name] = object_data
+            logger.debug(f"Loaded {object_name} from {version_dir} with {len(object_data)} keys")
+
+    return all_versions_data
+
+def read_entity_dependencies():
+    path = "entity_dependencies.json"
+    return load_json(path)
+
+def is_prod_ready(parse_object_class: str, obj: dict|None) -> bool:
+    """Check if an object is production ready.
+    
+    Args:
+        parse_object_class: Type of game object
+        obj_dict: The object data dictionary
+        
+    Returns:
+        True if production ready, False otherwise
+    """
+    if obj is None: # If the object doesnt even exist, its not prod ready
+        return False
+    if parse_object_class == 'Module':
+        return obj.get("production_status", "NotReady") == "Ready"
+    else:
+        # Pilots and talents only added when ready
+        return True
+
+def extract_object_references(my_entity_relationships: dict, parse_objects_data: dict):
+    """
+
+    Prints "char_123" for each character_ref
+    """
+    
+    def traverse_and_extract(entity_data: dict|list|str, parse_data: dict|list|str, path: str = ""):
+        """Recursively traverse entity relationships and extract object IDs from parse data."""
+        if isinstance(entity_data, dict):
+            for key, value in entity_data.items():
+                current_path = f"{path}.{key}" if path else key
+                traverse_and_extract(value, parse_data.get(key, {}), current_path)
+        elif isinstance(entity_data, list):
+            for i, item in enumerate(entity_data):
+                current_path = f"{path}[{i}]" if path else f"[{i}]"
+                traverse_and_extract(item, parse_data[i] if i < len(parse_data) else {}, current_path)
+        elif isinstance(entity_data, str):
+            # Found a string field - this is a parse object class
+            # Look for the corresponding reference in parse data
+            if parse_data and isinstance(parse_data, str) and parse_data.startswith("OBJID_"):
+                obj_id = ref_to_id(parse_data)
+                logger.debug(f"{path}: {entity_data} -> {obj_id}")
+    
+    # Process each entity class
+    for entity_class, relationships in my_entity_relationships.items():
+        if entity_class in parse_objects_data:
+            logger.debug(f"\nProcessing entity class: {entity_class}")
+            traverse_and_extract(relationships, parse_objects_data[entity_class])
+
+def search_dependent_objects(entity_relationships: dict, version_data_before: dict, version_data_after: dict,
+                          entity_class: str, obj_id: str, 
+                          visited: set = None, depth: int = 0) -> bool:
+    """
+    Recursively search for dependent objects of a given entity and detect if any have changed.
+    
+    Args:
+        entity_relationships: Entity relationships dictionary
+        version_data_before: Version data from archive before
+        version_data_after: Version data from archive after
+        version_data: Version data from archive
+        entity_class: The class of object to search dependencies for
+        obj_id: The ID of object to search dependencies for
+        visited: Set of visited objects to prevent infinite recursion
+        depth: Current recursion depth for indentation
+        
+    Returns:
+        bool: True if any dependent object has changed, False otherwise
+    """
+    if visited is None:
+        visited = set()
+    
+    # Prevent infinite recursion
+    current_key = f"{entity_class}:{obj_id}"
+    if current_key in visited:
+        return False
+    visited.add(current_key)
+    
+    indent = "  " * depth
+    logger.debug(f"{indent}Checking dependencies for {entity_class}:{obj_id}")
+    
+    if entity_class not in version_data_after:
+        logger.debug(f"{indent}Class {entity_class} not found in after version")
+        return False
+    
+    class_data_after = version_data_after[entity_class]
+    class_data_before = version_data_before.get(entity_class, {})
+    
+    if obj_id not in class_data_after:
+        logger.debug(f"{indent}Object {obj_id} not found in {entity_class}")
+        return False
+    
+    obj_data_after = class_data_after[obj_id]
+    obj_data_before = class_data_before.get(obj_id)
+    
+    # Check if the object itself has changed
+    if obj_data_before != obj_data_after:
+        logger.debug(f"{indent}Object {entity_class}:{obj_id} has changed directly")
+        return True
+    
+    # Get entity relationships for this class
+    if entity_class not in entity_relationships:
+        logger.debug(f"{indent}No relationships found for class {entity_class}")
+        return False
+    
+    relationships = entity_relationships[entity_class]
+    
+    # Extract dependent objects and check if any have changed
+    def extract_and_check_dependencies(rel_data: dict|list|str, obj_data_before: dict|list|str, obj_data_after: dict|list|str, path: str = "") -> bool:
+        """
+        Searches the entity's relationships for string fields. String fields will be a parse object class. 
+        That same location in the parse_objects_data will have a object reference which can be converted to an object id.
+        The object id's will be printed.
+        Args:
+            rel_data: {
+                "Module": {
+                    "character_module_mounts": [
+                        {
+                            "character_ref": "CharacterModule",
+                        }
+                    ]
+                }
+            }
+            obj_data_before: Object data from before version
+            obj_data_after: Object data from after version
+
+            Returns:
+                bool: True if any dependent object has changed, False otherwise
+        """
+        if isinstance(rel_data, dict):
+            for key, value in rel_data.items():
+                current_path = f"{path}.{key}" if path else key
+                # Check if key exists in both versions
+                key_before = obj_data_before.get(key, {}) if isinstance(obj_data_before, dict) else obj_data_before
+                key_after = obj_data_after.get(key, {}) if isinstance(obj_data_after, dict) else obj_data_after
+                
+                if extract_and_check_dependencies(value, key_before, key_after, current_path):
+                    return True
+        elif isinstance(rel_data, list):
+            for i, item in enumerate(rel_data):
+                current_path = f"{path}[{i}]" if path else f"[{i}]"
+                # Check if index exists in both versions
+                item_before = obj_data_before[i] if isinstance(obj_data_before, list) and i < len(obj_data_before) else {}
+                item_after = obj_data_after[i] if isinstance(obj_data_after, list) and i < len(obj_data_after) else {}
+                
+                if extract_and_check_dependencies(item, item_before, item_after, current_path):
+                    return True
+        elif isinstance(rel_data, str):
+            # Found a dependent object class
+            if obj_data_after and isinstance(obj_data_after, str) and obj_data_after.startswith("OBJID_"):
+                dep_obj_id = ref_to_id(obj_data_after)
+                logger.debug(f"{indent}Found dependency: {rel_data}:{dep_obj_id} at {path}")
+                
+                # Check if this dependent object exists in both versions and has changed
+                return search_dependent_objects(entity_relationships, version_data_before, version_data_after, rel_data, dep_obj_id, visited, depth + 1)
+        
+        return False
+    
+    return extract_and_check_dependencies(relationships, obj_data_before, obj_data_after)
+
+def has_obj_changed(
+    entity_relationships: dict,
+    parse_object_class: str, 
+    version_datas_before: dict, 
+    version_datas_after: dict, 
+    obj_id: str,
+    before_is_prod_ready: bool, 
+    after_is_prod_ready: bool
+    ):
+        """
+        Check if this object has changed between versions, accounting for its dependent objects.
+
+        Production ready status is only checked on root object and not dependent objects, 
+            because Module is the only class that distinguishes prod readiness, and is also only ever a root object.
+        
+        Returns:
+            bool: True if the object is production ready andhas changed, False otherwise
+        """
+        # Could merge some of these conditions, but this is more explicit imo
+
+        obj_before = version_datas_before.get(parse_object_class, {}).get(obj_id)
+        obj_after = version_datas_after.get(parse_object_class, {}).get(obj_id)
+
+        if not obj_before and not obj_after:
+            raise ValueError("Both obj_before and obj_after are None")
+        elif obj_before and not obj_after: #object was removed
+            return True
+        elif not obj_before and obj_after: #object was added
+            # Only consider it changed if its now prod ready
+            if not after_is_prod_ready:
+                return False
+            else:
+                return True
+        elif obj_before and obj_after: #object still exists
+            # If it wasnt prod ready, but now is, consider it changed
+            if not before_is_prod_ready and after_is_prod_ready:
+                return True
+            # If it was prod ready, but now is not, consider it removed (changed)
+            elif before_is_prod_ready and not after_is_prod_ready:
+                return True
+            # If it wasnt prod ready, and still isnt, dont consider it changed
+            elif not before_is_prod_ready and not after_is_prod_ready:
+                return False
+            # If it was prod ready, and still is, check if the object itself changed
+            elif before_is_prod_ready and after_is_prod_ready:
+                if obj_before != obj_after: #if the direct content has changed, we already know its changed
+                    return True
+                else:
+                    if SHOULD_IGNORE_DEPENDENCY_CHANGES_BY_CLASS.get(parse_object_class, False):
+                        return False #only check if dependency is changed if we should.
+                    
+                    # Check if any dependent objects have changed
+                    dependencies_changed = search_dependent_objects(
+                        entity_relationships, 
+                        version_datas_before,
+                        version_datas_after,
+                        parse_object_class, 
+                        obj_id
+                    )
+                    
+                    if dependencies_changed:
+                        logger.info(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
+                        return True
+                    
+                    logger.debug(f"No dependent objects changed for {parse_object_class}:{obj_id}")
+                    return False
+
+
+        else:
+            raise ValueError("Unexpected state")
+
+class ObjsDiffer:
+    # fine, i guess this doesn't really need to be a class
+    def __init__(self, archive_dir: str, version_names: list[str|Literal["latest"]]|None = None):
+        """If version_names is None, all versions will be loaded."""
+        self.entity_relationships = read_entity_relationships("entity_relationships")
+        self.entity_dependencies = read_entity_dependencies()
+        self.all_versions_data = get_versions_data(archive_dir, version_names)
+
+    def diff_version_class(self, entity_class, version_name_before, version_name_after):
+        """
+        {
+            "Module_A": True",
+        }
+        """
+        version_data_before = self.all_versions_data[version_name_before]
+        version_data_after = self.all_versions_data[version_name_after]
+
+        changed_object_ids = {}
+        for obj_id in version_data_before[entity_class]:
+            has_changed = has_obj_changed(
+                self.entity_relationships,
+                entity_class,
+                version_data_before,
+                version_data_after,
+                obj_id,
+                is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+                is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
+            )
+            if has_changed:
+                logger.debug(f"{entity_class}:{obj_id} has changed")
+                changed_object_ids[obj_id] = True
+
+        return changed_object_ids
+
+if __name__ == "__main__":
+    version_name_before = "2026-01-27"
+    version_name_after = "2026-02-10"
+    differ = ObjsDiffer("archive", [version_name_before, version_name_after])
+    differ.diff_version_class("Module", version_name_before, version_name_after)
+    
+    logger.debug("ObjsDiffer initialized")
