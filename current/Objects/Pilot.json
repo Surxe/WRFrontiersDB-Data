@@ -5105,6 +5105,80 @@
             }
         ]
     },
+    "DA_Pilot_Common_Bruno.0": {
+        "id": "DA_Pilot_Common_Bruno.0",
+        "first_name": {
+            "Key": "CP_Male_Bruno",
+            "TableNamespace": "CommonPilot_Names",
+            "en": "Bruno Lantoni"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_BrunoLantoni_Common71_Icon",
+        "bio": {
+            "Key": "CP_Male_Bruno_bio",
+            "TableNamespace": "Pilot_Bio",
+            "en": "Bruno Lantoni was an icon of Grav Racing. Three-times champion, celebrity, and the face of dozens of corporations. But with age, his reflexes began to slow by fractions of a millisecond. For the average person, this is unnoticeable, but for Bruno, it was a disaster. Unwilling to retire, he spent his entire fortune on experimental cybernetic augmentation, replacing most of his body with high-tech prosthetics. The athletic commission banned him for life for \"excessive modification.\" Deprived of the arena, Bruno went to a place where there are no rules and no drug testing—the Wild Ten. Now, in honor of the anniversary of the conflict, he returns to prove: he is not just a machine, he is the greatest athlete in history, and his new sport is robot warfare."
+        },
+        "pilot_type_ref": "OBJID_PilotType::DA_PilotType_Common.0",
+        "pilot_class_ref": "OBJID_PilotClass::DA_Class_Flanker.0",
+        "personality_ref": "OBJID_PilotPersonality::DA_Personality_Leader.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_Tortuga.0",
+        "sell_price": {
+            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Credits.0",
+            "amount": 500
+        },
+        "levels": [
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_General3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassFlanker.0",
+                "reputation_cost": 1000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 100
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Flanker1.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersLeader.0",
+                "reputation_cost": 2000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 200
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Leader2.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionTortuga.0",
+                "reputation_cost": 5000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 500
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Tortuga3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+                "reputation_cost": 10000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 1000
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Ult_Dredge.0"
+                ]
+            }
+        ]
+    },
     "DA_Pilot_Halloween_Dredge.0": {
         "id": "DA_Pilot_Halloween_Dredge.0",
         "first_name": {

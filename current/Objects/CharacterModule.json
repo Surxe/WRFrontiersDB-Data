@@ -2287,17 +2287,17 @@
                             "DistanceState": "ExpansionDistanceState"
                         },
                         {
-                            "Distance": 27000.0,
+                            "Distance": 21000.0,
                             "DirectDamageMultiplier": 1.0,
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 50000.0,
+                            "Distance": 45000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
                         {
-                            "Distance": 70001.0,
+                            "Distance": 60001.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "DeathDistanceState"
                         }
@@ -2345,17 +2345,17 @@
                             "DistanceState": "ExpansionDistanceState"
                         },
                         {
-                            "Distance": 27000.0,
+                            "Distance": 21000.0,
                             "DirectDamageMultiplier": 1.0,
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 50000.0,
+                            "Distance": 45000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
                         {
-                            "Distance": 70001.0,
+                            "Distance": 60001.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "DeathDistanceState"
                         }
@@ -3894,8 +3894,8 @@
                     }
                 },
                 "ClipSize": 4,
-                "ProjectileSpeed": 240000.0,
-                "TimeToReload": 5.01,
+                "ProjectileSpeed": 300000.0,
+                "TimeToReload": 4.68,
                 "TimeBetweenShots": 1.35,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -5970,12 +5970,12 @@
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 25001.0,
+                            "Distance": 32000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
                         {
-                            "Distance": 25002.0,
+                            "Distance": 50000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "DeathDistanceState"
                         }
@@ -6080,7 +6080,7 @@
                 },
                 "ClipSize": 3,
                 "ProjectileSpeed": 25000.0,
-                "TimeToReload": 4.36,
+                "TimeToReload": 4.01,
                 "TimeBetweenShots": 1.042,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -6101,12 +6101,12 @@
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 25001.0,
+                            "Distance": 32000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
                         {
-                            "Distance": 25002.0,
+                            "Distance": 50000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "DeathDistanceState"
                         }
