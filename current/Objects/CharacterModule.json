@@ -851,6 +851,57 @@
             "OBJID_Ability::BP_Module_Harpy_Torso.1"
         ]
     },
+    "BP_Module_Heike_Chassis.0": {
+        "id": "BP_Module_Heike_Chassis.0",
+        "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Chassis",
+            "default_scalars": {
+                "LegsArmor": 68000.0,
+                "MaxSpeed": 2200.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7700.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Heike_Chassis.1",
+            "OBJID_Ability::BP_Module_Heike_Chassis.2"
+        ]
+    },
+    "BP_Module_Heike_ShoulderL.0": {
+        "id": "BP_Module_Heike_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Heike_ShoulderR.0": {
+        "id": "BP_Module_Heike_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Heike_Torso.0": {
+        "id": "BP_Module_Heike_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Torso",
+            "default_scalars": {
+                "HullShare": 8500.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Heike_Torso.1"
+        ]
+    },
     "BP_Module_Hitcher_Chassis.0": {
         "id": "BP_Module_Hitcher_Chassis.0",
         "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",

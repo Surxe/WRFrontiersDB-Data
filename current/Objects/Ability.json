@@ -753,7 +753,7 @@
         "description": {
             "Key": "ABL_descr_ElectricShield",
             "TableNamespace": "Ability_descripton",
-            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second. Cooldown: {CD}."
+            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {Duration}. All enemies passing through it receive {Dmg} damage per second. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -5938,7 +5938,7 @@
         "description": {
             "Key": "ABL_descr_Unchained",
             "TableNamespace": "Ability_descripton",
-            "en": "Burns off {HPCostRat} of your current armor to boost weapon damage for 10 sec. While active, converts {Vamp} of damage inflicted into shield and armor."
+            "en": "Sacrifices {HPCostRat} of current armor to increase damage by 25% for 10 seconds. Restores shield and structure for {Vamp} of damage dealt. Cooldown {CD}."
         },
         "misc": {
             "PrimaryParameter": 0.45,
@@ -6733,7 +6733,7 @@
         "description": {
             "Key": "ABL_descr_Ripper",
             "TableNamespace": "Ability_descripton",
-            "en": "Replaces your weapon with swirling blades for {ActDuration}. They shred nearby enemies for {Dmg} damage per hit and restore your armor. Cooldown: {CD}."
+            "en": "Replaces your weapon with swirling blades for {Duration}. They shred nearby enemies for {Dmg} damage per hit and restore your armor. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 30.0,
@@ -6796,7 +6796,7 @@
         "description": {
             "Key": "ABL_descr_Snare",
             "TableNamespace": "Ability_descripton",
-            "en": "Deploys a magnetic trap that lasts {ActDuration} and immobilizes enemies within {ActRadius} for a short time. Cooldown: {CD}."
+            "en": "Deploys a magnetic trap that lasts {Duration} and immobilizes enemies within {ActRadius} for a short time. Cooldown: {CD}. "
         },
         "cooldown": {
             "Cooldown": 30.0,
@@ -7082,6 +7082,222 @@
             "SecondaryParameter": 4000.0
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Napalm"
+    },
+    "BP_Module_Heike_Chassis.1": {
+        "id": "BP_Module_Heike_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3400.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 7000.0,
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Heike_Chassis.2": {
+        "id": "BP_Module_Heike_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 1.1,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": {
+                "FloatCurve": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 140000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.1,
+                            "Value": 70000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1200.0,
+                            "Value": 15000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Heike_Torso.1": {
+        "id": "BP_Module_Heike_Torso.1",
+        "misc": {
+            "Radius": 6500.0,
+            "BuffToOwner": {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.7
+                    }
+                ]
+            },
+            "BuffToTeammate": {
+                "Modifiers": [
+                    {
+                        "what": "IncomingDamage",
+                        "operator": "Multiply",
+                        "value": 0.85
+                    }
+                ]
+            },
+            "EffectType": "Defensive"
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "Radius": 7000.0,
+                    "CountOfCharacters": 2,
+                    "TypeOfCheck": "ESTypeOfAreaCheck::Inside",
+                    "ReactingCharacterType": "ETeamAttitude::Friendly"
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_Ecdysis",
+            "TableNamespace": "Ability_name",
+            "en": "Ecdysis"
+        },
+        "description": {
+            "Key": "ABL_descr_Ecdysis",
+            "TableNamespace": "Ability_descripton",
+            "en": "Discharges its shields in a 70 m pulse, dealing {ShieldDmg} to enemy shields and granting 30% damage resistance to Heike and 15% to allies within the area for {Duration} seconds."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Ecdysis"
     },
     "BP_Module_Hitcher_Chassis.1": {
         "id": "BP_Module_Hitcher_Chassis.1",
@@ -7700,7 +7916,7 @@
         "description": {
             "Key": "ABL_descr_WarpArmor",
             "TableNamespace": "Ability_descripton",
-            "en": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies nearby. The buff lasts for {ActDuration}"
+            "en": "The robot teleports to a selected spot and casts a {ActEfficiency} damage reduction on itself and all allies nearby. The buff lasts for {Duration}"
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -8492,7 +8708,7 @@
         "description": {
             "Key": "ABL_descr_NaniteField",
             "TableNamespace": "Ability_descripton",
-            "en": "Creates a wide area that speeds up allies for {ActDuration} and restores {RegenSpeed}% of armor per tick. Cooldown: {CD}."
+            "en": "Creates a wide area that speeds up allies for {Duration} and restores {RegenSpeed} of armor per tick. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -8924,7 +9140,7 @@
         "description": {
             "Key": "ABL_descr_IonDisruptor",
             "TableNamespace": "Ability_descripton",
-            "en": "Releases a large, slow-moving sphere that deals {Dmg} damage per second to each armor zone it touches and disables enemy gear activation for {Duration}. Cooldown {CD}."
+            "en": "Releases a large, slow-moving sphere that deals {Dmg} damage per second to each armor zone it touches and disables enemy gear activation for {Duration}. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 5.0,
@@ -9022,7 +9238,7 @@
         "description": {
             "Key": "ABL_descr_IonVolley",
             "TableNamespace": "Ability_descripton",
-            "en": "Continuously releases a fan of lightning orbs ahead for {ActDuration}. Each orb deals {Dmg} damage on hit. Cooldown {CD}."
+            "en": "Continuously releases a fan of lightning orbs ahead for {Duration}. Each orb deals {Dmg} damage on hit. Cooldown: {CD}."
         },
         "misc": {
             "PrimaryParameter": 1500.0,
@@ -9126,7 +9342,7 @@
         "description": {
             "Key": "ABL_descr_IonShield",
             "TableNamespace": "Ability_descripton",
-            "en": "Fires a force barrier in the aimed direction. The barrier blocks enemy projectiles and pushes back enemies on contact. It remains active until it takes {FieldHP} damage or until {ActDuration} seconds have passed. Cooldown {CD}."
+            "en": "Fires a force barrier in the aimed direction. The barrier blocks enemy projectiles and pushes back enemies on contact. It remains active until it takes {FieldHP} damage or until {Duration} seconds have passed. Cooldown {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -11504,7 +11720,7 @@
         "description": {
             "Key": "ABL_descr_ShortCircuit",
             "TableNamespace": "Ability_descripton",
-            "en": "Releases a static discharge that bounces off to nearby targets. It deals {Dmg} damage and prevents enemies from using gear for {ActDuration}. Cooldown: {CD}."
+            "en": "Releases a static discharge that bounces off to nearby targets. It deals {Dmg} damage and prevents enemies from using gear for {Duration}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -11530,7 +11746,7 @@
         "description": {
             "Key": "ABL_descr_TeslaCoil",
             "TableNamespace": "Ability_descripton",
-            "en": "Activates a built-in electric weapon for {ActDuration}. It automatically picks a target near your crosshair, dealing {Dmg} damage per shot to a random module. Cooldown: {CD}."
+            "en": "Activates a built-in electric weapon for {Duration}. It automatically picks a target near your crosshair, dealing {Dmg} damage per shot to a random module. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -11630,7 +11846,7 @@
         "description": {
             "Key": "ABL_descr_ElectricShield",
             "TableNamespace": "Ability_descripton",
-            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {ActDuration} seconds. All enemies passing through it receive {Dmg} per second. Cooldown: {CD}."
+            "en": "Generates a barrier that blocks projectiles and slowly travels forward for {Duration}. All enemies passing through it receive {Dmg} damage per second. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -12325,7 +12541,7 @@
         "description": {
             "Key": "ABL_descr_HealingDrone",
             "TableNamespace": "Ability_descripton",
-            "en": "Deploys a drone that repairs allies within {ActRadius} for {ActDuration}."
+            "en": "Deploys a healing drone, restoring 2100 armor per second to allies within {ActRadius} for {ActDuration}. Cooldown {CD}."
         },
         "cooldown": {
             "Cooldown": 35.0,
