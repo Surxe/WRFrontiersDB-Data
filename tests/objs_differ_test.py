@@ -63,3 +63,7 @@ class TestObjDiffer:
     def test_progression_table_unchanged(self, all_versions_data, entity_relationships):
         # progression table was not changed, but module in it was changed. this is dependency-check exception, so it shouldnt be changed
         assert self.do_generic_test(all_versions_data, entity_relationships, "ProgressionTable", "DA_ProgressionTable.0", "2025-08-12", "2025-08-19") is False
+
+    def test_dredge_added(self, all_versions_data, entity_relationships):
+        # Dredge was added in 2025-10-28 and should be detected as changed, despite technically first being added and removed in September (devs added early on accident)
+        assert self.do_generic_test(all_versions_data, entity_relationships, "Pilot", "DA_Pilot_Halloween_Dredge.0", "2025-10-21", "2025-10-28") is True
