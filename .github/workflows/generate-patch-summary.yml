@@ -36,13 +36,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Generate entity relationships
+        run: |
+          python src/entity_relationship.py
       
       - name: Generate patch summary
         run: |
           python src/summarizer.py
         env:
-          FROM_VERSION: ${{ inputs.from_version || github.event.client_payload.from_version }}
-          TO_VERSION: ${{ inputs.to_version || github.event.client_payload.to_version }}
+          GEN_ALL: true
       
       - name: Commit and push summary files
         run: |
