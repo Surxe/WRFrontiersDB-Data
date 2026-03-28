@@ -1,19 +1,10 @@
-name: Generate Patch Summary
-run-name: Generate Patch Summary ${{ inputs.from_version && format('({0} -> {1})', inputs.from_version, inputs.to_version) || '(Auto-detect)' }}
+name: Generate All Patch Summaries
+run-name: Generate All Patch Summaries ${{ inputs.from_version && format('({0} -> {1})', inputs.from_version, inputs.to_version) || '(Auto-detect)' }}
 
 on:
   repository_dispatch:
     types: [data_updated]
   workflow_dispatch:
-    inputs:
-      from_version:
-        description: 'From version (leave empty for auto-detect latest)'
-        required: false
-        type: string
-      to_version:
-        description: 'To version (leave empty for auto-detect latest)'
-        required: false
-        type: string
 
 jobs:
   generate-summary:
