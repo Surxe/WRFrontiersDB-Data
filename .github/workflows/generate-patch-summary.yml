@@ -23,6 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: dev
           fetch-depth: 0  # Fetch all history for git operations
           token: ${{ secrets.WORKFLOW_PAT }}
       
@@ -63,5 +64,7 @@ jobs:
             fi
             
             git commit -m "$COMMIT_MSG"
-            git push
+            git push origin dev
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_PAT }}
