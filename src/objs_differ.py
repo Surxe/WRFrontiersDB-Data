@@ -122,7 +122,6 @@ def search_dependent_objects(entity_relationships: dict, version_data_before: di
         entity_relationships: Entity relationships dictionary
         version_data_before: Version data from archive before
         version_data_after: Version data from archive after
-        version_data: Version data from archive
         entity_class: The class of object to search dependencies for
         obj_id: The ID of object to search dependencies for
         visited: Set of visited objects to prevent infinite recursion
@@ -271,24 +270,17 @@ def has_obj_changed(
                     return True
                 else:
                     if SHOULD_IGNORE_DEPENDENCY_CHANGES_BY_CLASS.get(parse_object_class, False):
-                        return False #only check if dependency is changed if we should.
-                    
-                    # Check if any dependent objects have changed
-                    dependencies_changed = search_dependent_objects(
-                        entity_relationships, 
-                        version_datas_before,
-                        version_datas_after,
-                        parse_object_class, 
-                        obj_id
-                    )
-                    
-                    if dependencies_changed:
-                        logger.info(f"Dependent objects have changed for {parse_object_class}:{obj_id}")
-                        return True
-                    
-                    logger.debug(f"No dependent objects changed for {parse_object_class}:{obj_id}")
-                    return False
-
+                        return False
+                    else:
+                        return search_dependent_objects(
+                            entity_relationships,
+                            version_datas_before,
+                            version_datas_after,
+                            parse_object_class,
+                            obj_id,
+                            visited=set(),
+                            depth=0
+                        )
 
         else:
             raise ValueError("Unexpected state")
@@ -311,6 +303,7 @@ class ObjsDiffer:
         version_data_after = self.all_versions_data[version_name_after]
 
         changed_object_ids = {}
+        # Check all objects that existed in the before version
         for obj_id in version_data_before[entity_class]:
             has_changed = has_obj_changed(
                 self.entity_relationships,
@@ -324,6 +317,21 @@ class ObjsDiffer:
             if has_changed:
                 logger.debug(f"{entity_class}:{obj_id} has changed")
                 changed_object_ids[obj_id] = True
+        
+        # Check for newly added objects (exist in after but not in before)
+        for obj_id in version_data_after[entity_class]:
+            if obj_id not in version_data_before[entity_class]:
+                has_changed = has_obj_changed(
+                    self.entity_relationships,
+                    entity_class,
+                    version_data_before,
+                    version_data_after,
+                    obj_id,
+                    is_prod_ready(entity_class, version_data_before[entity_class].get(obj_id)),
+                    is_prod_ready(entity_class, version_data_after[entity_class].get(obj_id))
+                )
+                if has_changed:
+                    changed_object_ids[obj_id] = True
 
         return changed_object_ids
 
