@@ -1,5 +1,5 @@
 name: Generate All Patch Summaries
-run-name: Generate All Patch Summaries ${{ inputs.from_version && format('({0} -> {1})', inputs.from_version, inputs.to_version) || '(Auto-detect)' }}
+run-name: Generate All Patch Summaries
 
 on:
   repository_dispatch:
