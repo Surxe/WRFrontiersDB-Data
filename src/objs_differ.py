@@ -248,7 +248,7 @@ def has_obj_changed(
         if not obj_before and not obj_after:
             raise ValueError("Both obj_before and obj_after are None")
         elif obj_before and not obj_after: #object was removed
-            return True
+            return False
         elif not obj_before and obj_after: #object was added
             # Only consider it changed if its now prod ready
             if not after_is_prod_ready:
