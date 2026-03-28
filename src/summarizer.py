@@ -173,6 +173,8 @@ def main(from_version: Optional[str] = None, to_version: Optional[str] = None, g
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     archive_dir = os.path.join(repo_root, 'archive')
     summaries_dir = os.path.join(repo_root, 'summaries')
+    if not os.path.exists(summaries_dir):
+        os.makedirs(summaries_dir)
     version_config_file = os.path.join(repo_root, 'versions.json')
     entity_relationships_dir = os.path.join(repo_root, 'entity_relationships')
     summarizer = PatchSummarizer(archive_dir, summaries_dir, version_config_file, entity_relationships_dir)
