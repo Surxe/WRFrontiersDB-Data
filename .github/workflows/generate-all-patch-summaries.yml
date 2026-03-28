@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-summary:
+  generate-summaries:
     runs-on: ubuntu-latest
     
     steps:
@@ -32,7 +32,7 @@ jobs:
         run: |
           python src/entity_relationship.py
       
-      - name: Generate patch summary
+      - name: Generate patch summaries
         run: |
           python src/summarizer.py
         env:
