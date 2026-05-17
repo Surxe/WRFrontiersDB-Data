@@ -8,7 +8,15 @@
         },
         "badge": {
             "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesAssaultBig",
-            "hex": "CBF4F9"
+            "color": {
+                "RGBA": {
+                    "R": 0.597202,
+                    "G": 0.904661,
+                    "B": 0.947307,
+                    "A": 1.0
+                },
+                "Hex": "CBF4F9"
+            }
         }
     },
     "DA_Class_Flanker.0": {
@@ -20,7 +28,15 @@
         },
         "badge": {
             "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesFlankerBig",
-            "hex": "CBF4F9"
+            "color": {
+                "RGBA": {
+                    "R": 0.597202,
+                    "G": 0.904661,
+                    "B": 0.947307,
+                    "A": 1.0
+                },
+                "Hex": "CBF4F9"
+            }
         }
     },
     "DA_Class_RangedSupport.0": {
@@ -32,7 +48,15 @@
         },
         "badge": {
             "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesTacticianBig",
-            "hex": "CBF4F9"
+            "color": {
+                "RGBA": {
+                    "R": 0.597202,
+                    "G": 0.904661,
+                    "B": 0.947307,
+                    "A": 1.0
+                },
+                "Hex": "CBF4F9"
+            }
         }
     },
     "DA_Class_Tank.0": {
@@ -44,7 +68,15 @@
         },
         "badge": {
             "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Classes/T_RobotClassesDefenderBig",
-            "hex": "CBF4F9"
+            "color": {
+                "RGBA": {
+                    "R": 0.597202,
+                    "G": 0.904661,
+                    "B": 0.947307,
+                    "A": 1.0
+                },
+                "Hex": "CBF4F9"
+            }
         }
     }
 }

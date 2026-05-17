@@ -68,9 +68,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_BotAdv_CeresBisector.0": {
         "id": "DA_Preset_BotAdv_CeresBisector.0",
@@ -135,9 +139,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0"
     },
     "DA_Preset_BotAdv_CeresLocust.0": {
         "id": "DA_Preset_BotAdv_CeresLocust.0",
@@ -202,9 +210,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0"
     },
     "DA_Preset_BotAdv_CyclopsGozer.0": {
         "id": "DA_Preset_BotAdv_CyclopsGozer.0",
@@ -275,9 +287,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_BotAdv_FenrirPulsar.0": {
         "id": "DA_Preset_BotAdv_FenrirPulsar.0",
@@ -342,9 +358,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_BotAdv_FuryLighter.0": {
         "id": "DA_Preset_BotAdv_FuryLighter.0",
@@ -409,9 +429,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotAdv_GriffinRailgun.0": {
         "id": "DA_Preset_BotAdv_GriffinRailgun.0",
@@ -482,9 +506,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0"
     },
     "DA_Preset_BotAdv_GriffinThunder.0": {
         "id": "DA_Preset_BotAdv_GriffinThunder.0",
@@ -543,9 +571,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_BotAdv_HarpyNorricum.0": {
         "id": "DA_Preset_BotAdv_HarpyNorricum.0",
@@ -616,9 +648,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0"
     },
     "DA_Preset_BotAdv_LancelotThunder.0": {
         "id": "DA_Preset_BotAdv_LancelotThunder.0",
@@ -677,9 +713,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_BotAdv_MesaLocust.0": {
         "id": "DA_Preset_BotAdv_MesaLocust.0",
@@ -744,9 +784,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0"
     },
     "DA_Preset_BotAdv_OrochiShocktrain.0": {
         "id": "DA_Preset_BotAdv_OrochiShocktrain.0",
@@ -817,9 +861,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0"
     },
     "DA_Preset_BotAdv_PhantomScourge.0": {
         "id": "DA_Preset_BotAdv_PhantomScourge.0",
@@ -890,9 +938,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotAdv_PhantomStickyGun.0": {
         "id": "DA_Preset_BotAdv_PhantomStickyGun.0",
@@ -963,9 +1015,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_BotAdv_PurifierScatter.0": {
         "id": "DA_Preset_BotAdv_PurifierScatter.0",
@@ -1030,9 +1086,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_BotAdv_PurifierTrebuchet.0": {
         "id": "DA_Preset_BotAdv_PurifierTrebuchet.0",
@@ -1097,9 +1157,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0"
     },
     "DA_Preset_BotAdv_PursuerTusk.0": {
         "id": "DA_Preset_BotAdv_PursuerTusk.0",
@@ -1164,9 +1228,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Tusk.0"
     },
     "DA_Preset_BotAdv_RavanaRampant.0": {
         "id": "DA_Preset_BotAdv_RavanaRampant.0",
@@ -1231,9 +1299,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0"
     },
     "DA_Preset_BotAdv_RavanaShredder.0": {
         "id": "DA_Preset_BotAdv_RavanaShredder.0",
@@ -1304,9 +1376,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0"
     },
     "DA_Preset_BotAdv_RavenFowler.0": {
         "id": "DA_Preset_BotAdv_RavenFowler.0",
@@ -1365,9 +1441,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_BotAdv_RavenTrident.0": {
         "id": "DA_Preset_BotAdv_RavenTrident.0",
@@ -1426,9 +1506,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_BotAdv_ScorpionHalo.0": {
         "id": "DA_Preset_BotAdv_ScorpionHalo.0",
@@ -1493,9 +1577,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0"
     },
     "DA_Preset_BotAdv_SirenFowlerQuantum.0": {
         "id": "DA_Preset_BotAdv_SirenFowlerQuantum.0",
@@ -1560,9 +1648,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_BotAdv_SirenVortex2.0": {
         "id": "DA_Preset_BotAdv_SirenVortex2.0",
@@ -1627,9 +1719,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0"
     },
     "DA_Preset_BotAdv_TyphonScourge.0": {
         "id": "DA_Preset_BotAdv_TyphonScourge.0",
@@ -1700,9 +1796,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotAdv_TyrRailgun.0": {
         "id": "DA_Preset_BotAdv_TyrRailgun.0",
@@ -1773,9 +1873,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0"
     },
     "DA_Preset_BotAdv_VarangianLighter.0": {
         "id": "DA_Preset_BotAdv_VarangianLighter.0",
@@ -1840,9 +1944,13 @@
                 "level": 10
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 4
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotBegin_BulgasariGozer.0": {
         "id": "DA_Preset_BotBegin_BulgasariGozer.0",
@@ -1913,9 +2021,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_BotBegin_BulgasariPulsar.0": {
         "id": "DA_Preset_BotBegin_BulgasariPulsar.0",
@@ -1974,9 +2086,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_BotBegin_FenrirIncinerator.0": {
         "id": "DA_Preset_BotBegin_FenrirIncinerator.0",
@@ -2041,9 +2157,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0"
     },
     "DA_Preset_BotBegin_FenrirPulsar.0": {
         "id": "DA_Preset_BotBegin_FenrirPulsar.0",
@@ -2108,9 +2228,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_BotBegin_FuryFowler.0": {
         "id": "DA_Preset_BotBegin_FuryFowler.0",
@@ -2175,9 +2299,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_BotBegin_GriffinStickyGun.0": {
         "id": "DA_Preset_BotBegin_GriffinStickyGun.0",
@@ -2248,9 +2376,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_BotBegin_HarpyDragoon.0": {
         "id": "DA_Preset_BotBegin_HarpyDragoon.0",
@@ -2315,9 +2447,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Dragoon.0"
     },
     "DA_Preset_BotBegin_LancelotQuantum.0": {
         "id": "DA_Preset_BotBegin_LancelotQuantum.0",
@@ -2388,9 +2524,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_BotBegin_LancelotThunder.0": {
         "id": "DA_Preset_BotBegin_LancelotThunder.0",
@@ -2449,9 +2589,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_BotBegin_LokiLighter.0": {
         "id": "DA_Preset_BotBegin_LokiLighter.0",
@@ -2516,9 +2660,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotBegin_OrochiShocktrain.0": {
         "id": "DA_Preset_BotBegin_OrochiShocktrain.0",
@@ -2589,9 +2737,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0"
     },
     "DA_Preset_BotBegin_OrochiTrident.0": {
         "id": "DA_Preset_BotBegin_OrochiTrident.0",
@@ -2650,9 +2802,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_BotBegin_PhantomScatter.0": {
         "id": "DA_Preset_BotBegin_PhantomScatter.0",
@@ -2717,9 +2873,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_BotBegin_PhantomScourge.0": {
         "id": "DA_Preset_BotBegin_PhantomScourge.0",
@@ -2790,9 +2950,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotBegin_RavanaQuantum.0": {
         "id": "DA_Preset_BotBegin_RavanaQuantum.0",
@@ -2857,9 +3021,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_BotBegin_SirenZeusRailgun.0": {
         "id": "DA_Preset_BotBegin_SirenZeusRailgun.0",
@@ -2924,9 +3092,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_BotBegin_TyphonTrebuchet.0": {
         "id": "DA_Preset_BotBegin_TyphonTrebuchet.0",
@@ -2985,9 +3157,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0"
     },
     "DA_Preset_BotBegin_VarangianLighter.0": {
         "id": "DA_Preset_BotBegin_VarangianLighter.0",
@@ -3052,9 +3228,13 @@
                 "level": 4
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 2
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotInterm_AresOrkan.0": {
         "id": "DA_Preset_BotInterm_AresOrkan.0",
@@ -3125,9 +3305,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
     },
     "DA_Preset_BotInterm_BulwarkQuantum.0": {
         "id": "DA_Preset_BotInterm_BulwarkQuantum.0",
@@ -3198,9 +3382,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_BotInterm_BulwarkScourge.0": {
         "id": "DA_Preset_BotInterm_BulwarkScourge.0",
@@ -3265,9 +3453,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotInterm_BulwarkStickyGun.0": {
         "id": "DA_Preset_BotInterm_BulwarkStickyGun.0",
@@ -3332,9 +3524,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_BotInterm_FenrirIncinerator.0": {
         "id": "DA_Preset_BotInterm_FenrirIncinerator.0",
@@ -3399,9 +3595,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0"
     },
     "DA_Preset_BotInterm_GriffinThunder.0": {
         "id": "DA_Preset_BotInterm_GriffinThunder.0",
@@ -3460,9 +3660,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_BotInterm_HarpyDragoon.0": {
         "id": "DA_Preset_BotInterm_HarpyDragoon.0",
@@ -3527,9 +3731,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Dragoon.0"
     },
     "DA_Preset_BotInterm_HarpyNorricum.0": {
         "id": "DA_Preset_BotInterm_HarpyNorricum.0",
@@ -3600,9 +3808,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0"
     },
     "DA_Preset_BotInterm_LancelotThunder.0": {
         "id": "DA_Preset_BotInterm_LancelotThunder.0",
@@ -3661,9 +3873,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_BotInterm_LokiLighter.0": {
         "id": "DA_Preset_BotInterm_LokiLighter.0",
@@ -3728,9 +3944,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotInterm_PhantomIncinerator.0": {
         "id": "DA_Preset_BotInterm_PhantomIncinerator.0",
@@ -3795,9 +4015,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0"
     },
     "DA_Preset_BotInterm_PhantomScatter.0": {
         "id": "DA_Preset_BotInterm_PhantomScatter.0",
@@ -3862,9 +4086,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_BotInterm_PurifierGozer.0": {
         "id": "DA_Preset_BotInterm_PurifierGozer.0",
@@ -3929,9 +4157,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_BotInterm_RavanaRampant.0": {
         "id": "DA_Preset_BotInterm_RavanaRampant.0",
@@ -3996,9 +4228,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0"
     },
     "DA_Preset_BotInterm_RavenTrident.0": {
         "id": "DA_Preset_BotInterm_RavenTrident.0",
@@ -4057,9 +4293,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_BotInterm_ScorpionHalo.0": {
         "id": "DA_Preset_BotInterm_ScorpionHalo.0",
@@ -4124,9 +4364,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0"
     },
     "DA_Preset_BotInterm_SirenZeusRailgun.0": {
         "id": "DA_Preset_BotInterm_SirenZeusRailgun.0",
@@ -4191,9 +4435,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_BotInterm_VarangianLighter.0": {
         "id": "DA_Preset_BotInterm_VarangianLighter.0",
@@ -4258,9 +4506,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotInterm_VarangianPunisher.0": {
         "id": "DA_Preset_BotInterm_VarangianPunisher.0",
@@ -4331,9 +4583,13 @@
                 "level": 7
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+            "level": 3
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0"
     },
     "DA_Preset_BotPro_AresOrkan.0": {
         "id": "DA_Preset_BotPro_AresOrkan.0",
@@ -4404,9 +4660,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
     },
     "DA_Preset_BotPro_AresScatter.0": {
         "id": "DA_Preset_BotPro_AresScatter.0",
@@ -4471,9 +4731,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_BotPro_AresVortex.0": {
         "id": "DA_Preset_BotPro_AresVortex.0",
@@ -4544,9 +4808,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0"
     },
     "DA_Preset_BotPro_BulgasariHalo.0": {
         "id": "DA_Preset_BotPro_BulgasariHalo.0",
@@ -4611,9 +4879,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_BotPro_BulgasariPulsar.0": {
         "id": "DA_Preset_BotPro_BulgasariPulsar.0",
@@ -4672,9 +4944,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_BotPro_BulwarkQuantum.0": {
         "id": "DA_Preset_BotPro_BulwarkQuantum.0",
@@ -4745,9 +5021,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_BotPro_CeresNorricum.0": {
         "id": "DA_Preset_BotPro_CeresNorricum.0",
@@ -4812,9 +5092,13 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Noricum.0"
     },
     "DA_Preset_BotPro_CyclopsGemini.0": {
         "id": "DA_Preset_BotPro_CyclopsGemini.0",
@@ -4879,9 +5163,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Twinflare.0"
     },
     "DA_Preset_BotPro_CyclopsHalo.0": {
         "id": "DA_Preset_BotPro_CyclopsHalo.0",
@@ -4946,9 +5234,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0"
     },
     "DA_Preset_BotPro_FuryGemini.0": {
         "id": "DA_Preset_BotPro_FuryGemini.0",
@@ -5013,9 +5305,13 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Twinflare.0"
     },
     "DA_Preset_BotPro_FuryLighter.0": {
         "id": "DA_Preset_BotPro_FuryLighter.0",
@@ -5080,9 +5376,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotPro_GriffinRailgun.0": {
         "id": "DA_Preset_BotPro_GriffinRailgun.0",
@@ -5153,9 +5453,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Railgun.0"
     },
     "DA_Preset_BotPro_GriffinStickyGun.0": {
         "id": "DA_Preset_BotPro_GriffinStickyGun.0",
@@ -5226,9 +5530,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_BotPro_HarpyDragoon.0": {
         "id": "DA_Preset_BotPro_HarpyDragoon.0",
@@ -5293,9 +5601,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Dragoon.0"
     },
     "DA_Preset_BotPro_HarpyFowler.0": {
         "id": "DA_Preset_BotPro_HarpyFowler.0",
@@ -5360,9 +5672,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_BotPro_LancelotZeus.0": {
         "id": "DA_Preset_BotPro_LancelotZeus.0",
@@ -5421,9 +5737,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_BotPro_LokiTusk.0": {
         "id": "DA_Preset_BotPro_LokiTusk.0",
@@ -5488,9 +5808,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Tusk.0"
     },
     "DA_Preset_BotPro_MesaLocust.0": {
         "id": "DA_Preset_BotPro_MesaLocust.0",
@@ -5555,9 +5879,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0"
     },
     "DA_Preset_BotPro_OrochiScourge.0": {
         "id": "DA_Preset_BotPro_OrochiScourge.0",
@@ -5628,9 +5956,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotPro_PhantomScourge.0": {
         "id": "DA_Preset_BotPro_PhantomScourge.0",
@@ -5701,9 +6033,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotPro_PurifierTrebuchet.0": {
         "id": "DA_Preset_BotPro_PurifierTrebuchet.0",
@@ -5768,9 +6104,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0"
     },
     "DA_Preset_BotPro_PursuerHalo.0": {
         "id": "DA_Preset_BotPro_PursuerHalo.0",
@@ -5835,9 +6175,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0"
     },
     "DA_Preset_BotPro_RavanaRampant.0": {
         "id": "DA_Preset_BotPro_RavanaRampant.0",
@@ -5902,9 +6246,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0"
     },
     "DA_Preset_BotPro_RavanaShredder.0": {
         "id": "DA_Preset_BotPro_RavanaShredder.0",
@@ -5975,9 +6323,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0"
     },
     "DA_Preset_BotPro_RavenScourge.0": {
         "id": "DA_Preset_BotPro_RavenScourge.0",
@@ -6048,9 +6400,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_BotPro_RavenTrident.0": {
         "id": "DA_Preset_BotPro_RavenTrident.0",
@@ -6109,9 +6465,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_BotPro_ScorpionLocust.0": {
         "id": "DA_Preset_BotPro_ScorpionLocust.0",
@@ -6182,9 +6542,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0"
     },
     "DA_Preset_BotPro_SirenPunisher.0": {
         "id": "DA_Preset_BotPro_SirenPunisher.0",
@@ -6255,9 +6619,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0"
     },
     "DA_Preset_BotPro_SirenZeusRailgun.0": {
         "id": "DA_Preset_BotPro_SirenZeusRailgun.0",
@@ -6322,9 +6690,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_BotPro_TyphonPunisher.0": {
         "id": "DA_Preset_BotPro_TyphonPunisher.0",
@@ -6395,9 +6767,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0"
     },
     "DA_Preset_BotPro_TyrLighter.0": {
         "id": "DA_Preset_BotPro_TyrLighter.0",
@@ -6456,9 +6832,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_BotPro_TyrOrkan.0": {
         "id": "DA_Preset_BotPro_TyrOrkan.0",
@@ -6529,9 +6909,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
     },
     "DA_Preset_BotPro_TyrZeus.0": {
         "id": "DA_Preset_BotPro_TyrZeus.0",
@@ -6590,9 +6974,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_BotPro_VarangianGozer.0": {
         "id": "DA_Preset_BotPro_VarangianGozer.0",
@@ -6663,9 +7051,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_BotPro_VarangianPunisher.0": {
         "id": "DA_Preset_BotPro_VarangianPunisher.0",
@@ -6736,9 +7128,13 @@
                 "level": 13
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+            "level": 5
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0"
     },
     "DA_Preset_Bot_AresScatter.0": {
         "id": "DA_Preset_Bot_AresScatter.0",
@@ -6803,9 +7199,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_Bot_BulgasariPulsar.0": {
         "id": "DA_Preset_Bot_BulgasariPulsar.0",
@@ -6864,9 +7263,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_Bot_FuryFowler.0": {
         "id": "DA_Preset_Bot_FuryFowler.0",
@@ -6931,9 +7333,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_Bot_GriffinThunder.0": {
         "id": "DA_Preset_Bot_GriffinThunder.0",
@@ -6992,9 +7397,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_Bot_HarpyRampantRailgun.0": {
         "id": "DA_Preset_Bot_HarpyRampantRailgun.0",
@@ -7059,9 +7467,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_GrenadeLauncher.0"
     },
     "DA_Preset_Bot_LancelotQuantum.0": {
         "id": "DA_Preset_Bot_LancelotQuantum.0",
@@ -7132,9 +7543,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_Bot_LancelotZeus.0": {
         "id": "DA_Preset_Bot_LancelotZeus.0",
@@ -7193,9 +7607,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_Bot_PurifierShredder.0": {
         "id": "DA_Preset_Bot_PurifierShredder.0",
@@ -7266,9 +7683,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shredder_Tutorial.0"
     },
     "DA_Preset_Bot_TyphonShocktrain.0": {
         "id": "DA_Preset_Bot_TyphonShocktrain.0",
@@ -7339,9 +7759,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0"
     },
     "DA_Preset_Bot_VarangianGozer.0": {
         "id": "DA_Preset_Bot_VarangianGozer.0",
@@ -7412,9 +7835,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_DevbotAnansi.0": {
         "id": "DA_Preset_DevbotAnansi.0",
@@ -7474,9 +7900,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_MLx2.0"
     },
     "DA_Preset_DevbotAres.0": {
         "id": "DA_Preset_DevbotAres.0",
@@ -7548,9 +7977,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
     "DA_Preset_DevbotBulgasari.0": {
         "id": "DA_Preset_DevbotBulgasari.0",
@@ -7622,9 +8054,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0"
     },
     "DA_Preset_DevbotBulwark.0": {
         "id": "DA_Preset_DevbotBulwark.0",
@@ -7684,9 +8119,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_DevbotCeres.0": {
         "id": "DA_Preset_DevbotCeres.0",
@@ -7752,9 +8190,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Bisector.0"
     },
     "DA_Preset_DevbotCyclops.0": {
         "id": "DA_Preset_DevbotCyclops.0",
@@ -7820,9 +8261,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Twinflare.0"
     },
     "DA_Preset_DevbotFenrir.0": {
         "id": "DA_Preset_DevbotFenrir.0",
@@ -7888,9 +8332,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_DevbotFury.0": {
         "id": "DA_Preset_DevbotFury.0",
@@ -7956,9 +8403,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_DevbotGaruda.0": {
         "id": "DA_Preset_DevbotGaruda.0",
@@ -8030,9 +8480,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
     },
     "DA_Preset_DevbotGriffin.0": {
         "id": "DA_Preset_DevbotGriffin.0",
@@ -8104,9 +8557,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_DevbotHarpy.0": {
         "id": "DA_Preset_DevbotHarpy.0",
@@ -8172,9 +8628,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0"
     },
     "DA_Preset_DevbotHeike.0": {
         "id": "DA_Preset_DevbotHeike.0",
@@ -8234,9 +8693,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_DevbotHitcher.0": {
         "id": "DA_Preset_DevbotHitcher.0",
@@ -8302,9 +8764,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Nucleon.0"
     },
     "DA_Preset_DevbotKernel.0": {
         "id": "DA_Preset_DevbotKernel.0",
@@ -8370,9 +8835,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hefty.0"
     },
     "DA_Preset_DevbotKumo.0": {
         "id": "DA_Preset_DevbotKumo.0",
@@ -8432,9 +8900,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Horde.0"
     },
     "DA_Preset_DevbotLancelot.0": {
         "id": "DA_Preset_DevbotLancelot.0",
@@ -8506,9 +8977,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Punisher.0"
     },
     "DA_Preset_DevbotLoki.0": {
         "id": "DA_Preset_DevbotLoki.0",
@@ -8574,9 +9048,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Glory.0"
     },
     "DA_Preset_DevbotMesa.0": {
         "id": "DA_Preset_DevbotMesa.0",
@@ -8642,9 +9119,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Locust.0"
     },
     "DA_Preset_DevbotNipper.0": {
         "id": "DA_Preset_DevbotNipper.0",
@@ -8716,9 +9196,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Stormpike.0"
     },
     "DA_Preset_DevbotOrochi.0": {
         "id": "DA_Preset_DevbotOrochi.0",
@@ -8778,9 +9261,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_DevbotPhantom.0": {
         "id": "DA_Preset_DevbotPhantom.0",
@@ -8846,9 +9332,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_DevbotPhantom_Legend.0": {
         "id": "DA_Preset_DevbotPhantom_Legend.0",
@@ -8914,9 +9403,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Toxin.0"
     },
     "DA_Preset_DevbotPurifier.0": {
         "id": "DA_Preset_DevbotPurifier.0",
@@ -8982,9 +9474,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0"
     },
     "DA_Preset_DevbotPursuer.0": {
         "id": "DA_Preset_DevbotPursuer.0",
@@ -9050,9 +9545,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scatter.0"
     },
     "DA_Preset_DevbotRavana.0": {
         "id": "DA_Preset_DevbotRavana.0",
@@ -9118,9 +9616,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_DevbotRaven.0": {
         "id": "DA_Preset_DevbotRaven.0",
@@ -9192,9 +9693,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_DevbotScorpion.0": {
         "id": "DA_Preset_DevbotScorpion.0",
@@ -9260,9 +9764,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Tusk.0"
     },
     "DA_Preset_DevbotSiren.0": {
         "id": "DA_Preset_DevbotSiren.0",
@@ -9328,9 +9835,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_DevbotTyphon.0": {
         "id": "DA_Preset_DevbotTyphon.0",
@@ -9402,9 +9912,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0"
+        },
         "is_factory_preset": false,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0"
     },
     "DA_Preset_DevbotVarangian.0": {
         "id": "DA_Preset_DevbotVarangian.0",
@@ -9476,9 +9989,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
     },
     "DA_Preset_Legend_DevbotBulgasari.0": {
         "id": "DA_Preset_Legend_DevbotBulgasari.0",
@@ -9550,9 +10066,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shredder.0"
     },
     "DA_Preset_Legend_DevbotBulwark.0": {
         "id": "DA_Preset_Legend_DevbotBulwark.0",
@@ -9612,9 +10131,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Thunder.0"
     },
     "DA_Preset_Legend_DevbotFenrir.0": {
         "id": "DA_Preset_Legend_DevbotFenrir.0",
@@ -9680,9 +10202,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Fowler.0"
     },
     "DA_Preset_Legend_DevbotFury.0": {
         "id": "DA_Preset_Legend_DevbotFury.0",
@@ -9748,9 +10273,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Pulsar.0"
     },
     "DA_Preset_Legend_DevbotGriffin.0": {
         "id": "DA_Preset_Legend_DevbotGriffin.0",
@@ -9822,9 +10350,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Buckshot.0"
     },
     "DA_Preset_Legend_DevbotHarpy.0": {
         "id": "DA_Preset_Legend_DevbotHarpy.0",
@@ -9890,9 +10421,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trebuchet.0"
     },
     "DA_Preset_Legend_DevbotOrochi.0": {
         "id": "DA_Preset_Legend_DevbotOrochi.0",
@@ -9952,9 +10486,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Zeus.0"
     },
     "DA_Preset_Legend_DevbotPurifier.0": {
         "id": "DA_Preset_Legend_DevbotPurifier.0",
@@ -10020,9 +10557,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Incinerator.0"
     },
     "DA_Preset_Legend_DevbotRavana.0": {
         "id": "DA_Preset_Legend_DevbotRavana.0",
@@ -10088,9 +10628,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_StickyGun.0"
     },
     "DA_Preset_Legend_DevbotRaven.0": {
         "id": "DA_Preset_Legend_DevbotRaven.0",
@@ -10162,9 +10705,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
     "DA_Preset_Legend_DevbotSiren.0": {
         "id": "DA_Preset_Legend_DevbotSiren.0",
@@ -10230,9 +10776,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Trident.0"
     },
     "DA_Preset_Legend_DevbotTyphon.0": {
         "id": "DA_Preset_Legend_DevbotTyphon.0",
@@ -10304,9 +10853,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Shocktrain.0"
     },
     "DA_Preset_Legend_DevbotTyr.0": {
         "id": "DA_Preset_Legend_DevbotTyr.0",
@@ -10378,9 +10930,12 @@
                 "level": 1
             }
         ],
-        "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0"
+        },
         "is_factory_preset": true,
-        "character_type": "Mech"
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Vortex.0"
     },
     "DA_Preset_TitanAdv_Alpha.0": {
         "id": "DA_Preset_TitanAdv_Alpha.0",
@@ -10423,7 +10978,8 @@
                 "level": 10
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0"
     },
     "DA_Preset_TitanAdv_Grim.0": {
         "id": "DA_Preset_TitanAdv_Grim.0",
@@ -10466,7 +11022,8 @@
                 "level": 10
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0"
     },
     "DA_Preset_TitanAdv_Matriarch.0": {
         "id": "DA_Preset_TitanAdv_Matriarch.0",
@@ -10515,7 +11072,8 @@
                 "level": 10
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0"
     },
     "DA_Preset_TitanAdv_Spire.0": {
         "id": "DA_Preset_TitanAdv_Spire.0",
@@ -10564,7 +11122,8 @@
                 "level": 10
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Cascade.0"
     },
     "DA_Preset_TitanBegin_Alpha.0": {
         "id": "DA_Preset_TitanBegin_Alpha.0",
@@ -10607,7 +11166,8 @@
                 "level": 4
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0"
     },
     "DA_Preset_TitanBegin_Matriarch.0": {
         "id": "DA_Preset_TitanBegin_Matriarch.0",
@@ -10656,7 +11216,8 @@
                 "level": 4
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0"
     },
     "DA_Preset_TitanInterm_Alpha.0": {
         "id": "DA_Preset_TitanInterm_Alpha.0",
@@ -10699,7 +11260,8 @@
                 "level": 7
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0"
     },
     "DA_Preset_TitanInterm_Grim.0": {
         "id": "DA_Preset_TitanInterm_Grim.0",
@@ -10742,7 +11304,8 @@
                 "level": 7
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0"
     },
     "DA_Preset_TitanInterm_Matriarch.0": {
         "id": "DA_Preset_TitanInterm_Matriarch.0",
@@ -10791,7 +11354,8 @@
                 "level": 7
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0"
     },
     "DA_Preset_TitanInterm_ScrubberMatriarch.0": {
         "id": "DA_Preset_TitanInterm_ScrubberMatriarch.0",
@@ -10840,7 +11404,8 @@
                 "level": 7
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scrubber.0"
     },
     "DA_Preset_TitanInterm_Spire.0": {
         "id": "DA_Preset_TitanInterm_Spire.0",
@@ -10889,7 +11454,8 @@
                 "level": 7
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Cascade.0"
     },
     "DA_Preset_TitanPro_Alpha_Bayonet.0": {
         "id": "DA_Preset_TitanPro_Alpha_Bayonet.0",
@@ -10932,7 +11498,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Bayonet.0"
     },
     "DA_Preset_TitanPro_Alpha_Lvl13.0": {
         "id": "DA_Preset_TitanPro_Alpha_Lvl13.0",
@@ -10975,7 +11542,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0"
     },
     "DA_Preset_TitanPro_Grim.0": {
         "id": "DA_Preset_TitanPro_Grim.0",
@@ -11018,7 +11586,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0"
     },
     "DA_Preset_TitanPro_Grim_Jigsaw.0": {
         "id": "DA_Preset_TitanPro_Grim_Jigsaw.0",
@@ -11061,7 +11630,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Jigsaw.0"
     },
     "DA_Preset_TitanPro_Matriarch.0": {
         "id": "DA_Preset_TitanPro_Matriarch.0",
@@ -11110,7 +11680,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0"
     },
     "DA_Preset_TitanPro_ScrubberMatriarch.0": {
         "id": "DA_Preset_TitanPro_ScrubberMatriarch.0",
@@ -11159,7 +11730,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scrubber.0"
     },
     "DA_Preset_TitanPro_Spire_lvl13.0": {
         "id": "DA_Preset_TitanPro_Spire_lvl13.0",
@@ -11208,7 +11780,8 @@
                 "level": 13
             }
         ],
-        "is_factory_preset": false
+        "is_factory_preset": false,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Cascade.0"
     },
     "DA_Preset_Titan_Alpha.0": {
         "id": "DA_Preset_Titan_Alpha.0",
@@ -11251,7 +11824,8 @@
                 "level": 1
             }
         ],
-        "is_factory_preset": true
+        "is_factory_preset": true,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Callisto.0"
     },
     "DA_Preset_Titan_Grim.0": {
         "id": "DA_Preset_Titan_Grim.0",
@@ -11294,7 +11868,8 @@
                 "level": 1
             }
         ],
-        "is_factory_preset": true
+        "is_factory_preset": true,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Katzbalger.0"
     },
     "DA_Preset_Titan_Matriarch.0": {
         "id": "DA_Preset_Titan_Matriarch.0",
@@ -11343,7 +11918,8 @@
                 "level": 1
             }
         ],
-        "is_factory_preset": true
+        "is_factory_preset": true,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Hive.0"
     },
     "DA_Preset_Titan_Norna.0": {
         "id": "DA_Preset_Titan_Norna.0",
@@ -11392,7 +11968,8 @@
                 "level": 1
             }
         ],
-        "is_factory_preset": true
+        "is_factory_preset": true,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Coriolis.0"
     },
     "DA_Preset_Titan_Spire.0": {
         "id": "DA_Preset_Titan_Spire.0",
@@ -11441,6 +12018,7 @@
                 "level": 1
             }
         ],
-        "is_factory_preset": true
+        "is_factory_preset": true,
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Cascade.0"
     }
 }

@@ -42,7 +42,15 @@
         ],
         "wallet_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_AlloysLarge",
         "large_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Alloys_Render",
-        "background_color": "364242",
+        "background_color": {
+            "RGBA": {
+                "R": 0.036889,
+                "G": 0.05448,
+                "B": 0.05448,
+                "A": 1.0
+            },
+            "Hex": "364242"
+        },
         "background_image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Offers/Backgrounds/T_Rarity_Common_SV",
         "shop_display_priority": 1
     },
@@ -84,7 +92,15 @@
         ],
         "wallet_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_CreditsLarge",
         "large_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Currency/T_Credits_Render",
-        "background_color": "554A26",
+        "background_color": {
+            "RGBA": {
+                "R": 0.090842,
+                "G": 0.068478,
+                "B": 0.019382,
+                "A": 1.0
+            },
+            "Hex": "554A26"
+        },
         "background_image_path": "/WRFrontiers/Content/Sparrow/UI/Screens/Offers/CurrencyCardsBg/T_CreditsCardBg",
         "shop_display_priority": 3
     },

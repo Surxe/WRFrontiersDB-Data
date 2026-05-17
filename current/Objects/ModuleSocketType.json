@@ -12,8 +12,24 @@
             "en": "Supply Gear"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterAbility",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Ability3.0"
         ]
@@ -31,8 +47,24 @@
             "en": "Cycle Gear"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_FilterUltimate",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Ability4.0"
         ]
@@ -50,8 +82,24 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
         ],
@@ -70,8 +118,24 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
         ],
@@ -90,7 +154,15 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderL.0"
@@ -110,7 +182,15 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderR.0"
@@ -130,8 +210,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaTorso.0"
@@ -151,7 +247,15 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderL.0"
@@ -171,7 +275,15 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderR.0"
@@ -191,8 +303,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimTorso.0"
@@ -212,7 +340,15 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderL.0"
@@ -232,7 +368,15 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderR.0"
@@ -252,8 +396,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchTorso.0"
@@ -273,7 +433,15 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderL.0"
@@ -293,7 +461,15 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderR.0"
@@ -313,8 +489,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaTorso.0"
@@ -334,7 +526,15 @@
             "en": "Left Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterRShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderL.0"
@@ -354,7 +554,15 @@
             "en": "Right Shoulder"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterLShoulder",
-        "tag_color": "99BDEDFE",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderR.0"
@@ -374,8 +582,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.508881,
+                "G": 0.846873,
+                "B": 0.991102,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "b_can_be_changed_by_user": false,
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireTorso.0"
@@ -395,8 +619,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
         ]
@@ -414,8 +654,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponFlanker.0"
         ]
@@ -433,8 +689,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponNorna.0"
         ]
@@ -452,8 +724,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponTactician.0"
         ]
@@ -471,8 +759,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterWeapon",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponTank.0"
         ]
@@ -490,8 +794,24 @@
             "en": "Torso"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/T_FilterTorso",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Torso.0"
         ],
@@ -510,8 +830,24 @@
             "en": "Light Weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_LightHardpoint",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Weapon.0"
         ]
@@ -529,8 +865,24 @@
             "en": "Any weapon"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Hangar/T_HeavyHardpoint",
-        "tag_color": "99BDEDFE",
-        "tag_background_color": "204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.50888145,
+                "G": 0.84687346,
+                "B": 0.9911024,
+                "A": 0.6
+            },
+            "Hex": "99BDEDFE"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.0
+            },
+            "Hex": "204A30"
+        },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Weapon.0",
             "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"

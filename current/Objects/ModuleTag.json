@@ -6,8 +6,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Attack"
         },
-        "text_hex": "B248E6",
-        "background_hex": "33AF58E4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.442138,
+                "G": 0.065439,
+                "B": 0.7875,
+                "A": 1.0
+            },
+            "Hex": "B248E6"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.427105,
+                "G": 0.096908,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "33AF58E4"
+        }
     },
     "DA_Tag_AbilityType_Defensive.0": {
         "id": "DA_Tag_AbilityType_Defensive.0",
@@ -16,8 +32,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Defense"
         },
-        "text_hex": "B248E6",
-        "background_hex": "33AF58E4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.442138,
+                "G": 0.065439,
+                "B": 0.7875,
+                "A": 1.0
+            },
+            "Hex": "B248E6"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.427105,
+                "G": 0.096908,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "33AF58E4"
+        }
     },
     "DA_Tag_AbilityType_Movement.0": {
         "id": "DA_Tag_AbilityType_Movement.0",
@@ -26,8 +58,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Movement"
         },
-        "text_hex": "B248E6",
-        "background_hex": "33AF58E4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.442138,
+                "G": 0.065439,
+                "B": 0.7875,
+                "A": 1.0
+            },
+            "Hex": "B248E6"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.427105,
+                "G": 0.096908,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "33AF58E4"
+        }
     },
     "DA_Tag_AbilityType_Support.0": {
         "id": "DA_Tag_AbilityType_Support.0",
@@ -36,8 +84,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Support"
         },
-        "text_hex": "B248E6",
-        "background_hex": "33AF58E4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.442138,
+                "G": 0.065439,
+                "B": 0.7875,
+                "A": 1.0
+            },
+            "Hex": "B248E6"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.427105,
+                "G": 0.096908,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "33AF58E4"
+        }
     },
     "DA_Tag_WeaponDamageBlast.0": {
         "id": "DA_Tag_WeaponDamageBlast.0",
@@ -46,8 +110,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Blast"
         },
-        "text_hex": "ED885D",
-        "background_hex": "33ED8761"
+        "text_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.245483,
+                "B": 0.109861,
+                "A": 1.0
+            },
+            "Hex": "ED885D"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.241314,
+                "B": 0.119383,
+                "A": 0.2
+            },
+            "Hex": "33ED8761"
+        }
     },
     "DA_Tag_WeaponDamageElectromagnetic.0": {
         "id": "DA_Tag_WeaponDamageElectromagnetic.0",
@@ -56,8 +136,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Electromagnetic"
         },
-        "text_hex": "ED885D",
-        "background_hex": "33ED8761"
+        "text_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.245483,
+                "B": 0.109861,
+                "A": 1.0
+            },
+            "Hex": "ED885D"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.241314,
+                "B": 0.119383,
+                "A": 0.2
+            },
+            "Hex": "33ED8761"
+        }
     },
     "DA_Tag_WeaponDamageKinetic.0": {
         "id": "DA_Tag_WeaponDamageKinetic.0",
@@ -66,8 +162,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Kinetic"
         },
-        "text_hex": "ED885D",
-        "background_hex": "33ED8761"
+        "text_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.245483,
+                "B": 0.109861,
+                "A": 1.0
+            },
+            "Hex": "ED885D"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.846873,
+                "G": 0.241314,
+                "B": 0.119383,
+                "A": 0.2
+            },
+            "Hex": "33ED8761"
+        }
     },
     "DA_Tag_WeaponTypeArtilery.0": {
         "id": "DA_Tag_WeaponTypeArtilery.0",
@@ -76,8 +188,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Artillery"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     },
     "DA_Tag_WeaponTypeAutocannon.0": {
         "id": "DA_Tag_WeaponTypeAutocannon.0",
@@ -86,8 +214,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Autocannon"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     },
     "DA_Tag_WeaponTypeRocketLauncher.0": {
         "id": "DA_Tag_WeaponTypeRocketLauncher.0",
@@ -96,8 +240,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Rocket launcher"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     },
     "DA_Tag_WeaponTypeShotgun.0": {
         "id": "DA_Tag_WeaponTypeShotgun.0",
@@ -106,8 +266,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Shotgun"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     },
     "DA_Tag_WeaponTypeSniper.0": {
         "id": "DA_Tag_WeaponTypeSniper.0",
@@ -116,8 +292,24 @@
             "TableNamespace": "Component_Tags",
             "en": "Sniper"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     },
     "DA_Tag_WeaponTypeSpecial.0": {
         "id": "DA_Tag_WeaponTypeSpecial.0",
@@ -126,7 +318,23 @@
             "TableNamespace": "Component_Tags",
             "en": "Special"
         },
-        "text_hex": "5F9BE4",
-        "background_hex": "336E9EE4"
+        "text_color": {
+            "RGBA": {
+                "R": 0.113725,
+                "G": 0.32549,
+                "B": 0.776471,
+                "A": 1.0
+            },
+            "Hex": "5F9BE4"
+        },
+        "background_color": {
+            "RGBA": {
+                "R": 0.155425,
+                "G": 0.343283,
+                "B": 0.775822,
+                "A": 0.2
+            },
+            "Hex": "336E9EE4"
+        }
     }
 }

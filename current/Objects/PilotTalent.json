@@ -42,7 +42,35 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common68.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersBrave.0",
+        "level": 3
     },
     "DA_Talent_Brave2.0": {
         "id": "DA_Talent_Brave2.0",
@@ -76,7 +104,35 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldHP.0",
                 "value": 15000.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common57.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersBrave.0",
+        "level": 3
     },
     "DA_Talent_Brave3.0": {
         "id": "DA_Talent_Brave3.0",
@@ -112,7 +168,27 @@
                 "AmmoPartToAdd": 0.2,
                 "Lifetime": 2.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common50.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersBrave.0",
+        "level": 3
     },
     "DA_Talent_Brawler1.0": {
         "id": "DA_Talent_Brawler1.0",
@@ -160,7 +236,51 @@
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_GunsmithAutocannon",
                 "StackMode": "Reset"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common63.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common39.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common51.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassBrawler.0",
+        "level": 2
     },
     "DA_Talent_Brawler2.0": {
         "id": "DA_Talent_Brawler2.0",
@@ -194,7 +314,43 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldBoost.0",
                 "value": 0.3
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassBrawler.0",
+        "level": 2
     },
     "DA_Talent_Brawler3.0": {
         "id": "DA_Talent_Brawler3.0",
@@ -243,7 +399,43 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common59.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassBrawler.0",
+        "level": 2
     },
     "DA_Talent_Cautious1.0": {
         "id": "DA_Talent_Cautious1.0",
@@ -292,7 +484,31 @@
         ],
         "default_properties": {
             "Lifetime": 10.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common39.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersCautious.0",
+        "level": 3
     },
     "DA_Talent_Cautious2.0": {
         "id": "DA_Talent_Cautious2.0",
@@ -337,7 +553,31 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common48.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common59.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersCautious.0",
+        "level": 3
     },
     "DA_Talent_Cautious3.0": {
         "id": "DA_Talent_Cautious3.0",
@@ -385,7 +625,35 @@
         ],
         "default_properties": {
             "Lifetime": 5.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common61.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersCautious.0",
+        "level": 3
     },
     "DA_Talent_Flanker1.0": {
         "id": "DA_Talent_Flanker1.0",
@@ -431,7 +699,55 @@
                     ]
                 }
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common70.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassFlanker.0",
+        "level": 2
     },
     "DA_Talent_Flanker2.0": {
         "id": "DA_Talent_Flanker2.0",
@@ -467,7 +783,47 @@
                 "Modifier": 0.05,
                 "ShieldHealth": 0.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common36.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassFlanker.0",
+        "level": 2
     },
     "DA_Talent_Flanker3.0": {
         "id": "DA_Talent_Flanker3.0",
@@ -516,7 +872,39 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common48.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common56.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassFlanker.0",
+        "level": 2
     },
     "DA_Talent_FortEvo1.0": {
         "id": "DA_Talent_FortEvo1.0",
@@ -560,7 +948,39 @@
         ],
         "default_properties": {
             "Lifetime": 2.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common46.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common39.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFortevo.0",
+        "level": 4
     },
     "DA_Talent_FortEvo2.0": {
         "id": "DA_Talent_FortEvo2.0",
@@ -593,7 +1013,39 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_UltimateCharge.0",
                 "value": 30.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common56.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFortevo.0",
+        "level": 4
     },
     "DA_Talent_FortEvo3.0": {
         "id": "DA_Talent_FortEvo3.0",
@@ -626,7 +1078,31 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_FuelCapacity.0",
                 "value": 2.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common61.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFortevo.0",
+        "level": 4
     },
     "DA_Talent_Freecon1.0": {
         "id": "DA_Talent_Freecon1.0",
@@ -656,7 +1132,43 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_AbilityParamBoost.0",
                 "value": 0.08
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common59.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFreecon.0",
+        "level": 4
     },
     "DA_Talent_Freecon2.0": {
         "id": "DA_Talent_Freecon2.0",
@@ -697,7 +1209,51 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common48.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFreecon.0",
+        "level": 4
     },
     "DA_Talent_Freecon3.0": {
         "id": "DA_Talent_Freecon3.0",
@@ -732,7 +1288,51 @@
             {
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_RapidShooter"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common63.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFreecon.0",
+        "level": 4
     },
     "DA_Talent_General1.0": {
         "id": "DA_Talent_General1.0",
@@ -762,7 +1362,143 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_CooldownReduction.0",
                 "value": 0.07
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common48.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common59.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common57.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common51.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common37.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+        "level": 1
     },
     "DA_Talent_General2.0": {
         "id": "DA_Talent_General2.0",
@@ -804,7 +1540,147 @@
                 ],
                 "StackMode": "Reset"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common46.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common68.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common39.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common38.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common50.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common62.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common65.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+        "level": 1
     },
     "DA_Talent_General3.0": {
         "id": "DA_Talent_General3.0",
@@ -834,7 +1710,143 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ReloadSpeedBoost.0",
                 "value": 0.05
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common63.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common56.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common36.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common53.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common61.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common70.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+        "level": 1
     },
     "DA_Talent_Handy1.0": {
         "id": "DA_Talent_Handy1.0",
@@ -877,7 +1889,39 @@
         ],
         "default_properties": {
             "Lifetime": 10.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersHandy.0",
+        "level": 3
     },
     "DA_Talent_Handy2.0": {
         "id": "DA_Talent_Handy2.0",
@@ -922,7 +1966,35 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common38.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common65.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersHandy.0",
+        "level": 3
     },
     "DA_Talent_Handy3.0": {
         "id": "DA_Talent_Handy3.0",
@@ -952,7 +2024,35 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_CooldownReduction.0",
                 "value": 0.25
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersHandy.0",
+        "level": 3
     },
     "DA_Talent_Leader1.0": {
         "id": "DA_Talent_Leader1.0",
@@ -991,7 +2091,31 @@
             {
                 "PrimaryChannelModificator": 1.1
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersLeader.0",
+        "level": 3
     },
     "DA_Talent_Leader2.0": {
         "id": "DA_Talent_Leader2.0",
@@ -1030,7 +2154,31 @@
             {
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_SquadronAttack"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersLeader.0",
+        "level": 3
     },
     "DA_Talent_Leader3.0": {
         "id": "DA_Talent_Leader3.0",
@@ -1083,7 +2231,31 @@
         ],
         "default_properties": {
             "Lifetime": 5.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersLeader.0",
+        "level": 3
     },
     "DA_Talent_Madman1.0": {
         "id": "DA_Talent_Madman1.0",
@@ -1128,7 +2300,31 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common36.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common62.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersMadman.0",
+        "level": 3
     },
     "DA_Talent_Madman2.0": {
         "id": "DA_Talent_Madman2.0",
@@ -1173,7 +2369,27 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common56.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersMadman.0",
+        "level": 3
     },
     "DA_Talent_Madman3.0": {
         "id": "DA_Talent_Madman3.0",
@@ -1221,7 +2437,31 @@
         ],
         "default_properties": {
             "Lifetime": 10.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common53.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersMadman.0",
+        "level": 3
     },
     "DA_Talent_Mayflower1.0": {
         "id": "DA_Talent_Mayflower1.0",
@@ -1261,7 +2501,55 @@
                 "AdditionalProgress": 0.07,
                 "Lifetime": 1.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common68.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionMayflower.0",
+        "level": 4
     },
     "DA_Talent_Mayflower2.0": {
         "id": "DA_Talent_Mayflower2.0",
@@ -1307,7 +2595,51 @@
                 ],
                 "StackMode": "Stack"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common62.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionMayflower.0",
+        "level": 4
     },
     "DA_Talent_Mayflower3.0": {
         "id": "DA_Talent_Mayflower3.0",
@@ -1341,7 +2673,51 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Duration.0",
                 "value": 15.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common53.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionMayflower.0",
+        "level": 4
     },
     "DA_Talent_RSupport1.0": {
         "id": "DA_Talent_RSupport1.0",
@@ -1388,7 +2764,47 @@
                 },
                 "StackMode": "Reset"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common38.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common50.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassRSupport.0",
+        "level": 2
     },
     "DA_Talent_RSupport2.0": {
         "id": "DA_Talent_RSupport2.0",
@@ -1429,7 +2845,39 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common46.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common62.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassRSupport.0",
+        "level": 2
     },
     "DA_Talent_RSupport3.0": {
         "id": "DA_Talent_RSupport3.0",
@@ -1489,7 +2937,43 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common68.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassRSupport.0",
+        "level": 2
     },
     "DA_Talent_Sneaky1.0": {
         "id": "DA_Talent_Sneaky1.0",
@@ -1527,7 +3011,31 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0",
                 "value": 10.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common37.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersSneaky.0",
+        "level": 3
     },
     "DA_Talent_Sneaky2.0": {
         "id": "DA_Talent_Sneaky2.0",
@@ -1578,7 +3086,43 @@
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_MomentumDefence",
                 "StackMode": "Stack"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common46.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common70.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common51.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersSneaky.0",
+        "level": 3
     },
     "DA_Talent_Sneaky3.0": {
         "id": "DA_Talent_Sneaky3.0",
@@ -1628,7 +3172,39 @@
                 ],
                 "StackMode": "Stack"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common63.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersSneaky.0",
+        "level": 3
     },
     "DA_Talent_Tank1.0": {
         "id": "DA_Talent_Tank1.0",
@@ -1674,7 +3250,39 @@
                     ]
                 }
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common57.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common37.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassTank.0",
+        "level": 2
     },
     "DA_Talent_Tank2.0": {
         "id": "DA_Talent_Tank2.0",
@@ -1714,7 +3322,43 @@
                 "Radius": 20000.0,
                 "ModifierFactor": 0.95
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common61.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassTank.0",
+        "level": 2
     },
     "DA_Talent_Tank3.0": {
         "id": "DA_Talent_Tank3.0",
@@ -1763,7 +3407,43 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common53.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common65.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassTank.0",
+        "level": 2
     },
     "DA_Talent_Tortuga1.0": {
         "id": "DA_Talent_Tortuga1.0",
@@ -1796,7 +3476,39 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_DamageBoost.0",
                 "value": 0.01
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common37.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionTortuga.0",
+        "level": 4
     },
     "DA_Talent_Tortuga2.0": {
         "id": "DA_Talent_Tortuga2.0",
@@ -1838,7 +3550,31 @@
                 ],
                 "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Talents/T_DominationReload"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common70.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common65.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionTortuga.0",
+        "level": 4
     },
     "DA_Talent_Tortuga3.0": {
         "id": "DA_Talent_Tortuga3.0",
@@ -1871,7 +3607,51 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_TitanCharge.0",
                 "value": 50.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 2
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common36.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common57.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common38.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common50.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common51.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionTortuga.0",
+        "level": 4
     },
     "DA_Talent_Ult_Carmen.0": {
         "id": "DA_Talent_Ult_Carmen.0",
@@ -1910,7 +3690,19 @@
             {
                 "Modifier": 0.1
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_CarmenRuiz.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Cole.0": {
         "id": "DA_Talent_Ult_Cole.0",
@@ -1945,7 +3737,15 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Duration.0",
                 "value": 1.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common70.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Common1.0": {
         "id": "DA_Talent_Ult_Common1.0",
@@ -1978,7 +3778,59 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Armor.0",
                 "value": 4000.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common6.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common56.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common46.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common36.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common26.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common21.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common31.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common41.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common51.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common16.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Common2.0": {
         "id": "DA_Talent_Ult_Common2.0",
@@ -2024,7 +3876,59 @@
                 ],
                 "StackMode": "Reset"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common42.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common7.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common32.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common2.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common17.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common57.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common52.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common37.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common12.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common47.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Common3.0": {
         "id": "DA_Talent_Ult_Common3.0",
@@ -2069,7 +3973,63 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common43.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common48.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common18.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common53.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common13.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common68.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common28.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common38.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common8.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common23.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common3.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Common4.0": {
         "id": "DA_Talent_Ult_Common4.0",
@@ -2109,7 +4069,59 @@
                 "ShieldHealth": 40000.0,
                 "StackMode": "Reset"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common19.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common59.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common44.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common14.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common49.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common34.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common4.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common24.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common39.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common9.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Common5.0": {
         "id": "DA_Talent_Ult_Common5.0",
@@ -2154,7 +4166,59 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common20.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common40.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common30.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common10.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common5.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common50.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common15.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Dredge.0": {
         "id": "DA_Talent_Ult_Dredge.0",
@@ -2183,7 +4247,19 @@
             {
                 "icon_path": "/Engine/MobileResources/HUD/AnalogHat"
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Dredge.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Duncan.0": {
         "id": "DA_Talent_Ult_Duncan.0",
@@ -2217,7 +4293,19 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldBoost.0",
                 "value": 0.2
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_DuncanPrasad.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common67.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Emma.0": {
         "id": "DA_Talent_Ult_Emma.0",
@@ -2263,7 +4351,15 @@
         ],
         "default_properties": {
             "Lifetime": 20.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Ever.0": {
         "id": "DA_Talent_Ult_Ever.0",
@@ -2311,7 +4407,19 @@
                     }
                 ]
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common63.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Giancarlo.0": {
         "id": "DA_Talent_Ult_Giancarlo.0",
@@ -2345,7 +4453,15 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0",
                 "value": 15.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Idy.0": {
         "id": "DA_Talent_Ult_Idy.0",
@@ -2384,7 +4500,19 @@
         ],
         "default_properties": {
             "Lifetime": 10.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_IdyDemorest.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common65.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Kate.0": {
         "id": "DA_Talent_Ult_Kate.0",
@@ -2430,7 +4558,19 @@
         ],
         "default_properties": {
             "Lifetime": 5.0
-        }
+        },
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_KateSinclair.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common61.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Marcus.0": {
         "id": "DA_Talent_Ult_Marcus.0",
@@ -2467,7 +4607,19 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Distance.0",
                 "value": 15000.0
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_MarcusShedd.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common62.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     },
     "DA_Talent_Ult_Sora.0": {
         "id": "DA_Talent_Ult_Sora.0",
@@ -2497,6 +4649,18 @@
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Chance.0",
                 "value": 0.1
             }
-        ]
+        ],
+        "pilots_with_this_talent": [
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_SoraSing.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0",
+                "talent_index": 0
+            }
+        ],
+        "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+        "level": 5
     }
 }
