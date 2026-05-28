@@ -12,8 +12,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_Ability3.0": {
         "id": "DA_ModuleType_Ability3.0",
@@ -33,8 +49,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "<Orange>Supply Gear</> modules are tactical consumables. You can use them only a few times per battle"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_Ability4.0": {
         "id": "DA_ModuleType_Ability4.0",
@@ -54,8 +86,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "You can freely switch some robot <Orange>Gear</> modules.\r\n<Orange>Cycle Gear</> needs to charge up before you can use it. Prime it by capturing objectives destroying enemies or saving teammates."
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_Chassis.0": {
         "id": "DA_ModuleType_Chassis.0",
@@ -70,8 +118,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30",
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        },
         "is_root_module": true
     },
     "DA_ModuleType_Shoulder.0": {
@@ -87,8 +151,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_TitanAlphaChassis.0": {
         "id": "DA_ModuleType_TitanAlphaChassis.0",
@@ -498,8 +578,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_Weapon.0": {
         "id": "DA_ModuleType_Weapon.0",
@@ -514,8 +610,24 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     },
     "DA_ModuleType_WeaponHeavy.0": {
         "id": "DA_ModuleType_WeaponHeavy.0",
@@ -530,7 +642,23 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "tag_color": "9CEBBB",
-        "tag_background_color": "33204A30"
+        "tag_color": {
+            "RGBA": {
+                "R": 0.332452,
+                "G": 0.83077,
+                "B": 0.496933,
+                "A": 1.0
+            },
+            "Hex": "9CEBBB"
+        },
+        "tag_background_color": {
+            "RGBA": {
+                "R": 0.014444,
+                "G": 0.068478,
+                "B": 0.029557,
+                "A": 0.2
+            },
+            "Hex": "33204A30"
+        }
     }
 }

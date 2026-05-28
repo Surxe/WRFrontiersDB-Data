@@ -6,7 +6,15 @@
             "TableNamespace": "Component_Tags",
             "en": "Common"
         },
-        "hex": "F1F1F1"
+        "color": {
+            "RGBA": {
+                "R": 0.879623,
+                "G": 0.879623,
+                "B": 0.879623,
+                "A": 1.0
+            },
+            "Hex": "F1F1F1"
+        }
     },
     "DA_Rarity_Epic.0": {
         "id": "DA_Rarity_Epic.0",
@@ -15,7 +23,15 @@
             "TableNamespace": "Component_Tags",
             "en": "Epic"
         },
-        "hex": "B550E5"
+        "color": {
+            "RGBA": {
+                "R": 0.462077,
+                "G": 0.08022,
+                "B": 0.783538,
+                "A": 1.0
+            },
+            "Hex": "B550E5"
+        }
     },
     "DA_Rarity_Legendary.0": {
         "id": "DA_Rarity_Legendary.0",
@@ -24,7 +40,15 @@
             "TableNamespace": "Component_Tags",
             "en": "Legendary"
         },
-        "hex": "FF8311"
+        "color": {
+            "RGBA": {
+                "R": 1.0,
+                "G": 0.226966,
+                "B": 0.005605,
+                "A": 1.0
+            },
+            "Hex": "FF8311"
+        }
     },
     "DA_Rarity_Rare.0": {
         "id": "DA_Rarity_Rare.0",
@@ -33,7 +57,15 @@
             "TableNamespace": "Component_Tags",
             "en": "Rare"
         },
-        "hex": "0286FF"
+        "color": {
+            "RGBA": {
+                "R": 0.000607,
+                "G": 0.238398,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "0286FF"
+        }
     },
     "DA_Rarity_Uncommon.0": {
         "id": "DA_Rarity_Uncommon.0",
@@ -42,6 +74,14 @@
             "TableNamespace": "Component_Tags",
             "en": "Uncommon"
         },
-        "hex": "22F450"
+        "color": {
+            "RGBA": {
+                "R": 0.015996,
+                "G": 0.904661,
+                "B": 0.08022,
+                "A": 1.0
+            },
+            "Hex": "22F450"
+        }
     }
 }

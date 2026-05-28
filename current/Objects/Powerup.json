@@ -2,7 +2,15 @@
     "BP_PowerUp_AddAbility": {
         "id": "BP_PowerUp_AddAbility",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapAddAbility",
-        "icon_hex": "80AAFF",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.215861,
+                "G": 0.401978,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "80AAFF"
+        },
         "attached_buff": {
             "abilities_refs": [
                 "OBJID_Ability::BP_Ability_PowerUp_OrbitalStrike.0"
@@ -13,7 +21,15 @@
     "BP_PowerUp_DoubleDamage": {
         "id": "BP_PowerUp_DoubleDamage",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapDoubleDamage",
-        "icon_hex": "FCB997",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.973446,
+                "G": 0.48515,
+                "B": 0.309469,
+                "A": 1.0
+            },
+            "Hex": "FCB997"
+        },
         "attached_buff": {
             "Modifiers": [
                 {
@@ -29,18 +45,42 @@
     "BP_PowerUp_GameModeScore": {
         "id": "BP_PowerUp_GameModeScore",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapGameModeScore",
-        "icon_hex": "00FFD6",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.0,
+                "G": 1.0,
+                "B": 0.666667,
+                "A": 1.0
+            },
+            "Hex": "00FFD6"
+        },
         "score": 2
     },
     "BP_PowerUp_RechargeAbilities": {
         "id": "BP_PowerUp_RechargeAbilities",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapRechargeAbilities",
-        "icon_hex": "8FEFA2"
+        "icon_color": {
+            "RGBA": {
+                "R": 0.274677,
+                "G": 0.863157,
+                "B": 0.361307,
+                "A": 1.0
+            },
+            "Hex": "8FEFA2"
+        }
     },
     "BP_PowerUp_TeamDamageResist": {
         "id": "BP_PowerUp_TeamDamageResist",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamDamageResist",
-        "icon_hex": "FF9B59",
+        "icon_color": {
+            "RGBA": {
+                "R": 1.0,
+                "G": 0.325,
+                "B": 0.1,
+                "A": 1.0
+            },
+            "Hex": "FF9B59"
+        },
         "attached_buff": {
             "Modifiers": [
                 {
@@ -55,7 +95,15 @@
     "BP_PowerUp_TeamRegenArmor": {
         "id": "BP_PowerUp_TeamRegenArmor",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamRegenArmor",
-        "icon_hex": "8FEFA2",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.274677,
+                "G": 0.863157,
+                "B": 0.361307,
+                "A": 1.0
+            },
+            "Hex": "8FEFA2"
+        },
         "attached_buff": {
             "Regen amount": 20000.0
         },
@@ -64,7 +112,15 @@
     "BP_PowerUp_TeamRegenFuel": {
         "id": "BP_PowerUp_TeamRegenFuel",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamRegenFuel",
-        "icon_hex": "FF9B59",
+        "icon_color": {
+            "RGBA": {
+                "R": 1.0,
+                "G": 0.325,
+                "B": 0.1,
+                "A": 1.0
+            },
+            "Hex": "FF9B59"
+        },
         "attached_buff": {
             "Modifiers": [
                 {
@@ -79,7 +135,15 @@
     "BP_PowerUp_TeamShield": {
         "id": "BP_PowerUp_TeamShield",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamShield",
-        "icon_hex": "6C93FF",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.15,
+                "G": 0.291667,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "6C93FF"
+        },
         "attached_buff": {
             "ArmorRegenPerSecond": 0.0,
             "ShieldRegenPerSecond": 2000.0,
@@ -91,7 +155,15 @@
     "BP_PowerUp_TeamSpeedBoost": {
         "id": "BP_PowerUp_TeamSpeedBoost",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamSpeedBoost",
-        "icon_hex": "6C93FF",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.15,
+                "G": 0.291667,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "6C93FF"
+        },
         "attached_buff": {
             "Modifiers": [
                 {
@@ -111,7 +183,15 @@
     "BP_PowerUp_TeamUltimateCharge": {
         "id": "BP_PowerUp_TeamUltimateCharge",
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/HUD/T_MinimapTeamUltimateCharge",
-        "icon_hex": "8FEFA2",
+        "icon_color": {
+            "RGBA": {
+                "R": 0.274677,
+                "G": 0.863157,
+                "B": 0.361307,
+                "A": 1.0
+            },
+            "Hex": "8FEFA2"
+        },
         "attached_buff": {
             "UltimateChargeAddition": 150.0
         },

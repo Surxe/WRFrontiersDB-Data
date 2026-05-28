@@ -10,7 +10,15 @@
             "TableNamespace": "Component_Tags",
             "en": "FortEvo"
         },
-        "hex": "95C11E"
+        "color": {
+            "RGBA": {
+                "R": 0.300544,
+                "G": 0.533277,
+                "B": 0.012983,
+                "A": 1.0
+            },
+            "Hex": "95C11E"
+        }
     },
     "DA_Faction_Freecon.0": {
         "id": "DA_Faction_Freecon.0",
@@ -23,7 +31,15 @@
             "TableNamespace": "Component_Tags",
             "en": "Freecon"
         },
-        "hex": "2475FF"
+        "color": {
+            "RGBA": {
+                "R": 0.017642,
+                "G": 0.177888,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "2475FF"
+        }
     },
     "DA_Faction_Mayflower.0": {
         "id": "DA_Faction_Mayflower.0",
@@ -36,20 +52,44 @@
             "TableNamespace": "Component_Tags",
             "en": "Mayflower"
         },
-        "hex": "E22405"
+        "color": {
+            "RGBA": {
+                "R": 0.760525,
+                "G": 0.017642,
+                "B": 0.001518,
+                "A": 1.0
+            },
+            "Hex": "E22405"
+        }
     },
     "DA_Faction_Tortuga.0": {
         "id": "DA_Faction_Tortuga.0",
         "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Factions/T_UI_Faction_Tortuga",
         "badge": {
             "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Factions/T_UI_Faction_Tortuga_Logo",
-            "hex": "F7FFFFFF"
+            "color": {
+                "RGBA": {
+                    "R": 1.0,
+                    "G": 1.0,
+                    "B": 1.0,
+                    "A": 0.965
+                },
+                "Hex": "F7FFFFFF"
+            }
         },
         "name": {
             "Key": "Faction_Name_Tortuga",
             "TableNamespace": "Component_Tags",
             "en": "Tortuga"
         },
-        "hex": "E024FF"
+        "color": {
+            "RGBA": {
+                "R": 0.745404,
+                "G": 0.017642,
+                "B": 1.0,
+                "A": 1.0
+            },
+            "Hex": "E024FF"
+        }
     }
 }

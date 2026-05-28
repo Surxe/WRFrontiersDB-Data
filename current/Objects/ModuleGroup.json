@@ -1,0 +1,133 @@
+{
+    "cycle-gear": {
+        "id": "cycle-gear",
+        "name": {
+            "Key": "HNG_AbilityUlt",
+            "TableNamespace": "Component_Tags",
+            "en": "Cycle Gear"
+        },
+        "sort_order": 10,
+        "titan": false,
+        "virtual_bot_module": false,
+        "description": {
+            "Key": "ItemType_CycleGearDesc",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "You can freely switch some robot <Orange>Gear</> modules.\r\n<Orange>Cycle Gear</> needs to charge up before you can use it. Prime it by capturing objectives destroying enemies or saving teammates."
+        }
+    },
+    "heavy-weapon": {
+        "id": "heavy-weapon",
+        "name": {
+            "Key": "HNG_HeavyWeapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Heavy Weapon"
+        },
+        "sort_order": 7,
+        "titan": false,
+        "virtual_bot_module": false
+    },
+    "light-weapon": {
+        "id": "light-weapon",
+        "name": {
+            "Key": "HNG_LightWeapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Light Weapon"
+        },
+        "sort_order": 8,
+        "titan": false,
+        "virtual_bot_module": false
+    },
+    "non-titan-chassis": {
+        "id": "non-titan-chassis",
+        "name": {
+            "Key": "HNG_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Chassis"
+        },
+        "sort_order": 5,
+        "titan": false,
+        "virtual_bot_module": true
+    },
+    "non-titan-shoulder": {
+        "id": "non-titan-shoulder",
+        "name": {
+            "Key": "HNG_Shoulder",
+            "TableNamespace": "Component_Tags",
+            "en": "Shoulder"
+        },
+        "sort_order": 6,
+        "titan": false,
+        "virtual_bot_module": true
+    },
+    "non-titan-torsos": {
+        "id": "non-titan-torsos",
+        "name": {
+            "Key": "HNG_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Torso"
+        },
+        "sort_order": 4,
+        "titan": false,
+        "virtual_bot_module": true
+    },
+    "supply-gear": {
+        "id": "supply-gear",
+        "name": {
+            "Key": "HNG_Ability",
+            "TableNamespace": "Component_Tags",
+            "en": "Supply Gear"
+        },
+        "sort_order": 9,
+        "titan": false,
+        "virtual_bot_module": false,
+        "description": {
+            "Key": "ItemType_SupplyGearDesc",
+            "TableNamespace": "UI_ConstructorInventory",
+            "en": "<Orange>Supply Gear</> modules are tactical consumables. You can use them only a few times per battle"
+        }
+    },
+    "titan-chassis": {
+        "id": "titan-chassis",
+        "name": {
+            "Key": "CMP_Type_Titan_Chassis",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Chassis"
+        },
+        "sort_order": 1,
+        "titan": true,
+        "virtual_bot_module": true
+    },
+    "titan-shoulder": {
+        "id": "titan-shoulder",
+        "name": {
+            "Key": "GRP_TitanShoulders_Name",
+            "TableNamespace": "ModuleGroups",
+            "en": "Titan Shoulder"
+        },
+        "sort_order": 2,
+        "titan": true,
+        "virtual_bot_module": true
+    },
+    "titan-torsos": {
+        "id": "titan-torsos",
+        "name": {
+            "Key": "CMP_Type_Titan_Torso",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Torso"
+        },
+        "sort_order": 0,
+        "titan": true,
+        "virtual_bot_module": true
+    },
+    "titan-weapon": {
+        "id": "titan-weapon",
+        "name": {
+            "Key": "CMP_Type_Titan_Weapon",
+            "TableNamespace": "Component_Tags",
+            "en": "Titan Weapon"
+        },
+        "sort_order": 3,
+        "titan": true,
+        "virtual_bot_module": true
+    }
+}

@@ -1,0 +1,692 @@
+{
+    "alpha": {
+        "id": "alpha",
+        "name": {
+            "Key": "CMP_name_ALPHA",
+            "TableNamespace": "Component_name",
+            "en": "Alpha"
+        },
+        "character_type": "Titan",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisAlpha.1",
+            "OBJID_Module::DA_Module_TorsoAlpha.0",
+            "OBJID_Module::DA_Module_ShoulderLAlpha.0",
+            "OBJID_Module::DA_Module_ShoulderRAlpha.0",
+            "OBJID_Module::DA_Module_Weapon_Callisto.0",
+            "OBJID_Module::DA_Module_Weapon_Bayonet.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Titan_Alpha.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Alpha"
+    },
+    "anansi": {
+        "id": "anansi",
+        "name": {
+            "Key": "CMP_name_Anansi_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Anansi"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisAnansi.2",
+            "OBJID_Module::DA_Module_TorsoAnansi.1",
+            "OBJID_Module::DA_Module_ShoulderAnansi.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotAnansi.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi"
+    },
+    "ares": {
+        "id": "ares",
+        "name": {
+            "Key": "CMP_name_Ares_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ares"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisAres.2",
+            "OBJID_Module::DA_Module_TorsoAres.1",
+            "OBJID_Module::DA_Module_ShoulderAres.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotAres.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres"
+    },
+    "bulgasari": {
+        "id": "bulgasari",
+        "name": {
+            "Key": "CMP_name_Bulgasari_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Bulgasari"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisBulgasari.2",
+            "OBJID_Module::DA_Module_TorsoBulgasari.1",
+            "OBJID_Module::DA_Module_ShoulderBulgasari.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotBulgasari.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulgasari.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulgasari"
+    },
+    "bulwark": {
+        "id": "bulwark",
+        "name": {
+            "Key": "CMP_name_Bulwark_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Bulwark"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisBulwark.2",
+            "OBJID_Module::DA_Module_TorsoBulwark.1",
+            "OBJID_Module::DA_Module_ShoulderBulwark.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotBulwark.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotBulwark.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulwark"
+    },
+    "ceres": {
+        "id": "ceres",
+        "name": {
+            "Key": "CMP_name_Demeter_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ceres"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisDemeter.2",
+            "OBJID_Module::DA_Module_TorsoDemeter.1",
+            "OBJID_Module::DA_Module_ShoulderDemeter.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotCeres.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotCeres"
+    },
+    "crix": {
+        "id": "crix",
+        "name": {
+            "Key": "CMP_name_Nipper_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Crix"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisNipper.2",
+            "OBJID_Module::DA_Module_TorsoNipper.1",
+            "OBJID_Module::DA_Module_ShoulderNipper.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotNipper.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotNipper"
+    },
+    "cyclops": {
+        "id": "cyclops",
+        "name": {
+            "Key": "CMP_name_Cyclops_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Cyclops"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisCyclops.2",
+            "OBJID_Module::DA_Module_TorsoCyclops.1",
+            "OBJID_Module::DA_Module_ShoulderCyclops.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotCyclops.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotCyclops"
+    },
+    "decker": {
+        "id": "decker",
+        "name": {
+            "Key": "CMP_name_Kernel_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Decker"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisKernel.2",
+            "OBJID_Module::DA_Module_TorsoKernel.1",
+            "OBJID_Module::DA_Module_ShoulderKernel.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotKernel.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKernel"
+    },
+    "ever-s-typhon": {
+        "id": "ever-s-typhon",
+        "name": {
+            "Key": "BLD_name_Typhon_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Typhon"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisTyphon.2",
+            "OBJID_Module::DA_Module_TorsoTyphon.1",
+            "OBJID_Module::DA_Module_ShoulderTyphon.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyphon.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon"
+    },
+    "ever-s-tyr": {
+        "id": "ever-s-tyr",
+        "name": {
+            "Key": "BLD_name_Tyr_Legend",
+            "TableNamespace": "Component_name",
+            "en": "Ever's Tyr"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisTyr.2",
+            "OBJID_Module::DA_Module_TorsoTyr.1",
+            "OBJID_Module::DA_Module_ShoulderTyr.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyr.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyr"
+    },
+    "fenrir": {
+        "id": "fenrir",
+        "name": {
+            "Key": "CMP_name_Fenrir_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Fenrir"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisFenrir.2",
+            "OBJID_Module::DA_Module_TorsoFenrir.1",
+            "OBJID_Module::DA_Module_ShoulderFenrir.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotFenrir.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotFenrir.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFenrir"
+    },
+    "fury": {
+        "id": "fury",
+        "name": {
+            "Key": "CMP_name_Fury_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Fury"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisFury.2",
+            "OBJID_Module::DA_Module_TorsoFury.1",
+            "OBJID_Module::DA_Module_ShoulderFury.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotFury.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotFury.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotFury"
+    },
+    "garuda": {
+        "id": "garuda",
+        "name": {
+            "Key": "CMP_name_Garuda_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Garuda"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisGaruda.2",
+            "OBJID_Module::DA_Module_TorsoGaruda.1",
+            "OBJID_Module::DA_Module_ShoulderGaruda.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotGaruda.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotGaruda"
+    },
+    "griffin": {
+        "id": "griffin",
+        "name": {
+            "Key": "CMP_name_Griffin_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Griffin"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisGriffin.2",
+            "OBJID_Module::DA_Module_TorsoGriffin.1",
+            "OBJID_Module::DA_Module_ShoulderGriffin.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotGriffin.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotGriffin.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotGriffin"
+    },
+    "grim": {
+        "id": "grim",
+        "name": {
+            "Key": "CMP_name_GRIM",
+            "TableNamespace": "Component_name",
+            "en": "Grim"
+        },
+        "character_type": "Titan",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisGrim.1",
+            "OBJID_Module::DA_Module_TorsoGrim.0",
+            "OBJID_Module::DA_Module_ShoulderLGrim.0",
+            "OBJID_Module::DA_Module_ShoulderRGrim.0",
+            "OBJID_Module::DA_Module_Weapon_Katzbalger.0",
+            "OBJID_Module::DA_Module_Weapon_Jigsaw.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Titan_Grim.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Grim"
+    },
+    "harpy": {
+        "id": "harpy",
+        "name": {
+            "Key": "CMP_name_Harpy_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Harpy"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisHarpy.2",
+            "OBJID_Module::DA_Module_TorsoHarpy.1",
+            "OBJID_Module::DA_Module_ShoulderHarpy.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotHarpy.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotHarpy.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHarpy"
+    },
+    "heike": {
+        "id": "heike",
+        "name": {
+            "Key": "CMP_name_Heike_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Heike"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisHeike.2",
+            "OBJID_Module::DA_Module_TorsoHeike.1",
+            "OBJID_Module::DA_Module_ShoulderHeike.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotHeike.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHeike"
+    },
+    "hitcher": {
+        "id": "hitcher",
+        "name": {
+            "Key": "CMP_name_Hitcher_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Hitcher"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisHitcher.2",
+            "OBJID_Module::DA_Module_TorsoHitcher.1",
+            "OBJID_Module::DA_Module_ShoulderHitcher.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotHitcher.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHitcher"
+    },
+    "kumo": {
+        "id": "kumo",
+        "name": {
+            "Key": "CMP_name_Kumo_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Kumo"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisKumo.2",
+            "OBJID_Module::DA_Module_TorsoKumo.1",
+            "OBJID_Module::DA_Module_ShoulderKumo.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotKumo.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKumo"
+    },
+    "lancelot": {
+        "id": "lancelot",
+        "name": {
+            "Key": "CMP_name_Lancelot_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Lancelot"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisLancelot.2",
+            "OBJID_Module::DA_Module_TorsoLancelot.1",
+            "OBJID_Module::DA_Module_ShoulderLancelot.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotLancelot.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLancelot"
+    },
+    "loki": {
+        "id": "loki",
+        "name": {
+            "Key": "CMP_name_Loki_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Loki"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisLoki.2",
+            "OBJID_Module::DA_Module_TorsoLoki.1",
+            "OBJID_Module::DA_Module_ShoulderLoki.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotLoki.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotLoki"
+    },
+    "matriarch": {
+        "id": "matriarch",
+        "name": {
+            "Key": "CMP_name_MATRIARCH",
+            "TableNamespace": "Component_name",
+            "en": "Matriarch"
+        },
+        "character_type": "Titan",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisMatriarch.1",
+            "OBJID_Module::DA_Module_TorsoMatriarch.0",
+            "OBJID_Module::DA_Module_ShoulderLMatriarch.0",
+            "OBJID_Module::DA_Module_ShoulderRMatriarch.0",
+            "OBJID_Module::DA_Module_Weapon_Hive.0",
+            "OBJID_Module::DA_Module_Weapon_Scrubber.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Titan_Matriarch.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Matriarch"
+    },
+    "mesa": {
+        "id": "mesa",
+        "name": {
+            "Key": "CMP_name_Mesa_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Mesa"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisMesa.2",
+            "OBJID_Module::DA_Module_TorsoMesa.1",
+            "OBJID_Module::DA_Module_ShoulderMesa.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotMesa.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotMesa"
+    },
+    "norna": {
+        "id": "norna",
+        "name": {
+            "Key": "CMP_name_NORNA",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "character_type": "Titan",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisNorna.2",
+            "OBJID_Module::DA_Module_TorsoNorna.0",
+            "OBJID_Module::DA_Module_ShoulderLNorna.0",
+            "OBJID_Module::DA_Module_ShoulderRNorna.0",
+            "OBJID_Module::DA_Module_Weapon_Coriolis.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Titan_Norna.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Norna"
+    },
+    "orochi": {
+        "id": "orochi",
+        "name": {
+            "Key": "CMP_name_Orochi_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Orochi"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisOrochi.2",
+            "OBJID_Module::DA_Module_TorsoOrochi.1",
+            "OBJID_Module::DA_Module_ShoulderOrochi.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotOrochi.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotOrochi.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotOrochi"
+    },
+    "phantom": {
+        "id": "phantom",
+        "name": {
+            "Key": "CMP_name_Phantom_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Phantom"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisPhantom.2",
+            "OBJID_Module::DA_Module_TorsoPhantom.1",
+            "OBJID_Module::DA_Module_ShoulderPhantom.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPhantom.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPhantom"
+    },
+    "purifier": {
+        "id": "purifier",
+        "name": {
+            "Key": "CMP_name_Purifier_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Purifier"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisInquisitor.2",
+            "OBJID_Module::DA_Module_TorsoInquisitor.1",
+            "OBJID_Module::DA_Module_ShoulderInquisitor.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPurifier.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotPurifier.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPurifier"
+    },
+    "pursuer": {
+        "id": "pursuer",
+        "name": {
+            "Key": "CMP_name_Pursuer_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Pursuer"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisPursuer.2",
+            "OBJID_Module::DA_Module_TorsoPursuer.1",
+            "OBJID_Module::DA_Module_ShoulderPursuer.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotPursuer.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotPursuer"
+    },
+    "ravana": {
+        "id": "ravana",
+        "name": {
+            "Key": "CMP_name_Ravana_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Ravana"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisRavana.2",
+            "OBJID_Module::DA_Module_TorsoRavana.1",
+            "OBJID_Module::DA_Module_ShoulderRavana.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRavana.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotRavana.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRavana"
+    },
+    "raven": {
+        "id": "raven",
+        "name": {
+            "Key": "CMP_name_Raven_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Raven"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisRaven.2",
+            "OBJID_Module::DA_Module_TorsoRaven.1",
+            "OBJID_Module::DA_Module_ShoulderRaven.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotRaven.0",
+            "OBJID_CharacterPreset::DA_Preset_DevbotRaven.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRaven"
+    },
+    "scorpion": {
+        "id": "scorpion",
+        "name": {
+            "Key": "CMP_name_Scorpion_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Scorpion"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisScorpion.2",
+            "OBJID_Module::DA_Module_TorsoScorpion.1",
+            "OBJID_Module::DA_Module_ShoulderScorpion.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotScorpion.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion"
+    },
+    "siren": {
+        "id": "siren",
+        "name": {
+            "Key": "CMP_name_Siren_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Siren"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisSiren.2",
+            "OBJID_Module::DA_Module_TorsoSiren.1",
+            "OBJID_Module::DA_Module_ShoulderSiren.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotSiren.0",
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotSiren.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotSiren"
+    },
+    "varangian": {
+        "id": "varangian",
+        "name": {
+            "Key": "CMP_name_Varangian_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Varangian"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisVityaz.2",
+            "OBJID_Module::DA_Module_TorsoVityaz.1",
+            "OBJID_Module::DA_Module_ShoulderVityaz01.0",
+            "OBJID_Module::DA_Module_ShoulderVityaz02.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotVarangian.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotVarangian"
+    },
+    "volta": {
+        "id": "volta",
+        "name": {
+            "Key": "CMP_name_SPIRE",
+            "TableNamespace": "Component_name",
+            "en": "Volta"
+        },
+        "character_type": "Titan",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisSpire.2",
+            "OBJID_Module::DA_Module_TorsoSpire.0",
+            "OBJID_Module::DA_Module_ShoulderLSpire.0",
+            "OBJID_Module::DA_Module_ShoulderRSpire.0",
+            "OBJID_Module::DA_Module_Weapon_Cascade.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Titan_Spire.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Spire"
+    }
+}
