@@ -32,7 +32,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Ability3.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability3.0"
     },
     "DA_ModuleSocketType_Ability4.0": {
         "id": "DA_ModuleSocketType_Ability4.0",
@@ -67,7 +68,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Ability4.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Ability4.0"
     },
     "DA_ModuleSocketType_ShoulderL.0": {
         "id": "DA_ModuleSocketType_ShoulderL.0",
@@ -103,7 +105,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
     },
     "DA_ModuleSocketType_ShoulderR.0": {
         "id": "DA_ModuleSocketType_ShoulderR.0",
@@ -139,7 +142,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Shoulder.0"
     },
     "DA_ModuleSocketType_TitanAlphaShoulderL.0": {
         "id": "DA_ModuleSocketType_TitanAlphaShoulderL.0",
@@ -167,7 +171,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderL.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderL.0"
     },
     "DA_ModuleSocketType_TitanAlphaShoulderR.0": {
         "id": "DA_ModuleSocketType_TitanAlphaShoulderR.0",
@@ -195,7 +200,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderR.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanAlphaShoulderR.0"
     },
     "DA_ModuleSocketType_TitanAlphaTorso.0": {
         "id": "DA_ModuleSocketType_TitanAlphaTorso.0",
@@ -232,7 +238,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanAlphaTorso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanAlphaTorso.0"
     },
     "DA_ModuleSocketType_TitanGrimShoulderL.0": {
         "id": "DA_ModuleSocketType_TitanGrimShoulderL.0",
@@ -260,7 +267,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderL.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderL.0"
     },
     "DA_ModuleSocketType_TitanGrimShoulderR.0": {
         "id": "DA_ModuleSocketType_TitanGrimShoulderR.0",
@@ -288,7 +296,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderR.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanGrimShoulderR.0"
     },
     "DA_ModuleSocketType_TitanGrimTorso.0": {
         "id": "DA_ModuleSocketType_TitanGrimTorso.0",
@@ -325,7 +334,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanGrimTorso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanGrimTorso.0"
     },
     "DA_ModuleSocketType_TitanMatriarchShoulderL.0": {
         "id": "DA_ModuleSocketType_TitanMatriarchShoulderL.0",
@@ -353,7 +363,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderL.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderL.0"
     },
     "DA_ModuleSocketType_TitanMatriarchShoulderR.0": {
         "id": "DA_ModuleSocketType_TitanMatriarchShoulderR.0",
@@ -381,7 +392,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderR.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanMatriarchShoulderR.0"
     },
     "DA_ModuleSocketType_TitanMatriarchTorso.0": {
         "id": "DA_ModuleSocketType_TitanMatriarchTorso.0",
@@ -418,7 +430,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanMatriarchTorso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanMatriarchTorso.0"
     },
     "DA_ModuleSocketType_TitanNornaShoulderL.0": {
         "id": "DA_ModuleSocketType_TitanNornaShoulderL.0",
@@ -446,7 +459,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderL.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderL.0"
     },
     "DA_ModuleSocketType_TitanNornaShoulderR.0": {
         "id": "DA_ModuleSocketType_TitanNornaShoulderR.0",
@@ -474,7 +488,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderR.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaShoulderR.0"
     },
     "DA_ModuleSocketType_TitanNornaTorso.0": {
         "id": "DA_ModuleSocketType_TitanNornaTorso.0",
@@ -511,7 +526,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanNornaTorso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanNornaTorso.0"
     },
     "DA_ModuleSocketType_TitanSpireShoulderL.0": {
         "id": "DA_ModuleSocketType_TitanSpireShoulderL.0",
@@ -539,7 +555,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderL.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderL.0"
     },
     "DA_ModuleSocketType_TitanSpireShoulderR.0": {
         "id": "DA_ModuleSocketType_TitanSpireShoulderR.0",
@@ -567,7 +584,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderR.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanSpireShoulderR.0"
     },
     "DA_ModuleSocketType_TitanSpireTorso.0": {
         "id": "DA_ModuleSocketType_TitanSpireTorso.0",
@@ -604,7 +622,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanSpireTorso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanSpireTorso.0"
     },
     "DA_ModuleSocketType_TitanWeaponAssault.0": {
         "id": "DA_ModuleSocketType_TitanWeaponAssault.0",
@@ -639,7 +658,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponAssault.0"
     },
     "DA_ModuleSocketType_TitanWeaponFlanker.0": {
         "id": "DA_ModuleSocketType_TitanWeaponFlanker.0",
@@ -674,7 +694,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponFlanker.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponFlanker.0"
     },
     "DA_ModuleSocketType_TitanWeaponNorna.0": {
         "id": "DA_ModuleSocketType_TitanWeaponNorna.0",
@@ -709,7 +730,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponNorna.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponNorna.0"
     },
     "DA_ModuleSocketType_TitanWeaponTactican.0": {
         "id": "DA_ModuleSocketType_TitanWeaponTactican.0",
@@ -744,7 +766,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponTactician.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponTactician.0"
     },
     "DA_ModuleSocketType_TitanWeaponTank.0": {
         "id": "DA_ModuleSocketType_TitanWeaponTank.0",
@@ -779,7 +802,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_TitanWeaponTank.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_TitanWeaponTank.0"
     },
     "DA_ModuleSocketType_Torso.0": {
         "id": "DA_ModuleSocketType_Torso.0",
@@ -815,7 +839,8 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Torso.0"
         ],
-        "required": true
+        "required": true,
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Torso.0"
     },
     "DA_ModuleSocketType_Weapon.0": {
         "id": "DA_ModuleSocketType_Weapon.0",
@@ -850,7 +875,8 @@
         },
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Weapon.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0"
     },
     "DA_ModuleSocketType_WeaponHeavy.0": {
         "id": "DA_ModuleSocketType_WeaponHeavy.0",
@@ -886,6 +912,7 @@
         "compatible_module_types_refs": [
             "OBJID_ModuleType::DA_ModuleType_Weapon.0",
             "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
-        ]
+        ],
+        "exclusive_module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0"
     }
 }
