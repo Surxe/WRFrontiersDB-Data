@@ -66,7 +66,8 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability3.0"
     },
     "DA_ModuleType_Ability4.0": {
         "id": "DA_ModuleType_Ability4.0",
@@ -103,7 +104,8 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0"
     },
     "DA_ModuleType_Chassis.0": {
         "id": "DA_ModuleType_Chassis.0",
@@ -168,7 +170,8 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderL.0"
     },
     "DA_ModuleType_TitanAlphaChassis.0": {
         "id": "DA_ModuleType_TitanAlphaChassis.0",
@@ -199,7 +202,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanAlphaShoulderL.0"
     },
     "DA_ModuleType_TitanAlphaShoulderR.0": {
         "id": "DA_ModuleType_TitanAlphaShoulderR.0",
@@ -214,7 +218,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanAlphaShoulderR.0"
     },
     "DA_ModuleType_TitanAlphaTorso.0": {
         "id": "DA_ModuleType_TitanAlphaTorso.0",
@@ -229,7 +234,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanAlphaTorso.0"
     },
     "DA_ModuleType_TitanGrimChassis.0": {
         "id": "DA_ModuleType_TitanGrimChassis.0",
@@ -260,7 +266,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanGrimShoulderL.0"
     },
     "DA_ModuleType_TitanGrimShoulderR.0": {
         "id": "DA_ModuleType_TitanGrimShoulderR.0",
@@ -275,7 +282,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanGrimShoulderR.0"
     },
     "DA_ModuleType_TitanGrimTorso.0": {
         "id": "DA_ModuleType_TitanGrimTorso.0",
@@ -290,7 +298,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanGrimTorso.0"
     },
     "DA_ModuleType_TitanMatriarchChassis.0": {
         "id": "DA_ModuleType_TitanMatriarchChassis.0",
@@ -321,7 +330,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanMatriarchShoulderL.0"
     },
     "DA_ModuleType_TitanMatriarchShoulderR.0": {
         "id": "DA_ModuleType_TitanMatriarchShoulderR.0",
@@ -336,7 +346,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanMatriarchShoulderR.0"
     },
     "DA_ModuleType_TitanMatriarchTorso.0": {
         "id": "DA_ModuleType_TitanMatriarchTorso.0",
@@ -351,7 +362,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanMatriarchTorso.0"
     },
     "DA_ModuleType_TitanNornaChassis.0": {
         "id": "DA_ModuleType_TitanNornaChassis.0",
@@ -382,7 +394,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaShoulderL.0"
     },
     "DA_ModuleType_TitanNornaShoulderR.0": {
         "id": "DA_ModuleType_TitanNornaShoulderR.0",
@@ -397,7 +410,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaShoulderR.0"
     },
     "DA_ModuleType_TitanNornaTorso.0": {
         "id": "DA_ModuleType_TitanNornaTorso.0",
@@ -412,7 +426,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanNornaTorso.0"
     },
     "DA_ModuleType_TitanSpireChassis.0": {
         "id": "DA_ModuleType_TitanSpireChassis.0",
@@ -443,7 +458,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanSpireShoulderL.0"
     },
     "DA_ModuleType_TitanSpireShoulderR.0": {
         "id": "DA_ModuleType_TitanSpireShoulderR.0",
@@ -458,7 +474,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanSpireShoulderR.0"
     },
     "DA_ModuleType_TitanSpireTorso.0": {
         "id": "DA_ModuleType_TitanSpireTorso.0",
@@ -473,7 +490,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanSpireTorso.0"
     },
     "DA_ModuleType_TitanWeapon.0": {
         "id": "DA_ModuleType_TitanWeapon.0",
@@ -503,7 +521,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponAssault.0"
     },
     "DA_ModuleType_TitanWeaponFlanker.0": {
         "id": "DA_ModuleType_TitanWeaponFlanker.0",
@@ -518,7 +537,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponFlanker.0"
     },
     "DA_ModuleType_TitanWeaponNorna.0": {
         "id": "DA_ModuleType_TitanWeaponNorna.0",
@@ -533,7 +553,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponNorna.0"
     },
     "DA_ModuleType_TitanWeaponTactician.0": {
         "id": "DA_ModuleType_TitanWeaponTactician.0",
@@ -548,7 +569,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponTactican.0"
     },
     "DA_ModuleType_TitanWeaponTank.0": {
         "id": "DA_ModuleType_TitanWeaponTank.0",
@@ -563,7 +585,8 @@
             "TableNamespace": "UI_ConstructorInventory",
             "en": "Blueprint"
         },
-        "character_type": "Titan"
+        "character_type": "Titan",
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_TitanWeaponTank.0"
     },
     "DA_ModuleType_Torso.0": {
         "id": "DA_ModuleType_Torso.0",
@@ -595,7 +618,8 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
     },
     "DA_ModuleType_Weapon.0": {
         "id": "DA_ModuleType_Weapon.0",
@@ -627,7 +651,8 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
     },
     "DA_ModuleType_WeaponHeavy.0": {
         "id": "DA_ModuleType_WeaponHeavy.0",
@@ -659,6 +684,7 @@
                 "A": 0.2
             },
             "Hex": "33204A30"
-        }
+        },
+        "exclusive_module_socket_type_ref": "OBJID_ModuleSocketType::DA_ModuleSocketType_WeaponHeavy.0"
     }
 }
