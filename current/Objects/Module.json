@@ -13406,7 +13406,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-chassis",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-typhon"
+        "virtual_bot_ref": "OBJID_VirtualBot::typhon"
     },
     "DA_Module_ChassisTyr.2": {
         "id": "DA_Module_ChassisTyr.2",
@@ -13608,7 +13608,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-chassis",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-tyr"
+        "virtual_bot_ref": "OBJID_VirtualBot::tyr"
     },
     "DA_Module_ChassisVityaz.2": {
         "id": "DA_Module_ChassisVityaz.2",
@@ -24361,7 +24361,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-shoulder",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-typhon"
+        "virtual_bot_ref": "OBJID_VirtualBot::typhon"
     },
     "DA_Module_ShoulderTyr.0": {
         "id": "DA_Module_ShoulderTyr.0",
@@ -24555,7 +24555,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Weapon.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-shoulder",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-tyr"
+        "virtual_bot_ref": "OBJID_VirtualBot::tyr"
     },
     "DA_Module_ShoulderVityaz01.0": {
         "id": "DA_Module_ShoulderVityaz01.0",
@@ -34438,7 +34438,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-torsos",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-typhon"
+        "virtual_bot_ref": "OBJID_VirtualBot::typhon"
     },
     "DA_Module_TorsoTyr.1": {
         "id": "DA_Module_TorsoTyr.1",
@@ -34685,7 +34685,7 @@
             "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0"
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-torsos",
-        "virtual_bot_ref": "OBJID_VirtualBot::ever-s-tyr"
+        "virtual_bot_ref": "OBJID_VirtualBot::tyr"
     },
     "DA_Module_TorsoVityaz.1": {
         "id": "DA_Module_TorsoVityaz.1",
