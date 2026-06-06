@@ -24,7 +24,7 @@
     "anansi": {
         "id": "anansi",
         "name": {
-            "Key": "CMP_name_Anansi_Torso",
+            "Key": "CMP_name_Anansi_Chassis",
             "TableNamespace": "Component_name",
             "en": "Anansi"
         },
@@ -43,7 +43,7 @@
     "ares": {
         "id": "ares",
         "name": {
-            "Key": "CMP_name_Ares_Torso",
+            "Key": "CMP_name_Ares_Chassis",
             "TableNamespace": "Component_name",
             "en": "Ares"
         },
@@ -62,7 +62,7 @@
     "bulgasari": {
         "id": "bulgasari",
         "name": {
-            "Key": "CMP_name_Bulgasari_Torso",
+            "Key": "CMP_name_Bulgasari_Chassis",
             "TableNamespace": "Component_name",
             "en": "Bulgasari"
         },
@@ -82,7 +82,7 @@
     "bulwark": {
         "id": "bulwark",
         "name": {
-            "Key": "CMP_name_Bulwark_Torso",
+            "Key": "CMP_name_Bulwark_Chassis",
             "TableNamespace": "Component_name",
             "en": "Bulwark"
         },
@@ -102,7 +102,7 @@
     "ceres": {
         "id": "ceres",
         "name": {
-            "Key": "CMP_name_Demeter_Torso",
+            "Key": "CMP_name_Demeter_Chassis",
             "TableNamespace": "Component_name",
             "en": "Ceres"
         },
@@ -140,7 +140,7 @@
     "cyclops": {
         "id": "cyclops",
         "name": {
-            "Key": "CMP_name_Cyclops_Torso",
+            "Key": "CMP_name_Cyclops_Chassis",
             "TableNamespace": "Component_name",
             "en": "Cyclops"
         },
@@ -159,7 +159,7 @@
     "decker": {
         "id": "decker",
         "name": {
-            "Key": "CMP_name_Kernel_Torso",
+            "Key": "CMP_name_Kernel_Chassis",
             "TableNamespace": "Component_name",
             "en": "Decker"
         },
@@ -175,48 +175,10 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotKernel"
     },
-    "ever-s-typhon": {
-        "id": "ever-s-typhon",
-        "name": {
-            "Key": "BLD_name_Typhon_Legend",
-            "TableNamespace": "Component_name",
-            "en": "Ever's Typhon"
-        },
-        "character_type": "Mech",
-        "core_module_refs": [
-            "OBJID_Module::DA_Module_ChassisTyphon.2",
-            "OBJID_Module::DA_Module_TorsoTyphon.1",
-            "OBJID_Module::DA_Module_ShoulderTyphon.0"
-        ],
-        "factory_preset_refs": [
-            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyphon.0"
-        ],
-        "has_distinct_shoulders": false,
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon"
-    },
-    "ever-s-tyr": {
-        "id": "ever-s-tyr",
-        "name": {
-            "Key": "BLD_name_Tyr_Legend",
-            "TableNamespace": "Component_name",
-            "en": "Ever's Tyr"
-        },
-        "character_type": "Mech",
-        "core_module_refs": [
-            "OBJID_Module::DA_Module_ChassisTyr.2",
-            "OBJID_Module::DA_Module_TorsoTyr.1",
-            "OBJID_Module::DA_Module_ShoulderTyr.0"
-        ],
-        "factory_preset_refs": [
-            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyr.0"
-        ],
-        "has_distinct_shoulders": false,
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyr"
-    },
     "fenrir": {
         "id": "fenrir",
         "name": {
-            "Key": "CMP_name_Fenrir_Torso",
+            "Key": "CMP_name_Fenrir_Chassis",
             "TableNamespace": "Component_name",
             "en": "Fenrir"
         },
@@ -236,7 +198,7 @@
     "fury": {
         "id": "fury",
         "name": {
-            "Key": "CMP_name_Fury_Torso",
+            "Key": "CMP_name_Fury_Chassis",
             "TableNamespace": "Component_name",
             "en": "Fury"
         },
@@ -256,7 +218,7 @@
     "garuda": {
         "id": "garuda",
         "name": {
-            "Key": "CMP_name_Garuda_Torso",
+            "Key": "CMP_name_Garuda_Chassis",
             "TableNamespace": "Component_name",
             "en": "Garuda"
         },
@@ -275,7 +237,7 @@
     "griffin": {
         "id": "griffin",
         "name": {
-            "Key": "CMP_name_Griffin_Torso",
+            "Key": "CMP_name_Griffin_Chassis",
             "TableNamespace": "Component_name",
             "en": "Griffin"
         },
@@ -295,7 +257,7 @@
     "grim": {
         "id": "grim",
         "name": {
-            "Key": "CMP_name_GRIM",
+            "Key": "CMP_name_Grim_Chassis",
             "TableNamespace": "Component_name",
             "en": "Grim"
         },
@@ -317,7 +279,7 @@
     "harpy": {
         "id": "harpy",
         "name": {
-            "Key": "CMP_name_Harpy_Torso",
+            "Key": "CMP_name_Harpy_Chassis",
             "TableNamespace": "Component_name",
             "en": "Harpy"
         },
@@ -337,7 +299,7 @@
     "heike": {
         "id": "heike",
         "name": {
-            "Key": "CMP_name_Heike_Torso",
+            "Key": "CMP_name_Heike_Chassis",
             "TableNamespace": "Component_name",
             "en": "Heike"
         },
@@ -375,7 +337,7 @@
     "kumo": {
         "id": "kumo",
         "name": {
-            "Key": "CMP_name_Kumo_Torso",
+            "Key": "CMP_name_Kumo_Chassis",
             "TableNamespace": "Component_name",
             "en": "Kumo"
         },
@@ -394,7 +356,7 @@
     "lancelot": {
         "id": "lancelot",
         "name": {
-            "Key": "CMP_name_Lancelot_Torso",
+            "Key": "CMP_name_Lancelot_Chassis",
             "TableNamespace": "Component_name",
             "en": "Lancelot"
         },
@@ -413,7 +375,7 @@
     "loki": {
         "id": "loki",
         "name": {
-            "Key": "CMP_name_Loki_Torso",
+            "Key": "CMP_name_Loki_Chassis",
             "TableNamespace": "Component_name",
             "en": "Loki"
         },
@@ -432,7 +394,7 @@
     "matriarch": {
         "id": "matriarch",
         "name": {
-            "Key": "CMP_name_MATRIARCH",
+            "Key": "CMP_name_Matriarch_Chassis",
             "TableNamespace": "Component_name",
             "en": "Matriarch"
         },
@@ -454,7 +416,7 @@
     "mesa": {
         "id": "mesa",
         "name": {
-            "Key": "CMP_name_Mesa_Torso",
+            "Key": "CMP_name_Mesa_Chassis",
             "TableNamespace": "Component_name",
             "en": "Mesa"
         },
@@ -473,7 +435,7 @@
     "norna": {
         "id": "norna",
         "name": {
-            "Key": "CMP_name_NORNA",
+            "Key": "CMP_name_Norna_Chassis",
             "TableNamespace": "Component_name",
             "en": "Norna"
         },
@@ -494,7 +456,7 @@
     "orochi": {
         "id": "orochi",
         "name": {
-            "Key": "CMP_name_Orochi_Torso",
+            "Key": "CMP_name_Orochi_Chassis",
             "TableNamespace": "Component_name",
             "en": "Orochi"
         },
@@ -514,7 +476,7 @@
     "phantom": {
         "id": "phantom",
         "name": {
-            "Key": "CMP_name_Phantom_Torso",
+            "Key": "CMP_name_Phantom_Chassis",
             "TableNamespace": "Component_name",
             "en": "Phantom"
         },
@@ -533,7 +495,7 @@
     "purifier": {
         "id": "purifier",
         "name": {
-            "Key": "CMP_name_Purifier_Torso",
+            "Key": "CMP_name_Purifier_Chassis",
             "TableNamespace": "Component_name",
             "en": "Purifier"
         },
@@ -553,7 +515,7 @@
     "pursuer": {
         "id": "pursuer",
         "name": {
-            "Key": "CMP_name_Pursuer_Torso",
+            "Key": "CMP_name_Pursuer_Chassis",
             "TableNamespace": "Component_name",
             "en": "Pursuer"
         },
@@ -572,7 +534,7 @@
     "ravana": {
         "id": "ravana",
         "name": {
-            "Key": "CMP_name_Ravana_Torso",
+            "Key": "CMP_name_Ravana_Chassis",
             "TableNamespace": "Component_name",
             "en": "Ravana"
         },
@@ -592,7 +554,7 @@
     "raven": {
         "id": "raven",
         "name": {
-            "Key": "CMP_name_Raven_Torso",
+            "Key": "CMP_name_Raven_Chassis",
             "TableNamespace": "Component_name",
             "en": "Raven"
         },
@@ -612,7 +574,7 @@
     "scorpion": {
         "id": "scorpion",
         "name": {
-            "Key": "CMP_name_Scorpion_Torso",
+            "Key": "CMP_name_Scorpion_Chassis",
             "TableNamespace": "Component_name",
             "en": "Scorpion"
         },
@@ -631,7 +593,7 @@
     "siren": {
         "id": "siren",
         "name": {
-            "Key": "CMP_name_Siren_Torso",
+            "Key": "CMP_name_Siren_Chassis",
             "TableNamespace": "Component_name",
             "en": "Siren"
         },
@@ -648,10 +610,48 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotSiren"
     },
+    "typhon": {
+        "id": "typhon",
+        "name": {
+            "Key": "CMP_name_Typhon_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Typhon"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisTyphon.2",
+            "OBJID_Module::DA_Module_TorsoTyphon.1",
+            "OBJID_Module::DA_Module_ShoulderTyphon.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyphon.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyphon"
+    },
+    "tyr": {
+        "id": "tyr",
+        "name": {
+            "Key": "CMP_name_Tyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Tyr"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisTyr.2",
+            "OBJID_Module::DA_Module_TorsoTyr.1",
+            "OBJID_Module::DA_Module_ShoulderTyr.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_Legend_DevbotTyr.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotTyr"
+    },
     "varangian": {
         "id": "varangian",
         "name": {
-            "Key": "CMP_name_Varangian_Torso",
+            "Key": "CMP_name_Varangian_Chassis",
             "TableNamespace": "Component_name",
             "en": "Varangian"
         },
