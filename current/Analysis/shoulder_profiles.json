@@ -1,0 +1,3840 @@
+[
+    {
+        "weight_drain": 10.0,
+        "light_slots": 1,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderPhantom.0",
+                "levels": {
+                    "1": {
+                        "Armor": 37200.0,
+                        "ShieldAmount": 21200.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 3980.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.32663,
+                        "DelayAndRechargeTotal": 14.77663
+                    },
+                    "2": {
+                        "Armor": 38700.0,
+                        "ShieldAmount": 21600.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4060.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.3202,
+                        "DelayAndRechargeTotal": 14.7702
+                    },
+                    "3": {
+                        "Armor": 38700.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4140.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.43478,
+                        "DelayAndRechargeTotal": 14.88478
+                    },
+                    "4": {
+                        "Armor": 39900.0,
+                        "ShieldAmount": 22900.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4220.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.42654,
+                        "DelayAndRechargeTotal": 14.87654
+                    },
+                    "5": {
+                        "Armor": 39900.0,
+                        "ShieldAmount": 23800.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4300.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.53488,
+                        "DelayAndRechargeTotal": 14.98488
+                    },
+                    "6": {
+                        "Armor": 41100.0,
+                        "ShieldAmount": 24300.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4390.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.53531,
+                        "DelayAndRechargeTotal": 14.98531
+                    },
+                    "7": {
+                        "Armor": 41100.0,
+                        "ShieldAmount": 25300.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4480.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.64732,
+                        "DelayAndRechargeTotal": 15.09732
+                    },
+                    "8": {
+                        "Armor": 42300.0,
+                        "ShieldAmount": 25800.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4570.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.64551,
+                        "DelayAndRechargeTotal": 15.09551
+                    },
+                    "9": {
+                        "Armor": 42300.0,
+                        "ShieldAmount": 26800.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4660.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.75107,
+                        "DelayAndRechargeTotal": 15.20107
+                    },
+                    "10": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 27300.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4750.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.74737,
+                        "DelayAndRechargeTotal": 15.19737
+                    },
+                    "11": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 28400.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4850.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.85567,
+                        "DelayAndRechargeTotal": 15.30567
+                    },
+                    "12": {
+                        "Armor": 44000.0,
+                        "ShieldAmount": 29000.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 4950.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.85859,
+                        "DelayAndRechargeTotal": 15.30859
+                    },
+                    "13": {
+                        "Armor": 44000.0,
+                        "ShieldAmount": 30200.0,
+                        "ShieldDelayReduction": 0.055,
+                        "ShieldRegeneration": 5050.0,
+                        "RechargeDelay": 9.45,
+                        "RechargeTime": 5.9802,
+                        "DelayAndRechargeTotal": 15.4302
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderScorpion.0",
+                "levels": {
+                    "1": {
+                        "Armor": 43200.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 3980.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.65327,
+                        "DelayAndRechargeTotal": 15.30327
+                    },
+                    "2": {
+                        "Armor": 44900.0,
+                        "ShieldAmount": 22900.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4060.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.64039,
+                        "DelayAndRechargeTotal": 15.29039
+                    },
+                    "3": {
+                        "Armor": 44900.0,
+                        "ShieldAmount": 23800.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4140.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.74879,
+                        "DelayAndRechargeTotal": 15.39879
+                    },
+                    "4": {
+                        "Armor": 46200.0,
+                        "ShieldAmount": 24300.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4220.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.75829,
+                        "DelayAndRechargeTotal": 15.40829
+                    },
+                    "5": {
+                        "Armor": 46200.0,
+                        "ShieldAmount": 25300.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4300.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.88372,
+                        "DelayAndRechargeTotal": 15.53372
+                    },
+                    "6": {
+                        "Armor": 47600.0,
+                        "ShieldAmount": 25800.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4390.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.87699,
+                        "DelayAndRechargeTotal": 15.52699
+                    },
+                    "7": {
+                        "Armor": 47600.0,
+                        "ShieldAmount": 26800.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4480.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.98214,
+                        "DelayAndRechargeTotal": 15.63214
+                    },
+                    "8": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 27300.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4570.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 5.97374,
+                        "DelayAndRechargeTotal": 15.62374
+                    },
+                    "9": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 28400.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4660.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 6.09442,
+                        "DelayAndRechargeTotal": 15.74442
+                    },
+                    "10": {
+                        "Armor": 50000.0,
+                        "ShieldAmount": 29000.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4750.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 6.10526,
+                        "DelayAndRechargeTotal": 15.75526
+                    },
+                    "11": {
+                        "Armor": 50000.0,
+                        "ShieldAmount": 30200.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4850.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 6.2268,
+                        "DelayAndRechargeTotal": 15.8768
+                    },
+                    "12": {
+                        "Armor": 51000.0,
+                        "ShieldAmount": 30800.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 4950.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 6.22222,
+                        "DelayAndRechargeTotal": 15.87222
+                    },
+                    "13": {
+                        "Armor": 51000.0,
+                        "ShieldAmount": 32000.0,
+                        "ShieldDelayReduction": 0.035,
+                        "ShieldRegeneration": 5050.0,
+                        "RechargeDelay": 9.65,
+                        "RechargeTime": 6.33663,
+                        "DelayAndRechargeTotal": 15.98663
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 11.0,
+        "light_slots": 1,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderHarpy.0",
+                "levels": {
+                    "1": {
+                        "Armor": 43400.0,
+                        "ShieldAmount": 21000.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 3420.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 6.14035,
+                        "DelayAndRechargeTotal": 14.64035
+                    },
+                    "2": {
+                        "Armor": 45100.0,
+                        "ShieldAmount": 21400.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 3490.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 6.13181,
+                        "DelayAndRechargeTotal": 14.63181
+                    },
+                    "3": {
+                        "Armor": 45100.0,
+                        "ShieldAmount": 21800.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 3560.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.1236,
+                        "DelayAndRechargeTotal": 14.5236
+                    },
+                    "4": {
+                        "Armor": 45100.0,
+                        "ShieldAmount": 22200.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 3630.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.1157,
+                        "DelayAndRechargeTotal": 14.5157
+                    },
+                    "5": {
+                        "Armor": 45100.0,
+                        "ShieldAmount": 22600.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 3880.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.82474,
+                        "DelayAndRechargeTotal": 14.12474
+                    },
+                    "6": {
+                        "Armor": 47400.0,
+                        "ShieldAmount": 23100.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 3960.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.83333,
+                        "DelayAndRechargeTotal": 14.13333
+                    },
+                    "7": {
+                        "Armor": 47400.0,
+                        "ShieldAmount": 23600.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 4040.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.84158,
+                        "DelayAndRechargeTotal": 14.14158
+                    },
+                    "8": {
+                        "Armor": 49300.0,
+                        "ShieldAmount": 24100.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 4320.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.5787,
+                        "DelayAndRechargeTotal": 13.8787
+                    },
+                    "9": {
+                        "Armor": 49300.0,
+                        "ShieldAmount": 24600.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 4410.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.57823,
+                        "DelayAndRechargeTotal": 13.77823
+                    },
+                    "10": {
+                        "Armor": 49300.0,
+                        "ShieldAmount": 25100.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 4500.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.57778,
+                        "DelayAndRechargeTotal": 13.77778
+                    },
+                    "11": {
+                        "Armor": 50800.0,
+                        "ShieldAmount": 25600.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 4810.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.32225,
+                        "DelayAndRechargeTotal": 13.52225
+                    },
+                    "12": {
+                        "Armor": 50800.0,
+                        "ShieldAmount": 26100.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 4910.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.31568,
+                        "DelayAndRechargeTotal": 13.51568
+                    },
+                    "13": {
+                        "Armor": 50800.0,
+                        "ShieldAmount": 26620.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 5250.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.07048,
+                        "DelayAndRechargeTotal": 13.17048
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderLoki.0",
+                "levels": {
+                    "1": {
+                        "Armor": 43700.0,
+                        "ShieldAmount": 25700.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 4780.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.37657,
+                        "DelayAndRechargeTotal": 14.43657
+                    },
+                    "2": {
+                        "Armor": 45400.0,
+                        "ShieldAmount": 26200.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 4880.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.36885,
+                        "DelayAndRechargeTotal": 14.42885
+                    },
+                    "3": {
+                        "Armor": 45400.0,
+                        "ShieldAmount": 27200.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 4980.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.46185,
+                        "DelayAndRechargeTotal": 14.52185
+                    },
+                    "4": {
+                        "Armor": 46800.0,
+                        "ShieldAmount": 27700.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5080.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.45276,
+                        "DelayAndRechargeTotal": 14.51276
+                    },
+                    "5": {
+                        "Armor": 46800.0,
+                        "ShieldAmount": 28800.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5180.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.55985,
+                        "DelayAndRechargeTotal": 14.61985
+                    },
+                    "6": {
+                        "Armor": 48200.0,
+                        "ShieldAmount": 29400.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5280.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.56818,
+                        "DelayAndRechargeTotal": 14.62818
+                    },
+                    "7": {
+                        "Armor": 48200.0,
+                        "ShieldAmount": 30600.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5390.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.67718,
+                        "DelayAndRechargeTotal": 14.73718
+                    },
+                    "8": {
+                        "Armor": 49600.0,
+                        "ShieldAmount": 31200.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5500.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.67273,
+                        "DelayAndRechargeTotal": 14.73273
+                    },
+                    "9": {
+                        "Armor": 49600.0,
+                        "ShieldAmount": 32400.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5610.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.7754,
+                        "DelayAndRechargeTotal": 14.8354
+                    },
+                    "10": {
+                        "Armor": 50600.0,
+                        "ShieldAmount": 33000.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5720.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.76923,
+                        "DelayAndRechargeTotal": 14.82923
+                    },
+                    "11": {
+                        "Armor": 50600.0,
+                        "ShieldAmount": 34300.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5830.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.88336,
+                        "DelayAndRechargeTotal": 14.94336
+                    },
+                    "12": {
+                        "Armor": 51600.0,
+                        "ShieldAmount": 35000.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 5950.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.88235,
+                        "DelayAndRechargeTotal": 14.94235
+                    },
+                    "13": {
+                        "Armor": 51600.0,
+                        "ShieldAmount": 36400.0,
+                        "ShieldDelayReduction": 0.094,
+                        "ShieldRegeneration": 6070.0,
+                        "RechargeDelay": 9.06,
+                        "RechargeTime": 5.99671,
+                        "DelayAndRechargeTotal": 15.05671
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderPursuer.0",
+                "levels": {
+                    "1": {
+                        "Armor": 42200.0,
+                        "ShieldAmount": 23600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5160.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.57364,
+                        "DelayAndRechargeTotal": 14.17364
+                    },
+                    "2": {
+                        "Armor": 43900.0,
+                        "ShieldAmount": 24100.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5260.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.58175,
+                        "DelayAndRechargeTotal": 14.18175
+                    },
+                    "3": {
+                        "Armor": 43900.0,
+                        "ShieldAmount": 25100.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5370.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.67412,
+                        "DelayAndRechargeTotal": 14.27412
+                    },
+                    "4": {
+                        "Armor": 45200.0,
+                        "ShieldAmount": 25600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5480.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.67153,
+                        "DelayAndRechargeTotal": 14.27153
+                    },
+                    "5": {
+                        "Armor": 45200.0,
+                        "ShieldAmount": 26600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5590.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.7585,
+                        "DelayAndRechargeTotal": 14.3585
+                    },
+                    "6": {
+                        "Armor": 46600.0,
+                        "ShieldAmount": 27100.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5700.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.75439,
+                        "DelayAndRechargeTotal": 14.35439
+                    },
+                    "7": {
+                        "Armor": 46600.0,
+                        "ShieldAmount": 28200.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5810.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.8537,
+                        "DelayAndRechargeTotal": 14.4537
+                    },
+                    "8": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 28800.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 5930.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.85666,
+                        "DelayAndRechargeTotal": 14.45666
+                    },
+                    "9": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 29900.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 6050.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.94215,
+                        "DelayAndRechargeTotal": 14.54215
+                    },
+                    "10": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 30500.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 6170.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 4.94327,
+                        "DelayAndRechargeTotal": 14.54327
+                    },
+                    "11": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 31700.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 6290.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 5.03975,
+                        "DelayAndRechargeTotal": 14.63975
+                    },
+                    "12": {
+                        "Armor": 50000.0,
+                        "ShieldAmount": 32300.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 6420.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 5.03115,
+                        "DelayAndRechargeTotal": 14.63115
+                    },
+                    "13": {
+                        "Armor": 50000.0,
+                        "ShieldAmount": 33600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 6550.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 5.12977,
+                        "DelayAndRechargeTotal": 14.72977
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderSiren.0",
+                "levels": {
+                    "1": {
+                        "Armor": 41400.0,
+                        "ShieldAmount": 15100.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 2430.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 6.21399,
+                        "DelayAndRechargeTotal": 14.71399
+                    },
+                    "2": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 15400.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 2480.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 6.20968,
+                        "DelayAndRechargeTotal": 14.70968
+                    },
+                    "3": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 15700.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 2530.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.20553,
+                        "DelayAndRechargeTotal": 14.60553
+                    },
+                    "4": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 16000.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 2580.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.20155,
+                        "DelayAndRechargeTotal": 14.60155
+                    },
+                    "5": {
+                        "Armor": 43100.0,
+                        "ShieldAmount": 16300.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2760.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.9058,
+                        "DelayAndRechargeTotal": 14.2058
+                    },
+                    "6": {
+                        "Armor": 45300.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2820.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.88652,
+                        "DelayAndRechargeTotal": 14.18652
+                    },
+                    "7": {
+                        "Armor": 45300.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2880.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.86806,
+                        "DelayAndRechargeTotal": 14.16806
+                    },
+                    "8": {
+                        "Armor": 47100.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 3080.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 5.58442,
+                        "DelayAndRechargeTotal": 13.88442
+                    },
+                    "9": {
+                        "Armor": 47100.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3140.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.57325,
+                        "DelayAndRechargeTotal": 13.77325
+                    },
+                    "10": {
+                        "Armor": 47100.0,
+                        "ShieldAmount": 17900.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3200.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.59375,
+                        "DelayAndRechargeTotal": 13.79375
+                    },
+                    "11": {
+                        "Armor": 48500.0,
+                        "ShieldAmount": 18300.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3420.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.35088,
+                        "DelayAndRechargeTotal": 13.55088
+                    },
+                    "12": {
+                        "Armor": 48500.0,
+                        "ShieldAmount": 18700.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3490.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.35817,
+                        "DelayAndRechargeTotal": 13.55817
+                    },
+                    "13": {
+                        "Armor": 48500.0,
+                        "ShieldAmount": 19025.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 3730.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.10054,
+                        "DelayAndRechargeTotal": 13.20054
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 11.0,
+        "light_slots": 2,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderTyphon.0",
+                "levels": {
+                    "1": {
+                        "Armor": 37000.0,
+                        "ShieldAmount": 19000.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 3060.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.20915,
+                        "DelayAndRechargeTotal": 14.60915
+                    },
+                    "2": {
+                        "Armor": 38500.0,
+                        "ShieldAmount": 19400.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 3120.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 6.21795,
+                        "DelayAndRechargeTotal": 14.61795
+                    },
+                    "3": {
+                        "Armor": 38500.0,
+                        "ShieldAmount": 19800.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 3180.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 6.22642,
+                        "DelayAndRechargeTotal": 14.52642
+                    },
+                    "4": {
+                        "Armor": 38500.0,
+                        "ShieldAmount": 20200.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 3240.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 6.23457,
+                        "DelayAndRechargeTotal": 14.53457
+                    },
+                    "5": {
+                        "Armor": 38500.0,
+                        "ShieldAmount": 20600.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3470.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.9366,
+                        "DelayAndRechargeTotal": 14.1366
+                    },
+                    "6": {
+                        "Armor": 40400.0,
+                        "ShieldAmount": 21000.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3540.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.9322,
+                        "DelayAndRechargeTotal": 14.1322
+                    },
+                    "7": {
+                        "Armor": 40400.0,
+                        "ShieldAmount": 21400.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3610.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.92798,
+                        "DelayAndRechargeTotal": 14.12798
+                    },
+                    "8": {
+                        "Armor": 42000.0,
+                        "ShieldAmount": 21800.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 3860.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 5.64767,
+                        "DelayAndRechargeTotal": 13.84767
+                    },
+                    "9": {
+                        "Armor": 42000.0,
+                        "ShieldAmount": 22200.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 3940.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.63452,
+                        "DelayAndRechargeTotal": 13.73452
+                    },
+                    "10": {
+                        "Armor": 42000.0,
+                        "ShieldAmount": 22600.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 4020.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.62189,
+                        "DelayAndRechargeTotal": 13.72189
+                    },
+                    "11": {
+                        "Armor": 43300.0,
+                        "ShieldAmount": 23100.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 4300.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.37209,
+                        "DelayAndRechargeTotal": 13.47209
+                    },
+                    "12": {
+                        "Armor": 43300.0,
+                        "ShieldAmount": 23600.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 4390.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.37585,
+                        "DelayAndRechargeTotal": 13.47585
+                    },
+                    "13": {
+                        "Armor": 43300.0,
+                        "ShieldAmount": 24100.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 4700.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.12766,
+                        "DelayAndRechargeTotal": 13.12766
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderTyr.0",
+                "levels": {
+                    "1": {
+                        "Armor": 42400.0,
+                        "ShieldAmount": 14100.0,
+                        "ShieldDelayReduction": 0.155,
+                        "ShieldRegeneration": 2270.0,
+                        "RechargeDelay": 8.45,
+                        "RechargeTime": 6.21145,
+                        "DelayAndRechargeTotal": 14.66145
+                    },
+                    "2": {
+                        "Armor": 44100.0,
+                        "ShieldAmount": 14400.0,
+                        "ShieldDelayReduction": 0.155,
+                        "ShieldRegeneration": 2320.0,
+                        "RechargeDelay": 8.45,
+                        "RechargeTime": 6.2069,
+                        "DelayAndRechargeTotal": 14.6569
+                    },
+                    "3": {
+                        "Armor": 44100.0,
+                        "ShieldAmount": 14700.0,
+                        "ShieldDelayReduction": 0.165,
+                        "ShieldRegeneration": 2370.0,
+                        "RechargeDelay": 8.35,
+                        "RechargeTime": 6.20253,
+                        "DelayAndRechargeTotal": 14.55253
+                    },
+                    "4": {
+                        "Armor": 44100.0,
+                        "ShieldAmount": 15000.0,
+                        "ShieldDelayReduction": 0.165,
+                        "ShieldRegeneration": 2420.0,
+                        "RechargeDelay": 8.35,
+                        "RechargeTime": 6.19835,
+                        "DelayAndRechargeTotal": 14.54835
+                    },
+                    "5": {
+                        "Armor": 44100.0,
+                        "ShieldAmount": 15300.0,
+                        "ShieldDelayReduction": 0.175,
+                        "ShieldRegeneration": 2590.0,
+                        "RechargeDelay": 8.25,
+                        "RechargeTime": 5.90734,
+                        "DelayAndRechargeTotal": 14.15734
+                    },
+                    "6": {
+                        "Armor": 46300.0,
+                        "ShieldAmount": 15600.0,
+                        "ShieldDelayReduction": 0.175,
+                        "ShieldRegeneration": 2640.0,
+                        "RechargeDelay": 8.25,
+                        "RechargeTime": 5.90909,
+                        "DelayAndRechargeTotal": 14.15909
+                    },
+                    "7": {
+                        "Armor": 46300.0,
+                        "ShieldAmount": 15900.0,
+                        "ShieldDelayReduction": 0.175,
+                        "ShieldRegeneration": 2690.0,
+                        "RechargeDelay": 8.25,
+                        "RechargeTime": 5.91078,
+                        "DelayAndRechargeTotal": 14.16078
+                    },
+                    "8": {
+                        "Armor": 48100.0,
+                        "ShieldAmount": 16200.0,
+                        "ShieldDelayReduction": 0.175,
+                        "ShieldRegeneration": 2880.0,
+                        "RechargeDelay": 8.25,
+                        "RechargeTime": 5.625,
+                        "DelayAndRechargeTotal": 13.875
+                    },
+                    "9": {
+                        "Armor": 48100.0,
+                        "ShieldAmount": 16500.0,
+                        "ShieldDelayReduction": 0.185,
+                        "ShieldRegeneration": 2940.0,
+                        "RechargeDelay": 8.15,
+                        "RechargeTime": 5.61224,
+                        "DelayAndRechargeTotal": 13.76224
+                    },
+                    "10": {
+                        "Armor": 48100.0,
+                        "ShieldAmount": 16800.0,
+                        "ShieldDelayReduction": 0.185,
+                        "ShieldRegeneration": 3000.0,
+                        "RechargeDelay": 8.15,
+                        "RechargeTime": 5.6,
+                        "DelayAndRechargeTotal": 13.75
+                    },
+                    "11": {
+                        "Armor": 49500.0,
+                        "ShieldAmount": 17100.0,
+                        "ShieldDelayReduction": 0.185,
+                        "ShieldRegeneration": 3210.0,
+                        "RechargeDelay": 8.15,
+                        "RechargeTime": 5.3271,
+                        "DelayAndRechargeTotal": 13.4771
+                    },
+                    "12": {
+                        "Armor": 49500.0,
+                        "ShieldAmount": 17400.0,
+                        "ShieldDelayReduction": 0.185,
+                        "ShieldRegeneration": 3270.0,
+                        "RechargeDelay": 8.15,
+                        "RechargeTime": 5.3211,
+                        "DelayAndRechargeTotal": 13.4711
+                    },
+                    "13": {
+                        "Armor": 49500.0,
+                        "ShieldAmount": 17760.0,
+                        "ShieldDelayReduction": 0.195,
+                        "ShieldRegeneration": 3500.0,
+                        "RechargeDelay": 8.05,
+                        "RechargeTime": 5.07429,
+                        "DelayAndRechargeTotal": 13.12429
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 12.0,
+        "light_slots": 1,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderAnansi.0",
+                "levels": {
+                    "1": {
+                        "Armor": 52800.0,
+                        "ShieldAmount": 14800.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 2290.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 6.46288,
+                        "DelayAndRechargeTotal": 14.66288
+                    },
+                    "2": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 15100.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 2340.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 6.45299,
+                        "DelayAndRechargeTotal": 14.65299
+                    },
+                    "3": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 15400.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2390.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 6.44351,
+                        "DelayAndRechargeTotal": 14.54351
+                    },
+                    "4": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 15700.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2440.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 6.43443,
+                        "DelayAndRechargeTotal": 14.53443
+                    },
+                    "5": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 16000.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 2610.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 6.13027,
+                        "DelayAndRechargeTotal": 14.13027
+                    },
+                    "6": {
+                        "Armor": 57600.0,
+                        "ShieldAmount": 16300.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 2660.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 6.12782,
+                        "DelayAndRechargeTotal": 14.12782
+                    },
+                    "7": {
+                        "Armor": 57600.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 2710.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 6.12546,
+                        "DelayAndRechargeTotal": 14.12546
+                    },
+                    "8": {
+                        "Armor": 59900.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 2900.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.82759,
+                        "DelayAndRechargeTotal": 13.82759
+                    },
+                    "9": {
+                        "Armor": 59900.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2960.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.81081,
+                        "DelayAndRechargeTotal": 13.71081
+                    },
+                    "10": {
+                        "Armor": 59900.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 3020.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.7947,
+                        "DelayAndRechargeTotal": 13.6947
+                    },
+                    "11": {
+                        "Armor": 61700.0,
+                        "ShieldAmount": 17800.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 3230.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.51084,
+                        "DelayAndRechargeTotal": 13.41084
+                    },
+                    "12": {
+                        "Armor": 61700.0,
+                        "ShieldAmount": 18200.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 3290.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.53191,
+                        "DelayAndRechargeTotal": 13.43191
+                    },
+                    "13": {
+                        "Armor": 61700.0,
+                        "ShieldAmount": 18520.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 3520.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 5.26136,
+                        "DelayAndRechargeTotal": 13.06136
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderDemeter.0",
+                "levels": {
+                    "1": {
+                        "Armor": 98100.0,
+                        "ShieldAmount": 12300.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 12300.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    },
+                    "2": {
+                        "Armor": 103000.0,
+                        "ShieldAmount": 12500.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 12500.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    },
+                    "3": {
+                        "Armor": 103000.0,
+                        "ShieldAmount": 12700.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 12700.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "4": {
+                        "Armor": 108200.0,
+                        "ShieldAmount": 13000.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 13000.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "5": {
+                        "Armor": 108200.0,
+                        "ShieldAmount": 13300.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 13300.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "6": {
+                        "Armor": 112500.0,
+                        "ShieldAmount": 13600.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 13600.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "7": {
+                        "Armor": 117000.0,
+                        "ShieldAmount": 13900.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 13900.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "8": {
+                        "Armor": 121700.0,
+                        "ShieldAmount": 14200.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 14200.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "9": {
+                        "Armor": 121700.0,
+                        "ShieldAmount": 14500.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 14500.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "10": {
+                        "Armor": 125300.0,
+                        "ShieldAmount": 14800.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 14800.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "11": {
+                        "Armor": 129100.0,
+                        "ShieldAmount": 15100.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 15100.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "12": {
+                        "Armor": 133000.0,
+                        "ShieldAmount": 15400.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 15400.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "13": {
+                        "Armor": 133000.0,
+                        "ShieldAmount": 15700.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 15700.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderHeike.0",
+                "levels": {
+                    "1": {
+                        "Armor": 85500.0,
+                        "ShieldAmount": 7300.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 7300.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "2": {
+                        "Armor": 89800.0,
+                        "ShieldAmount": 7400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 7400.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "3": {
+                        "Armor": 89800.0,
+                        "ShieldAmount": 7500.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 7500.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "4": {
+                        "Armor": 94300.0,
+                        "ShieldAmount": 7700.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 7700.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "5": {
+                        "Armor": 94300.0,
+                        "ShieldAmount": 7900.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 7900.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.5
+                    },
+                    "6": {
+                        "Armor": 98100.0,
+                        "ShieldAmount": 8100.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 8100.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.5
+                    },
+                    "7": {
+                        "Armor": 102000.0,
+                        "ShieldAmount": 8300.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 8300.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.5
+                    },
+                    "8": {
+                        "Armor": 106100.0,
+                        "ShieldAmount": 8500.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 8500.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.5
+                    },
+                    "9": {
+                        "Armor": 106100.0,
+                        "ShieldAmount": 8700.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 8700.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.4
+                    },
+                    "10": {
+                        "Armor": 109300.0,
+                        "ShieldAmount": 8900.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 8900.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.4
+                    },
+                    "11": {
+                        "Armor": 112600.0,
+                        "ShieldAmount": 9100.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 9100.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.4
+                    },
+                    "12": {
+                        "Armor": 116000.0,
+                        "ShieldAmount": 9300.0,
+                        "ShieldDelayReduction": 0.16,
+                        "ShieldRegeneration": 9300.0,
+                        "RechargeDelay": 8.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.4
+                    },
+                    "13": {
+                        "Armor": 116000.0,
+                        "ShieldAmount": 9500.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 9500.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.3
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderKernel.0",
+                "levels": {
+                    "1": {
+                        "Armor": 61300.0,
+                        "ShieldAmount": 15200.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 1660.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 9.15663,
+                        "DelayAndRechargeTotal": 17.35663
+                    },
+                    "2": {
+                        "Armor": 63800.0,
+                        "ShieldAmount": 15500.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 1690.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 9.1716,
+                        "DelayAndRechargeTotal": 17.3716
+                    },
+                    "3": {
+                        "Armor": 63800.0,
+                        "ShieldAmount": 15800.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 1720.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 9.18605,
+                        "DelayAndRechargeTotal": 17.18605
+                    },
+                    "4": {
+                        "Armor": 66300.0,
+                        "ShieldAmount": 16100.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 1750.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 9.2,
+                        "DelayAndRechargeTotal": 17.2
+                    },
+                    "5": {
+                        "Armor": 66300.0,
+                        "ShieldAmount": 16400.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1780.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 9.21348,
+                        "DelayAndRechargeTotal": 17.01348
+                    },
+                    "6": {
+                        "Armor": 68300.0,
+                        "ShieldAmount": 16700.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1820.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 9.17582,
+                        "DelayAndRechargeTotal": 16.97582
+                    },
+                    "7": {
+                        "Armor": 70400.0,
+                        "ShieldAmount": 17000.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1860.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 9.13978,
+                        "DelayAndRechargeTotal": 16.93978
+                    },
+                    "8": {
+                        "Armor": 72500.0,
+                        "ShieldAmount": 17300.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1900.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 9.10526,
+                        "DelayAndRechargeTotal": 16.90526
+                    },
+                    "9": {
+                        "Armor": 72500.0,
+                        "ShieldAmount": 17600.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 1940.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 9.07216,
+                        "DelayAndRechargeTotal": 16.67216
+                    },
+                    "10": {
+                        "Armor": 74000.0,
+                        "ShieldAmount": 18000.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 1980.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 9.09091,
+                        "DelayAndRechargeTotal": 16.69091
+                    },
+                    "11": {
+                        "Armor": 75500.0,
+                        "ShieldAmount": 18400.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 2020.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 9.10891,
+                        "DelayAndRechargeTotal": 16.70891
+                    },
+                    "12": {
+                        "Armor": 77000.0,
+                        "ShieldAmount": 18800.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 2060.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 9.12621,
+                        "DelayAndRechargeTotal": 16.72621
+                    },
+                    "13": {
+                        "Armor": 77000.0,
+                        "ShieldAmount": 19200.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 2100.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 9.14286,
+                        "DelayAndRechargeTotal": 16.54286
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderOrochi.0",
+                "levels": {
+                    "1": {
+                        "Armor": 43900.0,
+                        "ShieldAmount": 16000.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2610.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 6.13027,
+                        "DelayAndRechargeTotal": 14.43027
+                    },
+                    "2": {
+                        "Armor": 45700.0,
+                        "ShieldAmount": 16300.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2660.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 6.12782,
+                        "DelayAndRechargeTotal": 14.42782
+                    },
+                    "3": {
+                        "Armor": 45700.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 2710.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 6.12546,
+                        "DelayAndRechargeTotal": 14.32546
+                    },
+                    "4": {
+                        "Armor": 45700.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.18,
+                        "ShieldRegeneration": 2760.0,
+                        "RechargeDelay": 8.2,
+                        "RechargeTime": 6.12319,
+                        "DelayAndRechargeTotal": 14.32319
+                    },
+                    "5": {
+                        "Armor": 45700.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2950.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.83051,
+                        "DelayAndRechargeTotal": 13.93051
+                    },
+                    "6": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 3010.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.81395,
+                        "DelayAndRechargeTotal": 13.91395
+                    },
+                    "7": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 17900.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 3070.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.83062,
+                        "DelayAndRechargeTotal": 13.93062
+                    },
+                    "8": {
+                        "Armor": 49900.0,
+                        "ShieldAmount": 18300.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 3290.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 5.56231,
+                        "DelayAndRechargeTotal": 13.66231
+                    },
+                    "9": {
+                        "Armor": 49900.0,
+                        "ShieldAmount": 18700.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 3360.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.56548,
+                        "DelayAndRechargeTotal": 13.56548
+                    },
+                    "10": {
+                        "Armor": 49900.0,
+                        "ShieldAmount": 19100.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 3430.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.56851,
+                        "DelayAndRechargeTotal": 13.56851
+                    },
+                    "11": {
+                        "Armor": 51400.0,
+                        "ShieldAmount": 19500.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 3670.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.31335,
+                        "DelayAndRechargeTotal": 13.31335
+                    },
+                    "12": {
+                        "Armor": 51400.0,
+                        "ShieldAmount": 19900.0,
+                        "ShieldDelayReduction": 0.2,
+                        "ShieldRegeneration": 3740.0,
+                        "RechargeDelay": 8.0,
+                        "RechargeTime": 5.32086,
+                        "DelayAndRechargeTotal": 13.32086
+                    },
+                    "13": {
+                        "Armor": 51400.0,
+                        "ShieldAmount": 20300.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 4000.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.075,
+                        "DelayAndRechargeTotal": 12.975
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 12.0,
+        "light_slots": 2,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderAres.0",
+                "levels": {
+                    "1": {
+                        "Armor": 47300.0,
+                        "ShieldAmount": 20400.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2530.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.06324,
+                        "DelayAndRechargeTotal": 17.56324
+                    },
+                    "2": {
+                        "Armor": 49200.0,
+                        "ShieldAmount": 20800.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2580.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.06202,
+                        "DelayAndRechargeTotal": 17.56202
+                    },
+                    "3": {
+                        "Armor": 49200.0,
+                        "ShieldAmount": 21600.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2630.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.21293,
+                        "DelayAndRechargeTotal": 17.71293
+                    },
+                    "4": {
+                        "Armor": 50700.0,
+                        "ShieldAmount": 22000.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2680.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.20896,
+                        "DelayAndRechargeTotal": 17.70896
+                    },
+                    "5": {
+                        "Armor": 50700.0,
+                        "ShieldAmount": 22900.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2730.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.38828,
+                        "DelayAndRechargeTotal": 17.88828
+                    },
+                    "6": {
+                        "Armor": 52200.0,
+                        "ShieldAmount": 23400.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2780.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.41727,
+                        "DelayAndRechargeTotal": 17.91727
+                    },
+                    "7": {
+                        "Armor": 52200.0,
+                        "ShieldAmount": 24300.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2840.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.55634,
+                        "DelayAndRechargeTotal": 18.05634
+                    },
+                    "8": {
+                        "Armor": 53800.0,
+                        "ShieldAmount": 24800.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2900.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.55172,
+                        "DelayAndRechargeTotal": 18.05172
+                    },
+                    "9": {
+                        "Armor": 53800.0,
+                        "ShieldAmount": 25800.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 2960.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.71622,
+                        "DelayAndRechargeTotal": 18.21622
+                    },
+                    "10": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 26300.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 3020.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.70861,
+                        "DelayAndRechargeTotal": 18.20861
+                    },
+                    "11": {
+                        "Armor": 54900.0,
+                        "ShieldAmount": 27400.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 3080.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.8961,
+                        "DelayAndRechargeTotal": 18.3961
+                    },
+                    "12": {
+                        "Armor": 56000.0,
+                        "ShieldAmount": 27900.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 3140.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 8.88535,
+                        "DelayAndRechargeTotal": 18.38535
+                    },
+                    "13": {
+                        "Armor": 56000.0,
+                        "ShieldAmount": 29000.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 3200.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 9.0625,
+                        "DelayAndRechargeTotal": 18.5625
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderBulgasari.0",
+                "levels": {
+                    "1": {
+                        "Armor": 66200.0,
+                        "ShieldAmount": 14300.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 2400.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 5.95833,
+                        "DelayAndRechargeTotal": 13.65833
+                    },
+                    "2": {
+                        "Armor": 68800.0,
+                        "ShieldAmount": 14600.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 2450.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 5.95918,
+                        "DelayAndRechargeTotal": 13.65918
+                    },
+                    "3": {
+                        "Armor": 68800.0,
+                        "ShieldAmount": 14900.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2500.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 5.96,
+                        "DelayAndRechargeTotal": 13.46
+                    },
+                    "4": {
+                        "Armor": 71600.0,
+                        "ShieldAmount": 15200.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2550.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 5.96078,
+                        "DelayAndRechargeTotal": 13.46078
+                    },
+                    "5": {
+                        "Armor": 71600.0,
+                        "ShieldAmount": 15500.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2600.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 5.96154,
+                        "DelayAndRechargeTotal": 13.26154
+                    },
+                    "6": {
+                        "Armor": 73700.0,
+                        "ShieldAmount": 15800.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2650.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 5.96226,
+                        "DelayAndRechargeTotal": 13.26226
+                    },
+                    "7": {
+                        "Armor": 75900.0,
+                        "ShieldAmount": 16100.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2700.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 5.96296,
+                        "DelayAndRechargeTotal": 13.26296
+                    },
+                    "8": {
+                        "Armor": 78200.0,
+                        "ShieldAmount": 16400.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2750.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 5.96364,
+                        "DelayAndRechargeTotal": 13.26364
+                    },
+                    "9": {
+                        "Armor": 78200.0,
+                        "ShieldAmount": 16700.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2810.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 5.94306,
+                        "DelayAndRechargeTotal": 13.04306
+                    },
+                    "10": {
+                        "Armor": 79800.0,
+                        "ShieldAmount": 17000.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2870.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 5.92334,
+                        "DelayAndRechargeTotal": 13.02334
+                    },
+                    "11": {
+                        "Armor": 81400.0,
+                        "ShieldAmount": 17300.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2930.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 5.90444,
+                        "DelayAndRechargeTotal": 13.00444
+                    },
+                    "12": {
+                        "Armor": 83000.0,
+                        "ShieldAmount": 17600.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2990.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 5.88629,
+                        "DelayAndRechargeTotal": 12.98629
+                    },
+                    "13": {
+                        "Armor": 83000.0,
+                        "ShieldAmount": 18000.0,
+                        "ShieldDelayReduction": 0.31,
+                        "ShieldRegeneration": 3050.0,
+                        "RechargeDelay": 6.9,
+                        "RechargeTime": 5.90164,
+                        "DelayAndRechargeTotal": 12.80164
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderGaruda.0",
+                "levels": {
+                    "1": {
+                        "Armor": 50600.0,
+                        "ShieldAmount": 21900.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2360.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.27966,
+                        "DelayAndRechargeTotal": 18.87966
+                    },
+                    "2": {
+                        "Armor": 52600.0,
+                        "ShieldAmount": 22300.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2410.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.25311,
+                        "DelayAndRechargeTotal": 18.85311
+                    },
+                    "3": {
+                        "Armor": 52600.0,
+                        "ShieldAmount": 23200.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2460.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.43089,
+                        "DelayAndRechargeTotal": 19.03089
+                    },
+                    "4": {
+                        "Armor": 54200.0,
+                        "ShieldAmount": 23700.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2510.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.44223,
+                        "DelayAndRechargeTotal": 19.04223
+                    },
+                    "5": {
+                        "Armor": 54200.0,
+                        "ShieldAmount": 24600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2560.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.60938,
+                        "DelayAndRechargeTotal": 19.20938
+                    },
+                    "6": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 25100.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2610.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.61686,
+                        "DelayAndRechargeTotal": 19.21686
+                    },
+                    "7": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 26100.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2660.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.81203,
+                        "DelayAndRechargeTotal": 19.41203
+                    },
+                    "8": {
+                        "Armor": 57500.0,
+                        "ShieldAmount": 26600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2710.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 9.8155,
+                        "DelayAndRechargeTotal": 19.4155
+                    },
+                    "9": {
+                        "Armor": 57500.0,
+                        "ShieldAmount": 27700.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2760.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.03623,
+                        "DelayAndRechargeTotal": 19.63623
+                    },
+                    "10": {
+                        "Armor": 58600.0,
+                        "ShieldAmount": 28300.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2820.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.03546,
+                        "DelayAndRechargeTotal": 19.63546
+                    },
+                    "11": {
+                        "Armor": 58600.0,
+                        "ShieldAmount": 29400.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2880.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.20833,
+                        "DelayAndRechargeTotal": 19.80833
+                    },
+                    "12": {
+                        "Armor": 59800.0,
+                        "ShieldAmount": 30000.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 2940.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.20408,
+                        "DelayAndRechargeTotal": 19.80408
+                    },
+                    "13": {
+                        "Armor": 59800.0,
+                        "ShieldAmount": 31200.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 3000.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.4,
+                        "DelayAndRechargeTotal": 20.0
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderGriffin.0",
+                "levels": {
+                    "1": {
+                        "Armor": 87300.0,
+                        "ShieldAmount": 9000.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 9000.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "2": {
+                        "Armor": 91700.0,
+                        "ShieldAmount": 9200.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 9200.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "3": {
+                        "Armor": 91700.0,
+                        "ShieldAmount": 9400.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 9400.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "4": {
+                        "Armor": 96300.0,
+                        "ShieldAmount": 9600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 9600.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "5": {
+                        "Armor": 96300.0,
+                        "ShieldAmount": 9800.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 9800.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "6": {
+                        "Armor": 100200.0,
+                        "ShieldAmount": 10000.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10000.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "7": {
+                        "Armor": 104200.0,
+                        "ShieldAmount": 10200.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10200.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "8": {
+                        "Armor": 108400.0,
+                        "ShieldAmount": 10400.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10400.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "9": {
+                        "Armor": 108400.0,
+                        "ShieldAmount": 10600.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 10600.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "10": {
+                        "Armor": 111700.0,
+                        "ShieldAmount": 10800.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 10800.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "11": {
+                        "Armor": 115000.0,
+                        "ShieldAmount": 11000.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 11000.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "12": {
+                        "Armor": 118500.0,
+                        "ShieldAmount": 11200.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 11200.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "13": {
+                        "Armor": 118500.0,
+                        "ShieldAmount": 11400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 11400.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderNipper.0",
+                "levels": {
+                    "1": {
+                        "Armor": 46200.0,
+                        "ShieldAmount": 20900.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4040.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.17327,
+                        "DelayAndRechargeTotal": 14.47327
+                    },
+                    "2": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 21300.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4120.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.1699,
+                        "DelayAndRechargeTotal": 14.4699
+                    },
+                    "3": {
+                        "Armor": 48000.0,
+                        "ShieldAmount": 22100.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4200.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.2619,
+                        "DelayAndRechargeTotal": 14.5619
+                    },
+                    "4": {
+                        "Armor": 49400.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4280.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.25701,
+                        "DelayAndRechargeTotal": 14.55701
+                    },
+                    "5": {
+                        "Armor": 49400.0,
+                        "ShieldAmount": 23400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4370.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.35469,
+                        "DelayAndRechargeTotal": 14.65469
+                    },
+                    "6": {
+                        "Armor": 50900.0,
+                        "ShieldAmount": 23900.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4460.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.35874,
+                        "DelayAndRechargeTotal": 14.65874
+                    },
+                    "7": {
+                        "Armor": 50900.0,
+                        "ShieldAmount": 24900.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4550.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.47253,
+                        "DelayAndRechargeTotal": 14.77253
+                    },
+                    "8": {
+                        "Armor": 52400.0,
+                        "ShieldAmount": 25400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4640.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.47414,
+                        "DelayAndRechargeTotal": 14.77414
+                    },
+                    "9": {
+                        "Armor": 52400.0,
+                        "ShieldAmount": 26400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4730.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.5814,
+                        "DelayAndRechargeTotal": 14.8814
+                    },
+                    "10": {
+                        "Armor": 53400.0,
+                        "ShieldAmount": 26900.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4820.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.58091,
+                        "DelayAndRechargeTotal": 14.88091
+                    },
+                    "11": {
+                        "Armor": 53400.0,
+                        "ShieldAmount": 28000.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 4920.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.69106,
+                        "DelayAndRechargeTotal": 14.99106
+                    },
+                    "12": {
+                        "Armor": 54500.0,
+                        "ShieldAmount": 28600.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 5020.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.69721,
+                        "DelayAndRechargeTotal": 14.99721
+                    },
+                    "13": {
+                        "Armor": 54500.0,
+                        "ShieldAmount": 29700.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 5120.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 5.80078,
+                        "DelayAndRechargeTotal": 15.10078
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderRaven.0",
+                "levels": {
+                    "1": {
+                        "Armor": 65400.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2130.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 8.21596,
+                        "DelayAndRechargeTotal": 16.11596
+                    },
+                    "2": {
+                        "Armor": 68000.0,
+                        "ShieldAmount": 17800.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2170.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 8.20276,
+                        "DelayAndRechargeTotal": 16.10276
+                    },
+                    "3": {
+                        "Armor": 68000.0,
+                        "ShieldAmount": 18200.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 2210.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 8.23529,
+                        "DelayAndRechargeTotal": 15.93529
+                    },
+                    "4": {
+                        "Armor": 70700.0,
+                        "ShieldAmount": 18600.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 2250.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 8.26667,
+                        "DelayAndRechargeTotal": 15.96667
+                    },
+                    "5": {
+                        "Armor": 70700.0,
+                        "ShieldAmount": 19000.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2300.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 8.26087,
+                        "DelayAndRechargeTotal": 15.76087
+                    },
+                    "6": {
+                        "Armor": 72800.0,
+                        "ShieldAmount": 19400.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2350.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 8.25532,
+                        "DelayAndRechargeTotal": 15.75532
+                    },
+                    "7": {
+                        "Armor": 75000.0,
+                        "ShieldAmount": 19800.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2400.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 8.25,
+                        "DelayAndRechargeTotal": 15.75
+                    },
+                    "8": {
+                        "Armor": 77300.0,
+                        "ShieldAmount": 20200.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 2450.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 8.2449,
+                        "DelayAndRechargeTotal": 15.7449
+                    },
+                    "9": {
+                        "Armor": 77300.0,
+                        "ShieldAmount": 20600.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2500.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 8.24,
+                        "DelayAndRechargeTotal": 15.54
+                    },
+                    "10": {
+                        "Armor": 78800.0,
+                        "ShieldAmount": 21000.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2550.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 8.23529,
+                        "DelayAndRechargeTotal": 15.53529
+                    },
+                    "11": {
+                        "Armor": 80400.0,
+                        "ShieldAmount": 21400.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2600.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 8.23077,
+                        "DelayAndRechargeTotal": 15.53077
+                    },
+                    "12": {
+                        "Armor": 82000.0,
+                        "ShieldAmount": 21800.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2650.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 8.22642,
+                        "DelayAndRechargeTotal": 15.52642
+                    },
+                    "13": {
+                        "Armor": 82000.0,
+                        "ShieldAmount": 22200.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2700.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 8.22222,
+                        "DelayAndRechargeTotal": 15.32222
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderVityaz01.0",
+                "levels": {
+                    "1": {
+                        "Armor": 47100.0,
+                        "ShieldAmount": 22100.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3010.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.34219,
+                        "DelayAndRechargeTotal": 16.04219
+                    },
+                    "2": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3070.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.32899,
+                        "DelayAndRechargeTotal": 16.02899
+                    },
+                    "3": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 23400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3130.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.47604,
+                        "DelayAndRechargeTotal": 16.17604
+                    },
+                    "4": {
+                        "Armor": 50500.0,
+                        "ShieldAmount": 23900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3190.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.49216,
+                        "DelayAndRechargeTotal": 16.19216
+                    },
+                    "5": {
+                        "Armor": 50500.0,
+                        "ShieldAmount": 24900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3250.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.66154,
+                        "DelayAndRechargeTotal": 16.36154
+                    },
+                    "6": {
+                        "Armor": 52000.0,
+                        "ShieldAmount": 25400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3310.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.67372,
+                        "DelayAndRechargeTotal": 16.37372
+                    },
+                    "7": {
+                        "Armor": 52000.0,
+                        "ShieldAmount": 26400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3380.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.81065,
+                        "DelayAndRechargeTotal": 16.51065
+                    },
+                    "8": {
+                        "Armor": 53600.0,
+                        "ShieldAmount": 26900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3450.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.7971,
+                        "DelayAndRechargeTotal": 16.4971
+                    },
+                    "9": {
+                        "Armor": 53600.0,
+                        "ShieldAmount": 28000.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3520.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.95455,
+                        "DelayAndRechargeTotal": 16.65455
+                    },
+                    "10": {
+                        "Armor": 54700.0,
+                        "ShieldAmount": 28600.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3590.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.96657,
+                        "DelayAndRechargeTotal": 16.66657
+                    },
+                    "11": {
+                        "Armor": 54700.0,
+                        "ShieldAmount": 29700.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3660.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.11475,
+                        "DelayAndRechargeTotal": 16.81475
+                    },
+                    "12": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 30300.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3730.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.12332,
+                        "DelayAndRechargeTotal": 16.82332
+                    },
+                    "13": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 31500.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3800.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.28947,
+                        "DelayAndRechargeTotal": 16.98947
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderVityaz02.0",
+                "levels": {
+                    "1": {
+                        "Armor": 47100.0,
+                        "ShieldAmount": 22100.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3010.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.34219,
+                        "DelayAndRechargeTotal": 16.04219
+                    },
+                    "2": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3070.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.32899,
+                        "DelayAndRechargeTotal": 16.02899
+                    },
+                    "3": {
+                        "Armor": 49000.0,
+                        "ShieldAmount": 23400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3130.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.47604,
+                        "DelayAndRechargeTotal": 16.17604
+                    },
+                    "4": {
+                        "Armor": 50500.0,
+                        "ShieldAmount": 23900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3190.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.49216,
+                        "DelayAndRechargeTotal": 16.19216
+                    },
+                    "5": {
+                        "Armor": 50500.0,
+                        "ShieldAmount": 24900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3250.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.66154,
+                        "DelayAndRechargeTotal": 16.36154
+                    },
+                    "6": {
+                        "Armor": 52000.0,
+                        "ShieldAmount": 25400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3310.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.67372,
+                        "DelayAndRechargeTotal": 16.37372
+                    },
+                    "7": {
+                        "Armor": 52000.0,
+                        "ShieldAmount": 26400.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3380.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.81065,
+                        "DelayAndRechargeTotal": 16.51065
+                    },
+                    "8": {
+                        "Armor": 53600.0,
+                        "ShieldAmount": 26900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3450.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.7971,
+                        "DelayAndRechargeTotal": 16.4971
+                    },
+                    "9": {
+                        "Armor": 53600.0,
+                        "ShieldAmount": 28000.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3520.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.95455,
+                        "DelayAndRechargeTotal": 16.65455
+                    },
+                    "10": {
+                        "Armor": 54700.0,
+                        "ShieldAmount": 28600.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3590.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 7.96657,
+                        "DelayAndRechargeTotal": 16.66657
+                    },
+                    "11": {
+                        "Armor": 54700.0,
+                        "ShieldAmount": 29700.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3660.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.11475,
+                        "DelayAndRechargeTotal": 16.81475
+                    },
+                    "12": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 30300.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3730.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.12332,
+                        "DelayAndRechargeTotal": 16.82332
+                    },
+                    "13": {
+                        "Armor": 55800.0,
+                        "ShieldAmount": 31500.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 3800.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 8.28947,
+                        "DelayAndRechargeTotal": 16.98947
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 13.0,
+        "light_slots": 1,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderCyclops.0",
+                "levels": {
+                    "1": {
+                        "Armor": 77300.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2680.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 6.19403,
+                        "DelayAndRechargeTotal": 13.49403
+                    },
+                    "2": {
+                        "Armor": 80400.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 2730.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 6.19048,
+                        "DelayAndRechargeTotal": 13.49048
+                    },
+                    "3": {
+                        "Armor": 80400.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2780.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 6.18705,
+                        "DelayAndRechargeTotal": 13.28705
+                    },
+                    "4": {
+                        "Armor": 83600.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 2840.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 6.16197,
+                        "DelayAndRechargeTotal": 13.26197
+                    },
+                    "5": {
+                        "Armor": 83600.0,
+                        "ShieldAmount": 17900.0,
+                        "ShieldDelayReduction": 0.31,
+                        "ShieldRegeneration": 2900.0,
+                        "RechargeDelay": 6.9,
+                        "RechargeTime": 6.17241,
+                        "DelayAndRechargeTotal": 13.07241
+                    },
+                    "6": {
+                        "Armor": 86100.0,
+                        "ShieldAmount": 18300.0,
+                        "ShieldDelayReduction": 0.31,
+                        "ShieldRegeneration": 2960.0,
+                        "RechargeDelay": 6.9,
+                        "RechargeTime": 6.18243,
+                        "DelayAndRechargeTotal": 13.08243
+                    },
+                    "7": {
+                        "Armor": 88700.0,
+                        "ShieldAmount": 18700.0,
+                        "ShieldDelayReduction": 0.31,
+                        "ShieldRegeneration": 3020.0,
+                        "RechargeDelay": 6.9,
+                        "RechargeTime": 6.19205,
+                        "DelayAndRechargeTotal": 13.09205
+                    },
+                    "8": {
+                        "Armor": 91400.0,
+                        "ShieldAmount": 19100.0,
+                        "ShieldDelayReduction": 0.31,
+                        "ShieldRegeneration": 3080.0,
+                        "RechargeDelay": 6.9,
+                        "RechargeTime": 6.2013,
+                        "DelayAndRechargeTotal": 13.1013
+                    },
+                    "9": {
+                        "Armor": 91400.0,
+                        "ShieldAmount": 19500.0,
+                        "ShieldDelayReduction": 0.33,
+                        "ShieldRegeneration": 3140.0,
+                        "RechargeDelay": 6.7,
+                        "RechargeTime": 6.21019,
+                        "DelayAndRechargeTotal": 12.91019
+                    },
+                    "10": {
+                        "Armor": 93200.0,
+                        "ShieldAmount": 19900.0,
+                        "ShieldDelayReduction": 0.33,
+                        "ShieldRegeneration": 3200.0,
+                        "RechargeDelay": 6.7,
+                        "RechargeTime": 6.21875,
+                        "DelayAndRechargeTotal": 12.91875
+                    },
+                    "11": {
+                        "Armor": 95100.0,
+                        "ShieldAmount": 20300.0,
+                        "ShieldDelayReduction": 0.33,
+                        "ShieldRegeneration": 3260.0,
+                        "RechargeDelay": 6.7,
+                        "RechargeTime": 6.22699,
+                        "DelayAndRechargeTotal": 12.92699
+                    },
+                    "12": {
+                        "Armor": 97000.0,
+                        "ShieldAmount": 20700.0,
+                        "ShieldDelayReduction": 0.33,
+                        "ShieldRegeneration": 3330.0,
+                        "RechargeDelay": 6.7,
+                        "RechargeTime": 6.21622,
+                        "DelayAndRechargeTotal": 12.91622
+                    },
+                    "13": {
+                        "Armor": 97000.0,
+                        "ShieldAmount": 21100.0,
+                        "ShieldDelayReduction": 0.35,
+                        "ShieldRegeneration": 3400.0,
+                        "RechargeDelay": 6.5,
+                        "RechargeTime": 6.20588,
+                        "DelayAndRechargeTotal": 12.70588
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderFenrir.0",
+                "levels": {
+                    "1": {
+                        "Armor": 87600.0,
+                        "ShieldAmount": 17900.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1790.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.8
+                    },
+                    "2": {
+                        "Armor": 91100.0,
+                        "ShieldAmount": 18300.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 1830.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.8
+                    },
+                    "3": {
+                        "Armor": 91100.0,
+                        "ShieldAmount": 18700.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 1870.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.6
+                    },
+                    "4": {
+                        "Armor": 94700.0,
+                        "ShieldAmount": 19100.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 1910.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.6
+                    },
+                    "5": {
+                        "Armor": 94700.0,
+                        "ShieldAmount": 19500.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 1950.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.4
+                    },
+                    "6": {
+                        "Armor": 97500.0,
+                        "ShieldAmount": 19900.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 1990.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.4
+                    },
+                    "7": {
+                        "Armor": 100400.0,
+                        "ShieldAmount": 20300.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 2030.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.4
+                    },
+                    "8": {
+                        "Armor": 103400.0,
+                        "ShieldAmount": 20700.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 2070.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.4
+                    },
+                    "9": {
+                        "Armor": 103400.0,
+                        "ShieldAmount": 21100.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 2110.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.2
+                    },
+                    "10": {
+                        "Armor": 105500.0,
+                        "ShieldAmount": 21500.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 2150.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.2
+                    },
+                    "11": {
+                        "Armor": 107600.0,
+                        "ShieldAmount": 21900.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 2190.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.2
+                    },
+                    "12": {
+                        "Armor": 109800.0,
+                        "ShieldAmount": 22300.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 2230.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.2
+                    },
+                    "13": {
+                        "Armor": 109800.0,
+                        "ShieldAmount": 22700.0,
+                        "ShieldDelayReduction": 0.3,
+                        "ShieldRegeneration": 2270.0,
+                        "RechargeDelay": 7.0,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 17.0
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderFury.0",
+                "levels": {
+                    "1": {
+                        "Armor": 87800.0,
+                        "ShieldAmount": 15100.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 3010.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.01661,
+                        "DelayAndRechargeTotal": 12.91661
+                    },
+                    "2": {
+                        "Armor": 91300.0,
+                        "ShieldAmount": 15400.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 3070.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 5.01629,
+                        "DelayAndRechargeTotal": 12.91629
+                    },
+                    "3": {
+                        "Armor": 91300.0,
+                        "ShieldAmount": 15700.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 3130.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 5.01597,
+                        "DelayAndRechargeTotal": 12.71597
+                    },
+                    "4": {
+                        "Armor": 94900.0,
+                        "ShieldAmount": 16000.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 3190.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 5.01567,
+                        "DelayAndRechargeTotal": 12.71567
+                    },
+                    "5": {
+                        "Armor": 94900.0,
+                        "ShieldAmount": 16300.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 3250.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 5.01538,
+                        "DelayAndRechargeTotal": 12.51538
+                    },
+                    "6": {
+                        "Armor": 97700.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 3310.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 5.01511,
+                        "DelayAndRechargeTotal": 12.51511
+                    },
+                    "7": {
+                        "Armor": 100600.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 3380.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 5.0,
+                        "DelayAndRechargeTotal": 12.5
+                    },
+                    "8": {
+                        "Armor": 103600.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.25,
+                        "ShieldRegeneration": 3450.0,
+                        "RechargeDelay": 7.5,
+                        "RechargeTime": 4.98551,
+                        "DelayAndRechargeTotal": 12.48551
+                    },
+                    "9": {
+                        "Armor": 103600.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 3520.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 4.97159,
+                        "DelayAndRechargeTotal": 12.27159
+                    },
+                    "10": {
+                        "Armor": 105700.0,
+                        "ShieldAmount": 17800.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 3590.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 4.95822,
+                        "DelayAndRechargeTotal": 12.25822
+                    },
+                    "11": {
+                        "Armor": 107800.0,
+                        "ShieldAmount": 18200.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 3660.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 4.97268,
+                        "DelayAndRechargeTotal": 12.27268
+                    },
+                    "12": {
+                        "Armor": 110000.0,
+                        "ShieldAmount": 18600.0,
+                        "ShieldDelayReduction": 0.27,
+                        "ShieldRegeneration": 3730.0,
+                        "RechargeDelay": 7.3,
+                        "RechargeTime": 4.9866,
+                        "DelayAndRechargeTotal": 12.2866
+                    },
+                    "13": {
+                        "Armor": 110000.0,
+                        "ShieldAmount": 19000.0,
+                        "ShieldDelayReduction": 0.29,
+                        "ShieldRegeneration": 3800.0,
+                        "RechargeDelay": 7.1,
+                        "RechargeTime": 5.0,
+                        "DelayAndRechargeTotal": 12.1
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderHitcher.0",
+                "levels": {
+                    "1": {
+                        "Armor": 83700.0,
+                        "ShieldAmount": 18500.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 1970.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 9.39086,
+                        "DelayAndRechargeTotal": 17.89086
+                    },
+                    "2": {
+                        "Armor": 87000.0,
+                        "ShieldAmount": 18900.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 2010.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 9.40299,
+                        "DelayAndRechargeTotal": 17.90299
+                    },
+                    "3": {
+                        "Armor": 87000.0,
+                        "ShieldAmount": 19300.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2050.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 9.41463,
+                        "DelayAndRechargeTotal": 17.71463
+                    },
+                    "4": {
+                        "Armor": 90500.0,
+                        "ShieldAmount": 19700.0,
+                        "ShieldDelayReduction": 0.17,
+                        "ShieldRegeneration": 2090.0,
+                        "RechargeDelay": 8.3,
+                        "RechargeTime": 9.42584,
+                        "DelayAndRechargeTotal": 17.72584
+                    },
+                    "5": {
+                        "Armor": 90500.0,
+                        "ShieldAmount": 20100.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2130.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 9.43662,
+                        "DelayAndRechargeTotal": 17.53662
+                    },
+                    "6": {
+                        "Armor": 93200.0,
+                        "ShieldAmount": 20500.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2170.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 9.447,
+                        "DelayAndRechargeTotal": 17.547
+                    },
+                    "7": {
+                        "Armor": 96000.0,
+                        "ShieldAmount": 20900.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2210.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 9.45701,
+                        "DelayAndRechargeTotal": 17.55701
+                    },
+                    "8": {
+                        "Armor": 98900.0,
+                        "ShieldAmount": 21300.0,
+                        "ShieldDelayReduction": 0.19,
+                        "ShieldRegeneration": 2250.0,
+                        "RechargeDelay": 8.1,
+                        "RechargeTime": 9.46667,
+                        "DelayAndRechargeTotal": 17.56667
+                    },
+                    "9": {
+                        "Armor": 98900.0,
+                        "ShieldAmount": 21700.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2300.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 9.43478,
+                        "DelayAndRechargeTotal": 17.33478
+                    },
+                    "10": {
+                        "Armor": 100900.0,
+                        "ShieldAmount": 22100.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2350.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 9.40426,
+                        "DelayAndRechargeTotal": 17.30426
+                    },
+                    "11": {
+                        "Armor": 102900.0,
+                        "ShieldAmount": 22500.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2400.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 9.375,
+                        "DelayAndRechargeTotal": 17.275
+                    },
+                    "12": {
+                        "Armor": 105000.0,
+                        "ShieldAmount": 23000.0,
+                        "ShieldDelayReduction": 0.21,
+                        "ShieldRegeneration": 2450.0,
+                        "RechargeDelay": 7.9,
+                        "RechargeTime": 9.38776,
+                        "DelayAndRechargeTotal": 17.28776
+                    },
+                    "13": {
+                        "Armor": 105000.0,
+                        "ShieldAmount": 23500.0,
+                        "ShieldDelayReduction": 0.23,
+                        "ShieldRegeneration": 2500.0,
+                        "RechargeDelay": 7.7,
+                        "RechargeTime": 9.4,
+                        "DelayAndRechargeTotal": 17.1
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderKumo.0",
+                "levels": {
+                    "1": {
+                        "Armor": 97500.0,
+                        "ShieldAmount": 9000.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 9000.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "2": {
+                        "Armor": 102400.0,
+                        "ShieldAmount": 9200.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 9200.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "3": {
+                        "Armor": 102400.0,
+                        "ShieldAmount": 9400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 9400.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    },
+                    "4": {
+                        "Armor": 107500.0,
+                        "ShieldAmount": 9600.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 9600.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    },
+                    "5": {
+                        "Armor": 107500.0,
+                        "ShieldAmount": 9800.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 9800.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "6": {
+                        "Armor": 111800.0,
+                        "ShieldAmount": 10000.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 10000.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "7": {
+                        "Armor": 116300.0,
+                        "ShieldAmount": 10200.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 10200.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "8": {
+                        "Armor": 120900.0,
+                        "ShieldAmount": 10400.0,
+                        "ShieldDelayReduction": 0.08,
+                        "ShieldRegeneration": 10400.0,
+                        "RechargeDelay": 9.2,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.2
+                    },
+                    "9": {
+                        "Armor": 120900.0,
+                        "ShieldAmount": 10600.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 10600.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "10": {
+                        "Armor": 124500.0,
+                        "ShieldAmount": 10800.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 10800.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "11": {
+                        "Armor": 128200.0,
+                        "ShieldAmount": 11000.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 11000.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "12": {
+                        "Armor": 132000.0,
+                        "ShieldAmount": 11200.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 11200.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "13": {
+                        "Armor": 132000.0,
+                        "ShieldAmount": 11400.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 11400.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderRavana.0",
+                "levels": {
+                    "1": {
+                        "Armor": 109200.0,
+                        "ShieldAmount": 12900.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 12900.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "2": {
+                        "Armor": 114700.0,
+                        "ShieldAmount": 13200.0,
+                        "ShieldDelayReduction": 0.09,
+                        "ShieldRegeneration": 13200.0,
+                        "RechargeDelay": 9.1,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.1
+                    },
+                    "3": {
+                        "Armor": 114700.0,
+                        "ShieldAmount": 13500.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 13500.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "4": {
+                        "Armor": 120400.0,
+                        "ShieldAmount": 13800.0,
+                        "ShieldDelayReduction": 0.1,
+                        "ShieldRegeneration": 13800.0,
+                        "RechargeDelay": 9.0,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.0
+                    },
+                    "5": {
+                        "Armor": 120400.0,
+                        "ShieldAmount": 14100.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 14100.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "6": {
+                        "Armor": 125200.0,
+                        "ShieldAmount": 14400.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 14400.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "7": {
+                        "Armor": 130200.0,
+                        "ShieldAmount": 14700.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 14700.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "8": {
+                        "Armor": 135400.0,
+                        "ShieldAmount": 15000.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 15000.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "9": {
+                        "Armor": 135400.0,
+                        "ShieldAmount": 15300.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 15300.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "10": {
+                        "Armor": 139500.0,
+                        "ShieldAmount": 15600.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 15600.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "11": {
+                        "Armor": 143700.0,
+                        "ShieldAmount": 15900.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 15900.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "12": {
+                        "Armor": 148000.0,
+                        "ShieldAmount": 16200.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 16200.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "13": {
+                        "Armor": 148000.0,
+                        "ShieldAmount": 16500.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 16500.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 13.0,
+        "light_slots": 2,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderLancelot.0",
+                "levels": {
+                    "1": {
+                        "Armor": 115100.0,
+                        "ShieldAmount": 9000.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 9000.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "2": {
+                        "Armor": 120900.0,
+                        "ShieldAmount": 9200.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 9200.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "3": {
+                        "Armor": 120900.0,
+                        "ShieldAmount": 9400.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 9400.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "4": {
+                        "Armor": 126900.0,
+                        "ShieldAmount": 9600.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 9600.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "5": {
+                        "Armor": 126900.0,
+                        "ShieldAmount": 9800.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 9800.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "6": {
+                        "Armor": 132000.0,
+                        "ShieldAmount": 10000.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10000.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "7": {
+                        "Armor": 137300.0,
+                        "ShieldAmount": 10200.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10200.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "8": {
+                        "Armor": 142800.0,
+                        "ShieldAmount": 10400.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 10400.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "9": {
+                        "Armor": 142800.0,
+                        "ShieldAmount": 10600.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 10600.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "10": {
+                        "Armor": 147100.0,
+                        "ShieldAmount": 10800.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 10800.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "11": {
+                        "Armor": 151500.0,
+                        "ShieldAmount": 11000.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 11000.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "12": {
+                        "Armor": 156000.0,
+                        "ShieldAmount": 11200.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 11200.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    },
+                    "13": {
+                        "Armor": 156000.0,
+                        "ShieldAmount": 11400.0,
+                        "ShieldDelayReduction": 0.07,
+                        "ShieldRegeneration": 11400.0,
+                        "RechargeDelay": 9.3,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.3
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "weight_drain": 14.0,
+        "light_slots": 1,
+        "heavy_slots": 0,
+        "shoulders": [
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderBulwark.0",
+                "levels": {
+                    "1": {
+                        "Armor": 123900.0,
+                        "ShieldAmount": 11700.0,
+                        "ShieldDelayReduction": 0.02,
+                        "ShieldRegeneration": 11700.0,
+                        "RechargeDelay": 9.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.8
+                    },
+                    "2": {
+                        "Armor": 130100.0,
+                        "ShieldAmount": 11900.0,
+                        "ShieldDelayReduction": 0.02,
+                        "ShieldRegeneration": 11900.0,
+                        "RechargeDelay": 9.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.8
+                    },
+                    "3": {
+                        "Armor": 130100.0,
+                        "ShieldAmount": 12100.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 12100.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "4": {
+                        "Armor": 136600.0,
+                        "ShieldAmount": 12300.0,
+                        "ShieldDelayReduction": 0.03,
+                        "ShieldRegeneration": 12300.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.7
+                    },
+                    "5": {
+                        "Armor": 136600.0,
+                        "ShieldAmount": 12500.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 12500.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "6": {
+                        "Armor": 142100.0,
+                        "ShieldAmount": 12700.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 12700.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "7": {
+                        "Armor": 147800.0,
+                        "ShieldAmount": 13000.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 13000.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "8": {
+                        "Armor": 153700.0,
+                        "ShieldAmount": 13300.0,
+                        "ShieldDelayReduction": 0.04,
+                        "ShieldRegeneration": 13300.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.6
+                    },
+                    "9": {
+                        "Armor": 153700.0,
+                        "ShieldAmount": 13600.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 13600.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "10": {
+                        "Armor": 158300.0,
+                        "ShieldAmount": 13900.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 13900.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "11": {
+                        "Armor": 163100.0,
+                        "ShieldAmount": 14200.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 14200.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "12": {
+                        "Armor": 168000.0,
+                        "ShieldAmount": 14500.0,
+                        "ShieldDelayReduction": 0.05,
+                        "ShieldRegeneration": 14500.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.5
+                    },
+                    "13": {
+                        "Armor": 168000.0,
+                        "ShieldAmount": 14800.0,
+                        "ShieldDelayReduction": 0.06,
+                        "ShieldRegeneration": 14800.0,
+                        "RechargeDelay": 9.4,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 10.4
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderInquisitor.0",
+                "levels": {
+                    "1": {
+                        "Armor": 117200.0,
+                        "ShieldAmount": 14900.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 2960.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 5.03378,
+                        "DelayAndRechargeTotal": 12.83378
+                    },
+                    "2": {
+                        "Armor": 121900.0,
+                        "ShieldAmount": 15200.0,
+                        "ShieldDelayReduction": 0.22,
+                        "ShieldRegeneration": 3020.0,
+                        "RechargeDelay": 7.8,
+                        "RechargeTime": 5.03311,
+                        "DelayAndRechargeTotal": 12.83311
+                    },
+                    "3": {
+                        "Armor": 121900.0,
+                        "ShieldAmount": 15500.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 3080.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 5.03247,
+                        "DelayAndRechargeTotal": 12.63247
+                    },
+                    "4": {
+                        "Armor": 126800.0,
+                        "ShieldAmount": 15800.0,
+                        "ShieldDelayReduction": 0.24,
+                        "ShieldRegeneration": 3140.0,
+                        "RechargeDelay": 7.6,
+                        "RechargeTime": 5.03185,
+                        "DelayAndRechargeTotal": 12.63185
+                    },
+                    "5": {
+                        "Armor": 126800.0,
+                        "ShieldAmount": 16100.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 3200.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 5.03125,
+                        "DelayAndRechargeTotal": 12.43125
+                    },
+                    "6": {
+                        "Armor": 130600.0,
+                        "ShieldAmount": 16400.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 3260.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 5.03067,
+                        "DelayAndRechargeTotal": 12.43067
+                    },
+                    "7": {
+                        "Armor": 134500.0,
+                        "ShieldAmount": 16700.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 3330.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 5.01502,
+                        "DelayAndRechargeTotal": 12.41502
+                    },
+                    "8": {
+                        "Armor": 138500.0,
+                        "ShieldAmount": 17000.0,
+                        "ShieldDelayReduction": 0.26,
+                        "ShieldRegeneration": 3400.0,
+                        "RechargeDelay": 7.4,
+                        "RechargeTime": 5.0,
+                        "DelayAndRechargeTotal": 12.4
+                    },
+                    "9": {
+                        "Armor": 138500.0,
+                        "ShieldAmount": 17300.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 3470.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 4.98559,
+                        "DelayAndRechargeTotal": 12.18559
+                    },
+                    "10": {
+                        "Armor": 141300.0,
+                        "ShieldAmount": 17600.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 3540.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 4.97175,
+                        "DelayAndRechargeTotal": 12.17175
+                    },
+                    "11": {
+                        "Armor": 144100.0,
+                        "ShieldAmount": 18000.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 3610.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 4.98615,
+                        "DelayAndRechargeTotal": 12.18615
+                    },
+                    "12": {
+                        "Armor": 147000.0,
+                        "ShieldAmount": 18400.0,
+                        "ShieldDelayReduction": 0.28,
+                        "ShieldRegeneration": 3680.0,
+                        "RechargeDelay": 7.2,
+                        "RechargeTime": 5.0,
+                        "DelayAndRechargeTotal": 12.2
+                    },
+                    "13": {
+                        "Armor": 147000.0,
+                        "ShieldAmount": 18770.0,
+                        "ShieldDelayReduction": 0.3,
+                        "ShieldRegeneration": 3750.0,
+                        "RechargeDelay": 7.0,
+                        "RechargeTime": 5.00533,
+                        "DelayAndRechargeTotal": 12.00533
+                    }
+                }
+            },
+            {
+                "shoulder_module_ref": "OBJID_Module::DA_Module_ShoulderMesa.0",
+                "levels": {
+                    "1": {
+                        "Armor": 126200.0,
+                        "ShieldAmount": 16600.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 16600.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "2": {
+                        "Armor": 132500.0,
+                        "ShieldAmount": 16900.0,
+                        "ShieldDelayReduction": 0.11,
+                        "ShieldRegeneration": 16900.0,
+                        "RechargeDelay": 8.9,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.9
+                    },
+                    "3": {
+                        "Armor": 132500.0,
+                        "ShieldAmount": 17200.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 17200.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "4": {
+                        "Armor": 139100.0,
+                        "ShieldAmount": 17500.0,
+                        "ShieldDelayReduction": 0.12,
+                        "ShieldRegeneration": 17500.0,
+                        "RechargeDelay": 8.8,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.8
+                    },
+                    "5": {
+                        "Armor": 139100.0,
+                        "ShieldAmount": 17900.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 17900.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "6": {
+                        "Armor": 144700.0,
+                        "ShieldAmount": 18300.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 18300.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "7": {
+                        "Armor": 150500.0,
+                        "ShieldAmount": 18700.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 18700.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "8": {
+                        "Armor": 156500.0,
+                        "ShieldAmount": 19100.0,
+                        "ShieldDelayReduction": 0.13,
+                        "ShieldRegeneration": 19100.0,
+                        "RechargeDelay": 8.7,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.7
+                    },
+                    "9": {
+                        "Armor": 156500.0,
+                        "ShieldAmount": 19500.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 19500.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "10": {
+                        "Armor": 161200.0,
+                        "ShieldAmount": 19900.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 19900.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "11": {
+                        "Armor": 166000.0,
+                        "ShieldAmount": 20300.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 20300.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "12": {
+                        "Armor": 171000.0,
+                        "ShieldAmount": 20700.0,
+                        "ShieldDelayReduction": 0.14,
+                        "ShieldRegeneration": 20700.0,
+                        "RechargeDelay": 8.6,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.6
+                    },
+                    "13": {
+                        "Armor": 171000.0,
+                        "ShieldAmount": 21100.0,
+                        "ShieldDelayReduction": 0.15,
+                        "ShieldRegeneration": 21100.0,
+                        "RechargeDelay": 8.5,
+                        "RechargeTime": 1.0,
+                        "DelayAndRechargeTotal": 9.5
+                    }
+                }
+            }
+        ]
+    }
+]
