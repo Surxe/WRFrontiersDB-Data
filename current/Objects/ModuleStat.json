@@ -948,9 +948,8 @@
         "stat_name": {
             "Key": "ModuleStat_LegsStructure",
             "TableNamespace": "ModuleStatKeys",
-            "en": "Leg Armor"
+            "en": "Side-Section Armor (each)"
         },
-        "unit_scaler": 2.0,
         "short_key": "LegsArmor"
     },
     "DA_ModuleStat_MaxDistance.0": {
@@ -1009,7 +1008,7 @@
         "stat_name": {
             "Key": "ModuleStat_PelvisStructure",
             "TableNamespace": "ModuleStatKeys",
-            "en": "Pelvic Armor"
+            "en": "Central-Section Armor"
         },
         "short_key": "PelvisArmor"
     },

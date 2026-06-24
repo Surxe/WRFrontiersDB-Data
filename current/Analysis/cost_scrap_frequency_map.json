@@ -61,8 +61,8 @@
                     "9": 1
                 },
                 "upgrade_cost": {
-                    "20": 51,
-                    "6": 10,
+                    "20": 52,
+                    "6": 9,
                     "30": 1
                 }
             }
@@ -113,8 +113,8 @@
                     "0": 1
                 },
                 "upgrade_cost": {
-                    "40": 51,
-                    "12": 10,
+                    "40": 52,
+                    "12": 9,
                     "150": 1,
                     "60": 1
                 }
@@ -220,8 +220,8 @@
                     "0": 1
                 },
                 "upgrade_cost": {
-                    "110": 51,
-                    "33": 10,
+                    "110": 52,
+                    "33": 9,
                     "450": 1,
                     "165": 1
                 }
@@ -327,10 +327,207 @@
                     "0": 1
                 },
                 "upgrade_cost": {
-                    "230": 51,
-                    "100": 10,
+                    "230": 52,
+                    "100": 9,
                     "750": 1,
                     "345": 1
+                }
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Epic.0": {
+        "1": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "19200": 5
+                },
+                "upgrade_cost": {
+                    "64000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "0": 5
+                }
+            }
+        },
+        "2": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "24000": 5
+                },
+                "upgrade_cost": {
+                    "16000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "0": 5
+                }
+            }
+        },
+        "3": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "24000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "15": 5
+                },
+                "upgrade_cost": {
+                    "50": 5
+                }
+            }
+        },
+        "4": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "34320": 5
+                },
+                "upgrade_cost": {
+                    "34400": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "15": 5
+                }
+            }
+        },
+        "5": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "34320": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "45": 5
+                },
+                "upgrade_cost": {
+                    "100": 5
+                }
+            }
+        },
+        "6": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "47760": 5
+                },
+                "upgrade_cost": {
+                    "44800": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "45": 5
+                }
+            }
+        },
+        "7": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "62760": 5
+                },
+                "upgrade_cost": {
+                    "50000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "45": 5
+                }
+            }
+        },
+        "8": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "78600": 5
+                },
+                "upgrade_cost": {
+                    "52800": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "45": 5
+                }
+            }
+        },
+        "9": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "78600": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "128": 5
+                },
+                "upgrade_cost": {
+                    "275": 5
+                }
+            }
+        },
+        "10": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "96600": 5
+                },
+                "upgrade_cost": {
+                    "60000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "128": 5
+                }
+            }
+        },
+        "11": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "116400": 5
+                },
+                "upgrade_cost": {
+                    "66000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "128": 5
+                }
+            }
+        },
+        "12": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "139200": 5
+                },
+                "upgrade_cost": {
+                    "76000": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "128": 5
+                }
+            }
+        },
+        "13": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": {
+                "scrap_reward": {
+                    "139200": 5
+                }
+            },
+            "OBJID_Currency::DA_Meta_Currency_Intel": {
+                "scrap_reward": {
+                    "300": 5
+                },
+                "upgrade_cost": {
+                    "575": 5
                 }
             }
         }
@@ -339,51 +536,51 @@
         "1": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "15360": 29,
+                    "15360": 32,
                     "4800": 1
                 },
                 "upgrade_cost": {
-                    "51200": 30
+                    "51200": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "0": 30
+                    "0": 33
                 }
             }
         },
         "2": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "19200": 29,
+                    "19200": 32,
                     "6720": 1
                 },
                 "upgrade_cost": {
-                    "12800": 30
+                    "12800": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "0": 30
+                    "0": 33
                 }
             }
         },
         "3": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "19200": 28,
+                    "19200": 31,
                     "19212": 1,
                     "6720": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "12": 28,
+                    "12": 31,
                     "0": 1,
                     "6": 1
                 },
                 "upgrade_cost": {
-                    "40": 29,
+                    "40": 32,
                     "12": 1
                 }
             }
@@ -391,17 +588,17 @@
         "4": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "27456": 28,
+                    "27456": 31,
                     "27468": 1,
                     "10848": 1
                 },
                 "upgrade_cost": {
-                    "27520": 30
+                    "27520": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "12": 28,
+                    "12": 31,
                     "0": 1,
                     "6": 1
                 }
@@ -410,19 +607,19 @@
         "5": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "27456": 28,
+                    "27456": 31,
                     "27468": 1,
                     "10848": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "36": 28,
+                    "36": 31,
                     "20": 1,
                     "18": 1
                 },
                 "upgrade_cost": {
-                    "80": 29,
+                    "80": 32,
                     "24": 1
                 }
             }
@@ -430,17 +627,17 @@
         "6": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "38208": 28,
+                    "38208": 31,
                     "38220": 1,
                     "16224": 1
                 },
                 "upgrade_cost": {
-                    "35840": 30
+                    "35840": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "36": 28,
+                    "36": 31,
                     "20": 1,
                     "18": 1
                 }
@@ -449,17 +646,17 @@
         "7": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "50208": 28,
+                    "50208": 31,
                     "50220": 1,
                     "22224": 1
                 },
                 "upgrade_cost": {
-                    "40000": 30
+                    "40000": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "36": 28,
+                    "36": 31,
                     "20": 1,
                     "18": 1
                 }
@@ -468,17 +665,17 @@
         "8": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "62880": 28,
+                    "62880": 31,
                     "62892": 1,
                     "28560": 1
                 },
                 "upgrade_cost": {
-                    "42240": 30
+                    "42240": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "36": 28,
+                    "36": 31,
                     "20": 1,
                     "18": 1
                 }
@@ -487,19 +684,19 @@
         "9": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "62880": 28,
+                    "62880": 31,
                     "62892": 1,
                     "28560": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "102": 28,
+                    "102": 31,
                     "90": 1,
                     "51": 1
                 },
                 "upgrade_cost": {
-                    "220": 29,
+                    "220": 32,
                     "66": 1
                 }
             }
@@ -507,17 +704,17 @@
         "10": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "77280": 28,
+                    "77280": 31,
                     "77292": 1,
                     "35760": 1
                 },
                 "upgrade_cost": {
-                    "48000": 30
+                    "48000": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "102": 28,
+                    "102": 31,
                     "90": 1,
                     "51": 1
                 }
@@ -526,17 +723,17 @@
         "11": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "93120": 28,
+                    "93120": 31,
                     "93132": 1,
                     "43680": 1
                 },
                 "upgrade_cost": {
-                    "52800": 30
+                    "52800": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "102": 28,
+                    "102": 31,
                     "90": 1,
                     "51": 1
                 }
@@ -545,17 +742,17 @@
         "12": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "111360": 28,
+                    "111360": 31,
                     "111372": 1,
                     "52800": 1
                 },
                 "upgrade_cost": {
-                    "60800": 30
+                    "60800": 33
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "102": 28,
+                    "102": 31,
                     "90": 1,
                     "51": 1
                 }
@@ -564,19 +761,19 @@
         "13": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "111360": 28,
+                    "111360": 31,
                     "111372": 1,
                     "52800": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "240": 28,
+                    "240": 31,
                     "230": 1,
                     "120": 1
                 },
                 "upgrade_cost": {
-                    "460": 29,
+                    "460": 32,
                     "200": 1
                 }
             }
@@ -586,47 +783,47 @@
         "1": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "11520": 85,
+                    "11520": 90,
                     "0": 13,
                     "14400": 4,
                     "4800": 3,
                     "15360": 1
                 },
                 "upgrade_cost": {
-                    "38400": 104,
+                    "38400": 109,
                     "16000": 1,
                     "0": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "0": 106
+                    "0": 111
                 }
             }
         },
         "2": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "14400": 89,
+                    "14400": 94,
                     "0": 13,
                     "6720": 3,
                     "19200": 1
                 },
                 "upgrade_cost": {
-                    "9600": 105,
+                    "9600": 110,
                     "6400": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "0": 106
+                    "0": 111
                 }
             }
         },
         "3": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "14400": 55,
+                    "14400": 60,
                     "14409": 34,
                     "0": 13,
                     "6720": 3,
@@ -635,13 +832,13 @@
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "9": 60,
+                    "9": 65,
                     "0": 43,
                     "6": 2,
                     "12": 1
                 },
                 "upgrade_cost": {
-                    "30": 100,
+                    "30": 105,
                     "9": 5,
                     "20": 1
                 }
@@ -650,20 +847,20 @@
         "4": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "20592": 55,
+                    "20592": 60,
                     "20601": 34,
                     "0": 13,
                     "10848": 3,
                     "27456": 1
                 },
                 "upgrade_cost": {
-                    "20640": 105,
+                    "20640": 110,
                     "13760": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "9": 60,
+                    "9": 65,
                     "0": 43,
                     "6": 2,
                     "12": 1
@@ -673,7 +870,7 @@
         "5": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "20592": 55,
+                    "20592": 60,
                     "20601": 34,
                     "0": 13,
                     "10848": 3,
@@ -682,14 +879,14 @@
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "27": 60,
+                    "27": 65,
                     "20": 40,
                     "0": 3,
                     "18": 2,
                     "36": 1
                 },
                 "upgrade_cost": {
-                    "60": 100,
+                    "60": 105,
                     "18": 5,
                     "40": 1
                 }
@@ -698,20 +895,20 @@
         "6": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "28656": 55,
+                    "28656": 60,
                     "28665": 34,
                     "0": 13,
                     "16224": 3,
                     "38208": 1
                 },
                 "upgrade_cost": {
-                    "26880": 105,
+                    "26880": 110,
                     "17920": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "27": 60,
+                    "27": 65,
                     "20": 40,
                     "0": 3,
                     "18": 2,
@@ -722,20 +919,20 @@
         "7": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "37656": 55,
+                    "37656": 60,
                     "37665": 34,
                     "0": 13,
                     "22224": 3,
                     "50208": 1
                 },
                 "upgrade_cost": {
-                    "30000": 105,
+                    "30000": 110,
                     "20000": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "27": 60,
+                    "27": 65,
                     "20": 40,
                     "0": 3,
                     "18": 2,
@@ -746,20 +943,20 @@
         "8": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "47160": 55,
+                    "47160": 60,
                     "47169": 34,
                     "0": 13,
                     "28560": 3,
                     "62880": 1
                 },
                 "upgrade_cost": {
-                    "31680": 105,
+                    "31680": 110,
                     "21120": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "27": 60,
+                    "27": 65,
                     "20": 40,
                     "0": 3,
                     "18": 2,
@@ -770,7 +967,7 @@
         "9": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "47160": 55,
+                    "47160": 60,
                     "47169": 34,
                     "0": 13,
                     "28560": 3,
@@ -779,14 +976,14 @@
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "77": 60,
+                    "77": 65,
                     "70": 40,
                     "0": 3,
                     "51": 2,
                     "102": 1
                 },
                 "upgrade_cost": {
-                    "165": 100,
+                    "165": 105,
                     "50": 5,
                     "110": 1
                 }
@@ -795,20 +992,20 @@
         "10": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "57960": 55,
+                    "57960": 60,
                     "57969": 34,
                     "0": 13,
                     "35760": 3,
                     "77280": 1
                 },
                 "upgrade_cost": {
-                    "36000": 105,
+                    "36000": 110,
                     "24000": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "77": 60,
+                    "77": 65,
                     "70": 40,
                     "0": 3,
                     "51": 2,
@@ -819,20 +1016,20 @@
         "11": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "69840": 55,
+                    "69840": 60,
                     "69849": 34,
                     "0": 13,
                     "43680": 3,
                     "93120": 1
                 },
                 "upgrade_cost": {
-                    "39600": 105,
+                    "39600": 110,
                     "26400": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "77": 60,
+                    "77": 65,
                     "70": 40,
                     "0": 3,
                     "51": 2,
@@ -843,20 +1040,20 @@
         "12": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "83520": 55,
+                    "83520": 60,
                     "83529": 34,
                     "0": 13,
                     "52800": 3,
                     "111360": 1
                 },
                 "upgrade_cost": {
-                    "45600": 105,
+                    "45600": 110,
                     "30400": 1
                 }
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "77": 60,
+                    "77": 65,
                     "70": 40,
                     "0": 3,
                     "51": 2,
@@ -867,7 +1064,7 @@
         "13": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": {
                 "scrap_reward": {
-                    "83520": 55,
+                    "83520": 60,
                     "83529": 34,
                     "0": 13,
                     "52800": 3,
@@ -876,14 +1073,14 @@
             },
             "OBJID_Currency::DA_Meta_Currency_Intel": {
                 "scrap_reward": {
-                    "180": 60,
+                    "180": 65,
                     "170": 40,
                     "0": 3,
                     "120": 2,
                     "240": 1
                 },
                 "upgrade_cost": {
-                    "345": 100,
+                    "345": 105,
                     "150": 5,
                     "230": 1
                 }

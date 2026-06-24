@@ -364,6 +364,57 @@
             "OBJID_Ability::BP_Module_Ares_Torso.1"
         ]
     },
+    "BP_Module_Artemis_Chassis.0": {
+        "id": "BP_Module_Artemis_Chassis.0",
+        "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Chassis",
+            "default_scalars": {
+                "LegsArmor": 68000.0,
+                "MaxSpeed": 2200.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7700.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Artemis_Chassis.1",
+            "OBJID_Ability::BP_Module_Artemis_Chassis.2"
+        ]
+    },
+    "BP_Module_Artemis_ShoulderL.0": {
+        "id": "BP_Module_Artemis_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Artemis_ShoulderR.0": {
+        "id": "BP_Module_Artemis_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Artemis_Torso.0": {
+        "id": "BP_Module_Artemis_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Artemis_Torso",
+            "default_scalars": {
+                "HullShare": 8500.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Artemis_Torso.1"
+        ]
+    },
     "BP_Module_BulgasariTutorialDummy_ShoulderL.0": {
         "id": "BP_Module_BulgasariTutorialDummy_ShoulderL.0",
         "module_scaler": {
@@ -1707,6 +1758,77 @@
             "OBJID_Ability::BP_Module_Raven_Torso.1"
         ]
     },
+    "BP_Module_RelicBulgasari_Chassis.0": {
+        "id": "BP_Module_RelicBulgasari_Chassis.0",
+        "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Chassis",
+            "default_scalars": {
+                "LegsArmor": 68000.0,
+                "MaxSpeed": 2200.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7700.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_RelicBulgasari_Chassis.1",
+            "OBJID_Ability::BP_Module_RelicBulgasari_Chassis.2"
+        ]
+    },
+    "BP_Module_RelicBulgasari_ShoulderL_01.0": {
+        "id": "BP_Module_RelicBulgasari_ShoulderL_01.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_RelicBulgasari_ShoulderL_02.0": {
+        "id": "BP_Module_RelicBulgasari_ShoulderL_02.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_RelicBulgasari_ShoulderR_01.0": {
+        "id": "BP_Module_RelicBulgasari_ShoulderR_01.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_RelicBulgasari_ShoulderR_02.0": {
+        "id": "BP_Module_RelicBulgasari_ShoulderR_02.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_RelicBulgasari_Torso.0": {
+        "id": "BP_Module_RelicBulgasari_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Torso",
+            "default_scalars": {
+                "HullShare": 8500.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_RelicBulgasari_Torso.1"
+        ]
+    },
     "BP_Module_RobotSkin_Chassis.0": {
         "id": "BP_Module_RobotSkin_Chassis.0",
         "module_scaler": {
@@ -2180,6 +2302,166 @@
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Vityaz_Torso.1"
         ]
+    },
+    "BP_Module_Wyrm_Chassis.0": {
+        "id": "BP_Module_Wyrm_Chassis.0",
+        "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Chassis",
+            "default_scalars": {
+                "LegsArmor": 68000.0,
+                "MaxSpeed": 2200.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7700.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Wyrm_Chassis.1",
+            "OBJID_Ability::BP_Module_Wyrm_Chassis.2"
+        ]
+    },
+    "BP_Module_Wyrm_ShoulderL.0": {
+        "id": "BP_Module_Wyrm_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Wyrm_ShoulderR.0": {
+        "id": "BP_Module_Wyrm_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_ShoulderL",
+            "default_scalars": {
+                "HullShare": 5500.0,
+                "PrimaryArmor": 40000.0
+            }
+        }
+    },
+    "BP_Module_Wyrm_Torso.0": {
+        "id": "BP_Module_Wyrm_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Bulgasari_Torso",
+            "default_scalars": {
+                "HullShare": 8500.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Wyrm_Torso.1"
+        ]
+    },
+    "BP_Weapon_Aftershock.0": {
+        "id": "BP_Weapon_Aftershock.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "LaserDuration": 0.08,
+                "DamageApplicationTime": 0.08,
+                "AbilityChargePointsOnHit": 0.11,
+                "TitanChargePerHit": 0.18,
+                "DirectDamage": {
+                    "DamageArmor": 900.0,
+                    "DamageShield": 815.0
+                }
+            }
+        },
+        "module_scaler": {
+            "module_name": "Aftershock",
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 651.0,
+                    "DamageShield": 920.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.5,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.8,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 36,
+                "ProjectileSpeed": 400000.0,
+                "TimeToReload": 2.81,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 10000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 20000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 20001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        }
     },
     "BP_Weapon_Alpha.0": {
         "id": "BP_Weapon_Alpha.0",
@@ -4796,12 +5078,12 @@
                             "DistanceState": "ExpansionDistanceState"
                         },
                         {
-                            "Distance": 50000.0,
+                            "Distance": 40000.0,
                             "DirectDamageMultiplier": 1.0,
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 80000.0,
+                            "Distance": 65000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
@@ -5895,7 +6177,7 @@
                 },
                 "ClipSize": 2,
                 "ProjectileSpeed": 100000.0,
-                "TimeToReload": 3.7,
+                "TimeToReload": 4.4,
                 "TimeBetweenShots": 1.164,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
@@ -8099,8 +8381,8 @@
                     "Y": 0.3
                 },
                 "DirectDamage": {
-                    "DamageArmor": 289.0,
-                    "DamageShield": 210.0
+                    "DamageArmor": 272.0,
+                    "DamageShield": 200.0
                 },
                 "AoeDamage": {
                     "DistToDamage": {
@@ -8469,6 +8751,252 @@
                     ]
                 }
             }
+        }
+    },
+    "BP_Weapon_RelicOrkan.0": {
+        "id": "BP_Weapon_RelicOrkan.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "MovementComponent": {
+                    "InitialSpeed": 33000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 400.0,
+                    "DamageShield": 450.0
+                },
+                "AoeDamage": {
+                    "Radius": 400.0,
+                    "DamageArmor": 350.0,
+                    "DamageShield": 120.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1400.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "TitanChargePerHit": 1.0,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 70000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 70001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 70002.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                },
+                "DistanceSettingsCurve": {
+                    "EditorCurveData": {
+                        "Keys": [
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": -1.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 1.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 70000.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 70001.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 70002.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 70003.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            }
+                        ]
+                    }
+                },
+                "bEnableProximityFuse": true,
+                "ProximityFuseRadius": 600.0,
+                "TimeBetweenShots": 0.12,
+                "AbilityChargePointsOnHit": 0.6
+            }
+        },
+        "module_scaler": {
+            "module_name": "Orkan",
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 407.0,
+                    "DamageShield": 175.0
+                },
+                "AoeDamage": {
+                    "Radius": 400.0,
+                    "bTraceRobots": false,
+                    "DamageArmor": 400.0,
+                    "DamageShield": 170.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1400.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 16,
+                "ProjectileSpeed": 28000.0,
+                "TimeToReload": 0.82,
+                "TimeBetweenShots": 0.1,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 70000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 70001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 70002.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        },
+        "misc": {
+            "ReloadType": "ReloadWhileFire",
+            "ReloadChunkSize": 2
         }
     },
     "BP_Weapon_RetributionAutoAim.0": {
@@ -11788,7 +12316,7 @@
                 "ClipSize": 3,
                 "ProjectileSpeed": 96000.0,
                 "TimeToReload": 3.09,
-                "TimeBetweenShots": 1.6,
+                "TimeBetweenShots": 1.3,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -12354,6 +12882,286 @@
             }
         }
     },
+    "BP_Weapon_Velite.0": {
+        "id": "BP_Weapon_Velite.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "MovementComponent": {
+                    "InitialSpeed": 400000.0
+                },
+                "DirectDamage": {
+                    "DamageArmor": 5600.0,
+                    "DamageShield": 4800.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.33,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.6,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "TitanChargePerHit": 9.33,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 70000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 110000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 130000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                },
+                "DistanceSettingsCurve": {
+                    "EditorCurveData": {
+                        "Keys": [
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": -1.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 1.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 80000.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 110000.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 130001.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 130002.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            }
+                        ]
+                    }
+                },
+                "TimeBetweenShots": 2.5,
+                "AbilityChargePointsOnHit": 4.8
+            }
+        },
+        "module_scaler": {
+            "module_name": "Velite",
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 4411.0,
+                    "DamageShield": 5781.0
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.33,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.6,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 3,
+                "ProjectileSpeed": 500000.0,
+                "TimeToReload": 4.68,
+                "TimeBetweenShots": 0.675,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 70000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 110000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 130000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        },
+        "misc": {
+            "ZoomType": "Sniper"
+        }
+    },
     "BP_Weapon_Vortex.0": {
         "id": "BP_Weapon_Vortex.0",
         "fire_modes": {
@@ -12756,7 +13564,7 @@
                 },
                 "ClipSize": 18,
                 "ProjectileSpeed": 35000.0,
-                "TimeToReload": 3.0,
+                "TimeToReload": 2.4,
                 "TimeBetweenShots": 0.12,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",

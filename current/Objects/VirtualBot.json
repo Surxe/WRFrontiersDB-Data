@@ -59,6 +59,25 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres"
     },
+    "artemis": {
+        "id": "artemis",
+        "name": {
+            "Key": "CMP_name_Artemis_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Artemis"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisArtemis.2",
+            "OBJID_Module::DA_Module_TorsoArtemis.1",
+            "OBJID_Module::DA_Module_ShoulderArtemis.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotArtemis.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi"
+    },
     "bulgasari": {
         "id": "bulgasari",
         "name": {
@@ -571,6 +590,26 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRaven"
     },
+    "relic-bulgasari": {
+        "id": "relic-bulgasari",
+        "name": {
+            "Key": "CMP_name_RelicBulgasari_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Relic Bulgasari"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisRelicBulgasari.2",
+            "OBJID_Module::DA_Module_TorsoRelicBulgasari.1",
+            "OBJID_Module::DA_Module_ShoulderRelicBulgasari01.0",
+            "OBJID_Module::DA_Module_ShoulderRelicBulgasari02.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRelicBulgasari.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicBulgasari"
+    },
     "scorpion": {
         "id": "scorpion",
         "name": {
@@ -688,5 +727,24 @@
         ],
         "has_distinct_shoulders": true,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Spire"
+    },
+    "wyrm": {
+        "id": "wyrm",
+        "name": {
+            "Key": "CMP_name_Wyrm_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Wyrm"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisWyrm.2",
+            "OBJID_Module::DA_Module_TorsoWyrm.1",
+            "OBJID_Module::DA_Module_ShoulderWyrm.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotWyrm.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotWyrm"
     }
 }

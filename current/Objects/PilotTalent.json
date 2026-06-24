@@ -430,6 +430,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common72.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common11.0",
                 "talent_index": 0
             }
@@ -500,6 +504,10 @@
             },
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common25.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common72.0",
                 "talent_index": 0
             },
             {
@@ -1040,6 +1048,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common72.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common60.0",
                 "talent_index": 0
             }
@@ -1307,6 +1319,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common71.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
                 "talent_index": 0
             },
@@ -1406,6 +1422,10 @@
             },
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common71.0",
                 "talent_index": 0
             },
             {
@@ -1809,6 +1829,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common72.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0",
                 "talent_index": 0
             },
@@ -1901,6 +1925,10 @@
             },
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common1.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common71.0",
                 "talent_index": 0
             },
             {
@@ -2854,6 +2882,10 @@
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Ever.0",
                 "talent_index": 1
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common71.0",
+                "talent_index": 0
             },
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common22.0",
@@ -4254,6 +4286,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common71.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Bruno.0",
                 "talent_index": 0
             }
@@ -4317,7 +4353,7 @@
         "description": {
             "Key": "TAL_desc_Ult_Emma",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Enemies that hit Emma’s mech become marked: visible, focusable, and take {DmgBoost} more damage from weapons for {Duration}. Talent has a cooldown {CD}."
+            "en": "Enemies that hit player's robot become marked: visible, focusable, and take {DmgBoost} more damage from weapons for {Duration}. Talent has a cooldown {CD}."
         },
         "ui_description": {
             "Key": "PilotHUD_DmgBuff",
@@ -4355,6 +4391,10 @@
         "pilots_with_this_talent": [
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Halloween_Emma.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common72.0",
                 "talent_index": 0
             }
         ],
@@ -4647,7 +4687,7 @@
         "stats": [
             {
                 "stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Chance.0",
-                "value": 0.1
+                "value": 0.06
             }
         ],
         "pilots_with_this_talent": [

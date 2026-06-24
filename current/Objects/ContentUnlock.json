@@ -128,6 +128,21 @@
         },
         "group_reward_ref": "OBJID_GroupReward::DA_CharactersGroup.0"
     },
+    "DA_NornaUnlock.0": {
+        "id": "DA_NornaUnlock.0",
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_Titan_Norna",
+        "description": {
+            "Key": "CMP_name_NORNA",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "type_name": {
+            "Key": "CMP_name_NORNA",
+            "TableNamespace": "Component_name",
+            "en": "Norna"
+        },
+        "group_reward_ref": "OBJID_GroupReward::DA_CharactersGroup.0"
+    },
     "DA_PremiumUnlock.0": {
         "id": "DA_PremiumUnlock.0",
         "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Meta/Progression/T_UnLockPremium",

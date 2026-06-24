@@ -7984,6 +7984,83 @@
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Scourge.0"
     },
+    "DA_Preset_DevbotArtemis.0": {
+        "id": "DA_Preset_DevbotArtemis.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi",
+        "name": {
+            "Key": "CMP_name_Artemis_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Artemis"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisArtemis.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoArtemis.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderArtemis.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Velite.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Velite.0",
+                "socket_name": "Shoulder_Weapon_1",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderArtemis.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Velite.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 5,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Velite.0",
+                "socket_name": "Shoulder_Weapon_1",
+                "parent_socket_index": 5,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Atrophy.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SupplySurge.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common58.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Velite.0"
+    },
     "DA_Preset_DevbotBulgasari.0": {
         "id": "DA_Preset_DevbotBulgasari.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulgasari",
@@ -9700,6 +9777,77 @@
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Gozer.0"
     },
+    "DA_Preset_DevbotRelicBulgasari.0": {
+        "id": "DA_Preset_DevbotRelicBulgasari.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicBulgasari",
+        "name": {
+            "Key": "CMP_name_RelicBulgasari_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Relic Bulgasari"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRelicBulgasari.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRelicBulgasari.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicBulgasari01.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0",
+                "socket_name": "Torso_Weapon_0",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicBulgasari02.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_ArmorShield.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_InfiniteAmmo.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 4,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0",
+                "socket_name": "Shoulder_Weapon_1",
+                "parent_socket_index": 4,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common35.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0"
+    },
     "DA_Preset_DevbotScorpion.0": {
         "id": "DA_Preset_DevbotScorpion.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion",
@@ -9995,6 +10143,77 @@
         "is_factory_preset": true,
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Orkan.0"
+    },
+    "DA_Preset_DevbotWyrm.0": {
+        "id": "DA_Preset_DevbotWyrm.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotWyrm",
+        "name": {
+            "Key": "CMP_name_Wyrm_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Wyrm"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisWyrm.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoWyrm.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderWyrm.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Aftershock.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderWyrm.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Aftershock.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 4,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Regeneration.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_IronVeil.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Aftershock.0",
+                "socket_name": "Torso_Weapon_0",
+                "parent_socket_index": 1,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common27.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Aftershock.0"
     },
     "DA_Preset_Legend_DevbotBulgasari.0": {
         "id": "DA_Preset_Legend_DevbotBulgasari.0",
