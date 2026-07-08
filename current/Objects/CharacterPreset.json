@@ -9848,6 +9848,77 @@
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0"
     },
+    "DA_Preset_DevbotRelicLancelot.0": {
+        "id": "DA_Preset_DevbotRelicLancelot.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicLancelot",
+        "name": {
+            "Key": "CMP_name_RelicLancelot_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Relic Lancelot"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRelicLancelot.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRelicLancelot.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicLancelot01.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicLancelot02.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 3,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_SpeedBoost.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_CounterAttack.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicThunder.0",
+                "socket_name": "Torso_Weapon_0",
+                "parent_socket_index": 1,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common45.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0"
+    },
     "DA_Preset_DevbotScorpion.0": {
         "id": "DA_Preset_DevbotScorpion.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion",

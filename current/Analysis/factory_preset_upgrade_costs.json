@@ -485,6 +485,24 @@
             "OBJID_Currency::DA_Meta_Currency_Intel": 1200
         }
     },
+    "OBJID_CharacterPreset::DA_Preset_DevbotRelicLancelot.0": {
+        "frame": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 1856000,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 4000
+        },
+        "total": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 3702400,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 8000
+        },
+        "weapons": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 1392000,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 3000
+        },
+        "gears": {
+            "OBJID_Currency::DA_Meta_Currency_Alloys": 454400,
+            "OBJID_Currency::DA_Meta_Currency_Intel": 1000
+        }
+    },
     "OBJID_CharacterPreset::DA_Preset_DevbotScorpion.0": {
         "frame": {
             "OBJID_Currency::DA_Meta_Currency_Alloys": 1484800,
