@@ -1,0 +1,252 @@
+{
+    "OBJID_ModuleRarity::DA_ModuleRarity_Common.0": {
+        "OBJID_Currency::DA_Meta_Currency_Intel": {
+            "levels": {
+                "3": {
+                    "cost": 6,
+                    "difference": -14,
+                    "percent_difference": -0.7
+                },
+                "5": {
+                    "cost": 12,
+                    "difference": -28,
+                    "percent_difference": -0.7
+                },
+                "9": {
+                    "cost": 33,
+                    "difference": -77,
+                    "percent_difference": -0.7
+                },
+                "13": {
+                    "cost": 100,
+                    "difference": -130,
+                    "percent_difference": -0.56522
+                }
+            },
+            "cumulative": {
+                "cost": 151,
+                "difference": -249,
+                "percent_difference": -0.6225
+            }
+        },
+        "OBJID_Currency::DA_Meta_Currency_Alloys": {
+            "levels": {
+                "2": {
+                    "cost": 3200,
+                    "difference": -3200,
+                    "percent_difference": -0.5
+                },
+                "4": {
+                    "cost": 6880,
+                    "difference": -6880,
+                    "percent_difference": -0.5
+                },
+                "6": {
+                    "cost": 8960,
+                    "difference": -8960,
+                    "percent_difference": -0.5
+                },
+                "7": {
+                    "cost": 10000,
+                    "difference": -10000,
+                    "percent_difference": -0.5
+                },
+                "8": {
+                    "cost": 10560,
+                    "difference": -10560,
+                    "percent_difference": -0.5
+                },
+                "10": {
+                    "cost": 12000,
+                    "difference": -12000,
+                    "percent_difference": -0.5
+                },
+                "11": {
+                    "cost": 13200,
+                    "difference": -13200,
+                    "percent_difference": -0.5
+                },
+                "12": {
+                    "cost": 15200,
+                    "difference": -15200,
+                    "percent_difference": -0.5
+                }
+            },
+            "cumulative": {
+                "cost": 80000,
+                "difference": -80000,
+                "percent_difference": -0.5
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Epic.0": {
+        "OBJID_Currency::DA_Meta_Currency_Intel": {
+            "levels": {},
+            "cumulative": null
+        },
+        "OBJID_Currency::DA_Meta_Currency_Alloys": {
+            "levels": {},
+            "cumulative": null
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0": {
+        "OBJID_Currency::DA_Meta_Currency_Intel": {
+            "levels": {
+                "3": {
+                    "cost": 12,
+                    "difference": -28,
+                    "percent_difference": -0.7
+                },
+                "5": {
+                    "cost": 24,
+                    "difference": -56,
+                    "percent_difference": -0.7
+                },
+                "9": {
+                    "cost": 66,
+                    "difference": -154,
+                    "percent_difference": -0.7
+                },
+                "13": {
+                    "cost": 200,
+                    "difference": -260,
+                    "percent_difference": -0.56522
+                }
+            },
+            "cumulative": {
+                "cost": 302,
+                "difference": -498,
+                "percent_difference": -0.6225
+            }
+        },
+        "OBJID_Currency::DA_Meta_Currency_Alloys": {
+            "levels": {
+                "2": {
+                    "cost": 6400,
+                    "difference": -6400,
+                    "percent_difference": -0.5
+                },
+                "4": {
+                    "cost": 13760,
+                    "difference": -13760,
+                    "percent_difference": -0.5
+                },
+                "6": {
+                    "cost": 17920,
+                    "difference": -17920,
+                    "percent_difference": -0.5
+                },
+                "7": {
+                    "cost": 20000,
+                    "difference": -20000,
+                    "percent_difference": -0.5
+                },
+                "8": {
+                    "cost": 21120,
+                    "difference": -21120,
+                    "percent_difference": -0.5
+                },
+                "10": {
+                    "cost": 24000,
+                    "difference": -24000,
+                    "percent_difference": -0.5
+                },
+                "11": {
+                    "cost": 26400,
+                    "difference": -26400,
+                    "percent_difference": -0.5
+                },
+                "12": {
+                    "cost": 30400,
+                    "difference": -30400,
+                    "percent_difference": -0.5
+                }
+            },
+            "cumulative": {
+                "cost": 160000,
+                "difference": -160000,
+                "percent_difference": -0.5
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0": {
+        "OBJID_Currency::DA_Meta_Currency_Intel": {
+            "levels": {
+                "3": {
+                    "cost": 9,
+                    "difference": -21,
+                    "percent_difference": -0.7
+                },
+                "5": {
+                    "cost": 18,
+                    "difference": -42,
+                    "percent_difference": -0.7
+                },
+                "9": {
+                    "cost": 50,
+                    "difference": -115,
+                    "percent_difference": -0.69697
+                },
+                "13": {
+                    "cost": 150,
+                    "difference": -195,
+                    "percent_difference": -0.56522
+                }
+            },
+            "cumulative": {
+                "cost": 227,
+                "difference": -373,
+                "percent_difference": -0.62167
+            }
+        },
+        "OBJID_Currency::DA_Meta_Currency_Alloys": {
+            "levels": {
+                "2": {
+                    "cost": 4800,
+                    "difference": -4800,
+                    "percent_difference": -0.5
+                },
+                "4": {
+                    "cost": 10320,
+                    "difference": -10320,
+                    "percent_difference": -0.5
+                },
+                "6": {
+                    "cost": 13440,
+                    "difference": -13440,
+                    "percent_difference": -0.5
+                },
+                "7": {
+                    "cost": 15000,
+                    "difference": -15000,
+                    "percent_difference": -0.5
+                },
+                "8": {
+                    "cost": 15840,
+                    "difference": -15840,
+                    "percent_difference": -0.5
+                },
+                "10": {
+                    "cost": 18000,
+                    "difference": -18000,
+                    "percent_difference": -0.5
+                },
+                "11": {
+                    "cost": 19800,
+                    "difference": -19800,
+                    "percent_difference": -0.5
+                },
+                "12": {
+                    "cost": 22800,
+                    "difference": -22800,
+                    "percent_difference": -0.5
+                }
+            },
+            "cumulative": {
+                "cost": 120000,
+                "difference": -120000,
+                "percent_difference": -0.5
+            }
+        }
+    }
+}
