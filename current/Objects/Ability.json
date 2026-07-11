@@ -764,7 +764,33 @@
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ElectricShield"
     },
     "BP_Ability_FloatingJetpack.2": {
-        "id": "BP_Ability_FloatingJetpack.2"
+        "id": "BP_Ability_FloatingJetpack.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 1.0,
+            "JumpTime": 0.5,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 7000.0,
+            "JetpackJumpAccelerationForce": 350000.0,
+            "bAllowStatsReporting": false
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
     },
     "BP_Ability_FuelReserve.2": {
         "id": "BP_Ability_FuelReserve.2",
@@ -11725,7 +11751,45 @@
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
     },
     "BP_Module_RelicLancelot_Torso.1": {
-        "id": "BP_Module_RelicLancelot_Torso.1"
+        "id": "BP_Module_RelicLancelot_Torso.1",
+        "misc": {
+            "ActorClass": {
+                "Radius": 7500.0,
+                "BuffAreaComponent": {
+                    "buffs": [
+                        {
+                            "Target": "Me",
+                            "BuffLingerTime": 0.0,
+                            "StackMode": "Stack"
+                        },
+                        {
+                            "Target": "16",
+                            "BuffLingerTime": 0.0
+                        }
+                    ]
+                }
+            },
+            "PrimaryParameter": 13.0,
+            "SecondaryParameter": 0.6,
+            "CastDuration": 0.2,
+            "EffectType": "Defensive",
+            "InitialDuration": 13.0
+        },
+        "name": {
+            "Key": "ABL_name_PaladinsWard",
+            "TableNamespace": "Ability_name",
+            "en": "Paladin's Ward"
+        },
+        "description": {
+            "Key": "ABL_descr_PaladinsWard",
+            "TableNamespace": "Ability_descripton",
+            "en": "Grants 35% damage resistance for {ActDuration}. While active, nearby allies restore armor equal to {ActEfficiency} of the damage absorbed by Lancelot.  Cooldown: {CD}."
+        },
+        "cooldown": {
+            "Cooldown": 35.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_PaladinsWard"
     },
     "BP_Module_Scorpion_Chassis.1": {
         "id": "BP_Module_Scorpion_Chassis.1",
@@ -12489,7 +12553,18 @@
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
     },
     "BP_Module_Spider_Chassis.2": {
-        "id": "BP_Module_Spider_Chassis.2"
+        "id": "BP_Module_Spider_Chassis.2",
+        "name": {
+            "Key": "ABL_name_Maneuverability",
+            "TableNamespace": "Ability_name",
+            "en": "Pneumatic Vault"
+        },
+        "description": {
+            "Key": "ABL_descr_Maneuverability",
+            "TableNamespace": "Ability_descripton",
+            "en": "Hold to hover over ground for greater speed and maneuverability. Consumes fuel."
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Flexibility"
     },
     "BP_Module_Spider_Chassis_V2.1": {
         "id": "BP_Module_Spider_Chassis_V2.1",

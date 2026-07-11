@@ -60,7 +60,7 @@
 * Ravana's Wächtermatrix: Verbündete vor dir erleiden {**Primär.x**}s lang {**Sekundär.x**}% weniger Schaden. Du kannst nicht getötet werden, solange ein Verbündeter davon betroffen ist.
 * Raven's Stahlfedern: Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}m.
 * Relic Bulgasari's Arpeggio: Feuert eine Raketensalve ab, die das Zielgebiet von oben trifft. Jede Rakete hat einen Explosionsradius von {**Sekundär.x**}m und fügt jeder Robotkomponente innerhalb des Explosionsbereichs {**Primär.x**} Schaden zu. Abklingzeit: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Paladins Schutz: Gewährt 35 % Schadensresistenz für {**Primär.x**}s. Während sie aktiv ist, stellen nahegelegene Verbündete Rüstung in Höhe von {**Sekundär.x**}% des von Lancelot absorbierten Schadens wieder her. Abklingzeit: {CD}.
 * Scorpion's Peitschenschlag: Ein Zielsuchprojektil verursacht beim Aufprall {**Primär.x**} Schaden und fügt anschließend allen Modulen {**Sekundär.x**} pro Sekunde zu. Wird aufgeladen, wenn das Ziel während der Aktivität zerstört wird.
 * Siren's Kälteeinbruch: Feuert ein Gefrierprojektil ab, das Feinden im Wirkradius {**Primär.x**} Schaden zufügt und sie {**Sekundär.x**}s lang bewegungsunfähig macht.
 * Typhon's Blackout: Feuert Zielsuchraketen ab, die bis zu 3 Feinde dazu zwingt, nachzuladen. Gleichzeitig verlangsamt sie ihre Nachladezeiten {**Sekundär.x**}s lang um {**Primär.x**}%.
@@ -131,7 +131,7 @@
 * Ravana's Guardian Matrix: Allies in front of you take {**Secondary.x**}% less damage for {**Primary.x**}s. You cannot be destroyed while any ally is affected by this.
 * Raven's Steel Feathers: Fires a barrage of missiles dead ahead, each dealing {**Primary.x**} damage with a {**Secondary.x**}m blast radius.
 * Relic Bulgasari's Arpeggio: Launches a salvo of rockets that strike the targeted area from above. Each rocket has a blast radius of {**Secondary.x**}m and deals {**Primary.x**} damage to each robot component within the blast area. Cooldown: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Paladin's Ward: Grants 35% damage resistance for {**Primary.x**}s. While active, nearby allies restore armor equal to {**Secondary.x**}% of the damage absorbed by Lancelot.  Cooldown: {CD}.
 * Scorpion's Whiplash: A homing projectile deals {**Primary.x**} damage on hit and then {**Secondary.x**} per second to all modules. Recharges if target is destroyed while active.
 * Siren's Cold Snap: Fires a freezing projectile that deals {**Primary.x**} damage to enemies within a blast radius and immobilizes them for {**Secondary.x**}s.
 * Typhon's Blackout: Fires homing missiles that force up to 3 enemies to reload, while also slowing their reloads by {**Primary.x**}% for {**Secondary.x**}s.
@@ -202,7 +202,7 @@
 * Ravana's Matriz de guardianes: Los aliados frente a ti reciben {**Secundario.x**}% menos de daño durante {**Primario.x**} s. No te podrán matar mientras haya aliados con este efecto activo.
 * Raven's Plumas de acero: Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**} m.
 * Relic Bulgasari's Arpeggio: Lanza una salva de cohetes que impacta el área objetivo desde arriba. Cada cohete tiene un radio de explosión de {**Secundario.x**} m e inflige {**Primario.x**} de daño a cada componente de robot dentro del área de la explosión. Tiempo de recarga: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Protección del paladín: Otorga un 35% de resistencia al daño durante {**Primario.x**} s. Mientras está activa, los aliados cercanos restauran armadura equivalente al {**Secundario.x**}% del daño absorbido por Lancelot. Tiempo de recarga: {CD}.
 * Scorpion's Latigazo: Un proyectil teledirigido inflige {**Primario.x**} de daño al impactar y {**Secundario.x**} por segundo a todos los módulos. Se recarga si el objetivo es destruido mientras está activo.
 * Siren's Ola de frío: Dispara un proyectil congelador que inflige {**Primario.x**} de daño a los enemigos en un radio de explosión y los inmoviliza durante {**Secundario.x**} s.
 * Typhon's Apagón: Dispara misiles teledirigidos que obligan hasta a 3 enemigos a recargar mientras se ralentizan sus recargas {**Primario.x**}% durante {**Secundario.x**} s.
@@ -273,7 +273,7 @@
 * Ravana's Matrice gardienne: Les alliés devant vous subissent {**Secondaire.x**} % points de dégâts en moins pendant {**Primaire.x**} s. Vous êtes invincible tant qu'un allié est touché par cet effet.
 * Raven's Plumes d'acier: Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**} m.
 * Relic Bulgasari's Arpeggio: Lance une salve de roquettes qui frappent la zone ciblée par le haut. Chaque roquette a un rayon d'explosion de {**Secondaire.x**} m et inflige {**Primaire.x**} points de dégâts à chaque élément de robot dans la zone d'impact. Temps de recharge : {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Protection du Paladin: Confère 35% de résistance aux dégâts pendant {**Primaire.x**} s. Tant qu'elle est active, les alliés proches restaurent une armure égale à {**Secondaire.x**} % des dégâts absorbés par Lancelot. Temps de recharge : {CD}.
 * Scorpion's Trauma: Un projectile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts, puis {**Secondaire.x**} par seconde à chaque module. Recharge immédiate si la cible est détruite pendant son activation.
 * Siren's Coup de froid: Tire un projectile glaçant qui inflige {**Primaire.x**} points de dégâts aux ennemis dans son rayon d'explosion et les immobilise pendant {**Secondaire.x**} s.
 * Typhon's Trou noir: Tire des missiles à tête chercheuse qui forcent jusqu'à 3 ennemis à recharger et diminuent leur vitesse de recharge de {**Primaire.x**} % pendant {**Secondaire.x**} s.
@@ -344,7 +344,7 @@
 * Ravana's ガーディアンマトリクス: 目の前の味方が受けるダメージが{**メイン.x**}秒間、{**サブ.x**}%減少する。味方がこれによって影響を受けている間は破壊されない。
 * Raven's 鋼鉄の羽根: 前方にミサイルの弾幕を発射する。それぞれのミサイルは{**サブ.x**}mの爆発半径で{**メイン.x**}ダメージを与える。
 * Relic Bulgasari's アルペジオ: 目標エリアを上空から強襲するロケット弾幕を発射する。各ロケットは{**サブ.x**}mの爆発半径を持ち、爆発エリア内の敵ロボットの各パーツに{**メイン.x**}のダメージを与える。クールダウン：{CD}。
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's パラディンズ・ウォード: {**メイン.x**}秒の間、ダメージ耐性が35%向上する。発動中、周囲の味方はLancelotが吸収したダメージの{**サブ.x**}%に相当するアーマーを回復する。クールダウン：{CD}。
 * Scorpion's むち打ち: 誘導式発射体は着弾時に{**メイン.x**}ダメージを与え、すべてのモジュールに1秒あたり{**サブ.x**}ダメージを与える。アクティブな間、ターゲットが破壊された場合はリチャージされる。
 * Siren's コールドスナップ: 凍結弾を発射し、爆発半径内の敵に{**メイン.x**}ダメージを与え、{**サブ.x**}秒間動けなくする。
 * Typhon's ブラックアウト: 最大3体の敵にリロードを強制する誘導ミサイルを発射し、同時に{**サブ.x**}秒間、リロード速度を{**メイン.x**}%遅くする。
@@ -415,7 +415,7 @@
 * 라바나's 수호 매트릭스: {**주.x**}초 동안 전방의 아군이 받는 피해가 {**보조.x**}% 감소합니다. 이 효과를 받는 아군이 있는 동안에는 파괴되지 않습니다.
 * 레이븐's 강철 깃털: 전방에 미사일을 연발로 발사하여, 각각 {**보조.x**}m 폭발 반경으로 {**주.x**} 피해를 입힙니다.
 * Relic Bulgasari's 아르페지오: 목표 구역을 상공에서 타격하는 로켓 일제 사격을 개시합니다. 각 로켓의 폭발 반경은 {**보조.x**}m이며, 폭발 범위 내의 모든 로봇 부품에 {**주.x**}의 피해를 줍니다. 재사용 대기시간: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's 팔라딘의 수호: {**주.x**}초 동안 피해 저항 35%를 부여합니다. 활성화 상태에서 주변 아군은 Lancelot이 흡수한 피해의 {**보조.x**}%만큼 아머를 회복합니다. 재사용 대기시간: {CD}.
 * 스콜피언's 채찍: 유도 투사체 명중 시 {**주.x**}의 피해를 주고 모든 모듈에 초당 {**보조.x**}의 피해를 입힙니다. 대상이 활성화된 상태에서 파괴되면 재충전됩니다.
 * 사이렌's 급속 냉각: 폭발 반경 내의 적에게 {**주.x**} 피해를 입히고 {**보조.x**}초 동안 이동 불가 상태로 만드는 동결 투사체를 발사합니다.
 * 티폰's 블랙아웃: 유도 미사일 여러 발을 발사하여 최대 3기의 적을 재장전하도록 만들고, {**보조.x**}초 동안 재장전 속도를 {**주.x**}% 늦춥니다.
@@ -486,7 +486,7 @@
 * Ravana's Strażnik: Sojusznicy znajdujący się przed tobą otrzymują {**Drugoplanowy.x**}% mniej obrażeń przez {**Podstawowy.x**} sek. W czasie aktywności tej funkcji twój robot nie może zostać zniszczony.
 * Raven's Stalowe pióra: Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**} m.
 * Relic Bulgasari's Arpeggio: Wystrzeliwuje salwę rakiet, które uderzają w wyznaczony obszar z góry. Każda rakieta ma promień wybuchu wynoszący {**Drugoplanowy.x**} m i zadaje {**Podstawowy.x**} obrażeń każdemu komponentowi robota w strefie eksplozji. Czas odnowienia: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Straż Paladyna: Zapewnia 35% odporności na obrażenia przez {**Podstawowy.x**} sek. Gdy jest aktywna, pobliscy sojusznicy przywracają pancerz równy {**Drugoplanowy.x**}% obrażeń pochłoniętych przez Lancelot. Czas odnowienia: {CD}.
 * Scorpion's Bicz: Pocisk samonaprowadzający powoduje po trafieniu {**Podstawowy.x**} obrażeń, a następnie dodatkowo {**Drugoplanowy.x**} obrażeń na sek. od ognia wszystkich modułów. Zniszczenie wroga w czasie aktywności powoduje od razu przeładowanie.
 * Siren's Uderzenie mrozu: Wystrzeliwuje pocisk zamrażający, który powoduje {**Podstawowy.x**} obrażeń w polu rażenia i unieruchamia wrogów na {**Drugoplanowy.x**} sek.
 * Typhon's Zaciemnienie: Wystrzeliwuje rakiety samonaprowadzające, które zmuszają maks. 3 wrogów do przeładowania broni, przy czym przeładowanie jest spowalniane o {**Podstawowy.x**}% przez {**Drugoplanowy.x**} sek.
@@ -557,7 +557,7 @@
 * Ravana's Matriz Guardiã: Aliados na sua frente sofrem {**Secundário.x**}% de dano a menos por {**Primário.x**}s. Você não pode morrer enquanto um aliado é afetado por isso.
 * Raven's Penas de Aço: Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}m.
 * Relic Bulgasari's Arpeggio: Lança uma salva de foguetes que atinge a área-alvo por cima. Cada foguete tem um raio de explosão de {**Secundário.x**}m e causa {**Primário.x**} de dano a cada componente de robô dentro da área da explosão. Tempo de recarga: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Proteção do Paladino: Concede 35% de resistência a dano por {**Primário.x**}s. Enquanto estiver ativa, aliados próximos restauram armadura igual a {**Secundário.x**}% do dano absorvido por Lancelot. Tempo de recarga: {CD}.
 * Scorpion's Chicotada: Um projétil guiado que causa {**Primário.x**} de dano ao acertar e mais {**Secundário.x**} por segundo a todos os módulos. Recarrega se o alvo for destruído enquanto estiver ativo.
 * Siren's Tiro Congelante: Atira um projétil imobilizante que causa {**Primário.x**} de dano a inimigos no raio da explosão e os imobiliza por {**Secundário.x**}s.
 * Typhon's Blecaute: Atira mísseis guiados que forçam até 3 inimigos a recarregar, além de desacelerar suas recargas em {**Primário.x**}% por {**Secundário.x**}s.
@@ -628,7 +628,7 @@
 * Ravana's Защитная матрица: Союзники перед вами получают на {**Второстепенное.x**}% меньше урона в течение {**Основное.x**}сек.. Пока этот эффект действует хотя бы на одного союзника, вы неуничтожимы.
 * Raven's Стальные перья: Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}м.
 * Relic Bulgasari's Арпеджио: Выпускает залп ракет, поражающих целевую область сверху. Каждая ракета имеет радиус взрыва {**Второстепенное.x**}м и наносит {**Основное.x**} урона каждой детали робота в зоне поражения. Перезарядка: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Оберег Паладина: Дает 35% устойчивости к урону на {**Основное.x**}сек.. Пока способность активна, союзники поблизости восстановят броню в размере {**Второстепенное.x**}% от урона, поглощенного Lancelot. Перезарядка: {CD}.
 * Scorpion's Плеть: Выпускает самонаводящийся снаряд, наносящий {**Основное.x**} ед. урона при попадании и {**Второстепенное.x**} ед. урона в секунду всем модулям. Если цель уничтожается во время действия эффекта, перезарядка сбрасывается.
 * Siren's Заморозок: Выпускает замораживающий снаряд. Он наносит противникам {**Основное.x**} ед. урона и обездвиживает их на {**Второстепенное.x**}сек..
 * Typhon's Перебой: Выпускает самонаводящиеся ракеты, которые поражают до 3 противников и вынуждают их перезарядиться. Их скорость перезарядки снижается на {**Основное.x**}% на {**Второстепенное.x**}сек..
@@ -699,7 +699,7 @@
 * Ravana's Muhafız Matriksi: Önündeki müttefikler {**Birincil.x**}sn boyunca {**İkincil.x**}% daha az hasar alır. Bir müttefik bu etkinin altındaysa öldürülemezsin.
 * Raven's Çelik Tüyler: Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**}m patlama yarıçaplı {**Birincil.x**} hasar verir.
 * Relic Bulgasari's Arpeggio: Hedeflenen bölgeyi yukarıdan vuran bir roket salvosu ateşler. Her roketin patlama yarıçapı {**İkincil.x**}m'tur ve patlama alanı içindeki her bir robot parçasına {**Birincil.x**} hasar verir. Bekleme süresi: {CD}.
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's Paladin'in Muhafızı: {**Birincil.x**}sn boyunca %35 hasar direnci sağlar. Aktifken, yakındaki müttefikler Lancelot tarafından emilen hasarın {**İkincil.x**}% kadarına eşit zırh yeniler. Bekleme süresi: {CD}.
 * Scorpion's Kamçı Vuruşu: Anında {**Birincil.x**} hasar, sonra da tüm modüllere saniyede {**İkincil.x**} hasar veren bir güdümlü mermi. Etkinken hedef imha olursa yeniden şarj olur.
 * Siren's Soğuk Kapış: Patlama alanında kalan düşmanlara {**Birincil.x**} hasar veren ve onları {**İkincil.x**}sn boyunca hareketsiz kılan bir dondurucu mermi atar.
 * Typhon's Karartma: 3’e kadar düşmanı silah doldurmaya zorlayan, bir yandan da silah doldurma hızlarını {**İkincil.x**}sn boyunca {**Birincil.x**}% yavaşlatan güdümlü füzeler atar.
@@ -770,7 +770,7 @@
 * Ravana's 守护者母体: 位于你前方的队友受到的伤害降低{**副.x**}%，持续{**主.x**}秒。当有任何队友受此效果影响时，你无法被摧毁。
 * Raven's 钢之羽: 向正前方发射一波飞弹，每枚飞弹可对{**副.x**}米爆炸半径范围内的目标造成{**主.x**}点伤害。
 * Relic Bulgasari's 琶音: 向目标区域发动从天而降的火箭弹齐射。每枚火箭弹的爆炸半径为 {**副.x**}米，并对爆炸区域内的每个机器人部件造成 {**主.x**} 点伤害。冷却时间：{CD}。
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's 圣骑士之护: 提供35%的伤害抗性，持续{**主.x**}秒。激活时，附近的盟友可恢复等同于Lancelot吸收伤害{**副.x**}%的护甲。冷却时间：{CD}。
 * Scorpion's 尾后针: 发射一枚追踪炮弹，命中时造成{**主.x**}点伤害，随后对目标所有模块造成每秒{**副.x**}点的持续伤害。如果目标在技能生效期间被摧毁，则该技能立即结束冷却。
 * Siren's 寒流: 发射一枚冷凝弹，对爆炸半径内的敌人造成{**主.x**}点伤害，并使其无法移动，持续{**副.x**}秒。
 * Typhon's 弹药管制: 发射一波追踪飞弹，强制最多3名敌人重新装填武器，同时使其装弹速度降低{**主.x**}%，持续{**副.x**}秒。
@@ -841,7 +841,7 @@
 * Ravana's 守護矩陣: 你前方的友軍承受的傷害減少 {**次要.x**}%，持續 {**主要.x**}秒。在任一友軍受此影響的期間你無法被摧毀。
 * Raven's 鐵翼彈雨: 朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}公尺。
 * Relic Bulgasari's 琶音: 向目標區域發動從天而降的火箭彈齊射。每枚火箭彈的爆炸半徑為 {**次要.x**}公尺，並對爆炸區域內的每個機器人部件造成 {**主要.x**} 點傷害。冷卻時間：{CD}。
-* Relic Lancelot's Unnamed Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1: No Description for Ability OBJID_Ability::BP_Module_RelicLancelot_Torso.1
+* Relic Lancelot's 聖騎士之護: 提供35%的傷害抗性，持續{**主要.x**}秒。啟用時，附近的盟友可恢復等同於Lancelot吸收傷害{**次要.x**}%的護甲。冷卻時間：{CD}
 * Scorpion's 鞭撻: 命中時造成 {**主要.x**} 點傷害的追蹤投射物，接著每秒對所有模組造成 {**次要.x**} 點傷害。若目標在此技能生效時死亡，此技能會立即再次充能。
 * Siren's 至寒重擊: 發射急凍投射物，在爆破半徑內對敵人造成 {**主要.x**} 傷害並將其凍結，持續 {**次要.x**}秒。
 * Typhon's 強制填裝: 發射追蹤飛彈，這些飛彈會迫使最多 3 名敵人填裝，同時減緩其填裝速度 {**主要.x**}%，持續 {**次要.x**}秒。
