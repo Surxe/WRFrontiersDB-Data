@@ -1,0 +1,546 @@
+{
+    "OBJID_ModuleRarity::DA_ModuleRarity_Common.0": {
+        "id": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
+        "rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Common.0",
+        "costs": {
+            "1": {
+                "salvage": {
+                    "standard": 16000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "2": {
+                "salvage": {
+                    "standard": 6400,
+                    "discounted": 3200
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "3": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 20,
+                    "discounted": 6
+                }
+            },
+            "4": {
+                "salvage": {
+                    "standard": 13760,
+                    "discounted": 6880
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "5": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 40,
+                    "discounted": 12
+                }
+            },
+            "6": {
+                "salvage": {
+                    "standard": 17920,
+                    "discounted": 8960
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "7": {
+                "salvage": {
+                    "standard": 20000,
+                    "discounted": 10000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "8": {
+                "salvage": {
+                    "standard": 21120,
+                    "discounted": 10560
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "9": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 110,
+                    "discounted": 33
+                }
+            },
+            "10": {
+                "salvage": {
+                    "standard": 24000,
+                    "discounted": 12000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "11": {
+                "salvage": {
+                    "standard": 26400,
+                    "discounted": 13200
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "12": {
+                "salvage": {
+                    "standard": 30400,
+                    "discounted": 15200
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "13": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 230,
+                    "discounted": 100
+                }
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Epic.0": {
+        "id": "OBJID_ModuleRarity::DA_ModuleRarity_Epic.0",
+        "rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Epic.0",
+        "costs": {
+            "1": {
+                "salvage": {
+                    "standard": 64000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "2": {
+                "salvage": {
+                    "standard": 16000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "3": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 50,
+                    "discounted": null
+                }
+            },
+            "4": {
+                "salvage": {
+                    "standard": 34400,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "5": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 100,
+                    "discounted": null
+                }
+            },
+            "6": {
+                "salvage": {
+                    "standard": 44800,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "7": {
+                "salvage": {
+                    "standard": 50000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "8": {
+                "salvage": {
+                    "standard": 52800,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "9": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 275,
+                    "discounted": null
+                }
+            },
+            "10": {
+                "salvage": {
+                    "standard": 60000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "11": {
+                "salvage": {
+                    "standard": 66000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "12": {
+                "salvage": {
+                    "standard": 76000,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "13": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 575,
+                    "discounted": null
+                }
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0": {
+        "id": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "costs": {
+            "1": {
+                "salvage": {
+                    "standard": 51200,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "2": {
+                "salvage": {
+                    "standard": 12800,
+                    "discounted": 6400
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "3": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 40,
+                    "discounted": 12
+                }
+            },
+            "4": {
+                "salvage": {
+                    "standard": 27520,
+                    "discounted": 13760
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "5": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 80,
+                    "discounted": 24
+                }
+            },
+            "6": {
+                "salvage": {
+                    "standard": 35840,
+                    "discounted": 17920
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "7": {
+                "salvage": {
+                    "standard": 40000,
+                    "discounted": 20000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "8": {
+                "salvage": {
+                    "standard": 42240,
+                    "discounted": 21120
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "9": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 220,
+                    "discounted": 66
+                }
+            },
+            "10": {
+                "salvage": {
+                    "standard": 48000,
+                    "discounted": 24000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "11": {
+                "salvage": {
+                    "standard": 52800,
+                    "discounted": 26400
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "12": {
+                "salvage": {
+                    "standard": 60800,
+                    "discounted": 30400
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "13": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 460,
+                    "discounted": 200
+                }
+            }
+        }
+    },
+    "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0": {
+        "id": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Uncommon.0",
+        "costs": {
+            "1": {
+                "salvage": {
+                    "standard": 38400,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "2": {
+                "salvage": {
+                    "standard": 9600,
+                    "discounted": 4800
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "3": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 30,
+                    "discounted": 9
+                }
+            },
+            "4": {
+                "salvage": {
+                    "standard": 20640,
+                    "discounted": 10320
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "5": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 60,
+                    "discounted": 18
+                }
+            },
+            "6": {
+                "salvage": {
+                    "standard": 26880,
+                    "discounted": 13440
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "7": {
+                "salvage": {
+                    "standard": 30000,
+                    "discounted": 15000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "8": {
+                "salvage": {
+                    "standard": 31680,
+                    "discounted": 15840
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "9": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 165,
+                    "discounted": 50
+                }
+            },
+            "10": {
+                "salvage": {
+                    "standard": 36000,
+                    "discounted": 18000
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "11": {
+                "salvage": {
+                    "standard": 39600,
+                    "discounted": 19800
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "12": {
+                "salvage": {
+                    "standard": 45600,
+                    "discounted": 22800
+                },
+                "intel": {
+                    "standard": 0,
+                    "discounted": null
+                }
+            },
+            "13": {
+                "salvage": {
+                    "standard": 0,
+                    "discounted": null
+                },
+                "intel": {
+                    "standard": 345,
+                    "discounted": 150
+                }
+            }
+        }
+    }
+}
