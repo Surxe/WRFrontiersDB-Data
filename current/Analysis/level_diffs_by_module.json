@@ -876,12 +876,18 @@
     "OBJID_Module::DA_Module_ShoulderAnansi.0": {
         "stats_percent_increase": {
             "Armor": 0.16856,
+            "DelayAndRechargeTotal": -0.10922,
+            "RechargeDelay": -0.04878,
+            "RechargeTime": -0.18591,
             "ShieldAmount": 0.25135,
             "ShieldDelayReduction": 0.22222,
             "ShieldRegeneration": 0.53712
         },
         "stats_percentile": {
             "Armor": 0.42857,
+            "DelayAndRechargeTotal": 0.0,
+            "RechargeDelay": 0.4,
+            "RechargeTime": 0.0,
             "ShieldAmount": 0.93478,
             "ShieldDelayReduction": 0.9,
             "ShieldRegeneration": 0.05
@@ -890,11 +896,15 @@
     "OBJID_Module::DA_Module_ShoulderAres.0": {
         "stats_percent_increase": {
             "Armor": 0.18393,
+            "DelayAndRechargeTotal": 0.05689,
+            "RechargeTime": 0.12393,
             "ShieldAmount": 0.42157,
             "ShieldRegeneration": 0.26482
         },
         "stats_percentile": {
             "Armor": 0.28571,
+            "DelayAndRechargeTotal": 0.78723,
+            "RechargeTime": 0.75,
             "ShieldAmount": 0.13043,
             "ShieldRegeneration": 0.9
         }
@@ -902,12 +912,18 @@
     "OBJID_Module::DA_Module_ShoulderArtemis.0": {
         "stats_percent_increase": {
             "Armor": 0.16883,
+            "DelayAndRechargeTotal": -0.10268,
+            "RechargeDelay": -0.04878,
+            "RechargeTime": -0.17616,
             "ShieldAmount": 0.26744,
             "ShieldDelayReduction": 0.22222,
             "ShieldRegeneration": 0.53846
         },
         "stats_percentile": {
             "Armor": 0.41667,
+            "DelayAndRechargeTotal": 0.06383,
+            "RechargeDelay": 0.36667,
+            "RechargeTime": 0.08333,
             "ShieldAmount": 0.63043,
             "ShieldDelayReduction": 0.86667,
             "ShieldRegeneration": 0.025
@@ -916,12 +932,18 @@
     "OBJID_Module::DA_Module_ShoulderBulgasari.0": {
         "stats_percent_increase": {
             "Armor": 0.25378,
+            "DelayAndRechargeTotal": -0.06272,
+            "RechargeDelay": -0.1039,
+            "RechargeTime": -0.00952,
             "ShieldAmount": 0.25874,
             "ShieldDelayReduction": 0.34783,
             "ShieldRegeneration": 0.27083
         },
         "stats_percentile": {
             "Armor": 0.20238,
+            "DelayAndRechargeTotal": 0.19149,
+            "RechargeDelay": 0.13333,
+            "RechargeTime": 0.30556,
             "ShieldAmount": 0.86957,
             "ShieldDelayReduction": 0.5,
             "ShieldRegeneration": 0.425
@@ -930,12 +952,16 @@
     "OBJID_Module::DA_Module_ShoulderBulwark.0": {
         "stats_percent_increase": {
             "Armor": 0.35593,
+            "DelayAndRechargeTotal": -0.03704,
+            "RechargeDelay": -0.04082,
             "ShieldAmount": 0.26496,
             "ShieldDelayReduction": 2.0,
             "ShieldRegeneration": 0.26496
         },
         "stats_percentile": {
             "Armor": 0.02381,
+            "DelayAndRechargeTotal": 0.61702,
+            "RechargeDelay": 0.9,
             "ShieldAmount": 0.76087,
             "ShieldDelayReduction": 0.0,
             "ShieldRegeneration": 0.875
@@ -944,12 +970,18 @@
     "OBJID_Module::DA_Module_ShoulderCyclops.0": {
         "stats_percent_increase": {
             "Armor": 0.25485,
+            "DelayAndRechargeTotal": -0.05841,
+            "RechargeDelay": -0.10959,
+            "RechargeTime": 0.00191,
             "ShieldAmount": 0.27108,
             "ShieldDelayReduction": 0.2963,
             "ShieldRegeneration": 0.26866
         },
         "stats_percentile": {
             "Armor": 0.14286,
+            "DelayAndRechargeTotal": 0.21277,
+            "RechargeDelay": 0.0,
+            "RechargeTime": 0.55556,
             "ShieldAmount": 0.45652,
             "ShieldDelayReduction": 0.66667,
             "ShieldRegeneration": 0.6
@@ -958,12 +990,16 @@
     "OBJID_Module::DA_Module_ShoulderDemeter.0": {
         "stats_percent_increase": {
             "Armor": 0.35576,
+            "DelayAndRechargeTotal": -0.03883,
+            "RechargeDelay": -0.04301,
             "ShieldAmount": 0.27642,
             "ShieldDelayReduction": 0.57143,
             "ShieldRegeneration": 0.27642
         },
         "stats_percentile": {
             "Armor": 0.03571,
+            "DelayAndRechargeTotal": 0.48936,
+            "RechargeDelay": 0.7,
             "ShieldAmount": 0.3913,
             "ShieldDelayReduction": 0.2,
             "ShieldRegeneration": 0.35
@@ -972,12 +1008,16 @@
     "OBJID_Module::DA_Module_ShoulderFenrir.0": {
         "stats_percent_increase": {
             "Armor": 0.25342,
+            "DelayAndRechargeTotal": -0.04494,
+            "RechargeDelay": -0.10256,
             "ShieldAmount": 0.26816,
             "ShieldDelayReduction": 0.36364,
             "ShieldRegeneration": 0.26816
         },
         "stats_percentile": {
             "Armor": 0.22619,
+            "DelayAndRechargeTotal": 0.38298,
+            "RechargeDelay": 0.2,
             "ShieldAmount": 0.6087,
             "ShieldDelayReduction": 0.46667,
             "ShieldRegeneration": 0.625
@@ -986,12 +1026,18 @@
     "OBJID_Module::DA_Module_ShoulderFury.0": {
         "stats_percent_increase": {
             "Armor": 0.25285,
+            "DelayAndRechargeTotal": -0.06322,
+            "RechargeDelay": -0.10127,
+            "RechargeTime": -0.00331,
             "ShieldAmount": 0.25828,
             "ShieldDelayReduction": 0.38095,
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
             "Armor": 0.2381,
+            "DelayAndRechargeTotal": 0.17021,
+            "RechargeDelay": 0.26667,
+            "RechargeTime": 0.38889,
             "ShieldAmount": 0.91304,
             "ShieldDelayReduction": 0.36667,
             "ShieldRegeneration": 0.975
@@ -1000,11 +1046,15 @@
     "OBJID_Module::DA_Module_ShoulderGaruda.0": {
         "stats_percent_increase": {
             "Armor": 0.18182,
+            "DelayAndRechargeTotal": 0.05934,
+            "RechargeTime": 0.12073,
             "ShieldAmount": 0.42466,
             "ShieldRegeneration": 0.27119
         },
         "stats_percentile": {
             "Armor": 0.30952,
+            "DelayAndRechargeTotal": 0.85106,
+            "RechargeTime": 0.61111,
             "ShieldAmount": 0.04348,
             "ShieldRegeneration": 0.375
         }
@@ -1012,12 +1062,16 @@
     "OBJID_Module::DA_Module_ShoulderGriffin.0": {
         "stats_percent_increase": {
             "Armor": 0.35739,
+            "DelayAndRechargeTotal": -0.03738,
+            "RechargeDelay": -0.04124,
             "ShieldAmount": 0.26667,
             "ShieldDelayReduction": 1.33333,
             "ShieldRegeneration": 0.26667
         },
         "stats_percentile": {
             "Armor": 0.0,
+            "DelayAndRechargeTotal": 0.59574,
+            "RechargeDelay": 0.86667,
             "ShieldAmount": 0.69565,
             "ShieldDelayReduction": 0.13333,
             "ShieldRegeneration": 0.825
@@ -1026,12 +1080,18 @@
     "OBJID_Module::DA_Module_ShoulderHarpy.0": {
         "stats_percent_increase": {
             "Armor": 0.17051,
+            "DelayAndRechargeTotal": -0.10077,
+            "RechargeDelay": -0.04706,
+            "RechargeTime": -0.16986,
             "ShieldAmount": 0.27434,
             "ShieldDelayReduction": 0.26667,
             "ShieldRegeneration": 0.53509
         },
         "stats_percentile": {
             "Armor": 0.39286,
+            "DelayAndRechargeTotal": 0.12766,
+            "RechargeDelay": 0.56667,
+            "RechargeTime": 0.16667,
             "ShieldAmount": 0.41304,
             "ShieldDelayReduction": 0.73333,
             "ShieldRegeneration": 0.1
@@ -1040,12 +1100,16 @@
     "OBJID_Module::DA_Module_ShoulderHeike.0": {
         "stats_percent_increase": {
             "Armor": 0.35673,
+            "DelayAndRechargeTotal": -0.04124,
+            "RechargeDelay": -0.04598,
             "ShieldAmount": 0.30137,
             "ShieldDelayReduction": 0.30769,
             "ShieldRegeneration": 0.30137
         },
         "stats_percentile": {
             "Armor": 0.0119,
+            "DelayAndRechargeTotal": 0.42553,
+            "RechargeDelay": 0.6,
             "ShieldAmount": 0.34783,
             "ShieldDelayReduction": 0.63333,
             "ShieldRegeneration": 0.3
@@ -1054,12 +1118,18 @@
     "OBJID_Module::DA_Module_ShoulderHitcher.0": {
         "stats_percent_increase": {
             "Armor": 0.25448,
+            "DelayAndRechargeTotal": -0.0442,
+            "RechargeDelay": -0.09412,
+            "RechargeTime": 0.00097,
             "ShieldAmount": 0.27027,
             "ShieldDelayReduction": 0.53333,
             "ShieldRegeneration": 0.26904
         },
         "stats_percentile": {
             "Armor": 0.15476,
+            "DelayAndRechargeTotal": 0.40426,
+            "RechargeDelay": 0.33333,
+            "RechargeTime": 0.52778,
             "ShieldAmount": 0.47826,
             "ShieldDelayReduction": 0.23333,
             "ShieldRegeneration": 0.525
@@ -1068,12 +1138,18 @@
     "OBJID_Module::DA_Module_ShoulderInquisitor.0": {
         "stats_percent_increase": {
             "Armor": 0.25427,
+            "DelayAndRechargeTotal": -0.06455,
+            "RechargeDelay": -0.10256,
+            "RechargeTime": -0.00565,
             "ShieldAmount": 0.25973,
             "ShieldDelayReduction": 0.36364,
             "ShieldRegeneration": 0.26689
         },
         "stats_percentile": {
             "Armor": 0.16667,
+            "DelayAndRechargeTotal": 0.14894,
+            "RechargeDelay": 0.16667,
+            "RechargeTime": 0.36111,
             "ShieldAmount": 0.82609,
             "ShieldDelayReduction": 0.43333,
             "ShieldRegeneration": 0.75
@@ -1082,12 +1158,18 @@
     "OBJID_Module::DA_Module_ShoulderKernel.0": {
         "stats_percent_increase": {
             "Armor": 0.25612,
+            "DelayAndRechargeTotal": -0.04689,
+            "RechargeDelay": -0.09756,
+            "RechargeTime": -0.0015,
             "ShieldAmount": 0.26316,
             "ShieldDelayReduction": 0.44444,
             "ShieldRegeneration": 0.26506
         },
         "stats_percentile": {
             "Armor": 0.11905,
+            "DelayAndRechargeTotal": 0.3617,
+            "RechargeDelay": 0.3,
+            "RechargeTime": 0.41667,
             "ShieldAmount": 0.78261,
             "ShieldDelayReduction": 0.3,
             "ShieldRegeneration": 0.85
@@ -1096,12 +1178,16 @@
     "OBJID_Module::DA_Module_ShoulderKumo.0": {
         "stats_percent_increase": {
             "Armor": 0.35385,
+            "DelayAndRechargeTotal": -0.03846,
+            "RechargeDelay": -0.04255,
             "ShieldAmount": 0.26667,
             "ShieldDelayReduction": 0.66667,
             "ShieldRegeneration": 0.26667
         },
         "stats_percentile": {
             "Armor": 0.10714,
+            "DelayAndRechargeTotal": 0.51064,
+            "RechargeDelay": 0.73333,
             "ShieldAmount": 0.67391,
             "ShieldDelayReduction": 0.16667,
             "ShieldRegeneration": 0.8
@@ -1111,7 +1197,9 @@
         "stats_percent_increase": {
             "Armor": 0.05153,
             "Cooldown": -0.42857,
+            "DelayAndRechargeTotal": -0.02435,
             "PrimaryParameter": 0.41667,
+            "RechargeTime": -0.08217,
             "SecondaryParameter": 0.47954,
             "ShieldAmount": 0.26827,
             "ShieldRegeneration": 0.38182
@@ -1119,6 +1207,8 @@
         "stats_percentile": {
             "Armor": 0.94048,
             "Cooldown": 0.04762,
+            "DelayAndRechargeTotal": 0.65957,
+            "RechargeTime": 0.22222,
             "ShieldAmount": 0.58696,
             "ShieldRegeneration": 0.2
         }
@@ -1126,7 +1216,10 @@
     "OBJID_Module::DA_Module_ShoulderLGrim.0": {
         "stats_percent_increase": {
             "Cooldown": -0.4186,
+            "DelayAndRechargeTotal": -0.05273,
             "PrimaryParameter": 0.43826,
+            "RechargeDelay": -0.0404,
+            "RechargeTime": -0.07286,
             "SecondaryParameter": 0.30886,
             "ShieldAmount": 0.21832,
             "ShieldDelayReduction": 0.15385,
@@ -1134,6 +1227,9 @@
         },
         "stats_percentile": {
             "Cooldown": 0.33333,
+            "DelayAndRechargeTotal": 0.31915,
+            "RechargeDelay": 0.96667,
+            "RechargeTime": 0.27778,
             "ShieldAmount": 0.97826,
             "ShieldDelayReduction": 0.96667,
             "ShieldRegeneration": 0.275
@@ -1143,13 +1239,17 @@
         "stats_percent_increase": {
             "Armor": 0.05134,
             "Cooldown": -0.41667,
+            "DelayAndRechargeTotal": 0.11373,
             "PrimaryParameter": 0.29235,
+            "RechargeTime": 0.3768,
             "SecondaryParameter": -0.186,
             "ShieldAmount": 0.3768
         },
         "stats_percentile": {
             "Armor": 0.9881,
             "Cooldown": 0.4127,
+            "DelayAndRechargeTotal": 0.93617,
+            "RechargeTime": 0.91667,
             "ShieldAmount": 0.26087
         }
     },
@@ -1157,13 +1257,17 @@
         "stats_percent_increase": {
             "Armor": 0.05185,
             "Cooldown": -0.42308,
+            "DelayAndRechargeTotal": 0.11144,
             "PrimaryParameter": 0.29234,
+            "RechargeTime": 0.37678,
             "SecondaryParameter": 0.22669,
             "ShieldAmount": 0.37678
         },
         "stats_percentile": {
             "Armor": 0.91667,
             "Cooldown": 0.22222,
+            "DelayAndRechargeTotal": 0.89362,
+            "RechargeTime": 0.86111,
             "ShieldAmount": 0.30435
         }
     },
@@ -1171,25 +1275,33 @@
         "stats_percent_increase": {
             "Armor": 0.05147,
             "Cooldown": -0.41667,
+            "DelayAndRechargeTotal": 0.11538,
             "PrimaryParameter": 0.25326,
+            "RechargeTime": 0.37681,
             "SecondaryParameter": 0.38889,
             "ShieldAmount": 0.37681
         },
         "stats_percentile": {
             "Armor": 0.96429,
             "Cooldown": 0.39683,
+            "DelayAndRechargeTotal": 0.97872,
+            "RechargeTime": 0.97222,
             "ShieldAmount": 0.21739
         }
     },
     "OBJID_Module::DA_Module_ShoulderLancelot.0": {
         "stats_percent_increase": {
             "Armor": 0.35534,
+            "DelayAndRechargeTotal": -0.03738,
+            "RechargeDelay": -0.04124,
             "ShieldAmount": 0.26667,
             "ShieldDelayReduction": 1.33333,
             "ShieldRegeneration": 0.26667
         },
         "stats_percentile": {
             "Armor": 0.04762,
+            "DelayAndRechargeTotal": 0.57447,
+            "RechargeDelay": 0.83333,
             "ShieldAmount": 0.65217,
             "ShieldDelayReduction": 0.1,
             "ShieldRegeneration": 0.775
@@ -1198,11 +1310,15 @@
     "OBJID_Module::DA_Module_ShoulderLoki.0": {
         "stats_percent_increase": {
             "Armor": 0.18078,
+            "DelayAndRechargeTotal": 0.04296,
+            "RechargeTime": 0.11534,
             "ShieldAmount": 0.41634,
             "ShieldRegeneration": 0.26987
         },
         "stats_percentile": {
             "Armor": 0.32143,
+            "DelayAndRechargeTotal": 0.70213,
+            "RechargeTime": 0.58333,
             "ShieldAmount": 0.17391,
             "ShieldRegeneration": 0.475
         }
@@ -1210,12 +1326,16 @@
     "OBJID_Module::DA_Module_ShoulderMesa.0": {
         "stats_percent_increase": {
             "Armor": 0.35499,
+            "DelayAndRechargeTotal": -0.0404,
+            "RechargeDelay": -0.04494,
             "ShieldAmount": 0.27108,
             "ShieldDelayReduction": 0.36364,
             "ShieldRegeneration": 0.27108
         },
         "stats_percentile": {
             "Armor": 0.08333,
+            "DelayAndRechargeTotal": 0.44681,
+            "RechargeDelay": 0.63333,
             "ShieldAmount": 0.43478,
             "ShieldDelayReduction": 0.4,
             "ShieldRegeneration": 0.4
@@ -1224,11 +1344,15 @@
     "OBJID_Module::DA_Module_ShoulderNipper.0": {
         "stats_percent_increase": {
             "Armor": 0.17965,
+            "DelayAndRechargeTotal": 0.04336,
+            "RechargeTime": 0.1213,
             "ShieldAmount": 0.42105,
             "ShieldRegeneration": 0.26733
         },
         "stats_percentile": {
             "Armor": 0.34524,
+            "DelayAndRechargeTotal": 0.7234,
+            "RechargeTime": 0.66667,
             "ShieldAmount": 0.15217,
             "ShieldRegeneration": 0.675
         }
@@ -1236,12 +1360,18 @@
     "OBJID_Module::DA_Module_ShoulderOrochi.0": {
         "stats_percent_increase": {
             "Armor": 0.17084,
+            "DelayAndRechargeTotal": -0.10085,
+            "RechargeDelay": -0.04819,
+            "RechargeTime": -0.17214,
             "ShieldAmount": 0.26875,
             "ShieldDelayReduction": 0.23529,
             "ShieldRegeneration": 0.53257
         },
         "stats_percentile": {
             "Armor": 0.38095,
+            "DelayAndRechargeTotal": 0.10638,
+            "RechargeDelay": 0.43333,
+            "RechargeTime": 0.13889,
             "ShieldAmount": 0.5,
             "ShieldDelayReduction": 0.83333,
             "ShieldRegeneration": 0.15
@@ -1250,11 +1380,15 @@
     "OBJID_Module::DA_Module_ShoulderPhantom.0": {
         "stats_percent_increase": {
             "Armor": 0.1828,
+            "DelayAndRechargeTotal": 0.04423,
+            "RechargeTime": 0.1227,
             "ShieldAmount": 0.42453,
             "ShieldRegeneration": 0.26884
         },
         "stats_percentile": {
             "Armor": 0.29762,
+            "DelayAndRechargeTotal": 0.74468,
+            "RechargeTime": 0.72222,
             "ShieldAmount": 0.06522,
             "ShieldRegeneration": 0.575
         }
@@ -1262,11 +1396,15 @@
     "OBJID_Module::DA_Module_ShoulderPursuer.0": {
         "stats_percent_increase": {
             "Armor": 0.18483,
+            "DelayAndRechargeTotal": 0.03924,
+            "RechargeTime": 0.12159,
             "ShieldAmount": 0.42373,
             "ShieldRegeneration": 0.26938
         },
         "stats_percentile": {
             "Armor": 0.25,
+            "DelayAndRechargeTotal": 0.68085,
+            "RechargeTime": 0.69444,
             "ShieldAmount": 0.08696,
             "ShieldRegeneration": 0.5
         }
@@ -1275,7 +1413,9 @@
         "stats_percent_increase": {
             "Armor": 0.05153,
             "Cooldown": -0.41667,
+            "DelayAndRechargeTotal": -0.02435,
             "PrimaryParameter": 0.14068,
+            "RechargeTime": -0.08217,
             "SecondaryParameter": 0.20256,
             "ShieldAmount": 0.26827,
             "ShieldRegeneration": 0.38182
@@ -1283,6 +1423,8 @@
         "stats_percentile": {
             "Armor": 0.92857,
             "Cooldown": 0.38095,
+            "DelayAndRechargeTotal": 0.6383,
+            "RechargeTime": 0.19444,
             "ShieldAmount": 0.56522,
             "ShieldRegeneration": 0.175
         }
@@ -1290,7 +1432,10 @@
     "OBJID_Module::DA_Module_ShoulderRGrim.0": {
         "stats_percent_increase": {
             "Cooldown": -0.42308,
+            "DelayAndRechargeTotal": -0.05273,
             "PrimaryParameter": 0.29233,
+            "RechargeDelay": -0.0404,
+            "RechargeTime": -0.07286,
             "SecondaryParameter": 0.22857,
             "ShieldAmount": 0.21832,
             "ShieldDelayReduction": 0.15385,
@@ -1298,6 +1443,9 @@
         },
         "stats_percentile": {
             "Cooldown": 0.20635,
+            "DelayAndRechargeTotal": 0.29787,
+            "RechargeDelay": 0.93333,
+            "RechargeTime": 0.25,
             "ShieldAmount": 0.95652,
             "ShieldDelayReduction": 0.93333,
             "ShieldRegeneration": 0.25
@@ -1307,13 +1455,17 @@
         "stats_percent_increase": {
             "Armor": 0.05134,
             "Cooldown": -0.42857,
+            "DelayAndRechargeTotal": 0.11373,
             "PrimaryParameter": 0.25332,
+            "RechargeTime": 0.3768,
             "SecondaryParameter": 0.39587,
             "ShieldAmount": 0.3768
         },
         "stats_percentile": {
             "Armor": 0.97619,
             "Cooldown": 0.03175,
+            "DelayAndRechargeTotal": 0.91489,
+            "RechargeTime": 0.88889,
             "ShieldAmount": 0.23913
         }
     },
@@ -1321,13 +1473,17 @@
         "stats_percent_increase": {
             "Armor": 0.05185,
             "Cooldown": -0.42308,
+            "DelayAndRechargeTotal": 0.11144,
             "PrimaryParameter": 0.29226,
+            "RechargeTime": 0.37678,
             "SecondaryParameter": 0.22581,
             "ShieldAmount": 0.37678
         },
         "stats_percentile": {
             "Armor": 0.90476,
             "Cooldown": 0.19048,
+            "DelayAndRechargeTotal": 0.87234,
+            "RechargeTime": 0.83333,
             "ShieldAmount": 0.28261
         }
     },
@@ -1335,25 +1491,33 @@
         "stats_percent_increase": {
             "Armor": 0.05147,
             "Cooldown": -0.42308,
+            "DelayAndRechargeTotal": 0.11538,
             "PrimaryParameter": 0.2532,
+            "RechargeTime": 0.37681,
             "SecondaryParameter": 0.39706,
             "ShieldAmount": 0.37681
         },
         "stats_percentile": {
             "Armor": 0.95238,
             "Cooldown": 0.1746,
+            "DelayAndRechargeTotal": 0.95745,
+            "RechargeTime": 0.94444,
             "ShieldAmount": 0.19565
         }
     },
     "OBJID_Module::DA_Module_ShoulderRavana.0": {
         "stats_percent_increase": {
             "Armor": 0.35531,
+            "DelayAndRechargeTotal": -0.0396,
+            "RechargeDelay": -0.04396,
             "ShieldAmount": 0.27907,
             "ShieldDelayReduction": 0.44444,
             "ShieldRegeneration": 0.27907
         },
         "stats_percentile": {
             "Armor": 0.05952,
+            "DelayAndRechargeTotal": 0.46809,
+            "RechargeDelay": 0.66667,
             "ShieldAmount": 0.36957,
             "ShieldDelayReduction": 0.26667,
             "ShieldRegeneration": 0.325
@@ -1362,12 +1526,18 @@
     "OBJID_Module::DA_Module_ShoulderRaven.0": {
         "stats_percent_increase": {
             "Armor": 0.25382,
+            "DelayAndRechargeTotal": -0.04925,
+            "RechargeDelay": -0.10127,
+            "RechargeTime": 0.00076,
             "ShieldAmount": 0.26857,
             "ShieldDelayReduction": 0.38095,
             "ShieldRegeneration": 0.26761
         },
         "stats_percentile": {
             "Armor": 0.19048,
+            "DelayAndRechargeTotal": 0.34043,
+            "RechargeDelay": 0.23333,
+            "RechargeTime": 0.5,
             "ShieldAmount": 0.52174,
             "ShieldDelayReduction": 0.33333,
             "ShieldRegeneration": 0.65
@@ -1376,12 +1546,18 @@
     "OBJID_Module::DA_Module_ShoulderRelicBulgasari01.0": {
         "stats_percent_increase": {
             "Armor": 0.25357,
+            "DelayAndRechargeTotal": -0.05468,
+            "RechargeDelay": -0.10526,
+            "RechargeTime": -0.0009,
             "ShieldAmount": 0.26582,
             "ShieldDelayReduction": 0.33333,
             "ShieldRegeneration": 0.26697
         },
         "stats_percentile": {
             "Armor": 0.21429,
+            "DelayAndRechargeTotal": 0.25532,
+            "RechargeDelay": 0.1,
+            "RechargeTime": 0.47222,
             "ShieldAmount": 0.73913,
             "ShieldDelayReduction": 0.6,
             "ShieldRegeneration": 0.725
@@ -1390,12 +1566,18 @@
     "OBJID_Module::DA_Module_ShoulderRelicBulgasari02.0": {
         "stats_percent_increase": {
             "Armor": 0.25402,
+            "DelayAndRechargeTotal": -0.05468,
+            "RechargeDelay": -0.10526,
+            "RechargeTime": -0.0009,
             "ShieldAmount": 0.26582,
             "ShieldDelayReduction": 0.33333,
             "ShieldRegeneration": 0.26697
         },
         "stats_percentile": {
             "Armor": 0.17857,
+            "DelayAndRechargeTotal": 0.23404,
+            "RechargeDelay": 0.06667,
+            "RechargeTime": 0.44444,
             "ShieldAmount": 0.71739,
             "ShieldDelayReduction": 0.56667,
             "ShieldRegeneration": 0.7
@@ -1404,22 +1586,30 @@
     "OBJID_Module::DA_Module_ShoulderRelicLancelot01.0": {
         "stats_percent_increase": {
             "Armor": 0.35521,
+            "DelayAndRechargeTotal": -0.03738,
+            "RechargeDelay": -0.04124,
             "ShieldDelayReduction": 1.33333
         },
         "stats_percentile": {
             "Armor": 0.07143,
+            "DelayAndRechargeTotal": 0.55319,
+            "RechargeDelay": 0.8,
             "ShieldDelayReduction": 0.06667
         }
     },
     "OBJID_Module::DA_Module_ShoulderRelicLancelot02.0": {
         "stats_percent_increase": {
             "Armor": 0.35478,
+            "DelayAndRechargeTotal": -0.03738,
+            "RechargeDelay": -0.04124,
             "ShieldAmount": 0.31579,
             "ShieldDelayReduction": 1.33333,
             "ShieldRegeneration": 0.31579
         },
         "stats_percentile": {
             "Armor": 0.09524,
+            "DelayAndRechargeTotal": 0.53191,
+            "RechargeDelay": 0.76667,
             "ShieldAmount": 0.32609,
             "ShieldDelayReduction": 0.03333,
             "ShieldRegeneration": 0.225
@@ -1428,11 +1618,15 @@
     "OBJID_Module::DA_Module_ShoulderScorpion.0": {
         "stats_percent_increase": {
             "Armor": 0.18056,
+            "DelayAndRechargeTotal": 0.04465,
+            "RechargeTime": 0.12088,
             "ShieldAmount": 0.42222,
             "ShieldRegeneration": 0.26884
         },
         "stats_percentile": {
             "Armor": 0.33333,
+            "DelayAndRechargeTotal": 0.76596,
+            "RechargeTime": 0.63889,
             "ShieldAmount": 0.1087,
             "ShieldRegeneration": 0.55
         }
@@ -1440,12 +1634,18 @@
     "OBJID_Module::DA_Module_ShoulderSiren.0": {
         "stats_percent_increase": {
             "Armor": 0.1715,
+            "DelayAndRechargeTotal": -0.10286,
+            "RechargeDelay": -0.04706,
+            "RechargeTime": -0.17919,
             "ShieldAmount": 0.25993,
             "ShieldDelayReduction": 0.26667,
             "ShieldRegeneration": 0.53498
         },
         "stats_percentile": {
             "Armor": 0.36905,
+            "DelayAndRechargeTotal": 0.04255,
+            "RechargeDelay": 0.53333,
+            "RechargeTime": 0.05556,
             "ShieldAmount": 0.80435,
             "ShieldDelayReduction": 0.7,
             "ShieldRegeneration": 0.125
@@ -1454,12 +1654,18 @@
     "OBJID_Module::DA_Module_ShoulderTyphon.0": {
         "stats_percent_increase": {
             "Armor": 0.17027,
+            "DelayAndRechargeTotal": -0.10141,
+            "RechargeDelay": -0.04762,
+            "RechargeTime": -0.17418,
             "ShieldAmount": 0.26842,
             "ShieldDelayReduction": 0.25,
             "ShieldRegeneration": 0.53595
         },
         "stats_percentile": {
             "Armor": 0.40476,
+            "DelayAndRechargeTotal": 0.08511,
+            "RechargeDelay": 0.46667,
+            "RechargeTime": 0.11111,
             "ShieldAmount": 0.54348,
             "ShieldDelayReduction": 0.8,
             "ShieldRegeneration": 0.075
@@ -1468,12 +1674,18 @@
     "OBJID_Module::DA_Module_ShoulderTyr.0": {
         "stats_percent_increase": {
             "Armor": 0.16751,
+            "DelayAndRechargeTotal": -0.10484,
+            "RechargeDelay": -0.04734,
+            "RechargeTime": -0.18308,
             "ShieldAmount": 0.25957,
             "ShieldDelayReduction": 0.25806,
             "ShieldRegeneration": 0.54185
         },
         "stats_percentile": {
             "Armor": 0.44048,
+            "DelayAndRechargeTotal": 0.02128,
+            "RechargeDelay": 0.5,
+            "RechargeTime": 0.02778,
             "ShieldAmount": 0.84783,
             "ShieldDelayReduction": 0.76667,
             "ShieldRegeneration": 0.0
@@ -1482,11 +1694,15 @@
     "OBJID_Module::DA_Module_ShoulderVityaz01.0": {
         "stats_percent_increase": {
             "Armor": 0.18471,
+            "DelayAndRechargeTotal": 0.05905,
+            "RechargeTime": 0.12902,
             "ShieldAmount": 0.42534,
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
             "Armor": 0.27381,
+            "DelayAndRechargeTotal": 0.82979,
+            "RechargeTime": 0.80556,
             "ShieldAmount": 0.02174,
             "ShieldRegeneration": 0.95
         }
@@ -1494,11 +1710,15 @@
     "OBJID_Module::DA_Module_ShoulderVityaz02.0": {
         "stats_percent_increase": {
             "Armor": 0.18471,
+            "DelayAndRechargeTotal": 0.05905,
+            "RechargeTime": 0.12902,
             "ShieldAmount": 0.42534,
             "ShieldRegeneration": 0.26246
         },
         "stats_percentile": {
             "Armor": 0.2619,
+            "DelayAndRechargeTotal": 0.80851,
+            "RechargeTime": 0.77778,
             "ShieldAmount": 0.0,
             "ShieldRegeneration": 0.925
         }
@@ -1506,12 +1726,18 @@
     "OBJID_Module::DA_Module_ShoulderWyrm.0": {
         "stats_percent_increase": {
             "Armor": 0.25561,
+            "DelayAndRechargeTotal": -0.05303,
+            "RechargeDelay": -0.10526,
+            "RechargeTime": -0.009,
             "ShieldAmount": 0.2585,
             "ShieldDelayReduction": 0.33333,
             "ShieldRegeneration": 0.26994
         },
         "stats_percentile": {
             "Armor": 0.13095,
+            "DelayAndRechargeTotal": 0.2766,
+            "RechargeDelay": 0.03333,
+            "RechargeTime": 0.33333,
             "ShieldAmount": 0.8913,
             "ShieldDelayReduction": 0.53333,
             "ShieldRegeneration": 0.45
