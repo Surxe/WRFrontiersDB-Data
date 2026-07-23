@@ -1,0 +1,90 @@
+{
+    "AoeArmor": {
+        "id": "AoeArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_AoeArmor"
+    },
+    "AoeNoArmor": {
+        "id": "AoeNoArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_AoeNoArmor"
+    },
+    "Armor": {
+        "id": "Armor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Armor.0"
+    },
+    "ChargeDuration": {
+        "id": "ChargeDuration",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ChargeDrain.0"
+    },
+    "ClipSize": {
+        "id": "ClipSize",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ClipSize.0"
+    },
+    "Cooldown": {
+        "id": "Cooldown",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Cooldown.0"
+    },
+    "DamageArmor": {
+        "id": "DamageArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ArmorDamage.0"
+    },
+    "DamageNoArmor": {
+        "id": "DamageNoArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldDamage.0"
+    },
+    "DelayAndRechargeTotal": {
+        "id": "DelayAndRechargeTotal",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_DelayAndRechargeTotal"
+    },
+    "FuelCapacity": {
+        "id": "FuelCapacity",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_FuelCapacity.0"
+    },
+    "LegsArmor": {
+        "id": "LegsArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_LegsArmor.0"
+    },
+    "MaxSpeed": {
+        "id": "MaxSpeed",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_MaxSpeed.0"
+    },
+    "Mobility": {
+        "id": "Mobility",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Acceleration.0"
+    },
+    "PelvisArmor": {
+        "id": "PelvisArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_PelvisArmor.0"
+    },
+    "RechargeDelay": {
+        "id": "RechargeDelay",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_RechargeDelay"
+    },
+    "RechargeTime": {
+        "id": "RechargeTime",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_RechargeTime"
+    },
+    "RoundsPerMinute": {
+        "id": "RoundsPerMinute",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_FireRate.0"
+    },
+    "ShieldAmount": {
+        "id": "ShieldAmount",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldAmount.0"
+    },
+    "ShieldDelayReduction": {
+        "id": "ShieldDelayReduction",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldDelayReduction.0"
+    },
+    "ShieldRegeneration": {
+        "id": "ShieldRegeneration",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldRegeneration.0"
+    },
+    "TimeBetweenShots": {
+        "id": "TimeBetweenShots",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_TimeBetweenShots"
+    },
+    "TimeToReload": {
+        "id": "TimeToReload",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ReloadingTime.0"
+    }
+}

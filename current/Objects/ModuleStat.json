@@ -1366,6 +1366,36 @@
         },
         "short_key": "StructDmg"
     },
+    "DA_ModuleStat_Synthetic_AoeArmor": {
+        "id": "DA_ModuleStat_Synthetic_AoeArmor",
+        "short_key": "AoeArmor",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_AoeNoArmor": {
+        "id": "DA_ModuleStat_Synthetic_AoeNoArmor",
+        "short_key": "AoeNoArmor",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_DelayAndRechargeTotal": {
+        "id": "DA_ModuleStat_Synthetic_DelayAndRechargeTotal",
+        "short_key": "DelayAndRechargeTotal",
+        "more_is_better": false
+    },
+    "DA_ModuleStat_Synthetic_RechargeDelay": {
+        "id": "DA_ModuleStat_Synthetic_RechargeDelay",
+        "short_key": "RechargeDelay",
+        "more_is_better": false
+    },
+    "DA_ModuleStat_Synthetic_RechargeTime": {
+        "id": "DA_ModuleStat_Synthetic_RechargeTime",
+        "short_key": "RechargeTime",
+        "more_is_better": false
+    },
+    "DA_ModuleStat_Synthetic_TimeBetweenShots": {
+        "id": "DA_ModuleStat_Synthetic_TimeBetweenShots",
+        "short_key": "TimeBetweenShots",
+        "more_is_better": true
+    },
     "DA_ModuleStat_TeleportSpeed.0": {
         "id": "DA_ModuleStat_TeleportSpeed.0",
         "stat_name": {
