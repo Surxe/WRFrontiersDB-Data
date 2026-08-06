@@ -334,6 +334,25 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHeike"
     },
+    "helios": {
+        "id": "helios",
+        "name": {
+            "Key": "CMP_name_Helios_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Helios"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisHelios.2",
+            "OBJID_Module::DA_Module_TorsoHelios.1",
+            "OBJID_Module::DA_Module_ShoulderHelios.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotHelios.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotHelios"
+    },
     "hitcher": {
         "id": "hitcher",
         "name": {

@@ -6025,7 +6025,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisAnansi.2_lvl13_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisAnansi.2_lvl13_scrap2"
                         ],
-                        "LegsArmor": 68096.0,
+                        "LegsArmor": 68100.0,
                         "MaxSpeed": 2472.2222,
                         "Mobility": 52.0,
                         "FuelCapacity": 26.0,
@@ -8922,6 +8922,221 @@
         "module_group_ref": "OBJID_ModuleGroup::non-titan-chassis",
         "virtual_bot_ref": "OBJID_VirtualBot::heike"
     },
+    "DA_Module_ChassisHelios.2": {
+        "id": "DA_Module_ChassisHelios.2",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ChassisHelios",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Helios_Chassis.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "LegsArmor": 68000.0,
+                "MaxSpeed": 5600.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7700.0,
+                "PrimaryArmor": 68000.0
+            },
+            "levels": {
+                "constants": {
+                    "LoadCapacity": 49.0,
+                    "EnergyCapacity": 42.0,
+                    "ID": "BP_Module_Helios_Chassis",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 0.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl1_scrap2"
+                        ],
+                        "LegsArmor": 40280.0,
+                        "MaxSpeed": 2500.0,
+                        "Mobility": 52.0,
+                        "FuelCapacity": 15.0,
+                        "PelvisArmor": 42400.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl2_scrap2"
+                        ],
+                        "LegsArmor": 43510.0,
+                        "MaxSpeed": 2500.0,
+                        "Mobility": 52.0,
+                        "FuelCapacity": 15.0,
+                        "PelvisArmor": 45800.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl3_scrap2"
+                        ],
+                        "LegsArmor": 43510.0,
+                        "MaxSpeed": 2500.0,
+                        "Mobility": 52.0,
+                        "FuelCapacity": 17.0,
+                        "PelvisArmor": 45800.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl4_scrap2"
+                        ],
+                        "LegsArmor": 43510.0,
+                        "MaxSpeed": 2638.889,
+                        "Mobility": 52.0,
+                        "FuelCapacity": 17.0,
+                        "PelvisArmor": 45800.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl5_scrap2"
+                        ],
+                        "LegsArmor": 43510.0,
+                        "MaxSpeed": 2638.889,
+                        "Mobility": 55.0,
+                        "FuelCapacity": 17.0,
+                        "PelvisArmor": 45800.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl6_scrap2"
+                        ],
+                        "LegsArmor": 46170.0,
+                        "MaxSpeed": 2638.889,
+                        "Mobility": 55.0,
+                        "FuelCapacity": 17.0,
+                        "PelvisArmor": 48600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl7_scrap2"
+                        ],
+                        "LegsArmor": 46170.0,
+                        "MaxSpeed": 2638.889,
+                        "Mobility": 55.0,
+                        "FuelCapacity": 18.0,
+                        "PelvisArmor": 48600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl8_scrap2"
+                        ],
+                        "LegsArmor": 46170.0,
+                        "MaxSpeed": 2750.0,
+                        "Mobility": 55.0,
+                        "FuelCapacity": 18.0,
+                        "PelvisArmor": 48600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl9_scrap2"
+                        ],
+                        "LegsArmor": 46170.0,
+                        "MaxSpeed": 2750.0,
+                        "Mobility": 57.0,
+                        "FuelCapacity": 18.0,
+                        "PelvisArmor": 48600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl10_scrap2"
+                        ],
+                        "LegsArmor": 48450.0,
+                        "MaxSpeed": 2750.0,
+                        "Mobility": 57.0,
+                        "FuelCapacity": 18.0,
+                        "PelvisArmor": 51000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl11_scrap2"
+                        ],
+                        "LegsArmor": 48450.0,
+                        "MaxSpeed": 2750.0,
+                        "Mobility": 57.0,
+                        "FuelCapacity": 19.0,
+                        "PelvisArmor": 51000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl12_scrap2"
+                        ],
+                        "LegsArmor": 48450.0,
+                        "MaxSpeed": 2833.3333,
+                        "Mobility": 57.0,
+                        "FuelCapacity": 19.0,
+                        "PelvisArmor": 51000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ChassisHelios.2_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ChassisHelios.2_lvl13_scrap2"
+                        ],
+                        "LegsArmor": 48450.0,
+                        "MaxSpeed": 2833.3333,
+                        "Mobility": 59.0,
+                        "FuelCapacity": 19.0,
+                        "PelvisArmor": 51000.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Helios_Chassis"
+        },
+        "abilities_scalars": [
+            {},
+            {
+                "default_scalars": {
+                    "ChargeRegenDuration": 20.0
+                }
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Helios_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Helios"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Chassis.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Torso.0"
+        ],
+        "module_group_ref": "OBJID_ModuleGroup::non-titan-chassis",
+        "virtual_bot_ref": "OBJID_VirtualBot::helios"
+    },
     "DA_Module_ChassisHitcher.2": {
         "id": "DA_Module_ChassisHitcher.2",
         "production_status": "Ready",
@@ -11577,7 +11792,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl1_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl1_scrap2"
                         ],
-                        "LegsArmor": 44270.0,
+                        "LegsArmor": 47998.0,
                         "MaxSpeed": 3222.2222,
                         "Mobility": 52.0,
                         "FuelCapacity": 16.0,
@@ -11589,7 +11804,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl2_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl2_scrap2"
                         ],
-                        "LegsArmor": 47785.0,
+                        "LegsArmor": 51809.0,
                         "MaxSpeed": 3222.2222,
                         "Mobility": 52.0,
                         "FuelCapacity": 16.0,
@@ -11601,7 +11816,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl3_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl3_scrap2"
                         ],
-                        "LegsArmor": 47785.0,
+                        "LegsArmor": 51809.0,
                         "MaxSpeed": 3222.2222,
                         "Mobility": 52.0,
                         "FuelCapacity": 18.0,
@@ -11613,7 +11828,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl4_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl4_scrap2"
                         ],
-                        "LegsArmor": 47785.0,
+                        "LegsArmor": 51809.0,
                         "MaxSpeed": 3388.889,
                         "Mobility": 52.0,
                         "FuelCapacity": 18.0,
@@ -11625,7 +11840,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl5_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl5_scrap2"
                         ],
-                        "LegsArmor": 47785.0,
+                        "LegsArmor": 51809.0,
                         "MaxSpeed": 3388.889,
                         "Mobility": 55.0,
                         "FuelCapacity": 18.0,
@@ -11637,7 +11852,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl6_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl6_scrap2"
                         ],
-                        "LegsArmor": 50635.0,
+                        "LegsArmor": 54899.0,
                         "MaxSpeed": 3388.889,
                         "Mobility": 55.0,
                         "FuelCapacity": 18.0,
@@ -11649,7 +11864,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl7_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl7_scrap2"
                         ],
-                        "LegsArmor": 50635.0,
+                        "LegsArmor": 54899.0,
                         "MaxSpeed": 3388.889,
                         "Mobility": 55.0,
                         "FuelCapacity": 19.0,
@@ -11661,7 +11876,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl8_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl8_scrap2"
                         ],
-                        "LegsArmor": 50635.0,
+                        "LegsArmor": 54899.0,
                         "MaxSpeed": 3527.7778,
                         "Mobility": 55.0,
                         "FuelCapacity": 19.0,
@@ -11673,7 +11888,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl9_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl9_scrap2"
                         ],
-                        "LegsArmor": 50635.0,
+                        "LegsArmor": 54899.0,
                         "MaxSpeed": 3527.7778,
                         "Mobility": 57.0,
                         "FuelCapacity": 19.0,
@@ -11685,7 +11900,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl10_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl10_scrap2"
                         ],
-                        "LegsArmor": 53200.0,
+                        "LegsArmor": 57680.0,
                         "MaxSpeed": 3527.7778,
                         "Mobility": 57.0,
                         "FuelCapacity": 19.0,
@@ -11697,7 +11912,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl11_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl11_scrap2"
                         ],
-                        "LegsArmor": 53200.0,
+                        "LegsArmor": 57680.0,
                         "MaxSpeed": 3527.7778,
                         "Mobility": 57.0,
                         "FuelCapacity": 20.0,
@@ -11709,7 +11924,7 @@
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl12_scrap1",
                             "OBJID_ScrapReward::DA_Module_ChassisPursuer.2_lvl12_scrap2"
                         ],
-                        "LegsArmor": 53200.0,
+                        "LegsArmor": 57680.0,
                         "MaxSpeed": 3638.889,
                         "Mobility": 57.0,
                         "FuelCapacity": 20.0,
@@ -18288,6 +18503,234 @@
         ],
         "module_group_ref": "OBJID_ModuleGroup::non-titan-shoulder",
         "virtual_bot_ref": "OBJID_VirtualBot::heike"
+    },
+    "DA_Module_ShoulderHelios.0": {
+        "id": "DA_Module_ShoulderHelios.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_ShoulderHelios",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Helios_ShoulderL.0",
+                "mount": "Left"
+            },
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Helios_ShoulderR.0",
+                "mount": "Right"
+            }
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "ID": "BP_Module_Helios_ShoulderL",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 13.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl1_scrap2"
+                        ],
+                        "ShieldAmount": 23600.0,
+                        "ShieldRegeneration": 1950.0,
+                        "ShieldDelayReduction": 0.01,
+                        "Armor": 51300.0,
+                        "RechargeDelay": 9.9,
+                        "RechargeTime": 12.102564102564102,
+                        "DelayAndRechargeTotal": 22.0025641025641
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl2_scrap2"
+                        ],
+                        "ShieldAmount": 24100.0,
+                        "ShieldRegeneration": 1990.0,
+                        "ShieldDelayReduction": 0.01,
+                        "Armor": 53400.0,
+                        "RechargeDelay": 9.9,
+                        "RechargeTime": 12.110552763819095,
+                        "DelayAndRechargeTotal": 22.010552763819096
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl3_scrap2"
+                        ],
+                        "ShieldAmount": 24600.0,
+                        "ShieldRegeneration": 2030.0,
+                        "ShieldDelayReduction": 0.02,
+                        "Armor": 53400.0,
+                        "RechargeDelay": 9.8,
+                        "RechargeTime": 12.118226600985222,
+                        "DelayAndRechargeTotal": 21.91822660098522
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl4_scrap2"
+                        ],
+                        "ShieldAmount": 25100.0,
+                        "ShieldRegeneration": 2070.0,
+                        "ShieldDelayReduction": 0.02,
+                        "Armor": 53400.0,
+                        "RechargeDelay": 9.8,
+                        "RechargeTime": 12.1256038647343,
+                        "DelayAndRechargeTotal": 21.9256038647343
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl5_scrap2"
+                        ],
+                        "ShieldAmount": 25600.0,
+                        "ShieldRegeneration": 2220.0,
+                        "ShieldDelayReduction": 0.03,
+                        "Armor": 53400.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 11.531531531531531,
+                        "DelayAndRechargeTotal": 21.23153153153153
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl6_scrap2"
+                        ],
+                        "ShieldAmount": 26100.0,
+                        "ShieldRegeneration": 2260.0,
+                        "ShieldDelayReduction": 0.03,
+                        "Armor": 56100.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 11.548672566371682,
+                        "DelayAndRechargeTotal": 21.24867256637168
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl7_scrap2"
+                        ],
+                        "ShieldAmount": 26600.0,
+                        "ShieldRegeneration": 2310.0,
+                        "ShieldDelayReduction": 0.03,
+                        "Armor": 56100.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 11.515151515151516,
+                        "DelayAndRechargeTotal": 21.215151515151515
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl8_scrap2"
+                        ],
+                        "ShieldAmount": 27100.0,
+                        "ShieldRegeneration": 2470.0,
+                        "ShieldDelayReduction": 0.03,
+                        "Armor": 58300.0,
+                        "RechargeDelay": 9.7,
+                        "RechargeTime": 10.97165991902834,
+                        "DelayAndRechargeTotal": 20.67165991902834
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl9_scrap2"
+                        ],
+                        "ShieldAmount": 27600.0,
+                        "ShieldRegeneration": 2520.0,
+                        "ShieldDelayReduction": 0.04,
+                        "Armor": 58300.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.952380952380953,
+                        "DelayAndRechargeTotal": 20.55238095238095
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl10_scrap2"
+                        ],
+                        "ShieldAmount": 28200.0,
+                        "ShieldRegeneration": 2570.0,
+                        "ShieldDelayReduction": 0.04,
+                        "Armor": 58300.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.972762645914397,
+                        "DelayAndRechargeTotal": 20.572762645914395
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl11_scrap2"
+                        ],
+                        "ShieldAmount": 28800.0,
+                        "ShieldRegeneration": 2750.0,
+                        "ShieldDelayReduction": 0.04,
+                        "Armor": 60000.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.472727272727273,
+                        "DelayAndRechargeTotal": 20.07272727272727
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl12_scrap2"
+                        ],
+                        "ShieldAmount": 29400.0,
+                        "ShieldRegeneration": 2800.0,
+                        "ShieldDelayReduction": 0.04,
+                        "Armor": 60000.0,
+                        "RechargeDelay": 9.6,
+                        "RechargeTime": 10.5,
+                        "DelayAndRechargeTotal": 20.1
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_ShoulderHelios.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_ShoulderHelios.0_lvl13_scrap2"
+                        ],
+                        "ShieldAmount": 30000.0,
+                        "ShieldRegeneration": 3000.0,
+                        "ShieldDelayReduction": 0.05,
+                        "Armor": 60000.0,
+                        "RechargeDelay": 9.5,
+                        "RechargeTime": 10.0,
+                        "DelayAndRechargeTotal": 19.5
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Helios_ShoulderL"
+        },
+        "name": {
+            "Key": "CMP_name_Helios_ShoulderL",
+            "TableNamespace": "Component_name",
+            "en": "Helios"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Shoulder.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_WeaponHeavy.0"
+        ],
+        "module_group_ref": "OBJID_ModuleGroup::non-titan-shoulder",
+        "virtual_bot_ref": "OBJID_VirtualBot::helios"
     },
     "DA_Module_ShoulderHitcher.0": {
         "id": "DA_Module_ShoulderHitcher.0",
@@ -33452,6 +33895,253 @@
         "module_group_ref": "OBJID_ModuleGroup::non-titan-torsos",
         "virtual_bot_ref": "OBJID_VirtualBot::heike"
     },
+    "DA_Module_TorsoHelios.1": {
+        "id": "DA_Module_TorsoHelios.1",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_TorsoHelios",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Module_Helios_Torso.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_AbilityType_Attacking.0"
+        ],
+        "module_scalars": {
+            "levels": {
+                "constants": {
+                    "ID": "BP_Module_Helios_Torso",
+                    "ArmorDPS": 0.0,
+                    "ShieldDPS": 0.0,
+                    "WeightDrain": 11.0,
+                    "EnergyDrain": 0.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl1_scrap2"
+                        ],
+                        "Armor": 66000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl2_scrap2"
+                        ],
+                        "Armor": 67700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl3_scrap2"
+                        ],
+                        "Armor": 67700.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl4_scrap2"
+                        ],
+                        "Armor": 69400.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl5_scrap2"
+                        ],
+                        "Armor": 69400.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl6_scrap2"
+                        ],
+                        "Armor": 70500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl7_scrap2"
+                        ],
+                        "Armor": 70500.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl8_scrap2"
+                        ],
+                        "Armor": 71600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl9_scrap2"
+                        ],
+                        "Armor": 71600.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl10_scrap2"
+                        ],
+                        "Armor": 72300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl11_scrap2"
+                        ],
+                        "Armor": 72300.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl12_scrap2"
+                        ],
+                        "Armor": 73000.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_TorsoHelios.1_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_TorsoHelios.1_lvl13_scrap2"
+                        ],
+                        "Armor": 73000.0
+                    }
+                ]
+            },
+            "module_name": "BP_Module_Helios_Torso",
+            "default_scalars": {
+                "HullShare": 8500.0,
+                "PrimaryArmor": 68000.0
+            }
+        },
+        "abilities_scalars": [
+            {
+                "default_scalars": {
+                    "Cooldown": 30.0,
+                    "PrimaryParameter": 960.0,
+                    "SecondaryParameter": 5.0
+                },
+                "primary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Damage.0",
+                "secondary_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ActiveDuration.0",
+                "levels": {
+                    "constants": {
+                        "MaxCharges": 0,
+                        "ChargeDuration": 0.0,
+                        "ID": "FlamingRider",
+                        "ArmorDPS": 0.0,
+                        "ShieldDPS": 0.0,
+                        "Armor": 0.0,
+                        "WeightDrain": 0.0,
+                        "EnergyDrain": 0.0
+                    },
+                    "variables": [
+                        {
+                            "Cooldown": 37.0,
+                            "PrimaryParameter": 6577.0,
+                            "SecondaryParameter": 9.0
+                        },
+                        {
+                            "Cooldown": 37.0,
+                            "PrimaryParameter": 6923.0,
+                            "SecondaryParameter": 9.0
+                        },
+                        {
+                            "Cooldown": 37.0,
+                            "PrimaryParameter": 6923.0,
+                            "SecondaryParameter": 9.5
+                        },
+                        {
+                            "Cooldown": 37.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 9.5
+                        },
+                        {
+                            "Cooldown": 31.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 9.5
+                        },
+                        {
+                            "Cooldown": 31.0,
+                            "PrimaryParameter": 7287.0,
+                            "SecondaryParameter": 10.0
+                        },
+                        {
+                            "Cooldown": 31.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 10.0
+                        },
+                        {
+                            "Cooldown": 31.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 10.5
+                        },
+                        {
+                            "Cooldown": 26.0,
+                            "PrimaryParameter": 7671.0,
+                            "SecondaryParameter": 10.5
+                        },
+                        {
+                            "Cooldown": 26.0,
+                            "PrimaryParameter": 8075.0,
+                            "SecondaryParameter": 10.5
+                        },
+                        {
+                            "Cooldown": 26.0,
+                            "PrimaryParameter": 8075.0,
+                            "SecondaryParameter": 11.0
+                        },
+                        {
+                            "Cooldown": 26.0,
+                            "PrimaryParameter": 8500.0,
+                            "SecondaryParameter": 11.0
+                        },
+                        {
+                            "Cooldown": 22.0,
+                            "PrimaryParameter": 8500.0,
+                            "SecondaryParameter": 11.0
+                        }
+                    ]
+                },
+                "module_name": "FlamingRider"
+            }
+        ],
+        "name": {
+            "Key": "CMP_name_Helios_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Helios"
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_Mayflower.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Torso.0",
+        "module_socket_type_refs": [
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderL.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_ShoulderR.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability3.0",
+            "OBJID_ModuleSocketType::DA_ModuleSocketType_Ability4.0"
+        ],
+        "module_group_ref": "OBJID_ModuleGroup::non-titan-torsos",
+        "virtual_bot_ref": "OBJID_VirtualBot::helios"
+    },
     "DA_Module_TorsoHitcher.1": {
         "id": "DA_Module_TorsoHitcher.1",
         "production_status": "Ready",
@@ -48039,6 +48729,240 @@
         "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
         "module_type_ref": "OBJID_ModuleType::DA_ModuleType_Weapon.0",
         "module_group_ref": "OBJID_ModuleGroup::light-weapon"
+    },
+    "DA_Module_Weapon_Pyre.0": {
+        "id": "DA_Module_Weapon_Pyre.0",
+        "production_status": "Ready",
+        "inventory_icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Modules/T_Module_Weapon_Pyre",
+        "module_rarity_ref": "OBJID_ModuleRarity::DA_ModuleRarity_Rare.0",
+        "character_module_mounts": [
+            {
+                "character_module_ref": "OBJID_CharacterModule::BP_Weapon_Pyre.0",
+                "mount": "Standard"
+            }
+        ],
+        "module_tags_refs": [
+            "OBJID_ModuleTag::DA_Tag_WeaponDamageBlast.0",
+            "OBJID_ModuleTag::DA_Tag_WeaponTypeSpecial.0"
+        ],
+        "module_scalars": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 500.0,
+                    "DamageShield": 450.0
+                },
+                "AoeDamage": {
+                    "Radius": 500.0,
+                    "DamageArmor": 500.0,
+                    "DamageShield": 450.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {}
+                    }
+                },
+                "ClipSize": 81,
+                "ProjectileSpeed": 60000.0,
+                "TimeToReload": 4.0,
+                "TimeBetweenShots": 0.07
+            },
+            "levels": {
+                "constants": {
+                    "RangeMin": 0.0,
+                    "RangeExpansion": 1.0,
+                    "RangeEffective": 7000.0,
+                    "RangeMax": 8000.0,
+                    "RangeDeath": 8001.0,
+                    "SpreadX": 0.8,
+                    "SpreadY": 0.8,
+                    "DamageNoArmor": 300.0,
+                    "AoeArmor": 200.0,
+                    "AoeNoArmor": 200.0,
+                    "ProjectileSpeed": 20000.0,
+                    "ProjectilesPerShot": 1,
+                    "TimeBetweenShots": 0.08,
+                    "RoundsPerMinute": 750.0,
+                    "ID": "Pyre",
+                    "Armor": 0.0,
+                    "WeightDrain": 5.0,
+                    "EnergyDrain": 18.0
+                },
+                "variables": [
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl1",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl1_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl1_scrap2"
+                        ],
+                        "DamageArmor": 975.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.68,
+                        "ArmorDPS": 11127.0,
+                        "ShieldDPS": 4735.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl2",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl2_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl2_scrap2"
+                        ],
+                        "DamageArmor": 1000.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.68,
+                        "ArmorDPS": 11363.0,
+                        "ShieldDPS": 4735.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl3",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl3_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl3_scrap2"
+                        ],
+                        "DamageArmor": 1000.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.59,
+                        "ArmorDPS": 11488.0,
+                        "ShieldDPS": 4787.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl4",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl4_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl4_scrap2"
+                        ],
+                        "DamageArmor": 1026.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.59,
+                        "ArmorDPS": 11737.0,
+                        "ShieldDPS": 4787.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl5",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl5_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl5_scrap2"
+                        ],
+                        "DamageArmor": 1026.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.33,
+                        "ArmorDPS": 12114.0,
+                        "ShieldDPS": 4940.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl6",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl6_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl6_scrap2"
+                        ],
+                        "DamageArmor": 1042.0,
+                        "ClipSize": 47,
+                        "TimeToReload": 4.33,
+                        "ArmorDPS": 12272.0,
+                        "ShieldDPS": 4940.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl7",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl7_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl7_scrap2"
+                        ],
+                        "DamageArmor": 1042.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 4.33,
+                        "ArmorDPS": 13770.0,
+                        "ShieldDPS": 5544.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl8",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl8_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl8_scrap2"
+                        ],
+                        "DamageArmor": 1058.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 4.33,
+                        "ArmorDPS": 13948.0,
+                        "ShieldDPS": 5544.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl9",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl9_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl9_scrap2"
+                        ],
+                        "DamageArmor": 1058.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 4.16,
+                        "ArmorDPS": 14209.0,
+                        "ShieldDPS": 5648.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl10",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl10_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl10_scrap2"
+                        ],
+                        "DamageArmor": 1069.0,
+                        "ClipSize": 59,
+                        "TimeToReload": 4.16,
+                        "ArmorDPS": 14333.0,
+                        "ShieldDPS": 5648.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl11",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl11_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl11_scrap2"
+                        ],
+                        "DamageArmor": 1069.0,
+                        "ClipSize": 70,
+                        "TimeToReload": 4.16,
+                        "ArmorDPS": 15472.0,
+                        "ShieldDPS": 6096.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl12",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl12_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl12_scrap2"
+                        ],
+                        "DamageArmor": 1080.0,
+                        "ClipSize": 70,
+                        "TimeToReload": 4.16,
+                        "ArmorDPS": 15607.0,
+                        "ShieldDPS": 6096.0
+                    },
+                    {
+                        "upgrade_cost_ref": "OBJID_UpgradeCost::DA_Module_Weapon_Pyre.0_lvl13",
+                        "scrap_rewards_refs": [
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl13_scrap1",
+                            "OBJID_ScrapReward::DA_Module_Weapon_Pyre.0_lvl13_scrap2"
+                        ],
+                        "DamageArmor": 1080.0,
+                        "ClipSize": 70,
+                        "TimeToReload": 4.0,
+                        "ArmorDPS": 15867.0,
+                        "ShieldDPS": 6198.0
+                    }
+                ]
+            },
+            "module_name": "Pyre"
+        },
+        "name": {
+            "Key": "WPN_name_Pyre",
+            "TableNamespace": "Weapon_name",
+            "en": "Pyre"
+        },
+        "description": {
+            "Key": "WPN_desc_Pyre",
+            "TableNamespace": "Weapon_description",
+            "en": "Heavy close-range cannon that damages targets with a high-temperature stream."
+        },
+        "faction_ref": "OBJID_Faction::DA_Faction_FortEvo.0",
+        "module_classes_refs": [
+            "OBJID_ModuleClass::DA_Module_Class_Flanker.0"
+        ],
+        "module_stats_table_ref": "OBJID_ModuleStatsTable::DA_ModuleStatsTable.0",
+        "module_type_ref": "OBJID_ModuleType::DA_ModuleType_WeaponHeavy.0",
+        "module_group_ref": "OBJID_ModuleGroup::heavy-weapon"
     },
     "DA_Module_Weapon_Railgun.0": {
         "id": "DA_Module_Weapon_Railgun.0",
