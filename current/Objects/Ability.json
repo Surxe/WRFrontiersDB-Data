@@ -4784,6 +4784,7 @@
                 "bIndestructible": true
             },
             "CastDuration": 0.6,
+            "EffectType": "Attacking",
             "InitialDuration": 7.0,
             "PrimaryParameter": 2175.0,
             "SecondaryParameter": 7.0
@@ -7891,6 +7892,135 @@
             "en": "Discharges its shields in a 70 m pulse, dealing {ShieldDmg} to enemy shields and granting 30% damage resistance to Heike and 15% to allies within the area for {Duration} seconds."
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_Ecdysis"
+    },
+    "BP_Module_Helios_Chassis.1": {
+        "id": "BP_Module_Helios_Chassis.1",
+        "misc": {
+            "JumpFuelCost": 3.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 0.7,
+            "JetpackMaxVerticalSpeed": 300.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.2,
+            "JetpackStartVerticalImpulse": 30000.0,
+            "JetpackJumpAccelerationForce": 3000000.0,
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 2.0,
+            "VerticalAccelerationForceCurve": {
+                "FloatCurve": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 140000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.1,
+                            "Value": 70000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1200.0,
+                            "Value": 15000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_BounceDrive",
+            "TableNamespace": "Ability_name",
+            "en": "Bounce Drive"
+        },
+        "description": {
+            "Key": "ABL_descr_BounceDrive",
+            "TableNamespace": "Ability_descripton",
+            "en": "Propels the robot upward and allows it to hover above the ground. Consumes fuel while in use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_BounceDrive"
+    },
+    "BP_Module_Helios_Chassis.2": {
+        "id": "BP_Module_Helios_Chassis.2",
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_ThrottleBurst",
+        "misc": {
+            "FuelUsagePerSecond": 4.0,
+            "MinFuelRequired": 2.0
+        },
+        "name": {
+            "Key": "ABL_name_ThrottleBurst",
+            "TableNamespace": "Ability_name",
+            "en": "Throttle Burst"
+        },
+        "description": {
+            "Key": "ABL_descr_ThrottleBurst",
+            "TableNamespace": "Ability_descripton",
+            "en": "Boosts the robot’s speed and mobility, allowing it to climb steep slopes. Consumes fuel while in use."
+        }
+    },
+    "BP_Module_Helios_Torso.1": {
+        "id": "BP_Module_Helios_Torso.1",
+        "cooldown": {
+            "Cooldown": 20.0
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_FlamingRider",
+        "name": {
+            "Key": "ABL_name_FlamingRider",
+            "TableNamespace": "Ability_name",
+            "en": "Flaming Rider"
+        },
+        "description": {
+            "Key": "ABL_descr_FlamingRider",
+            "TableNamespace": "Ability_descripton",
+            "en": "Activates for {ActDuration}, dropping pools of napalm beneath the robot. Pools slow enemy robots by 30% and deal {Dmg} damage per second to each robot component within the affected area. While active, the robot can teleport back to its starting position at any time. Cooldown: {CD}."
+        }
     },
     "BP_Module_Hitcher_Chassis.1": {
         "id": "BP_Module_Hitcher_Chassis.1",

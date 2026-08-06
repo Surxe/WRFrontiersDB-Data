@@ -2795,6 +2795,96 @@
                         "OBJID_Module::DA_Module_Weapon_Zenit.0"
                     ]
                 }
+            },
+            "261": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "262": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "263": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_ShoulderGaruda.0"
+                    ]
+                }
+            },
+            "264": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "265": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "266": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_ChassisGaruda.2"
+                    ]
+                }
+            },
+            "267": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "268": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "currencies": [
+                        {
+                            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                            "amount": 30
+                        }
+                    ]
+                }
+            },
+            "269": {
+                "reputation_cost": 1000,
+                "rewards": {
+                    "blueprints_refs": [
+                        "OBJID_Module::DA_Module_TorsoGaruda.1"
+                    ]
+                }
             }
         }
     }
