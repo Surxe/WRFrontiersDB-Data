@@ -649,6 +649,26 @@
         "has_distinct_shoulders": true,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicLancelot"
     },
+    "relic-scorpion": {
+        "id": "relic-scorpion",
+        "name": {
+            "Key": "CMP_name_RelicScorpion_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Relic Scorpion"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisRelicScorpion.2",
+            "OBJID_Module::DA_Module_TorsoRelicScorpion.1",
+            "OBJID_Module::DA_Module_ShoulderRelicScorpion01.0",
+            "OBJID_Module::DA_Module_ShoulderRelicScorpion02.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRelicScorpion.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicScorpion"
+    },
     "scorpion": {
         "id": "scorpion",
         "name": {

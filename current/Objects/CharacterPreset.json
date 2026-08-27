@@ -9984,6 +9984,77 @@
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_RelicOrkan.0"
     },
+    "DA_Preset_DevbotRelicScorpion.0": {
+        "id": "DA_Preset_DevbotRelicScorpion.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicScorpion",
+        "name": {
+            "Key": "CMP_name_RelicScorpion_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Relic Scorpion"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisRelicScorpion.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoRelicScorpion.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicScorpion01.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicPinata.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderRelicScorpion02.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicPinata.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 4,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_RelicPinata.0",
+                "socket_name": "Shoulder_Weapon_1",
+                "parent_socket_index": 4,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_BlockingField.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_TensionLink.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common64.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_RelicPinata.0"
+    },
     "DA_Preset_DevbotScorpion.0": {
         "id": "DA_Preset_DevbotScorpion.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotScorpion",

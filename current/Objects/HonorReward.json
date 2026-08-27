@@ -18,7 +18,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 11.0,
-        "titan_charge": 38.0
+        "honor_points_experimental": 12.0,
+        "titan_charge": 38.0,
+        "abilities_charge": 38.0
     },
     "DA_Honor_Assist_ELM.0": {
         "id": "DA_Honor_Assist_ELM.0",
@@ -39,7 +41,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 12.0,
-        "titan_charge": 38.0
+        "honor_points_experimental": 13.0,
+        "titan_charge": 38.0,
+        "abilities_charge": 38.0
     },
     "DA_Honor_Assist_SPH.0": {
         "id": "DA_Honor_Assist_SPH.0",
@@ -60,7 +64,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 11.0,
-        "titan_charge": 33.0
+        "honor_points_experimental": 12.0,
+        "titan_charge": 33.0,
+        "abilities_charge": 33.0
     },
     "DA_Honor_Assist_TDM.0": {
         "id": "DA_Honor_Assist_TDM.0",
@@ -81,7 +87,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 12.0,
-        "titan_charge": 33.0
+        "honor_points_experimental": 13.0,
+        "titan_charge": 33.0,
+        "abilities_charge": 33.0
     },
     "DA_Honor_BeaconNeutralize_BCN.0": {
         "id": "DA_Honor_BeaconNeutralize_BCN.0",
@@ -101,7 +109,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 70.0
+        "titan_charge": 70.0,
+        "abilities_charge": 70.0
     },
     "DA_Honor_BountyHunter_BCN.0": {
         "id": "DA_Honor_BountyHunter_BCN.0",
@@ -121,7 +130,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 20.0
+        "titan_charge": 20.0,
+        "abilities_charge": 20.0
     },
     "DA_Honor_BountyHunter_ELM.0": {
         "id": "DA_Honor_BountyHunter_ELM.0",
@@ -141,7 +151,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 80.0
+        "titan_charge": 80.0,
+        "abilities_charge": 80.0
     },
     "DA_Honor_BountyHunter_SPH.0": {
         "id": "DA_Honor_BountyHunter_SPH.0",
@@ -161,7 +172,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 20.0
+        "titan_charge": 20.0,
+        "abilities_charge": 20.0
     },
     "DA_Honor_BountyHunter_TDM.0": {
         "id": "DA_Honor_BountyHunter_TDM.0",
@@ -181,7 +193,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 75.0
+        "titan_charge": 75.0,
+        "abilities_charge": 75.0
     },
     "DA_Honor_CaptureBeacon.0": {
         "id": "DA_Honor_CaptureBeacon.0",
@@ -202,7 +215,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 10.0,
-        "titan_charge": 80.0
+        "honor_points_experimental": 10.0,
+        "titan_charge": 80.0,
+        "abilities_charge": 80.0
     },
     "DA_Honor_CaptureWarpProbe_SPH.0": {
         "id": "DA_Honor_CaptureWarpProbe_SPH.0",
@@ -222,7 +237,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 30.0
+        "titan_charge": 30.0,
+        "abilities_charge": 30.0
     },
     "DA_Honor_DamageAbsorb_BCN.0": {
         "id": "DA_Honor_DamageAbsorb_BCN.0",
@@ -243,7 +259,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 10.0
+        "titan_charge": 10.0,
+        "abilities_charge": 10.0
     },
     "DA_Honor_DamageAbsorb_ELM.0": {
         "id": "DA_Honor_DamageAbsorb_ELM.0",
@@ -264,7 +281,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 9.0
+        "titan_charge": 9.0,
+        "abilities_charge": 9.0
     },
     "DA_Honor_DamageAbsorb_SPH.0": {
         "id": "DA_Honor_DamageAbsorb_SPH.0",
@@ -285,7 +303,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 10.0
+        "titan_charge": 10.0,
+        "abilities_charge": 10.0
     },
     "DA_Honor_DamageAbsorb_TDM.0": {
         "id": "DA_Honor_DamageAbsorb_TDM.0",
@@ -306,7 +325,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 10.0
+        "titan_charge": 10.0,
+        "abilities_charge": 10.0
     },
     "DA_Honor_DamageDealing_BCN.0": {
         "id": "DA_Honor_DamageDealing_BCN.0",
@@ -407,7 +427,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 60.0
+        "titan_charge": 60.0,
+        "abilities_charge": 60.0
     },
     "DA_Honor_Healing_ELM.0": {
         "id": "DA_Honor_Healing_ELM.0",
@@ -428,7 +449,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 50.0
+        "titan_charge": 50.0,
+        "abilities_charge": 50.0
     },
     "DA_Honor_Healing_SPH.0": {
         "id": "DA_Honor_Healing_SPH.0",
@@ -449,7 +471,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 50.0
+        "titan_charge": 50.0,
+        "abilities_charge": 50.0
     },
     "DA_Honor_Healing_TDM.0": {
         "id": "DA_Honor_Healing_TDM.0",
@@ -470,7 +493,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 70.0
+        "titan_charge": 70.0,
+        "abilities_charge": 70.0
     },
     "DA_Honor_HoldGround_BCN.0": {
         "id": "DA_Honor_HoldGround_BCN.0",
@@ -491,7 +515,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 50.0
+        "titan_charge": 50.0,
+        "abilities_charge": 50.0
     },
     "DA_Honor_HoldingWarpProbe_SPH.1": {
         "id": "DA_Honor_HoldingWarpProbe_SPH.1",
@@ -511,7 +536,9 @@
         "processing_time": "Frame",
         "b_incremental": true,
         "honor_points": 3.0,
-        "titan_charge": 25.0
+        "honor_points_experimental": 3.0,
+        "titan_charge": 25.0,
+        "abilities_charge": 25.0
     },
     "DA_Honor_KillMostDamageDeal_BCN.0": {
         "id": "DA_Honor_KillMostDamageDeal_BCN.0",
@@ -531,7 +558,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 65.0
+        "titan_charge": 65.0,
+        "abilities_charge": 65.0
     },
     "DA_Honor_KillMostDamageDeal_ELM.0": {
         "id": "DA_Honor_KillMostDamageDeal_ELM.0",
@@ -551,7 +579,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 75.0
+        "titan_charge": 75.0,
+        "abilities_charge": 75.0
     },
     "DA_Honor_KillMostDamageDeal_SPH.0": {
         "id": "DA_Honor_KillMostDamageDeal_SPH.0",
@@ -571,7 +600,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 65.0
+        "titan_charge": 65.0,
+        "abilities_charge": 65.0
     },
     "DA_Honor_KillMostDamageDeal_TDM.0": {
         "id": "DA_Honor_KillMostDamageDeal_TDM.0",
@@ -591,7 +621,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 85.0
+        "titan_charge": 85.0,
+        "abilities_charge": 85.0
     },
     "DA_Honor_KillRobot_BCN.0": {
         "id": "DA_Honor_KillRobot_BCN.0",
@@ -612,7 +643,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 16.0,
-        "titan_charge": 40.0
+        "honor_points_experimental": 15.0,
+        "titan_charge": 40.0,
+        "abilities_charge": 40.0
     },
     "DA_Honor_KillRobot_ELM.0": {
         "id": "DA_Honor_KillRobot_ELM.0",
@@ -633,7 +666,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 21.0,
-        "titan_charge": 55.0
+        "honor_points_experimental": 20.0,
+        "titan_charge": 55.0,
+        "abilities_charge": 55.0
     },
     "DA_Honor_KillRobot_SPH.0": {
         "id": "DA_Honor_KillRobot_SPH.0",
@@ -654,7 +689,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 16.0,
-        "titan_charge": 45.0
+        "honor_points_experimental": 15.0,
+        "titan_charge": 45.0,
+        "abilities_charge": 45.0
     },
     "DA_Honor_KillRobot_TDM.0": {
         "id": "DA_Honor_KillRobot_TDM.0",
@@ -675,7 +712,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 20.0,
-        "titan_charge": 50.0
+        "honor_points_experimental": 19.0,
+        "titan_charge": 50.0,
+        "abilities_charge": 50.0
     },
     "DA_Honor_KillTitan_BCN.0": {
         "id": "DA_Honor_KillTitan_BCN.0",
@@ -696,7 +735,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 25.0,
-        "titan_charge": 80.0
+        "honor_points_experimental": 25.0,
+        "titan_charge": 80.0,
+        "abilities_charge": 80.0
     },
     "DA_Honor_KillTitan_ELM.0": {
         "id": "DA_Honor_KillTitan_ELM.0",
@@ -717,7 +758,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 20.0,
-        "titan_charge": 90.0
+        "honor_points_experimental": 20.0,
+        "titan_charge": 90.0,
+        "abilities_charge": 90.0
     },
     "DA_Honor_KillTitan_SPH.0": {
         "id": "DA_Honor_KillTitan_SPH.0",
@@ -738,7 +781,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 25.0,
-        "titan_charge": 80.0
+        "honor_points_experimental": 25.0,
+        "titan_charge": 80.0,
+        "abilities_charge": 80.0
     },
     "DA_Honor_KillTitan_TDM.0": {
         "id": "DA_Honor_KillTitan_TDM.0",
@@ -759,7 +804,9 @@
         },
         "processing_time": "Frame",
         "honor_points": 32.0,
-        "titan_charge": 120.0
+        "honor_points_experimental": 32.0,
+        "titan_charge": 120.0,
+        "abilities_charge": 120.0
     },
     "DA_Honor_LostAllRobots_BCN.0": {
         "id": "DA_Honor_LostAllRobots_BCN.0",
@@ -769,7 +816,8 @@
             "en": "Lost All Robots"
         },
         "processing_time": "Frame",
-        "titan_charge": 170.0
+        "titan_charge": 170.0,
+        "abilities_charge": 170.0
     },
     "DA_Honor_LostAllRobots_ELM.0": {
         "id": "DA_Honor_LostAllRobots_ELM.0",
@@ -779,7 +827,8 @@
             "en": "Lost All Robots"
         },
         "processing_time": "Frame",
-        "titan_charge": 250.0
+        "titan_charge": 250.0,
+        "abilities_charge": 250.0
     },
     "DA_Honor_LostAllRobots_SPH.0": {
         "id": "DA_Honor_LostAllRobots_SPH.0",
@@ -789,7 +838,8 @@
             "en": "Lost All Robots"
         },
         "processing_time": "Frame",
-        "titan_charge": 170.0
+        "titan_charge": 170.0,
+        "abilities_charge": 170.0
     },
     "DA_Honor_LostAllRobots_TDM.0": {
         "id": "DA_Honor_LostAllRobots_TDM.0",
@@ -799,7 +849,8 @@
             "en": "Lost All Robots"
         },
         "processing_time": "Frame",
-        "titan_charge": 100.0
+        "titan_charge": 100.0,
+        "abilities_charge": 100.0
     },
     "DA_Honor_MostDamageDeal_BCN.0": {
         "id": "DA_Honor_MostDamageDeal_BCN.0",
@@ -896,7 +947,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 20.0
+        "titan_charge": 20.0,
+        "abilities_charge": 20.0
     },
     "DA_Honor_ShieldCrusher_ELM.0": {
         "id": "DA_Honor_ShieldCrusher_ELM.0",
@@ -917,7 +969,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 25.0
+        "titan_charge": 25.0,
+        "abilities_charge": 25.0
     },
     "DA_Honor_ShieldCrusher_SPH.0": {
         "id": "DA_Honor_ShieldCrusher_SPH.0",
@@ -938,7 +991,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 20.0
+        "titan_charge": 20.0,
+        "abilities_charge": 20.0
     },
     "DA_Honor_ShieldCrusher_TDM.0": {
         "id": "DA_Honor_ShieldCrusher_TDM.0",
@@ -959,7 +1013,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 25.0
+        "titan_charge": 25.0,
+        "abilities_charge": 25.0
     },
     "DA_Honor_Spawn_BCN.0": {
         "id": "DA_Honor_Spawn_BCN.0",
@@ -980,7 +1035,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 13.0
+        "titan_charge": 13.0,
+        "abilities_charge": 13.0
     },
     "DA_Honor_Spawn_ELM.0": {
         "id": "DA_Honor_Spawn_ELM.0",
@@ -1001,7 +1057,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 5.0
+        "titan_charge": 5.0,
+        "abilities_charge": 5.0
     },
     "DA_Honor_Spawn_SPH.0": {
         "id": "DA_Honor_Spawn_SPH.0",
@@ -1022,7 +1079,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 10.0
+        "titan_charge": 10.0,
+        "abilities_charge": 10.0
     },
     "DA_Honor_Spawn_TDM.0": {
         "id": "DA_Honor_Spawn_TDM.0",
@@ -1043,7 +1101,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 10.0
+        "titan_charge": 10.0,
+        "abilities_charge": 10.0
     },
     "DA_Honor_SteelCrusher_BCN.0": {
         "id": "DA_Honor_SteelCrusher_BCN.0",
@@ -1064,7 +1123,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 12.0
+        "titan_charge": 12.0,
+        "abilities_charge": 12.0
     },
     "DA_Honor_SteelCrusher_ELM.0": {
         "id": "DA_Honor_SteelCrusher_ELM.0",
@@ -1085,7 +1145,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 18.0
+        "titan_charge": 18.0,
+        "abilities_charge": 18.0
     },
     "DA_Honor_SteelCrusher_SPH.0": {
         "id": "DA_Honor_SteelCrusher_SPH.0",
@@ -1106,7 +1167,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 12.0
+        "titan_charge": 12.0,
+        "abilities_charge": 12.0
     },
     "DA_Honor_SteelCrusher_TDM.0": {
         "id": "DA_Honor_SteelCrusher_TDM.0",
@@ -1127,7 +1189,8 @@
             }
         },
         "processing_time": "Frame",
-        "titan_charge": 20.0
+        "titan_charge": 20.0,
+        "abilities_charge": 20.0
     },
     "DA_Honor_Top1Assists_BCN.0": {
         "id": "DA_Honor_Top1Assists_BCN.0",
@@ -1213,7 +1276,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 40.0
+        "honor_points": 40.0,
+        "honor_points_experimental": 60.0
     },
     "DA_Honor_Top1Damage_ELM.0": {
         "id": "DA_Honor_Top1Damage_ELM.0",
@@ -1228,7 +1292,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 40.0
+        "honor_points": 40.0,
+        "honor_points_experimental": 75.0
     },
     "DA_Honor_Top1Damage_SPH.0": {
         "id": "DA_Honor_Top1Damage_SPH.0",
@@ -1243,7 +1308,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 20.0
+        "honor_points": 20.0,
+        "honor_points_experimental": 20.0
     },
     "DA_Honor_Top1Damage_TDM.0": {
         "id": "DA_Honor_Top1Damage_TDM.0",
@@ -1258,7 +1324,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 40.0
+        "honor_points": 40.0,
+        "honor_points_experimental": 75.0
     },
     "DA_Honor_Top1Heal_BCN.0": {
         "id": "DA_Honor_Top1Heal_BCN.0",
@@ -1333,7 +1400,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 40.0
+        "honor_points": 40.0,
+        "honor_points_experimental": 40.0
     },
     "DA_Honor_Top1MechKills_BCN.0": {
         "id": "DA_Honor_Top1MechKills_BCN.0",
@@ -1481,7 +1549,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 30.0
+        "honor_points": 30.0,
+        "honor_points_experimental": 50.0
     },
     "DA_Honor_Top2Damage_ELM.0": {
         "id": "DA_Honor_Top2Damage_ELM.0",
@@ -1497,7 +1566,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 35.0
+        "honor_points": 35.0,
+        "honor_points_experimental": 65.0
     },
     "DA_Honor_Top2Damage_SPH.0": {
         "id": "DA_Honor_Top2Damage_SPH.0",
@@ -1513,7 +1583,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 15.0
+        "honor_points": 15.0,
+        "honor_points_experimental": 15.0
     },
     "DA_Honor_Top2Damage_TDM.0": {
         "id": "DA_Honor_Top2Damage_TDM.0",
@@ -1529,7 +1600,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 35.0
+        "honor_points": 35.0,
+        "honor_points_experimental": 65.0
     },
     "DA_Honor_Top2Heal_BCN.0": {
         "id": "DA_Honor_Top2Heal_BCN.0",
@@ -1609,7 +1681,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 30.0
+        "honor_points": 30.0,
+        "honor_points_experimental": 30.0
     },
     "DA_Honor_Top2MechKills_BCN.0": {
         "id": "DA_Honor_Top2MechKills_BCN.0",
@@ -1761,7 +1834,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 20.0
+        "honor_points": 20.0,
+        "honor_points_experimental": 35.0
     },
     "DA_Honor_Top3Damage_ELM.0": {
         "id": "DA_Honor_Top3Damage_ELM.0",
@@ -1777,7 +1851,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 25.0
+        "honor_points": 25.0,
+        "honor_points_experimental": 45.0
     },
     "DA_Honor_Top3Damage_SPH.0": {
         "id": "DA_Honor_Top3Damage_SPH.0",
@@ -1793,7 +1868,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 10.0
+        "honor_points": 10.0,
+        "honor_points_experimental": 10.0
     },
     "DA_Honor_Top3Damage_TDM.0": {
         "id": "DA_Honor_Top3Damage_TDM.0",
@@ -1809,7 +1885,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 25.0
+        "honor_points": 25.0,
+        "honor_points_experimental": 45.0
     },
     "DA_Honor_Top3Heal_BCN.0": {
         "id": "DA_Honor_Top3Heal_BCN.0",
@@ -1889,7 +1966,8 @@
             }
         },
         "b_incremental": true,
-        "honor_points": 25.0
+        "honor_points": 25.0,
+        "honor_points_experimental": 25.0
     },
     "DA_Honor_Top3MechKills_BCN.0": {
         "id": "DA_Honor_Top3MechKills_BCN.0",
@@ -2031,6 +2109,7 @@
         "condition": {
             "ExpectedResult": "ESTeamMatchResult::Win"
         },
-        "honor_points": 40.0
+        "honor_points": 40.0,
+        "honor_points_experimental": 40.0
     }
 }
