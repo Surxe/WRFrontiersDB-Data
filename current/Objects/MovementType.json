@@ -2811,6 +2811,7 @@
         "id": "DA_MovementType_Monowheel.5",
         "chassis_type": "Monowheel",
         "max_mobility": 75.0,
+        "perch_radius_threshold": 100.0,
         "movement_properties": [
             {
                 "AccelerationDependenceOnSpeed": {
