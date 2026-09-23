@@ -1,0 +1,429 @@
+{
+  "_meta": {
+    "title": "War Robots: Frontiers - War Robot release dates",
+    "description": "First-availability dates for War Robots introduced during the full-launch era (March 4, 2025 onward). Derived by reading the official news archive (WRFrontiers-News-Scraper) and cross-referencing the datamined torso roster in this repo. Weapons are excluded; Titans are listed separately.",
+    "release_date_definition": "The date a robot first became obtainable by players in the live game (patch/update/event launch day).",
+    "pre_launch_meaning": "pre_launch=true means the robot existed before the full-launch era (carried over from 2022-2024 Early Access); it has no known launch-era release date (release_date is null).",
+    "scope": "Robots present in the current datamined roster, plus Angler (released 2026-09-15, not yet in the roster).",
+    "sources": {
+      "news_archive": "WRFrontiers-News-Scraper (archive/), official warrobotsfrontiers.com/en/news; source_article_ids reference the article 'id' field",
+      "datamined_roster": "WRFrontiersDB-Data current/Objects/Module.json (VirtualBot ids; data version 2026-08-25)"
+    },
+    "generated": "2026-09-22",
+    "robot_count": 37,
+    "robots_with_known_date": 17,
+    "titan_count": 5
+  },
+  "robots": [
+    {
+      "name": "Ares",
+      "virtual_bot_ref": "OBJID_VirtualBot::ares",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Bulgasari",
+      "virtual_bot_ref": "OBJID_VirtualBot::bulgasari",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Bulwark",
+      "virtual_bot_ref": "OBJID_VirtualBot::bulwark",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Cyclops",
+      "virtual_bot_ref": "OBJID_VirtualBot::cyclops",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Fenrir",
+      "virtual_bot_ref": "OBJID_VirtualBot::fenrir",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Fury",
+      "virtual_bot_ref": "OBJID_VirtualBot::fury",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Griffin",
+      "virtual_bot_ref": "OBJID_VirtualBot::griffin",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Harpy",
+      "virtual_bot_ref": "OBJID_VirtualBot::harpy",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Lancelot",
+      "virtual_bot_ref": "OBJID_VirtualBot::lancelot",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Orochi",
+      "virtual_bot_ref": "OBJID_VirtualBot::orochi",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Phantom",
+      "virtual_bot_ref": "OBJID_VirtualBot::phantom",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Purifier",
+      "virtual_bot_ref": "OBJID_VirtualBot::purifier",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Pursuer",
+      "virtual_bot_ref": "OBJID_VirtualBot::pursuer",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Ravana",
+      "virtual_bot_ref": "OBJID_VirtualBot::ravana",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Raven",
+      "virtual_bot_ref": "OBJID_VirtualBot::raven",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Scorpion",
+      "virtual_bot_ref": "OBJID_VirtualBot::scorpion",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Siren",
+      "virtual_bot_ref": "OBJID_VirtualBot::siren",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Typhon",
+      "virtual_bot_ref": "OBJID_VirtualBot::typhon",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Tyr",
+      "virtual_bot_ref": "OBJID_VirtualBot::tyr",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Varangian",
+      "virtual_bot_ref": "OBJID_VirtualBot::varangian",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Loki",
+      "virtual_bot_ref": "OBJID_VirtualBot::loki",
+      "release_date": "2025-06-17",
+      "pre_launch": false,
+      "release_context": "Season 2: Power Surge",
+      "source_article_ids": [
+        228
+      ]
+    },
+    {
+      "name": "Ceres",
+      "virtual_bot_ref": "OBJID_VirtualBot::ceres",
+      "release_date": "2025-07-15",
+      "pre_launch": false,
+      "release_context": "Ceres Rising limited-time event",
+      "source_article_ids": [
+        243
+      ],
+      "notes": "Community-requested dedicated healer/support Defender."
+    },
+    {
+      "name": "Mesa",
+      "virtual_bot_ref": "OBJID_VirtualBot::mesa",
+      "release_date": "2025-07-29",
+      "pre_launch": false,
+      "release_context": "Spark of Ingenuity Battle Pass (Update 1.2)",
+      "source_article_ids": [
+        250,
+        254
+      ]
+    },
+    {
+      "name": "Anansi",
+      "virtual_bot_ref": "OBJID_VirtualBot::anansi",
+      "release_date": "2025-08-12",
+      "pre_launch": false,
+      "release_context": "Arachnid Protocol limited-time event",
+      "source_article_ids": [
+        256,
+        257,
+        258
+      ],
+      "notes": "Added to level progression on 2025-12-23 (art 294)."
+    },
+    {
+      "name": "Kumo",
+      "virtual_bot_ref": "OBJID_VirtualBot::kumo",
+      "release_date": "2025-09-23",
+      "pre_launch": false,
+      "release_context": "Trap from the Warp update",
+      "source_article_ids": [
+        269,
+        270
+      ],
+      "notes": "Added to level progression on 2025-12-23 (art 294)."
+    },
+    {
+      "name": "Decker",
+      "virtual_bot_ref": "OBJID_VirtualBot::decker",
+      "release_date": "2025-10-28",
+      "pre_launch": false,
+      "release_context": "Wild Hunt update",
+      "source_article_ids": [
+        278,
+        280,
+        281
+      ],
+      "notes": "Added to crafting progression on 2026-02-13 (art 310)."
+    },
+    {
+      "name": "Crix",
+      "virtual_bot_ref": "OBJID_VirtualBot::crix",
+      "release_date": "2025-11-11",
+      "pre_launch": false,
+      "release_context": "Meet Crix update",
+      "source_article_ids": [
+        284,
+        285
+      ],
+      "notes": "Added to crafting progression on 2026-02-13 (art 310)."
+    },
+    {
+      "name": "Hitcher",
+      "virtual_bot_ref": "OBJID_VirtualBot::hitcher",
+      "release_date": "2026-01-20",
+      "pre_launch": false,
+      "release_context": "No Place to Hide update",
+      "source_article_ids": [
+        300,
+        301,
+        302
+      ]
+    },
+    {
+      "name": "Heike",
+      "virtual_bot_ref": "OBJID_VirtualBot::heike",
+      "release_date": "2026-03-24",
+      "pre_launch": false,
+      "release_context": "Steel Advance update",
+      "source_article_ids": [
+        317,
+        318,
+        319
+      ]
+    },
+    {
+      "name": "Garuda",
+      "virtual_bot_ref": "OBJID_VirtualBot::garuda",
+      "release_date": "2026-04-14",
+      "pre_launch": false,
+      "release_context": "Mirror Threat update",
+      "source_article_ids": [
+        322,
+        323,
+        324
+      ]
+    },
+    {
+      "name": "Artemis",
+      "virtual_bot_ref": "OBJID_VirtualBot::artemis",
+      "release_date": "2026-05-19",
+      "pre_launch": false,
+      "release_context": "Vanguard's Resolve Event Pass (May update)",
+      "source_article_ids": [
+        328,
+        329
+      ]
+    },
+    {
+      "name": "Wyrm",
+      "virtual_bot_ref": "OBJID_VirtualBot::wyrm",
+      "release_date": "2026-06-09",
+      "pre_launch": false,
+      "release_context": "Lockdown Dash Battle Pass (June update)",
+      "source_article_ids": [
+        332,
+        333
+      ]
+    },
+    {
+      "name": "Relic Bulgasari",
+      "virtual_bot_ref": "OBJID_VirtualBot::relic-bulgasari",
+      "release_date": "2026-06-23",
+      "pre_launch": false,
+      "release_context": "Ancient Relic Event Pass",
+      "source_article_ids": [
+        334,
+        335
+      ],
+      "notes": "Relic variant of Bulgasari."
+    },
+    {
+      "name": "Relic Lancelot",
+      "virtual_bot_ref": "OBJID_VirtualBot::relic-lancelot",
+      "release_date": "2026-07-07",
+      "pre_launch": false,
+      "release_context": "Faded Glory Battle Pass",
+      "source_article_ids": [
+        337,
+        338
+      ],
+      "notes": "Relic variant of Lancelot."
+    },
+    {
+      "name": "Helios",
+      "virtual_bot_ref": "OBJID_VirtualBot::helios",
+      "release_date": "2026-08-04",
+      "pre_launch": false,
+      "release_context": "Scorching Heat Event Pass",
+      "source_article_ids": [
+        340,
+        341
+      ]
+    },
+    {
+      "name": "Relic Scorpion",
+      "virtual_bot_ref": "OBJID_VirtualBot::relic-scorpion",
+      "release_date": "2026-08-25",
+      "pre_launch": false,
+      "release_context": "Tooth and Claw Battle Pass",
+      "source_article_ids": [
+        343,
+        344
+      ],
+      "notes": "Relic variant of Scorpion."
+    },
+    {
+      "name": "Angler",
+      "virtual_bot_ref": null,
+      "release_date": "2026-09-15",
+      "pre_launch": false,
+      "release_context": "Shadowed Bastion Event Pass",
+      "source_article_ids": [
+        346,
+        348
+      ],
+      "notes": "Not yet present in datamined roster (data version 2026-08-25)."
+    }
+  ],
+  "titans": [
+    {
+      "name": "Alpha",
+      "virtual_bot_ref": "OBJID_VirtualBot::alpha",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Grim",
+      "virtual_bot_ref": "OBJID_VirtualBot::grim",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Matriarch",
+      "virtual_bot_ref": "OBJID_VirtualBot::matriarch",
+      "release_date": null,
+      "pre_launch": true,
+      "release_context": null,
+      "source_article_ids": []
+    },
+    {
+      "name": "Volta",
+      "virtual_bot_ref": "OBJID_VirtualBot::volta",
+      "release_date": "2025-06-17",
+      "pre_launch": false,
+      "release_context": "Season 2: Power Surge",
+      "source_article_ids": [
+        228,
+        239
+      ],
+      "notes": "Internal torso codename 'Spire'."
+    },
+    {
+      "name": "Norna",
+      "virtual_bot_ref": "OBJID_VirtualBot::norna",
+      "release_date": "2025-12-23",
+      "pre_launch": false,
+      "release_context": "Festive December update",
+      "source_article_ids": [
+        295,
+        296,
+        297
+      ],
+      "notes": "Assault-class Spider Titan."
+    }
+  ]
+}
