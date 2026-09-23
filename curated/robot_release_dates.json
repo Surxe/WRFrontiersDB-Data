@@ -7,18 +7,22 @@
     "scope": "Robots present in the current datamined roster, plus Angler (released 2026-09-15, not yet in the roster).",
     "sources": {
       "news_archive": "WRFrontiers-News-Scraper (archive/), official warrobotsfrontiers.com/en/news; source_article_ids reference the article 'id' field",
-      "datamined_roster": "WRFrontiersDB-Data current/Objects/Module.json (VirtualBot ids; data version 2026-08-25)"
+      "datamined_roster": "WRFrontiersDB-Data current/Objects/Module.json (VirtualBot ids; data version 2026-08-25)",
+      "patch_manifests": "Steam depot build manifests for the War Robots: Frontiers app (matched to release_date by UTC calendar day)"
     },
-    "generated": "2026-09-22",
+    "generated": "2026-09-23",
     "robot_count": 37,
     "robots_with_known_date": 17,
-    "titan_count": 5
+    "titan_count": 5,
+    "manifest_meaning": "manifest_id is the Steam depot build manifest for the maintenance deploy that shipped the robot; patch_released_at_utc is that build's exact publish time (UTC). Where a patch day had a later same-day hotfix build, the earlier maintenance build is used."
   },
   "robots": [
     {
       "name": "Ares",
       "virtual_bot_ref": "OBJID_VirtualBot::ares",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -27,6 +31,8 @@
       "name": "Bulgasari",
       "virtual_bot_ref": "OBJID_VirtualBot::bulgasari",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -35,6 +41,8 @@
       "name": "Bulwark",
       "virtual_bot_ref": "OBJID_VirtualBot::bulwark",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -43,6 +51,8 @@
       "name": "Cyclops",
       "virtual_bot_ref": "OBJID_VirtualBot::cyclops",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -51,6 +61,8 @@
       "name": "Fenrir",
       "virtual_bot_ref": "OBJID_VirtualBot::fenrir",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -59,6 +71,8 @@
       "name": "Fury",
       "virtual_bot_ref": "OBJID_VirtualBot::fury",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -67,6 +81,8 @@
       "name": "Griffin",
       "virtual_bot_ref": "OBJID_VirtualBot::griffin",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -75,6 +91,8 @@
       "name": "Harpy",
       "virtual_bot_ref": "OBJID_VirtualBot::harpy",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -83,6 +101,8 @@
       "name": "Lancelot",
       "virtual_bot_ref": "OBJID_VirtualBot::lancelot",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -91,6 +111,8 @@
       "name": "Orochi",
       "virtual_bot_ref": "OBJID_VirtualBot::orochi",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -99,6 +121,8 @@
       "name": "Phantom",
       "virtual_bot_ref": "OBJID_VirtualBot::phantom",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -107,6 +131,8 @@
       "name": "Purifier",
       "virtual_bot_ref": "OBJID_VirtualBot::purifier",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -115,6 +141,8 @@
       "name": "Pursuer",
       "virtual_bot_ref": "OBJID_VirtualBot::pursuer",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -123,6 +151,8 @@
       "name": "Ravana",
       "virtual_bot_ref": "OBJID_VirtualBot::ravana",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -131,6 +161,8 @@
       "name": "Raven",
       "virtual_bot_ref": "OBJID_VirtualBot::raven",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -139,6 +171,8 @@
       "name": "Scorpion",
       "virtual_bot_ref": "OBJID_VirtualBot::scorpion",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -147,6 +181,8 @@
       "name": "Siren",
       "virtual_bot_ref": "OBJID_VirtualBot::siren",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -155,6 +191,8 @@
       "name": "Typhon",
       "virtual_bot_ref": "OBJID_VirtualBot::typhon",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -163,6 +201,8 @@
       "name": "Tyr",
       "virtual_bot_ref": "OBJID_VirtualBot::tyr",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -171,6 +211,8 @@
       "name": "Varangian",
       "virtual_bot_ref": "OBJID_VirtualBot::varangian",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -179,6 +221,8 @@
       "name": "Loki",
       "virtual_bot_ref": "OBJID_VirtualBot::loki",
       "release_date": "2025-06-17",
+      "manifest_id": "1783191766501180219",
+      "patch_released_at_utc": "2025-06-17T07:17:51Z",
       "pre_launch": false,
       "release_context": "Season 2: Power Surge",
       "source_article_ids": [
@@ -189,6 +233,8 @@
       "name": "Ceres",
       "virtual_bot_ref": "OBJID_VirtualBot::ceres",
       "release_date": "2025-07-15",
+      "manifest_id": "6039918519378518728",
+      "patch_released_at_utc": "2025-07-15T07:14:00Z",
       "pre_launch": false,
       "release_context": "Ceres Rising limited-time event",
       "source_article_ids": [
@@ -200,6 +246,8 @@
       "name": "Mesa",
       "virtual_bot_ref": "OBJID_VirtualBot::mesa",
       "release_date": "2025-07-29",
+      "manifest_id": "4039882065141667125",
+      "patch_released_at_utc": "2025-07-29T07:15:41Z",
       "pre_launch": false,
       "release_context": "Spark of Ingenuity Battle Pass (Update 1.2)",
       "source_article_ids": [
@@ -211,6 +259,8 @@
       "name": "Anansi",
       "virtual_bot_ref": "OBJID_VirtualBot::anansi",
       "release_date": "2025-08-12",
+      "manifest_id": "2489878289327873939",
+      "patch_released_at_utc": "2025-08-12T07:05:00Z",
       "pre_launch": false,
       "release_context": "Arachnid Protocol limited-time event",
       "source_article_ids": [
@@ -224,6 +274,8 @@
       "name": "Kumo",
       "virtual_bot_ref": "OBJID_VirtualBot::kumo",
       "release_date": "2025-09-23",
+      "manifest_id": "7050256552569802891",
+      "patch_released_at_utc": "2025-09-23T07:09:55Z",
       "pre_launch": false,
       "release_context": "Trap from the Warp update",
       "source_article_ids": [
@@ -236,6 +288,8 @@
       "name": "Decker",
       "virtual_bot_ref": "OBJID_VirtualBot::decker",
       "release_date": "2025-10-28",
+      "manifest_id": "608926238081997924",
+      "patch_released_at_utc": "2025-10-28T07:05:51Z",
       "pre_launch": false,
       "release_context": "Wild Hunt update",
       "source_article_ids": [
@@ -249,6 +303,8 @@
       "name": "Crix",
       "virtual_bot_ref": "OBJID_VirtualBot::crix",
       "release_date": "2025-11-11",
+      "manifest_id": "1640177700106009855",
+      "patch_released_at_utc": "2025-11-11T07:05:02Z",
       "pre_launch": false,
       "release_context": "Meet Crix update",
       "source_article_ids": [
@@ -261,6 +317,8 @@
       "name": "Hitcher",
       "virtual_bot_ref": "OBJID_VirtualBot::hitcher",
       "release_date": "2026-01-20",
+      "manifest_id": "4113826535141576657",
+      "patch_released_at_utc": "2026-01-20T07:08:43Z",
       "pre_launch": false,
       "release_context": "No Place to Hide update",
       "source_article_ids": [
@@ -273,6 +331,8 @@
       "name": "Heike",
       "virtual_bot_ref": "OBJID_VirtualBot::heike",
       "release_date": "2026-03-24",
+      "manifest_id": "4578646127172335342",
+      "patch_released_at_utc": "2026-03-24T07:06:09Z",
       "pre_launch": false,
       "release_context": "Steel Advance update",
       "source_article_ids": [
@@ -285,6 +345,8 @@
       "name": "Garuda",
       "virtual_bot_ref": "OBJID_VirtualBot::garuda",
       "release_date": "2026-04-14",
+      "manifest_id": "1512594299058000289",
+      "patch_released_at_utc": "2026-04-14T08:23:15Z",
       "pre_launch": false,
       "release_context": "Mirror Threat update",
       "source_article_ids": [
@@ -297,6 +359,8 @@
       "name": "Artemis",
       "virtual_bot_ref": "OBJID_VirtualBot::artemis",
       "release_date": "2026-05-19",
+      "manifest_id": "5911656272946768319",
+      "patch_released_at_utc": "2026-05-19T07:07:01Z",
       "pre_launch": false,
       "release_context": "Vanguard's Resolve Event Pass (May update)",
       "source_article_ids": [
@@ -308,6 +372,8 @@
       "name": "Wyrm",
       "virtual_bot_ref": "OBJID_VirtualBot::wyrm",
       "release_date": "2026-06-09",
+      "manifest_id": "6851508482193683865",
+      "patch_released_at_utc": "2026-06-09T07:08:09Z",
       "pre_launch": false,
       "release_context": "Lockdown Dash Battle Pass (June update)",
       "source_article_ids": [
@@ -319,6 +385,8 @@
       "name": "Relic Bulgasari",
       "virtual_bot_ref": "OBJID_VirtualBot::relic-bulgasari",
       "release_date": "2026-06-23",
+      "manifest_id": "2051578895192678048",
+      "patch_released_at_utc": "2026-06-23T07:22:19Z",
       "pre_launch": false,
       "release_context": "Ancient Relic Event Pass",
       "source_article_ids": [
@@ -331,6 +399,8 @@
       "name": "Relic Lancelot",
       "virtual_bot_ref": "OBJID_VirtualBot::relic-lancelot",
       "release_date": "2026-07-07",
+      "manifest_id": "2251982061535306745",
+      "patch_released_at_utc": "2026-07-07T07:21:38Z",
       "pre_launch": false,
       "release_context": "Faded Glory Battle Pass",
       "source_article_ids": [
@@ -343,6 +413,8 @@
       "name": "Helios",
       "virtual_bot_ref": "OBJID_VirtualBot::helios",
       "release_date": "2026-08-04",
+      "manifest_id": "6652119518685543174",
+      "patch_released_at_utc": "2026-08-04T07:50:06Z",
       "pre_launch": false,
       "release_context": "Scorching Heat Event Pass",
       "source_article_ids": [
@@ -354,6 +426,8 @@
       "name": "Relic Scorpion",
       "virtual_bot_ref": "OBJID_VirtualBot::relic-scorpion",
       "release_date": "2026-08-25",
+      "manifest_id": "79796906025168538",
+      "patch_released_at_utc": "2026-08-25T07:31:11Z",
       "pre_launch": false,
       "release_context": "Tooth and Claw Battle Pass",
       "source_article_ids": [
@@ -366,6 +440,8 @@
       "name": "Angler",
       "virtual_bot_ref": null,
       "release_date": "2026-09-15",
+      "manifest_id": "5891357370822898705",
+      "patch_released_at_utc": "2026-09-15T07:16:00Z",
       "pre_launch": false,
       "release_context": "Shadowed Bastion Event Pass",
       "source_article_ids": [
@@ -380,6 +456,8 @@
       "name": "Alpha",
       "virtual_bot_ref": "OBJID_VirtualBot::alpha",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -388,6 +466,8 @@
       "name": "Grim",
       "virtual_bot_ref": "OBJID_VirtualBot::grim",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -396,6 +476,8 @@
       "name": "Matriarch",
       "virtual_bot_ref": "OBJID_VirtualBot::matriarch",
       "release_date": null,
+      "manifest_id": null,
+      "patch_released_at_utc": null,
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
@@ -404,6 +486,8 @@
       "name": "Volta",
       "virtual_bot_ref": "OBJID_VirtualBot::volta",
       "release_date": "2025-06-17",
+      "manifest_id": "1783191766501180219",
+      "patch_released_at_utc": "2025-06-17T07:17:51Z",
       "pre_launch": false,
       "release_context": "Season 2: Power Surge",
       "source_article_ids": [
@@ -416,6 +500,8 @@
       "name": "Norna",
       "virtual_bot_ref": "OBJID_VirtualBot::norna",
       "release_date": "2025-12-23",
+      "manifest_id": "4468428617242203702",
+      "patch_released_at_utc": "2025-12-23T07:31:42Z",
       "pre_launch": false,
       "release_context": "Festive December update",
       "source_article_ids": [
