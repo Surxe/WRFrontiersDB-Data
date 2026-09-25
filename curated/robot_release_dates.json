@@ -12,7 +12,7 @@
     },
     "generated": "2026-09-23",
     "robot_count": 37,
-    "robots_with_known_date": 17,
+    "robots_with_known_date": 19,
     "titan_count": 5,
     "manifest_meaning": "manifest_id is the Steam depot build manifest for the maintenance deploy that shipped the robot; patch_released_at_utc is that build's exact publish time (UTC). Where a patch day had a later same-day hotfix build, the earlier maintenance build is used."
   },
@@ -40,16 +40,6 @@
     {
       "name": "Bulwark",
       "virtual_bot_ref": "OBJID_VirtualBot::bulwark",
-      "release_date": null,
-      "manifest_id": null,
-      "patch_released_at_utc": null,
-      "pre_launch": true,
-      "release_context": null,
-      "source_article_ids": []
-    },
-    {
-      "name": "Cyclops",
-      "virtual_bot_ref": "OBJID_VirtualBot::cyclops",
       "release_date": null,
       "manifest_id": null,
       "patch_released_at_utc": null,
@@ -168,16 +158,6 @@
       "source_article_ids": []
     },
     {
-      "name": "Scorpion",
-      "virtual_bot_ref": "OBJID_VirtualBot::scorpion",
-      "release_date": null,
-      "manifest_id": null,
-      "patch_released_at_utc": null,
-      "pre_launch": true,
-      "release_context": null,
-      "source_article_ids": []
-    },
-    {
       "name": "Siren",
       "virtual_bot_ref": "OBJID_VirtualBot::siren",
       "release_date": null,
@@ -216,6 +196,30 @@
       "pre_launch": true,
       "release_context": null,
       "source_article_ids": []
+    },
+    {
+      "name": "Cyclops",
+      "virtual_bot_ref": "OBJID_VirtualBot::cyclops",
+      "release_date": "2025-03-20",
+      "manifest_id": "7760327774040463908",
+      "patch_released_at_utc": "2025-03-20T11:08:20Z",
+      "pre_launch": false,
+      "release_context": "Season 1: Blockade",
+      "source_article_ids": [
+        185
+      ]
+    },
+    {
+      "name": "Scorpion",
+      "virtual_bot_ref": "OBJID_VirtualBot::scorpion",
+      "release_date": "2025-04-29",
+      "manifest_id": "3756727583674225429",
+      "patch_released_at_utc": "2025-04-29T07:04:28Z",
+      "pre_launch": false,
+      "release_context": "Season 1: Blockade",
+      "source_article_ids": [
+        207
+      ]
     },
     {
       "name": "Loki",
