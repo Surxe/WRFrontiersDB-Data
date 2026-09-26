@@ -5,12 +5,14 @@
             "module_name": "AmmoGenerator",
             "default_scalars": {}
         },
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_AmmoGenerator.2"
         ]
     },
     "BP_Ability_ArmorShield.0": {
         "id": "BP_Ability_ArmorShield.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_ArmorShield.2"
         ]
@@ -21,48 +23,56 @@
             "module_name": "Atrophy",
             "default_scalars": {}
         },
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Atrophy.2"
         ]
     },
     "BP_Ability_BlastWave.0": {
         "id": "BP_Ability_BlastWave.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_BlastWave.2"
         ]
     },
     "BP_Ability_BlockingField.0": {
         "id": "BP_Ability_BlockingField.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_BlockingField.2"
         ]
     },
     "BP_Ability_CamouflageWeb.0": {
         "id": "BP_Ability_CamouflageWeb.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_CamouflageWeb.2"
         ]
     },
     "BP_Ability_CounterAttack.0": {
         "id": "BP_Ability_CounterAttack.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_CounterAttack.3"
         ]
     },
     "BP_Ability_DashBlinkedVisible.0": {
         "id": "BP_Ability_DashBlinkedVisible.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_DashBlinkedVisible.1"
         ]
     },
     "BP_Ability_Dazzle.0": {
         "id": "BP_Ability_Dazzle.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Dazzle.3"
         ]
     },
     "BP_Ability_DeployShieldUlt.0": {
         "id": "BP_Ability_DeployShieldUlt.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_DeployShieldUlt.2"
         ]
@@ -73,120 +83,140 @@
             "module_name": "ElectricShield",
             "default_scalars": {}
         },
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_ElectricShield.2"
         ]
     },
     "BP_Ability_FloatingJetpack.0": {
         "id": "BP_Ability_FloatingJetpack.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_FloatingJetpack.2"
         ]
     },
     "BP_Ability_FuelReserve.0": {
         "id": "BP_Ability_FuelReserve.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_FuelReserve.2"
         ]
     },
     "BP_Ability_GhostTurret.0": {
         "id": "BP_Ability_GhostTurret.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_GhostTurret.2"
         ]
     },
     "BP_Ability_Grounded.0": {
         "id": "BP_Ability_Grounded.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Grounded.2"
         ]
     },
     "BP_Ability_Homing.0": {
         "id": "BP_Ability_Homing.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Homing.3"
         ]
     },
     "BP_Ability_InfiniteAmmo.0": {
         "id": "BP_Ability_InfiniteAmmo.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_InfiniteAmmo.3"
         ]
     },
     "BP_Ability_InstantReload.0": {
         "id": "BP_Ability_InstantReload.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_InstantReload.2"
         ]
     },
     "BP_Ability_IronVeil.0": {
         "id": "BP_Ability_IronVeil.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_IronVeil.3"
         ]
     },
     "BP_Ability_KineticPulse.0": {
         "id": "BP_Ability_KineticPulse.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_KineticPulse.2"
         ]
     },
     "BP_Ability_MineField.0": {
         "id": "BP_Ability_MineField.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_MineField.3"
         ]
     },
     "BP_Ability_Regeneration.0": {
         "id": "BP_Ability_Regeneration.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Regeneration.2"
         ]
     },
     "BP_Ability_RegenerationFull.0": {
         "id": "BP_Ability_RegenerationFull.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_RegenerationFull.2"
         ]
     },
     "BP_Ability_Repulsor.0": {
         "id": "BP_Ability_Repulsor.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Repulsor.2"
         ]
     },
     "BP_Ability_SmokeWall.0": {
         "id": "BP_Ability_SmokeWall.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_SmokeWall.2"
         ]
     },
     "BP_Ability_SpeedBoost.0": {
         "id": "BP_Ability_SpeedBoost.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_SpeedBoost.2"
         ]
     },
     "BP_Ability_Spotlight.0": {
         "id": "BP_Ability_Spotlight.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Spotlight.3"
         ]
     },
     "BP_Ability_SupplySurge.0": {
         "id": "BP_Ability_SupplySurge.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_SupplySurge.3"
         ]
     },
     "BP_Ability_TensionLink.0": {
         "id": "BP_Ability_TensionLink.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_TensionLink.3"
         ]
     },
     "BP_Ability_Umbrella.0": {
         "id": "BP_Ability_Umbrella.0",
+        "meshes": [],
         "abilities_refs": [
             "OBJID_Ability::BP_Ability_Umbrella.3"
         ]
@@ -202,6 +232,20 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Alpha_Chassis.1",
             "OBJID_Ability::BP_Module_Alpha_Chassis.2"
@@ -219,6 +263,12 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Alpha_ShoulderL.1"
         ]
@@ -235,6 +285,12 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Alpha_ShoulderL_Tutorial.1"
         ]
@@ -251,6 +307,12 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Alpha_ShoulderR.1"
         ]
@@ -263,6 +325,12 @@
                 "PrimaryArmor": 170000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Alpha_Torso.1"
         ]
@@ -278,6 +346,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Anansi_Chassis.1",
             "OBJID_Ability::BP_Module_Anansi_Chassis.2"
@@ -290,7 +380,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Anansi_ShoulderR.0": {
         "id": "BP_Module_Anansi_ShoulderR.0",
@@ -299,7 +395,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Anansi_Torso.0": {
         "id": "BP_Module_Anansi_Torso.0",
@@ -309,8 +411,97 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Anansi_Torso.1"
+        ]
+    },
+    "BP_Module_Angler_Chassis.0": {
+        "id": "BP_Module_Angler_Chassis.0",
+        "movement_type_ref": "OBJID_MovementType::DA_MovementType_TwoLegs_Agile.6",
+        "module_scaler": {
+            "module_name": "BP_Module_Harpy_Chassis",
+            "default_scalars": {
+                "LegsArmor": 52000.0,
+                "MaxSpeed": 2600.0,
+                "FuelCapacity": 16.0,
+                "HullShare": 7150.0,
+                "PrimaryArmor": 52000.0
+            }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegL.1"
+            }
+        ],
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Angler_Chassis.1",
+            "OBJID_Ability::BP_Module_Angler_Chassis.2"
+        ]
+    },
+    "BP_Module_Angler_ShoulderL.0": {
+        "id": "BP_Module_Angler_ShoulderL.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Harpy_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8250.0,
+                "PrimaryArmor": 42000.0
+            }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderL.1"
+            }
+        ]
+    },
+    "BP_Module_Angler_ShoulderR.0": {
+        "id": "BP_Module_Angler_ShoulderR.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Harpy_ShoulderL",
+            "default_scalars": {
+                "HullShare": 8250.0,
+                "PrimaryArmor": 42000.0
+            }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderR.1"
+            }
+        ]
+    },
+    "BP_Module_Angler_Torso.0": {
+        "id": "BP_Module_Angler_Torso.0",
+        "module_scaler": {
+            "module_name": "BP_Module_Harpy_Torso",
+            "default_scalars": {
+                "HullShare": 7150.0,
+                "PrimaryArmor": 62400.0
+            }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_Torso.1"
+            }
+        ],
+        "abilities_refs": [
+            "OBJID_Ability::BP_Module_Angler_Torso.1"
         ]
     },
     "BP_Module_Ares_Chassis.0": {
@@ -326,6 +517,20 @@
                 "PrimaryArmor": 48000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegL.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Ares_Chassis.1",
             "OBJID_Ability::BP_Module_Ares_Chassis.2"
@@ -339,7 +544,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Ares_ShoulderR.0": {
         "id": "BP_Module_Ares_ShoulderR.0",
@@ -349,7 +560,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Ares_Torso.0": {
         "id": "BP_Module_Ares_Torso.0",
@@ -360,6 +577,12 @@
                 "PrimaryArmor": 55680.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Ares_Torso.1"
         ]
@@ -377,6 +600,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Artemis_Chassis.1",
             "OBJID_Ability::BP_Module_Artemis_Chassis.2"
@@ -390,7 +627,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Artemis_ShoulderR.0": {
         "id": "BP_Module_Artemis_ShoulderR.0",
@@ -400,7 +643,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Artemis_Torso.0": {
         "id": "BP_Module_Artemis_Torso.0",
@@ -411,6 +660,16 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_Torso.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_Torso_FX.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Artemis_Torso.1"
         ]
@@ -423,7 +682,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_BulgasariTutorialDummy_ShoulderR.0": {
         "id": "BP_Module_BulgasariTutorialDummy_ShoulderR.0",
@@ -433,7 +698,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Bulgasari_Chassis.0": {
         "id": "BP_Module_Bulgasari_Chassis.0",
@@ -448,6 +719,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Bulgasari_Chassis.1",
             "OBJID_Ability::BP_Module_Bulgasari_Chassis.2"
@@ -461,7 +746,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Bulgasari_ShoulderR.0": {
         "id": "BP_Module_Bulgasari_ShoulderR.0",
@@ -471,7 +762,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Bulgasari_Torso.0": {
         "id": "BP_Module_Bulgasari_Torso.0",
@@ -482,6 +779,12 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Bulgasari_Torso.1"
         ]
@@ -499,6 +802,20 @@
                 "PrimaryArmor": 64000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Bulwark_Chassis.1",
             "OBJID_Ability::BP_Module_Bulwark_Chassis.2"
@@ -512,7 +829,13 @@
                 "HullShare": 8000.0,
                 "PrimaryArmor": 36000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Bulwark_ShoulderR.0": {
         "id": "BP_Module_Bulwark_ShoulderR.0",
@@ -522,7 +845,13 @@
                 "HullShare": 8000.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Bulwark_Torso.0": {
         "id": "BP_Module_Bulwark_Torso.0",
@@ -533,6 +862,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Bulwark_Torso.1"
         ]
@@ -550,6 +885,20 @@
                 "PrimaryArmor": 40000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Cyclops_Chassis.1",
             "OBJID_Ability::BP_Module_Cyclops_Chassis.2"
@@ -563,7 +912,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Cyclops_ShoulderR.0": {
         "id": "BP_Module_Cyclops_ShoulderR.0",
@@ -573,7 +928,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Cyclops_Torso.0": {
         "id": "BP_Module_Cyclops_Torso.0",
@@ -584,6 +945,12 @@
                 "PrimaryArmor": 48000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Cyclops_Torso.1"
         ]
@@ -600,6 +967,20 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Demeter_Chassis.1",
             "OBJID_Ability::BP_Module_Demeter_Chassis.2"
@@ -613,7 +994,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Demeter_ShoulderR.0": {
         "id": "BP_Module_Demeter_ShoulderR.0",
@@ -623,7 +1010,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Demeter_Torso.0": {
         "id": "BP_Module_Demeter_Torso.0",
@@ -634,6 +1027,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Demeter_Torso.1"
         ]
@@ -651,6 +1050,20 @@
                 "PrimaryArmor": 72000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Fenrir_Chassis.1",
             "OBJID_Ability::BP_Module_Fenrir_Chassis.2"
@@ -664,7 +1077,13 @@
                 "HullShare": 12100.0,
                 "PrimaryArmor": 56000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Fenrir_ShoulderR.0": {
         "id": "BP_Module_Fenrir_ShoulderR.0",
@@ -674,7 +1093,13 @@
                 "HullShare": 12100.0,
                 "PrimaryArmor": 56000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Fenrir_Torso.0": {
         "id": "BP_Module_Fenrir_Torso.0",
@@ -685,6 +1110,12 @@
                 "PrimaryArmor": 92000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Fenrir_Torso.1"
         ]
@@ -702,6 +1133,20 @@
                 "PrimaryArmor": 40000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Fury_Chassis.1",
             "OBJID_Ability::BP_Module_Fury_Chassis.2"
@@ -715,7 +1160,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Fury_ShoulderR.0": {
         "id": "BP_Module_Fury_ShoulderR.0",
@@ -725,7 +1176,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Fury_Torso.0": {
         "id": "BP_Module_Fury_Torso.0",
@@ -736,6 +1193,12 @@
                 "PrimaryArmor": 48000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Fury_Torso.1"
         ]
@@ -753,6 +1216,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Garuda_Chassis.1",
             "OBJID_Ability::BP_Module_Garuda_Chassis.2"
@@ -766,7 +1243,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Garuda_ShoulderR.0": {
         "id": "BP_Module_Garuda_ShoulderR.0",
@@ -776,7 +1259,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Garuda_Torso.0": {
         "id": "BP_Module_Garuda_Torso.0",
@@ -787,6 +1276,12 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Garuda_Torso.1"
         ]
@@ -804,6 +1299,20 @@
                 "PrimaryArmor": 56000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegL.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Griffin_Chassis.1",
             "OBJID_Ability::BP_Module_Griffin_Chassis.2"
@@ -817,7 +1326,13 @@
                 "HullShare": 7700.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Griffin_ShoulderR.0": {
         "id": "BP_Module_Griffin_ShoulderR.0",
@@ -827,7 +1342,13 @@
                 "HullShare": 7700.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Griffin_Torso.0": {
         "id": "BP_Module_Griffin_Torso.0",
@@ -838,6 +1359,12 @@
                 "PrimaryArmor": 63200.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Griffin_Torso.1"
         ]
@@ -853,6 +1380,20 @@
                 "PrimaryArmor": 90000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Grim_Chassis.1",
             "OBJID_Ability::BP_Module_Grim_Chassis.2"
@@ -870,6 +1411,12 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Grim_ShoulderL.1"
         ]
@@ -886,6 +1433,12 @@
                 "PrimaryArmor": 140000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Grim_ShoulderR.1"
         ]
@@ -898,6 +1451,12 @@
                 "PrimaryArmor": 100000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Grim_Torso.1"
         ]
@@ -915,6 +1474,20 @@
                 "PrimaryArmor": 52000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Harpy_Chassis.1",
             "OBJID_Ability::BP_Module_Harpy_Chassis.2"
@@ -928,7 +1501,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Harpy_ShoulderR.0": {
         "id": "BP_Module_Harpy_ShoulderR.0",
@@ -938,7 +1517,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Harpy_Torso.0": {
         "id": "BP_Module_Harpy_Torso.0",
@@ -949,6 +1534,12 @@
                 "PrimaryArmor": 62400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Harpy_Torso.1"
         ]
@@ -966,6 +1557,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Heike_Chassis.1",
             "OBJID_Ability::BP_Module_Heike_Chassis.2"
@@ -979,7 +1584,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Heike_ShoulderR.0": {
         "id": "BP_Module_Heike_ShoulderR.0",
@@ -989,7 +1600,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Heike_Torso.0": {
         "id": "BP_Module_Heike_Torso.0",
@@ -1000,6 +1617,16 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_Torso.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_Effect.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Heike_Torso.1"
         ]
@@ -1007,6 +1634,20 @@
     "BP_Module_Helios_Chassis.0": {
         "id": "BP_Module_Helios_Chassis.0",
         "movement_type_ref": "OBJID_MovementType::DA_MovementType_Monowheel.5",
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegL.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Helios_Chassis.2",
             "OBJID_Ability::BP_Module_Helios_Chassis.1"
@@ -1020,7 +1661,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Helios_ShoulderR.0": {
         "id": "BP_Module_Helios_ShoulderR.0",
@@ -1030,7 +1677,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Helios_Torso.0": {
         "id": "BP_Module_Helios_Torso.0",
@@ -1041,6 +1694,12 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Helios_Torso.1"
         ]
@@ -1058,6 +1717,20 @@
                 "PrimaryArmor": 72000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Hitcher_Chassis.1",
             "OBJID_Ability::BP_Module_Hitcher_Chassis.2"
@@ -1068,17 +1741,39 @@
         "module_scaler": {
             "module_name": "BP_Module_Hitcher_ShoulderL",
             "default_scalars": {}
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Hitcher_ShoulderR.0": {
         "id": "BP_Module_Hitcher_ShoulderR.0",
         "module_scaler": {
             "module_name": "BP_Module_Hitcher_ShoulderL",
             "default_scalars": {}
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Hitcher_Torso.0": {
         "id": "BP_Module_Hitcher_Torso.0",
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_Torso.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_Drone.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Hitcher_Torso.1"
         ]
@@ -1096,6 +1791,20 @@
                 "PrimaryArmor": 52000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Inquisitor_Chassis.1",
             "OBJID_Ability::BP_Module_Inquisitor_Chassis.2"
@@ -1109,7 +1818,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Inquisitor_ShoulderR.0": {
         "id": "BP_Module_Inquisitor_ShoulderR.0",
@@ -1119,7 +1834,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Inquisitor_Torso.0": {
         "id": "BP_Module_Inquisitor_Torso.0",
@@ -1130,6 +1851,12 @@
                 "PrimaryArmor": 62400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Inquisitor_Torso.1"
         ]
@@ -1145,6 +1872,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Kernel_Chassis.1",
             "OBJID_Ability::BP_Module_Kernel_Chassis.2"
@@ -1157,7 +1906,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Kernel_ShoulderR.0": {
         "id": "BP_Module_Kernel_ShoulderR.0",
@@ -1166,7 +1921,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Kernel_Torso.0": {
         "id": "BP_Module_Kernel_Torso.0",
@@ -1176,6 +1937,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Kernel_Torso.1"
         ]
@@ -1193,6 +1960,28 @@
                 "PrimaryArmor": 64000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Kumo_Chassis.1",
             "OBJID_Ability::BP_Module_Kumo_Chassis.2"
@@ -1206,7 +1995,13 @@
                 "HullShare": 8000.0,
                 "PrimaryArmor": 36000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Kumo_ShoulderR.0": {
         "id": "BP_Module_Kumo_ShoulderR.0",
@@ -1216,7 +2011,13 @@
                 "HullShare": 8000.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Kumo_Torso.0": {
         "id": "BP_Module_Kumo_Torso.0",
@@ -1227,6 +2028,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Kumo_Torso.1"
         ]
@@ -1244,6 +2051,20 @@
                 "PrimaryArmor": 72000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Lancelot_Chassis.1",
             "OBJID_Ability::BP_Module_Lancelot_Chassis.2"
@@ -1257,7 +2078,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Lancelot_ShoulderR.0": {
         "id": "BP_Module_Lancelot_ShoulderR.0",
@@ -1267,7 +2094,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Lancelot_Torso.0": {
         "id": "BP_Module_Lancelot_Torso.0",
@@ -1278,6 +2111,12 @@
                 "PrimaryArmor": 86400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Lancelot_Torso.1"
         ]
@@ -1295,6 +2134,20 @@
                 "PrimaryArmor": 48000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Loki_Chassis.1",
             "OBJID_Ability::BP_Module_Loki_Chassis.2"
@@ -1308,7 +2161,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 44000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Loki_ShoulderR.0": {
         "id": "BP_Module_Loki_ShoulderR.0",
@@ -1318,7 +2177,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 44000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Loki_Torso.0": {
         "id": "BP_Module_Loki_Torso.0",
@@ -1329,6 +2194,12 @@
                 "PrimaryArmor": 57600.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Loki_Torso.1"
         ]
@@ -1344,7 +2215,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/MaterialIcon/SK_MaterialIcon.1"
+            }
+        ]
     },
     "BP_Module_Matriarch_Chassis.0": {
         "id": "BP_Module_Matriarch_Chassis.0",
@@ -1357,6 +2234,20 @@
                 "PrimaryArmor": 100000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Matriarch_Chassis.1",
             "OBJID_Ability::BP_Module_Matriarch_Chassis.2"
@@ -1371,6 +2262,12 @@
                 "ShieldDelayReduction": 0.26
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Matriarch_ShoulderL.1"
         ]
@@ -1384,6 +2281,12 @@
                 "ShieldDelayReduction": 0.26
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderR.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Matriarch_ShoulderR.1"
         ]
@@ -1396,6 +2299,12 @@
                 "PrimaryArmor": 200000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Matriarch_Torso.1"
         ]
@@ -1413,6 +2322,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Mesa_Chassis.1",
             "OBJID_Ability::BP_Module_Mesa_Chassis.2"
@@ -1426,7 +2349,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Mesa_ShoulderR.0": {
         "id": "BP_Module_Mesa_ShoulderR.0",
@@ -1436,7 +2365,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Mesa_Torso.0": {
         "id": "BP_Module_Mesa_Torso.0",
@@ -1447,6 +2382,12 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Mesa_Torso.1"
         ]
@@ -1462,6 +2403,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Nipper_Chassis.1",
             "OBJID_Ability::BP_Module_Nipper_Chassis.2"
@@ -1475,7 +2438,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Nipper_ShoulderR.0": {
         "id": "BP_Module_Nipper_ShoulderR.0",
@@ -1485,7 +2454,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Nipper_Torso.0": {
         "id": "BP_Module_Nipper_Torso.0",
@@ -1495,6 +2470,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Nipper_Torso.1"
         ]
@@ -1510,6 +2491,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Norna_Chassis.1",
             "OBJID_Ability::BP_Module_Norna_Chassis.2"
@@ -1524,6 +2527,12 @@
                 "PrimaryArmor": 32000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_L.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Norna_ShoulderL.1"
         ]
@@ -1537,6 +2546,12 @@
                 "PrimaryArmor": 32000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_R.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Norna_ShoulderR.1"
         ]
@@ -1550,6 +2565,12 @@
                 "PrimaryArmor": 54400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Norna_Torso.1"
         ]
@@ -1565,6 +2586,20 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Orochi_Chassis.1",
             "OBJID_Ability::BP_Module_Orochi_Chassis.2"
@@ -1577,7 +2612,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Orochi_ShoulderR.0": {
         "id": "BP_Module_Orochi_ShoulderR.0",
@@ -1586,7 +2627,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Orochi_Torso.0": {
         "id": "BP_Module_Orochi_Torso.0",
@@ -1596,6 +2643,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Orochi_Torso.1"
         ]
@@ -1613,6 +2666,20 @@
                 "PrimaryArmor": 55200.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Phantom_Chassis.1",
             "OBJID_Ability::BP_Module_Phantom_Chassis.2"
@@ -1626,7 +2693,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Phantom_ShoulderR.0": {
         "id": "BP_Module_Phantom_ShoulderR.0",
@@ -1636,7 +2709,13 @@
                 "HullShare": 8250.0,
                 "PrimaryArmor": 42000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Phantom_Torso.0": {
         "id": "BP_Module_Phantom_Torso.0",
@@ -1647,6 +2726,12 @@
                 "PrimaryArmor": 57600.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Phantom_Torso.1"
         ]
@@ -1662,6 +2747,20 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Pursuer_Chassis.1",
             "OBJID_Ability::BP_Module_Pursuer_Chassis.2"
@@ -1674,7 +2773,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Pursuer_ShoulderR.0": {
         "id": "BP_Module_Pursuer_ShoulderR.0",
@@ -1683,7 +2788,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Pursuer_Torso.0": {
         "id": "BP_Module_Pursuer_Torso.0",
@@ -1693,6 +2804,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Pursuer_Torso.1"
         ]
@@ -1710,6 +2827,20 @@
                 "PrimaryArmor": 76000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Ravana_Chassis.1",
             "OBJID_Ability::BP_Module_Ravana_Chassis.2"
@@ -1723,7 +2854,13 @@
                 "HullShare": 11000.0,
                 "PrimaryArmor": 46400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Ravana_ShoulderR.0": {
         "id": "BP_Module_Ravana_ShoulderR.0",
@@ -1733,7 +2870,13 @@
                 "HullShare": 11000.0,
                 "PrimaryArmor": 46400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Ravana_Torso.0": {
         "id": "BP_Module_Ravana_Torso.0",
@@ -1744,6 +2887,12 @@
                 "PrimaryArmor": 100000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Ravana_Torso.1"
         ]
@@ -1761,6 +2910,20 @@
                 "PrimaryArmor": 60000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Raven_Chassis.1",
             "OBJID_Ability::BP_Module_Raven_Chassis.2"
@@ -1774,7 +2937,13 @@
                 "HullShare": 8800.0,
                 "PrimaryArmor": 38800.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Raven_ShoulderR.0": {
         "id": "BP_Module_Raven_ShoulderR.0",
@@ -1784,7 +2953,13 @@
                 "HullShare": 8800.0,
                 "PrimaryArmor": 38800.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Raven_Torso.0": {
         "id": "BP_Module_Raven_Torso.0",
@@ -1795,6 +2970,12 @@
                 "PrimaryArmor": 64000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Raven_Torso.1"
         ]
@@ -1812,6 +2993,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicBulgasari_Chassis.1",
             "OBJID_Ability::BP_Module_RelicBulgasari_Chassis.2"
@@ -1825,7 +3020,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL01.1"
+            }
+        ]
     },
     "BP_Module_RelicBulgasari_ShoulderL_02.0": {
         "id": "BP_Module_RelicBulgasari_ShoulderL_02.0",
@@ -1835,7 +3036,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL02.1"
+            }
+        ]
     },
     "BP_Module_RelicBulgasari_ShoulderR_01.0": {
         "id": "BP_Module_RelicBulgasari_ShoulderR_01.0",
@@ -1845,7 +3052,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR01.1"
+            }
+        ]
     },
     "BP_Module_RelicBulgasari_ShoulderR_02.0": {
         "id": "BP_Module_RelicBulgasari_ShoulderR_02.0",
@@ -1855,7 +3068,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR02.1"
+            }
+        ]
     },
     "BP_Module_RelicBulgasari_Torso.0": {
         "id": "BP_Module_RelicBulgasari_Torso.0",
@@ -1866,6 +3085,12 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicBulgasari_Torso.1"
         ]
@@ -1883,6 +3108,20 @@
                 "PrimaryArmor": 72000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicLancelot_Chassis.1",
             "OBJID_Ability::BP_Module_RelicLancelot_Chassis.2"
@@ -1896,7 +3135,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL01.1"
+            }
+        ]
     },
     "BP_Module_RelicLancelot_ShoulderL_02.0": {
         "id": "BP_Module_RelicLancelot_ShoulderL_02.0",
@@ -1906,7 +3151,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL02.1"
+            }
+        ]
     },
     "BP_Module_RelicLancelot_ShoulderR_01.0": {
         "id": "BP_Module_RelicLancelot_ShoulderR_01.0",
@@ -1916,7 +3167,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR01.1"
+            }
+        ]
     },
     "BP_Module_RelicLancelot_ShoulderR_02.0": {
         "id": "BP_Module_RelicLancelot_ShoulderR_02.0",
@@ -1926,7 +3183,13 @@
                 "HullShare": 9900.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR02.1"
+            }
+        ]
     },
     "BP_Module_RelicLancelot_Torso.0": {
         "id": "BP_Module_RelicLancelot_Torso.0",
@@ -1937,6 +3200,12 @@
                 "PrimaryArmor": 86400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicLancelot_Torso.1"
         ]
@@ -1954,6 +3223,20 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicScorpion_Chassis.1",
             "OBJID_Ability::BP_Module_RelicScorpion_Chassis.2"
@@ -1967,7 +3250,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL01.1"
+            }
+        ]
     },
     "BP_Module_RelicScorpion_ShoulderL_02.0": {
         "id": "BP_Module_RelicScorpion_ShoulderL_02.0",
@@ -1977,7 +3266,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL02.1"
+            }
+        ]
     },
     "BP_Module_RelicScorpion_ShoulderR_01.0": {
         "id": "BP_Module_RelicScorpion_ShoulderR_01.0",
@@ -1987,7 +3282,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR01.1"
+            }
+        ]
     },
     "BP_Module_RelicScorpion_ShoulderR_02.0": {
         "id": "BP_Module_RelicScorpion_ShoulderR_02.0",
@@ -1997,7 +3298,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR02.1"
+            }
+        ]
     },
     "BP_Module_RelicScorpion_Torso.0": {
         "id": "BP_Module_RelicScorpion_Torso.0",
@@ -2008,6 +3315,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_RelicScorpion_Torso.1"
         ]
@@ -2023,7 +3336,21 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_ChassisLegL.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_ChassisLegR.1"
+            }
+        ]
     },
     "BP_Module_RobotSkin_ShoulderL.0": {
         "id": "BP_Module_RobotSkin_ShoulderL.0",
@@ -2033,7 +3360,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_RobotSkin_ShoulderR.0": {
         "id": "BP_Module_RobotSkin_ShoulderR.0",
@@ -2043,7 +3376,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_RobotSkin_Torso.0": {
         "id": "BP_Module_RobotSkin_Torso.0",
@@ -2053,7 +3392,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 55680.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/RobotSkin/SK_RobotSkin_Torso.1"
+            }
+        ]
     },
     "BP_Module_Scorpion_Chassis.0": {
         "id": "BP_Module_Scorpion_Chassis.0",
@@ -2068,6 +3413,20 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Scorpion_Chassis.1",
             "OBJID_Ability::BP_Module_Scorpion_Chassis.2"
@@ -2081,7 +3440,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Scorpion_ShoulderR.0": {
         "id": "BP_Module_Scorpion_ShoulderR.0",
@@ -2091,7 +3456,13 @@
                 "HullShare": 8750.0,
                 "PrimaryArmor": 80000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Scorpion_Torso.0": {
         "id": "BP_Module_Scorpion_Torso.0",
@@ -2102,6 +3473,12 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Scorpion_Torso.1"
         ]
@@ -2119,6 +3496,20 @@
                 "PrimaryArmor": 56000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Siren_Chassis.1",
             "OBJID_Ability::BP_Module_Siren_Chassis.2"
@@ -2132,7 +3523,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 33600.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Siren_ShoulderR.0": {
         "id": "BP_Module_Siren_ShoulderR.0",
@@ -2142,7 +3539,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 33600.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Siren_Torso.0": {
         "id": "BP_Module_Siren_Torso.0",
@@ -2153,6 +3556,12 @@
                 "PrimaryArmor": 56000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Siren_Torso.1"
         ]
@@ -2168,7 +3577,21 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_Pelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_LegL.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_LegR.1"
+            }
+        ]
     },
     "BP_Module_SkinIcon_ShoulderL.0": {
         "id": "BP_Module_SkinIcon_ShoulderL.0",
@@ -2178,7 +3601,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_SkinIcon_ShoulderR.0": {
         "id": "BP_Module_SkinIcon_ShoulderR.0",
@@ -2188,7 +3617,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 36400.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_SkinIcon_Torso.0": {
         "id": "BP_Module_SkinIcon_Torso.0",
@@ -2198,7 +3633,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 55680.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/TechnicalMaterials/RobotCustomization/SkinIcon/SK_SkinIcon_Torso.1"
+            }
+        ]
     },
     "BP_Module_SphereMat.0": {
         "id": "BP_Module_SphereMat.0",
@@ -2211,7 +3652,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 48000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Modules/MaterialSphere/SK_SphereMat.1"
+            }
+        ]
     },
     "BP_Module_SpiderBig_Chassis.0": {
         "id": "BP_Module_SpiderBig_Chassis.0",
@@ -2224,6 +3671,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisPelvis_Big.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegRF_BIG.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegLF_BIG.0"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegLB_BIG.1"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegRB_BIG.0"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_SpiderBig_Chassis.1",
             "OBJID_Ability::BP_Module_SpiderBig_Chassis.2"
@@ -2240,6 +3709,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisPelvis.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegRF.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegLF.0"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegLB.0"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegRB.0"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spider_Chassis.2",
             "OBJID_Ability::BP_Module_Spider_Chassis.1"
@@ -2256,6 +3747,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisPelvis.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRF.0"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLF.0"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLB.0"
+            },
+            {
+                "component_class": "SkeletalMeshComponent",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRB.0"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spider_Chassis_V2.1",
             "OBJID_Ability::BP_Module_Spider_Chassis_V2.2"
@@ -2272,6 +3785,28 @@
                 "PrimaryArmor": 80000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLF.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLB.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRB.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spire_Chassis.1",
             "OBJID_Ability::BP_Module_Spire_Chassis.2"
@@ -2286,6 +3821,12 @@
                 "PrimaryArmor": 32000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_L.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spire_ShoulderL.1"
         ]
@@ -2299,6 +3840,12 @@
                 "PrimaryArmor": 32000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_R.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spire_ShoulderR.1"
         ]
@@ -2312,6 +3859,12 @@
                 "PrimaryArmor": 54400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Spire_Torso.1"
         ]
@@ -2329,6 +3882,20 @@
                 "PrimaryArmor": 40000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Typhon_Chassis.1",
             "OBJID_Ability::BP_Module_Typhon_Chassis.2"
@@ -2342,7 +3909,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Typhon_ShoulderR.0": {
         "id": "BP_Module_Typhon_ShoulderR.0",
@@ -2352,7 +3925,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Typhon_Torso.0": {
         "id": "BP_Module_Typhon_Torso.0",
@@ -2363,6 +3942,12 @@
                 "PrimaryArmor": 54400.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Typhon_Torso.1"
         ]
@@ -2380,6 +3965,20 @@
                 "PrimaryArmor": 50000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Tyr_Chassis.1",
             "OBJID_Ability::BP_Module_Tyr_Chassis.2"
@@ -2393,7 +3992,13 @@
                 "HullShare": 7700.0,
                 "PrimaryArmor": 28000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Tyr_ShoulderR.0": {
         "id": "BP_Module_Tyr_ShoulderR.0",
@@ -2403,7 +4008,13 @@
                 "HullShare": 7700.0,
                 "PrimaryArmor": 28000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Tyr_Torso.0": {
         "id": "BP_Module_Tyr_Torso.0",
@@ -2414,6 +4025,12 @@
                 "PrimaryArmor": 67200.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Tyr_Torso.1"
         ]
@@ -2431,6 +4048,20 @@
                 "PrimaryArmor": 44000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Vityaz_Chassis.1",
             "OBJID_Ability::BP_Module_Vityaz_Chassis.2"
@@ -2444,7 +4075,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL01.1"
+            }
+        ]
     },
     "BP_Module_Vityaz_ShoulderL02.0": {
         "id": "BP_Module_Vityaz_ShoulderL02.0",
@@ -2454,7 +4091,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL02.1"
+            }
+        ]
     },
     "BP_Module_Vityaz_ShoulderR01.0": {
         "id": "BP_Module_Vityaz_ShoulderR01.0",
@@ -2464,7 +4107,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR01.1"
+            }
+        ]
     },
     "BP_Module_Vityaz_ShoulderR02.0": {
         "id": "BP_Module_Vityaz_ShoulderR02.0",
@@ -2474,7 +4123,13 @@
                 "HullShare": 7150.0,
                 "PrimaryArmor": 32000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR02.1"
+            }
+        ]
     },
     "BP_Module_Vityaz_Torso.0": {
         "id": "BP_Module_Vityaz_Torso.0",
@@ -2482,6 +4137,12 @@
             "module_name": "BP_Module_Varangian_Torso",
             "default_scalars": {}
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_Torso.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Vityaz_Torso.1"
         ]
@@ -2499,6 +4160,20 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisPelvis.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegR.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegL.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Wyrm_Chassis.1",
             "OBJID_Ability::BP_Module_Wyrm_Chassis.2"
@@ -2512,7 +4187,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderL.1"
+            }
+        ]
     },
     "BP_Module_Wyrm_ShoulderR.0": {
         "id": "BP_Module_Wyrm_ShoulderR.0",
@@ -2522,7 +4203,13 @@
                 "HullShare": 5500.0,
                 "PrimaryArmor": 40000.0
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderR.1"
+            }
+        ]
     },
     "BP_Module_Wyrm_Torso.0": {
         "id": "BP_Module_Wyrm_Torso.0",
@@ -2533,6 +4220,16 @@
                 "PrimaryArmor": 68000.0
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_Torso.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_TorsoFX.1"
+            }
+        ],
         "abilities_refs": [
             "OBJID_Ability::BP_Module_Wyrm_Torso.1"
         ]
@@ -2644,7 +4341,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Aftershock/SK_Aftershock.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Aftershock_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Aftershock_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Alpha.0": {
         "id": "BP_Weapon_Alpha.0",
@@ -2702,7 +4419,13 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Alpha/SK_Alpha_Weapon.0"
+            }
+        ]
     },
     "BP_Weapon_Bayonet.0": {
         "id": "BP_Weapon_Bayonet.0",
@@ -2766,6 +4489,18 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Bayonet/SK_Bayonet.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Bayonet_Adapter.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -2929,7 +4664,340 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Bisector/SK_Bisector.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Bisector_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Bisector_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
+    },
+    "BP_Weapon_Breacher.0": {
+        "id": "BP_Weapon_Breacher.0",
+        "fire_modes": {
+            "FiringBehavior": {
+                "MovementComponent": {
+                    "TurnSpeed": 50.0,
+                    "CruiseHeightMin": 3500.0,
+                    "CruiseHeightRange": 2500.0,
+                    "bCruiseRoll": true,
+                    "CruiseRollSeconds": 0.5,
+                    "CruiseHeightObstacleTestStep": 182.0,
+                    "HomingClimbSpeed": 12000.0,
+                    "HomingCruiseSpeed": 20000.0,
+                    "HomingAttackSpeed": 15000.0,
+                    "HomingClimbAcceleration": 3000.0,
+                    "HomingCruiseAcceleration": 18000.0,
+                    "HomingAttackAcceleration": 18000.0,
+                    "HomingClimbTurnRate": 190.0,
+                    "HomingCruiseTurnRate": 100.0,
+                    "HomingAttackTurnRate": 125.0,
+                    "DistanceToDisableVelocityPrediction": 8000.0,
+                    "InitialSpeed": 5000.0,
+                    "MaxSpeed": 20000.0,
+                    "bIsHomingProjectile": true
+                },
+                "DirectDamage": {
+                    "DamageArmor": 775.0,
+                    "DamageShield": 1350.0
+                },
+                "AoeDamage": {
+                    "Radius": 300.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 250.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 300.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "TitanChargePerHit": 0.3,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 55000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 55001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 150000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                },
+                "DistanceSettingsCurve": {
+                    "EditorCurveData": {
+                        "Keys": [
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": -1.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 0.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 1.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 100000.0,
+                                "Value": 1.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 100001.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Linear",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 150000.0,
+                                "Value": 0.05,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            },
+                            {
+                                "InterpMode": "RCIM_Constant",
+                                "TangentMode": "RCTM_Auto",
+                                "TangentWeightMode": "RCTWM_WeightedNone",
+                                "Time": 150001.0,
+                                "Value": 0.0,
+                                "ArriveTangent": 0.0,
+                                "ArriveTangentWeight": 0.0,
+                                "LeaveTangent": 0.0,
+                                "LeaveTangentWeight": 0.0
+                            }
+                        ]
+                    }
+                },
+                "InitialLifeSpan": 25.0,
+                "ProjectilesPerShot": 6,
+                "TimeBetweenShots": 0.66,
+                "Spread": {
+                    "X": 1.2,
+                    "Y": 1.2
+                },
+                "AbilityChargePointsOnHit": 0.33
+            }
+        },
+        "module_scaler": {
+            "default_scalars": {
+                "DirectDamage": {
+                    "DamageArmor": 452.0,
+                    "DamageShield": 452.0
+                },
+                "AoeDamage": {
+                    "Radius": 1500.0,
+                    "DamageArmor": 2600.0,
+                    "DamageShield": 2600.0,
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.2,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 200.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1500.0,
+                                    "Value": 0.2,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ClipSize": 1,
+                "ProjectileSpeed": 5000.0,
+                "TimeToReload": 3.9,
+                "TimeBetweenShots": 1.5,
+                "DistanceSettings": {
+                    "InterpMode": "RCIM_Linear",
+                    "CurveData": [
+                        {
+                            "Distance": 0.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MinDistanceState"
+                        },
+                        {
+                            "Distance": 1.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "ExpansionDistanceState"
+                        },
+                        {
+                            "Distance": 55000.0,
+                            "DirectDamageMultiplier": 1.0,
+                            "DistanceState": "EffectiveDistanceState"
+                        },
+                        {
+                            "Distance": 55001.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "MaxDistanceState"
+                        },
+                        {
+                            "Distance": 150000.0,
+                            "DirectDamageMultiplier": 0.05,
+                            "DistanceState": "DeathDistanceState"
+                        }
+                    ]
+                }
+            }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Breacher/SK_Breacher.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Breacher_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Breacher_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Buckshot.0": {
         "id": "BP_Weapon_Buckshot.0",
@@ -3134,6 +5202,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Buckshot/SK_Buckshot.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Buckshot_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Buckshot_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire"
         }
@@ -3374,7 +5462,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Alpha/SK_Alpha_Weapon.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_TitanAlpha_Adapter.0"
+            }
+        ]
     },
     "BP_Weapon_Cascade.0": {
         "id": "BP_Weapon_Cascade.0",
@@ -3684,7 +5784,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Cascade/SK_Cascade_Weapon.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Cascade_Adapter.0"
+            }
+        ]
     },
     "BP_Weapon_Conflux.0": {
         "id": "BP_Weapon_Conflux.0",
@@ -3924,6 +6036,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Conflux/SK_Conflux.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 0.3
         }
@@ -4240,7 +6372,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Cascade/Var02/SK_Cascade_V02_Weapon.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Cascade_Adapter.0"
+            }
+        ]
     },
     "BP_Weapon_Dragoon.0": {
         "id": "BP_Weapon_Dragoon.0",
@@ -4496,6 +6640,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Dragoon/SK_Dragoon.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Dragoon_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Dragoon_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -4837,7 +7001,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/SlugShoota/SK_SlugShoota.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_SlugShoota_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_SlugShoota_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_GhostTurret.0": {
         "id": "BP_Weapon_GhostTurret.0",
@@ -4933,6 +7117,12 @@
                 "TimeBetweenShots": 0.08
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Modules/GhostTurret/SK_GhostTurret.1"
+            }
+        ],
         "misc": {
             "AimType": "Auto",
             "AutoTargetingPolicy": "Nearest",
@@ -5059,6 +7249,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Gimcoil/SK_Gimcoil.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Gimcoil_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Gimcoil_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -5218,6 +7428,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Glory/SK_Glory.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Glory_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Glory_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire"
         }
@@ -5279,6 +7509,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Ghostbusters/SK_Gozer.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Gozer_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Gozer_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadChunkSize": 30
         }
@@ -5583,6 +7833,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/GrenadeLauncher/SK_GrenadeLauncher.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_GrenadeLauncher_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_GrenadeLauncher_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "bAllowAssistanceTrajectoryPrediction": false
@@ -5827,6 +8097,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Hefty/SK_Hefty.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 0.3
         }
@@ -6070,7 +8360,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Hive/SK_Hive_L.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hive_Adapter_L.0"
+            }
+        ]
     },
     "BP_Weapon_Hive_R.0": {
         "id": "BP_Weapon_Hive_R.0",
@@ -6311,7 +8613,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Hive/SK_Hive_R.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hive_Adapter_R.0"
+            }
+        ]
     },
     "BP_Weapon_Horde.0": {
         "id": "BP_Weapon_Horde.0",
@@ -6393,7 +8707,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Horde/SK_Horde.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Horde_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Horde_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_ION.0": {
         "id": "BP_Weapon_ION.0",
@@ -6477,6 +8811,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/ION/SK_Ion.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_ION_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_ION_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "ReloadChunkSize": 10
@@ -6593,7 +8947,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Incinerator/SK_Incinerator.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Incinerator_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Incinerator_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Jigsaw.0": {
         "id": "BP_Weapon_Jigsaw.0",
@@ -6768,6 +9142,18 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Jigsaw/SK_Jigsaw.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper",
             "VerticalAdjustmentAngle": 1.0
@@ -6833,7 +9219,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Katzbalger/SK_Grim_Weapon_Katzbalger.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Katzbalger_Adapter.0"
+            }
+        ]
     },
     "BP_Weapon_Locust.0": {
         "id": "BP_Weapon_Locust.0",
@@ -7073,6 +9471,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Locust/SK_Locust.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Locust_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Locust_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "VerticalAdjustmentAngle": 4.0
@@ -7309,7 +9727,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/MLx2/SK_MLx2.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_MLx2_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_MLx2_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Noricum.0": {
         "id": "BP_Weapon_Noricum.0",
@@ -7644,6 +10082,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Noricum/SK_Noricum.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Noricum_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Noricum_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "bAllowAssistanceTrajectoryPrediction": false
         }
@@ -7885,6 +10343,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Nucleon/SK_Nucleon.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Nucleon_Adapter_R.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Nucleon_Adapter_L.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -8130,6 +10608,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Orkan/SK_Orkan.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "ReloadChunkSize": 4
@@ -8413,6 +10911,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Pinata/SK_Pinata.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pinata_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pinata_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadChunkSize": 4
         }
@@ -8653,6 +11171,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Pulsar/SK_Pulsar.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pulsar_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pulsar_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -8937,6 +11475,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Punisher/SK_Punisher.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Punisher_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Punisher_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 0.5
         }
@@ -9003,7 +11561,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Pyre/SK_Pyre.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pyre_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Pyre_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Railgun.0": {
         "id": "BP_Weapon_Railgun.0",
@@ -9280,7 +11858,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Railgun/SK_Railgun.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Railgun_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Railgun_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_RelicOrkan.0": {
         "id": "BP_Weapon_RelicOrkan.0",
@@ -9523,6 +12121,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/RelicOrkan/SK_RelicOrkan.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "ReloadChunkSize": 2
@@ -9802,6 +12420,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/RelicPinata/SK_RelicPinata.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Orkan_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadChunkSize": 4
         }
@@ -10035,6 +12673,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/RelicThunder/SK_RelicThunder.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Thunder_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Thunder_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire"
         }
@@ -10102,6 +12760,22 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/TechAnim/SK_Master_Weapon.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_R.0"
+            }
+        ],
         "misc": {
             "AimType": "Auto",
             "bIsPassive": true
@@ -10311,7 +12985,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Scatter/SK_Scatter.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scatter_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scatter_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Scourge.0": {
         "id": "BP_Weapon_Scourge.0",
@@ -10373,7 +13067,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Scourge/SK_Scourge.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Scrubber_L.0": {
         "id": "BP_Weapon_Scrubber_L.0",
@@ -10607,7 +13321,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Scrubber/SK_Scrubber_L.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hive_Adapter_L.0"
+            }
+        ]
     },
     "BP_Weapon_Scrubber_R.0": {
         "id": "BP_Weapon_Scrubber_R.0",
@@ -10841,7 +13567,19 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Scrubber/SK_Scrubber_R.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hive_Adapter_R.0"
+            }
+        ]
     },
     "BP_Weapon_ShadowStrike.0": {
         "id": "BP_Weapon_ShadowStrike.0",
@@ -10907,6 +13645,22 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/TechAnim/SK_Master_Weapon.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Scourge_Adapter_R.0"
+            }
+        ],
         "misc": {
             "AutoTargetingPolicy": "Nearest",
             "bIsPassive": true,
@@ -11043,6 +13797,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Shocktrain/SK_Shocktrain.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Shocktrain_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Shocktrain_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "NoShootingTime": 0.4
@@ -11284,7 +14058,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Shredder/SK_Shredder.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Shredder_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Shredder_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Skuld.0": {
         "id": "BP_Weapon_Skuld.0",
@@ -11524,6 +14318,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Skuld/SK_Skuld.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Hefty_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 0.3
         }
@@ -11766,6 +14580,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Slugger/SK_Slugger.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Slugger_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Slugger_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 0.4
         }
@@ -12119,6 +14953,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/StickyGun/SK_StickyGun.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_StickyGun_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_StickyGun_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadChunkSize": 5
         }
@@ -12275,6 +15129,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Stormpike/SK_Stormpike.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Stormpike_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Stormpike_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire"
         }
@@ -12397,6 +15271,7 @@
                 }
             }
         },
+        "meshes": [],
         "misc": {
             "ZoomType": "Sniper",
             "AimType": "Auto",
@@ -12635,6 +15510,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Thunder/SK_Thunder.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Thunder_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Thunder_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire"
         }
@@ -12729,6 +15624,12 @@
                 "TimeBetweenShots": 1.5
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Trebuchet/SK_Trebuchet.0"
+            }
+        ],
         "misc": {
             "AimType": "Auto",
             "AutoTargetingPolicy": "Unattacked"
@@ -13029,6 +15930,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Toxin/SK_Toxin.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Toxin_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Toxin_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadChunkSize": 10,
             "VerticalAdjustmentAngle": 0.5
@@ -13252,6 +16173,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Trebuchet/SK_Trebuchet.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Trebuchet_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Trebuchet_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -13460,6 +16401,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Trident/SK_Trident.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Trident_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Trident_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "VerticalAdjustmentAngle": 0.3
@@ -13718,6 +16679,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Tusk/SK_Tusk.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Tusk_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Tusk_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "VerticalAdjustmentAngle": 1.0,
             "bAllowAssistanceTrajectoryPrediction": false
@@ -13991,7 +16972,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Twinflare/SK_Twinflare.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Twinflare_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Twinflare_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Velite.0": {
         "id": "BP_Weapon_Velite.0",
@@ -14269,6 +17270,30 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Velite/SK_Velite.1"
+            },
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Velite/SK_Velite_Effect.1"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Velite_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Velite_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }
@@ -14507,7 +17532,27 @@
                     ]
                 }
             }
-        }
+        },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Vortex/SK_Vortex.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Vortex_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Vortex_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ]
     },
     "BP_Weapon_Zenit.0": {
         "id": "BP_Weapon_Zenit.0",
@@ -14709,6 +17754,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Zenit/SK_Zenit.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Zenit_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Zenit_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ReloadType": "ReloadWhileFire",
             "ReloadChunkSize": 3
@@ -14831,6 +17896,26 @@
                 }
             }
         },
+        "meshes": [
+            {
+                "component_class": "BP_RobotSkeletalMeshComponent_C",
+                "mesh_path": "/Game/Sparrow/Art/Weapons/Zeus/SK_Zeus.0"
+            }
+        ],
+        "adapters": [
+            {
+                "mount_way": "Left",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Zeus_Adapter_L.0"
+            },
+            {
+                "mount_way": "Right",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Zeus_Adapter_R.0"
+            },
+            {
+                "mount_way": "Standard",
+                "adapter_path": "/Game/Sparrow/Modules/Adapters/BP_Adapter_Standard.0"
+            }
+        ],
         "misc": {
             "ZoomType": "Sniper"
         }

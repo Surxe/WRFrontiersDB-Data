@@ -4620,6 +4620,217 @@
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_CamouflageWeb"
     },
+    "BP_Module_Angler_Chassis.1": {
+        "id": "BP_Module_Angler_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 4500.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 5000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 4500.0,
+                    "MinSpeedToStartAction": 1900.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 8000.0,
+                    "VelocityThreshold": 2000.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 8000.0,
+                    "VelocityThreshold": 2000.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 5000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 4500.0,
+                    "MinSpeedToStartAction": 1900.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "EffectType": "Mobility",
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Angler_Chassis.2": {
+        "id": "BP_Module_Angler_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 1.1,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
+            "EffectType": "Mobility",
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": {
+                "FloatCurve": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 140000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.1,
+                            "Value": 70000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1200.0,
+                            "Value": 15000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Angler_Torso.1": {
+        "id": "BP_Module_Angler_Torso.1",
+        "misc": {
+            "EffectType": "Support",
+            "bDeactivateIfOwnerDie": true,
+            "InitialDuration": 30.0
+        },
+        "targeting": {
+            "TargetingActionWithConfirmation": {
+                "ConeRadius": 60000.0,
+                "ConeHalfAngleInDegrees": 15.0,
+                "MaxTargetNum": 1
+            }
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "bCheckShield": true,
+                    "Attitude": "ETeamAttitude::Friendly",
+                    "MaxDistance": 50000.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_TeslaFeed",
+            "TableNamespace": "Ability_name",
+            "en": "Tesla Feed"
+        },
+        "description": {
+            "Key": "ABL_descr_TeslaFeed",
+            "TableNamespace": "Ability_descripton",
+            "en": "Marks an allied robot. For {ActDuration}, while the marked robot remains in line of sight, it restores 4% of its shield per second and deals {Dmg} damage per second to the nearest enemy within 120 m. Cooldown: {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_TeslaFeed"
+    },
     "BP_Module_Ares_Chassis.1": {
         "id": "BP_Module_Ares_Chassis.1",
         "misc": {

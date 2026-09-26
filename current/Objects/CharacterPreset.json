@@ -7907,6 +7907,77 @@
         "character_type": "Mech",
         "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_MLx2.0"
     },
+    "DA_Preset_DevbotAngler.0": {
+        "id": "DA_Preset_DevbotAngler.0",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAngler",
+        "name": {
+            "Key": "CMP_name_Angler_Torso",
+            "TableNamespace": "Component_name",
+            "en": "Angler"
+        },
+        "modules": [
+            {
+                "module_ref": "OBJID_Module::DA_Module_ChassisAngler.2",
+                "socket_name": "None",
+                "parent_socket_index": -1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_TorsoAngler.1",
+                "socket_name": "Root",
+                "parent_socket_index": 0,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAngler.0",
+                "socket_name": "Shoulder_L",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Breacher.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 2,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_ShoulderAngler.0",
+                "socket_name": "Shoulder_R",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Breacher.0",
+                "socket_name": "Shoulder_Weapon_0",
+                "parent_socket_index": 4,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_AmmoGenerator.1",
+                "socket_name": "Ability",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Ability_Spotlight.1",
+                "socket_name": "UltAbility",
+                "parent_socket_index": 1,
+                "level": 1
+            },
+            {
+                "module_ref": "OBJID_Module::DA_Module_Weapon_Breacher.0",
+                "socket_name": "Torso_Weapon_0",
+                "parent_socket_index": 1,
+                "level": 1
+            }
+        ],
+        "pilot": {
+            "pilot_ref": "OBJID_Pilot::DA_Pilot_Common54.0"
+        },
+        "is_factory_preset": true,
+        "character_type": "Mech",
+        "weapon_module_ref": "OBJID_Module::DA_Module_Weapon_Breacher.0"
+    },
     "DA_Preset_DevbotAres.0": {
         "id": "DA_Preset_DevbotAres.0",
         "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAres",
@@ -7986,7 +8057,7 @@
     },
     "DA_Preset_DevbotArtemis.0": {
         "id": "DA_Preset_DevbotArtemis.0",
-        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi",
+        "icon": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotArtemis",
         "name": {
             "Key": "CMP_name_Artemis_Torso",
             "TableNamespace": "Component_name",

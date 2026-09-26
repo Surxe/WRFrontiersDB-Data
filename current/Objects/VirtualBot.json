@@ -40,6 +40,25 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi"
     },
+    "angler": {
+        "id": "angler",
+        "name": {
+            "Key": "CMP_name_Angler_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Angler"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisAngler.2",
+            "OBJID_Module::DA_Module_TorsoAngler.1",
+            "OBJID_Module::DA_Module_ShoulderAngler.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotAngler.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAngler"
+    },
     "ares": {
         "id": "ares",
         "name": {
@@ -76,7 +95,7 @@
             "OBJID_CharacterPreset::DA_Preset_DevbotArtemis.0"
         ],
         "has_distinct_shoulders": false,
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotAnansi"
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotArtemis"
     },
     "bulgasari": {
         "id": "bulgasari",

@@ -23,6 +23,7 @@
 * Tyr's 维修无人机: 部署一架治疗无人机，在 {**副.x**}秒 内为 {**主.x**}米 范围内的友军每秒恢复 2100 装甲。冷却时间：{CD}。
 * Decker's 连锁过载: 感染一名敌方机器人，对其施加病毒，在6秒内每秒造成 {**主.x**} 点伤害。效果期间，若有另一名敌人进入 {**副.x**}米 范围，病毒将传染给对方。此效果最多可连锁8次。
 * Bulgasari's 铁雨: 轰炸一片区域，每枚火箭弹可对{**副.x**}米爆炸半径范围内的所有模块造成{**主.x**}点伤害。
+* Angler's 特斯拉补给: 标记一台盟友机器人。持续{**主.x**}秒，只要被标记的机器人保持在视线范围内，每秒就会恢复其 4% 的护盾，并对 120 米内最近的敌人每秒造成 {**副.x**} 伤害。冷却时间：{CD}。
 * Cyclops's 死亡射线: 短暂延迟后，释放一道能量束，在 {**副.x**}秒 内每秒造成 {**主.x**} 点伤害。激活期间，你的机器人无法移动。
 * Varangian's 能量穹顶: 部署一道半径{**副.x**}米的屏障，该屏障最多可吸收{**主.x**}点敌方攻击伤害。
 * Artemis's 猎人印记: 发射一枚炮弹，击中时显示敌人，并在 {**副.x**}秒 内使其受到的护甲伤害增加 20%。如果目标在受影响期间被摧毁，所有在过去 10 秒内对其造成伤害的盟友，其每个护甲区域都将恢复 {**主.x**} 点护甲。冷却时间：{CD}。
@@ -96,6 +97,7 @@
 * Tyr's Drohnenreparatur: Setzt eine Heilungsdrohne ein, die Verbündeten im Umkreis von {**Primär.x**}m für {**Sekundär.x**}s pro Sekunde 2100 Panzerung wiederherstellt. Abklingzeit: {CD}.
 * Decker's Kettenüberlastung: Infiziert einen gegnerischen Roboter mit einem Virus, der 6 Sekunden lang {**Primär.x**} Schaden pro Sekunde verursacht. Gelangt ein anderer Gegner während der Wirkungsdauer in den {**Sekundär.x**}m-Bereich, springt der Virus auf ihn über. Der Effekt kann sich bis zu 8-mal verketten.
 * Bulgasari's Eisenregen: Bombardiert ein Gebiet und fügt in einem Radius von {**Sekundär.x**}m allen Modulen {**Primär.x**} Schaden pro Rakete zu.
+* Angler's Tesla-Einspeisung: Markiert einen verbündeten Roboter. Für {**Primär.x**}s, solange der markierte Roboter in Sichtlinie bleibt, regeneriert er 4 % seines Schildes pro Sekunde und fügt dem nächsten Gegner innerhalb von 120 m {**Sekundär.x**} Schaden pro Sekunde zu. Abklingzeit: {CD}.
 * Cyclops's Todesstrahl: Setzt nach einer kurzen Verzögerung einen Energiestrahl frei, der pro Sekunde {**Primär.x**} Schaden über {**Sekundär.x**}s verursacht. Dein Roboter kann während der Aktivierung nicht gehen.
 * Varangian's Energiekuppel: Aktiviert eine Barriere mit einem Umkreis von {**Sekundär.x**}m, die bis zu {**Primär.x**} Schaden durch feindliche Angriffe absorbiert.
 * Artemis's Mal des Jägers: Feuert ein Projektil ab, das bei Treffern einen Gegner enthüllt und den erlittenen Rüstungsschaden {**Sekundär.x**}s lang um 20 % erhöht. Wenn das Ziel zerstört wird, während es betroffen ist, stellen alle Verbündeten, die ihm in den letzten 10 Sekunden Schaden zugefügt haben, an jeder Rüstungszone {**Primär.x**} Rüstung wieder her. Abklingzeit: {CD}.
@@ -169,6 +171,7 @@
 * Tyr's Dron naprawczy: Rozmieszcza drona naprawczego, który przywraca 2100 pancerza na sekundę sojusznikom w promieniu {**Podstawowy.x**} m przez {**Drugoplanowy.x**} sek. Czas odnowienia: {CD}.
 * Decker's Przeciążenie Kaskadowe: Infekuje wrogiego robota wirusem, który zadaje {**Podstawowy.x**} obrażeń na sekundę przez 6 sekund. Jeśli w tym czasie inny przeciwnik znajdzie się w zasięgu {**Drugoplanowy.x**} m, wirus przeskakuje również na niego. Może przeskoczyć do 8 razy.
 * Bulgasari's Żelazny deszcz: Rozpoczyna ostrzał obszarowy, podczas którego każda rakieta zadaje {**Podstawowy.x**} obrażeń wszystkich modułów w polu rażenia {**Drugoplanowy.x**} m.
+* Angler's Zasilanie Tesli: Oznacza sojuszniczego robota. Na {**Podstawowy.x**} sek, gdy oznaczony robot pozostaje w polu widzenia, przywraca 4% swojej tarczy na sekundę i zadaje {**Drugoplanowy.x**} obrażeń na sekundę najbliższemu wrogowi w promieniu 120 m. Czas odnowienia: {CD}.
 * Cyclops's Promień śmierci: Po krótkim opóźnieniu uwalnia wiązkę energii, która zadaje {**Podstawowy.x**} obrażeń na sekundę przez {**Drugoplanowy.x**} sek. Twój robot nie może chodzić, gdy umiejętność jest aktywna.
 * Varangian's Kopuła energetyczna: Uaktywnia barierę osłony o promieniu {**Drugoplanowy.x**} m, która pochłania do {**Podstawowy.x**} obrażeń zadawanych przez atakujących wrogów.
 * Artemis's Znak łowcy: Wystrzeliwuje pocisk, który przy trafieniu ujawnia wroga, zwiększając otrzymywane obrażenia pancerza o 20% przez {**Drugoplanowy.x**} sek. Jeśli cel zostanie zniszczony pod wpływem efektu, wszyscy sojusznicy, którzy zadali mu obrażenia w ciągu ostatnich 10 sekund, odnawiają {**Podstawowy.x**} pancerza w każdej strefie pancerza. Czas odnowienia: {CD}.
@@ -242,6 +245,7 @@
 * Tyr's Dron de reparación: Despliega un dron de curación que restaura 2100 de armadura por segundo a los aliados dentro de {**Primario.x**} m durante {**Secundario.x**} s. Enfriamiento: {CD}.
 * Cubierta's Sobrecarga en Cadena: Infecta a un robot enemigo con un virus que inflige {**Primario.x**} de daño por segundo durante 6 segundos. Si otro enemigo entra en un radio de {**Secundario.x**} m durante el efecto, el virus salta a él. Puede rebotar hasta 8 veces.
 * Bulgasari's Lluvia de hierro: Bombardea un área infligiendo {**Primario.x**} de daño por cohete a todos los módulos en un radio de explosión de {**Secundario.x**} m.
+* Angler's Carga Tesla: Marca a un robot aliado. Durante {**Primario.x**} s, mientras el robot marcado permanezca en la línea de visión, restaura un 4% de su escudo por segundo e inflige {**Secundario.x**} de daño por segundo al enemigo más cercano dentro de los 120 m. Tiempo de recarga: {CD}.
 * Cyclops's Rayo de la muerte: Tras un breve retraso, lanza un haz de energía que inflige {**Primario.x**} de daño por segundo durante {**Secundario.x**} s. Tu robot no puede caminar mientras esté activa.
 * Varangian's Cúpula energética: Despliega una barrera con un radio de {**Secundario.x**} m que absorbe hasta {**Primario.x**} de daño de los ataques enemigos.
 * Artemis's Marca del cazador: Dispara un proyectil que revela a un enemigo al impactar, lo que aumenta el daño de armadura recibido en un 20 % durante {**Secundario.x**} s. Si el objetivo es destruido mientras está afectado, todos los aliados que le hayan infligido daño en los últimos 10 segundos restauran {**Primario.x**} de armadura en cada zona de armadura. Enfriamiento: {CD}.
@@ -315,6 +319,7 @@
 * 티르's 수리 드론: 치유 드론을 배치하여 {**보조.x**}초 동안 {**주.x**}m 범위 내 아군의 장갑을 초당 2100 회복합니다. 재사용 대기시간: {CD}.
 * 데커's 연쇄 과부하: 적 로봇을 바이러스로 감염시켜 6초 동안 초당 {**주.x**} 피해를 입힙니다. 효과가 지속되는 동안 다른 적이 {**보조.x**}m 범위 내로 들어오면 바이러스가 전이됩니다. 최대 8번까지 연쇄됩니다.
 * 불가사리's 강철비: 해당 지역을 폭격하여 {**보조.x**}m 폭발 반경 내의 모든 모듈에 로켓 한 발당 {**주.x**} 피해를 입힙니다.
+* Angler's 테슬라 피드: 아군 로봇을 표식합니다. {**주.x**}초 동안 표식된 로봇이 시야에 남아 있는 동안 초당 실드의 4%를 복구하고 120m 내의 가장 가까운 적에게 초당 {**보조.x**} 피해를 줍니다. 재사용 대기시간: {CD}.
 * 사이클롭스's 죽음의 광선: 짧은 지연 후 에너지 광선을 발사하여 {**보조.x**}초 동안 초당 {**주.x**}의 피해를 입힙니다. 활성화 중에는 로봇이 걸을 수 없습니다.
 * 바랑기안's 에너지 돔: 적의 공격으로부터 최대 {**주.x**}의 피해를 흡수하는 {**보조.x**}m 반경의 장벽을 배치합니다.
 * Artemis's 사냥꾼의 징표: 적중 시 적을 드러내는 발사체를 발사하여 {**보조.x**}초 동안 받는 아머 피해를 20% 증가시킵니다. 효과가 지속되는 동안 대상이 파괴되면, 지난 10초 내에 피해를 입힌 모든 아군이 각 아머 구역의 아머를 {**주.x**}만큼 회복합니다. 재사용 대기시간: {CD}.
@@ -388,6 +393,7 @@
 * Tyr's Drone de Reparo: Implanta um drone de cura que restaura 2100 de armadura por segundo aos aliados dentro de {**Primário.x**}m por {**Secundário.x**}s. Recarga: {CD}.
 * Decker's Sobrecarga em Cadeia: Infecta uma máquina inimiga com um vírus que causa {**Primário.x**} de dano por segundo durante 6 segundos. Se outra máquina inimiga entrar no raio de {**Secundário.x**}m durante o efeito, o vírus se espalha para ela. Pode se encadear até 8 vezes.
 * Bulgasari's Chuva de Balas: Bombardeia uma área, causando {**Primário.x**} de dano por foguete a todos os módulos dentro de um raio de explosão de {**Secundário.x**}m.
+* Angler's Alimentação Tesla: Marca um robô aliado. Por {**Primário.x**}s, enquanto o robô marcado permanecer na linha de visão, ele restaura 4% do seu escudo por segundo e causa {**Secundário.x**} de dano por segundo ao inimigo mais próximo em um raio de 120 m. Tempo de recarga: {CD}.
 * Cyclops's Raio da Morte: Após um curto intervalo, dispara um feixe de energia que causa {**Primário.x**} de dano por segundo durante {**Secundário.x**}s. Seu robô não pode andar enquanto ela estiver ativa.
 * Varangian's Domo de Energia: Posiciona uma barreira com um raio de {**Secundário.x**}m que absorve até {**Primário.x**} de dano dos ataques inimigos.
 * Artemis's Marca do Caçador: Dispara um projétil que revela um inimigo ao atingir, aumentando o dano de armadura recebido em 20% por {**Secundário.x**}s. Se o alvo for destruído enquanto estiver afetado, todos os aliados que causaram dano a ele nos últimos 10 segundos restauram {**Primário.x**} de armadura em cada zona de armadura. Recarga: {CD}.
@@ -461,6 +467,7 @@
 * Tyr's 修復ドローン: 回復ドローンを展開し、{**サブ.x**}秒 の間、{**メイン.x**}m 内の味方の装甲を毎秒 2100 回復する。クールダウン：{CD}。
 * デッカー's 連鎖オーバーロード: 敵機をウイルスに感染させ、毎秒{**メイン.x**}ダメージを6秒間与える。効果中に別の敵機が{**サブ.x**}m以内に入るとウイルスが伝染し、最大8回まで連鎖する。
 * Bulgasari's 鉄の雨: エリアを砲撃し、爆発半径{**サブ.x**}m以内のすべてのモジュールにロケット1発につき{**メイン.x**}ダメージを与える。
+* Angler's テスラ・フィード: 味方ロボットにマークを付ける。{**メイン.x**}秒の間、マークされたロボットが視界内にとどまっている間、毎秒自身のシールドの4%を回復し、120m以内にいる最も近い敵に毎秒{**サブ.x**}ダメージを与える。クールダウン：{CD}。
 * Cyclops's デス・レイ: 短い遅延の後、エネルギービームを放ち、{**サブ.x**}秒の間、1秒あたり{**メイン.x**}のダメージを与える。発動中、ロボットは歩行できない。
 * Varangian's エネルギードーム: 半径{**サブ.x**}m のバリアを展開し、敵の攻撃から最大{**メイン.x**}ダメージを吸収する。
 * Artemis's ハンターの印: 命中した敵を露呈させる発射体を発射し、{**サブ.x**}秒の間、受けるアーマーダメージを20%増加させる。効果中にターゲットが破壊された場合、過去10秒以内にダメージを与えたすべての味方は、各アーマーゾーンのアーマーを{**メイン.x**}回復する。クールダウン: {CD}。
@@ -534,6 +541,7 @@
 * Tyr's Onarım Dronu: Bir iyileştirme dronu konuşlandırır ve {**İkincil.x**}sn boyunca {**Birincil.x**}m içindeki müttefiklere saniye başına 2100 zırh yeniler. Bekleme süresi: {CD}.
 * Decker's Zincirleme Aşırı Yük: Düşman bir robotu, 6 saniye boyunca saniye başına {**Birincil.x**} hasar veren bir virüsle enfekte eder. Etki süresince {**İkincil.x**}m menziline başka bir düşman girerse virüs ona da sıçrar. Bu etki 8 defaya kadar zincirlenebilir.
 * Bulgasari's Demir Yağmur: Bir alanı bombalar, {**İkincil.x**}m yarıçaplı bir patlama alanı içindekilere roket başına tüm modüllere {**Birincil.x**} hasar verir.
+* Angler's Tesla Beslemesi: Müttefik bir robotu işaretler. {**Birincil.x**}sn boyunca, işaretlenen robot görüş hattında kaldığı sürece saniye başına kalkanının %4 kadarlık kısmını yeniler ve 120 m içindeki en yakın düşmana saniye başına {**İkincil.x**} hasar verir. Bekleme süresi: {CD}.
 * Cyclops's Ölüm Işını: Kısa bir gecikmenin ardından, {**İkincil.x**}sn boyunca saniyede {**Birincil.x**} hasar veren bir enerji ışını yayar. Robotunuz bu yetenek etkinken yürüyemez.
 * Varangian's Enerji Kubbesi: En fazla {**Birincil.x**} hasar soğuran {**İkincil.x**}m yarıçapı olan bir bariyer konuşlandırır.
 * Artemis's Avcı Nişanı: Çarptığında bir düşmanı açığa çıkaran bir mermi ateşler ve {**İkincil.x**}sn boyunca alınan zırh hasarını %20 artırır. Hedef bu etkideyken yok edilirse, son 10 saniye içinde ona hasar veren tüm müttefikler her zırh bölgesinde {**Birincil.x**} zırh yeniler. Bekleme süresi: {CD}.
@@ -607,6 +615,7 @@
 * Tyr's Drone réparateur: Déploie un drone de soin qui restaure 2100 points d’armure par seconde aux alliés dans un rayon de {**Primaire.x**} m pendant {**Secondaire.x**} s. Recharge : {CD}.
 * Decker's Surcharge en cascade: Infecte un mécha ennemi avec un virus qui inflige {**Primaire.x**} DPS pendant 6 s. Si un autre ennemi s'approche à moins de {**Secondaire.x**} m durant l'effet, le virus se propage à lui. Peut s'enchaîner jusqu'à 8 fois.
 * Bulgasari's Pluie de fer: Bombarde une zone, infligeant {**Primaire.x**} points de dégâts par roquette à tous les modules dans un rayon d'explosion de {**Secondaire.x**} m.
+* Angler's Alimentation Tesla: Marque un robot allié. Pendant {**Primaire.x**} s, tant que le robot marqué reste dans la ligne de mire, il restaure 4 % de son bouclier par seconde et inflige {**Secondaire.x**} dégâts par seconde à l'ennemi le plus proche dans un rayon de 120 m. Temps de recharge : {CD}.
 * Cyclops's Rayon mortel: Après un court délai, libère un faisceau d'énergie qui inflige {**Primaire.x**} points de dégâts par seconde pendant {**Secondaire.x**} s. Votre robot ne peut pas marcher lorsqu'il est actif.
 * Varangian's Dôme d'énergie: Déploie une barrière d'un rayon de {**Secondaire.x**} m qui absorbe jusqu'à {**Primaire.x**} points de dégâts des attaques ennemies.
 * Artemis's Marque du chasseur: Tire un projectile qui révèle un ennemi à l'impact, augmentant les dégâts d'armure subis de 20 % pendant {**Secondaire.x**} s. Si la cible est détruite alors qu'elle est affectée, tous les alliés l'ayant endommagée au cours des 10 dernières secondes restaurent {**Primaire.x**} points d'armure dans chaque zone d'armure. Temps de recharge : {CD}.
@@ -680,6 +689,7 @@
 * Tyr's Ремонтный дрон: Разворачивает лечебный дрон, который восстанавливает союзникам в радиусе {**Основное.x**}м по 2100 единиц брони в секунду в течение {**Второстепенное.x**}сек.. Перезарядка: {CD}.
 * Decker's Каскадная перегрузка: Заражает вражеского робота вирусом, который наносит {**Основное.x**} урона в секунду в течение 6 сек. Если другой противник окажется в радиусе {**Второстепенное.x**}м во время действия эффекта, вирус перескочит на него. Эффект может распространиться до 8 раз.
 * Bulgasari's Железный дождь: Выпускает залп по области {**Второстепенное.x**}м. Каждая ракета наносит {**Основное.x**} ед. урона всем модулям.
+* Angler's Подпитка Теслы: Помечает союзного робота. В течение {**Основное.x**}сек., пока помеченный робот остается в зоне видимости, он восстанавливает 4% своего щита в секунду и наносит {**Второстепенное.x**} урона в секунду ближайшему врагу в радиусе 120 м. Перезарядка: {CD}.
 * Cyclops's Луч смерти: После небольшой задержки выпускает энергетический луч, который наносит {**Основное.x**} урона в секунду в течение {**Второстепенное.x**}сек.. Ваш робот не может идти, пока она активна.
 * Varangian's Энергокупол: Создаёт барьер радиусом {**Второстепенное.x**}м, не дающий врагам войти в его область действия или выйти из неё. Поглощает до {**Основное.x**} ед. урона.
 * Artemis's Метка охотника: Выпускает снаряд, который при попадании обнаруживает противника, увеличивая получаемый им урон по броне на 20% в течение {**Второстепенное.x**}сек.. Если цель уничтожена во время действия эффекта, все союзники, наносившие ей урон в последние 10 секунд, восстанавливают {**Основное.x**} брони в каждой зоне бронирования. Перезарядка: {CD}.
@@ -753,6 +763,7 @@
 * Tyr's 維修子機: 部署一架治療無人機，在 {**次要.x**}秒 內為 {**主要.x**}公尺 範圍內的友軍每秒恢復 2100 裝甲。冷卻時間：{CD}。
 * Decker's 鏈式超載: 使敵方機甲感染病毒，在 6 秒內每秒造成 {**主要.x**} 傷害。效果期間，若有其他敵人進入 {**次要.x**}公尺 範圍，病毒就會轉移至其身上。最多可連鎖 8 次。
 * Bulgasari's 鋼鐵火雨: 轟炸特定範圍，在 {**次要.x**}公尺 爆破半徑內每一枚火箭對所有模組造成 {**主要.x**} 傷害。
+* Angler's 特斯拉補給: 標記一台盟友機器人。持續{**主要.x**}秒，只要被標記的機器人保持在視線範圍內，每秒就會恢復其 4% 的護盾，並對 120 公尺內最近的敵人每秒造成 {**次要.x**} 傷害。冷卻時間：{CD}。
 * Cyclops's 死亡射線: 短暫延遲後，釋放能量束，在 {**次要.x**}秒 內每秒造成 {**主要.x**} 傷害。激活期間，你的機器人無法行走。
 * Varangian's 能量穹頂: 部署範圍 {**次要.x**}公尺 的屏障。該屏障能吸收最多 {**主要.x**} 來自敵人的傷害。
 * Artemis's 獵人印記: 發射一枚砲彈，擊中時顯露敵人，並在 {**次要.x**}秒 內使其受到的裝甲傷害增加 20%。如果目標在受影響期間被摧毀，所有在過去 10 秒內對其造成傷害的盟友，其每個裝甲區域都將恢復 {**主要.x**} 裝甲。冷卻時間：{CD}。
@@ -826,6 +837,7 @@
 * Tyr's Repair Drone: Deploys a healing drone, restoring 2100 armor per second to allies within {**Primary.x**}m for {**Secondary.x**}s. Cooldown {CD}.
 * Decker's Chain Overload: Infects an enemy robot with a virus that deals {**Primary.x**} damage per second for 6 seconds. If another enemy comes within {**Secondary.x**}m during the effect, the virus jumps to them. Can chain up to 8 times.
 * Bulgasari's Iron Rain: Bombards an area, dealing {**Primary.x**} damage per rocket to all modules within a {**Secondary.x**}m blast radius.
+* Angler's Tesla Feed: Marks an allied robot. For {**Primary.x**}s, while the marked robot remains in line of sight, it restores 4% of its shield per second and deals {**Secondary.x**} damage per second to the nearest enemy within 120 m. Cooldown: {CD}.
 * Cyclops's Death Ray: After a short delay, unleashes an energy beam that deals {**Primary.x**} damage per second for {**Secondary.x**}s. Your robot can't walk while it's active.
 * Varangian's Energy Dome: Deploys a barrier with {**Secondary.x**}m radius that absorbs up to {**Primary.x**} damage from enemy attacks.
 * Artemis's Hunter's Mark: Fires a projectile that reveals an enemy on hit, increasing armor damage taken by 20% for {**Secondary.x**}s. If the target is destroyed while affected, all allies who damaged it within the last 10 seconds restore {**Primary.x**} armor to each armor zone. Cooldown: {CD}.
