@@ -235,15 +235,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -266,7 +269,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -288,7 +292,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -310,7 +315,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -328,7 +334,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Alpha/SK_Alpha_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -349,23 +356,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -384,7 +396,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -399,7 +412,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -414,7 +428,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Anansi/SK_Anansi_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -437,15 +452,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -465,7 +483,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -481,7 +500,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -497,7 +517,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Angler/SK_Angler_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -520,15 +541,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -548,7 +572,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -564,7 +589,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -580,7 +606,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ares/SK_Ares_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -603,15 +630,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -631,7 +661,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -647,7 +678,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -663,7 +695,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Artemis/SK_Artemis_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
@@ -686,7 +719,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -702,7 +736,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -722,15 +757,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -750,7 +788,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -766,7 +805,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -782,7 +822,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulgasari/SK_Bulgasari_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -805,15 +846,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -833,7 +877,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -849,7 +894,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -865,7 +911,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Bulwark/SK_Bulwark_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -888,15 +935,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -916,7 +966,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -932,7 +983,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -948,7 +1000,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Cyclops/SK_Cyclops_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -970,15 +1023,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -998,7 +1054,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1014,7 +1071,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1030,7 +1088,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Demeter/SK_Demeter_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1053,15 +1112,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1081,7 +1143,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1097,7 +1160,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1113,7 +1177,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fenrir/SK_Fenrir_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1136,15 +1201,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1164,7 +1232,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1180,7 +1249,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1196,7 +1266,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Fury/SK_Fury_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1219,15 +1290,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1247,7 +1321,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1263,7 +1338,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1279,7 +1355,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Garuda/SK_Garuda_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1302,15 +1379,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1330,7 +1410,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1346,7 +1427,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1362,7 +1444,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Griffin/SK_Griffin_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1383,15 +1466,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1414,7 +1500,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -1436,7 +1523,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -1454,7 +1542,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Grim/SK_Grim_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1477,15 +1566,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1505,7 +1597,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1521,7 +1614,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1537,7 +1631,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Harpy/SK_Harpy_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1560,15 +1655,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1588,7 +1686,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1604,7 +1703,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1620,7 +1720,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Heike/SK_Heike_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
@@ -1637,15 +1738,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1665,7 +1769,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1681,7 +1786,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1697,7 +1803,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Helios/SK_Helios_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1720,15 +1827,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1745,7 +1855,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1758,7 +1869,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1767,7 +1879,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Hitcher/SK_Hitcher_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
@@ -1794,15 +1907,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1822,7 +1938,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1838,7 +1955,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1854,7 +1972,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Inquisitor/SK_Inquisitor_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1875,23 +1994,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1910,7 +2034,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -1925,7 +2050,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -1940,7 +2066,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kernel/SK_Kernel_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -1963,23 +2090,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -1999,7 +2131,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2015,7 +2148,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2031,7 +2165,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Kumo/SK_Kumo_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2054,15 +2189,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2082,7 +2220,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2098,7 +2237,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2114,7 +2254,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Lancelot/SK_Lancelot_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2137,15 +2278,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2165,7 +2309,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2181,7 +2326,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2197,7 +2343,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Loki/SK_Loki_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2237,15 +2384,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2265,7 +2415,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -2284,7 +2435,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -2302,7 +2454,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Matriarch/SK_Matriarch_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2325,15 +2478,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2353,7 +2509,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2369,7 +2526,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2385,7 +2543,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Mesa/SK_Mesa_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2406,23 +2565,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2442,7 +2606,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2458,7 +2623,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2473,7 +2639,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Nipper/SK_Nipper_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2494,23 +2661,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2530,7 +2702,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_L.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_L.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -2549,7 +2722,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_R.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Shoulder_R.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -2568,7 +2742,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/Var04/SK_Spire_3dVar04_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2589,15 +2764,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2616,7 +2794,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2631,7 +2810,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2646,7 +2826,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Orochi/SK_Orochi_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2669,15 +2850,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2697,7 +2881,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2713,7 +2898,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2729,7 +2915,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Phantom/SK_Phantom_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2750,15 +2937,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2777,7 +2967,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2792,7 +2983,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2807,7 +2999,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Pursuer/SK_Pursuer_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2830,15 +3023,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2858,7 +3054,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2874,7 +3071,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2890,7 +3088,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Ravana/SK_Ravana_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2913,15 +3112,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -2941,7 +3143,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -2957,7 +3160,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -2973,7 +3177,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Raven/SK_Raven_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -2996,15 +3201,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3024,7 +3232,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL01.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3040,7 +3249,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderL02.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3056,7 +3266,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR01.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3072,7 +3283,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_ShoulderR02.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3088,7 +3300,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicBulgasari/SK_RelicBulgasari_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3111,15 +3324,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3139,7 +3355,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL01.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3155,7 +3372,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderL02.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3171,7 +3389,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR01.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3187,7 +3406,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_ShoulderR02.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3203,7 +3423,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicLancelot/SK_RelicLancelot_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3226,15 +3447,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3254,7 +3478,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL01.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3270,7 +3495,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderL02.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3286,7 +3512,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR01.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3302,7 +3529,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_ShoulderR02.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3318,7 +3546,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/RelicScorpion/SK_RelicScorpion_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3416,15 +3645,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3444,7 +3676,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3460,7 +3693,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3476,7 +3710,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Scorpion/SK_Scorpion_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3499,15 +3734,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3527,7 +3765,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3543,7 +3782,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3559,7 +3799,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Siren/SK_Siren_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3674,15 +3915,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisPelvis_Big.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisPelvis_Big.0",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegRF_BIG.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegRF_BIG.0",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegLF_BIG.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Big_Chassis/SK_Spider_ChassisLegLF_BIG.0",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "SkeletalMeshComponent",
@@ -3712,15 +3956,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisPelvis.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisPelvis.0",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegRF.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegRF.0",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegLF.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/SK_Spider_ChassisLegLF.0",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "SkeletalMeshComponent",
@@ -3750,23 +3997,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisPelvis.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisPelvis.0",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRF.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRF.0",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLF.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLF.0",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "SkeletalMeshComponent",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLB.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegLB.0",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "SkeletalMeshComponent",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRB.0"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Spider/Var_2/SK_Spider_V2_ChassisLegRB.0",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3788,23 +4040,28 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRF.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLF.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLF.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegLB.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRB.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_ChassisLegRB.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3824,7 +4081,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_L.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_L.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -3843,7 +4101,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_R.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Shoulder_R.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "abilities_refs": [
@@ -3862,7 +4121,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Titan/Spire/SK_Spire_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3885,15 +4145,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3913,7 +4176,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -3929,7 +4193,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -3945,7 +4210,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Typhon/SK_Typhon_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -3968,15 +4234,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -3996,7 +4265,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -4012,7 +4282,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -4028,7 +4299,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Tyr/SK_Tyr_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -4051,15 +4323,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -4079,7 +4354,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL01.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -4095,7 +4371,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderL02.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -4111,7 +4388,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR01.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR01.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -4127,7 +4405,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR02.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_ShoulderR02.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -4140,7 +4419,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Vityaz/SK_Vityaz_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             }
         ],
         "abilities_refs": [
@@ -4163,15 +4443,18 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisPelvis.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisPelvis.1",
+                "armor_zone": "DA_ArmorZone_Pelvis.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegR.1",
+                "armor_zone": "DA_ArmorZone_RightLeg.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ChassisLegL.1",
+                "armor_zone": "DA_ArmorZone_LeftLeg.0"
             }
         ],
         "abilities_refs": [
@@ -4191,7 +4474,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderL.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderL.1",
+                "armor_zone": "DA_ArmorZone_LeftShoulder.0"
             }
         ]
     },
@@ -4207,7 +4491,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderR.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_ShoulderR.1",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ]
     },
@@ -4223,7 +4508,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_Torso.1"
+                "mesh_path": "/Game/Sparrow/Art/Robots/Wyrm/SK_Wyrm_Torso.1",
+                "armor_zone": "DA_ArmorZone_Torso.0"
             },
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
@@ -5466,7 +5752,8 @@
         "meshes": [
             {
                 "component_class": "BP_RobotSkeletalMeshComponent_C",
-                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Alpha/SK_Alpha_Weapon.0"
+                "mesh_path": "/Game/Sparrow/Art/Weapons/TitanWeapons/Alpha/SK_Alpha_Weapon.0",
+                "armor_zone": "DA_ArmorZone_RightShoulder.0"
             }
         ],
         "adapters": [
