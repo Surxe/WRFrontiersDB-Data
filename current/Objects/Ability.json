@@ -1382,7 +1382,7 @@
             "DistanceBetweenMines": 3500.0,
             "spawn_actor_action": {
                 "ActorClass": {
-                    "ActiveRadius": 1900.0,
+                    "ActiveRadius": 1500.0,
                     "BuffsOnHit": {
                         "Modifiers": [
                             {
@@ -2143,7 +2143,7 @@
         "description": {
             "Key": "ABL_descr_SpeedBoost",
             "TableNamespace": "Ability_descripton",
-            "en": "Boosts you maximum speed by {SpeedBoost} for {Duration}."
+            "en": "Boosts maximum speed by {SpeedBoost} and acceleration by half as much for {Duration}. Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 22.0,
@@ -2165,7 +2165,7 @@
         "id": "BP_Ability_Spotlight.3",
         "misc": {
             "MaxSpeedModifier": {
-                "Value": 1.25
+                "Value": 1.37
             },
             "MaxAccelerationModifier": {
                 "Value": 1.5
@@ -7836,7 +7836,7 @@
                         }
                     },
                     "TickInterval": 500.0,
-                    "Lifetime": 5.0,
+                    "Lifetime": 3.5,
                     "StackMode": "StackPerModule"
                 },
                 "BuffActorClass": {
@@ -7857,7 +7857,7 @@
                                     }
                                 },
                                 "TickInterval": 500.0,
-                                "Lifetime": 5.0,
+                                "Lifetime": 3.5,
                                 "StackMode": "StackPerModule"
                             }
                         ]
@@ -8906,7 +8906,7 @@
             },
             "BuffOnTarget": {
                 "Hacker": {
-                    "HackingTime": 3.0
+                    "HackingTime": 2.5
                 },
                 "AoeDamagePerSecond": {
                     "Radius": 5000.0
@@ -8914,7 +8914,7 @@
                 "TickInterval": 500.0,
                 "Lifetime": 6.0
             },
-            "CastDuration": 3.0,
+            "CastDuration": 2.5,
             "EffectType": "Attacking",
             "bDeactivateIfOwnerDie": true,
             "InitialDuration": 30.0
@@ -12320,7 +12320,7 @@
         "description": {
             "Key": "ABL_descr_PaladinsWard",
             "TableNamespace": "Ability_descripton",
-            "en": "Grants 35% damage resistance for {ActDuration}. While active, nearby allies restore armor equal to {ActEfficiency} of the damage absorbed by Lancelot.  Cooldown: {CD}."
+            "en": "Grants 50% damage resistance for {ActDuration}. While active, nearby allies restore armor equal to {ActEfficiency} of the damage absorbed by Lancelot.  Cooldown: {CD}."
         },
         "cooldown": {
             "Cooldown": 35.0,

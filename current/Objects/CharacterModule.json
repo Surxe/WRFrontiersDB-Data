@@ -4593,9 +4593,9 @@
                         }
                     }
                 },
-                "ClipSize": 36,
+                "ClipSize": 41,
                 "ProjectileSpeed": 400000.0,
-                "TimeToReload": 2.81,
+                "TimeToReload": 2.5,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -4907,7 +4907,7 @@
                     "Y": 0.1
                 },
                 "DirectDamage": {
-                    "DamageArmor": 7729.0,
+                    "DamageArmor": 6418.0,
                     "DamageShield": 3900.0
                 },
                 "AoeDamage": {
@@ -6847,7 +6847,7 @@
             "module_name": "Dragoon",
             "default_scalars": {
                 "DirectDamage": {
-                    "DamageArmor": 4773.0,
+                    "DamageArmor": 5722.0,
                     "DamageShield": 9372.0
                 },
                 "AoeDamage": {
@@ -6892,7 +6892,7 @@
                     }
                 },
                 "ClipSize": 4,
-                "ProjectileSpeed": 300000.0,
+                "ProjectileSpeed": 400000.0,
                 "TimeToReload": 4.68,
                 "TimeBetweenShots": 1.35,
                 "DistanceSettings": {
@@ -7244,8 +7244,8 @@
                     "Y": 4.8
                 },
                 "DirectDamage": {
-                    "DamageArmor": 6418.0,
-                    "DamageShield": 4471.0
+                    "DamageArmor": 7381.0,
+                    "DamageShield": 5140.0
                 },
                 "AoeDamage": {
                     "DistToDamage": {
@@ -7467,7 +7467,7 @@
             "module_name": "Zeus",
             "default_scalars": {
                 "DirectDamage": {
-                    "DamageArmor": 6870.0,
+                    "DamageArmor": 7350.0,
                     "DamageShield": 9485.0
                 },
                 "AoeDamage": {
@@ -7671,8 +7671,8 @@
                     "Y": 0.1
                 },
                 "DirectDamage": {
-                    "DamageArmor": 6463.0,
-                    "DamageShield": 7900.0
+                    "DamageArmor": 5496.0,
+                    "DamageShield": 6715.0
                 },
                 "AoeDamage": {
                     "DistToDamage": {
@@ -9031,7 +9031,7 @@
             "default_scalars": {
                 "DirectDamage": {
                     "DamageArmor": 696.0,
-                    "DamageShield": 217.0
+                    "DamageShield": 272.0
                 },
                 "AoeDamage": {
                     "DistToDamage": {
@@ -9063,7 +9063,7 @@
                         }
                     }
                 },
-                "ClipSize": 60,
+                "ClipSize": 70,
                 "ProjectileSpeed": 400000.0,
                 "TimeToReload": 3.0,
                 "DistanceSettings": {
@@ -9143,7 +9143,7 @@
                         "DamageShield": 3000.0
                     },
                     "TickInterval": 500.0,
-                    "Lifetime": 4.0,
+                    "Lifetime": 3.0,
                     "StackMode": "StackData"
                 },
                 "DistanceSettings": {
@@ -10586,7 +10586,7 @@
                     "Y": 0.3
                 },
                 "DirectDamage": {
-                    "DamageArmor": 859.0,
+                    "DamageArmor": 795.0,
                     "DamageShield": 1250.0
                 },
                 "AoeDamage": {
@@ -10823,13 +10823,13 @@
             "default_scalars": {
                 "DirectDamage": {
                     "DamageArmor": 293.0,
-                    "DamageShield": 116.0
+                    "DamageShield": 106.0
                 },
                 "AoeDamage": {
                     "Radius": 400.0,
                     "bTraceRobots": false,
                     "DamageArmor": 430.0,
-                    "DamageShield": 130.0,
+                    "DamageShield": 100.0,
                     "DistToDamage": {
                         "EditorCurveData": {
                             "Keys": [
@@ -10861,8 +10861,8 @@
                 },
                 "ClipSize": 16,
                 "ProjectileSpeed": 25000.0,
-                "TimeToReload": 2.18,
-                "TimeBetweenShots": 0.12,
+                "TimeToReload": 2.31,
+                "TimeBetweenShots": 0.138,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -12926,8 +12926,8 @@
                 },
                 "ClipSize": 5,
                 "ProjectileSpeed": 220000.0,
-                "TimeToReload": 2.28,
-                "TimeBetweenShots": 1.4,
+                "TimeToReload": 2.06,
+                "TimeBetweenShots": 1.2,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -13959,9 +13959,9 @@
         "id": "BP_Weapon_Shocktrain.0",
         "fire_modes": {
             "FiringBehavior": {
-                "JumpsCount": 3,
+                "JumpsCount": 5,
                 "JumpPowerQuotient": 0.5,
-                "JumpRadius": 11500.0,
+                "JumpRadius": 12500.0,
                 "LaserDuration": 0.39,
                 "DamageApplicationTime": 0.13,
                 "bSingleShot": true,
@@ -15642,7 +15642,7 @@
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 35000.0,
+                            "Distance": 30000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
@@ -15764,7 +15764,7 @@
                 "ClipSize": 5,
                 "ProjectileSpeed": 220000.0,
                 "TimeToReload": 2.28,
-                "TimeBetweenShots": 1.4,
+                "TimeBetweenShots": 1.35,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -15784,7 +15784,7 @@
                             "DistanceState": "EffectiveDistanceState"
                         },
                         {
-                            "Distance": 35000.0,
+                            "Distance": 30000.0,
                             "DirectDamageMultiplier": 0.05,
                             "DistanceState": "MaxDistanceState"
                         },
@@ -17154,7 +17154,7 @@
             "module_name": "Twinflare",
             "default_scalars": {
                 "DirectDamage": {
-                    "DamageArmor": 5875.0,
+                    "DamageArmor": 6329.0,
                     "DamageShield": 4290.0
                 },
                 "AoeDamage": {
@@ -17182,7 +17182,7 @@
                             }
                         }
                     ],
-                    "DamageArmor": 1660.0,
+                    "DamageArmor": 2384.0,
                     "DamageShield": 1200.0,
                     "DistToDamage": {
                         "EditorCurveData": {
@@ -18007,8 +18007,8 @@
                 },
                 "ClipSize": 18,
                 "ProjectileSpeed": 35000.0,
-                "TimeToReload": 2.4,
-                "TimeBetweenShots": 0.12,
+                "TimeToReload": 2.16,
+                "TimeBetweenShots": 0.1,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
                     "CurveData": [
@@ -18149,7 +18149,7 @@
                 },
                 "ClipSize": 1,
                 "ProjectileSpeed": 400000.0,
-                "TimeToReload": 4.05,
+                "TimeToReload": 3.94,
                 "TimeBetweenShots": 2.0,
                 "DistanceSettings": {
                     "InterpMode": "RCIM_Linear",
