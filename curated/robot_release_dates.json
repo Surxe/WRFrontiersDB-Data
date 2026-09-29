@@ -10,7 +10,7 @@
       "datamined_roster": "WRFrontiersDB-Data current/Objects/Module.json (VirtualBot ids; data version 2026-08-25)",
       "patch_manifests": "Steam depot build manifests for the War Robots: Frontiers app (matched to release_date by UTC calendar day)"
     },
-    "generated": "2026-09-23",
+    "generated": "2026-09-29",
     "robot_count": 37,
     "robots_with_known_date": 19,
     "titan_count": 5,
@@ -442,7 +442,7 @@
     },
     {
       "name": "Angler",
-      "virtual_bot_ref": null,
+      "virtual_bot_ref": "OBJID_VirtualBot::angler",
       "release_date": "2026-09-15",
       "manifest_id": "5891357370822898705",
       "patch_released_at_utc": "2026-09-15T07:16:00Z",
