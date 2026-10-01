@@ -4796,12 +4796,34 @@
     "BP_Module_Angler_Torso.1": {
         "id": "BP_Module_Angler_Torso.1",
         "misc": {
+            "VisibilityConeHalfAngle": 90.0,
+            "spawn_actor_action": {
+                "ActorClass": {
+                    "BuffClass": {
+                        "ArmorRegenPercentPerSecond": 0.0,
+                        "ShieldRegenPercentPerSecond": 4.0,
+                        "bRegenInAbsoulute": false,
+                        "ArmorRegenPerSecond": 0.0,
+                        "bRegenMoreDamagedZone": false,
+                        "RegenInterval": 1.0,
+                        "bRemoveOnDamage": false,
+                        "bRemoveOnFull": false,
+                        "StackMode": "Reset"
+                    }
+                },
+                "RelativeLocation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1000.0
+                }
+            },
             "EffectType": "Support",
             "bDeactivateIfOwnerDie": true,
             "InitialDuration": 30.0
         },
         "targeting": {
             "TargetingActionWithConfirmation": {
+                "ActorsType": 1,
                 "ConeRadius": 60000.0,
                 "ConeHalfAngleInDegrees": 15.0,
                 "MaxTargetNum": 1
@@ -4829,7 +4851,8 @@
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
-        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_TeslaFeed"
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_TeslaFeed",
+        "weapon_char_module_ref": "OBJID_CharacterModule::BP_Weapon_TeslaFeed.0"
     },
     "BP_Module_Ares_Chassis.1": {
         "id": "BP_Module_Ares_Chassis.1",
@@ -12286,6 +12309,7 @@
     "BP_Module_RelicLancelot_Torso.1": {
         "id": "BP_Module_RelicLancelot_Torso.1",
         "misc": {
+            "DamageResistance": 0.5,
             "ActorClass": {
                 "ActiveEfficiency": 0.6,
                 "RecipientBuffClass": {
