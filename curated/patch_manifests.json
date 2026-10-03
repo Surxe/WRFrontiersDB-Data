@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "title": "War Robots: Frontiers - Steam patch manifests",
+    "description": "One entry per Steam depot build of the War Robots: Frontiers app (app 1491000, depot 1491005), keyed by its public manifest GID. Written by the orchestrator RELEASES stage, which merges in every build its update probe has versioned; robot_release_dates.json entries reference these keys via manifest_id.",
+    "version_meaning": "The in-house data version id (yyyy-mm-dd[-N]): the UTC calendar day of the build's publish time, with a -N suffix for a second build the same day. Builds that predate the pipeline use the robot release date they were matched to.",
+    "buildid_meaning": "Steam's buildid for the public branch at that build; null where it was not captured (builds that predate the update probe).",
+    "patch_released_at_utc_meaning": "The build's exact publish time (Steam timeupdated), UTC.",
+    "generated": "2026-10-03",
+    "patch_count": 21
+  },
+  "patches": {
+    "7760327774040463908": {
+      "version": "2025-03-20",
+      "buildid": null,
+      "patch_released_at_utc": "2025-03-20T11:08:20Z"
+    },
+    "3756727583674225429": {
+      "version": "2025-04-29",
+      "buildid": null,
+      "patch_released_at_utc": "2025-04-29T07:04:28Z"
+    },
+    "1783191766501180219": {
+      "version": "2025-06-17",
+      "buildid": null,
+      "patch_released_at_utc": "2025-06-17T07:17:51Z"
+    },
+    "6039918519378518728": {
+      "version": "2025-07-15",
+      "buildid": null,
+      "patch_released_at_utc": "2025-07-15T07:14:00Z"
+    },
+    "4039882065141667125": {
+      "version": "2025-07-29",
+      "buildid": null,
+      "patch_released_at_utc": "2025-07-29T07:15:41Z"
+    },
+    "2489878289327873939": {
+      "version": "2025-08-12",
+      "buildid": null,
+      "patch_released_at_utc": "2025-08-12T07:05:00Z"
+    },
+    "7050256552569802891": {
+      "version": "2025-09-23",
+      "buildid": null,
+      "patch_released_at_utc": "2025-09-23T07:09:55Z"
+    },
+    "608926238081997924": {
+      "version": "2025-10-28",
+      "buildid": null,
+      "patch_released_at_utc": "2025-10-28T07:05:51Z"
+    },
+    "1640177700106009855": {
+      "version": "2025-11-11",
+      "buildid": null,
+      "patch_released_at_utc": "2025-11-11T07:05:02Z"
+    },
+    "4468428617242203702": {
+      "version": "2025-12-23",
+      "buildid": null,
+      "patch_released_at_utc": "2025-12-23T07:31:42Z"
+    },
+    "4113826535141576657": {
+      "version": "2026-01-20",
+      "buildid": null,
+      "patch_released_at_utc": "2026-01-20T07:08:43Z"
+    },
+    "4578646127172335342": {
+      "version": "2026-03-24",
+      "buildid": null,
+      "patch_released_at_utc": "2026-03-24T07:06:09Z"
+    },
+    "1512594299058000289": {
+      "version": "2026-04-14",
+      "buildid": null,
+      "patch_released_at_utc": "2026-04-14T08:23:15Z"
+    },
+    "5911656272946768319": {
+      "version": "2026-05-19",
+      "buildid": null,
+      "patch_released_at_utc": "2026-05-19T07:07:01Z"
+    },
+    "6851508482193683865": {
+      "version": "2026-06-09",
+      "buildid": null,
+      "patch_released_at_utc": "2026-06-09T07:08:09Z"
+    },
+    "2051578895192678048": {
+      "version": "2026-06-23",
+      "buildid": null,
+      "patch_released_at_utc": "2026-06-23T07:22:19Z"
+    },
+    "2251982061535306745": {
+      "version": "2026-07-07",
+      "buildid": null,
+      "patch_released_at_utc": "2026-07-07T07:21:38Z"
+    },
+    "6652119518685543174": {
+      "version": "2026-08-04",
+      "buildid": null,
+      "patch_released_at_utc": "2026-08-04T07:50:06Z"
+    },
+    "79796906025168538": {
+      "version": "2026-08-25",
+      "buildid": null,
+      "patch_released_at_utc": "2026-08-25T07:31:11Z"
+    },
+    "5891357370822898705": {
+      "version": "2026-09-15",
+      "buildid": null,
+      "patch_released_at_utc": "2026-09-15T07:16:00Z"
+    },
+    "8691761222881369794": {
+      "version": "2026-09-29",
+      "buildid": "25526757",
+      "patch_released_at_utc": "2026-09-29T07:12:15Z"
+    }
+  }
+}
