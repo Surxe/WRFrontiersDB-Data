@@ -1,7 +1,7 @@
 {
   "_meta": {
     "title": "War Robots: Frontiers - Steam patch manifests",
-    "description": "One entry per Steam depot build of the War Robots: Frontiers app (app 1491000, depot 1491005), keyed by its public manifest GID. Written by the orchestrator RELEASES stage, which merges in every build its update probe has versioned; robot_release_dates.json entries reference these keys via manifest_id.",
+    "description": "One entry per Steam depot build of the War Robots: Frontiers app (app 1491000, depot 1491005), keyed by its public manifest GID. Written by the Orchestrator INDEX stage (via tools/wrfdb_data), which merges in every build its update probe has versioned; robot_release_dates.json entries reference these keys via manifest_id.",
     "version_meaning": "The in-house data version id (yyyy-mm-dd[-N]): the UTC calendar day of the build's publish time, with a -N suffix for a second build the same day. Builds that predate the pipeline use the robot release date they were matched to.",
     "buildid_meaning": "Steam's buildid for the public branch at that build; null where it was not captured (builds that predate the update probe).",
     "patch_released_at_utc_meaning": "The build's exact publish time (Steam timeupdated), UTC.",

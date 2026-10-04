@@ -1,0 +1,13 @@
+[project]
+name = "wrfdb-data"
+version = "0.1.0"
+description = "Tools that build WRFrontiersDB-Data's index/ from current/"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["tools"]
