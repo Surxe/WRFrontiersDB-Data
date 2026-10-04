@@ -12,7 +12,7 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-from . import releases, slug_map
+from . import nicknames, releases, slug_map
 from .paths import DataRepoError, read_version
 
 EXIT_OK = 0
@@ -32,6 +32,18 @@ def _slug_map(args: argparse.Namespace) -> int:
         "skipped": result.skipped, "collisions": result.collisions,
     })
     return EXIT_ERROR if result.collisions else EXIT_OK
+
+
+def _nicknames(args: argparse.Namespace) -> int:
+    if args.no_write:
+        result = nicknames.build_nicknames(args.data_dir)
+    else:
+        result = nicknames.write_nicknames(args.data_dir)
+    _print({
+        "nicknames": len(result.nicknames), "changed": result.changed,
+        "conflicts": result.conflicts, "ambiguous": result.ambiguous,
+    })
+    return EXIT_ERROR if result.conflicts else EXIT_OK
 
 
 def _releases(args: argparse.Namespace) -> int:
@@ -60,6 +72,10 @@ def main(argv: list[str] | None = None) -> int:
     slugs = commands.add_parser("slug-map", help="Rebuild index/slug_map.json.")
     slugs.add_argument("--no-write", action="store_true", help="Build and report only.")
     slugs.set_defaults(run=_slug_map)
+
+    nicks = commands.add_parser("nicknames", help="Rebuild index/nicknames.json.")
+    nicks.add_argument("--no-write", action="store_true", help="Build and report only.")
+    nicks.set_defaults(run=_nicknames)
 
     rel = commands.add_parser("releases", help="Record new robots (and optionally one build).")
     rel.add_argument("--version", help="In-house version id; default: current/version.txt.")
