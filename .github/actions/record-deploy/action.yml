@@ -1,0 +1,42 @@
+name: Record the deploy
+description: >-
+  Write a frontend build's deploy record (which WRFrontiersDB-Data commit it was built
+  from; see tools/wrfdb_data/deploy_record.py) into the built site as `deploy.json`,
+  and upload it as the `deploy-record` run artifact, which the Orchestrator reads.
+  Run it after the build, before uploading the Pages artifact.
+
+inputs:
+  data-path:
+    description: The WRFrontiersDB-Data checkout the build used
+    required: true
+  out:
+    description: Where to write the record, inside the build output (e.g. dist/deploy.json)
+    required: true
+  app-dir:
+    description: The frontend's checkout
+    required: false
+    default: .
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      env:
+        DATA_PATH: ${{ inputs.data-path }}
+        APP_DIR: ${{ inputs.app-dir }}
+        OUT: ${{ inputs.out }}
+      run: |
+        PYTHONPATH="$DATA_PATH/tools" python3 -m wrfdb_data --data-dir "$DATA_PATH" \
+          deploy-record --app-dir "$APP_DIR" --out "$OUT"
+        {
+          echo "### Deploy record"
+          echo '```json'
+          cat "$OUT"
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: deploy-record
+        path: ${{ inputs.out }}
+        retention-days: 30

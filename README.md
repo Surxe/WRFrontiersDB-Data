@@ -21,7 +21,9 @@ Parsed data for WRFrontiersDB
     fields are filled by hand.
   - `patch_manifests.json`: one entry per Steam build, keyed by manifest GID.
 - `textures/`: exported images.
-- `tools/wrfdb_data/`: the Python code that builds `index/` (standard library only).
+- `tools/wrfdb_data/`: the Python code that builds `index/` and deploy records
+  (standard library only).
+- `.github/actions/`: composite actions the frontends (Site, Discount Visualizer) use.
 
 ## Tools
 
@@ -32,8 +34,25 @@ PYTHONPATH=tools python3 -m wrfdb_data slug-map            # rebuild index/slug_
 PYTHONPATH=tools python3 -m wrfdb_data slug-map --no-write # report only
 PYTHONPATH=tools python3 -m wrfdb_data nicknames          # rebuild index/nicknames.json
 PYTHONPATH=tools python3 -m wrfdb_data releases --no-write # detect new robots only
+PYTHONPATH=tools python3 -m wrfdb_data deploy-record --app-dir ../WRFrontiersDB-Site
 python3 -m unittest discover -s tests                     # tests
 ```
 
 Slug rules per type are documented in `tools/wrfdb_data/slug_map.py`. A slug change
 moves a page, so change a rule only on purpose.
+
+## Frontend deploys: which data is live
+
+The Site and the Discount Visualizer build from a checkout of this repo, using two
+shared actions (referenced as `Surxe/WRFrontiersDB-Data/.github/actions/<name>@main`):
+
+- `checkout-data`: checks this repo out (it's public, so no token) at `ref` (default
+  `main`) and outputs the commit `sha` and `version`. Pass a sha as `ref` to pin every
+  job of a run to the same data.
+- `record-deploy`: after the build, writes the deploy record into the build output as
+  `deploy.json` and uploads it as the `deploy-record` run artifact.
+
+So each live frontend serves `/deploy.json` saying which Data commit it was built from
+(`data_commit`, `data_commit_date_utc`, `data_version`), plus its own commit and run.
+Fields are documented in `tools/wrfdb_data/deploy_record.py`. Check both at once with
+the Orchestrator's `bin/wrf-deployed`.
