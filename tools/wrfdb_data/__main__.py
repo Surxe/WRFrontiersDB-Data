@@ -12,7 +12,7 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-from . import nicknames, releases, slug_map
+from . import deploy_record, nicknames, releases, slug_map
 from .paths import DataRepoError, read_version
 
 EXIT_OK = 0
@@ -59,6 +59,14 @@ def _releases(args: argparse.Namespace) -> int:
     return EXIT_NEW_RELEASE if result.new_bots else EXIT_OK
 
 
+def _deploy_record(args: argparse.Namespace) -> int:
+    record = deploy_record.build_record(args.data_dir, args.app_dir)
+    if args.out:
+        deploy_record.write_record(args.out, record)
+    _print(record)
+    return EXIT_OK
+
+
 def _print(doc: dict) -> None:
     print(json.dumps(doc, indent=2, ensure_ascii=False, default=str))
 
@@ -85,6 +93,13 @@ def main(argv: list[str] | None = None) -> int:
     rel.add_argument("--patch-utc", help="Build publish time, e.g. 2026-09-15T07:16:00Z.")
     rel.add_argument("--no-write", action="store_true", help="Detect only; do not modify index/.")
     rel.set_defaults(run=_releases)
+
+    dep = commands.add_parser("deploy-record", help="Print (and write) a frontend build's deploy "
+                              "record: which Data commit it was built from.")
+    dep.add_argument("--app-dir", type=Path, default=Path.cwd(),
+                     help="The frontend's checkout (default: the working directory).")
+    dep.add_argument("--out", type=Path, help="Also write the record here, e.g. dist/deploy.json.")
+    dep.set_defaults(run=_deploy_record)
 
     args = parser.parse_args(argv)
     try:

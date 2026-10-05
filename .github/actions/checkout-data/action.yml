@@ -1,0 +1,42 @@
+name: Check out WRFrontiersDB-Data
+description: >-
+  Check out WRFrontiersDB-Data (public, so no token) and report which commit it is.
+  Shared by the Site and the Discount Visualizer. Pass `ref` as a commit sha to pin
+  several jobs of one run to the same data.
+
+inputs:
+  path:
+    description: Where to check it out, relative to the workspace
+    required: true
+  ref:
+    description: Branch, tag or commit sha
+    required: false
+    default: main
+
+outputs:
+  sha:
+    description: The checked-out commit
+    value: ${{ steps.head.outputs.sha }}
+  version:
+    description: The game version of the data (current/version.txt)
+    value: ${{ steps.head.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: Surxe/WRFrontiersDB-Data
+        path: ${{ inputs.path }}
+        ref: ${{ inputs.ref }}
+
+    - id: head
+      shell: bash
+      env:
+        DATA_PATH: ${{ inputs.path }}
+      run: |
+        sha=$(git -C "$DATA_PATH" rev-parse HEAD)
+        version=$(tr -d '[:space:]' < "$DATA_PATH/current/version.txt")
+        echo "sha=$sha" >> "$GITHUB_OUTPUT"
+        echo "version=$version" >> "$GITHUB_OUTPUT"
+        echo "WRFrontiersDB-Data: $sha (version $version)"
