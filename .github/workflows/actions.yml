@@ -1,0 +1,62 @@
+name: Shared actions
+
+# Exercises the checkout-data and record-deploy actions that the Site and the
+# Discount Visualizer use, so a change to them (or to the tools they run) is
+# tested here before a frontend picks it up from main.
+on:
+  pull_request:
+    paths:
+      - .github/**
+      - tools/**
+      - tests/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  shared-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            tools
+            tests
+
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Check out Data
+        id: data
+        uses: ./.github/actions/checkout-data
+        with:
+          path: data
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - run: mkdir -p dist
+
+      - name: Record deploy
+        uses: ./.github/actions/record-deploy
+        with:
+          data-path: data
+          out: dist/deploy.json
+
+      - name: Check the deploy record
+        shell: python
+        env:
+          DATA_SHA: ${{ steps.data.outputs.sha }}
+          DATA_VERSION: ${{ steps.data.outputs.version }}
+        run: |
+          import json, os
+          record = json.load(open("dist/deploy.json"))
+          expected = {
+              "data_commit": os.environ["DATA_SHA"],
+              "data_version": os.environ["DATA_VERSION"],
+              "run_id": os.environ["GITHUB_RUN_ID"],
+              "app": "WRFrontiersDB-Data",
+          }
+          wrong = {k: (record.get(k), v) for k, v in expected.items() if record.get(k) != v}
+          assert not wrong, f"deploy.json mismatches (got, expected): {wrong}"
+          print("deploy.json OK:", json.dumps(record, indent=2))
