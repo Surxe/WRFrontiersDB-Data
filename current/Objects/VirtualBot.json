@@ -688,6 +688,25 @@
         "has_distinct_shoulders": true,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicScorpion"
     },
+    "relic-tyr": {
+        "id": "relic-tyr",
+        "name": {
+            "Key": "CMP_name_RelicTyr_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Relic Tyr"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisRelicTyr.2",
+            "OBJID_Module::DA_Module_TorsoRelicTyr.1",
+            "OBJID_Module::DA_Module_ShoulderRelicTyr.0"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotRelicTyr.0"
+        ],
+        "has_distinct_shoulders": false,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotRelicTyr"
+    },
     "scorpion": {
         "id": "scorpion",
         "name": {
