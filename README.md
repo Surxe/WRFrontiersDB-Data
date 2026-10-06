@@ -19,8 +19,14 @@ Parsed data for WRFrontiersDB
     in `tools/wrfdb_data/nicknames.py`.
   - `aliases.json`: object id -> full alternative names, matched like the object's own
     name (and shown in its place: the first one). Today: robot parts, named after their
-    robot, get `<robot> <part>` (`Wyrm Chassis`, `Wyrm Shoulder Left`). Rules in
+    robot, get `<robot> <part>` (`Wyrm Chassis`, `Wyrm Shoulder Left`), variants
+    `<robot> <part> <variant>` (`Relic Bulgasari Shoulder Mk. II`). Rules in
     `tools/wrfdb_data/robot_parts.py`.
+  - `abbreviations.json`: shorthand -> full word(s) (`r` -> `relic`, `bulg` -> `bulgasari`,
+    `2` / `mk2` / `mk 2` -> `mk ii`), for expanding the words of a query that matched
+    nothing as typed; the longest shorthand matches first.
+    Curated in `tools/wrfdb_data/abbreviations.py`; a full form whose words no published
+    name has is reported.
   - `robot_release_dates.json`: first-availability date per robot, keyed by
     `OBJID_VirtualBot::<id>`. New robots are added automatically; article-derived
     fields are filled by hand.
@@ -39,6 +45,7 @@ PYTHONPATH=tools python3 -m wrfdb_data slug-map            # rebuild index/slug_
 PYTHONPATH=tools python3 -m wrfdb_data slug-map --no-write # report only
 PYTHONPATH=tools python3 -m wrfdb_data nicknames          # rebuild index/nicknames.json
 PYTHONPATH=tools python3 -m wrfdb_data aliases            # rebuild index/aliases.json
+PYTHONPATH=tools python3 -m wrfdb_data abbreviations      # rebuild index/abbreviations.json
 PYTHONPATH=tools python3 -m wrfdb_data releases --no-write # detect new robots only
 PYTHONPATH=tools python3 -m wrfdb_data deploy-record --app-dir ../WRFrontiersDB-Site
 python3 -m unittest discover -s tests                     # tests

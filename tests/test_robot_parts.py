@@ -43,6 +43,8 @@ class RobotPartsCase(unittest.TestCase):
         objects.mkdir(parents=True, exist_ok=True)
         (objects / "Module.json").write_text(json.dumps(modules), encoding="utf-8")
         (objects / "ModuleGroup.json").write_text(json.dumps(GROUPS), encoding="utf-8")
+        robots = {"wyrm": {"name": {"en": "Wyrm"}}, "relic-bulgasari": {"name": {"en": "Relic Bulgasari"}}}
+        (objects / "VirtualBot.json").write_text(json.dumps(robots), encoding="utf-8")
 
     def build(self, modules: dict) -> robot_parts.AliasesResult:
         self.write_modules(modules)
@@ -59,7 +61,25 @@ class TestAliases(RobotPartsCase):
 
     def test_shoulder_side_both_ways(self):
         result = self.build({"l": module("Wyrm", "non-titan-shoulder", shoulder_side="L")})
-        self.assertEqual(result.aliases, {"l": ["Wyrm Shoulder Left", "Wyrm Left Shoulder"]})
+        self.assertEqual(result.aliases, {"l": ["Wyrm Shoulder Left", "Wyrm Left Shoulder", "Wyrm Shoulder"]})
+
+    def test_variants_and_the_plain_name_to_the_lowest_mark(self):
+        result = self.build({
+            "mk2": module("Relic Bulgasari Mk. II", "non-titan-shoulder", robot="relic-bulgasari", shoulder_side="L"),
+            "mk1": module("Relic Bulgasari Mk. I", "non-titan-shoulder", robot="relic-bulgasari", shoulder_side="R"),
+        })
+        self.assertEqual(result.aliases, {
+            "mk2": ["Relic Bulgasari Shoulder Mk. II", "Relic Bulgasari Shoulder Left", "Relic Bulgasari Left Shoulder"],
+            "mk1": ["Relic Bulgasari Shoulder Mk. I", "Relic Bulgasari Shoulder Right",
+                    "Relic Bulgasari Right Shoulder", "Relic Bulgasari Shoulder"],
+        })
+
+    def test_unranked_siblings_all_get_the_plain_name(self):
+        result = self.build({
+            "l": module("Wyrm", "non-titan-shoulder", shoulder_side="L"),
+            "r": module("Wyrm", "non-titan-shoulder", shoulder_side="R"),
+        })
+        self.assertEqual([a[-1] for a in result.aliases.values()], ["Wyrm Shoulder", "Wyrm Shoulder"])
 
     def test_skips_non_parts_and_unpublished(self):
         result = self.build({
