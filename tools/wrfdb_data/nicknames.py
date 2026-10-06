@@ -2,7 +2,9 @@
 
 A nickname is a short alternative to an object's full name for consumers that
 match what people type (the Discord bot's `[[marcus]]`). It never builds a URL;
-links go through the slug map. Today only pilots have nicknames:
+links go through the slug map. Unlike an alias (`robot_parts.py`) it answers only
+when nothing has that exact name, and is never matched loosely. Today pilots and
+robot chassis have nicknames:
 
 * A pilot's nickname is its first name. Hero pilots carry it in `first_name`
   (their surname is `second_name`); everyone else keeps the whole name in
@@ -12,6 +14,8 @@ links go through the slug map. Today only pilots have nicknames:
 * Pilots sharing a first name: the premium (hero) pilot gets it, so `marcus` is
   Marcus Shedd, not Marcus Davis. Two premiums sharing one is a conflict: neither
   gets it and the caller reports it as an error. Commons only: nobody gets it.
+* A published robot chassis is also its robot's legs: `Wyrm Legs` for the Wyrm
+  chassis. Two chassis sharing one: nobody gets it (ambiguous).
 
 Console-I/O free: problems come back in the result for the caller to report.
 """
@@ -23,6 +27,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .paths import NICKNAMES_REL, DataRepoError, load_json, objects_file, save_json
+from .robot_parts import CHASSIS, robot_parts
 from .slug_map import default_string, ref_to_id, to_slug
 
 PREMIUM_PILOT_TYPE = "DA_PilotType_Legendary.0"
@@ -39,7 +44,7 @@ class NicknamesResult:
     conflicts: list[tuple[str, list[str]]] = field(default_factory=list)
     """(nickname, pilot ids): two or more premium pilots share it, so nobody got it."""
     ambiguous: list[tuple[str, list[str]]] = field(default_factory=list)
-    """(nickname, pilot ids): only common pilots share it, so nobody got it."""
+    """(nickname, object ids): only common pilots, or several chassis, share it, so nobody got it."""
     changed: bool = False
     """The file on disk was different (or missing) and has been rewritten."""
 
@@ -98,7 +103,23 @@ def build_nicknames(data_dir: Path) -> NicknamesResult:
 
     # Pilot.json order, so the file only changes when the data does.
     result.nicknames = {pid: result.nicknames[pid] for pid in pilots if pid in result.nicknames}
+    _add_legs(data_dir, result)
     return result
+
+
+def _add_legs(data_dir: Path, result: NicknamesResult) -> None:
+    """`<robot> Legs` for each published chassis, after the pilots, in Module.json order."""
+    legs: dict[str, list[tuple[str, str]]] = {}
+    for part in robot_parts(data_dir):
+        if part.part == CHASSIS:
+            nickname = f"{part.robot_name} Legs"
+            legs.setdefault(to_slug(nickname), []).append((part.module_id, nickname))
+    for key, holders in legs.items():
+        if len(holders) > 1:
+            result.ambiguous.append((key, [module_id for module_id, _ in holders]))
+            continue
+        module_id, nickname = holders[0]
+        result.nicknames[module_id] = [nickname]
 
 
 def write_nicknames(data_dir: Path) -> NicknamesResult:

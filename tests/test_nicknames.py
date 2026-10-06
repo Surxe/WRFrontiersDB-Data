@@ -1,4 +1,4 @@
-"""Pilot nicknames (first names), and building/writing index/nicknames.json.
+"""Pilot nicknames (first names), chassis `<robot> Legs`, and building/writing index/nicknames.json.
 
 Run: python3 -m unittest discover -s tests -v
 """
@@ -35,10 +35,16 @@ class NicknamesCase(unittest.TestCase):
         self.data = Path(self._tmp.name)
         self.addCleanup(self._tmp.cleanup)
 
-    def write_pilots(self, pilots: dict) -> None:
-        path = self.data / OBJECTS_REL / "Pilot.json"
+    def write_objects(self, object_type: str, objects: dict) -> None:
+        path = self.data / OBJECTS_REL / f"{object_type}.json"
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(pilots), encoding="utf-8")
+        path.write_text(json.dumps(objects), encoding="utf-8")
+
+    def write_pilots(self, pilots: dict) -> None:
+        self.write_objects("Pilot", pilots)
+        for object_type in ("Module", "ModuleGroup"):
+            if not (self.data / OBJECTS_REL / f"{object_type}.json").exists():
+                self.write_objects(object_type, {})
 
     def build(self, pilots: dict) -> nicknames.NicknamesResult:
         self.write_pilots(pilots)
@@ -83,6 +89,37 @@ class TestSharedFirstName(NicknamesCase):
         self.assertEqual(result.nicknames, {"c": ["Rex"]})
         self.assertEqual(result.ambiguous, [("sarah", ["a", "b"])])
         self.assertEqual(result.conflicts, [])
+
+
+class TestLegs(NicknamesCase):
+    def write_chassis(self, modules: dict) -> None:
+        self.write_objects("ModuleGroup", {
+            "titan-chassis": {"name": {"en": "Titan Chassis"}},
+            "non-titan-torsos": {"name": {"en": "Torso"}},
+        })
+        self.write_objects("Module", modules)
+
+    def test_chassis_is_its_robots_legs(self):
+        self.write_chassis({
+            "chassis": chassis("Wyrm"),
+            "torso": chassis("Wyrm", group="non-titan-torsos"),
+            "unreleased": chassis("Ghost", status="InDevelopment"),
+        })
+        result = self.build({"p": hero("Kate", "Sinclair")})
+        self.assertEqual(result.nicknames, {"p": ["Kate"], "chassis": ["Wyrm Legs"]})
+
+    def test_shared_legs_are_ambiguous(self):
+        self.write_chassis({"a": chassis("Wyrm"), "b": chassis("Wyrm")})
+        result = self.build({})
+        self.assertEqual(result.nicknames, {})
+        self.assertEqual(result.ambiguous, [("wyrm-legs", ["a", "b"])])
+
+
+def chassis(name: str, group: str = "titan-chassis", status: str = "Ready") -> dict:
+    return {
+        "name": {"en": name}, "production_status": status,
+        "module_group_ref": f"OBJID_ModuleGroup::{group}", "virtual_bot_ref": f"OBJID_VirtualBot::{name.lower()}",
+    }
 
 
 class TestWrite(NicknamesCase):
