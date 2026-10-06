@@ -63,15 +63,15 @@ class TestAliases(RobotPartsCase):
         result = self.build({"l": module("Wyrm", "non-titan-shoulder", shoulder_side="L")})
         self.assertEqual(result.aliases, {"l": ["Wyrm Shoulder Left", "Wyrm Left Shoulder", "Wyrm Shoulder"]})
 
-    def test_variants_and_the_plain_name_to_the_top_mark(self):
+    def test_variants_and_the_plain_name_to_the_lowest_mark(self):
         result = self.build({
             "mk2": module("Relic Bulgasari Mk. II", "non-titan-shoulder", robot="relic-bulgasari", shoulder_side="L"),
             "mk1": module("Relic Bulgasari Mk. I", "non-titan-shoulder", robot="relic-bulgasari", shoulder_side="R"),
         })
         self.assertEqual(result.aliases, {
-            "mk2": ["Relic Bulgasari Shoulder Mk. II", "Relic Bulgasari Shoulder Left",
-                    "Relic Bulgasari Left Shoulder", "Relic Bulgasari Shoulder"],
-            "mk1": ["Relic Bulgasari Shoulder Mk. I", "Relic Bulgasari Shoulder Right", "Relic Bulgasari Right Shoulder"],
+            "mk2": ["Relic Bulgasari Shoulder Mk. II", "Relic Bulgasari Shoulder Left", "Relic Bulgasari Left Shoulder"],
+            "mk1": ["Relic Bulgasari Shoulder Mk. I", "Relic Bulgasari Shoulder Right",
+                    "Relic Bulgasari Right Shoulder", "Relic Bulgasari Shoulder"],
         })
 
     def test_unranked_siblings_all_get_the_plain_name(self):

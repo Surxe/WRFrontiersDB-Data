@@ -12,8 +12,9 @@ parts have aliases:
   robot's name is its VirtualBot's.
 * A variant's module name adds to the robot's (`Relic Bulgasari Mk. II`); the
   rest goes after the part: `Relic Bulgasari Shoulder Mk. II`. When one robot
-  has several modules for a part, the plain `<robot> <part>` goes to the highest
-  `Mk.` only, or to all of them if they aren't ranked that way (titan shoulders).
+  has several modules for a part, the plain `<robot> <part>` goes to the lowest
+  `Mk.` only (the base variant), or to all of them if they aren't ranked that
+  way (titan shoulders).
 * A shoulder with a side also gets it, both ways round: `Wyrm Shoulder Left`,
   `Wyrm Left Shoulder`. The first alias is the one to show.
 
@@ -114,9 +115,9 @@ def build_aliases(data_dir: Path) -> AliasesResult:
     siblings: dict[tuple[str, str], list[RobotPart]] = {}
     for part in parts:
         siblings.setdefault((part.robot_name, part.part), []).append(part)
-    top_mark = {key: max(p.mark for p in group) for key, group in siblings.items()}
+    base_mark = {key: min((p.mark for p in group if p.mark), default=0) for key, group in siblings.items()}
     return AliasesResult({
-        part.module_id: part_aliases(part, plain=part.mark == top_mark[(part.robot_name, part.part)])
+        part.module_id: part_aliases(part, plain=part.mark == base_mark[(part.robot_name, part.part)])
         for part in parts
     })
 
