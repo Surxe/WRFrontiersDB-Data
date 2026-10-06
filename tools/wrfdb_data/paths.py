@@ -17,6 +17,7 @@ VERSION_REL = CURRENT_REL / "version.txt"
 INDEX_REL = Path("index")
 SLUG_MAP_REL = INDEX_REL / "slug_map.json"
 NICKNAMES_REL = INDEX_REL / "nicknames.json"
+ALIASES_REL = INDEX_REL / "aliases.json"
 RELEASE_DATES_REL = INDEX_REL / "robot_release_dates.json"
 PATCHES_REL = INDEX_REL / "patch_manifests.json"
 
