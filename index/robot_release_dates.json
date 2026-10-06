@@ -10,9 +10,9 @@
       "datamined_roster": "WRFrontiersDB-Data current/Objects/VirtualBot.json (keys are its VirtualBot ids)",
       "patch_manifests": "index/patch_manifests.json in this repo, keyed by manifest_id"
     },
-    "generated": "2026-09-29",
-    "robot_count": 37,
-    "robots_with_known_date": 19,
+    "generated": "2026-10-06",
+    "robot_count": 38,
+    "robots_with_known_date": 20,
     "titan_count": 5,
     "manifest_meaning": "manifest_id is the Steam depot build manifest for the maintenance deploy that shipped the robot; look it up in index/patch_manifests.json for that build's version, buildid and exact UTC publish time. Where a patch day had a later same-day hotfix build, the earlier maintenance build is used.",
     "pending_roster_meaning": "pending_roster=true marks an entry recorded by hand (e.g. from the news) before the robot reached the datamined roster, keyed by its expected ref. the Orchestrator INDEX stage (via tools/wrfdb_data) clears the flag and fills still-null release_date/manifest_id once the ref appears in the roster."
@@ -379,6 +379,14 @@
         346,
         348
       ]
+    },
+    "OBJID_VirtualBot::relic-tyr": {
+      "name": "Relic Tyr",
+      "release_date": "2026-10-06",
+      "manifest_id": "7597398811367128543",
+      "pre_launch": false,
+      "release_context": null,
+      "source_article_ids": []
     }
   },
   "titans": {
