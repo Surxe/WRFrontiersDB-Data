@@ -12,7 +12,7 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-from . import deploy_record, nicknames, releases, robot_parts, slug_map
+from . import abbreviations, deploy_record, nicknames, releases, robot_parts, slug_map
 from .paths import DataRepoError, read_version
 
 EXIT_OK = 0
@@ -52,6 +52,15 @@ def _aliases(args: argparse.Namespace) -> int:
     else:
         result = robot_parts.write_aliases(args.data_dir)
     _print({"aliases": len(result.aliases), "changed": result.changed})
+    return EXIT_OK
+
+
+def _abbreviations(args: argparse.Namespace) -> int:
+    if args.no_write:
+        result = abbreviations.build_abbreviations(args.data_dir)
+    else:
+        result = abbreviations.write_abbreviations(args.data_dir)
+    _print({"abbreviations": len(result.abbreviations), "changed": result.changed, "unused": result.unused})
     return EXIT_OK
 
 
@@ -97,6 +106,10 @@ def main(argv: list[str] | None = None) -> int:
     aliases = commands.add_parser("aliases", help="Rebuild index/aliases.json.")
     aliases.add_argument("--no-write", action="store_true", help="Build and report only.")
     aliases.set_defaults(run=_aliases)
+
+    abbrevs = commands.add_parser("abbreviations", help="Rebuild index/abbreviations.json.")
+    abbrevs.add_argument("--no-write", action="store_true", help="Build and report only.")
+    abbrevs.set_defaults(run=_abbreviations)
 
     rel = commands.add_parser("releases", help="Record new robots (and optionally one build).")
     rel.add_argument("--version", help="In-house version id; default: current/version.txt.")

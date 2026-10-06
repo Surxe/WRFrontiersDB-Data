@@ -42,7 +42,7 @@ class NicknamesCase(unittest.TestCase):
 
     def write_pilots(self, pilots: dict) -> None:
         self.write_objects("Pilot", pilots)
-        for object_type in ("Module", "ModuleGroup"):
+        for object_type in ("Module", "ModuleGroup", "VirtualBot"):
             if not (self.data / OBJECTS_REL / f"{object_type}.json").exists():
                 self.write_objects(object_type, {})
 
