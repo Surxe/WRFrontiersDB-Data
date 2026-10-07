@@ -12816,6 +12816,7 @@
             "FiringBehavior": {
                 "MovementComponent": {
                     "ExpansionTemplate": {
+                        "SpinRatePerCm": 0.03,
                         "FinishRadius": 450.0,
                         "ExpansionDistance": 3000.0
                     },

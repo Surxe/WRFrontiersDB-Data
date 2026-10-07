@@ -12722,6 +12722,9 @@
         "id": "BP_Module_RelicTyr_Torso.1",
         "projectile_types": [
             {
+                "AllyHealRatio": 0.25,
+                "SelfHealRatio": 0.5,
+                "ReturnDelay": 2.0,
                 "MovementComponent": {
                     "TurnSpeed": 360.0,
                     "bCruiseAvoidObstacles": false,
