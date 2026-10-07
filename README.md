@@ -38,7 +38,8 @@ Parsed data for WRFrontiersDB
 
 ## Tools
 
-The Orchestrator calls these after each parse. To run them by hand:
+The Orchestrator's INDEX stage (`SHOULD_BUILD_INDEX`, on in every `--patch-day` run)
+calls these after each parse and publishes `index/`. To run them by hand:
 
 ```bash
 PYTHONPATH=tools python3 -m wrfdb_data slug-map            # rebuild index/slug_map.json
