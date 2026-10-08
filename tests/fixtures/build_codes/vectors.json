@@ -1,0 +1,199 @@
+{
+ "vectors": [
+  {
+   "name": "tier 1 first",
+   "code": "0",
+   "build": {
+    "chassis": "C0000"
+   }
+  },
+  {
+   "name": "tier 1 last",
+   "code": "z",
+   "build": {
+    "chassis": "C0061"
+   }
+  },
+  {
+   "name": "tier 2 first",
+   "code": "-0",
+   "build": {
+    "chassis": "C0062"
+   }
+  },
+  {
+   "name": "tier 2 last",
+   "code": "-_",
+   "build": {
+    "chassis": "C0125"
+   }
+  },
+  {
+   "name": "tier 3 first",
+   "code": "_00",
+   "build": {
+    "chassis": "C0126"
+   }
+  },
+  {
+   "name": "tier 3 last",
+   "code": "___",
+   "build": {
+    "chassis": "C4221"
+   }
+  },
+  {
+   "name": "optional slot boundaries",
+   "code": "500z-00-__00",
+   "build": {
+    "chassis": "C0005",
+    "torso": "T000",
+    "Shoulder_L": "S000",
+    "Shoulder_R": "S000",
+    "Shoulder_L.Shoulder_Weapon_0": "W060",
+    "Shoulder_L.Shoulder_Weapon_1": "W061",
+    "Shoulder_R.Shoulder_Weapon_0": "W124",
+    "Shoulder_R.Shoulder_Weapon_1": "W125"
+   }
+  },
+  {
+   "name": "all two-character",
+   "code": "-8-0-1-0-d-_-_-9-J-T-n",
+   "build": {
+    "chassis": "C0070",
+    "torso": "T062",
+    "Shoulder_L": "S063",
+    "Shoulder_R": "S125",
+    "Shoulder_L.Shoulder_Weapon_0": "W061",
+    "Shoulder_L.Shoulder_Weapon_1": "W100",
+    "Shoulder_R.Shoulder_Weapon_0": "W124",
+    "Shoulder_R.Shoulder_Weapon_1": "W070",
+    "Ability": "A080",
+    "UltAbility": "U090",
+    "Torso_Weapon_0": "W110"
+   }
+  },
+  {
+   "name": "all three-character",
+   "code": "_1A_00_0O_00_1A_19_05_0F_0P_0Z_1A",
+   "build": {
+    "chassis": "C0200",
+    "torso": "T126",
+    "Shoulder_L": "S150",
+    "Shoulder_R": "S199",
+    "Shoulder_L.Shoulder_Weapon_0": "W125",
+    "Shoulder_L.Shoulder_Weapon_1": "W199",
+    "Shoulder_R.Shoulder_Weapon_0": "W130",
+    "Shoulder_R.Shoulder_Weapon_1": "W140",
+    "Ability": "A150",
+    "UltAbility": "U160",
+    "Torso_Weapon_0": "W199"
+   }
+  },
+  {
+   "name": "interleaved tiers",
+   "code": "5-83_0P0_191-0A_05-1",
+   "build": {
+    "chassis": "C0005",
+    "torso": "T070",
+    "Shoulder_L": "S003",
+    "Shoulder_R": "S199",
+    "Shoulder_L.Shoulder_Weapon_0": "W150",
+    "Shoulder_R.Shoulder_Weapon_0": "W000",
+    "Shoulder_R.Shoulder_Weapon_1": "W061",
+    "Ability": "A009",
+    "UltAbility": "U130",
+    "Torso_Weapon_0": "W062"
+   }
+  },
+  {
+   "name": "long last slot, empties dropped",
+   "code": "-80000000_0F",
+   "build": {
+    "chassis": "C0070",
+    "torso": "T000",
+    "Shoulder_L": "S000",
+    "Shoulder_R": "S000",
+    "Ability": "A140"
+   }
+  },
+  {
+   "name": "empty slots mid-code",
+   "code": "5120440006",
+   "build": {
+    "chassis": "C0005",
+    "torso": "T001",
+    "Shoulder_L": "S002",
+    "Shoulder_R": "S004",
+    "Shoulder_L.Shoulder_Weapon_1": "W003",
+    "UltAbility": "U005"
+   }
+  }
+ ],
+ "encode_errors": [
+  {
+   "name": "past the last position",
+   "build": {
+    "chassis": "C4222"
+   },
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "required slot empty",
+   "build": {
+    "chassis": "C0005"
+   },
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "module not in the slot's list",
+   "build": {
+    "chassis": "C0005",
+    "torso": "W000",
+    "Shoulder_L": "S000",
+    "Shoulder_R": "S000"
+   },
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "slot outside the tree",
+   "build": {
+    "chassis": "C0000",
+    "torso": "T000"
+   },
+   "error": "BuildCodeError"
+  }
+ ],
+ "decode_errors": [
+  {
+   "name": "too new: weapon past its list",
+   "code": "500_1B",
+   "error": "TooNew"
+  },
+  {
+   "name": "ends before a required slot",
+   "code": "5",
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "characters past the end",
+   "code": "00",
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "ends inside a two-character position",
+   "code": "-",
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "ends inside a three-character position",
+   "code": "_0",
+   "error": "BuildCodeError"
+  },
+  {
+   "name": "invalid character",
+   "code": "*",
+   "error": "BuildCodeError"
+  }
+ ]
+}

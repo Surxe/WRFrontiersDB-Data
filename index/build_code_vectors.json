@@ -1,0 +1,2604 @@
+{
+  "vectors": [
+    {
+      "code": "OQ2HQJC75",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderAres.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Ability": "DA_Module_Ability_BlockingField.1"
+      }
+    },
+    {
+      "code": "GYcA04MI0A",
+      "build": {
+        "chassis": "DA_Module_ChassisHelios.2",
+        "torso": "DA_Module_TorsoTyphon.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Scourge.0",
+        "UltAbility": "DA_Module_Ability_TensionLink.1"
+      }
+    },
+    {
+      "code": "eDZHG01",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoHeike.1",
+        "Shoulder_L": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_R": "DA_Module_ShoulderInquisitor.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1"
+      }
+    },
+    {
+      "code": "P0dBB40838",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Locust.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "55KG6J99",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoBulwark.1",
+        "Shoulder_L": "DA_Module_ShoulderLoki.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_R": "DA_Module_ShoulderCyclops.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "D0002",
+      "build": {
+        "chassis": "DA_Module_ChassisGrim.1",
+        "torso": "DA_Module_TorsoGrim.0",
+        "Shoulder_L": "DA_Module_ShoulderLGrim.0",
+        "Shoulder_R": "DA_Module_ShoulderRGrim.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Katzbalger.0"
+      }
+    },
+    {
+      "code": "KaFDB0923",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoVityaz.1",
+        "Shoulder_L": "DA_Module_ShoulderHitcher.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_ION.0",
+        "Shoulder_R": "DA_Module_ShoulderGriffin.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Noricum.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "925ZPHD4",
+      "build": {
+        "chassis": "DA_Module_ChassisFenrir.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "bQbGNM0G64",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderNipper.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "H7EBL2002",
+      "build": {
+        "chassis": "DA_Module_ChassisHitcher.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Hefty.0",
+        "Shoulder_R": "DA_Module_ShoulderMesa.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Breacher.0"
+      }
+    },
+    {
+      "code": "aYc10CJ",
+      "build": {
+        "chassis": "DA_Module_ChassisScorpion.2",
+        "torso": "DA_Module_TorsoTyphon.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0"
+      }
+    },
+    {
+      "code": "72c067OB",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Ability": "DA_Module_Ability_Regeneration.1"
+      }
+    },
+    {
+      "code": "R65E0J60A",
+      "build": {
+        "chassis": "DA_Module_ChassisOrochi.2",
+        "torso": "DA_Module_TorsoCyclops.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Dragoon.0",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1"
+      }
+    },
+    {
+      "code": "PCGVa0D0B",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Shoulder_R": "DA_Module_ShoulderSiren.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Hefty.0"
+      }
+    },
+    {
+      "code": "LXG0S17H",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoSiren.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari01.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Scatter.0"
+      }
+    },
+    {
+      "code": "JMO99121",
+      "build": {
+        "chassis": "DA_Module_ChassisKernel.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Aftershock.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "YH0UAML57B",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicScorpion.2",
+        "torso": "DA_Module_TorsoKernel.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R": "DA_Module_ShoulderNipper.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "50c08EPB7",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "2Pah20088K",
+      "build": {
+        "chassis": "DA_Module_ChassisAngler.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderSiren.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Shredder.0"
+      }
+    },
+    {
+      "code": "00002",
+      "build": {
+        "chassis": "DA_Module_ChassisAlpha.1",
+        "torso": "DA_Module_TorsoAlpha.0",
+        "Shoulder_L": "DA_Module_ShoulderLAlpha.0",
+        "Shoulder_R": "DA_Module_ShoulderRAlpha.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Callisto.0"
+      }
+    },
+    {
+      "code": "3QCL59777",
+      "build": {
+        "chassis": "DA_Module_ChassisAres.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0"
+      }
+    },
+    {
+      "code": "0000",
+      "build": {
+        "chassis": "DA_Module_ChassisAlpha.1",
+        "torso": "DA_Module_TorsoAlpha.0",
+        "Shoulder_L": "DA_Module_ShoulderLAlpha.0",
+        "Shoulder_R": "DA_Module_ShoulderRAlpha.0"
+      }
+    },
+    {
+      "code": "fCJ60P1829",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Gozer.0"
+      }
+    },
+    {
+      "code": "fXf89205C",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoSiren.1",
+        "Shoulder_L": "DA_Module_ShoulderWyrm.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "UltAbility": "DA_Module_Ability_IronVeil.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Punisher.0"
+      }
+    },
+    {
+      "code": "a2cNFeI05",
+      "build": {
+        "chassis": "DA_Module_ChassisScorpion.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scourge.0",
+        "Ability": "DA_Module_Ability_BlockingField.1"
+      }
+    },
+    {
+      "code": "9HO5e20059",
+      "build": {
+        "chassis": "DA_Module_ChassisFenrir.2",
+        "torso": "DA_Module_TorsoKernel.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "8I783HA62",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderArtemis.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Orkan.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1"
+      }
+    },
+    {
+      "code": "6ZURL001",
+      "build": {
+        "chassis": "DA_Module_ChassisBulwark.2",
+        "torso": "DA_Module_TorsoTyr.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderMesa.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "JL5ADL5001",
+      "build": {
+        "chassis": "DA_Module_ChassisKernel.2",
+        "torso": "DA_Module_TorsoMesa.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "O06YIWC7",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderCyclops.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "5NEHbE001",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoOrochi.1",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "XSC0PL044",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoRelicBulgasari.1",
+        "Shoulder_L": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Gimcoil.0"
+      }
+    },
+    {
+      "code": "CTOR9080i",
+      "build": {
+        "chassis": "DA_Module_ChassisGriffin.2",
+        "torso": "DA_Module_TorsoRelicLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Zenit.0"
+      }
+    },
+    {
+      "code": "RXVBVL44",
+      "build": {
+        "chassis": "DA_Module_ChassisOrochi.2",
+        "torso": "DA_Module_TorsoSiren.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "KK295ON8",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoLoki.1",
+        "Shoulder_L": "DA_Module_ShoulderAres.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1"
+      }
+    },
+    {
+      "code": "24E0J0BD",
+      "build": {
+        "chassis": "DA_Module_ChassisAngler.2",
+        "torso": "DA_Module_TorsoBulgasari.1",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Pinata.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1"
+      }
+    },
+    {
+      "code": "fTNYW0095",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoRelicLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion01.0",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Dragoon.0"
+      }
+    },
+    {
+      "code": "RDIdQG74",
+      "build": {
+        "chassis": "DA_Module_ChassisOrochi.2",
+        "torso": "DA_Module_TorsoHeike.1",
+        "Shoulder_L": "DA_Module_ShoulderKumo.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Trident.0",
+        "Shoulder_R": "DA_Module_ShoulderRavana.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "10BJ3VR77",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderGriffin.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "3AfGIM",
+      "build": {
+        "chassis": "DA_Module_ChassisAres.2",
+        "torso": "DA_Module_TorsoGaruda.1",
+        "Shoulder_L": "DA_Module_ShoulderWyrm.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_MLx2.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0"
+      }
+    },
+    {
+      "code": "Q00102",
+      "build": {
+        "chassis": "DA_Module_ChassisNorna.2",
+        "torso": "DA_Module_TorsoNorna.0",
+        "Shoulder_L": "DA_Module_ShoulderLNorna.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Coriolis.0",
+        "Shoulder_R": "DA_Module_ShoulderRNorna.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Skuld.0"
+      }
+    },
+    {
+      "code": "Q00101",
+      "build": {
+        "chassis": "DA_Module_ChassisNorna.2",
+        "torso": "DA_Module_TorsoNorna.0",
+        "Shoulder_L": "DA_Module_ShoulderLNorna.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Coriolis.0",
+        "Shoulder_R": "DA_Module_ShoulderRNorna.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Coriolis.0"
+      }
+    },
+    {
+      "code": "12cLNZ7D2",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1"
+      }
+    },
+    {
+      "code": "3TdBMd5DCB8",
+      "build": {
+        "chassis": "DA_Module_ChassisAres.2",
+        "torso": "DA_Module_TorsoRelicLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Railgun.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0"
+      }
+    },
+    {
+      "code": "XC2F7TL0082",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderAres.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Bisector.0"
+      }
+    },
+    {
+      "code": "XaaF5fC9",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoVityaz.1",
+        "Shoulder_L": "DA_Module_ShoulderSiren.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Twinflare.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "J79bR4431E",
+      "build": {
+        "chassis": "DA_Module_ChassisKernel.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderFury.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Shoulder_R": "DA_Module_ShoulderRaven.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Gimcoil.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicOrkan.0"
+      }
+    },
+    {
+      "code": "Q0020",
+      "build": {
+        "chassis": "DA_Module_ChassisNorna.2",
+        "torso": "DA_Module_TorsoNorna.0",
+        "Shoulder_L": "DA_Module_ShoulderLNorna.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Skuld.0",
+        "Shoulder_R": "DA_Module_ShoulderRNorna.0"
+      }
+    },
+    {
+      "code": "47MC1E534O",
+      "build": {
+        "chassis": "DA_Module_ChassisArtemis.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Dragoon.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Toxin.0"
+      }
+    },
+    {
+      "code": "70I2c5005",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderKumo.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderTyr.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "81DVIa32",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderHeike.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Thunder.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1"
+      }
+    },
+    {
+      "code": "bJA5QEG37",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_MLx2.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "g28Q45I35",
+      "build": {
+        "chassis": "DA_Module_ChassisWyrm.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Scourge.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "eM5fNY07",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Twinflare.0",
+        "Shoulder_R": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "KSDV5793F",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoRelicBulgasari.1",
+        "Shoulder_L": "DA_Module_ShoulderHeike.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicPinata.0"
+      }
+    },
+    {
+      "code": "PBQ8TH0B",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoGriffin.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Ability": "DA_Module_Ability_Regeneration.1"
+      }
+    },
+    {
+      "code": "D0001",
+      "build": {
+        "chassis": "DA_Module_ChassisGrim.1",
+        "torso": "DA_Module_TorsoGrim.0",
+        "Shoulder_L": "DA_Module_ShoulderLGrim.0",
+        "Shoulder_R": "DA_Module_ShoulderRGrim.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Jigsaw.0"
+      }
+    },
+    {
+      "code": "D0001",
+      "build": {
+        "chassis": "DA_Module_ChassisGrim.1",
+        "torso": "DA_Module_TorsoGrim.0",
+        "Shoulder_L": "DA_Module_ShoulderLGrim.0",
+        "Shoulder_R": "DA_Module_ShoulderRGrim.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Jigsaw.0"
+      }
+    },
+    {
+      "code": "RU5FY9101",
+      "build": {
+        "chassis": "DA_Module_ChassisOrochi.2",
+        "torso": "DA_Module_TorsoRelicScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "00002",
+      "build": {
+        "chassis": "DA_Module_ChassisAlpha.1",
+        "torso": "DA_Module_TorsoAlpha.0",
+        "Shoulder_L": "DA_Module_ShoulderLAlpha.0",
+        "Shoulder_R": "DA_Module_ShoulderRAlpha.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Callisto.0"
+      }
+    },
+    {
+      "code": "MIC24A443",
+      "build": {
+        "chassis": "DA_Module_ChassisLoki.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Gimcoil.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "4QI9aE79P",
+      "build": {
+        "chassis": "DA_Module_ChassisArtemis.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderKumo.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderSiren.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Incinerator.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Tusk.0"
+      }
+    },
+    {
+      "code": "HISN907",
+      "build": {
+        "chassis": "DA_Module_ChassisHitcher.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicBulgasari01.0",
+        "Shoulder_R": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "PbT0CeEG61A",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoWyrm.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0"
+      }
+    },
+    {
+      "code": "V3dC1XMMB6",
+      "build": {
+        "chassis": "DA_Module_ChassisRaven.2",
+        "torso": "DA_Module_TorsoArtemis.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_StickyGun.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "27d0LIF04",
+      "build": {
+        "chassis": "DA_Module_ChassisAngler.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "TLBQMR0533",
+      "build": {
+        "chassis": "DA_Module_ChassisPursuer.2",
+        "torso": "DA_Module_TorsoMesa.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderRaven.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "SMOGOQ0A",
+      "build": {
+        "chassis": "DA_Module_ChassisPhantom.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_R": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "UltAbility": "DA_Module_Ability_TensionLink.1"
+      }
+    },
+    {
+      "code": "3O23C3M0A0P",
+      "build": {
+        "chassis": "DA_Module_ChassisAres.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderAres.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R": "DA_Module_ShoulderArtemis.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Tusk.0"
+      }
+    },
+    {
+      "code": "IMQLXLOA5",
+      "build": {
+        "chassis": "DA_Module_ChassisInquisitor.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Toxin.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "UDL23003",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoHeike.1",
+        "Shoulder_L": "DA_Module_ShoulderMesa.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Shoulder_R": "DA_Module_ShoulderArtemis.0",
+        "Ability": "DA_Module_Ability_Atrophy.1"
+      }
+    },
+    {
+      "code": "REc8Bc0Q96",
+      "build": {
+        "chassis": "DA_Module_ChassisOrochi.2",
+        "torso": "DA_Module_TorsoHelios.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R": "DA_Module_ShoulderTyr.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Velite.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "G1X07XRM57N",
+      "build": {
+        "chassis": "DA_Module_ChassisHelios.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_StickyGun.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Pyre.0"
+      }
+    },
+    {
+      "code": "F2J30V278",
+      "build": {
+        "chassis": "DA_Module_ChassisHeike.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "S7506A42I",
+      "build": {
+        "chassis": "DA_Module_ChassisPhantom.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R": "DA_Module_ShoulderCyclops.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Scourge.0"
+      }
+    },
+    {
+      "code": "P2B80HL25",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderGriffin.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderKernel.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "dYCPS85",
+      "build": {
+        "chassis": "DA_Module_ChassisTyphon.2",
+        "torso": "DA_Module_TorsoTyphon.1",
+        "Shoulder_L": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari01.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "HE10604B",
+      "build": {
+        "chassis": "DA_Module_ChassisHitcher.2",
+        "torso": "DA_Module_TorsoHelios.1",
+        "Shoulder_L": "DA_Module_ShoulderAngler.0",
+        "Shoulder_R": "DA_Module_ShoulderCyclops.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "00002",
+      "build": {
+        "chassis": "DA_Module_ChassisAlpha.1",
+        "torso": "DA_Module_TorsoAlpha.0",
+        "Shoulder_L": "DA_Module_ShoulderLAlpha.0",
+        "Shoulder_R": "DA_Module_ShoulderRAlpha.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Callisto.0"
+      }
+    },
+    {
+      "code": "7aMNMIG06",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoVityaz.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_MLx2.0",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "ENeJ00LB",
+      "build": {
+        "chassis": "DA_Module_ChassisHarpy.2",
+        "torso": "DA_Module_TorsoOrochi.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0",
+        "Ability": "DA_Module_Ability_Regeneration.1"
+      }
+    },
+    {
+      "code": "8P9X40PD45",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderFury.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Tusk.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0"
+      }
+    },
+    {
+      "code": "EOM54dHG19M",
+      "build": {
+        "chassis": "DA_Module_ChassisHarpy.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_StickyGun.0"
+      }
+    },
+    {
+      "code": "VUY3KPR51",
+      "build": {
+        "chassis": "DA_Module_ChassisRaven.2",
+        "torso": "DA_Module_TorsoRelicScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "D0002",
+      "build": {
+        "chassis": "DA_Module_ChassisGrim.1",
+        "torso": "DA_Module_TorsoGrim.0",
+        "Shoulder_L": "DA_Module_ShoulderLGrim.0",
+        "Shoulder_R": "DA_Module_ShoulderRGrim.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Katzbalger.0"
+      }
+    },
+    {
+      "code": "gEGBJ0238",
+      "build": {
+        "chassis": "DA_Module_ChassisWyrm.2",
+        "torso": "DA_Module_TorsoHelios.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Hefty.0",
+        "Shoulder_R": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "e311EL",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoArtemis.1",
+        "Shoulder_L": "DA_Module_ShoulderAngler.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0"
+      }
+    },
+    {
+      "code": "gR8ES6B",
+      "build": {
+        "chassis": "DA_Module_ChassisWyrm.2",
+        "torso": "DA_Module_TorsoRaven.1",
+        "Shoulder_L": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Incinerator.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari01.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "LQO0GiD0E",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Zenit.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicOrkan.0"
+      }
+    },
+    {
+      "code": "OA0eWN03",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoGaruda.1",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "F1AR65d033",
+      "build": {
+        "chassis": "DA_Module_ChassisHeike.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Trident.0",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Breacher.0"
+      }
+    },
+    {
+      "code": "GLOO02C597",
+      "build": {
+        "chassis": "DA_Module_ChassisHelios.2",
+        "torso": "DA_Module_TorsoMesa.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "LHQ0JZ2AB",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoKernel.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "2TPDM12B5E",
+      "build": {
+        "chassis": "DA_Module_ChassisAngler.2",
+        "torso": "DA_Module_TorsoRelicLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderNipper.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Incinerator.0"
+      }
+    },
+    {
+      "code": "XXLRGbD4O",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoSiren.1",
+        "Shoulder_L": "DA_Module_ShoulderMesa.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Toxin.0"
+      }
+    },
+    {
+      "code": "YMA5O046B",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicScorpion.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Toxin.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "IKVKR1J00O",
+      "build": {
+        "chassis": "DA_Module_ChassisInquisitor.2",
+        "torso": "DA_Module_TorsoLoki.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderRaven.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Shocktrain.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Toxin.0"
+      }
+    },
+    {
+      "code": "UGd0EHC23X",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoInquisitor.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderKernel.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Horde.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Slugger.0"
+      }
+    },
+    {
+      "code": "eYcEA0I96",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoTyphon.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Nucleon.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "LCR15aU9BF",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderRaven.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderSiren.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scourge.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Locust.0"
+      }
+    },
+    {
+      "code": "1NX6LMG0A5",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoOrochi.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderNipper.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "BQ48FWQ40E",
+      "build": {
+        "chassis": "DA_Module_ChassisGaruda.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicOrkan.0"
+      }
+    },
+    {
+      "code": "ePHNdA007P",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderKernel.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pyre.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Tusk.0"
+      }
+    },
+    {
+      "code": "eO2C5aL79",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderAres.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderSiren.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "5aM307G01",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoVityaz.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "KP8fHA79",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Twinflare.0",
+        "Shoulder_R": "DA_Module_ShoulderKernel.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "88UN2H0C7N",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Pyre.0"
+      }
+    },
+    {
+      "code": "b55HCB59",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoBulwark.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "T9TZ0eLP2",
+      "build": {
+        "chassis": "DA_Module_ChassisPursuer.2",
+        "torso": "DA_Module_TorsoFury.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_L": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Tusk.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1"
+      }
+    },
+    {
+      "code": "TFTNL8a001",
+      "build": {
+        "chassis": "DA_Module_ChassisPursuer.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Thunder.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Aftershock.0"
+      }
+    },
+    {
+      "code": "56NaPWR2",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoCyclops.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Pyre.0",
+        "Shoulder_L": "DA_Module_ShoulderSiren.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1"
+      }
+    },
+    {
+      "code": "1B80c02D1",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoGriffin.1",
+        "Shoulder_L": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_R": "DA_Module_ShoulderTyr.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "c0010",
+      "build": {
+        "chassis": "DA_Module_ChassisSpire.2",
+        "torso": "DA_Module_TorsoSpire.0",
+        "Shoulder_L": "DA_Module_ShoulderLSpire.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Cascade.0",
+        "Shoulder_R": "DA_Module_ShoulderRSpire.0"
+      }
+    },
+    {
+      "code": "MGJQ61906",
+      "build": {
+        "chassis": "DA_Module_ChassisLoki.2",
+        "torso": "DA_Module_TorsoInquisitor.1",
+        "Shoulder_L": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderAngler.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "1M10d1QE8",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderAngler.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Velite.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "53YQ91422",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoArtemis.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R": "DA_Module_ShoulderAngler.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1"
+      }
+    },
+    {
+      "code": "U29fI133",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderFury.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Twinflare.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Aftershock.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "ABA8KLGB1",
+      "build": {
+        "chassis": "DA_Module_ChassisFury.2",
+        "torso": "DA_Module_TorsoGriffin.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderMesa.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "EFe6CE0631",
+      "build": {
+        "chassis": "DA_Module_ChassisHarpy.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Aftershock.0"
+      }
+    },
+    {
+      "code": "Ab0C909",
+      "build": {
+        "chassis": "DA_Module_ChassisFury.2",
+        "torso": "DA_Module_TorsoWyrm.1",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Horde.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Ability": "DA_Module_Ability_Grounded.1"
+      }
+    },
+    {
+      "code": "7ad00OEB4",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoVityaz.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "8NWD40C74",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoOrochi.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "UOEGfc05C",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_MLx2.0",
+        "Shoulder_R": "DA_Module_ShoulderWyrm.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Trebuchet.0",
+        "UltAbility": "DA_Module_Ability_IronVeil.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Punisher.0"
+      }
+    },
+    {
+      "code": "Y1cG92QL01",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicScorpion.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Noricum.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "P1QDRNF07",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderRaven.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1"
+      }
+    },
+    {
+      "code": "IW7C9VD09",
+      "build": {
+        "chassis": "DA_Module_ChassisInquisitor.2",
+        "torso": "DA_Module_TorsoScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Noricum.0"
+      }
+    },
+    {
+      "code": "BbKL2E076",
+      "build": {
+        "chassis": "DA_Module_ChassisGaruda.2",
+        "torso": "DA_Module_TorsoWyrm.1",
+        "Shoulder_L": "DA_Module_ShoulderLoki.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "7MA0F4NPC3",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Tusk.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "9DAH0VKCB",
+      "build": {
+        "chassis": "DA_Module_ChassisFenrir.2",
+        "torso": "DA_Module_TorsoHeike.1",
+        "Shoulder_L": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "7QGMeB5C5D",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Railgun.0"
+      }
+    },
+    {
+      "code": "MOUEQM30N",
+      "build": {
+        "chassis": "DA_Module_ChassisLoki.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderRavana.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Stormpike.0"
+      }
+    },
+    {
+      "code": "X6gDdW0A",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoCyclops.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_L": "DA_Module_ShoulderHeike.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Trident.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion01.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1"
+      }
+    },
+    {
+      "code": "5200NVBA",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_TensionLink.1"
+      }
+    },
+    {
+      "code": "GVEaZ393",
+      "build": {
+        "chassis": "DA_Module_ChassisHelios.2",
+        "torso": "DA_Module_TorsoRelicTyr.1",
+        "Shoulder_L": "DA_Module_ShoulderHelios.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Thunder.0",
+        "Shoulder_R": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "1AXMNPJ08",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoGaruda.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "a3O3fME8",
+      "build": {
+        "chassis": "DA_Module_ChassisScorpion.2",
+        "torso": "DA_Module_TorsoArtemis.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderWyrm.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "d6XVDU83A",
+      "build": {
+        "chassis": "DA_Module_ChassisTyphon.2",
+        "torso": "DA_Module_TorsoCyclops.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Ability": "DA_Module_Ability_Atrophy.1",
+        "UltAbility": "DA_Module_Ability_TensionLink.1"
+      }
+    },
+    {
+      "code": "9T4GEZ0E",
+      "build": {
+        "chassis": "DA_Module_ChassisFenrir.2",
+        "torso": "DA_Module_TorsoRelicLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderScorpion.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1"
+      }
+    },
+    {
+      "code": "6835700C87",
+      "build": {
+        "chassis": "DA_Module_ChassisBulwark.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderArtemis.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Gimcoil.0"
+      }
+    },
+    {
+      "code": "UZMBM0W51",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoTyr.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "VMW34ECE4",
+      "build": {
+        "chassis": "DA_Module_ChassisRaven.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "ICUQMK078O",
+      "build": {
+        "chassis": "DA_Module_ChassisInquisitor.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R": "DA_Module_ShoulderNipper.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Railgun.0"
+      }
+    },
+    {
+      "code": "eMRDNIV26",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoNipper.1",
+        "Shoulder_L": "DA_Module_ShoulderRaven.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "FBL4OFA4",
+      "build": {
+        "chassis": "DA_Module_ChassisHeike.2",
+        "torso": "DA_Module_TorsoGriffin.1",
+        "Shoulder_L": "DA_Module_ShoulderMesa.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_R": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "PWJB15Q47J",
+      "build": {
+        "chassis": "DA_Module_ChassisNipper.2",
+        "torso": "DA_Module_TorsoScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Shocktrain.0"
+      }
+    },
+    {
+      "code": "2Q5LB0C011",
+      "build": {
+        "chassis": "DA_Module_ChassisAngler.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0",
+        "Shoulder_R": "DA_Module_ShoulderGriffin.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Punisher.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Bisector.0"
+      }
+    },
+    {
+      "code": "87c70T00E9",
+      "build": {
+        "chassis": "DA_Module_ChassisDemeter.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "EEQQ0P15",
+      "build": {
+        "chassis": "DA_Module_ChassisHarpy.2",
+        "torso": "DA_Module_TorsoHelios.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "1bMRFf052j",
+      "build": {
+        "chassis": "DA_Module_ChassisAnansi.2",
+        "torso": "DA_Module_TorsoWyrm.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderWyrm.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Zeus.0"
+      }
+    },
+    {
+      "code": "98OMKH908",
+      "build": {
+        "chassis": "DA_Module_ChassisFenrir.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderPhantom.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderLoki.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0"
+      }
+    },
+    {
+      "code": "WSU0ZE268",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicBulgasari.2",
+        "torso": "DA_Module_TorsoRelicBulgasari.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_R": "DA_Module_ShoulderScorpion.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_MineField.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Locust.0"
+      }
+    },
+    {
+      "code": "TFME00T48",
+      "build": {
+        "chassis": "DA_Module_ChassisPursuer.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "SINd9Y49",
+      "build": {
+        "chassis": "DA_Module_ChassisPhantom.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Trident.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "e7300dPD73Q",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderArtemis.0",
+        "Shoulder_R": "DA_Module_ShoulderVityaz01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Railgun.0",
+        "Ability": "DA_Module_Ability_FuelReserve.1",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Velite.0"
+      }
+    },
+    {
+      "code": "LXC6XNJB8J",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoSiren.1",
+        "Shoulder_L": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Shocktrain.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Shocktrain.0"
+      }
+    },
+    {
+      "code": "D0002",
+      "build": {
+        "chassis": "DA_Module_ChassisGrim.1",
+        "torso": "DA_Module_TorsoGrim.0",
+        "Shoulder_L": "DA_Module_ShoulderLGrim.0",
+        "Shoulder_R": "DA_Module_ShoulderRGrim.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Katzbalger.0"
+      }
+    },
+    {
+      "code": "ZC008iB9g",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicTyr.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Zenit.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Velite.0"
+      }
+    },
+    {
+      "code": "eIL7ARFB8",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderMesa.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderGaruda.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_RelicPinata.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "4989QT7N02",
+      "build": {
+        "chassis": "DA_Module_ChassisArtemis.2",
+        "torso": "DA_Module_TorsoFury.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_L": "DA_Module_ShoulderFury.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicPinata.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "UltAbility": "DA_Module_Ability_Dazzle.1"
+      }
+    },
+    {
+      "code": "Q00101",
+      "build": {
+        "chassis": "DA_Module_ChassisNorna.2",
+        "torso": "DA_Module_TorsoNorna.0",
+        "Shoulder_L": "DA_Module_ShoulderLNorna.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Coriolis.0",
+        "Shoulder_R": "DA_Module_ShoulderRNorna.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Coriolis.0"
+      }
+    },
+    {
+      "code": "5V0eN241",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoRelicTyr.1",
+        "Shoulder_L": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "bWN0G0E7H",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R": "DA_Module_ShoulderInquisitor.0",
+        "Ability": "DA_Module_Ability_SpeedBoost.1",
+        "UltAbility": "DA_Module_Ability_RegenerationFull.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Scatter.0"
+      }
+    },
+    {
+      "code": "LEb30KJ96",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoHelios.1",
+        "Shoulder_L": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderLoki.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Shocktrain.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "O17M8201H",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_StickyGun.0",
+        "Shoulder_R": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Noricum.0"
+      }
+    },
+    {
+      "code": "O7MK7YB1019",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoDemeter.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Noricum.0"
+      }
+    },
+    {
+      "code": "L8M4E44J00F",
+      "build": {
+        "chassis": "DA_Module_ChassisLancelot.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Shocktrain.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Locust.0"
+      }
+    },
+    {
+      "code": "M6EB8KS56",
+      "build": {
+        "chassis": "DA_Module_ChassisLoki.2",
+        "torso": "DA_Module_TorsoCyclops.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Incinerator.0",
+        "Shoulder_L": "DA_Module_ShoulderGriffin.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicBulgasari01.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "ZCDL8h10K",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicTyr.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderHeike.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pulsar.0",
+        "Shoulder_R": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Pinata.0"
+      }
+    },
+    {
+      "code": "K25J7046",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoAres.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Orkan.0",
+        "Shoulder_R": "DA_Module_ShoulderDemeter.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_MineField.1"
+      }
+    },
+    {
+      "code": "S5QRQ083",
+      "build": {
+        "chassis": "DA_Module_ChassisPhantom.2",
+        "torso": "DA_Module_TorsoBulwark.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderRavana.0",
+        "Ability": "DA_Module_Ability_GhostTurret.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "IFeN10I06a",
+      "build": {
+        "chassis": "DA_Module_ChassisInquisitor.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderVityaz02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Nucleon.0",
+        "UltAbility": "DA_Module_Ability_MineField.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Thunder.0"
+      }
+    },
+    {
+      "code": "fI38NX0Q55",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoKumo.1",
+        "Shoulder_L": "DA_Module_ShoulderArtemis.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Velite.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "KYVN7648",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoTyphon.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Stormpike.0",
+        "Shoulder_R": "DA_Module_ShoulderDemeter.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1"
+      }
+    },
+    {
+      "code": "O1F069168",
+      "build": {
+        "chassis": "DA_Module_ChassisMesa.2",
+        "torso": "DA_Module_TorsoAngler.1",
+        "Shoulder_L": "DA_Module_ShoulderHitcher.0",
+        "Shoulder_R": "DA_Module_ShoulderCyclops.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gozer.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "UltAbility": "DA_Module_Ability_MineField.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Glory.0"
+      }
+    },
+    {
+      "code": "XFVDR2094",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicLancelot02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderRaven.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Breacher.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "J90GCERC4",
+      "build": {
+        "chassis": "DA_Module_ChassisKernel.2",
+        "torso": "DA_Module_TorsoFury.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Horde.0",
+        "Shoulder_R": "DA_Module_ShoulderHelios.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_RelicThunder.0",
+        "Ability": "DA_Module_Ability_Repulsor.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "Z8bOPJQ1D4",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicTyr.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_InfiniteAmmo.1"
+      }
+    },
+    {
+      "code": "AOWDY40003",
+      "build": {
+        "chassis": "DA_Module_ChassisFury.2",
+        "torso": "DA_Module_TorsoPhantom.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Gimcoil.0",
+        "Torso_Weapon_0": "DA_Module_Weapon_Buckshot.0"
+      }
+    },
+    {
+      "code": "00002",
+      "build": {
+        "chassis": "DA_Module_ChassisAlpha.1",
+        "torso": "DA_Module_TorsoAlpha.0",
+        "Shoulder_L": "DA_Module_ShoulderLAlpha.0",
+        "Shoulder_R": "DA_Module_ShoulderRAlpha.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Callisto.0"
+      }
+    },
+    {
+      "code": "MPGBb7P98N",
+      "build": {
+        "chassis": "DA_Module_ChassisLoki.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Hefty.0",
+        "Shoulder_R": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_GrenadeLauncher.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Tusk.0",
+        "Ability": "DA_Module_Ability_Grounded.1",
+        "UltAbility": "DA_Module_Ability_Spotlight.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Stormpike.0"
+      }
+    },
+    {
+      "code": "g8cHK9N55",
+      "build": {
+        "chassis": "DA_Module_ChassisWyrm.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Scatter.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pyre.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_IronVeil.1"
+      }
+    },
+    {
+      "code": "UCcG5UQ6BQ",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoHarpy.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicVortex.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicPinata.0"
+      }
+    },
+    {
+      "code": "bPWRaD59",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderSiren.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_ION.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "c00201",
+      "build": {
+        "chassis": "DA_Module_ChassisSpire.2",
+        "torso": "DA_Module_TorsoSpire.0",
+        "Shoulder_L": "DA_Module_ShoulderLSpire.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Conflux.0",
+        "Shoulder_R": "DA_Module_ShoulderRSpire.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Cascade.0"
+      }
+    },
+    {
+      "code": "CGT14G143h",
+      "build": {
+        "chassis": "DA_Module_ChassisGriffin.2",
+        "torso": "DA_Module_TorsoInquisitor.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicBulgasari02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Gimcoil.0",
+        "Shoulder_R": "DA_Module_ShoulderInquisitor.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Aftershock.0",
+        "Ability": "DA_Module_Ability_BlastWave.1",
+        "UltAbility": "DA_Module_Ability_Homing.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Vortex.0"
+      }
+    },
+    {
+      "code": "N00101",
+      "build": {
+        "chassis": "DA_Module_ChassisMatriarch.1",
+        "torso": "DA_Module_TorsoMatriarch.0",
+        "Shoulder_L": "DA_Module_ShoulderLMatriarch.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Hive.0",
+        "Shoulder_R": "DA_Module_ShoulderRMatriarch.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Hive.0"
+      }
+    },
+    {
+      "code": "JFPON6D",
+      "build": {
+        "chassis": "DA_Module_ChassisKernel.2",
+        "torso": "DA_Module_TorsoHitcher.1",
+        "Shoulder_L": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Toxin.0",
+        "Shoulder_R": "DA_Module_ShoulderOrochi.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Fowler.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1"
+      }
+    },
+    {
+      "code": "B0cCDCQ0A",
+      "build": {
+        "chassis": "DA_Module_ChassisGaruda.2",
+        "torso": "DA_Module_TorsoAnansi.1",
+        "Shoulder_L": "DA_Module_ShoulderTyr.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Punisher.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Railgun.0",
+        "Shoulder_R": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "UltAbility": "DA_Module_Ability_TensionLink.1"
+      }
+    },
+    {
+      "code": "bWQ8001BH",
+      "build": {
+        "chassis": "DA_Module_ChassisSiren.2",
+        "torso": "DA_Module_TorsoScorpion.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Shoulder_R": "DA_Module_ShoulderAnansi.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Scatter.0"
+      }
+    },
+    {
+      "code": "5QJLKCB6BG",
+      "build": {
+        "chassis": "DA_Module_ChassisBulgasari.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderLancelot.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Shredder.0",
+        "Shoulder_R": "DA_Module_ShoulderHarpy.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Ability": "DA_Module_Ability_DashBlinkedVisible.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicVortex.0"
+      }
+    },
+    {
+      "code": "ULL4P06aAB",
+      "build": {
+        "chassis": "DA_Module_ChassisRavana.2",
+        "torso": "DA_Module_TorsoMesa.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_L": "DA_Module_ShoulderBulgasari.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R": "DA_Module_ShoulderCyclops.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Thunder.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1",
+        "UltAbility": "DA_Module_Ability_Umbrella.1"
+      }
+    },
+    {
+      "code": "AQ88bR052E",
+      "build": {
+        "chassis": "DA_Module_ChassisFury.2",
+        "torso": "DA_Module_TorsoRavana.1",
+        "Shoulder_L": "DA_Module_ShoulderFenrir.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Glory.0",
+        "Shoulder_R": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Ability": "DA_Module_Ability_BlockingField.1",
+        "UltAbility": "DA_Module_Ability_Dazzle.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_RelicOrkan.0"
+      }
+    },
+    {
+      "code": "GHfMI12P4D1",
+      "build": {
+        "chassis": "DA_Module_ChassisHelios.2",
+        "torso": "DA_Module_TorsoKernel.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Twinflare.0",
+        "Shoulder_L": "DA_Module_ShoulderNipper.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Scourge.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Bisector.0",
+        "Shoulder_R": "DA_Module_ShoulderAres.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Tusk.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Gimcoil.0",
+        "Ability": "DA_Module_Ability_SmokeWall.1",
+        "UltAbility": "DA_Module_Ability_CounterAttack.1"
+      }
+    },
+    {
+      "code": "K85gb80109",
+      "build": {
+        "chassis": "DA_Module_ChassisKumo.2",
+        "torso": "DA_Module_TorsoFenrir.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Velite.0",
+        "Shoulder_R": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Locust.0",
+        "Ability": "DA_Module_Ability_AmmoGenerator.1",
+        "Torso_Weapon_0": "DA_Module_Weapon_Gozer.0"
+      }
+    },
+    {
+      "code": "ZJQRY0I03",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicTyr.2",
+        "torso": "DA_Module_TorsoLancelot.1",
+        "Shoulder_L": "DA_Module_ShoulderRavana.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicTyr.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Scourge.0",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "fDbR0U9B",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoHeike.1",
+        "Shoulder_L": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Vortex.0",
+        "Shoulder_R": "DA_Module_ShoulderRelicLancelot01.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Noricum.0",
+        "Ability": "DA_Module_Ability_Regeneration.1"
+      }
+    },
+    {
+      "code": "e3X3LI003",
+      "build": {
+        "chassis": "DA_Module_ChassisTyr.2",
+        "torso": "DA_Module_TorsoArtemis.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion02.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_L.Shoulder_Weapon_1": "DA_Module_Weapon_Slugger.0",
+        "Shoulder_R": "DA_Module_ShoulderKumo.0",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "7L0KBb39B9",
+      "build": {
+        "chassis": "DA_Module_ChassisCyclops.2",
+        "torso": "DA_Module_TorsoMesa.1",
+        "Shoulder_L": "DA_Module_ShoulderLoki.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Pinata.0",
+        "Shoulder_R": "DA_Module_ShoulderTyphon.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R.Shoulder_Weapon_1": "DA_Module_Weapon_Noricum.0",
+        "Ability": "DA_Module_Ability_Regeneration.1",
+        "UltAbility": "DA_Module_Ability_SupplySurge.1"
+      }
+    },
+    {
+      "code": "X55PPI23",
+      "build": {
+        "chassis": "DA_Module_ChassisRelicLancelot.2",
+        "torso": "DA_Module_TorsoBulwark.1",
+        "Shoulder_L": "DA_Module_ShoulderBulwark.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_RelicOrkan.0",
+        "Shoulder_R": "DA_Module_ShoulderPursuer.0",
+        "Shoulder_R.Shoulder_Weapon_0": "DA_Module_Weapon_Scourge.0",
+        "Ability": "DA_Module_Ability_ArmorShield.1",
+        "UltAbility": "DA_Module_Ability_Homing.1"
+      }
+    },
+    {
+      "code": "fPW390A",
+      "build": {
+        "chassis": "DA_Module_ChassisVityaz.2",
+        "torso": "DA_Module_TorsoPursuer.1",
+        "Shoulder_L": "DA_Module_ShoulderRelicScorpion01.0",
+        "Shoulder_L.Shoulder_Weapon_0": "DA_Module_Weapon_Buckshot.0",
+        "Shoulder_R": "DA_Module_ShoulderFury.0",
+        "Ability": "DA_Module_Ability_KineticPulse.1"
+      }
+    }
+  ],
+  "encode_errors": [],
+  "decode_errors": [
+    {
+      "code": "h",
+      "error": "TooNew"
+    }
+  ]
+}

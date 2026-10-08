@@ -1,0 +1,2375 @@
+{
+  "format": 1,
+  "root_socket": "chassis",
+  "sockets": {
+    "chassis": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ChassisAlpha.1",
+        "DA_Module_ChassisAnansi.2",
+        "DA_Module_ChassisAngler.2",
+        "DA_Module_ChassisAres.2",
+        "DA_Module_ChassisArtemis.2",
+        "DA_Module_ChassisBulgasari.2",
+        "DA_Module_ChassisBulwark.2",
+        "DA_Module_ChassisCyclops.2",
+        "DA_Module_ChassisDemeter.2",
+        "DA_Module_ChassisFenrir.2",
+        "DA_Module_ChassisFury.2",
+        "DA_Module_ChassisGaruda.2",
+        "DA_Module_ChassisGriffin.2",
+        "DA_Module_ChassisGrim.1",
+        "DA_Module_ChassisHarpy.2",
+        "DA_Module_ChassisHeike.2",
+        "DA_Module_ChassisHelios.2",
+        "DA_Module_ChassisHitcher.2",
+        "DA_Module_ChassisInquisitor.2",
+        "DA_Module_ChassisKernel.2",
+        "DA_Module_ChassisKumo.2",
+        "DA_Module_ChassisLancelot.2",
+        "DA_Module_ChassisLoki.2",
+        "DA_Module_ChassisMatriarch.1",
+        "DA_Module_ChassisMesa.2",
+        "DA_Module_ChassisNipper.2",
+        "DA_Module_ChassisNorna.2",
+        "DA_Module_ChassisOrochi.2",
+        "DA_Module_ChassisPhantom.2",
+        "DA_Module_ChassisPursuer.2",
+        "DA_Module_ChassisRavana.2",
+        "DA_Module_ChassisRaven.2",
+        "DA_Module_ChassisRelicBulgasari.2",
+        "DA_Module_ChassisRelicLancelot.2",
+        "DA_Module_ChassisRelicScorpion.2",
+        "DA_Module_ChassisRelicTyr.2",
+        "DA_Module_ChassisScorpion.2",
+        "DA_Module_ChassisSiren.2",
+        "DA_Module_ChassisSpire.2",
+        "DA_Module_ChassisTyphon.2",
+        "DA_Module_ChassisTyr.2",
+        "DA_Module_ChassisVityaz.2",
+        "DA_Module_ChassisWyrm.2"
+      ]
+    },
+    "DA_ModuleSocketType_Ability3.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Ability_AmmoGenerator.1",
+        "DA_Module_Ability_ArmorShield.1",
+        "DA_Module_Ability_Atrophy.1",
+        "DA_Module_Ability_BlastWave.1",
+        "DA_Module_Ability_BlockingField.1",
+        "DA_Module_Ability_DashBlinkedVisible.1",
+        "DA_Module_Ability_FuelReserve.1",
+        "DA_Module_Ability_GhostTurret.1",
+        "DA_Module_Ability_Grounded.1",
+        "DA_Module_Ability_KineticPulse.1",
+        "DA_Module_Ability_Regeneration.1",
+        "DA_Module_Ability_Repulsor.1",
+        "DA_Module_Ability_SmokeWall.1",
+        "DA_Module_Ability_SpeedBoost.1"
+      ]
+    },
+    "DA_ModuleSocketType_Ability4.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Ability_CounterAttack.1",
+        "DA_Module_Ability_Dazzle.1",
+        "DA_Module_Ability_Homing.1",
+        "DA_Module_Ability_InfiniteAmmo.1",
+        "DA_Module_Ability_IronVeil.1",
+        "DA_Module_Ability_MineField.1",
+        "DA_Module_Ability_RegenerationFull.1",
+        "DA_Module_Ability_Spotlight.1",
+        "DA_Module_Ability_SupplySurge.1",
+        "DA_Module_Ability_TensionLink.1",
+        "DA_Module_Ability_Umbrella.1"
+      ]
+    },
+    "DA_ModuleSocketType_ShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderAnansi.0",
+        "DA_Module_ShoulderAngler.0",
+        "DA_Module_ShoulderAres.0",
+        "DA_Module_ShoulderArtemis.0",
+        "DA_Module_ShoulderBulgasari.0",
+        "DA_Module_ShoulderBulwark.0",
+        "DA_Module_ShoulderCyclops.0",
+        "DA_Module_ShoulderDemeter.0",
+        "DA_Module_ShoulderFenrir.0",
+        "DA_Module_ShoulderFury.0",
+        "DA_Module_ShoulderGaruda.0",
+        "DA_Module_ShoulderGriffin.0",
+        "DA_Module_ShoulderHarpy.0",
+        "DA_Module_ShoulderHeike.0",
+        "DA_Module_ShoulderHelios.0",
+        "DA_Module_ShoulderHitcher.0",
+        "DA_Module_ShoulderInquisitor.0",
+        "DA_Module_ShoulderKernel.0",
+        "DA_Module_ShoulderKumo.0",
+        "DA_Module_ShoulderLancelot.0",
+        "DA_Module_ShoulderLoki.0",
+        "DA_Module_ShoulderMesa.0",
+        "DA_Module_ShoulderNipper.0",
+        "DA_Module_ShoulderOrochi.0",
+        "DA_Module_ShoulderPhantom.0",
+        "DA_Module_ShoulderPursuer.0",
+        "DA_Module_ShoulderRavana.0",
+        "DA_Module_ShoulderRaven.0",
+        "DA_Module_ShoulderRelicBulgasari01.0",
+        "DA_Module_ShoulderRelicBulgasari02.0",
+        "DA_Module_ShoulderRelicLancelot01.0",
+        "DA_Module_ShoulderRelicLancelot02.0",
+        "DA_Module_ShoulderRelicScorpion01.0",
+        "DA_Module_ShoulderRelicScorpion02.0",
+        "DA_Module_ShoulderRelicTyr.0",
+        "DA_Module_ShoulderScorpion.0",
+        "DA_Module_ShoulderSiren.0",
+        "DA_Module_ShoulderTyphon.0",
+        "DA_Module_ShoulderTyr.0",
+        "DA_Module_ShoulderVityaz01.0",
+        "DA_Module_ShoulderVityaz02.0",
+        "DA_Module_ShoulderWyrm.0"
+      ]
+    },
+    "DA_ModuleSocketType_ShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderAnansi.0",
+        "DA_Module_ShoulderAngler.0",
+        "DA_Module_ShoulderAres.0",
+        "DA_Module_ShoulderArtemis.0",
+        "DA_Module_ShoulderBulgasari.0",
+        "DA_Module_ShoulderBulwark.0",
+        "DA_Module_ShoulderCyclops.0",
+        "DA_Module_ShoulderDemeter.0",
+        "DA_Module_ShoulderFenrir.0",
+        "DA_Module_ShoulderFury.0",
+        "DA_Module_ShoulderGaruda.0",
+        "DA_Module_ShoulderGriffin.0",
+        "DA_Module_ShoulderHarpy.0",
+        "DA_Module_ShoulderHeike.0",
+        "DA_Module_ShoulderHelios.0",
+        "DA_Module_ShoulderHitcher.0",
+        "DA_Module_ShoulderInquisitor.0",
+        "DA_Module_ShoulderKernel.0",
+        "DA_Module_ShoulderKumo.0",
+        "DA_Module_ShoulderLancelot.0",
+        "DA_Module_ShoulderLoki.0",
+        "DA_Module_ShoulderMesa.0",
+        "DA_Module_ShoulderNipper.0",
+        "DA_Module_ShoulderOrochi.0",
+        "DA_Module_ShoulderPhantom.0",
+        "DA_Module_ShoulderPursuer.0",
+        "DA_Module_ShoulderRavana.0",
+        "DA_Module_ShoulderRaven.0",
+        "DA_Module_ShoulderRelicBulgasari01.0",
+        "DA_Module_ShoulderRelicBulgasari02.0",
+        "DA_Module_ShoulderRelicLancelot01.0",
+        "DA_Module_ShoulderRelicLancelot02.0",
+        "DA_Module_ShoulderRelicScorpion01.0",
+        "DA_Module_ShoulderRelicScorpion02.0",
+        "DA_Module_ShoulderRelicTyr.0",
+        "DA_Module_ShoulderScorpion.0",
+        "DA_Module_ShoulderSiren.0",
+        "DA_Module_ShoulderTyphon.0",
+        "DA_Module_ShoulderTyr.0",
+        "DA_Module_ShoulderVityaz01.0",
+        "DA_Module_ShoulderVityaz02.0",
+        "DA_Module_ShoulderWyrm.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanAlphaShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderLAlpha.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanAlphaShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderRAlpha.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanAlphaTorso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoAlpha.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanGrimShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderLGrim.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanGrimShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderRGrim.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanGrimTorso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoGrim.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanMatriarchShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderLMatriarch.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanMatriarchShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderRMatriarch.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanMatriarchTorso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoMatriarch.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanNornaShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderLNorna.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanNornaShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderRNorna.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanNornaTorso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoNorna.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanSpireShoulderL.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderLSpire.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanSpireShoulderR.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_ShoulderRSpire.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanSpireTorso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoSpire.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanWeaponAssault.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Cascade.0",
+        "DA_Module_Weapon_Conflux.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanWeaponFlanker.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Jigsaw.0",
+        "DA_Module_Weapon_Katzbalger.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanWeaponNorna.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Coriolis.0",
+        "DA_Module_Weapon_Skuld.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanWeaponTactican.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Bayonet.0",
+        "DA_Module_Weapon_Callisto.0"
+      ]
+    },
+    "DA_ModuleSocketType_TitanWeaponTank.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Hive.0",
+        "DA_Module_Weapon_Scrubber.0"
+      ]
+    },
+    "DA_ModuleSocketType_Torso.0": {
+      "required": true,
+      "candidates": [
+        "DA_Module_TorsoAnansi.1",
+        "DA_Module_TorsoAngler.1",
+        "DA_Module_TorsoAres.1",
+        "DA_Module_TorsoArtemis.1",
+        "DA_Module_TorsoBulgasari.1",
+        "DA_Module_TorsoBulwark.1",
+        "DA_Module_TorsoCyclops.1",
+        "DA_Module_TorsoDemeter.1",
+        "DA_Module_TorsoFenrir.1",
+        "DA_Module_TorsoFury.1",
+        "DA_Module_TorsoGaruda.1",
+        "DA_Module_TorsoGriffin.1",
+        "DA_Module_TorsoHarpy.1",
+        "DA_Module_TorsoHeike.1",
+        "DA_Module_TorsoHelios.1",
+        "DA_Module_TorsoHitcher.1",
+        "DA_Module_TorsoInquisitor.1",
+        "DA_Module_TorsoKernel.1",
+        "DA_Module_TorsoKumo.1",
+        "DA_Module_TorsoLancelot.1",
+        "DA_Module_TorsoLoki.1",
+        "DA_Module_TorsoMesa.1",
+        "DA_Module_TorsoNipper.1",
+        "DA_Module_TorsoOrochi.1",
+        "DA_Module_TorsoPhantom.1",
+        "DA_Module_TorsoPursuer.1",
+        "DA_Module_TorsoRavana.1",
+        "DA_Module_TorsoRaven.1",
+        "DA_Module_TorsoRelicBulgasari.1",
+        "DA_Module_TorsoRelicLancelot.1",
+        "DA_Module_TorsoRelicScorpion.1",
+        "DA_Module_TorsoRelicTyr.1",
+        "DA_Module_TorsoScorpion.1",
+        "DA_Module_TorsoSiren.1",
+        "DA_Module_TorsoTyphon.1",
+        "DA_Module_TorsoTyr.1",
+        "DA_Module_TorsoVityaz.1",
+        "DA_Module_TorsoWyrm.1"
+      ]
+    },
+    "DA_ModuleSocketType_Weapon.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Bisector.0",
+        "DA_Module_Weapon_Breacher.0",
+        "DA_Module_Weapon_Buckshot.0",
+        "DA_Module_Weapon_Gimcoil.0",
+        "DA_Module_Weapon_Glory.0",
+        "DA_Module_Weapon_Gozer.0",
+        "DA_Module_Weapon_GrenadeLauncher.0",
+        "DA_Module_Weapon_Locust.0",
+        "DA_Module_Weapon_Noricum.0",
+        "DA_Module_Weapon_Orkan.0",
+        "DA_Module_Weapon_Pinata.0",
+        "DA_Module_Weapon_Punisher.0",
+        "DA_Module_Weapon_Railgun.0",
+        "DA_Module_Weapon_RelicOrkan.0",
+        "DA_Module_Weapon_RelicPinata.0",
+        "DA_Module_Weapon_RelicVortex.0",
+        "DA_Module_Weapon_Scatter.0",
+        "DA_Module_Weapon_Scourge.0",
+        "DA_Module_Weapon_Shocktrain.0",
+        "DA_Module_Weapon_Shredder.0",
+        "DA_Module_Weapon_Slugger.0",
+        "DA_Module_Weapon_StickyGun.0",
+        "DA_Module_Weapon_Stormpike.0",
+        "DA_Module_Weapon_Toxin.0",
+        "DA_Module_Weapon_Tusk.0",
+        "DA_Module_Weapon_Velite.0",
+        "DA_Module_Weapon_Vortex.0"
+      ]
+    },
+    "DA_ModuleSocketType_WeaponHeavy.0": {
+      "required": false,
+      "candidates": [
+        "DA_Module_Weapon_Aftershock.0",
+        "DA_Module_Weapon_Bisector.0",
+        "DA_Module_Weapon_Breacher.0",
+        "DA_Module_Weapon_Buckshot.0",
+        "DA_Module_Weapon_Dragoon.0",
+        "DA_Module_Weapon_Fowler.0",
+        "DA_Module_Weapon_Gimcoil.0",
+        "DA_Module_Weapon_Glory.0",
+        "DA_Module_Weapon_Gozer.0",
+        "DA_Module_Weapon_GrenadeLauncher.0",
+        "DA_Module_Weapon_Hefty.0",
+        "DA_Module_Weapon_Horde.0",
+        "DA_Module_Weapon_ION.0",
+        "DA_Module_Weapon_Incinerator.0",
+        "DA_Module_Weapon_Locust.0",
+        "DA_Module_Weapon_MLx2.0",
+        "DA_Module_Weapon_Noricum.0",
+        "DA_Module_Weapon_Nucleon.0",
+        "DA_Module_Weapon_Orkan.0",
+        "DA_Module_Weapon_Pinata.0",
+        "DA_Module_Weapon_Pulsar.0",
+        "DA_Module_Weapon_Punisher.0",
+        "DA_Module_Weapon_Pyre.0",
+        "DA_Module_Weapon_Railgun.0",
+        "DA_Module_Weapon_RelicOrkan.0",
+        "DA_Module_Weapon_RelicPinata.0",
+        "DA_Module_Weapon_RelicThunder.0",
+        "DA_Module_Weapon_RelicVortex.0",
+        "DA_Module_Weapon_Scatter.0",
+        "DA_Module_Weapon_Scourge.0",
+        "DA_Module_Weapon_Shocktrain.0",
+        "DA_Module_Weapon_Shredder.0",
+        "DA_Module_Weapon_Slugger.0",
+        "DA_Module_Weapon_StickyGun.0",
+        "DA_Module_Weapon_Stormpike.0",
+        "DA_Module_Weapon_Thunder.0",
+        "DA_Module_Weapon_Toxin.0",
+        "DA_Module_Weapon_Trebuchet.0",
+        "DA_Module_Weapon_Trident.0",
+        "DA_Module_Weapon_Tusk.0",
+        "DA_Module_Weapon_Twinflare.0",
+        "DA_Module_Weapon_Velite.0",
+        "DA_Module_Weapon_Vortex.0",
+        "DA_Module_Weapon_Zenit.0",
+        "DA_Module_Weapon_Zeus.0"
+      ]
+    }
+  },
+  "modules": {
+    "DA_Module_Ability_AmmoGenerator.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_ArmorShield.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Atrophy.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_BlastWave.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_BlockingField.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_CounterAttack.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_DashBlinkedVisible.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Dazzle.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_FuelReserve.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_GhostTurret.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Grounded.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Homing.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_InfiniteAmmo.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_IronVeil.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_KineticPulse.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_MineField.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Regeneration.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_RegenerationFull.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Repulsor.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_SmokeWall.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_SpeedBoost.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Spotlight.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_SupplySurge.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_TensionLink.1": {
+      "sockets": []
+    },
+    "DA_Module_Ability_Umbrella.1": {
+      "sockets": []
+    },
+    "DA_Module_ChassisAlpha.1": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_TitanAlphaTorso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisAnansi.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisAngler.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisAres.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisArtemis.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisBulgasari.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisBulwark.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisCyclops.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisDemeter.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisFenrir.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisFury.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisGaruda.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisGriffin.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisGrim.1": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_TitanGrimTorso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisHarpy.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisHeike.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisHelios.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisHitcher.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisInquisitor.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisKernel.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisKumo.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisLancelot.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisLoki.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisMatriarch.1": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_TitanMatriarchTorso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisMesa.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisNipper.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisNorna.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_TitanNornaTorso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisOrochi.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisPhantom.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisPursuer.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRavana.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRaven.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRelicBulgasari.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRelicLancelot.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRelicScorpion.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisRelicTyr.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisScorpion.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisSiren.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisSpire.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_TitanSpireTorso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisTyphon.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisTyr.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisVityaz.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ChassisWyrm.2": {
+      "sockets": [
+        [
+          "Root",
+          "DA_ModuleSocketType_Torso.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderAnansi.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderAngler.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderAres.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderArtemis.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderBulgasari.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderBulwark.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderCyclops.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderDemeter.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderFenrir.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderFury.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderGaruda.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderGriffin.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderHarpy.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderHeike.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderHelios.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderHitcher.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderInquisitor.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderKernel.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderKumo.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderLAlpha.0": {
+      "sockets": []
+    },
+    "DA_Module_ShoulderLGrim.0": {
+      "sockets": []
+    },
+    "DA_Module_ShoulderLMatriarch.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponTank.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderLNorna.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponNorna.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderLSpire.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponAssault.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderLancelot.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderLoki.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderMesa.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderNipper.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderOrochi.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderPhantom.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderPursuer.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRAlpha.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponTactican.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRGrim.0": {
+      "sockets": []
+    },
+    "DA_Module_ShoulderRMatriarch.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponTank.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRNorna.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponNorna.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRSpire.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponAssault.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRavana.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRaven.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicBulgasari01.0": {
+      "sockets": []
+    },
+    "DA_Module_ShoulderRelicBulgasari02.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicLancelot01.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicLancelot02.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicScorpion01.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicScorpion02.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderRelicTyr.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderScorpion.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderSiren.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderTyphon.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderTyr.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderVityaz01.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderVityaz02.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_Weapon_1",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_ShoulderWyrm.0": {
+      "sockets": [
+        [
+          "Shoulder_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoAlpha.0": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_TitanAlphaShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_TitanAlphaShoulderR.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoAnansi.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoAngler.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoAres.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoArtemis.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoBulgasari.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoBulwark.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoCyclops.1": {
+      "sockets": [
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ],
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoDemeter.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoFenrir.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoFury.1": {
+      "sockets": [
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ],
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoGaruda.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoGriffin.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoGrim.0": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_TitanGrimShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_TitanGrimShoulderR.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_TitanWeaponFlanker.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoHarpy.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoHeike.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoHelios.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoHitcher.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoInquisitor.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoKernel.1": {
+      "sockets": [
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ],
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoKumo.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoLancelot.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoLoki.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoMatriarch.0": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_TitanMatriarchShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_TitanMatriarchShoulderR.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoMesa.1": {
+      "sockets": [
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ],
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoNipper.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoNorna.0": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_TitanNornaShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_TitanNornaShoulderR.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoOrochi.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoPhantom.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoPursuer.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRavana.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRaven.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRelicBulgasari.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRelicLancelot.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRelicScorpion.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoRelicTyr.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoScorpion.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoSiren.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_Weapon.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoSpire.0": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_TitanSpireShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_TitanSpireShoulderR.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoTyphon.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoTyr.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoVityaz.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ]
+      ]
+    },
+    "DA_Module_TorsoWyrm.1": {
+      "sockets": [
+        [
+          "Shoulder_L",
+          "DA_ModuleSocketType_ShoulderL.0"
+        ],
+        [
+          "Shoulder_R",
+          "DA_ModuleSocketType_ShoulderR.0"
+        ],
+        [
+          "Ability",
+          "DA_ModuleSocketType_Ability3.0"
+        ],
+        [
+          "UltAbility",
+          "DA_ModuleSocketType_Ability4.0"
+        ],
+        [
+          "Torso_Weapon_0",
+          "DA_ModuleSocketType_WeaponHeavy.0"
+        ]
+      ]
+    },
+    "DA_Module_Weapon_Aftershock.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Bayonet.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Bisector.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Breacher.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Buckshot.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Callisto.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Cascade.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Conflux.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Coriolis.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Dragoon.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Fowler.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Gimcoil.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Glory.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Gozer.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_GrenadeLauncher.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Hefty.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Hive.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Horde.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_ION.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Incinerator.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Jigsaw.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Katzbalger.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Locust.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_MLx2.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Noricum.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Nucleon.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Orkan.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Pinata.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Pulsar.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Punisher.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Pyre.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Railgun.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_RelicOrkan.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_RelicPinata.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_RelicThunder.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_RelicVortex.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Scatter.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Scourge.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Scrubber.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Shocktrain.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Shredder.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Skuld.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Slugger.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_StickyGun.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Stormpike.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Thunder.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Toxin.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Trebuchet.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Trident.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Tusk.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Twinflare.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Velite.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Vortex.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Zenit.0": {
+      "sockets": []
+    },
+    "DA_Module_Weapon_Zeus.0": {
+      "sockets": []
+    }
+  }
+}

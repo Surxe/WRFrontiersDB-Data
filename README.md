@@ -31,9 +31,16 @@ Parsed data for WRFrontiersDB
     `OBJID_VirtualBot::<id>`. New robots are added automatically; article-derived
     fields are filled by hand.
   - `patch_manifests.json`: one entry per Steam build, keyed by manifest GID.
+  - `build_codes.json`: the build-code registry, so a robot build fits in a short
+    string (`/models?a=<code>`). Append-only; specified in `docs/build-codes.md`.
+    `build_code_vectors.json` holds builds and their codes that every codec must
+    reproduce.
 - `textures/`: exported images.
 - `tools/wrfdb_data/`: the Python code that builds `index/` and deploy records
-  (standard library only).
+  (standard library only), and the reference build-code codec (`build_code.py`).
+- `tools/js/build_code.js`: the same build-code codec for JavaScript (no
+  dependencies), used by the Site.
+- `docs/build-codes.md`: the build-code format, for anyone writing a codec.
 - `.github/actions/`: composite actions the frontends (Site, Discount Visualizer) use.
 
 ## Tools
@@ -47,9 +54,11 @@ PYTHONPATH=tools python3 -m wrfdb_data slug-map --no-write # report only
 PYTHONPATH=tools python3 -m wrfdb_data nicknames          # rebuild index/nicknames.json
 PYTHONPATH=tools python3 -m wrfdb_data aliases            # rebuild index/aliases.json
 PYTHONPATH=tools python3 -m wrfdb_data abbreviations      # rebuild index/abbreviations.json
+PYTHONPATH=tools python3 -m wrfdb_data build-codes        # rebuild index/build_codes.json + vectors
 PYTHONPATH=tools python3 -m wrfdb_data releases --no-write # detect new robots only
 PYTHONPATH=tools python3 -m wrfdb_data deploy-record --app-dir ../WRFrontiersDB-Site
 python3 -m unittest discover -s tests                     # tests
+node --test 'tests/js/*.test.mjs'                          # JavaScript codec tests
 ```
 
 Slug rules per type are documented in `tools/wrfdb_data/slug_map.py`. A slug change
