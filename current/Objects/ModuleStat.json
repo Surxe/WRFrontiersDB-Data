@@ -1381,6 +1381,36 @@
         "short_key": "DelayAndRechargeTotal",
         "more_is_better": false
     },
+    "DA_ModuleStat_Synthetic_MaxCharges": {
+        "id": "DA_ModuleStat_Synthetic_MaxCharges",
+        "short_key": "MaxCharges",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_ProjectileSpeed": {
+        "id": "DA_ModuleStat_Synthetic_ProjectileSpeed",
+        "short_key": "ProjectileSpeed",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_ProjectilesPerShot": {
+        "id": "DA_ModuleStat_Synthetic_ProjectilesPerShot",
+        "short_key": "ProjectilesPerShot",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_RangeDeath": {
+        "id": "DA_ModuleStat_Synthetic_RangeDeath",
+        "short_key": "RangeDeath",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_RangeExpansion": {
+        "id": "DA_ModuleStat_Synthetic_RangeExpansion",
+        "short_key": "RangeExpansion",
+        "more_is_better": true
+    },
+    "DA_ModuleStat_Synthetic_RangeMin": {
+        "id": "DA_ModuleStat_Synthetic_RangeMin",
+        "short_key": "RangeMin",
+        "more_is_better": false
+    },
     "DA_ModuleStat_Synthetic_RechargeDelay": {
         "id": "DA_ModuleStat_Synthetic_RechargeDelay",
         "short_key": "RechargeDelay",
@@ -1389,6 +1419,16 @@
     "DA_ModuleStat_Synthetic_RechargeTime": {
         "id": "DA_ModuleStat_Synthetic_RechargeTime",
         "short_key": "RechargeTime",
+        "more_is_better": false
+    },
+    "DA_ModuleStat_Synthetic_SpreadX": {
+        "id": "DA_ModuleStat_Synthetic_SpreadX",
+        "short_key": "SpreadX",
+        "more_is_better": false
+    },
+    "DA_ModuleStat_Synthetic_SpreadY": {
+        "id": "DA_ModuleStat_Synthetic_SpreadY",
+        "short_key": "SpreadY",
         "more_is_better": false
     },
     "DA_ModuleStat_Synthetic_TimeBetweenShots": {

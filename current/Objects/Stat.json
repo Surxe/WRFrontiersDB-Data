@@ -35,6 +35,14 @@
         "id": "DelayAndRechargeTotal",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_DelayAndRechargeTotal"
     },
+    "EnergyCapacity": {
+        "id": "EnergyCapacity",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_EnergyCapacity.0"
+    },
+    "EnergyDrain": {
+        "id": "EnergyDrain",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_EnergyDrain.0"
+    },
     "FuelCapacity": {
         "id": "FuelCapacity",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_FuelCapacity.0"
@@ -42,6 +50,14 @@
     "LegsArmor": {
         "id": "LegsArmor",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_LegsArmor.0"
+    },
+    "LoadCapacity": {
+        "id": "LoadCapacity",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_WeightCapacity.0"
+    },
+    "MaxCharges": {
+        "id": "MaxCharges",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_MaxCharges"
     },
     "MaxSpeed": {
         "id": "MaxSpeed",
@@ -54,6 +70,34 @@
     "PelvisArmor": {
         "id": "PelvisArmor",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_PelvisArmor.0"
+    },
+    "ProjectileSpeed": {
+        "id": "ProjectileSpeed",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_ProjectileSpeed"
+    },
+    "ProjectilesPerShot": {
+        "id": "ProjectilesPerShot",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_ProjectilesPerShot"
+    },
+    "RangeDeath": {
+        "id": "RangeDeath",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_RangeDeath"
+    },
+    "RangeEffective": {
+        "id": "RangeEffective",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_EffectiveDistance.0"
+    },
+    "RangeExpansion": {
+        "id": "RangeExpansion",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_RangeExpansion"
+    },
+    "RangeMax": {
+        "id": "RangeMax",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_MaxDistance.0"
+    },
+    "RangeMin": {
+        "id": "RangeMin",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_RangeMin"
     },
     "RechargeDelay": {
         "id": "RechargeDelay",
@@ -79,6 +123,14 @@
         "id": "ShieldRegeneration",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ShieldRegeneration.0"
     },
+    "SpreadX": {
+        "id": "SpreadX",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_SpreadX"
+    },
+    "SpreadY": {
+        "id": "SpreadY",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_SpreadY"
+    },
     "TimeBetweenShots": {
         "id": "TimeBetweenShots",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Synthetic_TimeBetweenShots"
@@ -86,5 +138,9 @@
     "TimeToReload": {
         "id": "TimeToReload",
         "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_ReloadingTime.0"
+    },
+    "WeightDrain": {
+        "id": "WeightDrain",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_WeightDrain.0"
     }
 }

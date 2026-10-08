@@ -1,0 +1,38 @@
+{
+    "DA_ArmorZone_LeftLeg.0": {
+        "id": "DA_ArmorZone_LeftLeg.0",
+        "role": "LeftLeg",
+        "stat_key": "LegsArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_LegsArmor.0"
+    },
+    "DA_ArmorZone_LeftShoulder.0": {
+        "id": "DA_ArmorZone_LeftShoulder.0",
+        "role": "LeftShoulder",
+        "stat_key": "Armor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Armor.0"
+    },
+    "DA_ArmorZone_Pelvis.0": {
+        "id": "DA_ArmorZone_Pelvis.0",
+        "role": "Pelvis",
+        "stat_key": "PelvisArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_PelvisArmor.0"
+    },
+    "DA_ArmorZone_RightLeg.0": {
+        "id": "DA_ArmorZone_RightLeg.0",
+        "role": "RightLeg",
+        "stat_key": "LegsArmor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_LegsArmor.0"
+    },
+    "DA_ArmorZone_RightShoulder.0": {
+        "id": "DA_ArmorZone_RightShoulder.0",
+        "role": "RightShoulder",
+        "stat_key": "Armor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Armor.0"
+    },
+    "DA_ArmorZone_Torso.0": {
+        "id": "DA_ArmorZone_Torso.0",
+        "role": "Torso",
+        "stat_key": "Armor",
+        "module_stat_ref": "OBJID_ModuleStat::DA_ModuleStat_Armor.0"
+    }
+}
