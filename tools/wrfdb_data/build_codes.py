@@ -29,11 +29,10 @@ import random
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .build_code import BuildCodec, TooNew, position_to_chars, slot_key
+from .build_code import FORMAT, BuildCodec, TooNew, position_to_chars, slot_key
 from .paths import BUILD_CODE_VECTORS_REL, BUILD_CODES_REL, DataRepoError, load_json, objects_file, save_json
 from .slug_map import ref_to_id
 
-FORMAT = 1
 ROOT_SOCKET = "chassis"
 """Pseudo socket type for the root slot: every released chassis."""
 READY = "Ready"

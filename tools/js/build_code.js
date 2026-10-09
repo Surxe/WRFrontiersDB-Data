@@ -24,6 +24,16 @@
  * than the decoder has points past the end of a list and throws `TooNew`.
  */
 
+/**
+ * The stable API for apps (`docs/build-codes.md`, "Using build codes in your
+ * app") is `FORMAT`, `BuildCodec` (`encode`, `decode`, `canEncode`),
+ * `BuildCodeError`, `TooNew` and `slotKey`. The other exports are internal and
+ * may change.
+ */
+
+/** The `format` of `index/build_codes.json` this codec reads. */
+export const FORMAT = 1;
+
 /** The 62 one-character positions. */
 export const DIRECT =
   '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
@@ -148,6 +158,11 @@ function fullIndex(char) {
 export class BuildCodec {
   /** @param {BuildCodesDoc} doc */
   constructor(doc) {
+    if (doc.format !== FORMAT) {
+      throw new BuildCodeError(
+        `build codes format ${JSON.stringify(doc.format)} is not ${FORMAT}; use a matching codec`
+      );
+    }
     this.root = doc.root_socket;
     this.sockets = doc.sockets;
     this.modules = doc.modules;
