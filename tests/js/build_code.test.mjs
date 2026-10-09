@@ -49,6 +49,25 @@ for (const [suite, [registryPath, vectorsPath]] of Object.entries(suites)) {
   });
 }
 
+// docs/build-codes.md promises these names to apps; removing one is a breaking change.
+test('stable API', () => {
+  for (const name of ['FORMAT', 'BuildCodec', 'BuildCodeError', 'TooNew', 'slotKey']) {
+    assert.ok(name in buildCode, name);
+  }
+  for (const method of ['encode', 'decode', 'canEncode']) {
+    assert.equal(typeof buildCode.BuildCodec.prototype[method], 'function', method);
+  }
+  assert.ok(new buildCode.TooNew('x') instanceof buildCode.BuildCodeError);
+});
+
+test('rejects another registry format', () => {
+  const doc = load('index/build_codes.json');
+  assert.equal(doc.format, buildCode.FORMAT);
+  for (const format of [buildCode.FORMAT + 1, undefined]) {
+    assert.throws(() => new buildCode.BuildCodec({ ...doc, format }), buildCode.BuildCodeError);
+  }
+});
+
 test('every position round-trips through the characters', () => {
   const positions = Array.from({ length: buildCode.END }, (_, i) => i);
   const code = positions.map(buildCode.positionToChars).join('');

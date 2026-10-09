@@ -52,6 +52,25 @@ class VectorsCase(unittest.TestCase):
                     self.assertEqual(type(caught.exception).__name__, v["error"])
 
 
+class PublicApiCase(unittest.TestCase):
+    """docs/build-codes.md promises these names to apps; removing one is a breaking change."""
+
+    def test_stable_names(self):
+        self.assertEqual(set(build_code.__all__), {"FORMAT", "Build", "BuildCodec", "BuildCodeError", "TooNew", "slot_key"})
+        for name in build_code.__all__:
+            self.assertTrue(hasattr(build_code, name), name)
+        for method in ("encode", "decode", "can_encode"):
+            self.assertTrue(callable(getattr(BuildCodec, method)), method)
+        self.assertTrue(issubclass(build_code.TooNew, build_code.BuildCodeError))
+
+    def test_rejects_another_format(self):
+        doc = load(ROOT_DIR / BUILD_CODES_REL)
+        self.assertEqual(doc["format"], build_code.FORMAT)
+        for other in (build_code.FORMAT + 1, None):
+            with self.subTest(format=other), self.assertRaises(build_code.BuildCodeError):
+                BuildCodec({**doc, "format": other})
+
+
 class CharactersCase(unittest.TestCase):
     def test_every_position_round_trips(self):
         positions = list(range(build_code.END))

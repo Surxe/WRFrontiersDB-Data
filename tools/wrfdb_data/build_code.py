@@ -24,6 +24,13 @@ than the decoder has points past the end of a list and raises `TooNew`.
 
 from __future__ import annotations
 
+__all__ = ["FORMAT", "Build", "BuildCodec", "BuildCodeError", "TooNew", "slot_key"]
+"""The stable API for apps (docs/build-codes.md, "Using build codes in your app").
+The other names are internal and may change."""
+
+FORMAT = 1
+"""The `format` of `index/build_codes.json` this codec reads."""
+
 DIRECT = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 """The 62 one-character positions."""
 FULL = DIRECT + "-_"
@@ -107,6 +114,8 @@ class BuildCodec:
     """Encode and decode builds against one `index/build_codes.json` document."""
 
     def __init__(self, doc: dict):
+        if doc.get("format") != FORMAT:
+            raise BuildCodeError(f"build codes format {doc.get('format')!r} is not {FORMAT}; use a matching codec")
         self.root = doc["root_socket"]
         self.sockets: dict[str, dict] = doc["sockets"]
         self.modules: dict[str, dict] = doc["modules"]

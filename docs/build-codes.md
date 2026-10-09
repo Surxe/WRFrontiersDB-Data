@@ -5,10 +5,110 @@ every slot, from the chassis down to the weapons and gear. The Site's 3D viewer
 links to builds with them (`https://wrf-db.info/models?a=<code>`), and the
 Discord bot reads them back. A full build is about 11 characters.
 
-This page is the format, for anyone writing or changing a codec. The two codecs
-are `tools/wrfdb_data/build_code.py` (the reference) and `tools/js/build_code.js`.
+Other sites and apps can make and read the same codes: start with
+[Using build codes in your app](#using-build-codes-in-your-app). The rest of the
+page is the format, for anyone writing or changing a codec. The two codecs are
+`tools/wrfdb_data/build_code.py` (the reference) and `tools/js/build_code.js`.
 They must agree on every vector in `index/build_code_vectors.json` and
 `tests/fixtures/build_codes/vectors.json`.
+
+## Using build codes in your app
+
+A builder on another site can give its builds the same codes the Site uses, so a
+build made there opens in the Site's 3D viewer and shows in Discord through the
+WRFrontiersDB bot.
+
+### The files
+
+| URL | What |
+| --- | --- |
+| `https://wrf-db.info/build-code.js` | The codec, an ES module with no dependencies (browser or Node) |
+| `https://wrf-db.info/build_codes.json` | The registry the codec reads |
+
+Both come from the same Site deploy, so they always match the data the Site
+decodes with. Fetch the registry at runtime rather than bundling a copy: it grows
+with every game update, and a stale copy can't encode new modules (GitHub Pages
+caches both for 10 minutes). Both are served with
+`Access-Control-Allow-Origin: *`.
+
+### JavaScript
+
+```js
+import { BuildCodec, BuildCodeError, TooNew } from 'https://wrf-db.info/build-code.js';
+
+const codec = new BuildCodec(await (await fetch('https://wrf-db.info/build_codes.json')).json());
+
+const build = {
+  chassis: 'DA_Module_ChassisTyr.2',
+  torso: 'DA_Module_TorsoHeike.1',
+  Shoulder_L: 'DA_Module_ShoulderScorpion.0',
+  'Shoulder_L.Shoulder_Weapon_0': 'DA_Module_Weapon_Scatter.0',
+  Shoulder_R: 'DA_Module_ShoulderInquisitor.0',
+  Ability: 'DA_Module_Ability_AmmoGenerator.1',
+};
+const code = codec.encode(build); // 'eDZHG01'
+codec.decode(code); // the same build back
+codec.canEncode(build); // true; false instead of throwing
+```
+
+- **Link to the viewer:** `https://wrf-db.info/models?a=<code>`, or
+  `?a=<code>&b=<code>` to compare two builds.
+- **Share in Discord:** post that link, or give people the string
+  `/wrf-build build:<code>` (`/wrf-build build:<A> <B>` to compare). The bot
+  answers with each build's parts.
+
+### Making a build
+
+A build is `{slot key: Module id}` for every filled slot: see
+[Slots and slot keys](#slots-and-slot-keys). The registry has everything needed
+to build a valid one: start at `root_socket`, pick one of that socket type's
+`candidates`, then fill the picked module's `sockets` the same way. A slot whose
+socket type is `required` must be filled. Module names, stats and icons are in
+this repo's `current/Objects/Module.json` (and the Site's pages, at
+`https://wrf-db.info/modules/<slug>/` from `index/slug_map.json`).
+
+### Errors
+
+- `TooNew` (a `BuildCodeError`): the code was made with newer data than your
+  registry. Refetch the registry; if it's still too new, the Site hasn't been
+  deployed with that data yet.
+- `BuildCodeError`: the string isn't a build code, or the build can't be
+  encoded (an empty required slot, a module that isn't released or that doesn't
+  fit the slot).
+- An incompatible registry (a future `format`) is a `BuildCodeError` from the
+  constructor.
+
+### Python
+
+Python can't import from a URL, so copy
+[`tools/wrfdb_data/build_code.py`](../tools/wrfdb_data/build_code.py) into your
+project. It is a single file using only the standard library. Fetch the registry
+the same way:
+
+```python
+import json
+from urllib.request import urlopen
+
+from build_code import BuildCodec, BuildCodeError, TooNew
+
+codec = BuildCodec(json.load(urlopen("https://wrf-db.info/build_codes.json")))
+codec.decode("eDZHG01")  # {'chassis': 'DA_Module_ChassisTyr.2', ...}
+```
+
+The API is the same in snake_case (`can_encode`, `slot_key`).
+
+### What stays stable
+
+- A code means the same build forever.
+- The two URLs stay.
+- Registry `format` 1 only ever gains fields; the existing ones keep their
+  meaning.
+- The stable API keeps its behaviour: `FORMAT`, `BuildCodec` (`encode`,
+  `decode`, `canEncode` / `can_encode`), `BuildCodeError`, `TooNew` and
+  `slotKey` / `slot_key`. The codecs' other exports are internal.
+
+An incompatible change would be a new `format` under new URLs, while these keep
+serving format 1.
 
 ## The registry: `index/build_codes.json`
 
@@ -124,6 +224,10 @@ Both codecs take the parsed registry and expose the same operations:
 | `.decode(code)` | `.decode(code)` |
 | `.can_encode(build)` | `.canEncode(build)` |
 | `BuildCodeError`, `TooNew` (a subclass) | the same, as `Error` subclasses |
+| `FORMAT` | `FORMAT` |
+
+The constructor raises `BuildCodeError` when the registry's `format` isn't
+`FORMAT`.
 
 `encode` raises `BuildCodeError` for a build it can't encode: an empty required
 slot, a module that isn't in a slot's list (an unreleased one, or data newer than

@@ -40,7 +40,9 @@ Parsed data for WRFrontiersDB
   (standard library only), and the reference build-code codec (`build_code.py`).
 - `tools/js/build_code.js`: the same build-code codec for JavaScript (no
   dependencies), used by the Site.
-- `docs/build-codes.md`: the build-code format, for anyone writing a codec.
+- `docs/build-codes.md`: build codes for other apps (the codec and registry the Site
+  serves at `https://wrf-db.info/build-code.js` and `/build_codes.json`), and the
+  format, for anyone writing a codec.
 - `.github/actions/`: composite actions the frontends (Site, Discount Visualizer) use.
 
 ## Tools
