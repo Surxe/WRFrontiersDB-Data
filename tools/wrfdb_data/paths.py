@@ -21,6 +21,8 @@ ALIASES_REL = INDEX_REL / "aliases.json"
 ABBREVIATIONS_REL = INDEX_REL / "abbreviations.json"
 RELEASE_DATES_REL = INDEX_REL / "robot_release_dates.json"
 PATCHES_REL = INDEX_REL / "patch_manifests.json"
+BUILD_CODES_REL = INDEX_REL / "build_codes.json"
+BUILD_CODE_VECTORS_REL = INDEX_REL / "build_code_vectors.json"
 
 
 class DataRepoError(RuntimeError):

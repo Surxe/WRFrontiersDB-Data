@@ -12,7 +12,7 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-from . import abbreviations, deploy_record, nicknames, releases, robot_parts, slug_map
+from . import abbreviations, build_codes, deploy_record, nicknames, releases, robot_parts, slug_map
 from .paths import DataRepoError, read_version
 
 EXIT_OK = 0
@@ -64,6 +64,18 @@ def _abbreviations(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
+def _build_codes(args: argparse.Namespace) -> int:
+    if args.no_write:
+        result = build_codes.build_build_codes(args.data_dir)
+    else:
+        result = build_codes.write_build_codes(args.data_dir)
+    _print({
+        "modules": len(result.registry["modules"]), "changed": result.changed,
+        "appended": result.appended, "errors": result.errors,
+    })
+    return EXIT_ERROR if result.errors else EXIT_OK
+
+
 def _releases(args: argparse.Namespace) -> int:
     version = args.version or read_version(args.data_dir)
     write = not args.no_write
@@ -110,6 +122,10 @@ def main(argv: list[str] | None = None) -> int:
     abbrevs = commands.add_parser("abbreviations", help="Rebuild index/abbreviations.json.")
     abbrevs.add_argument("--no-write", action="store_true", help="Build and report only.")
     abbrevs.set_defaults(run=_abbreviations)
+
+    codes = commands.add_parser("build-codes", help="Rebuild index/build_codes.json and its test vectors.")
+    codes.add_argument("--no-write", action="store_true", help="Build and report only.")
+    codes.set_defaults(run=_build_codes)
 
     rel = commands.add_parser("releases", help="Record new robots (and optionally one build).")
     rel.add_argument("--version", help="In-house version id; default: current/version.txt.")

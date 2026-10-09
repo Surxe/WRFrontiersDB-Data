@@ -9,6 +9,7 @@ on:
       - .github/**
       - tools/**
       - tests/**
+      - index/build_code*.json
   workflow_dispatch:
 
 permissions:
@@ -24,9 +25,13 @@ jobs:
             .github
             tools
             tests
+            index
 
       - name: Unit tests
         run: python3 -m unittest discover -s tests -v
+
+      - name: JavaScript build-code codec
+        run: node --test 'tests/js/*.test.mjs'
 
       - name: Check out Data
         id: data
