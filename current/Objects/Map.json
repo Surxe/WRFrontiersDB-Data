@@ -1,0 +1,815 @@
+{
+    "CrashSite": {
+        "id": "CrashSite",
+        "name": {
+            "Key": "Map_CrashSite",
+            "TableNamespace": "MapNames",
+            "en": "Spectrum"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/CrashSite.glb",
+            "pins": "Maps/CrashSite.json",
+            "foliage": "Maps/CrashSite.foliage.glb"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/CrashSite.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/CrashSite.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/CrashSite.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/CrashSite.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/CrashSite.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/CrashSite.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/CrashSite.CTF.glb"
+            }
+        ]
+    },
+    "EM1": {
+        "id": "EM1",
+        "name": {
+            "Key": "Map_EM1",
+            "TableNamespace": "MapNames",
+            "en": "Solidus Node: Depot"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/EM1.glb",
+            "pins": "Maps/EM1.json"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/EM1.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/EM1.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/EM1.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/EM1.TeamDeathMatch.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/EM1.CTF.glb"
+            }
+        ]
+    },
+    "EM2": {
+        "id": "EM2",
+        "name": {
+            "Key": "Map_EM2",
+            "TableNamespace": "MapNames",
+            "en": "Solidus Node: Foundry"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/EM2.glb",
+            "pins": "Maps/EM2.json"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/EM2.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/EM2.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/EM2.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/EM2.TeamDeathMatch.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/EM2.CTF.glb"
+            }
+        ]
+    },
+    "EM3": {
+        "id": "EM3",
+        "name": {
+            "Key": "Map_EM3",
+            "TableNamespace": "MapNames",
+            "en": "Solidus Node: Umbra"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/EM3.glb",
+            "pins": "Maps/EM3.json"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/EM3.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/EM3.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/EM3.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/EM3.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/EM3.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/EM3.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/EM3.CTF.glb"
+            }
+        ]
+    },
+    "EM4": {
+        "id": "EM4",
+        "name": {
+            "Key": "Map_EM4",
+            "TableNamespace": "MapNames",
+            "en": "Solidus Node: Bastion"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/EM4.glb",
+            "pins": "Maps/EM4.json"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/EM4.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/EM4.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/EM4.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/EM4.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/EM4.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/EM4.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/EM4.CTF.glb"
+            }
+        ]
+    },
+    "FiringRange": {
+        "id": "FiringRange",
+        "queued": false,
+        "files": {
+            "base": "Maps/FiringRange.glb",
+            "pins": "Maps/FiringRange.json"
+        },
+        "modes": []
+    },
+    "HighGround": {
+        "id": "HighGround",
+        "name": {
+            "Key": "Map_HighGround",
+            "TableNamespace": "MapNames",
+            "en": "Catalyst"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/HighGround.glb",
+            "pins": "Maps/HighGround.json",
+            "foliage": "Maps/HighGround.foliage.glb"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/HighGround.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/HighGround.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/HighGround.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/HighGround.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/HighGround.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/HighGround.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/HighGround.CTF.glb"
+            }
+        ]
+    },
+    "Horizon": {
+        "id": "Horizon",
+        "name": {
+            "Key": "Map_Horizon",
+            "TableNamespace": "MapNames",
+            "en": "Horizon One"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/Horizon.glb",
+            "pins": "Maps/Horizon.json",
+            "foliage": "Maps/Horizon.foliage.glb"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/Horizon.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/Horizon.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/Horizon.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/Horizon.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/Horizon.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/Horizon.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/Horizon.CTF.glb"
+            }
+        ]
+    },
+    "Mont": {
+        "id": "Mont",
+        "name": {
+            "Key": "Map_Mont",
+            "TableNamespace": "MapNames",
+            "en": "Fissure"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/Mont.glb",
+            "pins": "Maps/Mont.json"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/Mont.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/Mont.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/Mont.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/Mont.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/Mont.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/Mont.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/Mont.CTF.glb"
+            }
+        ]
+    },
+    "Terminus": {
+        "id": "Terminus",
+        "name": {
+            "Key": "Map_Terminus",
+            "TableNamespace": "MapNames",
+            "en": "Terminus"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/Terminus.glb",
+            "pins": "Maps/Terminus.json",
+            "foliage": "Maps/Terminus.foliage.glb"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/Terminus.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/Terminus.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/Terminus.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/Terminus.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/Terminus.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/Terminus.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/Terminus.CTF.glb"
+            }
+        ]
+    },
+    "Tortuga": {
+        "id": "Tortuga",
+        "name": {
+            "Key": "Map_Tortuga",
+            "TableNamespace": "MapNames",
+            "en": "Tortuga"
+        },
+        "queued": true,
+        "files": {
+            "base": "Maps/Tortuga.glb",
+            "pins": "Maps/Tortuga.json",
+            "foliage": "Maps/Tortuga.foliage.glb"
+        },
+        "modes": [
+            {
+                "id": "Elimination",
+                "name": {
+                    "Key": "HUD_TitleElimination",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Elimination.0",
+                "file": "Maps/Tortuga.Elimination.glb"
+            },
+            {
+                "id": "BeaconRush",
+                "name": {
+                    "Key": "HUD_TitleBeaconRush",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Warp Rush"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_BeaconRush.0",
+                "file": "Maps/Tortuga.BeaconRush.glb"
+            },
+            {
+                "id": "Spearhead",
+                "name": {
+                    "Key": "HUD_TitleSpearhead",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Spearhead"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_Spearhead.0",
+                "file": "Maps/Tortuga.Spearhead.glb"
+            },
+            {
+                "id": "TeamDeathMatch",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatch",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Team Deathmatch"
+                },
+                "game_mode_ref": "OBJID_GameMode::DA_GameMode_TeamDeathMatch.0",
+                "file": "Maps/Tortuga.TeamDeathMatch.glb"
+            },
+            {
+                "id": "TeamDeathMatchPlus",
+                "name": {
+                    "Key": "HUD_TitleTeamDeathMatchPlus",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "TDM+"
+                },
+                "file": "Maps/Tortuga.TeamDeathMatchPlus.glb"
+            },
+            {
+                "id": "EliminationPlus",
+                "name": {
+                    "Key": "HUD_TitleEliminationV2",
+                    "TableNamespace": "ST_CombatHUD",
+                    "en": "Last Robot Standing+"
+                },
+                "file": "Maps/Tortuga.EliminationPlus.glb"
+            },
+            {
+                "id": "CTF",
+                "name": {
+                    "Key": "HUD_Title_CTF",
+                    "TableNamespace": "UI_CTF",
+                    "en": "QUANTUM CORE"
+                },
+                "file": "Maps/Tortuga.CTF.glb"
+            }
+        ]
+    },
+    "Tutorial": {
+        "id": "Tutorial",
+        "name": {
+            "Key": "Map_Tutorial",
+            "TableNamespace": "MapNames",
+            "en": "Robot Training Course"
+        },
+        "queued": false,
+        "files": {
+            "base": "Maps/Tutorial.glb",
+            "pins": "Maps/Tutorial.json",
+            "foliage": "Maps/Tutorial.foliage.glb"
+        },
+        "modes": []
+    }
+}
