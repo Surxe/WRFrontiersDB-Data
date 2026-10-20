@@ -1323,6 +1323,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Led.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common55.0",
                 "talent_index": 0
             },
@@ -1785,6 +1789,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Led.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common33.0",
                 "talent_index": 0
             },
@@ -2064,6 +2072,10 @@
             },
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common66.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Led.0",
                 "talent_index": 0
             },
             {
@@ -3369,6 +3381,10 @@
                 "talent_index": 0
             },
             {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Led.0",
+                "talent_index": 0
+            },
+            {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Common29.0",
                 "talent_index": 0
             },
@@ -4471,7 +4487,7 @@
         "description": {
             "Key": "TAL_desc_Ult_Giancarlo",
             "TableNamespace": "ST_Talent_Description",
-            "en": "Giancarlo can activate Dash Thrusters or Pneumatic Vault without consuming fuel. Talent has a cooldown {CD}."
+            "en": "Robot can activate Dash Thrusters or Pneumatic Vault without consuming fuel. Talent has a cooldown {CD}."
         },
         "ui_description": {
             "Key": "PilotHUD_FreeAcceleration",
@@ -4497,6 +4513,10 @@
         "pilots_with_this_talent": [
             {
                 "pilot_ref": "OBJID_Pilot::DA_Pilot_Rare_Giancarlo.0",
+                "talent_index": 0
+            },
+            {
+                "pilot_ref": "OBJID_Pilot::DA_Pilot_Common_Led.0",
                 "talent_index": 0
             }
         ],

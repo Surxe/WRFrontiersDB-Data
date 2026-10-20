@@ -14,6 +14,7 @@
             "Holofeld": "Aktiviert eine {**Sekundär.x**}m breite Wand, die die Sichtlinie {**Primär.x**}s lang blockiert.",
             "Repulsor": "Fügt Feinden {**Sekundär.x**} Schaden zu und schiebt sie und dich mit einer Kraft von {**Primär.x**}m/s voneinander weg.",
             "Explosionswelle": "Platziert eine Bombe im Umkreis von {**Sekundär.x**}m. Diese verursacht nach einer kurzen Verzögerung {**Primär.x**} Schaden und schlägt Feinde zurück.",
+            "Wärmesucher": "Startet eine Drohne nach oben. Die Drohne ortet Gegner innerhalb von {**Sekundär.x**}m und feuert ein Projektil auf jedes Ziel ab. Bei einem Treffer fügt jedes Projektil allen Roboterkomponenten {**Primär.x**} Schaden zu.",
             "Munitionsgenerator": "Aktiviert ein Gerät, das die Nachladezeit aller Verbündeter im Umkreis von {**Sekundär.x**}m um {**Primär.x**}% verringert."
         },
         "Zyklus-Ausrüstung": {
@@ -31,6 +32,7 @@
         },
         "Torso": {
             "Griffin's Scrambler": "Verhindert, dass Feinde Verbündete im Umkreis von {**Primär.x**}m anvisieren können und teilt den gesamten eintreffenden Schaden auf die Module auf. Dauert {**Sekundär.x**}s. Kein davon betroffene Roboter kann zerstört werden.",
+            "Cerberus's Inhibitorfeld": "Erzeugt für {**Primär.x**}s einen pulsierenden Bereich vor dem Roboter. Gegner darin erleiden verringerte Waffengenauigkeit und eine um {**Sekundär.x**}% niedrigere Feuerrate. Einmal pro Sekunde verlängert der Bereich ihre Fähigkeitsabklingzeiten um 3 Sekunden. Abklingzeit: {CD}.",
             "Ceres's Verjünger": "Repariert {**Primär.x**}% Panzerung pro Sekunde. Wenn sich Verbündete im Umkreis von {**Sekundär.x**}m befinden, erhalten diese ebenfalls Reparaturen und die Rate verdoppelt sich. Hält 12 Sekunden lang an.",
             "Hitcher's Geflügelte Drohne": "Spawnt eine Drohne mit flachen Flügeln, die {**Sekundär.x**} lang sind. Diese Drohne fügt allen Feinden in ihrem Weg {**Primär.x**} Schaden zu.",
             "Pursuer's Optische Tarnung": "Nach einer Verzögerung von {**Sekundär./**}s Sekunden wirst du {**Primär.x**}s lang unsichtbar. Während du unsichtbar bist, kannst du Ausrüstungsmodule verwenden, aber das Abfeuern von Waffen enthüllt den Roboter sofort. Abklingzeit: {CD}.",
@@ -54,7 +56,7 @@
             "Relic Lancelot's Paladins Schutz": "Gewährt 50 % Schadensresistenz für {**Primär.x**}s. Während sie aktiv ist, stellen nahegelegene Verbündete Rüstung in Höhe von {**Sekundär.x**}% des von Lancelot absorbierten Schadens wieder her. Abklingzeit: {CD}.",
             "Tyr's Drohnenreparatur": "Setzt eine Heilungsdrohne ein, die Verbündeten im Umkreis von {**Primär.x**}m für {**Sekundär.x**}s pro Sekunde 2100 Panzerung wiederherstellt. Abklingzeit: {CD}.",
             "Mesa's Harmonizer": "Stellt bei Verbündeten im Umkreis von {**Sekundär.x**}m {**Primär.x**} Schildpunkte pro Sekunde sowie die Hälfte dieses Werts für Mesa selbst wieder her. Reduziert außerdem den Schaden von Gegnern im Umkreis um 30%. Abklingzeit: {CD}.",
-            "Angler's Tesla-Einspeisung": "Markiert einen verbündeten Roboter. Für {**Primär.x**}s, solange der markierte Roboter in Sichtlinie bleibt, regeneriert er 4 % seines Schildes pro Sekunde und fügt dem nächsten Gegner innerhalb von 120 m {**Sekundär.x**} Schaden pro Sekunde zu. Abklingzeit: {CD}.",
+            "Angler's Tesla-Einspeisung": "Markiert einen verbündeten Roboter. Für {**Primär.x**}s regeneriert der markierte Roboter 4 % seines Schildes pro Sekunde und fügt dem nächsten Gegner innerhalb von 120 m {**Sekundär.x**} Schaden pro Sekunde zu. Abklingzeit: {CD}.",
             "Raven's Stahlfedern": "Entfesselt ein Raketen-Sperrfeuer direkt voraus. Jede Rakete verursacht {**Primär.x**} Schaden und hat einen Explosionsradius von {**Sekundär.x**}m.",
             "Scorpion's Peitschenschlag": "Ein Zielsuchprojektil verursacht beim Aufprall {**Primär.x**} Schaden und fügt anschließend allen Modulen {**Sekundär.x**} pro Sekunde zu. Wird aufgeladen, wenn das Ziel während der Aktivität zerstört wird.",
             "Relic Tyr's Reparaturschuss": "Feuert ein Projektil ab. Bei einem Treffer auf einen Verbündeten wird {**Primär.x**}% der maximalen Panzerung des Verbündeten wiederhergestellt. Tyr stellt Panzerung in Höhe von {**Sekundär.x**}% des dem Verbündeten wiederhergestellten Betrags wieder her. Abklingzeit: {CD}.",
@@ -68,6 +70,9 @@
             "Harpy's Napalmbombe": "Feuert ein Projektil ab, das beim Aufprall {**Sekundär.x**} Explosionsschaden und anschließend {**Primär.x**} Feuerschaden über Zeit verursacht.",
             "Fury's Warp-Nachladung": "Füllt nach einer Verzögerung von {**Primär./**}s {**Sekundär.x**}% Munition wieder auf.",
             "Relic Scorpion's Schattenangriff": "Teleportiert den Roboter bis zu {**Primär.x**}m weit. Bei der Wiedererscheinung fügt er allen Gegnern im Bereich 25000 Schildschaden zu. Aktiviert außerdem für {**Sekundär.x**}s eine eingebaute Heckkanone, die 3000 Schaden pro Sekunde verursacht. Abklingzeit: {CD}."
+        },
+        "Schulter": {
+            "Cerberus Mk. II's Torwächter-Rahmen": "Passiv. Erleidet der Roboter Panzerungsschaden, während die Schilde deaktiviert sind, wird eine Energiebarriere aktiviert, die {**Primär.x**}s anhält oder bis sie {**Sekundär.x**} Schaden erleidet. Abklingzeit: {CD}."
         }
     },
     "en": {
@@ -85,6 +90,7 @@
             "Holofield": "Deploys a {**Secondary.x**}m wide wall that blocks line of sight for {**Primary.x**}s.",
             "Repulsor": "Deals {**Secondary.x**} damage to enemies, and pushes them and you away from each other with {**Primary.x**}m/s force.",
             "Blast Wave": "Plants a bomb within {**Secondary.x**}m. After a short delay, explosion inflicts {**Primary.x**} damage and knocks back enemies.",
+            "Heat Seeker": "Launches a drone upward. The drone detects enemies within {**Secondary.x**}m and fires a projectile at each target. On hit, each projectile deals {**Primary.x**} damage to all robot components.",
             "Ammo Fabricator": "Deploys a device that reduces the reload time of allies within {**Secondary.x**}m by {**Primary.x**}%."
         },
         "Cycle Gear": {
@@ -102,6 +108,7 @@
         },
         "Torso": {
             "Griffin's Scrambler": "Prevents enemies from locking on to allies within {**Primary.x**}m and splits all incoming damage between modules. Lasts {**Secondary.x**}s. Any robot affected cannot be destroyed.",
+            "Cerberus's Inhibitor Field": "Creates a pulsing area in front of the robot for {**Primary.x**}s. Enemies inside suffer reduced weapon accuracy and {**Secondary.x**}% lower rate of fire. Once per second, the area adds 3 seconds to their ability cooldowns. Cooldown: {CD}.",
             "Ceres's Rejuvenator": "Repairs {**Primary.x**}% of armor per second. If any allies are within {**Secondary.x**}m, it repairs them as well and doubles the repair rate. Lasts 12 seconds.",
             "Hitcher's Winged Drone": "Spawns a drone with flat {**Secondary.x**}-long wings that deals {**Primary.x**} damage to all enemies in its path.",
             "Pursuer's Optical Camo": "After a {**Secondary./**}s second delay, you become invisible for {**Primary.x**}s. Gear modules can be used while invisible, but firing weapons reveals the robot immediately. Cooldown: {CD}.",
@@ -125,7 +132,7 @@
             "Relic Lancelot's Paladin's Ward": "Grants 50% damage resistance for {**Primary.x**}s. While active, nearby allies restore armor equal to {**Secondary.x**}% of the damage absorbed by Lancelot.  Cooldown: {CD}.",
             "Tyr's Repair Drone": "Deploys a healing drone, restoring 2100 armor per second to allies within {**Primary.x**}m for {**Secondary.x**}s. Cooldown {CD}.",
             "Mesa's Harmonizer": "Restores {**Primary.x**} shield per second for allies within {**Secondary.x**}m and half this value for Mesa itself. Also reduces damage output for enemies in range by 30%. Cooldown: {CD}.",
-            "Angler's Tesla Feed": "Marks an allied robot. For {**Primary.x**}s, while the marked robot remains in line of sight, it restores 4% of its shield per second and deals {**Secondary.x**} damage per second to the nearest enemy within 120 m. Cooldown: {CD}.",
+            "Angler's Tesla Feed": "Marks an allied robot. For {**Primary.x**}s, the marked restores 4% of its shield per second and deals {**Secondary.x**} damage per second to the nearest enemy within 120 m. Cooldown: {CD}.",
             "Raven's Steel Feathers": "Fires a barrage of missiles dead ahead, each dealing {**Primary.x**} damage with a {**Secondary.x**}m blast radius.",
             "Scorpion's Whiplash": "A homing projectile deals {**Primary.x**} damage on hit and then {**Secondary.x**} per second to all modules. Recharges if target is destroyed while active.",
             "Relic Tyr's Repairing Shot": "Fires a projectile. On hitting an ally, restores {**Primary.x**}% of the ally’s maximum armor. Tyr restores armor equal to {**Secondary.x**}% of the amount restored to that ally. Cooldown: {CD}.",
@@ -139,6 +146,9 @@
             "Harpy's Napalm Shell": "Fires a projectile that deals {**Secondary.x**} blast damage on impact, then {**Primary.x**} fire damage over time.",
             "Fury's Warp Reload": "Refills {**Secondary.x**}% of ammo after a {**Primary./**}s delay.",
             "Relic Scorpion's Shadow Strike": "Teleports the robot up to {**Primary.x**}m. Upon reappearing, deals 25000 shield damage to all enemies in the area. Also activates a built-in tail cannon for {**Secondary.x**}s, dealing 3000 damage per second. Cooldown: {CD}."
+        },
+        "Shoulder": {
+            "Cerberus Mk. II's Gatekeeper Frame": "Passive. Taking armor damage while shields are down activates an energy barrier that lasts for {**Primary.x**}s or until it takes {**Secondary.x**} damage. Cooldown: {CD}."
         }
     },
     "es": {
@@ -156,6 +166,7 @@
             "Holocampo": "Despliega un holocampo de {**Secundario.x**} m de ancho que bloquea la línea de visión durante {**Primario.x**} s.",
             "Repulsor": "Inflige {**Secundario.x**} de daño a los enemigos y os aparta a todos con {**Primario.x**}m/s de fuerza.",
             "Onda expansiva": "Coloca una bomba en un radio de {**Secundario.x**} m. Después de un breve retardo, la explosión inflige {**Primario.x**} de daño y repele a los enemigos.",
+            "Rastreador térmico": "Lanza un dron hacia arriba. El dron detecta enemigos en un radio de {**Secundario.x**} m y dispara un proyectil a cada objetivo. Al impactar, cada proyectil inflige {**Primario.x**} de daño a todos los componentes del robot.",
             "Fabricante de munición": "Despliega un dispositivo que reduce el tiempo de recarga de los aliados en un radio de {**Secundario.x**} m en {**Primario.x**}%."
         },
         "Componente cíclico": {
@@ -173,6 +184,7 @@
         },
         "Torso": {
             "Griffin's Codificador": "Evita que los enemigos apunten a los aliados en un radio de {**Primario.x**} m y divide el daño entrante entre los módulos. Dura {**Secundario.x**} s. Cualquier robot afectado no puede ser destruido.",
+            "Cerberus's Campo inhibidor": "Crea un área pulsante frente al robot durante {**Primario.x**} s. Los enemigos en su interior sufren una menor precisión de armas y una cadencia de tiro un {**Secundario.x**}% menor. Una vez por segundo, el área añade 3 segundos al tiempo de recarga de sus habilidades. Tiempo de recarga: {CD}.",
             "Ceres's Regenerador": "Repara un {**Primario.x**} % de armadura por segundo. Si hay algún aliado en un radio de {**Secundario.x**} m, también lo reparará y duplicará la velocidad de reparación. Dura 12 segundos.",
             "Hitcher's Dron alado": "Genera un dron con alas planas de {**Secundario.x**} de largo que inflige {**Primario.x**} de daño a todos los enemigos que encuentra a su paso.",
             "Pursuer's Camuflaje óptico": "Tras un retardo de {**Secundario./**} s, te hace invisible durante {**Primario.x**} s. Los módulos de los componentes pueden usarse mientras son invisibles, pero disparar armas revela el robot de inmediato. Tiempo de recarga: {CD}.",
@@ -196,7 +208,7 @@
             "Relic Lancelot's Protección del paladín": "Otorga un 50% de resistencia al daño durante {**Primario.x**} s. Mientras está activa, los aliados cercanos restauran armadura equivalente al {**Secundario.x**}% del daño absorbido por Lancelot. Tiempo de recarga: {CD}.",
             "Tyr's Dron de reparación": "Despliega un dron de curación que restaura 2100 de armadura por segundo a los aliados dentro de {**Primario.x**} m durante {**Secundario.x**} s. Enfriamiento: {CD}.",
             "Mesa's Armonizador": "Restaura {**Primario.x**} de escudo por segundo para los aliados en un radio de {**Secundario.x**} m y la mitad del valor para Mesa. También reduce un 30% el daño infligido por los enemigos. Tiempo de recarga: {CD}.",
-            "Angler's Carga Tesla": "Marca a un robot aliado. Durante {**Primario.x**} s, mientras el robot marcado permanezca en la línea de visión, restaura un 4% de su escudo por segundo e inflige {**Secundario.x**} de daño por segundo al enemigo más cercano dentro de los 120 m. Tiempo de recarga: {CD}.",
+            "Angler's Carga Tesla": "Marca a un robot aliado. Durante {**Primario.x**} s, el marcado restaura un 4% de su escudo por segundo e inflige {**Secundario.x**} de daño por segundo al enemigo más cercano dentro de los 120 m. Tiempo de recarga: {CD}.",
             "Raven's Plumas de acero": "Lanza una descarga de misiles hacia delante. Cada uno inflige {**Primario.x**} de daño con un radio de explosión de {**Secundario.x**} m.",
             "Scorpion's Latigazo": "Un proyectil teledirigido inflige {**Primario.x**} de daño al impactar y {**Secundario.x**} por segundo a todos los módulos. Se recarga si el objetivo es destruido mientras está activo.",
             "Relic Tyr's Disparo reparador": "Dispara un proyectil. Al impactar a un aliado, restaura el {**Primario.x**}% del blindaje máximo del aliado. Tyr restaura blindaje equivalente al {**Secundario.x**}% de la cantidad restaurada a ese aliado. Tiempo de recarga: {CD}.",
@@ -210,6 +222,9 @@
             "Harpy's Caparazón de napalm": "Dispara un proyectil que inflige {**Secundario.x**} de daño de explosión al impactar y {**Primario.x**} de daño de fuego prolongado.",
             "Fury's Recarga de distorsión": "Rellena {**Secundario.x**}% de munición tras un retardo de {**Primario./**} s.",
             "Relic Scorpion's Ataque sombrío": "Teletransporta al robot hasta {**Primario.x**} m. Al reaparecer, inflige 25000 de daño de escudo a todos los enemigos en el área. También activa un cañón de cola integrado durante {**Secundario.x**} s, que inflige 3000 de daño por segundo. Tiempo de recarga: {CD}."
+        },
+        "Hombro": {
+            "Cerberus Mk. II's Estructura de guardian": "Pasiva. Recibir daño de blindaje mientras los escudos están caídos activa una barrera de energía que dura {**Primario.x**} s o hasta recibir {**Secundario.x**} de daño. Tiempo de recarga: {CD}. "
         }
     },
     "fr": {
@@ -227,6 +242,7 @@
             "Champ holographique": "Déploie un mur large de {**Secondaire.x**} m qui bloque la vue pendant {**Primaire.x**} s.",
             "Répulseur": "Inflige {**Secondaire.x**} points de dégâts aux ennemis et les repousse loin de vous avec une force de {**Primaire.x**}m/s.",
             "Onde de choc": "Pose une bombe dans un rayon de {**Secondaire.x**} m. Après un court délai, l'explosion inflige {**Primaire.x**} points de dégâts et repousse les ennemis.",
+            "Pisteur thermique": "Lance un drone vers le haut. Le drone détecte les ennemis dans un rayon de {**Secondaire.x**} m et tire un projectile sur chaque cible. À l'impact, chaque projectile inflige {**Primaire.x**} dégâts à tous les composants du robot。",
             "Fabricant de munitions": "Déploie un appareil qui réduit la vitesse de recharge des alliés dans les {**Secondaire.x**} m m de{**Primaire.x**} %."
         },
         "Mécanisme de cycle": {
@@ -244,6 +260,7 @@
         },
         "Torse": {
             "Griffin's Brouilleur": "Empêche les ennemis de prendre vos alliés pour cibles dans un rayon de {**Primaire.x**} m et répartit les dégâts subis entre les modules. Dure {**Secondaire.x**} s. Tout robot affecté ne peut être détruit.",
+            "Cerberus's Champ inhibiteur": "Crée une zone pulsante devant le robot pendant {**Primaire.x**} s. Les ennemis à l'intérieur subissent une précision d'arme réduite et une cadence de tir inférieure de {**Secondaire.x**} %. Une fois par seconde, la zone ajoute 3 secondes au temps de recharge de leurs capacités. Temps de recharge : {CD}.",
             "Ceres's Revitaliseur": "Répare {**Primaire.x**} % du blindage par seconde. S'il y a des alliés dans les {**Secondaire.x**} m, ils sont aussi réparés, et le taux de réparation est doublé. Dure 12 secondes.",
             "Hitcher's Drone ailé": "Fait apparaître un drone aux ailes plates et longues de {**Secondaire.x**} qui inflige {**Primaire.x**} points de dégâts à tous les ennemis sur son chemin.",
             "Pursuer's Camouflage optique": "Après {**Secondaire./**} s secondes, vous devenez invisible pendant {**Primaire.x**} s. Vous pouvez utiliser les modules de mécanisme lorsque vous êtes invisible, le tir de vos armes révélera immédiatement le robot. Temps de recharge : {CD}.",
@@ -267,7 +284,7 @@
             "Relic Lancelot's Protection du Paladin": "Confère 50% de résistance aux dégâts pendant {**Primaire.x**} s. Tant qu'elle est active, les alliés proches restaurent une armure égale à {**Secondaire.x**} % des dégâts absorbés par Lancelot. Temps de recharge : {CD}.",
             "Tyr's Drone réparateur": "Déploie un drone de soin qui restaure 2100 points d’armure par seconde aux alliés dans un rayon de {**Primaire.x**} m pendant {**Secondaire.x**} s. Recharge : {CD}.",
             "Mesa's Harmonisateur": "Restaure {**Primaire.x**} points de bouclier par seconde pour les alliés dans les {**Secondaire.x**} m, et la moitié de cette valeur pour le Mesa. Réduit aussi les dégâts infligés par les ennemis à portée de 30 %. Temps de recharge: {CD}.",
-            "Angler's Alimentation Tesla": "Marque un robot allié. Pendant {**Primaire.x**} s, tant que le robot marqué reste dans la ligne de mire, il restaure 4 % de son bouclier par seconde et inflige {**Secondaire.x**} dégâts par seconde à l'ennemi le plus proche dans un rayon de 120 m. Temps de recharge : {CD}.",
+            "Angler's Alimentation Tesla": "Marque un robot allié. Pendant {**Primaire.x**} s, le robot marqué restaure 4 % de son bouclier par seconde et inflige {**Secondaire.x**} dégâts par seconde à l'ennemi le plus proche dans un rayon de 120 m. Temps de recharge : {CD}.",
             "Raven's Plumes d'acier": "Tire un barrage de missiles droit devant qui infligent chacun {**Primaire.x**} points de dégâts dans un rayon de {**Secondaire.x**} m.",
             "Scorpion's Trauma": "Un projectile à tête chercheuse qui inflige {**Primaire.x**} points de dégâts, puis {**Secondaire.x**} par seconde à chaque module. Recharge immédiate si la cible est détruite pendant son activation.",
             "Relic Tyr's Tir réparateur": "Tire un projectile. En touchant un allié, restaure {**Primaire.x**} % du blindage maximal de l'allié. Tyr restaure du blindage égal à {**Secondaire.x**} % du montant restauré à cet allié. Temps de recharge : {CD}.",
@@ -281,6 +298,9 @@
             "Harpy's Douille de napalm": "Tire un projectile qui inflige {**Secondaire.x**} points de dégâts d'explosion à l'impact, puis {**Primaire.x**} dégâts de feu au fil du temps.",
             "Fury's Recharge de distorsion": "Régénère {**Secondaire.x**} % des munitions après un délai de {**Primaire./**} s.",
             "Relic Scorpion's Frappe de l'ombre": "Téléporte le robot jusqu'à {**Primaire.x**} m. En réapparaissant, inflige 25000 dégâts de bouclier à tous les ennemis dans la zone. Active également un canon arrière intégré pendant {**Secondaire.x**} s, infligeant 3000 dégâts par seconde. Temps de recharge : {CD}."
+        },
+        "Épaule": {
+            "Cerberus Mk. II's Châssis du gardien": "Passif. Subir des dégâts de blindage lorsque les boucliers sont désactivés déclenche une barrière d'énergie qui dure {**Primaire.x**} s ou jusqu'à ce qu'elle subisse {**Secondaire.x**} dégâts. Temps de recharge : {CD}."
         }
     },
     "ja": {
@@ -298,6 +318,7 @@
             "ホロフィールド": "{**メイン.x**}秒間、視線を遮る{**サブ.x**}m幅の壁を展開する。",
             "リパルサー": "敵に{**サブ.x**}ダメージを与え、{**メイン.x**}m/sの力で敵とプレイヤーをお互いに押し出す。",
             "ブラストウェーブ": "{**サブ.x**}m以内に爆弾を設置する。しばらくすると爆発して{**メイン.x**}ダメージを与え、敵をノックバックさせる。",
+            "ヒート・シーカー": "上方にドローンを射出する。ドローンは{**サブ.x**}m以内の敵を検知し、各ターゲットに弾を発射する。命中時、各弾はすべてのロボットパーツに{**メイン.x**}ダメージを与える。",
             "弾薬ファブリケーター": "{**サブ.x**}m以内の味方のリロード時間を{**メイン.x**}%短縮するデバイスを展開する。"
         },
         "サイクルギア": {
@@ -315,6 +336,7 @@
         },
         "胴体": {
             "Griffin's スクランブラー": "敵が{**メイン.x**}m以内の味方にロックオンするのを防ぎ、被ダメージをすべてのモジュール間で分割する。{**サブ.x**}秒間持続する。影響を受けたロボットは破壊されない。",
+            "Cerberus's インヒビター・フィールド": "ロボットの前方に{**メイン.x**}秒の間、脈動するエリアを生成する。内部の敵は武器の精度が低下し、発射速度が{**サブ.x**}%低下する。このエリアは1秒ごとに敵のアビリティのクールダウンに3秒を追加する。クールダウン：{CD}。",
             "Ceres's リジュビネーター": "装甲を1秒あたり{**メイン.x**}%修復する。{**サブ.x**}m内に味方がいる場合、その味方も修復し、修復率が2倍になる。12秒間持続する。",
             "ヒッチャー's ウイングドローン": "平らで{**サブ.x**}の長さの翼を持ったドローンを出現させ、進路上のすべての敵に{**メイン.x**}ダメージを与える。",
             "Pursuer's 光学カモフラージュ": "{**サブ./**}秒秒後に{**メイン.x**}秒間、透明になる。ギアモジュールは透明な間も使用できるが、武器を発射するとロボットがすぐに見えるようになる。クールダウン：{CD}。",
@@ -338,7 +360,7 @@
             "Relic Lancelot's パラディンズ・ウォード": "{**メイン.x**}秒の間、ダメージ耐性が50%向上する。発動中、周囲の味方はLancelotが吸収したダメージの{**サブ.x**}%に相当するアーマーを回復する。クールダウン：{CD}。",
             "Tyr's 修復ドローン": "回復ドローンを展開し、{**サブ.x**}秒 の間、{**メイン.x**}m 内の味方の装甲を毎秒 2100 回復する。クールダウン：{CD}。",
             "Mesa's ハーモナイザー": "{**サブ.x**}m以内の味方のシールドを毎秒{**メイン.x**}回復し、Mesa自身はこの半分の値を回復する。範囲内の敵へのダメージ出力も30%減少する。 クールダウン: {CD}.",
-            "Angler's テスラ・フィード": "味方ロボットにマークを付ける。{**メイン.x**}秒の間、マークされたロボットが視界内にとどまっている間、毎秒自身のシールドの4%を回復し、120m以内にいる最も近い敵に毎秒{**サブ.x**}ダメージを与える。クールダウン：{CD}。",
+            "Angler's テスラ・フィード": "味方ロボットにマークを付ける。{**メイン.x**}秒の間、マークされたロボットは毎秒自身のシールドの4%を回復し、120m以内にいる最も近い敵に毎秒{**サブ.x**}ダメージを与える。クールダウン：{CD}。",
             "Raven's 鋼鉄の羽根": "前方にミサイルの弾幕を発射する。それぞれのミサイルは{**サブ.x**}mの爆発半径で{**メイン.x**}ダメージを与える。",
             "Scorpion's むち打ち": "誘導式発射体は着弾時に{**メイン.x**}ダメージを与え、すべてのモジュールに1秒あたり{**サブ.x**}ダメージを与える。アクティブな間、ターゲットが破壊された場合はリチャージされる。",
             "Relic Tyr's リペアリング・ショット": "弾を発射する。味方に命中すると、その味方の最大アーマーの{**メイン.x**}%を修復する。Tyrはその味方に修復された量の{**サブ.x**}%に相当するアーマーを修復する。クールダウン：{CD}。",
@@ -352,6 +374,9 @@
             "Harpy's ナパーム弾": "着弾時に{**サブ.x**}のブラストダメージを与え、時間の経過ととも{**メイン.x**}の火災ダメージを与える発射体を発射する。",
             "Fury's ワープリロード": "{**メイン./**}秒後に{**サブ.x**}%の弾薬が補充される。",
             "Relic Scorpion's シャドウ・ストライク": "ロボットを最大{**メイン.x**}mまでテレポートさせる。再出現時、エリア内のすべての敵に25000のシールドダメージを与える。また、内蔵のテールキャノンが{**サブ.x**}秒の間起動し、毎秒3000ダメージを与える。クールダウン：{CD}。"
+        },
+        "肩": {
+            "Cerberus Mk. II's ゲートキーパー・フレーム": "パッシブ。シールドがダウンしている間にアーマーダメージを受けると、{**メイン.x**}秒または{**サブ.x**}のダメージを受けるまで持続するエネルギーバリアが発動する。クールダウン：{CD}。"
         }
     },
     "ko": {
@@ -369,6 +394,7 @@
             "홀로필드": "{**주.x**}초 동안 시야를 차단하는 {**보조.x**}m 너비의 벽을 배치합니다.",
             "반발기": "적에게 {**보조.x**}의 피해를 주고 {**주.x**}m/s의 힘으로 플레이어와 적이 서로를 밀어냅니다.",
             "폭발 파동": "{**보조.x**}m 내에 폭탄을 설치합니다. 짧은 지연 후 폭발하여 {**주.x**} 피해를 입히고 적을 밀쳐냅니다.",
+            "히트 시커": "드론을 위로 쏘아 올립니다. 드론은 {**보조.x**}m 내의 적을 감지하고 각 표적에 투사체를 발사합니다. 적중 시 각 투사체는 모든 로봇 부품에 {**주.x**} 피해를 줍니다。",
             "탄약 제조기": "{**주.x**}% 내 아군의 재장전 시간을 {**주.x**}% 감소시키는 장치를 배치합니다."
         },
         "순환 기어": {
@@ -386,6 +412,7 @@
         },
         "몸통": {
             "그리핀's 스크램블러": "적이 {**주.x**}m 내의 아군을 추적하지 못하게 하고, 받는 모든 피해를 모듈 간에 분산시킵니다. {**보조.x**}초 동안 지속됩니다. 영향받는 로봇은 파괴할 수 없습니다.",
+            "Cerberus's 인히비터 필드": "로봇 전방에 {**주.x**}초 동안 맥동하는 구역을 생성합니다. 내부의 적은 무기 명중률이 감소하고 연사력이 {**보조.x**}%만큼 낮아집니다. 이 구역은 초당 1회 적의 능력 재사용 대기시간을 3초씩 증가시킵니다. 재사용 대기시간: {CD}。",
             "세레스's 회복기": "초당 아머의 {**주.x**}%를 수리해. {**보조.x**}m 내에 아군이 있으면 아군도 수리하고 수리 속도가 두 배가 돼. 12초 동안 지속돼.",
             "Hitcher's 날개 드론": "평평한 날개 길이 {**보조.x**}의 드론을 소환하고 경로의 모든 적에게 {**주.x**} 피해를 줍니다.",
             "퍼슈어's 광학 위장": "{**보조./**}초 지연 후, {**주.x**}초 동안 은신 상태가 됩니다. 은신 상태에서도 기어 모듈을 사용할 수 있지만, 무기를 발사하면 즉시 로봇이 드러납니다. 쿨다운: {CD}.",
@@ -409,7 +436,7 @@
             "Relic Lancelot's 팔라딘의 수호": "{**주.x**}초 동안 피해 저항 50%를 부여합니다. 활성화 상태에서 주변 아군은 Lancelot이 흡수한 피해의 {**보조.x**}%만큼 아머를 회복합니다. 재사용 대기시간: {CD}.",
             "티르's 수리 드론": "치유 드론을 배치하여 {**보조.x**}초 동안 {**주.x**}m 범위 내 아군의 장갑을 초당 2100 회복합니다. 재사용 대기시간: {CD}.",
             "메사's 조율기": "{**보조.x**}m 내에 있는 아군의 실드를 초당 {**주.x**} 회복시키고, 메사 자신은 그 절반만큼 회복합니다. 또한 사거리 내의 적이 가하는 피해량이 30% 감소합니다. 쿨다운: {CD}.",
-            "Angler's 테슬라 피드": "아군 로봇을 표식합니다. {**주.x**}초 동안 표식된 로봇이 시야에 남아 있는 동안 초당 실드의 4%를 복구하고 120m 내의 가장 가까운 적에게 초당 {**보조.x**} 피해를 줍니다. 재사용 대기시간: {CD}.",
+            "Angler's 테슬라 피드": "아군 로봇을 표식합니다. {**주.x**}초 동안 표식된 대상은 초당 실드의 4%를 복구하고 120m 내의 가장 가까운 적에게 초당 {**보조.x**} 피해를 줍니다. 재사용 대기시간: {CD}。",
             "레이븐's 강철 깃털": "전방에 미사일을 연발로 발사하여, 각각 {**보조.x**}m 폭발 반경으로 {**주.x**} 피해를 입힙니다.",
             "스콜피언's 채찍": "유도 투사체 명중 시 {**주.x**}의 피해를 주고 모든 모듈에 초당 {**보조.x**}의 피해를 입힙니다. 대상이 활성화된 상태에서 파괴되면 재충전됩니다.",
             "Relic Tyr's 리페어링 샷": "투사체를 발사합니다. 아군에게 적중 시 아군 최대 장갑의 {**주.x**}%를 복구합니다. Tyr은 해당 아군에게 복구된 양의 {**보조.x**}%에 해당하는 장갑을 복구합니다. 재사용 대기시간: {CD}.",
@@ -423,6 +450,9 @@
             "하피's 네이팜 포탄": "투사체를 발사하여 명중 시 {**보조.x**} 폭발 피해를 입히고, 이후 {**주.x**} 화염 피해를 지속적으로 입힙니다.",
             "퓨리's 워프 재장전": "{**주./**}초 지연 후 탄약의 {**보조.x**}%를 보충합니다.",
             "Relic Scorpion's 섀도 스트라이크": "로봇을 최대 {**주.x**}m까지 순간이동시킵니다. 재등장 시 범위 내의 모든 적에게 25000의 실드 피해를 줍니다. 또한 내장된 테일 캐논이 {**보조.x**}초 동안 활성화되어 초당 3000의 피해를 줍니다. 재사용 대기시간: {CD} resistance."
+        },
+        "어깨": {
+            "Cerberus Mk. II's 게이트키퍼 프레임": "패시브. 실드가 꺼진 상태에서 장갑 피해를 입으면 {**주.x**}초 동안 또는 {**보조.x**} 피해를 받을 때까지 지속되는 에너지 장벽이 활성화됩니다. 재사용 대기시간: {CD}."
         }
     },
     "pl": {
@@ -440,6 +470,7 @@
             "Holopole": "Uaktywnia mur osłonowy o szerokości {**Drugoplanowy.x**} m, który ogranicza widok przez {**Podstawowy.x**} sek.",
             "Odpychacz": "Zadaje wrogom {**Drugoplanowy.x**} obrażeń, a przy tym odrzuca ciebie i twoich przeciwników od siebie z siłą {**Podstawowy.x**}m/s.",
             "Fala uderzeniowa": "Wystrzeliwuje bombę na odległość {**Drugoplanowy.x**} m. Eksplozja po krótkim opóźnieniu powoduje {**Podstawowy.x**} obrażeń i odrzuca roboty w polu rażenia.",
+            "Poszukiwacz ciepła": "Wystrzeliwuje drona w górę. Dron wykrywa wrogów w promieniu {**Drugoplanowy.x**} m i wystrzeliwuje pocisk w każdy cel. Po trafieniu każdy pocisk zadaje {**Podstawowy.x**} obrażeń wszystkim komponentom robota.",
             "Wytwarzanie amunicji": "Uaktywnia urządzenie, które zwiększa szybkość przeładowania sojuszników w promieniu {**Drugoplanowy.x**} m o {**Podstawowy.x**}%."
         },
         "Osprzęt ładowany": {
@@ -457,6 +488,7 @@
         },
         "Korpus": {
             "Griffin's Szyfrator": "Zapobiega blokadzie pocisków naprowadzanych wroga na sojusznikach w odległości {**Podstawowy.x**} m oraz rozdziela otrzymywane obrażenia pomiędzy moduły. Czas aktywności: {**Drugoplanowy.x**} sek. Robot pod wpływem nie może zostać zniszczony.",
+            "Cerberus's Pole inhibitora": "Tworzy pulsujący obszar przed robotem na {**Podstawowy.x**} sek. Wrogowie w środku cierpią na zmniejszoną celność broni oraz o {**Drugoplanowy.x**}% niższą szybkostrzelność. Raz na sekundę obszar ten dodaje 3 sekundy do czasu odnowienia ich umiejętności. Czas odnowienia: {CD}.",
             "Ceres's Źródło regeneracji": "Przywraca {**Podstawowy.x**}% pancerza na sek. Jeśli w promieniu {**Drugoplanowy.x**} m znajdują się sojusznicy, regeneracja obejmie również te jednostki (tempo napraw zostaje podwojone). Czas aktywności: 12 sek.",
             "Hitcher's Skrzydlaty dron": "Wystrzeliwuje drona z płaskimi skrzydłami o długości {**Drugoplanowy.x**}, który zadaje {**Podstawowy.x**} obrażeń wszystkim wrogom na swojej drodze.",
             "Pursuer's Kamuflaż optyczny": "Po opóźnieniu trwającym {**Drugoplanowy./**} sek twój robot zyskuje na {**Podstawowy.x**} sek tymczasową niewidzialność. W tym czasie można używać modułów sprzętu, ale otwarcie ognia ujawni twoją pozycję. Czas reaktywacji: {CD}.",
@@ -480,7 +512,7 @@
             "Relic Lancelot's Straż Paladyna": "Zapewnia 50% odporności na obrażenia przez {**Podstawowy.x**} sek. Gdy jest aktywna, pobliscy sojusznicy przywracają pancerz równy {**Drugoplanowy.x**}% obrażeń pochłoniętych przez Lancelot. Czas odnowienia: {CD}.",
             "Tyr's Dron naprawczy": "Rozmieszcza drona naprawczego, który przywraca 2100 pancerza na sekundę sojusznikom w promieniu {**Podstawowy.x**} m przez {**Drugoplanowy.x**} sek. Czas odnowienia: {CD}.",
             "Mesa's Harmonizator": "Przywraca {**Podstawowy.x**} tarcz(y) sojuszników w promieniu {**Drugoplanowy.x**} m i połowę tej wartości samej Mesie. Ponadto ogranicza o 30% obrażenia zadawane przez wrogów. Schłodzenie: {CD}.",
-            "Angler's Zasilanie Tesli": "Oznacza sojuszniczego robota. Na {**Podstawowy.x**} sek, gdy oznaczony robot pozostaje w polu widzenia, przywraca 4% swojej tarczy na sekundę i zadaje {**Drugoplanowy.x**} obrażeń na sekundę najbliższemu wrogowi w promieniu 120 m. Czas odnowienia: {CD}.",
+            "Angler's Zasilanie Tesli": "Oznacza sojuszniczego robota. Na {**Podstawowy.x**} sek oznaczony robot przywraca 4% swojej tarczy na sekundę i zadaje {**Drugoplanowy.x**} obrażeń na sekundę najbliższemu wrogowi w promieniu 120 m. Czas odnowienia: {CD}.",
             "Raven's Stalowe pióra": "Wystrzeliwuje serię pocisków na wprost. Każdy z nich powoduje {**Podstawowy.x**} obrażeń od eksplozji w promieniu {**Drugoplanowy.x**} m.",
             "Scorpion's Bicz": "Pocisk samonaprowadzający powoduje po trafieniu {**Podstawowy.x**} obrażeń, a następnie dodatkowo {**Drugoplanowy.x**} obrażeń na sek. od ognia wszystkich modułów. Zniszczenie wroga w czasie aktywności powoduje od razu przeładowanie.",
             "Relic Tyr's Strzał naprawczy": "Wystrzeliwuje pocisk. Po trafieniu w sojusznika przywraca {**Podstawowy.x**}% maksymalnego pancerza sojusznika. Tyr przywraca pancerz równy {**Drugoplanowy.x**}% ilości przywróconej temu sojusznikowi. Czas odnowienia: {CD}.",
@@ -494,6 +526,9 @@
             "Harpy's Pocisk z napalmem": "Wystrzeliwuje rakietę, która powoduje {**Drugoplanowy.x**} obrażeń od eksplozji, a następnie (z czasem) również {**Podstawowy.x**} obrażeń od ognia.",
             "Fury's Przeładowanie warp": "Uzupełnia {**Drugoplanowy.x**}% amunicji po opóźnieniu wynoszącym {**Podstawowy./**} sek.",
             "Relic Scorpion's Cienisty cios": "Teleportuje robota na odległość do {**Podstawowy.x**} m. Po ponownym pojawieniu się zadaje 25000 obrażeń tarczy wszystkim wrogom w obszarze. Aktywuje również wbudowane działo ogonowe na {**Drugoplanowy.x**} sek, zadając 3000 obrażeń na sekundę. Czas odnowienia: {CD}."
+        },
+        "Ramię": {
+            "Cerberus Mk. II's Rama Strażnika": "Pasywna. Otrzymanie obrażeń pancerza, gdy tarcze są wyłączone, aktywuje barierę energetyczną trwającą przez {**Podstawowy.x**} sek lub do momentu otrzymania {**Drugoplanowy.x**} obrażeń. Czas odnowienia: {CD}."
         }
     },
     "pt-BR": {
@@ -511,6 +546,7 @@
             "Bloqueio holográfico": "Lança uma parede de {**Secundário.x**}m de largura, que bloqueia a linha de visão por {**Primário.x**}s.",
             "Repulsora": "Causa {**Secundário.x**} de dano a inimigos, e empurra para longe qualquer um com uma força de {**Primário.x**}m/s.",
             "Onda Explosiva": "Planta uma bomba dentro de {**Secundário.x**}m. Após um pequeno atraso, a explosão causa {**Primário.x**} de dano e empurra os inimigos para trás.",
+            "Rastreador Térmico": "Lança um drone para cima. O drone detecta inimigos em um raio de {**Secundário.x**}m e dispara um projétil em cada alvo. Ao atingir, cada projétil causa {**Primário.x**} de dano a todos os componentes do robô.",
             "Fábrica de munição": "Posiciona um dispositivo que reduz o tempo de recarga de aliados dentro de {**Secundário.x**}m em {**Primário.x**}%."
         },
         "Equipamento de turno": {
@@ -528,6 +564,7 @@
         },
         "Torso": {
             "Griffin's Misturador": "Impede que os inimigos travem nos aliados dentro de {**Primário.x**}m e divide todo o dano recebido entre os módulos. Dura {Duration}. Nenhum robô afetado pode ser destruído.",
+            "Cerberus's Campo Inibidor": "Cria uma área pulsante na frente do robô por {**Primário.x**}s. Os inimigos dentro sofrem redução na precisão das armas e cadência de tiro {**Secundário.x**}% menor. Uma vez por segundo, a área adiciona 3 segundos ao tempo de recarga de suas habilidades. Tempo de recarga: {CD}.",
             "Ceres's Fonte da Juventude": "Repara {**Primário.x**}% da armadura por segundo. Se houver aliados dentro de {**Secundário.x**}m, eles também recebem reparos e a taxa de reparo é dobrada. Dura 12 segundos.",
             "Carona's Drone Alado": "Cria um drone com asas planas de {**Secundário.x**}, que causam {**Primário.x**} de dano aos inimigos em seu caminho.",
             "Pursuer's Camuflagem Óptica": "Após um atraso de {**Secundário./**}s, você fica invisível por {**Primário.x**}s. Módulos de Equipamento podem ser usados enquanto invisível, mas atirar revela o robô imediatamente. Reativação: {CD}.",
@@ -551,7 +588,7 @@
             "Relic Lancelot's Proteção do Paladino": "Concede 50% de resistência a dano por {**Primário.x**}s. Enquanto estiver ativa, aliados próximos restauram armadura igual a {**Secundário.x**}% do dano absorvido por Lancelot. Tempo de recarga: {CD}.",
             "Tyr's Drone de Reparo": "Implanta um drone de cura que restaura 2100 de armadura por segundo aos aliados dentro de {**Primário.x**}m por {**Secundário.x**}s. Recarga: {CD}.",
             "Mesa's Harmonizador": "Restaura {**Primário.x**} de escudo por segundo dos aliados dentro de {**Secundário.x**}m e metade disso para o próprio Mesa. Reduz o dano causado dos inimigos no alcance em 30%. Reativação: {CD}.",
-            "Angler's Alimentação Tesla": "Marca um robô aliado. Por {**Primário.x**}s, enquanto o robô marcado permanecer na linha de visão, ele restaura 4% do seu escudo por segundo e causa {**Secundário.x**} de dano por segundo ao inimigo mais próximo em um raio de 120 m. Tempo de recarga: {CD}.",
+            "Angler's Alimentação Tesla": "Marca um robô aliado. Por {**Primário.x**}s, o marcado restaura 4% do seu escudo por segundo e causa {**Secundário.x**} de dano por segundo ao inimigo mais próximo em um raio de 120 m. Tempo de recarga: {CD}.",
             "Raven's Penas de Aço": "Atira uma barreira de mísseis para frente, cada um causando {**Primário.x**} de dano com um raio de explosão de {**Secundário.x**}m.",
             "Scorpion's Chicotada": "Um projétil guiado que causa {**Primário.x**} de dano ao acertar e mais {**Secundário.x**} por segundo a todos os módulos. Recarrega se o alvo for destruído enquanto estiver ativo.",
             "Relic Tyr's Disparo Reparador": "Dispara um projétil. Ao atingir um aliado, restaura {**Primário.x**}% da blindagem máxima do aliado. O Tyr restaura blindagem igual a {**Secundário.x**}% da quantidade restaurada a esse aliado. Tempo de recarga: {CD}.",
@@ -565,6 +602,9 @@
             "Harpy's Bala de Napalm": "Atira um projétil que causa {**Secundário.x**} de dano de explosão no impacto e {**Primário.x**} de dano de fogo ao longo do tempo.",
             "Fury's Recarregar a Dobra": "Recupera {**Secundário.x**}% da munição após um atraso de {**Primário./**}s.",
             "Relic Scorpion's Ataque das Sombras": "Teleporta o robô em até {**Primário.x**}m. Ao reaparecer, causa 25000 de dano de escudo a todos os inimigos na área. Também ativa um canhão de cauda integrado por {**Secundário.x**}s, causando 3000 de dano por segundo. Tempo de recarga: {CD}."
+        },
+        "Ombreiras": {
+            "Cerberus Mk. II's Estrutura do Guardião": "Passiva. Sofrer dano de blindagem enquanto os escudos estão desativados ativa uma barreira de energia que dura {**Primário.x**}s ou até sofrer {**Secundário.x**} de dano. Tempo de recarga: {CD}."
         }
     },
     "ru": {
@@ -582,6 +622,7 @@
             "Голографическая завеса": "Устанавливает завесу шириной {**Второстепенное.x**}м, на {**Основное.x**}сек. закрывающую обзор.",
             "Репульсор": "Наносит {**Второстепенное.x**} ед. урона противникам и отбрасывает их и вас друг от друга с силой {**Основное.x**}м/с.",
             "Ударная волна": "Устанавливает бомбу в пределах {**Второстепенное.x**}м. Вскоре она взрывается, нанося противникам {**Основное.x**} ед. урона и отбрасывая их.",
+            "Теплоискатель": "Запускает дрона вверх. Дрон обнаруживает врагов в радиусе {**Второстепенное.x**}м и выпускает снаряд в каждую цель. При попадании каждый снаряд наносит {**Основное.x**} урона всем модулям робота.",
             "Фабрикатор боеприпасов": "Размещает устройство, повышающее скорость перезарядки союзников в радиусе {**Второстепенное.x**}м на {**Основное.x**}%."
         },
         "Специальное оборудование": {
@@ -599,6 +640,7 @@
         },
         "Корпус": {
             "Griffin's Подавитель сигнала": "Не позволяет противникам захватывать цели в пределах {**Основное.x**}м и разделяет получаемый урон между модулями. Длительность: {**Второстепенное.x**}сек.. Находящиеся под действием эффекта роботы не могут быть уничтожены.",
+            "Cerberus's Ингибиторное поле": "Создает перед роботом пульсирующую область на {**Основное.x**}сек.. Находящиеся внутри противники получают сниженную точность оружия и уменьшенную на {**Второстепенное.x**}% скорострельность. Раз в секунду область увеличивает перезарядку их способностей на 3 с. Перезарядка: {CD}.",
             "Ceres's Регенератор": "Восстанавливает {**Основное.x**}% брони в секунду. Если союзники находятся в радиусе {**Второстепенное.x**}м, броня их роботов восстанавливается с удвоенной скоростью. Время действия: 12 секунд.",
             "Hitcher's Крылатый дрон": "Вызывает дрона с плоскими крыльями длиной {**Второстепенное.x**}, наносящего {**Основное.x**} ед. урона всем противникам на пути.",
             "Pursuer's Оптическая маскировка": "Через {**Второстепенное./**}сек. вы на {**Основное.x**}сек. становитесь невидимы. Во время невидимости можно использовать модули снаряжения. Стрельба моментально делает робота видимым. Перезарядка: {CD}.",
@@ -622,7 +664,7 @@
             "Relic Lancelot's Оберег Паладина": "Дает 50% устойчивости к урону на {**Основное.x**}сек.. Пока способность активна, союзники поблизости восстановят броню в размере {**Второстепенное.x**}% от урона, поглощенного Lancelot. Перезарядка: {CD}.",
             "Tyr's Ремонтный дрон": "Разворачивает лечебный дрон, который восстанавливает союзникам в радиусе {**Основное.x**}м по 2100 единиц брони в секунду в течение {**Второстепенное.x**}сек.. Перезарядка: {CD}.",
             "Mesa's Гармонизатор": "Восстанавливает {**Основное.x**} прочности щитов союзников в секунду и половину от этого значения для Mesa, а также уменьшает урон противников на 30%. Область действия: {**Второстепенное.x**}м. Перезарядка: {CD}.",
-            "Angler's Подпитка Теслы": "Помечает союзного робота. В течение {**Основное.x**}сек., пока помеченный робот остается в зоне видимости, он восстанавливает 4% своего щита в секунду и наносит {**Второстепенное.x**} урона в секунду ближайшему врагу в радиусе 120 м. Перезарядка: {CD}.",
+            "Angler's Подпитка Теслы": "Помечает союзного робота. В течение {**Основное.x**}сек. помеченный робот восстанавливает 4% своего щита в секунду и наносит {**Второстепенное.x**} урона в секунду ближайшему врагу в радиусе 120 м. Перезарядка: {CD}.",
             "Raven's Стальные перья": "Выпускает перед вами залп ракет. Каждая из них наносит {**Основное.x**} ед. урона в области {**Второстепенное.x**}м.",
             "Scorpion's Плеть": "Выпускает самонаводящийся снаряд, наносящий {**Основное.x**} ед. урона при попадании и {**Второстепенное.x**} ед. урона в секунду всем модулям. Если цель уничтожается во время действия эффекта, перезарядка сбрасывается.",
             "Relic Tyr's Ремонтный выстрел": "Выпускает снаряд. При попадании в союзника восстанавливает {**Основное.x**}% от его максимальной брони. Tyr восстанавливает брони на {**Второстепенное.x**}% от количества, восстановленного этому союзнику. Перезарядка: {CD}.",
@@ -636,6 +678,9 @@
             "Harpy's Напалмовый снаряд": "Выпускает снаряд, наносящий {**Второстепенное.x**} ед. взрывного урона при попадании и {**Основное.x**} ед. периодического урона огнём.",
             "Fury's Варп-перезарядка": "Через {**Основное./**}сек. восполняет {**Второстепенное.x**}% боезапаса.",
             "Relic Scorpion's Удар из тени": "Телепортирует робота на расстояние до {**Основное.x**}м. При появлении наносит 25000 урона щитам всех врагов в зоне поражения. Также активирует встроенное хвостовое орудие на {**Второстепенное.x**}сек., наносящее 3000 урона в секунду. Перезарядка: {CD}."
+        },
+        "Плечо": {
+            "Cerberus Mk. II's Каркас стража": "Пассивная. Получение урона по броне при отключенных щитах активирует энергетический барьер, действующий в течение {**Основное.x**}сек. или до получения {**Второстепенное.x**} урона. Перезарядка: {CD}."
         }
     },
     "tr": {
@@ -653,6 +698,7 @@
             "Holo Saha": "{**Birincil.x**}sn boyunca görüş hattını bloke eden {**İkincil.x**}m genişliğinde bir duvar konuşlandırır.",
             "Püskürtücü": "Düşmanlara {**İkincil.x**} hasar verir, seni ve onları {**Birincil.x**}m/s kuvvetle birbirinizden öteye iter.",
             "İnfilak Dalgası": "{**İkincil.x**}m Menzilli bir bomba yerleştirir. Kısa bir gecikmeden sonra patlama {**Birincil.x**} hasar verip düşmanları geriye iter.",
+            "Isı Arayıcı": "Yukarı doğru bir dron fırlatır. Dron, {**İkincil.x**}m içindeki düşmanları tespit eder ve her hedefe bir mermi ateşler. İsabet halinde her mermi tüm robot parçalarına {**Birincil.x**} hasar verir.",
             "Cephane Üretici": "{**İkincil.x**}m dahilindeki müttefiklerin silah doldurma süresini {**Birincil.x**}% kısaltan bir cihaz konuşlandırır."
         },
         "Devir Teçhizatı": {
@@ -670,6 +716,7 @@
         },
         "Gövde": {
             "Griffin's Çırpıcı": "Düşmanların {**Birincil.x**}m dahilindeki müttefikler üzerinde kilitlenmesini önler ve alınan hasarı tüm modüllere bölüştürür. {**İkincil.x**}sn sürer. Etkilenen robotlar imha edilemez.",
+            "Cerberus's İnhibitör Alanı": "Robotun önünde {**Birincil.x**}sn boyunca titreşen bir alan oluşturur. İçerideki düşmanların silah isabet oranı azalır ve atış hızları {**İkincil.x**}% oranında düşer. Bu alan saniyede bir kez düşmanların yetenek bekleme sürelerine 3 saniye ekler. Bekleme süresi: {CD}.",
             "Ceres's Rejüvenatör": "Saniyede %{**Birincil.x**} zırh onarır. {**İkincil.x**}m dahilinde müttefik varsa onlara da onarım yapar ve onarım oranını ikiye katlar. 12 saniye sürer.",
             "Otostopçu's Kanatlı Dron": "{**İkincil.x**} uzunluğunda düz kanatlara sahip bir dron oluşturur ve yoluna çıkan tüm düşmanlara {**Birincil.x**} hasar verir.",
             "Pursuer's Optik Kamuflaj": "{**İkincil./**}sn gecikmeden sonra {**Birincil.x**}sn boyunca görünmez olursun. Teçhizat modülleri görünmezken kullanılabilse de ateşli silahlar robotu anında ortaya çıkarır. Bekleme süresi: {CD}.",
@@ -693,7 +740,7 @@
             "Relic Lancelot's Paladin'in Muhafızı": "{**Birincil.x**}sn boyunca %50 hasar direnci sağlar. Aktifken, yakındaki müttefikler Lancelot tarafından emilen hasarın {**İkincil.x**}% kadarına eşit zırh yeniler. Bekleme süresi: {CD}.",
             "Tyr's Onarım Dronu": "Bir iyileştirme dronu konuşlandırır ve {**İkincil.x**}sn boyunca {**Birincil.x**}m içindeki müttefiklere saniye başına 2100 zırh yeniler. Bekleme süresi: {CD}.",
             "Mesa's Harmonizör": "{**İkincil.x**}m dahilindeki müttefikler için {**Birincil.x**}, Mesa için de bunu yarısı kadar kalkan yeniler. Ayrıca, menzil dahilindeki düşmanların verdiği hasarı %30 azaltır. Bekleme Süresi: {CD}.",
-            "Angler's Tesla Beslemesi": "Müttefik bir robotu işaretler. {**Birincil.x**}sn boyunca, işaretlenen robot görüş hattında kaldığı sürece saniye başına kalkanının %4 kadarlık kısmını yeniler ve 120 m içindeki en yakın düşmana saniye başına {**İkincil.x**} hasar verir. Bekleme süresi: {CD}.",
+            "Angler's Tesla Beslemesi": "Müttefik bir robotu işaretler. {**Birincil.x**}sn boyunca, işaretlenen robot saniye başına kalkanının %4 kadarını yeniler ve 120 m içindeki en yakın düşmana saniye başına {**İkincil.x**} hasar verir. Bekleme süresi: {CD}.",
             "Raven's Çelik Tüyler": "Tam önüne doğru bir füze salvosu yapar. Füzelerin her biri {**İkincil.x**}m patlama yarıçaplı {**Birincil.x**} hasar verir.",
             "Scorpion's Kamçı Vuruşu": "Anında {**Birincil.x**} hasar, sonra da tüm modüllere saniyede {**İkincil.x**} hasar veren bir güdümlü mermi. Etkinken hedef imha olursa yeniden şarj olur.",
             "Relic Tyr's Onarım Atışı": "Bir mermi ateşler. Bir müttefike çarptığında müttefikin azami zırhının {**Birincil.x**}% kadarını yeniler. Tyr, o müttefike yenilenen miktarın {**İkincil.x**}% kadarına eşit zırh yeniler. Bekleme süresi: {CD}.",
@@ -707,6 +754,9 @@
             "Harpy's Napalm Fişeği": "Anında {**İkincil.x**} patlama hasarı sonra da süreye yayılan {**Birincil.x**} ateş hasarı veren bir mermi atar.",
             "Fury's Işın Doldurma": "{**Birincil./**}sn gecikme ardından {**İkincil.x**}% cephane doldurur.",
             "Relic Scorpion's Gölge Vuruşu": "Robotu {**Birincil.x**}m mesafeye kadar ışınlar. Yeniden belirdiğinde alandaki tüm düşmanlara 25000 kalkan hasarı verir. Ayrıca entegre kuyruk topunu {**İkincil.x**}sn boyunca etkinleştirerek saniye başına 3000 hasar verir. Bekleme süresi: {CD}."
+        },
+        "Omuz": {
+            "Cerberus Mk. II's Kapıcı Çerçevesi": "Pasif. Kalkanlar devre dışıyken zırh hasarı almak, {**Birincil.x**}sn boyunca veya {**İkincil.x**} hasar alana kadar süren bir enerji bariyerini etkinleştirir. Bekleme süresi: {CD}。"
         }
     },
     "zh-Hans": {
@@ -724,6 +774,7 @@
             "全息场": "部署一道{**副.x**}米宽的墙阻挡视线，持续存在{**主.x**}秒。",
             "反冲器": "对敌人造成{**副.x**}点伤害，并以{**主.x**}m/s的击退力将你和敌人相互推离。",
             "冲击波": "在{**副.x**}米范围内埋下一颗炸弹。炸弹会在短暂延迟后爆炸，造成{**主.x**}点伤害并击退敌人。",
+            "热寻者": "向上发射一架无人机。无人机探测 {**副.x**}米 范围内的敌人，并向每个目标发射一枚炮弹。命中时，每枚炮弹对所有机器人部件造成 {**主.x**} 伤害。",
             "弹药制造器": "部署一个装置，使{**副.x**}米范围内队友的装弹时间缩短{**主.x**}%。"
         },
         "循环型装备": {
@@ -741,6 +792,7 @@
         },
         "躯干": {
             "Griffin's 扰频器": "使敌人无法锁定{**主.x**}米范围内的队友，并将受到的伤害均摊给所有模块。持续{**副.x**}秒。所有受影响的机器人均无法被摧毁。",
+            "Cerberus's 抑制磁场": "在机器人前方生成一个脉冲区域，持续 {**主.x**}秒。区域内的敌人武器精度降低，射速降低 {**副.x**}%。该区域每秒会使其技能冷却时间延长 3 秒。冷却时间：{CD}。",
             "Ceres's 回春": "每秒修复{**主.x**}%点装甲。如果{**副.x**}米内有队友，则一并修复且修复速度加倍。持续12秒。",
             "Hitcher's 带翼无人机": "生成一架翼展为{**副.x**}的无人机，对沿途所有敌人造成{**主.x**}点伤害。",
             "Pursuer's 光学伪装": "在{**副./**}秒秒延迟后进入隐身状态，持续{**主.x**}秒。机器人在隐身期间可使用装备模块，但在使用火力武器后会马上暴露。冷却时间：{CD}",
@@ -764,7 +816,7 @@
             "Relic Lancelot's 圣骑士之护": "提供50%的伤害抗性，持续{**主.x**}秒。激活时，附近的盟友可恢复等同于Lancelot吸收伤害{**副.x**}%的护甲。冷却时间：{CD}。",
             "Tyr's 维修无人机": "部署一架治疗无人机，在 {**副.x**}秒 内为 {**主.x**}米 范围内的友军每秒恢复 2100 装甲。冷却时间：{CD}。",
             "Mesa's 协调大师": "Mesa使{**副.x**}米范围内队友每秒恢复{**主.x**}点护盾，自身恢复对半护盾量，并使范围内敌人的伤害输出降低30%。冷却时间: {CD}。",
-            "Angler's 特斯拉补给": "标记一台盟友机器人。持续{**主.x**}秒，只要被标记的机器人保持在视线范围内，每秒就会恢复其 4% 的护盾，并对 120 米内最近的敌人每秒造成 {**副.x**} 伤害。冷却时间：{CD}。",
+            "Angler's 特斯拉补给": "标记一台盟友机器人。持续 {**主.x**}秒，被标记的目标每秒恢复其 4% 的护盾，并对 120 米内最近的敌人每秒造成 {**副.x**} 伤害。冷却时间：{CD}。",
             "Raven's 钢之羽": "向正前方发射一波飞弹，每枚飞弹可对{**副.x**}米爆炸半径范围内的目标造成{**主.x**}点伤害。",
             "Scorpion's 尾后针": "发射一枚追踪炮弹，命中时造成{**主.x**}点伤害，随后对目标所有模块造成每秒{**副.x**}点的持续伤害。如果目标在技能生效期间被摧毁，则该技能立即结束冷却。",
             "Relic Tyr's 修复射击": "发射一枚炮弹。命中盟友时，为其恢复最大装甲值的{**主.x**}%。Tyr 恢复相当于给该盟友恢复量 {**副.x**}% 的装甲。冷却时间：{CD}。",
@@ -778,6 +830,9 @@
             "Harpy's 凝固汽油弹": "发射一枚炮弹，命中时造成{**副.x**}点爆炸伤害，随后造成{**主.x**}点持续火焰伤害。",
             "Fury's 曲速装弹": "{**副.x**}%延迟后，补充{**主./**}秒的弹药。",
             "Relic Scorpion's 暗影突袭": "将机器人传送至多{**主.x**}米。重新出现时，对区域内的所有敌人造成25000点护盾伤害。此外还会激活内置尾炮，持续{**副.x**}秒，每秒造成3000点伤害。冷却时间：{CD}。"
+        },
+        "肩膀": {
+            "Cerberus Mk. II's 守门人框架": "被动。在护盾耗尽期间受到装甲伤害会激活一道能量护栏，持续 {**主.x**}秒 或直到承受 {**副.x**} 伤害。冷却时间：{CD}。"
         }
     },
     "zh-Hant": {
@@ -795,6 +850,7 @@
             "全息場": "部署寬度為 {**次要.x**}公尺 的墻面，阻擋視線，持續 {**主要.x**}秒。",
             "斥力衝擊": "對敵人造成 {**次要.x**} 傷害，並以 {**主要.x**}m/s 力量將你和敵人推開。",
             "衝擊波爆破": "在 {**次要.x**}公尺 範圍内部署一顆炸彈。短暫延遲後，爆炸會造成 {**主要.x**} 傷害並擊退敵人。",
+            "熱尋者": "向上發射一架無人機。無人機探測 {**次要.x**}公尺 範圍內的敵人，並向每個目標發射一枚砲彈。命中時，每枚砲彈對所有機器人部件造成 {**主要.x**} 傷害。",
             "彈藥製造商": "部署裝置，該裝置可以讓 {**次要.x**}公尺 範圍內的盟友填裝速度縮短 {**主要.x**}%。"
         },
         "循環裝備": {
@@ -812,6 +868,7 @@
         },
         "機體": {
             "Griffin's 脈衝干擾": "防止敵人鎖定 {**主要.x**}公尺 範圍內的友軍，且會將來襲的傷害分攤至各個模組之上。持續 {**次要.x**}秒。受到影響的所有機器人無法被摧毀。",
+            "Cerberus's 抑制磁場": "在機器人前方生成一個脈衝區域，持續 {**主要.x**}秒。區域內的敵人武器精度降低，射速降低 {**次要.x**}%。該區域每秒會使其技能冷卻時間延長 3 秒。冷卻時間：{CD}。",
             "Ceres's 再生矩陣": "每秒修復 {**主要.x**}% 裝甲。如果 {**次要.x**}公尺 範圍內有友軍，修復率則會加倍，並同時修復友軍。持續 12 秒。",
             "搭載器's 翼型無人機": "召喚一架翼展長達 {**次要.x**} 的無人機，對沿途所有敵人造成 {**主要.x**} 傷害。",
             "Pursuer's 光學迷彩": "在延遲 {**次要./**}秒 秒後隱形，持續 {**主要.x**}秒。隱形時可使用裝備模組，但使用武器開火時機器人會立即顯形。冷卻時間：{CD}。",
@@ -835,7 +892,7 @@
             "Relic Lancelot's 聖騎士之護": "提供50%的傷害抗性，持續{**主要.x**}秒。啟用時，附近的盟友可恢復等同於Lancelot吸收傷害{**次要.x**}%的護甲。冷卻時間：{CD}",
             "Tyr's 維修子機": "部署一架治療無人機，在 {**次要.x**}秒 內為 {**主要.x**}公尺 範圍內的友軍每秒恢復 2100 裝甲。冷卻時間：{CD}。",
             "Mesa's 協調器": "每秒為 {**次要.x**}公尺範圍內友軍恢復 {**主要.x**} 護盾，Mesa 本身會恢復前述數值的一半。還會減少範圍內敵軍傷害輸出 30%。 冷卻: {CD}.",
-            "Angler's 特斯拉補給": "標記一台盟友機器人。持續{**主要.x**}秒，只要被標記的機器人保持在視線範圍內，每秒就會恢復其 4% 的護盾，並對 120 公尺內最近的敵人每秒造成 {**次要.x**} 傷害。冷卻時間：{CD}。",
+            "Angler's 特斯拉補給": "標記一台盟友機器人。持續 {**主要.x**}秒，被標記的目標每秒恢復其 4% 的護盾，並對 120 公尺內最近的敵人每秒造成 {**次要.x**} 傷害。冷卻時間：{CD}。",
             "Raven's 鐵翼彈雨": "朝正前方發射一大批飛彈，每一枚飛彈造成 {**主要.x**} 傷害，爆破半徑為 {**次要.x**}公尺。",
             "Scorpion's 鞭撻": "命中時造成 {**主要.x**} 點傷害的追蹤投射物，接著每秒對所有模組造成 {**次要.x**} 點傷害。若目標在此技能生效時死亡，此技能會立即再次充能。",
             "Relic Tyr's 修復射擊": "發射一枚炮彈。命中盟友時，為其恢復最大裝甲值的{**主要.x**}%。Tyr 恢復相當於給該盟友恢復量 {**次要.x**}% 的裝甲。冷卻時間：{CD}。",
@@ -849,6 +906,9 @@
             "Harpy's 火海試煉": "發射投射物，命中後造成 {**次要.x**} 傷害，然後持續造成 {**主要.x**} 燃燒傷害。",
             "Fury's 蟲洞填裝": "延遲 {**主要./**}秒 之後，補充 {**次要.x**}% 彈藥。",
             "Relic Scorpion's 暗影突襲": "將機器人傳送至多{**主要.x**}公尺。重新出現時，對區域內的所有敵人造成25000點護盾傷害。此外還會激活內置尾砲，持續{**次要.x**}秒，每秒造成3000點傷害。冷卻時間：{CD}。"
+        },
+        "肩部": {
+            "Cerberus Mk. II's 守門人框架": "被動。在護盾耗盡期間受到裝甲傷害會激活一道能量護欄，持續 {**主要.x**}秒 或直到承受 {**次要.x**} 傷害。冷卻時間：{CD}。"
         }
     }
 }

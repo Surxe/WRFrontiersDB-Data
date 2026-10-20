@@ -5327,6 +5327,80 @@
             }
         ]
     },
+    "DA_Pilot_Common_Led.0": {
+        "id": "DA_Pilot_Common_Led.0",
+        "first_name": {
+            "Key": "CP_Male_Led",
+            "TableNamespace": "CommonPilot_Names",
+            "en": "\"LED\" Torcher"
+        },
+        "image_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Pilots/T_CommonPilotMale_JackTorcher_Common_Led_Icon",
+        "bio": {
+            "Key": "CP_Male_Led",
+            "TableNamespace": "Pilot_Bio",
+            "en": "\"One day, this guy just showed up in the aisles of the Tortuga Community Center, blabbering nonsense about a death cult. He claimed he had belonged to one on Mars back in his \"Sol-less\" days (that's what he calls his time spent under the dome, without ever seeing a star). Jack had to be sedated with massive doses of depressants just to stay calm and stop trying to set everything around him on fire. Tortuga is a great haven for all kinds of misfits, but \"LED\" was way too much even for the pilots' community. Anyone trying to remove his weird-looking helmet faced a serious risk of being burned alive. Eventually, Dominion found a way to handle him: give him a nice robot, a few flamethrowers to play with, and occasional doses of sedatives, and he becomes surprisingly cooperative. For now, at least.\""
+        },
+        "pilot_type_ref": "OBJID_PilotType::DA_PilotType_Common.0",
+        "pilot_class_ref": "OBJID_PilotClass::DA_Class_Tank.0",
+        "personality_ref": "OBJID_PilotPersonality::DA_Personality_Handy.0",
+        "faction_ref": "OBJID_Faction::DA_Faction_Freecon.0",
+        "sell_price": {
+            "currency_ref": "OBJID_Currency::DA_Meta_Currency_Credits.0",
+            "amount": 500
+        },
+        "levels": [
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_General.0",
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_General3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_ClassTank.0",
+                "reputation_cost": 1000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 100
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Tank2.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_PersHandy.0",
+                "reputation_cost": 2000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 200
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Handy3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_FactionFreecon.0",
+                "reputation_cost": 5000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 500
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Freecon3.0"
+                ]
+            },
+            {
+                "talent_type_ref": "OBJID_PilotTalentType::DA_TalentType_Ult.0",
+                "reputation_cost": 10000,
+                "upgrade_cost": {
+                    "currency_ref": "OBJID_Currency::DA_Meta_Currency_Intel.0",
+                    "amount": 1000
+                },
+                "talents_refs": [
+                    "OBJID_PilotTalent::DA_Talent_Ult_Giancarlo.0"
+                ]
+            }
+        ]
+    },
     "DA_Pilot_Halloween_Dredge.0": {
         "id": "DA_Pilot_Halloween_Dredge.0",
         "first_name": {

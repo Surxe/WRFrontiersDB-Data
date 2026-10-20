@@ -1020,6 +1020,112 @@
             ]
         }
     },
+    "BP_Ability_HeatSeeker.2": {
+        "id": "BP_Ability_HeatSeeker.2",
+        "projectile_types": [
+            {
+                "MovementComponent": {
+                    "TurnSpeed": 50.0,
+                    "bEnableCruiseMode": false,
+                    "CruiseHeightMin": 3000.0,
+                    "CruiseHeightObstacleTestStep": 120.0,
+                    "HomingClimbSpeed": 5000.0,
+                    "HomingCruiseSpeed": 15000.0,
+                    "HomingAttackSpeed": 15000.0,
+                    "HomingClimbAcceleration": 5000.0,
+                    "HomingCruiseAcceleration": 7500.0,
+                    "HomingAttackAcceleration": 15000.0,
+                    "HomingClimbTurnRate": 120.0,
+                    "HomingCruiseTurnRate": 30.0,
+                    "HomingAttackTurnRate": 120.0,
+                    "bSimplifiedMovementCalculation": false,
+                    "InitialSpeed": 5000.0,
+                    "Velocity": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 1.0
+                    }
+                },
+                "AoeDamage": {
+                    "DistToDamage": {
+                        "EditorCurveData": {
+                            "Keys": [
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 0.2,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                },
+                                {
+                                    "InterpMode": "RCIM_Linear",
+                                    "TangentMode": "RCTM_Auto",
+                                    "TangentWeightMode": "RCTWM_WeightedNone",
+                                    "Time": 1.0,
+                                    "Value": 1.0,
+                                    "ArriveTangent": 0.0,
+                                    "ArriveTangentWeight": 0.0,
+                                    "LeaveTangent": 0.0,
+                                    "LeaveTangentWeight": 0.0
+                                }
+                            ],
+                            "KeyHandlesToIndices": {}
+                        }
+                    }
+                },
+                "CanBeTransferred": false,
+                "CorpseTime": 1.0,
+                "ExpansionDistanceSettings": 1.0,
+                "EffectiveDistanceSettings": 23000.0,
+                "MaxDistanceSettings": 24000.0,
+                "DeathDistanceSettings": 25000.0,
+                "GravityChangeFromDistance": {
+                    "EditorCurveData": {
+                        "KeyHandlesToIndices": {}
+                    }
+                },
+                "TitanChargePerHit": 2.0,
+                "InitialLifeSpan": 5.0,
+                "SpawnSocketName": "ArmorCenter_Torso"
+            }
+        ],
+        "name": {
+            "Key": "ABL_name_HeatSeeker",
+            "TableNamespace": "Ability_name",
+            "en": "Heat Seeker"
+        },
+        "description": {
+            "Key": "ABL_descr_HeatSeeker",
+            "TableNamespace": "Ability_descripton",
+            "en": "Launches a drone upward. The drone detects enemies within {ActRadius} and fires a projectile at each target. On hit, each projectile deals {Dmg} damage to all robot components."
+        },
+        "misc": {
+            "PrimaryParameter": 5000.0,
+            "SecondaryParameter": 20000.0,
+            "EffectType": "Attacking",
+            "InitialDuration": 2.0
+        },
+        "cooldown": {
+            "Cooldown": 35.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_HeatSeeker"
+    },
     "BP_Ability_Homing.3": {
         "id": "BP_Ability_Homing.3",
         "targeting": {
@@ -4796,7 +4902,6 @@
     "BP_Module_Angler_Torso.1": {
         "id": "BP_Module_Angler_Torso.1",
         "misc": {
-            "VisibilityConeHalfAngle": 90.0,
             "spawn_actor_action": {
                 "ActorClass": {
                     "BuffClass": {
@@ -4846,7 +4951,7 @@
         "description": {
             "Key": "ABL_descr_TeslaFeed",
             "TableNamespace": "Ability_descripton",
-            "en": "Marks an allied robot. For {ActDuration}, while the marked robot remains in line of sight, it restores 4% of its shield per second and deals {Dmg} damage per second to the nearest enemy within 120 m. Cooldown: {CD}."
+            "en": "Marks an allied robot. For {ActDuration}, the marked restores 4% of its shield per second and deals {Dmg} damage per second to the nearest enemy within 120 m. Cooldown: {CD}."
         },
         "cooldown": {
             "CooldownPolicy": "StartCooldownAfterEnd"
@@ -5796,6 +5901,281 @@
             "CooldownPolicy": "StartCooldownAfterEnd"
         },
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_TransfusionIcon"
+    },
+    "BP_Module_Cerberus_Chassis.1": {
+        "id": "BP_Module_Cerberus_Chassis.1",
+        "misc": {
+            "Actions": [
+                {
+                    "CanStartMidair": false,
+                    "Duration": 1.0,
+                    "MaxSpeedModifier": {
+                        "Value": 3000.0,
+                        "Type": "Add"
+                    }
+                },
+                {
+                    "StartImpulse": {
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "Z": 700.0
+                    }
+                },
+                {
+                    "Duration": 0.3,
+                    "VerticalAcceleration": 1400.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3400.0
+                },
+                {
+                    "StartDelay": 0.2,
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "RequestedDirectionAcceleration": 7000.0,
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "VelocityThreshold": 1500.0
+                },
+                {
+                    "Duration": 0.6,
+                    "RequestedDirectionAcceleration": 4000.0,
+                    "bHasVelocityThreshold": true,
+                    "VelocityThreshold": 3600.0,
+                    "MinSpeedToStartAction": 1400.0
+                },
+                {
+                    "CanStartOnGround": true,
+                    "CanStartMidair": true,
+                    "bHasDuration": true,
+                    "Duration": 1.0,
+                    "bBlocksAirControl": true
+                }
+            ],
+            "EffectType": "Mobility",
+            "InitialDuration": 1.2,
+            "bAllowStatsReporting": false,
+            "UsageFuelCost": 6.0,
+            "FuelConsumptionDuration": 1.2,
+            "MinimumDuration": 1.2
+        },
+        "name": {
+            "Key": "ABL_name_Dash",
+            "TableNamespace": "Ability_name",
+            "en": "Dash Thrusters"
+        },
+        "description": {
+            "Key": "ABL_descr_Dash",
+            "TableNamespace": "Ability_descripton",
+            "en": "Dash in a direction you're facing. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 1.5
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_DashAbilityIcon"
+    },
+    "BP_Module_Cerberus_Chassis.2": {
+        "id": "BP_Module_Cerberus_Chassis.2",
+        "misc": {
+            "JumpFuelCost": 2.0,
+            "FuelCostToStartAirborne": 2.0,
+            "JumpTime": 1.1,
+            "JetpackMaxVerticalSpeed": 3000000.0,
+            "bOverrideAirControl": true,
+            "AirControl": 0.5,
+            "JetpackStartVerticalImpulse": 0.0,
+            "JetpackJumpAccelerationForce": 280000.0,
+            "EffectType": "Mobility",
+            "bAllowStatsReporting": false,
+            "FuelUsagePerSecond": 6.0,
+            "VerticalAccelerationForceCurve": {
+                "FloatCurve": {
+                    "Keys": [
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.0,
+                            "Value": 140000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 0.1,
+                            "Value": 70000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 1200.0,
+                            "Value": 15000.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        },
+                        {
+                            "InterpMode": "RCIM_Linear",
+                            "TangentMode": "RCTM_Auto",
+                            "TangentWeightMode": "RCTWM_WeightedNone",
+                            "Time": 3000.0,
+                            "Value": 0.0,
+                            "ArriveTangent": 0.0,
+                            "ArriveTangentWeight": 0.0,
+                            "LeaveTangent": 0.0,
+                            "LeaveTangentWeight": 0.0
+                        }
+                    ]
+                }
+            },
+            "AirControlBoostMultiplier": 0.75,
+            "AirControlBoostVelocityThreshold": 1000.0,
+            "JumpMovementMode": "MOVE_Falling"
+        },
+        "name": {
+            "Key": "ABL_name_Jetpack",
+            "TableNamespace": "Ability_name",
+            "en": "Jump Jet"
+        },
+        "description": {
+            "Key": "ABL_descr_Jetpack",
+            "TableNamespace": "Ability_descripton",
+            "en": "Press to jump, hold to rise higher. Consumes fuel on use."
+        },
+        "cooldown": {
+            "Cooldown": 15.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_JetpackIcon"
+    },
+    "BP_Module_Cerberus_ShoulderL_02.1": {
+        "id": "BP_Module_Cerberus_ShoulderL_02.1",
+        "misc": {
+            "EffectType": "Defensive",
+            "InitialDuration": 6.0
+        },
+        "name": {
+            "Key": "ABL_name_GatekeeperFrame",
+            "TableNamespace": "Ability_name",
+            "en": "Gatekeeper Frame"
+        },
+        "description": {
+            "Key": "ABL_descr_GatekeeperFrame",
+            "TableNamespace": "Ability_descripton",
+            "en": "Passive. Taking armor damage while shields are down activates an energy barrier that lasts for {Duration} or until it takes {ShieldHP} damage. Cooldown: {CD}."
+        },
+        "cooldown": {
+            "Cooldown": 5.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_GatekeeperFrame"
+    },
+    "BP_Module_Cerberus_ShoulderR_02.1": {
+        "id": "BP_Module_Cerberus_ShoulderR_02.1",
+        "misc": {
+            "EffectType": "Defensive",
+            "InitialDuration": 6.0
+        },
+        "name": {
+            "Key": "ABL_name_GatekeeperFrame",
+            "TableNamespace": "Ability_name",
+            "en": "Gatekeeper Frame"
+        },
+        "description": {
+            "Key": "ABL_descr_GatekeeperFrame",
+            "TableNamespace": "Ability_descripton",
+            "en": "Passive. Taking armor damage while shields are down activates an energy barrier that lasts for {Duration} or until it takes {ShieldHP} damage. Cooldown: {CD}."
+        },
+        "cooldown": {
+            "Cooldown": 5.0,
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_GatekeeperFrame"
+    },
+    "BP_Module_Cerberus_Torso.1": {
+        "id": "BP_Module_Cerberus_Torso.1",
+        "misc": {
+            "ActorClass": {
+                "Radius": 13500.0,
+                "Height": 6000.0,
+                "BuffAreaComponent": {
+                    "buffs": [
+                        {
+                            "Target": "Enemies",
+                            "BuffLingerTime": 1.0,
+                            "Modifiers": [
+                                {
+                                    "what": "Spread",
+                                    "operator": "Add",
+                                    "value": 2.5
+                                },
+                                {
+                                    "what": "FireRate",
+                                    "operator": "Multiply",
+                                    "value": 1.5
+                                }
+                            ],
+                            "StackMode": "Reset"
+                        }
+                    ]
+                }
+            },
+            "PrimaryParameter": 10.0,
+            "SecondaryParameter": 0.5,
+            "EffectType": "Support"
+        },
+        "ai": {
+            "conditions": [
+                {
+                    "MinLastDamagedByTime": 2.0,
+                    "MaxDistance": 50000.0
+                },
+                {
+                    "Attitude": "ETeamAttitude::Friendly",
+                    "MaxDistance": 15000.0
+                }
+            ]
+        },
+        "name": {
+            "Key": "ABL_name_InhibitorField",
+            "TableNamespace": "Ability_name",
+            "en": "Inhibitor Field"
+        },
+        "description": {
+            "Key": "ABL_descr_InhibitorField",
+            "TableNamespace": "Ability_descripton",
+            "en": "Creates a pulsing area in front of the robot for {ActDuration}. Enemies inside suffer reduced weapon accuracy and {ActEfficiency} lower rate of fire. Once per second, the area adds 3 seconds to their ability cooldowns. Cooldown: {CD}."
+        },
+        "cooldown": {
+            "CooldownPolicy": "StartCooldownAfterEnd"
+        },
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Abilities/T_InhibitorField"
     },
     "BP_Module_Cyclops_Chassis.1": {
         "id": "BP_Module_Cyclops_Chassis.1",

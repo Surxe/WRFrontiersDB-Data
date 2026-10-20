@@ -137,6 +137,26 @@
         "has_distinct_shoulders": false,
         "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotBulwark"
     },
+    "cerberus": {
+        "id": "cerberus",
+        "name": {
+            "Key": "CMP_name_Cerberus_Chassis",
+            "TableNamespace": "Component_name",
+            "en": "Cerberus"
+        },
+        "character_type": "Mech",
+        "core_module_refs": [
+            "OBJID_Module::DA_Module_ChassisCerberus.2",
+            "OBJID_Module::DA_Module_TorsoCerberus.1",
+            "OBJID_Module::DA_Module_ShoulderCerberus01.0",
+            "OBJID_Module::DA_Module_ShoulderCerberus02.1"
+        ],
+        "factory_preset_refs": [
+            "OBJID_CharacterPreset::DA_Preset_DevbotCerberus.0"
+        ],
+        "has_distinct_shoulders": true,
+        "icon_path": "/WRFrontiers/Content/Sparrow/UI/Textures/Presets/T_Preset_DevbotCerberus"
+    },
     "ceres": {
         "id": "ceres",
         "name": {
