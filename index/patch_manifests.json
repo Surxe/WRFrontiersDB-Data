@@ -5,8 +5,8 @@
     "version_meaning": "The in-house data version id (yyyy-mm-dd[-N]): the UTC calendar day of the build's publish time, with a -N suffix for a second build the same day. Builds that predate the pipeline use the robot release date they were matched to.",
     "buildid_meaning": "Steam's buildid for the public branch at that build; null where it was not captured (builds that predate the update probe).",
     "patch_released_at_utc_meaning": "The build's exact publish time (Steam timeupdated), UTC.",
-    "generated": "2026-10-20",
-    "patch_count": 23
+    "generated": "2026-10-22",
+    "patch_count": 24
   },
   "patches": {
     "7760327774040463908": {
@@ -123,6 +123,11 @@
       "version": "2026-10-20",
       "buildid": "25961700",
       "patch_released_at_utc": "2026-10-20T07:08:50Z"
+    },
+    "252772456924645769": {
+      "version": "2026-10-22",
+      "buildid": "26105162",
+      "patch_released_at_utc": "2026-10-22T07:03:07Z"
     }
   }
 }
